@@ -10,9 +10,9 @@
     "use_speaker_boost": true
   },
   "voices": {
-    "narrator": "REPLACE_WITH_FRENCH_VOICE_ID",
-    "female": "REPLACE_WITH_FRENCH_FEMALE_VOICE_ID",
-    "male": "REPLACE_WITH_FRENCH_MALE_VOICE_ID"
+    "narrator": "pNInz6obpgDQGcFmaJgB",
+    "female": "XrExE9yKIg1WjnnlVkGX",
+    "male": "pqHfZKP75CvOlQylNhV4"
   },
   "default_voice": "narrator"
 }
