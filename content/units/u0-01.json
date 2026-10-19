@@ -1,0 +1,194 @@
+{
+  "id": "u0-01",
+  "stage": "0",
+  "title_fr": "L'alphabet et les accents",
+  "title_ar": "الأبجدية والعلامات",
+  "goals_ar": [
+    "تعرف أسماء الحروف الـ 26 بالفرنسية",
+    "تميّز الحروف التي يخلط بينها العرب: G و J، وE و I، وP و B، وV و F",
+    "تعرف العلامات الخمس: é è ê ë ç",
+    "تتهجّى اسمك وتسأل: « Ça s'écrit comment ? »"
+  ],
+  "intro_ar": [
+    "الفرنسية تُكتب بالحروف اللاتينية نفسها التي تعرفها من الإنجليزية، لكن **أسماء الحروف مختلفة تماماً**. لذلك أول خطوة هي أن تنسى النطق الإنجليزي للحروف.",
+    "ستحتاج أسماء الحروف كثيراً في الحياة الحقيقية: عند حجز فندق، أو في المطار، أو عند إعطاء بريدك الإلكتروني. الفرنسيون يسألون دائماً: **كيف يُكتب؟**",
+    "ابدأ بالحوار، استمع إليه مرتين دون أن تقرأ الترجمة، ثم انتقل إلى الحروف."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: في استقبال الفندق",
+      "context_ar": "يوسف يصل إلى فندق في باريس، وموظفة الاستقبال تسجّل اسمه.",
+      "speakers": {
+        "A": { "name_ar": "موظفة الاستقبال", "voice": "female" },
+        "B": { "name_ar": "يوسف", "voice": "male" }
+      },
+      "lines": [
+        { "id": "d1", "speaker": "A", "say": "Bonjour, monsieur ! Votre nom, s'il vous plaît ?", "ar": "مرحباً سيدي! اسمك، من فضلك؟", "slow": true },
+        { "id": "d2", "speaker": "B", "say": "Bonjour ! Je m'appelle Youssef Haddad.", "ar": "مرحباً! اسمي يوسف حداد.", "slow": true },
+        { "id": "d3", "speaker": "A", "say": "Youssef… Ça s'écrit comment ?", "ar": "يوسف... كيف يُكتب؟", "slow": true },
+        { "id": "d4", "speaker": "B", "say": "I grec, O, U, deux S, E, F.", "ar": "Y - O - U - SS - E - F (حرفا S متتاليان: deux S)", "slow": true },
+        { "id": "d5", "speaker": "A", "say": "Merci. Et Haddad, avec un H ?", "ar": "شكراً. وحداد، بحرف H؟", "slow": true },
+        { "id": "d6", "speaker": "B", "say": "Oui : H, A, deux D, A, D.", "ar": "نعم: H - A - DD - A - D", "slow": true },
+        { "id": "d7", "speaker": "A", "say": "Parfait. Merci, monsieur Haddad. Bienvenue !", "ar": "ممتاز. شكراً سيد حداد. أهلاً بك!", "slow": true }
+      ],
+      "tip_ar": "لاحظ أن الموظفة تنطق Haddad «أداد»: حرف **H لا يُنطق أبداً** في الفرنسية. لهذا يسأل الفرنسيون غالباً إن كان الاسم يبدأ بـ H."
+    },
+    {
+      "type": "letters",
+      "key": "letters",
+      "title_ar": "الحروف الـ 26",
+      "hint_ar": "اضغط على أي حرف لتسمع اسمه، ثم اضغط على الكلمة لتسمعها. الحروف المعلّمة بنقطة حمراء هي التي يخطئ فيها المتعلم العربي غالباً.",
+      "items": [
+        { "id": "l-a", "letter": "A", "say": "a", "ipa": "a", "ar_hint": "آ", "example": { "id": "w-ami", "say": "ami", "ar": "صديق" } },
+        { "id": "l-b", "letter": "B", "say": "bé", "ipa": "be", "ar_hint": "بيه", "example": { "id": "w-bateau", "say": "bateau", "ar": "قارب" } },
+        { "id": "l-c", "letter": "C", "say": "cé", "ipa": "se", "ar_hint": "سيه", "example": { "id": "w-cafe", "say": "café", "ar": "قهوة / مقهى" }, "note_ar": "يُنطق «ك» قبل a و o و u، و«س» قبل e و i." },
+        { "id": "l-d", "letter": "D", "say": "dé", "ipa": "de", "ar_hint": "ديه", "example": { "id": "w-desert", "say": "désert", "ar": "صحراء" } },
+        { "id": "l-e", "letter": "E", "say": "e", "ipa": "ə", "ar_hint": "أُ (خفيفة)", "example": { "id": "w-petit", "say": "petit", "ar": "صغير" }, "tricky": true, "note_ar": "ليس «إي» كما في الإنجليزية. الشفتان مستديرتان قليلاً والصوت خفيف." },
+        { "id": "l-f", "letter": "F", "say": "effe", "ipa": "ɛf", "ar_hint": "إف", "example": { "id": "w-famille", "say": "famille", "ar": "عائلة" } },
+        { "id": "l-g", "letter": "G", "say": "gé", "ipa": "ʒe", "ar_hint": "ژيه", "example": { "id": "w-gare", "say": "gare", "ar": "محطة قطار" }, "tricky": true, "note_ar": "اسمه «ژيه» بالجيم الشامية، لا «جي» كالإنجليزية. انتبه: G الفرنسية تشبه J الإنجليزية والعكس." },
+        { "id": "l-h", "letter": "H", "say": "hache", "ipa": "aʃ", "ar_hint": "آش", "example": { "id": "w-hotel", "say": "hôtel", "ar": "فندق" }, "tricky": true, "note_ar": "لا يُنطق أبداً داخل الكلمات: hôtel تُنطق «أوتيل»." },
+        { "id": "l-i", "letter": "I", "say": "i", "ipa": "i", "ar_hint": "إي", "example": { "id": "w-ile", "say": "île", "ar": "جزيرة" }, "tricky": true, "note_ar": "اسمه «إي» دائماً، وليس «آي» كالإنجليزية." },
+        { "id": "l-j", "letter": "J", "say": "ji", "ipa": "ʒi", "ar_hint": "ژي", "example": { "id": "w-jour", "say": "jour", "ar": "يوم" }, "tricky": true, "note_ar": "اسمه «ژي». قارنه بـ G «ژيه»: الفرق في الصوت الأخير فقط." },
+        { "id": "l-k", "letter": "K", "say": "ka", "ipa": "ka", "ar_hint": "كا", "example": { "id": "w-kilo", "say": "kilo", "ar": "كيلو" } },
+        { "id": "l-l", "letter": "L", "say": "elle", "ipa": "ɛl", "ar_hint": "إل", "example": { "id": "w-lune", "say": "lune", "ar": "قمر" } },
+        { "id": "l-m", "letter": "M", "say": "emme", "ipa": "ɛm", "ar_hint": "إم", "example": { "id": "w-maison", "say": "maison", "ar": "بيت" } },
+        { "id": "l-n", "letter": "N", "say": "ènne", "ipa": "ɛn", "ar_hint": "إن", "example": { "id": "w-nuit", "say": "nuit", "ar": "ليل" } },
+        { "id": "l-o", "letter": "O", "say": "oh", "ipa": "o", "ar_hint": "أو", "example": { "id": "w-orange", "say": "orange", "ar": "برتقال" } },
+        { "id": "l-p", "letter": "P", "say": "pé", "ipa": "pe", "ar_hint": "پيه", "example": { "id": "w-pain", "say": "pain", "ar": "خبز" }, "tricky": true, "note_ar": "صوت غير موجود في العربية. مثل الباء لكن **بدون اهتزاز الحنجرة**، مع دفعة هواء خفيفة. pain (خبز) ليست bain (حمّام)!" },
+        { "id": "l-q", "letter": "Q", "say": "cu", "ipa": "ky", "ar_hint": "كو (بشفتين مستديرتين)", "example": { "id": "w-question", "say": "question", "ar": "سؤال" }, "note_ar": "يأتي دائماً تقريباً مع u: qu = «ك»." },
+        { "id": "l-r", "letter": "R", "say": "erre", "ipa": "ɛʁ", "ar_hint": "إغ", "example": { "id": "w-rue", "say": "rue", "ar": "شارع" }, "tricky": true, "note_ar": "خبر جيد: الـ R الفرنسية قريبة جداً من **الغين** العربية، لكنها أخف. لا تلفظها راءً عربية." },
+        { "id": "l-s", "letter": "S", "say": "esse", "ipa": "ɛs", "ar_hint": "إس", "example": { "id": "w-soleil", "say": "soleil", "ar": "شمس" } },
+        { "id": "l-t", "letter": "T", "say": "té", "ipa": "te", "ar_hint": "تيه", "example": { "id": "w-table", "say": "table", "ar": "طاولة" } },
+        { "id": "l-u", "letter": "U", "say": "u", "ipa": "y", "ar_hint": "إي بشفتين مستديرتين", "example": { "id": "w-sucre", "say": "sucre", "ar": "سكّر" }, "tricky": true, "note_ar": "أصعب صوت للعربي: قل «إي» ثم استدر شفتيك كأنك ستصفّر، دون أن تحرّك لسانك. (و sucre أصلها كلمة «سكّر» العربية!)" },
+        { "id": "l-v", "letter": "V", "say": "vé", "ipa": "ve", "ar_hint": "ڤيه", "example": { "id": "w-voiture", "say": "voiture", "ar": "سيارة" }, "tricky": true, "note_ar": "مثل الفاء لكن **مع اهتزاز الحنجرة**. ضع يدك على حلقك: يجب أن تشعر بالاهتزاز." },
+        { "id": "l-w", "letter": "W", "say": "double vé", "ipa": "dubləve", "ar_hint": "دوبل ڤيه", "example": { "id": "w-wagon", "say": "wagon", "ar": "عربة قطار" }, "note_ar": "اسمه حرفياً «V مزدوجة». نادر في الكلمات الفرنسية الأصلية." },
+        { "id": "l-x", "letter": "X", "say": "ixe", "ipa": "iks", "ar_hint": "إكس", "example": { "id": "w-taxi", "say": "taxi", "ar": "سيارة أجرة" } },
+        { "id": "l-y", "letter": "Y", "say": "i grec", "ipa": "iɡʁɛk", "ar_hint": "إي غريك", "example": { "id": "w-yaourt", "say": "yaourt", "ar": "لبن زبادي" }, "note_ar": "معناه «الـ i اليونانية»." },
+        { "id": "l-z", "letter": "Z", "say": "zède", "ipa": "zɛd", "ar_hint": "زِد", "example": { "id": "w-zero", "say": "zéro", "ar": "صفر" }, "note_ar": "zéro من «صِفر» العربية عبر الإيطالية." }
+      ]
+    },
+    {
+      "type": "accents",
+      "key": "accents",
+      "title_ar": "العلامات (Les accents)",
+      "hint_ar": "العلامات جزء من الإملاء، ونسيانها خطأ. بعضها يغيّر النطق وبعضها يغيّر المعنى فقط.",
+      "items": [
+        {
+          "id": "acc-aigu", "mark": "é", "name_fr": "l'accent aigu", "say": "accent aigu", "name_ar": "العلامة الحادّة",
+          "effect_ar": "تأتي على e فقط، وتجعلها «إيه» مغلقة وواضحة [e].",
+          "examples": [
+            { "id": "w-ete", "say": "été", "ar": "صيف" },
+            { "id": "w-ecole", "say": "école", "ar": "مدرسة" }
+          ]
+        },
+        {
+          "id": "acc-grave", "mark": "è à ù", "name_fr": "l'accent grave", "say": "accent grave", "name_ar": "العلامة الثقيلة",
+          "effect_ar": "على e تجعلها «إِ» مفتوحة [ɛ]. على a و u لا تغيّر النطق، بل تفرّق بين كلمتين: a (يملك) و à (إلى)، ou (أو) و où (أين).",
+          "examples": [
+            { "id": "w-pere", "say": "père", "ar": "أب" },
+            { "id": "w-ou", "say": "où", "ar": "أين" }
+          ]
+        },
+        {
+          "id": "acc-circ", "mark": "ê â î ô û", "name_fr": "l'accent circonflexe", "say": "accent circonflexe", "name_ar": "علامة القبّعة",
+          "effect_ar": "غالباً تعني أن حرف s كان موجوداً قديماً ثم سقط. قارن: forêt / forest، hôpital / hospital، fête / feast.",
+          "examples": [
+            { "id": "w-fete", "say": "fête", "ar": "حفلة" },
+            { "id": "w-foret", "say": "forêt", "ar": "غابة" }
+          ]
+        },
+        {
+          "id": "acc-trema", "mark": "ë ï", "name_fr": "le tréma", "say": "tréma", "name_ar": "النقطتان",
+          "effect_ar": "تعني: انطق الحرفين المتجاورين كلاً على حدة. maïs = «ما-إيس» وليس «مِس».",
+          "examples": [
+            { "id": "w-noel", "say": "Noël", "ar": "عيد الميلاد" },
+            { "id": "w-mais", "say": "maïs", "ar": "ذُرة" }
+          ]
+        },
+        {
+          "id": "acc-cedille", "mark": "ç", "name_fr": "la cédille", "say": "cé cédille", "name_ar": "الذُّنَيب",
+          "effect_ar": "تحت c فقط، وتجعلها «س» قبل a و o و u (حيث كانت ستُنطق «ك»).",
+          "examples": [
+            { "id": "w-francais", "say": "français", "ar": "فرنسي" },
+            { "id": "w-garcon", "say": "garçon", "ar": "ولد" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: أي حرف تسمع؟",
+      "hint_ar": "استمع (يمكنك الإعادة)، ثم اختر الحرف. هذه أكثر الحروف التي يخلط بينها العرب.",
+      "items": [
+        { "id": "q-g", "say": "gé", "options": ["G", "J"], "answer": "G", "explain_ar": "G = «ژيه»، تنتهي بـ «يه»." },
+        { "id": "q-j", "say": "ji", "options": ["G", "J"], "answer": "J", "explain_ar": "J = «ژي»، تنتهي بـ «ي»." },
+        { "id": "q-e", "say": "e", "options": ["E", "I", "U"], "answer": "E", "explain_ar": "E صوت خفيف «أُ»." },
+        { "id": "q-i", "say": "i", "options": ["E", "I", "U"], "answer": "I", "explain_ar": "I = «إي» بشفتين مشدودتين جانبياً." },
+        { "id": "q-u", "say": "u", "options": ["I", "U", "O"], "answer": "U", "explain_ar": "U = «إي» بشفتين مستديرتين." },
+        { "id": "q-p", "say": "pé", "options": ["B", "P"], "answer": "P", "explain_ar": "P بدون اهتزاز الحنجرة." },
+        { "id": "q-b", "say": "bé", "options": ["B", "P"], "answer": "B", "explain_ar": "B مع اهتزاز الحنجرة، مثل الباء العربية." },
+        { "id": "q-v", "say": "vé", "options": ["F", "V", "W"], "answer": "V", "explain_ar": "V = «ڤيه»." },
+        { "id": "q-y", "say": "i grec", "options": ["I", "Y", "J"], "answer": "Y", "explain_ar": "Y = «إي غريك»." },
+        { "id": "q-h", "say": "hache", "options": ["H", "A", "X"], "answer": "H", "explain_ar": "H = «آش»." }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "spelling",
+      "title_ar": "إملاء: اكتب الكلمة التي تُتهجّى",
+      "hint_ar": "استمع إلى التهجئة حرفاً حرفاً، واكتب الكلمة مع علاماتها. استخدم أزرار العلامات تحت الحقل.",
+      "items": [
+        { "id": "s-taxi", "say": "T, A, X, I.", "answer": "taxi", "ar": "سيارة أجرة" },
+        { "id": "s-paris", "say": "P, A, R, I, S.", "answer": "Paris", "ar": "باريس" },
+        { "id": "s-cafe", "say": "C, A, F, E accent aigu.", "answer": "café", "ar": "قهوة" },
+        { "id": "s-zero", "say": "Z, E accent aigu, R, O.", "answer": "zéro", "ar": "صفر" },
+        { "id": "s-mere", "say": "M, E accent grave, R, E.", "answer": "mère", "ar": "أم" },
+        { "id": "s-hotel", "say": "H, O accent circonflexe, T, E, L.", "answer": "hôtel", "ar": "فندق" },
+        { "id": "s-noel", "say": "N, O, E tréma, L.", "answer": "Noël", "ar": "عيد الميلاد" },
+        { "id": "s-francais", "say": "F, R, A, N, C cédille, A, I, S.", "answer": "français", "ar": "فرنسي" }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "استمع للجملة، ثم سجّل صوتك وأنت تكررها، ثم قارن. ابدأ بالنسخة البطيئة. لا تهتم بالكمال: المهم أن تسمع الفرق بنفسك.",
+      "items": [
+        { "id": "sh-1", "say": "Ça s'écrit comment ?", "ar": "كيف يُكتب؟", "slow": true, "voice": "female" },
+        { "id": "sh-2", "say": "Pouvez-vous épeler, s'il vous plaît ?", "ar": "هل يمكنك التهجئة من فضلك؟", "slow": true, "voice": "female" },
+        { "id": "sh-3", "say": "Je m'appelle Youssef. Ça s'écrit I grec, O, U, deux S, E, F.", "ar": "اسمي يوسف. يُكتب Y-O-U-SS-E-F.", "slow": true, "voice": "male" },
+        { "id": "sh-4", "say": "Bonjour, monsieur ! Bienvenue !", "ar": "مرحباً سيدي! أهلاً بك!", "slow": true, "voice": "female" }
+      ],
+      "task_ar": "تحدٍّ أخير: سجّل نفسك وأنت تتهجّى اسمك الكامل بالفرنسية."
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "هذه البطاقات تدخل نظام المراجعة المتباعدة. ستظهر لك في صفحة «المراجعة» في الوقت المناسب قبل أن تنساها.",
+      "cards": [
+        { "id": "c-g", "front": "G", "say": "gé", "back_ar": "«ژيه» [ʒe] (عكس الإنجليزية)" },
+        { "id": "c-j", "front": "J", "say": "ji", "back_ar": "«ژي» [ʒi]" },
+        { "id": "c-e", "front": "E", "say": "e", "back_ar": "«أُ» خفيفة [ə]" },
+        { "id": "c-i", "front": "I", "say": "i", "back_ar": "«إي» [i]" },
+        { "id": "c-u", "front": "U", "say": "u", "back_ar": "«إي» بشفتين مستديرتين [y]" },
+        { "id": "c-h", "front": "H", "say": "hache", "back_ar": "«آش»، ولا يُنطق داخل الكلمات" },
+        { "id": "c-r", "front": "R", "say": "erre", "back_ar": "«إغ»: قريبة من الغين" },
+        { "id": "c-y", "front": "Y", "say": "i grec", "back_ar": "«إي غريك»" },
+        { "id": "c-w", "front": "W", "say": "double vé", "back_ar": "«دوبل ڤيه»" },
+        { "id": "c-aigu", "front": "é", "say": "e accent aigu", "back_ar": "e accent aigu: «إيه» مغلقة" },
+        { "id": "c-grave", "front": "è", "say": "e accent grave", "back_ar": "e accent grave: «إِ» مفتوحة" },
+        { "id": "c-cedille", "front": "ç", "say": "cé cédille", "back_ar": "c cédille: تُنطق «س»" },
+        { "id": "c-bonjour", "front": "Bonjour !", "say": "Bonjour !", "back_ar": "مرحباً / صباح الخير" },
+        { "id": "c-merci", "front": "Merci", "say": "Merci.", "back_ar": "شكراً" },
+        { "id": "c-svp", "front": "S'il vous plaît", "say": "S'il vous plaît.", "back_ar": "من فضلك" },
+        { "id": "c-appelle", "front": "Je m'appelle…", "say": "Je m'appelle Youssef.", "back_ar": "اسمي..." },
+        { "id": "c-ecrit", "front": "Ça s'écrit comment ?", "say": "Ça s'écrit comment ?", "back_ar": "كيف يُكتب؟" },
+        { "id": "c-bienvenue", "front": "Bienvenue !", "say": "Bienvenue !", "back_ar": "أهلاً بك / مرحباً بك" }
+      ]
+    }
+  ]
+}

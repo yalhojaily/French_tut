@@ -1,0 +1,18 @@
+{
+  "_comment": "ضع هنا معرّفات الأصوات (voice_id) من حسابك في ElevenLabs. شغّل: python tools/generate_audio.py voices لعرض الأصوات المتاحة في حسابك. اختر أصواتاً فرنسية أصلية من مكتبة الأصوات وأضفها إلى حسابك أولاً.",
+  "model_id": "eleven_multilingual_v2",
+  "output_format": "mp3_44100_128",
+  "slow_speed": 0.75,
+  "voice_settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.8,
+    "style": 0.0,
+    "use_speaker_boost": true
+  },
+  "voices": {
+    "narrator": "REPLACE_WITH_FRENCH_VOICE_ID",
+    "female": "REPLACE_WITH_FRENCH_FEMALE_VOICE_ID",
+    "male": "REPLACE_WITH_FRENCH_MALE_VOICE_ID"
+  },
+  "default_voice": "narrator"
+}
