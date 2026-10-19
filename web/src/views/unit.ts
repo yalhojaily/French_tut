@@ -66,7 +66,7 @@ export function renderUnit(unitId: string, step: number): HTMLElement {
           "aria-current": i === current ? "step" : undefined,
         },
         h("span", { class: "step-num" }, String(i + 1)),
-        h("span", { class: "step-label" }, SHORT_TITLES[s.type])),
+        h("span", { class: "step-label" }, s.short_ar ?? SHORT_TITLES[s.type])),
       ),
     ),
   );
@@ -84,7 +84,7 @@ export function renderUnit(unitId: string, step: number): HTMLElement {
   const prevLink = current > 0 ? h("a", { class: "btn ghost", href: `#/unit/${unit.id}/${current - 1}` }, "السابق") : h("span");
   const nextLink =
     current < sections.length - 1
-      ? h("a", { class: "btn primary", href: `#/unit/${unit.id}/${current + 1}` }, `التالي: ${SHORT_TITLES[sections[current + 1].type]}`)
+      ? h("a", { class: "btn primary", href: `#/unit/${unit.id}/${current + 1}` }, `التالي: ${sections[current + 1].short_ar ?? SHORT_TITLES[sections[current + 1].type]}`)
       : h("a", { class: "btn primary", href: nextUnit ? `#/unit/${nextUnit.unit.id}` : "#/" }, nextUnit ? "أنهيت الوحدة، إلى التالية" : "أنهيت الوحدة");
   nextLink.addEventListener("click", () => {
     stop();

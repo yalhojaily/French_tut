@@ -1,0 +1,199 @@
+{
+  "id": "u0-02",
+  "stage": "0",
+  "title_fr": "Les voyelles orales",
+  "title_ar": "حروف العلة الفموية",
+  "goals_ar": [
+    "تنطق حروف العلة الفرنسية التسعة الأساسية",
+    "تفرّق بين **u** و **ou**: tu (أنت) ليست tout (كل)",
+    "تفرّق بين **é** المغلقة و **è** المفتوحة",
+    "تسمع الفرق بين **le** و **les**: صوت واحد يحدد المفرد والجمع",
+    "تنطق **eu** بشفتين مستديرتين: deux, bleu"
+  ],
+  "intro_ar": [
+    "في العربية ثلاثة حروف علة فقط: الفتحة والكسرة والضمة، طويلة أو قصيرة. في الفرنسية **أكثر من اثني عشر** صوت علة. لهذا يبدو الفرنسي للعربي سريعاً وغامضاً: الأذن العربية تدمج أصواتاً مختلفة في صوت واحد.",
+    "الخبر الجيد: معظمها قريب من أصوات تعرفها. الصعوبة الحقيقية في ثلاثة أصوات فقط: **u** و **eu** و **e**. كلها تُنطق **بشفتين مستديرتين** أو مسترخيتين، وهذا ما ستتدرب عليه هنا.",
+    "قاعدة ذهبية: حروف العلة الفرنسية **صافية وقصيرة**. لا تمدّها ولا تحوّلها إلى صوتين كما في الإنجليزية (café ليست «كافيي»)."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: في المقهى",
+      "context_ar": "زبونة تطلب قهوة وعصيراً من النادل. ركّز على الأصوات: du و jus (صوت u)، و vous و tout (صوت ou).",
+      "speakers": {
+        "A": { "name_ar": "النادل", "voice": "male" },
+        "B": { "name_ar": "الزبونة", "voice": "female" }
+      },
+      "lines": [
+        { "id": "d1", "speaker": "A", "say": "Bonjour, madame ! Vous désirez ?", "ar": "صباح الخير سيدتي! ماذا تريدين؟", "slow": true },
+        { "id": "d2", "speaker": "B", "say": "Un café, s'il vous plaît. Et vous avez du jus ?", "ar": "قهوة من فضلك. وهل عندكم عصير؟", "slow": true },
+        { "id": "d3", "speaker": "A", "say": "Oui, du jus d'orange. C'est tout ?", "ar": "نعم، عصير برتقال. هل هذا كل شيء؟", "slow": true },
+        { "id": "d4", "speaker": "B", "say": "Oui, c'est tout. Merci.", "ar": "نعم، هذا كل شيء. شكراً.", "slow": true },
+        { "id": "d5", "speaker": "A", "say": "Alors, un café et un jus. Deux euros cinquante.", "ar": "إذن، قهوة وعصير. يورويان وخمسون سنتاً.", "slow": true },
+        { "id": "d6", "speaker": "B", "say": "Voilà. Merci beaucoup !", "ar": "تفضّل. شكراً جزيلاً!", "slow": true },
+        { "id": "d7", "speaker": "A", "say": "Merci à vous. Bonne journée !", "ar": "الشكر لكِ. يوماً سعيداً!", "slow": true }
+      ],
+      "tip_ar": "أشهر خطأ للعربي في هذا الحوار: نطق **du** «دو» فتصبح **doux** (ناعم). استمع جيداً: في du الشفتان مستديرتان لكن اللسان في الأمام كأنك تقول «إي»."
+    },
+    {
+      "type": "letters",
+      "key": "sounds",
+      "short_ar": "الأصوات",
+      "title_ar": "أصوات العلة التسعة",
+      "hint_ar": "اضغط على كل صوت لتسمعه في كلمة قصيرة، ثم استمع للمثال. الأصوات المعلّمة بنقطة حمراء هي التي تحتاج تدريباً أكثر.",
+      "play_all_ar": "استمع لكل الأصوات",
+      "items": [
+        { "id": "v-a", "letter": "a", "say": "ma", "ipa": "a", "ar_hint": "آ قصيرة", "example": { "id": "w-chat", "say": "chat", "ar": "قطّ" }, "note_ar": "مثل الفتحة المفتوحة. **قصيرة دائماً**، لا تمدّها: chat «شا» وليست «شاا». الـ t في آخر الكلمة لا تُنطق." },
+        { "id": "v-i", "letter": "i", "say": "si", "ipa": "i", "ar_hint": "إي", "example": { "id": "w-lit", "say": "lit", "ar": "سرير" }, "note_ar": "مثل الكسرة الطويلة، والشفتان مشدودتان كأنك تبتسم. حرف **y** يُنطق مثله: stylo." },
+        { "id": "v-o", "letter": "o", "say": "eau", "ipa": "o", "ar_hint": "أو", "example": { "id": "w-beau", "say": "beau", "ar": "جميل" }, "note_ar": "ثلاث كتابات لصوت واحد: **o** و **au** و **eau**. (كلمة eau «ماء» تُنطق «أو» فقط!)" },
+        { "id": "v-u", "letter": "u", "say": "tu", "ipa": "y", "ar_hint": "إي + شفاه مستديرة", "example": { "id": "w-jus", "say": "jus", "ar": "عصير" }, "tricky": true, "note_ar": "الطريقة: قل «إييي» طويلة، ثم **استدر شفتيك كأنك تصفّر دون أن تحرّك لسانك**. هذا هو الصوت. ليس «و» وليس «يو»." },
+        { "id": "v-ou", "letter": "ou", "say": "tout", "ipa": "u", "ar_hint": "أو (ضمة طويلة)", "example": { "id": "w-vous", "say": "vous", "ar": "أنتم / حضرتك" }, "note_ar": "سهل على العربي: مثل الواو الممدودة في «نور». والكتابة **où** (أين) تُنطق مثلها تماماً." },
+        { "id": "v-e-aigu", "letter": "é", "say": "thé", "ipa": "e", "ar_hint": "إيه مغلقة", "example": { "id": "w-parler", "say": "parler", "ar": "يتكلم" }, "tricky": true, "note_ar": "الفم شبه مغلق والشفتان ممدودتان. ونفس الصوت في نهايات **-er** و **-ez**: parler، chez، nez." },
+        { "id": "v-e-grave", "letter": "è", "say": "mère", "ipa": "ɛ", "ar_hint": "إِ مفتوحة", "example": { "id": "w-lait", "say": "lait", "ar": "حليب" }, "tricky": true, "note_ar": "افتح فمك أكثر من é. كتابات أخرى لنفس الصوت: **ê** (fête) و **ai** (lait) و **ei** (neige)." },
+        { "id": "v-e", "letter": "e", "say": "le", "ipa": "ə", "ar_hint": "أُ خفيفة جداً", "example": { "id": "w-venir", "say": "venir", "ar": "يأتي" }, "tricky": true, "note_ar": "صوت مسترخٍ وقصير جداً، وكثيراً ما **يسقط في الكلام**: samedi تُنطق «سامْدي». حرف e في آخر الكلمة صامت: table." },
+        { "id": "v-eu", "letter": "eu", "say": "deux", "ipa": "ø", "ar_hint": "إيه + شفاه مستديرة", "example": { "id": "w-bleu", "say": "bleu", "ar": "أزرق" }, "tricky": true, "note_ar": "قل **é** ثم استدر شفتيك. وإذا جاء بعده حرف ساكن منطوق ينفتح قليلاً: fleur (زهرة)، sœur (أخت)." }
+      ]
+    },
+    {
+      "type": "accents",
+      "key": "pairs",
+      "short_ar": "الأزواج",
+      "title_ar": "الأزواج المتقاربة: كلمة واحدة تغيّر المعنى",
+      "hint_ar": "كل زوج يختلف في صوت علة واحد فقط، والمعنى يتغيّر كلياً. استمع للكلمتين متتاليتين، ثم كل كلمة وحدها.",
+      "items": [
+        {
+          "id": "p-u-ou", "mark": "u / ou", "name_fr": "tu / tout", "say": "tu… tout.", "name_ar": "أهم زوج على الإطلاق",
+          "effect_ar": "في الاثنين الشفتان مستديرتان. الفرق في **اللسان**: مع u يبقى في الأمام (كأنك تقول «إي»)، ومع ou يرجع للخلف.",
+          "examples": [
+            { "id": "w-tu", "say": "tu", "ar": "أنتَ" },
+            { "id": "w-tout", "say": "tout", "ar": "كل" },
+            { "id": "w-rue", "say": "rue", "ar": "شارع" },
+            { "id": "w-roue", "say": "roue", "ar": "عجلة" },
+            { "id": "w-dessus", "say": "dessus", "ar": "فوق" },
+            { "id": "w-dessous", "say": "dessous", "ar": "تحت" }
+          ]
+        },
+        {
+          "id": "p-u-i", "mark": "u / i", "name_fr": "lu / lit", "say": "lu… lit.", "name_ar": "استدارة الشفتين",
+          "effect_ar": "اللسان في نفس المكان تماماً. الفرق الوحيد: **الشفتان**. مستديرتان مع u، وممدودتان مع i.",
+          "examples": [
+            { "id": "w-lu", "say": "lu", "ar": "قرأ (اسم مفعول)" },
+            { "id": "w-lit2", "say": "lit", "ar": "سرير" },
+            { "id": "w-pur", "say": "pur", "ar": "نقي" },
+            { "id": "w-pire", "say": "pire", "ar": "أسوأ" }
+          ]
+        },
+        {
+          "id": "p-e-e", "mark": "e / é", "name_fr": "le / les", "say": "le… les.", "name_ar": "المفرد والجمع",
+          "effect_ar": "في الكلام لا يُسمع حرف s في les، فالفرق بين المفرد والجمع هو **صوت العلة فقط**: le «لُ» مسترخية، و les «ليه» مغلقة.",
+          "examples": [
+            { "id": "w-le", "say": "le", "ar": "الـ (مفرد مذكر)" },
+            { "id": "w-les", "say": "les", "ar": "الـ (جمع)" },
+            { "id": "w-de", "say": "de", "ar": "من" },
+            { "id": "w-des", "say": "des", "ar": "بعض / أدوات الجمع" }
+          ]
+        },
+        {
+          "id": "p-eu-ou", "mark": "eu / ou", "name_fr": "deux / doux", "say": "deux… doux.", "name_ar": "eu ليست ou",
+          "effect_ar": "العربي يميل إلى نطق eu «أو»، فتختلط الكلمات. مع eu الفم أقل استدارة واللسان في الأمام.",
+          "examples": [
+            { "id": "w-deux", "say": "deux", "ar": "اثنان" },
+            { "id": "w-doux", "say": "doux", "ar": "ناعم / لطيف" },
+            { "id": "w-feu", "say": "feu", "ar": "نار" },
+            { "id": "w-fou", "say": "fou", "ar": "مجنون" }
+          ]
+        },
+        {
+          "id": "p-e-ai", "mark": "é / è", "name_fr": "les / lait", "say": "les… lait.", "name_ar": "مغلقة أم مفتوحة",
+          "effect_ar": "الفرق صغير، وبعض الفرنسيين أنفسهم لا يفرّقون بينهما دائماً. يكفي الآن أن تسمعه: é أضيق، وè أوسع.",
+          "examples": [
+            { "id": "w-les2", "say": "les", "ar": "الـ (جمع)" },
+            { "id": "w-lait2", "say": "lait", "ar": "حليب" },
+            { "id": "w-ete", "say": "été", "ar": "صيف" },
+            { "id": "w-etait", "say": "était", "ar": "كان" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: أي كلمة تسمع؟",
+      "hint_ar": "كلمتان تختلفان في صوت واحد. استمع (يمكنك الإعادة) واختر ما سمعته فعلاً، لا ما تتوقعه.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر الكلمة",
+      "start_ar": "كل سؤال: تسمع كلمة وتختار بين كلمتين متقاربتين.",
+      "items": [
+        { "id": "q-tout", "say": "tout", "options": ["tu", "tout"], "answer": "tout", "explain_ar": "tout: اللسان في الخلف، صوت «و» صافٍ." },
+        { "id": "q-tu", "say": "tu", "options": ["tu", "tout"], "answer": "tu", "explain_ar": "tu: شفاه مستديرة ولسان في الأمام." },
+        { "id": "q-rue", "say": "rue", "options": ["rue", "roue"], "answer": "rue", "explain_ar": "rue (شارع): صوت u." },
+        { "id": "q-dessous", "say": "dessous", "options": ["dessus", "dessous"], "answer": "dessous", "explain_ar": "dessous (تحت): صوت ou." },
+        { "id": "q-lu", "say": "lu", "options": ["lu", "lit"], "answer": "lu", "explain_ar": "lu: الشفتان مستديرتان." },
+        { "id": "q-les", "say": "les", "options": ["le", "les"], "answer": "les", "explain_ar": "les «ليه»: هذا جمع." },
+        { "id": "q-le", "say": "le", "options": ["le", "les"], "answer": "le", "explain_ar": "le «لُ»: صوت مسترخٍ، هذا مفرد." },
+        { "id": "q-deux", "say": "deux", "options": ["deux", "doux"], "answer": "deux", "explain_ar": "deux (اثنان): صوت eu." },
+        { "id": "q-fou", "say": "fou", "options": ["feu", "fou"], "answer": "fou", "explain_ar": "fou (مجنون): صوت ou." },
+        { "id": "q-pur", "say": "pur", "options": ["pur", "pire"], "answer": "pur", "explain_ar": "pur (نقي): صوت u." }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب الكلمة التي تسمعها",
+      "hint_ar": "هذه المرة تسمع الكلمة كاملة، لا حروفها. المعنى ظاهر ليساعدك. فكّر: أي كتابة تناسب الصوت الذي سمعته؟",
+      "prompt_ar": "استمع واكتب الكلمة",
+      "start_ar": "ابدأ الإملاء",
+      "show_meaning": true,
+      "result_ar": "تذكّر: صوت **o** له ثلاث كتابات (o، au، eau)، وصوت **è** له ثلاث (è، ê، ai). القراءة الكثيرة هي ما يثبّت الكتابة الصحيحة.",
+      "items": [
+        { "id": "s-lune", "say": "lune", "answer": "lune", "ar": "قمر" },
+        { "id": "s-jour", "say": "jour", "answer": "jour", "ar": "يوم" },
+        { "id": "s-velo", "say": "vélo", "answer": "vélo", "ar": "درّاجة" },
+        { "id": "s-bleu", "say": "bleu", "answer": "bleu", "ar": "أزرق" },
+        { "id": "s-salut", "say": "salut", "answer": "salut", "ar": "أهلاً (بين الأصدقاء)" },
+        { "id": "s-fete", "say": "fête", "answer": "fête", "ar": "حفلة" },
+        { "id": "s-bateau", "say": "bateau", "answer": "bateau", "ar": "قارب" },
+        { "id": "s-ecole", "say": "école", "answer": "école", "ar": "مدرسة" }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل قصيرة مليئة بالأصوات التي تعلمتها. ابدأ بالنسخة البطيئة، وراقب شفتيك في المرآة مع u و eu.",
+      "items": [
+        { "id": "sh-1", "say": "Tu as vu la rue ?", "ar": "هل رأيتَ الشارع؟", "slow": true, "voice": "female" },
+        { "id": "sh-2", "say": "Vous êtes où ?", "ar": "أين أنتم؟", "slow": true, "voice": "male" },
+        { "id": "sh-3", "say": "Deux cafés, s'il vous plaît.", "ar": "قهوتان، من فضلك.", "slow": true, "voice": "female" },
+        { "id": "sh-4", "say": "Le jus est sur la table.", "ar": "العصير على الطاولة.", "slow": true, "voice": "male" },
+        { "id": "sh-5", "say": "C'est tout, merci beaucoup !", "ar": "هذا كل شيء، شكراً جزيلاً!", "slow": true, "voice": "female" }
+      ],
+      "task_ar": "تحدٍّ: سجّل نفسك تقول **tu, tout, tu, tout** بسرعة متزايدة، ثم استمع: هل ما زال الفرق واضحاً؟"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "استمع للكلمة أولاً قبل أن تكشف المعنى: الهدف أن تربط الصوت بالمعنى مباشرة.",
+      "cards": [
+        { "id": "c-tu", "front": "tu", "say": "tu", "back_ar": "أنتَ (صوت u)" },
+        { "id": "c-tout", "front": "tout", "say": "tout", "back_ar": "كل (صوت ou)" },
+        { "id": "c-rue", "front": "la rue", "say": "la rue", "back_ar": "الشارع" },
+        { "id": "c-dessus", "front": "dessus / dessous", "say": "dessus, dessous", "back_ar": "فوق / تحت" },
+        { "id": "c-le-les", "front": "le / les", "say": "le, les", "back_ar": "المفرد / الجمع: الفرق في صوت العلة فقط" },
+        { "id": "c-deux", "front": "deux", "say": "deux", "back_ar": "اثنان (صوت eu)" },
+        { "id": "c-bleu", "front": "bleu", "say": "bleu", "back_ar": "أزرق" },
+        { "id": "c-eau", "front": "l'eau", "say": "l'eau", "back_ar": "الماء (تُنطق «لو»)" },
+        { "id": "c-jus", "front": "le jus", "say": "le jus", "back_ar": "العصير" },
+        { "id": "c-lait", "front": "le lait", "say": "le lait", "back_ar": "الحليب" },
+        { "id": "c-the", "front": "le thé", "say": "le thé", "back_ar": "الشاي" },
+        { "id": "c-cafe", "front": "un café", "say": "un café", "back_ar": "قهوة" },
+        { "id": "c-vous-desirez", "front": "Vous désirez ?", "say": "Vous désirez ?", "back_ar": "ماذا تريد/تريدين؟ (يقولها النادل)" },
+        { "id": "c-cest-tout", "front": "C'est tout.", "say": "C'est tout.", "back_ar": "هذا كل شيء." },
+        { "id": "c-merci-beaucoup", "front": "Merci beaucoup !", "say": "Merci beaucoup !", "back_ar": "شكراً جزيلاً!" },
+        { "id": "c-bonne-journee", "front": "Bonne journée !", "say": "Bonne journée !", "back_ar": "يوماً سعيداً!" }
+      ]
+    }
+  ]
+}

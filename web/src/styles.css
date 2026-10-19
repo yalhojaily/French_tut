@@ -459,3 +459,11 @@ a.station-body:hover { border-color: var(--line); }
 .pill-btn:hover { border-color: var(--enamel); }
 .pill-btn.playing { background: var(--enamel); color: #fff; border-color: var(--enamel); }
 .pill-btn.playing svg { color: #fff; }
+
+/* أصوات من حرفين (ou, eu) وخيارات بكلمات كاملة */
+.letter-grid .plaque-letter.multi { font-size: 1.7rem; }
+.plaque.option.word { width: auto; min-width: 120px; padding: 0 22px; }
+.plaque.option.word .plaque-letter { font-size: 1.7rem; font-family: var(--f-fr); font-weight: 600; }
+.accent-mark { white-space: nowrap; }
+.clue { margin: 0 0 10px; color: var(--muted); }
+.clue strong { color: var(--ink); }

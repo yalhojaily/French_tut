@@ -29,7 +29,7 @@ export function renderListen(unitId: string, s: ListenSection, onDone: () => voi
       "div",
       { class: "options" },
       item.options.map((opt) => {
-        const b = h("button", { type: "button", class: "plaque option", lang: "fr" }, h("span", { class: "plaque-letter" }, opt));
+        const b = h("button", { type: "button", class: `plaque option${item.options.some((o) => o.length > 1) ? " word" : ""}`, lang: "fr" }, h("span", { class: "plaque-letter" }, opt));
         b.addEventListener("click", () => {
           if (answered) return;
           answered = true;
@@ -53,7 +53,7 @@ export function renderListen(unitId: string, s: ListenSection, onDone: () => voi
 
     stage.append(
       h("div", { class: "quiz-progress" }, `${index + 1} من ${order.length}`, h("progress", { max: order.length, value: index })),
-      h("div", { class: "quiz-ask" }, listenBtn, h("span", null, "اضغط للاستماع، ثم اختر الحرف")),
+      h("div", { class: "quiz-ask" }, listenBtn, h("span", null, s.prompt_ar ?? "اضغط للاستماع، ثم اختر الحرف")),
       options,
       feedback,
       nextBtn,
@@ -84,7 +84,7 @@ export function renderListen(unitId: string, s: ListenSection, onDone: () => voi
 
   const start = h("button", { type: "button", class: "btn primary", html: `${icon.play}<span>ابدأ التمرين</span>` });
   start.addEventListener("click", showQuestion);
-  stage.append(h("div", { class: "quiz-start" }, h("p", null, `${order.length} أسئلة. كل سؤال: تسمع حرفاً وتختار ما سمعته.`), start));
+  stage.append(h("div", { class: "quiz-start" }, h("p", null, `${order.length} أسئلة. ${s.start_ar ?? "كل سؤال: تسمع حرفاً وتختار ما سمعته."}`), start));
 
   return h("div", { class: "section-listen" }, h("p", { class: "lede" }, s.hint_ar), stage);
 }

@@ -93,7 +93,8 @@ export function renderSpelling(unitId: string, s: SpellingSection, onDone: () =>
 
     stage.append(
       h("div", { class: "quiz-progress" }, `${index + 1} من ${s.items.length}`, h("progress", { max: s.items.length, value: index })),
-      h("div", { class: "quiz-ask" }, listen, slow, h("span", null, "استمع للتهجئة واكتب الكلمة")),
+      h("div", { class: "quiz-ask" }, listen, slow, h("span", null, s.prompt_ar ?? "استمع للتهجئة واكتب الكلمة")),
+      ...(s.show_meaning ? [h("p", { class: "clue" }, "المعنى: ", h("strong", null, item.ar))] : []),
       input,
       keys,
       h("div", { class: "row" }, checkBtn, nextBtn),
@@ -114,14 +115,14 @@ export function renderSpelling(unitId: string, s: SpellingSection, onDone: () =>
     stage.append(
       h("div", { class: "result" },
         h("p", { class: "result-score" }, `${correct} / ${s.items.length}`),
-        h("p", null, richAr("أهم ما في هذا التمرين: أن تسمع **accent aigu** و **accent grave** فتعرف أي علامة تكتب.")),
+        h("p", null, richAr(s.result_ar ?? "أهم ما في هذا التمرين: أن تسمع **accent aigu** و **accent grave** فتعرف أي علامة تكتب.")),
         again,
       ),
     );
     onDone();
   };
 
-  const start = h("button", { type: "button", class: "btn primary", html: `${icon.play}<span>ابدأ الإملاء</span>` });
+  const start = h("button", { type: "button", class: "btn primary", html: `${icon.play}<span>${s.start_ar ?? "ابدأ الإملاء"}</span>` });
   start.addEventListener("click", showItem);
   stage.append(h("div", { class: "quiz-start" }, h("p", null, `${s.items.length} كلمات.`), start));
 

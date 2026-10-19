@@ -7,6 +7,7 @@ export function renderLetters(unitId: string, s: LettersSection): HTMLElement {
   const detail = h("div", { class: "letter-detail", "aria-live": "polite" });
   const tiles = new Map<string, HTMLButtonElement>();
   let runningAll = false;
+  const playAllLabel = s.play_all_ar ?? "استمع للأبجدية كاملة";
 
   const select = (item: LetterItem, speak = true) => {
     tiles.forEach((t) => t.setAttribute("aria-pressed", "false"));
@@ -16,7 +17,7 @@ export function renderLetters(unitId: string, s: LettersSection): HTMLElement {
       h(
         "div",
         { class: "detail-head" },
-        h("span", { class: "plaque plaque-sm", lang: "fr" }, item.letter, h("small", null, item.letter.toLowerCase())),
+        h("span", { class: "plaque plaque-sm", lang: "fr" }, item.letter, item.letter !== item.letter.toLowerCase() ? h("small", null, item.letter.toLowerCase()) : null),
         h(
           "div",
           { class: "detail-name" },
@@ -43,7 +44,7 @@ export function renderLetters(unitId: string, s: LettersSection): HTMLElement {
       const tile = h(
         "button",
         { type: "button", class: `plaque${item.tricky ? " tricky" : ""}`, lang: "fr", "aria-pressed": "false", "aria-label": `${item.letter}: ${item.ar_hint}` },
-        h("span", { class: "plaque-letter" }, item.letter),
+        h("span", { class: `plaque-letter${item.letter.length > 1 ? " multi" : ""}` }, item.letter),
         h("span", { class: "plaque-hint", lang: "ar", dir: "rtl" }, item.ar_hint),
       );
       tile.addEventListener("click", () => select(item));
@@ -52,7 +53,7 @@ export function renderLetters(unitId: string, s: LettersSection): HTMLElement {
     }),
   );
 
-  const allBtn = h("button", { type: "button", class: "btn primary", html: `${icon.play}<span>استمع للأبجدية كاملة</span>` });
+  const allBtn = h("button", { type: "button", class: "btn primary", html: `${icon.play}<span>${playAllLabel}</span>` });
   allBtn.addEventListener("click", async () => {
     if (runningAll) {
       runningAll = false;
@@ -68,7 +69,7 @@ export function renderLetters(unitId: string, s: LettersSection): HTMLElement {
       await new Promise((r) => setTimeout(r, 250));
     }
     runningAll = false;
-    allBtn.innerHTML = `${icon.play}<span>استمع للأبجدية كاملة</span>`;
+    allBtn.innerHTML = `${icon.play}<span>${playAllLabel}</span>`;
   });
 
   select(s.items[0], false);

@@ -40,10 +40,8 @@ export interface DialogueLine extends Speakable {
   ar: string;
 }
 
-export interface DialogueSection {
+export interface DialogueSection extends SectionBase {
   type: "dialogue";
-  key: string;
-  title_ar: string;
   context_ar: string;
   speakers: Record<string, { name_ar: string; voice: string }>;
   lines: DialogueLine[];
@@ -63,11 +61,17 @@ export interface LetterItem extends Speakable {
   tricky?: boolean;
 }
 
-export interface LettersSection {
-  type: "letters";
+/** حقول اختيارية مشتركة: اسم قصير في شريط الأقسام */
+interface SectionBase {
   key: string;
   title_ar: string;
+  short_ar?: string;
+}
+
+export interface LettersSection extends SectionBase {
+  type: "letters";
   hint_ar: string;
+  play_all_ar?: string;
   items: LetterItem[];
 }
 
@@ -79,10 +83,8 @@ export interface AccentItem extends Speakable {
   examples: Word[];
 }
 
-export interface AccentsSection {
+export interface AccentsSection extends SectionBase {
   type: "accents";
-  key: string;
-  title_ar: string;
   hint_ar: string;
   items: AccentItem[];
 }
@@ -93,11 +95,11 @@ export interface ListenItem extends Speakable {
   explain_ar: string;
 }
 
-export interface ListenSection {
+export interface ListenSection extends SectionBase {
   type: "listen_choice";
-  key: string;
-  title_ar: string;
   hint_ar: string;
+  prompt_ar?: string;
+  start_ar?: string;
   items: ListenItem[];
 }
 
@@ -106,18 +108,19 @@ export interface SpellingItem extends Speakable {
   ar: string;
 }
 
-export interface SpellingSection {
+export interface SpellingSection extends SectionBase {
   type: "spelling";
-  key: string;
-  title_ar: string;
   hint_ar: string;
+  prompt_ar?: string;
+  start_ar?: string;
+  /** إظهار معنى الكلمة قبل الإجابة (للإملاء بكلمات كاملة) */
+  show_meaning?: boolean;
+  result_ar?: string;
   items: SpellingItem[];
 }
 
-export interface ShadowingSection {
+export interface ShadowingSection extends SectionBase {
   type: "shadowing";
-  key: string;
-  title_ar: string;
   hint_ar: string;
   items: Word[];
   task_ar?: string;
@@ -128,10 +131,8 @@ export interface FlashCard extends Speakable {
   back_ar: string;
 }
 
-export interface FlashcardsSection {
+export interface FlashcardsSection extends SectionBase {
   type: "flashcards";
-  key: string;
-  title_ar: string;
   hint_ar: string;
   cards: FlashCard[];
 }

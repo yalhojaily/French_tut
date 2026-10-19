@@ -220,7 +220,8 @@ def cmd_build(args):
     # الملف موجود والعنصر في الفهرس بنفس الملف ← لا شيء نفعله
     todo = [p for p in todo if args.force or manifest.get(p[0].key, {}).get("file") != p[2]
             or not (AUDIO_DIR / p[2]).exists()]
-    chars = sum(len(p[0].text) for p in todo)
+    # العناصر المتطابقة تتشارك ملفاً واحداً، فلا تُحسب مرتين
+    chars = sum(len(p[0].text) for p in {p[2]: p for p in todo}.values())
 
     print(f"العناصر: {len(plan)} | تحتاج توليداً: {len(todo)} | عدد الحروف المرسلة: {chars}")
     if args.dry_run:
