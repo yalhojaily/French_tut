@@ -1,0 +1,199 @@
+{
+  "id": "u0-03",
+  "stage": "0",
+  "title_fr": "Les consonnes difficiles",
+  "title_ar": "الحروف الساكنة الصعبة",
+  "goals_ar": [
+    "تنطق **p** دون أن تتحول إلى **b**: pain (خبز) ليست bain (حمّام)",
+    "تنطق **v** دون أن تتحول إلى **f**: vous ليست fou",
+    "تنطق الـ **r** الفرنسية من الحلق، قريبة من الغين",
+    "تفرّق بين **ch** «ش» و **j** «ژ»",
+    "تعرف متى تُنطق **s** «ز»: poisson (سمك) ليست poison (سمّ)"
+  ],
+  "intro_ar": [
+    "معظم الحروف الساكنة الفرنسية موجودة في العربية، لكن **اثنين منها غير موجودين أصلاً**: p و v. لهذا يقول كثير من العرب «بابا» بدل papa و «فو» بدل vous، دون أن يسمعوا الفرق.",
+    "السر في حرفين لا ثلاثة: **اهتزاز الحنجرة**. ضع أصابعك على حلقك وقل «ززززز» ثم «سسسسس». تشعر بالاهتزاز في الأولى فقط. هذا هو الفرق بين b و p، وبين v و f، وبين z و s، وبين j و ch.",
+    "وخبر جيد: الـ **r** الفرنسية، أصعب حرف على الأوروبيين، قريبة جداً من **الغين** العربية. أنت تملكها مسبقاً."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: في المخبز",
+      "context_ar": "رجل يشتري خبزاً من المخبز (la boulangerie). انتبه إلى p في pains و pour، و v في vous و voilà، و r في croissants و trois.",
+      "speakers": {
+        "A": { "name_ar": "البائعة", "voice": "female" },
+        "B": { "name_ar": "الزبون", "voice": "male" }
+      },
+      "lines": [
+        { "id": "d1", "speaker": "A", "say": "Bonjour, monsieur ! Vous voulez ?", "ar": "صباح الخير سيدي! ماذا تريد؟", "slow": true },
+        { "id": "d2", "speaker": "B", "say": "Bonjour ! Une baguette et deux pains au chocolat, s'il vous plaît.", "ar": "صباح الخير! خبزة طويلة (باغيت) وقطعتا خبز بالشوكولاتة، من فضلك.", "slow": true },
+        { "id": "d3", "speaker": "A", "say": "Voilà. Et avec ceci ?", "ar": "تفضّل. وماذا أيضاً؟", "slow": true },
+        { "id": "d4", "speaker": "B", "say": "Vous avez des croissants ?", "ar": "هل عندكم كرواسون؟", "slow": true },
+        { "id": "d5", "speaker": "A", "say": "Oui, bien sûr. Combien ?", "ar": "نعم، بالتأكيد. كم واحدة؟", "slow": true },
+        { "id": "d6", "speaker": "B", "say": "Trois, merci. C'est pour la maison.", "ar": "ثلاث، شكراً. إنها للبيت.", "slow": true },
+        { "id": "d7", "speaker": "A", "say": "Ça fait six euros vingt. Bonne journée !", "ar": "المجموع ستة يوروهات وعشرون سنتاً. يوماً سعيداً!", "slow": true }
+      ],
+      "tip_ar": "لاحظ **maison**: حرف s واحد بين حرفي علة يُنطق «ز»، فتُقرأ «ميزون». أما **croissant** ففيها ss، فتبقى «س»."
+    },
+    {
+      "type": "letters",
+      "key": "sounds",
+      "short_ar": "الأصوات",
+      "title_ar": "الأصوات الثمانية",
+      "hint_ar": "اضغط على كل صوت لتسمعه، ثم استمع للمثال. ضع يدك على حلقك مع كل زوج: هل تشعر بالاهتزاز؟",
+      "play_all_ar": "استمع لكل الأصوات",
+      "items": [
+        { "id": "c-p", "letter": "p", "say": "pa", "ipa": "p", "ar_hint": "پ (بلا اهتزاز)", "example": { "id": "w-pain", "say": "pain", "ar": "خبز" }, "tricky": true, "note_ar": "أغلق شفتيك كما في الباء، لكن **لا تهزّ حنجرتك**، وأطلق الهواء دفعة خفيفة. تمرين: ضع ورقة أمام فمك، يجب أن تتحرك مع p ولا تتحرك مع b." },
+        { "id": "c-b", "letter": "b", "say": "ba", "ipa": "b", "ar_hint": "ب", "example": { "id": "w-bain", "say": "bain", "ar": "حمّام (استحمام)" }, "note_ar": "مثل الباء العربية تماماً. أنت تنطقها صحيحة، والمطلوب فقط ألا تنطق p مثلها." },
+        { "id": "c-f", "letter": "f", "say": "fa", "ipa": "f", "ar_hint": "ف", "example": { "id": "w-fou", "say": "fou", "ar": "مجنون" }, "note_ar": "مثل الفاء العربية. وحرف **ph** يُنطق مثله: photo، pharmacie." },
+        { "id": "c-v", "letter": "v", "say": "va", "ipa": "v", "ar_hint": "ڤ (فاء + اهتزاز)", "example": { "id": "w-ville", "say": "ville", "ar": "مدينة" }, "tricky": true, "note_ar": "نفس وضع الفاء (الأسنان العليا على الشفة السفلى)، لكن **مع اهتزاز الحنجرة**. قل «فففف» ثم أضف صوتاً من حلقك دون أن تحرك فمك: هذه هي v." },
+        { "id": "c-r", "letter": "r", "say": "ra", "ipa": "ʁ", "ar_hint": "غ خفيفة", "example": { "id": "w-paris", "say": "Paris", "ar": "باريس" }, "tricky": true, "note_ar": "انطقها من الحلق كالغين، لكن **أخف وأقصر**. ولا تلفّ لسانك أبداً كالراء العربية. وفي آخر الكلمة بعد حرف ساكن تكاد تختفي: quatre." },
+        { "id": "c-ch", "letter": "ch", "say": "cha", "ipa": "ʃ", "ar_hint": "ش", "example": { "id": "w-chocolat", "say": "chocolat", "ar": "شوكولاتة" }, "note_ar": "مثل الشين العربية تماماً، مع استدارة خفيفة للشفتين. انتبه: ch ليست «تش» كالإنجليزية." },
+        { "id": "c-j", "letter": "j", "say": "ja", "ipa": "ʒ", "ar_hint": "ژ (جيم شامية)", "example": { "id": "w-jardin", "say": "jardin", "ar": "حديقة" }, "tricky": true, "note_ar": "الجيم الشامية الناعمة، **لا** الجيم الفصحى المعطّشة «دج». وهو الصوت نفسه في **g قبل e و i**: rouge، girafe." },
+        { "id": "c-z", "letter": "s = z", "say": "rose", "ipa": "z", "ar_hint": "ز", "example": { "id": "w-maison", "say": "maison", "ar": "بيت" }, "tricky": true, "note_ar": "حرف **s واحد بين حرفي علة = ز**: maison، rose، musique. لتبقى «س» تُكتب **ss**: poisson، croissant. وحرف z نفسه «ز» دائماً." }
+      ]
+    },
+    {
+      "type": "accents",
+      "key": "pairs",
+      "short_ar": "الأزواج",
+      "title_ar": "الأزواج المتقاربة: الاهتزاز يغيّر المعنى",
+      "hint_ar": "في كل زوج الفم في الوضع نفسه تماماً. الفرق الوحيد: هل تهتز الحنجرة أم لا؟",
+      "items": [
+        {
+          "id": "p-p-b", "mark": "p / b", "name_fr": "pain / bain", "say": "pain… bain.", "name_ar": "أهم زوج للعربي",
+          "effect_ar": "إن نطقت p باءً، فقد طلبت **حمّاماً** في المخبز بدل الخبز. مع p: لا اهتزاز، ودفعة هواء.",
+          "examples": [
+            { "id": "w-pain2", "say": "pain", "ar": "خبز" },
+            { "id": "w-bain2", "say": "bain", "ar": "حمّام" },
+            { "id": "w-poisson", "say": "poisson", "ar": "سمك" },
+            { "id": "w-boisson", "say": "boisson", "ar": "مشروب" },
+            { "id": "w-pas", "say": "pas", "ar": "لا / خطوة" },
+            { "id": "w-bas", "say": "bas", "ar": "منخفض / أسفل" }
+          ]
+        },
+        {
+          "id": "p-f-v", "mark": "f / v", "name_fr": "fou / vous", "say": "fou… vous.", "name_ar": "انتبه للأدب!",
+          "effect_ar": "إن نطقت vous فاءً، فقد قلت للشخص **«مجنون»** بدل «حضرتك». مع v: اهتزاز الحنجرة.",
+          "examples": [
+            { "id": "w-fou2", "say": "fou", "ar": "مجنون" },
+            { "id": "w-vous", "say": "vous", "ar": "أنتم / حضرتك" },
+            { "id": "w-fer", "say": "fer", "ar": "حديد" },
+            { "id": "w-vert", "say": "vert", "ar": "أخضر" }
+          ]
+        },
+        {
+          "id": "p-s-z", "mark": "ss / s", "name_fr": "poisson / poison", "say": "poisson… poison.", "name_ar": "حرف واحد بين الطعام والسمّ",
+          "effect_ar": "**ss** تُنطق «س» و **s** الواحدة بين حرفي علة تُنطق «ز». الفرق في الكتابة حرف واحد، وفي المعنى كل شيء.",
+          "examples": [
+            { "id": "w-poisson2", "say": "poisson", "ar": "سمك" },
+            { "id": "w-poison", "say": "poison", "ar": "سمّ" },
+            { "id": "w-dessert", "say": "dessert", "ar": "حلوى (بعد الأكل)" },
+            { "id": "w-desert", "say": "désert", "ar": "صحراء" }
+          ]
+        },
+        {
+          "id": "p-ch-j", "mark": "ch / j", "name_fr": "chou / joue", "say": "chou… joue.", "name_ar": "ش أم ژ",
+          "effect_ar": "الفرق مرة أخرى في الاهتزاز: ch «ش» بلا اهتزاز، و j «ژ» معه.",
+          "examples": [
+            { "id": "w-chou", "say": "chou", "ar": "ملفوف" },
+            { "id": "w-joue", "say": "joue", "ar": "خدّ" },
+            { "id": "w-bouche", "say": "bouche", "ar": "فم" },
+            { "id": "w-bouge", "say": "bouge", "ar": "يتحرّك" }
+          ]
+        },
+        {
+          "id": "p-r", "mark": "r", "name_fr": "le r français", "say": "rouge, très, merci, Paris.", "name_ar": "الغين اللطيفة",
+          "effect_ar": "طريقة سهلة: قل «آغا» بصوت ناعم جداً، ثم أخفّ. في أول الكلمة واضحة (rouge)، وبعد حرف ساكن سريعة (très)، وفي آخر الكلمة خفيفة جداً (merci، Paris).",
+          "examples": [
+            { "id": "w-rouge", "say": "rouge", "ar": "أحمر" },
+            { "id": "w-tres", "say": "très", "ar": "جداً" },
+            { "id": "w-merci", "say": "merci", "ar": "شكراً" },
+            { "id": "w-revoir", "say": "au revoir", "ar": "إلى اللقاء" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: أي كلمة تسمع؟",
+      "hint_ar": "كلمتان تختلفان في حرف ساكن واحد. استمع جيداً لبداية الكلمة: هل فيها اهتزاز أم دفعة هواء؟",
+      "prompt_ar": "اضغط للاستماع، ثم اختر الكلمة",
+      "start_ar": "كل سؤال: تسمع كلمة وتختار بين كلمتين متقاربتين.",
+      "items": [
+        { "id": "q-bain", "say": "bain", "options": ["pain", "bain"], "answer": "bain", "explain_ar": "bain: الحنجرة تهتز، فهي b." },
+        { "id": "q-pain", "say": "pain", "options": ["pain", "bain"], "answer": "pain", "explain_ar": "pain: دفعة هواء بلا اهتزاز، فهي p." },
+        { "id": "q-boisson", "say": "boisson", "options": ["poisson", "boisson"], "answer": "boisson", "explain_ar": "boisson (مشروب): يبدأ بـ b." },
+        { "id": "q-pas", "say": "pas", "options": ["pas", "bas"], "answer": "pas", "explain_ar": "pas: يبدأ بـ p." },
+        { "id": "q-vous", "say": "vous", "options": ["fou", "vous"], "answer": "vous", "explain_ar": "vous: اهتزاز مع الأسنان على الشفة، فهي v." },
+        { "id": "q-fer", "say": "fer", "options": ["fer", "vert"], "answer": "fer", "explain_ar": "fer (حديد): بلا اهتزاز، فهي f." },
+        { "id": "q-poison", "say": "poison", "options": ["poisson", "poison"], "answer": "poison", "explain_ar": "poison: سمعت «ز»، فهي s واحدة." },
+        { "id": "q-dessert", "say": "dessert", "options": ["dessert", "désert"], "answer": "dessert", "explain_ar": "dessert: سمعت «س»، فهي ss." },
+        { "id": "q-joue", "say": "joue", "options": ["chou", "joue"], "answer": "joue", "explain_ar": "joue: «ژ» مع اهتزاز." },
+        { "id": "q-bouche", "say": "bouche", "options": ["bouche", "bouge"], "answer": "bouche", "explain_ar": "bouche (فم): ينتهي بـ «ش»." }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب الكلمة التي تسمعها",
+      "hint_ar": "المعنى ظاهر ليساعدك. فكّر في الحرف الساكن: p أم b؟ f أم v؟ s أم ss؟",
+      "prompt_ar": "استمع واكتب الكلمة",
+      "show_meaning": true,
+      "result_ar": "تذكّر قاعدة **s**: بين حرفي علة = «ز» (maison)، ولتبقى «س» تُكتب **ss** (poisson).",
+      "items": [
+        { "id": "s-poisson", "say": "poisson", "answer": "poisson", "ar": "سمك" },
+        { "id": "s-boisson", "say": "boisson", "answer": "boisson", "ar": "مشروب" },
+        { "id": "s-maison", "say": "maison", "answer": "maison", "ar": "بيت" },
+        { "id": "s-rouge", "say": "rouge", "answer": "rouge", "ar": "أحمر" },
+        { "id": "s-chocolat", "say": "chocolat", "answer": "chocolat", "ar": "شوكولاتة" },
+        { "id": "s-page", "say": "page", "answer": "page", "ar": "صفحة" },
+        { "id": "s-fromage", "say": "fromage", "answer": "fromage", "ar": "جبن" },
+        { "id": "s-voiture", "say": "voiture", "answer": "voiture", "ar": "سيارة" }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل من المخبز والحياة اليومية. ضع يدك على حلقك وأنت تردد: يجب أن تشعر بالاهتزاز مع b و v و j، ولا تشعر به مع p و f و ch.",
+      "items": [
+        { "id": "sh-1", "say": "Une baguette, s'il vous plaît.", "ar": "خبزة باغيت، من فضلك.", "slow": true, "voice": "male" },
+        { "id": "sh-2", "say": "Vous voulez du poisson ou une boisson ?", "ar": "هل تريد سمكاً أم مشروباً؟", "slow": true, "voice": "female" },
+        { "id": "sh-3", "say": "Je voudrais un pain au chocolat.", "ar": "أريد خبزاً بالشوكولاتة.", "slow": true, "voice": "male" },
+        { "id": "sh-4", "say": "La maison rouge est à Paris.", "ar": "البيت الأحمر في باريس.", "slow": true, "voice": "female" },
+        { "id": "sh-5", "say": "Merci beaucoup, au revoir !", "ar": "شكراً جزيلاً، إلى اللقاء!", "slow": true, "voice": "male" }
+      ],
+      "task_ar": "تحدٍّ: سجّل نفسك تقول **pain, bain, poisson, boisson, poison** ثم استمع: هل الكلمات الخمس مختلفة بوضوح؟"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "انطق كل بطاقة بصوت عالٍ ويدك على حلقك قبل أن تكشف المعنى.",
+      "cards": [
+        { "id": "c-pain", "front": "le pain", "say": "le pain", "back_ar": "الخبز (p بلا اهتزاز)" },
+        { "id": "c-baguette", "front": "une baguette", "say": "une baguette", "back_ar": "خبزة باغيت طويلة" },
+        { "id": "c-croissant", "front": "un croissant", "say": "un croissant", "back_ar": "كرواسون" },
+        { "id": "c-poisson", "front": "le poisson", "say": "le poisson", "back_ar": "السمك (ss = س)" },
+        { "id": "c-boisson", "front": "la boisson", "say": "la boisson", "back_ar": "المشروب" },
+        { "id": "c-poison", "front": "le poison", "say": "le poison", "back_ar": "السمّ (s = ز)" },
+        { "id": "c-dessert", "front": "le dessert", "say": "le dessert", "back_ar": "الحلوى بعد الأكل" },
+        { "id": "c-desert", "front": "le désert", "say": "le désert", "back_ar": "الصحراء" },
+        { "id": "c-maison", "front": "la maison", "say": "la maison", "back_ar": "البيت" },
+        { "id": "c-rouge", "front": "rouge", "say": "rouge", "back_ar": "أحمر" },
+        { "id": "c-vert", "front": "vert", "say": "vert", "back_ar": "أخضر" },
+        { "id": "c-fromage", "front": "le fromage", "say": "le fromage", "back_ar": "الجبن" },
+        { "id": "c-ville", "front": "la ville", "say": "la ville", "back_ar": "المدينة" },
+        { "id": "c-vous-voulez", "front": "Vous voulez ?", "say": "Vous voulez ?", "back_ar": "ماذا تريد؟ (يقولها البائع)" },
+        { "id": "c-avec-ceci", "front": "Et avec ceci ?", "say": "Et avec ceci ?", "back_ar": "وماذا أيضاً؟" },
+        { "id": "c-ca-fait", "front": "Ça fait combien ?", "say": "Ça fait combien ?", "back_ar": "كم المجموع؟" },
+        { "id": "c-bien-sur", "front": "Bien sûr !", "say": "Bien sûr !", "back_ar": "بالتأكيد!" },
+        { "id": "c-au-revoir", "front": "Au revoir !", "say": "Au revoir !", "back_ar": "إلى اللقاء!" }
+      ]
+    }
+  ]
+}
