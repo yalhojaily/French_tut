@@ -1,0 +1,200 @@
+{
+  "id": "u0-04",
+  "stage": "0",
+  "title_fr": "Les voyelles nasales",
+  "title_ar": "حروف العلة الأنفية",
+  "goals_ar": [
+    "تنطق الأصوات الأنفية الثلاثة: **an** و **on** و **in**",
+    "تنطقها **دون أن تقول النون**: bon تُنطق «بو» من الأنف، لا «بون»",
+    "تعرف متى يكون الصوت أنفياً ومتى لا: **bon** (أنفي) و **bonne** (نون منطوقة)",
+    "تسمع الفرق بين sans و son، وبين bon و bain"
+  ],
+  "intro_ar": [
+    "هذه أصعب نقطة نطق في الفرنسية للمتعلم العربي. السبب بسيط: في العربية، إذا كتبنا نوناً نطقناها. في الفرنسية، حرف **n** أو **m** بعد حرف علة لا يُنطق غالباً، بل **يجعل حرف العلة يخرج من الأنف**.",
+    "اختبار سهل: أمسك أنفك بإصبعيك وقل «آآآ». الصوت لا يتغير لأنه يخرج من الفم. الآن قل **an** الفرنسية: إن أمسكت أنفك ستشعر أن الصوت يُحبس. هذا هو الصوت الأنفي.",
+    "القاعدة الذهبية: لسانك **لا يلمس سقف فمك** في آخر الصوت. إن لمسه، فقد نطقت نوناً عربية."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: في سوق الخضار",
+      "context_ar": "زبونة تشتري فواكه من بائع في السوق (le marché). كل كلمة ملوّنة بالأنف: melon و citron (صوت on)، و orange و combien (صوت an)، و un و cinq و demain (صوت in).",
+      "speakers": {
+        "A": { "name_ar": "البائع", "voice": "male" },
+        "B": { "name_ar": "الزبونة", "voice": "female" }
+      },
+      "lines": [
+        { "id": "d1", "speaker": "A", "say": "Bonjour, madame ! Qu'est-ce que vous voulez ?", "ar": "صباح الخير سيدتي! ماذا تريدين؟", "slow": true },
+        { "id": "d2", "speaker": "B", "say": "Bonjour ! Je voudrais un melon et cinq oranges.", "ar": "صباح الخير! أريد شمّامة وخمس برتقالات.", "slow": true },
+        { "id": "d3", "speaker": "A", "say": "Très bien. Et avec ça ? Des citrons ?", "ar": "حسناً جداً. وماذا أيضاً؟ ليمون؟", "slow": true },
+        { "id": "d4", "speaker": "B", "say": "Non, merci. C'est combien ?", "ar": "لا، شكراً. بكم؟", "slow": true },
+        { "id": "d5", "speaker": "A", "say": "Cinq euros cinquante.", "ar": "خمسة يوروهات وخمسون سنتاً.", "slow": true },
+        { "id": "d6", "speaker": "B", "say": "Voilà. Bonne journée !", "ar": "تفضّل. يوماً سعيداً!", "slow": true },
+        { "id": "d7", "speaker": "A", "say": "Merci, madame. À demain !", "ar": "شكراً سيدتي. إلى الغد!", "slow": true }
+      ],
+      "tip_ar": "قارن **bon**jour (أنفي، بلا نون) مع **bonne** journée (النون منطوقة). السبب: في bonne جاء بعد النون حرف علة (e)، فعادت النون نوناً عادية."
+    },
+    {
+      "type": "letters",
+      "key": "sounds",
+      "short_ar": "الأصوات",
+      "title_ar": "الأصوات الأنفية",
+      "hint_ar": "اضغط على كل صوت لتسمعه. جرّب أن تقلّده وأنت تمسك أنفك: يجب أن تشعر بالاهتزاز في أنفك. الصوت الأخير ليس أنفياً، وهو للمقارنة.",
+      "play_all_ar": "استمع لكل الأصوات",
+      "items": [
+        { "id": "n-an", "letter": "an", "say": "an", "ipa": "ɑ̃", "ar_hint": "آ من الأنف", "example": { "id": "w-enfant", "say": "enfant", "ar": "طفل" }, "tricky": true, "note_ar": "افتح فمك كأنك تقول «آ» عميقة، وأطلق الهواء من الأنف. **أربع كتابات لصوت واحد**: an، am، en، em (enfant، chambre، temps)." },
+        { "id": "n-on", "letter": "on", "say": "on", "ipa": "ɔ̃", "ar_hint": "أو من الأنف", "example": { "id": "w-maison", "say": "maison", "ar": "بيت" }, "tricky": true, "note_ar": "الشفتان مستديرتان كأنك تقول «أو»، والهواء من الأنف. يُكتب **on** أو **om** (nom، nombre)." },
+        { "id": "n-in", "letter": "in", "say": "pain", "ipa": "ɛ̃", "ar_hint": "إِ من الأنف", "example": { "id": "w-cinq", "say": "cinq", "ar": "خمسة" }, "tricky": true, "note_ar": "الفم مفتوح كأنك تقول «إِ» عريضة، والهواء من الأنف. كتابات كثيرة لصوت واحد: **in، im، ain، ein، yn**: vin، important، pain، plein." },
+        { "id": "n-un", "letter": "un", "say": "un", "ipa": "ɛ̃", "ar_hint": "مثل in", "example": { "id": "w-lundi", "say": "lundi", "ar": "الإثنين" }, "note_ar": "قديماً كان صوتاً مستقلاً، لكن **معظم الفرنسيين اليوم ينطقونه مثل in**. تعلّمه كذلك: un = in." },
+        { "id": "n-nne", "letter": "-nne", "say": "bonne", "ipa": "ɔn", "ar_hint": "نون منطوقة", "example": { "id": "w-une", "say": "une", "ar": "واحدة (مؤنث)" }, "note_ar": "**ليس أنفياً.** إذا جاء بعد n أو m حرف علة، أو تضاعفت (nn، mm)، يعود حرف العلة عادياً وتُنطق النون: bonne، une، ami، homme." }
+      ]
+    },
+    {
+      "type": "accents",
+      "key": "pairs",
+      "short_ar": "الأزواج",
+      "title_ar": "الأزواج المتقاربة",
+      "hint_ar": "الأصوات الأنفية الثلاثة تختلف في شكل الفم فقط. والأهم: الفرق بين الأنفي وغير الأنفي، لأنه غالباً الفرق بين **المذكر والمؤنث**.",
+      "items": [
+        {
+          "id": "p-an-on", "mark": "an / on", "name_fr": "sans / son", "say": "sans… son.", "name_ar": "فم مفتوح أم مستدير",
+          "effect_ar": "مع **an** الفم مفتوح واسع، ومع **on** الشفتان مستديرتان. الاثنان من الأنف.",
+          "examples": [
+            { "id": "w-sans", "say": "sans", "ar": "بدون" },
+            { "id": "w-son", "say": "son", "ar": "صوت / ـه (ملكية)" },
+            { "id": "w-blanc", "say": "blanc", "ar": "أبيض" },
+            { "id": "w-blond", "say": "blond", "ar": "أشقر" },
+            { "id": "w-lent", "say": "lent", "ar": "بطيء" },
+            { "id": "w-long", "say": "long", "ar": "طويل" }
+          ]
+        },
+        {
+          "id": "p-on-in", "mark": "on / in", "name_fr": "bon / bain", "say": "bon… bain.", "name_ar": "مستدير أم ممدود",
+          "effect_ar": "مع **on** الشفتان مستديرتان، ومع **in** الشفتان ممدودتان والفم مفتوح قليلاً.",
+          "examples": [
+            { "id": "w-bon", "say": "bon", "ar": "جيد" },
+            { "id": "w-bain", "say": "bain", "ar": "حمّام" },
+            { "id": "w-pont", "say": "pont", "ar": "جسر" },
+            { "id": "w-pain", "say": "pain", "ar": "خبز" }
+          ]
+        },
+        {
+          "id": "p-nasal-n", "mark": "on / onne", "name_fr": "bon / bonne", "say": "bon… bonne.", "name_ar": "المذكر والمؤنث",
+          "effect_ar": "هذا أهم زوج في الوحدة. المذكر غالباً **أنفي بلا نون**، والمؤنث يضيف e **فتظهر النون**. ستحتاجه مع كل صفة وجنسية: américain / américaine.",
+          "examples": [
+            { "id": "w-bon2", "say": "bon", "ar": "جيد (مذكر)" },
+            { "id": "w-bonne", "say": "bonne", "ar": "جيدة (مؤنث)" },
+            { "id": "w-un", "say": "un", "ar": "واحد" },
+            { "id": "w-une2", "say": "une", "ar": "واحدة" },
+            { "id": "w-plein", "say": "plein", "ar": "ممتلئ" },
+            { "id": "w-pleine", "say": "pleine", "ar": "ممتلئة" }
+          ]
+        },
+        {
+          "id": "p-an-anne", "mark": "an / Anne", "name_fr": "an / Anne", "say": "an… Anne.", "name_ar": "خطأ العربي الشائع",
+          "effect_ar": "إن نطقت النون في **an** (سنة)، فقد قلت **Anne** (اسم امرأة). في الأنفي لا يلمس لسانك سقف الفم أبداً.",
+          "examples": [
+            { "id": "w-an", "say": "un an", "ar": "سنة" },
+            { "id": "w-anne", "say": "Anne", "ar": "آن (اسم)" },
+            { "id": "w-americain", "say": "américain", "ar": "أمريكي" },
+            { "id": "w-americaine", "say": "américaine", "ar": "أمريكية" }
+          ]
+        },
+        {
+          "id": "p-nombres", "mark": "1 5 100", "name_fr": "les nombres", "say": "un, cinq, onze, quinze, vingt, trente, cent.", "name_ar": "الأرقام مليئة بالأنفيات",
+          "effect_ar": "تقريباً كل رقم فرنسي فيه صوت أنفي. تدرّب عليها الآن، فهي موضوع الوحدة 0.7.",
+          "examples": [
+            { "id": "w-n1", "say": "un", "ar": "1" },
+            { "id": "w-n5", "say": "cinq", "ar": "5" },
+            { "id": "w-n11", "say": "onze", "ar": "11" },
+            { "id": "w-n15", "say": "quinze", "ar": "15" },
+            { "id": "w-n20", "say": "vingt", "ar": "20" },
+            { "id": "w-n30", "say": "trente", "ar": "30" },
+            { "id": "w-n100", "say": "cent", "ar": "100" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: أي كلمة تسمع؟",
+      "hint_ar": "استمع لشكل الصوت: مفتوح (an)، مستدير (on)، ممدود (in)؟ وهل سمعت نوناً حقيقية في آخره؟",
+      "prompt_ar": "اضغط للاستماع، ثم اختر الكلمة",
+      "start_ar": "كل سؤال: تسمع كلمة وتختار ما سمعته.",
+      "items": [
+        { "id": "q-son", "say": "son", "options": ["sans", "son", "saint"], "answer": "son", "explain_ar": "son: شفاه مستديرة، صوت on." },
+        { "id": "q-blond", "say": "blond", "options": ["blanc", "blond"], "answer": "blond", "explain_ar": "blond (أشقر): صوت on." },
+        { "id": "q-lent", "say": "lent", "options": ["lent", "long"], "answer": "lent", "explain_ar": "lent (بطيء): فم مفتوح، صوت an." },
+        { "id": "q-bain", "say": "bain", "options": ["bon", "bain"], "answer": "bain", "explain_ar": "bain: شفاه ممدودة، صوت in." },
+        { "id": "q-pont", "say": "pont", "options": ["pont", "pain"], "answer": "pont", "explain_ar": "pont (جسر): صوت on." },
+        { "id": "q-bonne", "say": "bonne", "options": ["bon", "bonne"], "answer": "bonne", "explain_ar": "bonne: سمعت النون بوضوح، فهي مؤنث." },
+        { "id": "q-un", "say": "un", "options": ["un", "une"], "answer": "un", "explain_ar": "un: أنفي بلا نون، فهو مذكر." },
+        { "id": "q-pleine", "say": "pleine", "options": ["plein", "pleine"], "answer": "pleine", "explain_ar": "pleine: النون منطوقة، فهي مؤنث." },
+        { "id": "q-an", "say": "un an", "options": ["un an", "Anne"], "answer": "un an", "explain_ar": "un an (سنة): صوت أنفي بلا نون." },
+        { "id": "q-cent", "say": "cent", "options": ["cent", "cinq"], "answer": "cent", "explain_ar": "cent (100): فم مفتوح، صوت an. أما cinq ففيها صوت in وتُنطق الـ q." }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب الكلمة التي تسمعها",
+      "hint_ar": "الصوت الأنفي الواحد له كتابات كثيرة، والمعنى ظاهر ليساعدك. تذكّر: an و en يُنطقان واحداً.",
+      "prompt_ar": "استمع واكتب الكلمة",
+      "show_meaning": true,
+      "result_ar": "لا تقلق إن أخطأت بين **an** و **en**، أو بين **in** و **ain**: حتى الفرنسيون يتعلمونها بالحفظ. القراءة الكثيرة تثبّتها.",
+      "items": [
+        { "id": "s-enfant", "say": "enfant", "answer": "enfant", "ar": "طفل" },
+        { "id": "s-maison", "say": "maison", "answer": "maison", "ar": "بيت" },
+        { "id": "s-pain", "say": "pain", "answer": "pain", "ar": "خبز" },
+        { "id": "s-bonjour", "say": "bonjour", "answer": "bonjour", "ar": "مرحباً" },
+        { "id": "s-cinq", "say": "cinq", "answer": "cinq", "ar": "خمسة" },
+        { "id": "s-lundi", "say": "lundi", "answer": "lundi", "ar": "الإثنين" },
+        { "id": "s-chambre", "say": "chambre", "answer": "chambre", "ar": "غرفة" },
+        { "id": "s-bonne", "say": "bonne", "answer": "bonne", "ar": "جيدة (مؤنث)" }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "ابدأ بالنسخة البطيئة. راقب لسانك: في الأصوات الأنفية يجب ألا يلمس سقف فمك أبداً.",
+      "items": [
+        { "id": "sh-1", "say": "Bonjour, comment ça va ?", "ar": "مرحباً، كيف حالك؟", "slow": true, "voice": "female" },
+        { "id": "sh-2", "say": "Je voudrais un melon et cinq oranges.", "ar": "أريد شمّامة وخمس برتقالات.", "slow": true, "voice": "female" },
+        { "id": "sh-3", "say": "C'est un bon pain blanc.", "ar": "إنه خبز أبيض جيد.", "slow": true, "voice": "male" },
+        { "id": "sh-4", "say": "Mon enfant a onze ans.", "ar": "طفلي عمره أحد عشر عاماً.", "slow": true, "voice": "male" },
+        { "id": "sh-5", "say": "Une bonne journée, à demain !", "ar": "يوماً سعيداً، إلى الغد!", "slow": true, "voice": "female" }
+      ],
+      "task_ar": "تحدٍّ: سجّل نفسك تقول **bon / bonne، un / une، an / Anne** ثم استمع: هل تسمع النون في الكلمة الثانية فقط؟"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "انطق كل كلمة أنفية دون نون قبل أن تكشف المعنى.",
+      "cards": [
+        { "id": "c-un-une", "front": "un / une", "say": "un, une", "back_ar": "واحد / واحدة (أنفي / نون منطوقة)" },
+        { "id": "c-bon-bonne", "front": "bon / bonne", "say": "bon, bonne", "back_ar": "جيد / جيدة" },
+        { "id": "c-blanc", "front": "blanc", "say": "blanc", "back_ar": "أبيض" },
+        { "id": "c-enfant", "front": "un enfant", "say": "un enfant", "back_ar": "طفل" },
+        { "id": "c-chambre", "front": "la chambre", "say": "la chambre", "back_ar": "الغرفة" },
+        { "id": "c-melon", "front": "un melon", "say": "un melon", "back_ar": "شمّامة" },
+        { "id": "c-citron", "front": "un citron", "say": "un citron", "back_ar": "ليمونة" },
+        { "id": "c-orange", "front": "une orange", "say": "une orange", "back_ar": "برتقالة" },
+        { "id": "c-cinq", "front": "cinq", "say": "cinq", "back_ar": "5" },
+        { "id": "c-onze", "front": "onze", "say": "onze", "back_ar": "11" },
+        { "id": "c-quinze", "front": "quinze", "say": "quinze", "back_ar": "15" },
+        { "id": "c-vingt", "front": "vingt", "say": "vingt", "back_ar": "20" },
+        { "id": "c-cent", "front": "cent", "say": "cent", "back_ar": "100" },
+        { "id": "c-lundi", "front": "lundi", "say": "lundi", "back_ar": "الإثنين" },
+        { "id": "c-sans", "front": "sans", "say": "sans", "back_ar": "بدون" },
+        { "id": "c-comment", "front": "Comment ça va ?", "say": "Comment ça va ?", "back_ar": "كيف حالك؟" },
+        { "id": "c-combien", "front": "C'est combien ?", "say": "C'est combien ?", "back_ar": "بكم؟" },
+        { "id": "c-demain", "front": "À demain !", "say": "À demain !", "back_ar": "إلى الغد!" }
+      ]
+    }
+  ]
+}
