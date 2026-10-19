@@ -10,7 +10,8 @@
 مبني على بصمة (النص + الصوت + النموذج + السرعة). إعادة التشغيل مجانية.
 
 الاستخدام:
-    python tools/generate_audio.py voices                 # عرض الأصوات في حسابك
+    python tools/generate_audio.py voices --premade       # الأصوات المتاحة في الخطة المجانية
+    python tools/generate_audio.py sample VOICE_ID        # جملة تجريبية لتسمع الصوت
     python tools/generate_audio.py build --dry-run        # كم عنصراً وكم حرفاً ستُرسل
     python tools/generate_audio.py build                  # توليد كل الوحدات
     python tools/generate_audio.py build --unit u0-01     # وحدة واحدة
@@ -165,16 +166,31 @@ def synthesize(item: Item, voice_id: str, cfg: dict, api_key: str) -> tuple[byte
 
 # ---------------------------------------------------------------- الأوامر
 
-def cmd_voices(_args):
+def cmd_voices(args):
     api_key = load_api_key()
-    data = api_request("GET", "/voices", api_key)
-    print(f"{'الاسم':30} {'voice_id':24} الوصف")
-    for v in data.get("voices", []):
+    voices = api_request("GET", "/voices", api_key).get("voices", [])
+    if args.premade:
+        voices = [v for v in voices if v.get("category") == "premade"]
+    # الأصوات الجاهزة (premade) أولاً: هي المتاحة عبر الـ API في الخطة المجانية
+    voices.sort(key=lambda v: (v.get("category") != "premade", v.get("name", "")))
+    print(f"{'الاسم':22} {'النوع':12} {'voice_id':24} الوصف")
+    for v in voices:
         labels = v.get("labels") or {}
-        desc = ", ".join(f"{k}={val}" for k, val in labels.items())
-        print(f"{v.get('name', '')[:30]:30} {v.get('voice_id', ''):24} {desc}")
-    print("\nللبحث عن أصوات فرنسية: افتح Voice Library في موقع ElevenLabs، فلتر باللغة French،"
-          "\nأضف الصوت إلى حسابك، ثم ضع الـ voice_id في content/voices.json")
+        desc = ", ".join(str(val) for val in labels.values())
+        print(f"{v.get('name', '')[:22]:22} {v.get('category', ''):12} {v.get('voice_id', ''):24} {desc}")
+    print("\nفي الخطة المجانية: استخدم أصوات النوع premade. نموذج eleven_multilingual_v2 يجعلها تنطق الفرنسية."
+          "\nجرّب صوتاً قبل اعتماده:  python tools/generate_audio.py sample VOICE_ID")
+
+
+def cmd_sample(args):
+    """يولّد جملة تجريبية بصوت واحد لتسمعه قبل اعتماده (نحو 90 حرفاً)."""
+    cfg = load_config()
+    api_key = load_api_key()
+    item = Item("sample", args.text, "sample", 1.0)
+    audio, _ = synthesize(item, args.voice_id, cfg, api_key)
+    out = ROOT / f"sample_{args.voice_id[:8]}.mp3"
+    out.write_bytes(audio)
+    print(f"احفظ واستمع: {out.name}  ({len(args.text)} حرفاً)")
 
 
 def cmd_build(args):
@@ -265,7 +281,13 @@ def cmd_build(args):
 def main():
     parser = argparse.ArgumentParser(description="توليد صوت الدروس عبر ElevenLabs")
     sub = parser.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("voices", help="عرض الأصوات في حسابك").set_defaults(func=cmd_voices)
+    v = sub.add_parser("voices", help="عرض الأصوات في حسابك")
+    v.add_argument("--premade", action="store_true", help="الأصوات الجاهزة فقط (المتاحة في الخطة المجانية)")
+    v.set_defaults(func=cmd_voices)
+    sm = sub.add_parser("sample", help="جملة تجريبية بصوت واحد قبل اعتماده")
+    sm.add_argument("voice_id")
+    sm.add_argument("--text", default="Bonjour ! Je m'appelle Youssef. Ça s'écrit I grec, O, U, deux S, E, F. Merci beaucoup !")
+    sm.set_defaults(func=cmd_sample)
     b = sub.add_parser("build", help="توليد الصوت للوحدات")
     b.add_argument("--unit", help="معرّف وحدة واحدة، مثل u0-01")
     b.add_argument("--dry-run", action="store_true", help="اعرض ما سيُولّد دون استدعاء الـ API")
