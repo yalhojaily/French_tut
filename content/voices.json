@@ -1,5 +1,5 @@
 {
-  "_comment": "ضع هنا معرّفات الأصوات (voice_id) من حسابك في ElevenLabs. شغّل: python tools/generate_audio.py voices لعرض الأصوات المتاحة في حسابك. اختر أصواتاً فرنسية أصلية من مكتبة الأصوات وأضفها إلى حسابك أولاً.",
+  "_comment": "معرّفات الأصوات (voice_id). في الخطة المجانية تعمل الأصوات الجاهزة (premade) فقط عبر الـ API: python tools/generate_audio.py voices --premade ثم جرّب الصوت بـ: python tools/generate_audio.py sample VOICE_ID. تغيير أي صوت يعيد توليد العناصر التي تستخدمه فقط.",
   "model_id": "eleven_multilingual_v2",
   "output_format": "mp3_44100_128",
   "slow_speed": 0.75,
