@@ -1,0 +1,1210 @@
+{
+  "id": "u0-07",
+  "stage": "0",
+  "title_fr": "Les nombres de 0 à 20",
+  "title_ar": "الأرقام من 0 إلى 20",
+  "goals_ar": [
+    "تعدّ من 0 إلى 20 وتفهم الأرقام حين تسمعها بسرعة",
+    "تقول عمرك وعمر غيرك: **J'ai vingt ans.**",
+    "تفهم رقم هاتف فرنسي يُقرأ **رقمين رقمين**: 06 15 17 08 20",
+    "تعرف أن **six** و **dix** و **huit** و **neuf** يتغيّر نطقها حسب ما بعدها"
+  ],
+  "intro_ar": [
+    "الأرقام من 0 إلى 16 كلمات مستقلة تُحفظ، ثم من 17 يبدأ التركيب: **dix-sept** = عشرة + سبعة. هذا أسهل من العربية!",
+    "الصعوبة الحقيقية في **السمع لا في الحفظ**: six (6) و seize (16)، و trois (3) و treize (13)، و deux (2) و douze (12) متقاربة جداً. لهذا معظم تمارين الوحدة استماع.",
+    "تنبيه: التقريب بالحروف العربية تحت كل رقم مساعدة أولى فقط. الأصوات الأنفية (un، cinq، quinze، vingt) لا تُكتب بالعربية، فاعتمد على أذنك.",
+    "وستلاحظ أن الأمثلة كلها **أعمار**، لأن الفرنسية تقول «عندي عشرون سنة»: **J'ai vingt ans**. وهذا يدرّبك على الوصل مع كل رقم."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: التسجيل في نادٍ رياضي",
+      "context_ar": "يوسف يسجّل ابنه في نادٍ رياضي. الموظفة تسأله عن العمر ورقم الهاتف. انتبه: الفرنسيون يقرؤون رقم الهاتف **رقمين رقمين**.",
+      "speakers": {
+        "A": {
+          "name_ar": "الموظفة",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Bonjour ! C'est pour une inscription ?",
+          "ar": "مرحباً! هل هذا من أجل تسجيل؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonjour !",
+              "مرحباً"
+            ],
+            [
+              "C'est",
+              "هذا"
+            ],
+            [
+              "pour",
+              "لـ"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "inscription ?",
+              "تسجيل"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Oui, pour mon fils. Il a douze ans.",
+          "ar": "نعم، لابني. عمره اثنتا عشرة سنة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "pour",
+              "لـ"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "fils.",
+              "ابن"
+            ],
+            [
+              "Il",
+              "هو"
+            ],
+            [
+              "a",
+              "عنده"
+            ],
+            [
+              "douze",
+              "اثنتا عشرة"
+            ],
+            [
+              "ans.",
+              "سنة"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Très bien. Votre numéro de téléphone, s'il vous plaît ?",
+          "ar": "حسناً جداً. رقم هاتفك، من فضلك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Très bien.",
+              "حسناً جداً"
+            ],
+            [
+              "Votre",
+              "ـكَ"
+            ],
+            [
+              "numéro",
+              "رقم"
+            ],
+            [
+              "de téléphone,",
+              "الهاتف"
+            ],
+            [
+              "s'il vous plaît ?",
+              "من فضلك"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "C'est le zéro six, quinze, dix-sept, zéro huit, vingt.",
+          "ar": "إنه 06 15 17 08 20.",
+          "slow": true,
+          "gloss": [
+            [
+              "C'est",
+              "هو"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "zéro six,",
+              "06"
+            ],
+            [
+              "quinze,",
+              "15"
+            ],
+            [
+              "dix-sept,",
+              "17"
+            ],
+            [
+              "zéro huit,",
+              "08"
+            ],
+            [
+              "vingt.",
+              "20"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Zéro six, quinze, dix-sept, zéro huit, vingt. Merci !",
+          "ar": "06 15 17 08 20. شكراً!",
+          "slow": true,
+          "gloss": [
+            [
+              "Zéro six,",
+              "06"
+            ],
+            [
+              "quinze,",
+              "15"
+            ],
+            [
+              "dix-sept,",
+              "17"
+            ],
+            [
+              "zéro huit,",
+              "08"
+            ],
+            [
+              "vingt.",
+              "20"
+            ],
+            [
+              "Merci !",
+              "شكراً"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Et le cours est à quelle heure ?",
+          "ar": "والدرس في أي ساعة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "cours",
+              "درس"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "à quelle heure ?",
+              "في أي ساعة"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Le mercredi, à seize heures. À bientôt !",
+          "ar": "يوم الأربعاء، الساعة الرابعة عصراً. إلى اللقاء قريباً!",
+          "slow": true,
+          "gloss": [
+            [
+              "Le mercredi,",
+              "يوم الأربعاء"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "seize",
+              "16"
+            ],
+            [
+              "heures.",
+              "الساعة"
+            ],
+            [
+              "À bientôt !",
+              "إلى اللقاء قريباً"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "الفرنسيون يستعملون نظام **24 ساعة** في المواعيد: **seize heures** = الساعة 16 = الرابعة عصراً. ورقم الهاتف دائماً عشرة أرقام تُقرأ أزواجاً، ويبدأ الجوال بـ **06** أو **07**."
+    },
+    {
+      "type": "letters",
+      "key": "numbers",
+      "short_ar": "الأرقام",
+      "title_ar": "الأرقام من 0 إلى 20",
+      "hint_ar": "اضغط على كل رقم لتسمعه، ثم استمع للمثال (العمر). النقطة الحمراء على الأرقام التي يتغيّر نطقها أو يكثر الخطأ فيها.",
+      "play_all_ar": "عُدّ من 0 إلى 20",
+      "items": [
+        {
+          "id": "n0",
+          "letter": "0",
+          "say": "zéro",
+          "ipa": "zeʁo",
+          "ar_hint": "زيغو",
+          "example": {
+            "id": "w-a0",
+            "say": "zéro euro",
+            "ar": "صفر يورو"
+          }
+        },
+        {
+          "id": "n1",
+          "letter": "1",
+          "say": "un",
+          "ipa": "ɛ̃",
+          "ar_hint": "أنْ (أنفي)",
+          "example": {
+            "id": "w-a1",
+            "say": "un an",
+            "ar": "سنة واحدة"
+          },
+          "note_ar": "**un** للمذكر و **une** «يُن» للمؤنث: un livre، une table. وهو أيضاً أداة النكرة.",
+          "tricky": true
+        },
+        {
+          "id": "n2",
+          "letter": "2",
+          "say": "deux",
+          "ipa": "dø",
+          "ar_hint": "دُو",
+          "example": {
+            "id": "w-a2",
+            "say": "deux ans",
+            "ar": "سنتان"
+          },
+          "note_ar": "الـ x صامتة، وتصبح «ز» في الوصل: deux‿ans «دُوزان»."
+        },
+        {
+          "id": "n3",
+          "letter": "3",
+          "say": "trois",
+          "ipa": "tʁwa",
+          "ar_hint": "تغوا",
+          "example": {
+            "id": "w-a3",
+            "say": "trois ans",
+            "ar": "3 سنوات"
+          },
+          "note_ar": "oi = «وا»، والـ s صامتة إلا في الوصل: trois‿ans «تغوازان»."
+        },
+        {
+          "id": "n4",
+          "letter": "4",
+          "say": "quatre",
+          "ipa": "katʁ",
+          "ar_hint": "كاتغ",
+          "example": {
+            "id": "w-a4",
+            "say": "quatre ans",
+            "ar": "4 سنوات"
+          },
+          "note_ar": "qu = «ك»، والـ e في الآخر صامتة."
+        },
+        {
+          "id": "n5",
+          "letter": "5",
+          "say": "cinq",
+          "ipa": "sɛ̃k",
+          "ar_hint": "سانك",
+          "example": {
+            "id": "w-a5",
+            "say": "cinq ans",
+            "ar": "5 سنوات"
+          },
+          "note_ar": "صوت أنفي ثم «ك» واضحة: cinq، cinq ans. (قبل حرف ساكن قد تسقط الـ k في الكلام السريع.)",
+          "tricky": true
+        },
+        {
+          "id": "n6",
+          "letter": "6",
+          "say": "six",
+          "ipa": "sis",
+          "ar_hint": "سيس",
+          "example": {
+            "id": "w-a6",
+            "say": "six ans",
+            "ar": "6 سنوات"
+          },
+          "note_ar": "**ثلاثة نطوق:** وحده «سيس»، قبل حرف علة «سيز» (six‿ans)، قبل حرف ساكن «سي» (six livres).",
+          "tricky": true
+        },
+        {
+          "id": "n7",
+          "letter": "7",
+          "say": "sept",
+          "ipa": "sɛt",
+          "ar_hint": "سيت",
+          "example": {
+            "id": "w-a7",
+            "say": "sept ans",
+            "ar": "7 سنوات"
+          },
+          "note_ar": "الـ p **صامتة** دائماً: «سيت» لا «سيبت».",
+          "tricky": true
+        },
+        {
+          "id": "n8",
+          "letter": "8",
+          "say": "huit",
+          "ipa": "ɥit",
+          "ar_hint": "ويت",
+          "example": {
+            "id": "w-a8",
+            "say": "huit ans",
+            "ar": "8 سنوات"
+          },
+          "note_ar": "ui بصوت u ثم «إي». الـ t تُنطق وحدها وقبل حرف علة، وقد تسقط قبل حرف ساكن: huit jours «ويجوغ».",
+          "tricky": true
+        },
+        {
+          "id": "n9",
+          "letter": "9",
+          "say": "neuf",
+          "ipa": "nœf",
+          "ar_hint": "نُف",
+          "example": {
+            "id": "w-a9",
+            "say": "neuf ans",
+            "ar": "9 سنوات"
+          },
+          "note_ar": "الـ f تصبح **«ڤ»** قبل ans و heures فقط: neuf‿ans «نُڤان»، neuf‿heures.",
+          "tricky": true
+        },
+        {
+          "id": "n10",
+          "letter": "10",
+          "say": "dix",
+          "ipa": "dis",
+          "ar_hint": "ديس",
+          "example": {
+            "id": "w-a10",
+            "say": "dix ans",
+            "ar": "10 سنوات"
+          },
+          "note_ar": "مثل six تماماً: «ديس» وحده، «ديز» قبل حرف علة، «دي» قبل حرف ساكن.",
+          "tricky": true
+        },
+        {
+          "id": "n11",
+          "letter": "11",
+          "say": "onze",
+          "ipa": "ɔ̃z",
+          "ar_hint": "أونز",
+          "example": {
+            "id": "w-a11",
+            "say": "onze ans",
+            "ar": "11 سنة"
+          },
+          "note_ar": "صوت on أنفي ثم «ز». ولا يُحذف قبله: **le onze** (لا l'onze)."
+        },
+        {
+          "id": "n12",
+          "letter": "12",
+          "say": "douze",
+          "ipa": "duz",
+          "ar_hint": "دوز",
+          "example": {
+            "id": "w-a12",
+            "say": "douze ans",
+            "ar": "12 سنة"
+          },
+          "note_ar": "لا تخلطه مع deux (2): douze فيه صوت ou و «ز» في الآخر."
+        },
+        {
+          "id": "n13",
+          "letter": "13",
+          "say": "treize",
+          "ipa": "tʁɛz",
+          "ar_hint": "تغيز",
+          "example": {
+            "id": "w-a13",
+            "say": "treize ans",
+            "ar": "13 سنة"
+          },
+          "note_ar": "لا تخلطه مع trois (3): treize ينتهي بـ «ز» واضحة."
+        },
+        {
+          "id": "n14",
+          "letter": "14",
+          "say": "quatorze",
+          "ipa": "katɔʁz",
+          "ar_hint": "كاتورز",
+          "example": {
+            "id": "w-a14",
+            "say": "quatorze ans",
+            "ar": "14 سنة"
+          }
+        },
+        {
+          "id": "n15",
+          "letter": "15",
+          "say": "quinze",
+          "ipa": "kɛ̃z",
+          "ar_hint": "كانز",
+          "example": {
+            "id": "w-a15",
+            "say": "quinze ans",
+            "ar": "15 سنة"
+          },
+          "note_ar": "qu = «ك» ثم صوت in الأنفي ثم «ز». لا تخلطه مع cinq (5).",
+          "tricky": true
+        },
+        {
+          "id": "n16",
+          "letter": "16",
+          "say": "seize",
+          "ipa": "sɛz",
+          "ar_hint": "سيز",
+          "example": {
+            "id": "w-a16",
+            "say": "seize ans",
+            "ar": "16 سنة"
+          },
+          "note_ar": "لا تخلطه مع six (6): seize فيه صوت è و «ز» في الآخر."
+        },
+        {
+          "id": "n17",
+          "letter": "17",
+          "say": "dix-sept",
+          "ipa": "disɛt",
+          "ar_hint": "ديسيت",
+          "example": {
+            "id": "w-a17",
+            "say": "dix-sept ans",
+            "ar": "17 سنة"
+          },
+          "note_ar": "من هنا يبدأ التركيب: **dix-sept** = عشرة + سبعة. تُكتب بشَرطة."
+        },
+        {
+          "id": "n18",
+          "letter": "18",
+          "say": "dix-huit",
+          "ipa": "dizɥit",
+          "ar_hint": "ديزويت",
+          "example": {
+            "id": "w-a18",
+            "say": "dix-huit ans",
+            "ar": "18 سنة"
+          },
+          "note_ar": "dix + huit، والـ x تصبح «ز» لأن huit يبدأ بحرف علة: «ديزويت».",
+          "tricky": true
+        },
+        {
+          "id": "n19",
+          "letter": "19",
+          "say": "dix-neuf",
+          "ipa": "diznœf",
+          "ar_hint": "ديزنُف",
+          "example": {
+            "id": "w-a19",
+            "say": "dix-neuf ans",
+            "ar": "19 سنة"
+          },
+          "note_ar": "dix + neuf، والـ x تُنطق «ز»: «ديزنُف».",
+          "tricky": true
+        },
+        {
+          "id": "n20",
+          "letter": "20",
+          "say": "vingt",
+          "ipa": "vɛ̃",
+          "ar_hint": "ڤان",
+          "example": {
+            "id": "w-a20",
+            "say": "vingt ans",
+            "ar": "20 سنة"
+          },
+          "note_ar": "صوت in الأنفي، والـ g و t **صامتتان**. لكن الـ t تظهر في الوصل: vingt‿ans «ڤانتان».",
+          "tricky": true
+        }
+      ]
+    },
+    {
+      "type": "accents",
+      "key": "rules",
+      "short_ar": "تغيّر النطق",
+      "title_ar": "أرقام يتغيّر نطقها",
+      "hint_ar": "بعض الأرقام لها أكثر من نطق حسب الكلمة التي بعدها. استمع لكل مثال وكرّره.",
+      "items": [
+        {
+          "id": "r-six",
+          "mark": "6 10",
+          "name_fr": "six / dix",
+          "say": "six, six ans, six livres.",
+          "name_ar": "ثلاثة نطوق",
+          "effect_ar": "**وحده:** «سيس»، «ديس». **قبل حرف علة:** «سيز»، «ديز» (six‿ans). **قبل حرف ساكن:** «سي»، «دي» (six livres).",
+          "examples": [
+            {
+              "id": "w-six",
+              "say": "six",
+              "ar": "6"
+            },
+            {
+              "id": "w-six-euros",
+              "say": "six euros",
+              "ar": "6 يورو"
+            },
+            {
+              "id": "w-six-livres",
+              "say": "six livres",
+              "ar": "6 كتب"
+            },
+            {
+              "id": "w-dix",
+              "say": "dix",
+              "ar": "10"
+            },
+            {
+              "id": "w-dix-euros",
+              "say": "dix euros",
+              "ar": "10 يورو"
+            },
+            {
+              "id": "w-dix-jours",
+              "say": "dix jours",
+              "ar": "10 أيام"
+            }
+          ]
+        },
+        {
+          "id": "r-neuf",
+          "mark": "9",
+          "name_fr": "neuf",
+          "say": "neuf, neuf ans.",
+          "name_ar": "f تصبح ڤ",
+          "effect_ar": "الـ f تُنطق «ڤ» **فقط** قبل ans و heures: neuf‿ans، neuf‿heures. وفي غيرهما تبقى «ف»: neuf euros.",
+          "examples": [
+            {
+              "id": "w-neuf",
+              "say": "neuf",
+              "ar": "9"
+            },
+            {
+              "id": "w-neuf-heures",
+              "say": "neuf heures",
+              "ar": "الساعة 9"
+            },
+            {
+              "id": "w-neuf-euros",
+              "say": "neuf euros",
+              "ar": "9 يورو"
+            }
+          ]
+        },
+        {
+          "id": "r-huit",
+          "mark": "8",
+          "name_fr": "huit",
+          "say": "huit, huit heures.",
+          "name_ar": "t تسقط أحياناً",
+          "effect_ar": "الـ t تُنطق وحده وقبل حرف علة (huit‿heures)، وتسقط غالباً قبل حرف ساكن (huit jours «ويجوغ»).",
+          "examples": [
+            {
+              "id": "w-huit",
+              "say": "huit",
+              "ar": "8"
+            },
+            {
+              "id": "w-huit-heures",
+              "say": "huit heures",
+              "ar": "الساعة 8"
+            },
+            {
+              "id": "w-huit-jours",
+              "say": "huit jours",
+              "ar": "8 أيام"
+            }
+          ]
+        },
+        {
+          "id": "r-vingt",
+          "mark": "20",
+          "name_fr": "vingt",
+          "say": "vingt, vingt ans.",
+          "name_ar": "t نائمة",
+          "effect_ar": "«ڤان» وحده وقبل حرف ساكن. والـ t **تستيقظ** قبل حرف علة: vingt‿ans «ڤانتان»، vingt‿euros.",
+          "examples": [
+            {
+              "id": "w-vingt",
+              "say": "vingt",
+              "ar": "20"
+            },
+            {
+              "id": "w-vingt-euros",
+              "say": "vingt euros",
+              "ar": "20 يورو"
+            },
+            {
+              "id": "w-vingt-livres",
+              "say": "vingt livres",
+              "ar": "20 كتاباً"
+            }
+          ]
+        },
+        {
+          "id": "r-17",
+          "mark": "17 18 19",
+          "name_fr": "dix-sept, dix-huit, dix-neuf",
+          "say": "dix-sept, dix-huit, dix-neuf.",
+          "name_ar": "عشرة + الرقم",
+          "effect_ar": "التركيب بسيط: **dix-sept** = 10 + 7. لاحظ الـ x: «س» في dix-sept، و«ز» في dix-huit و dix-neuf.",
+          "examples": [
+            {
+              "id": "w-17",
+              "say": "dix-sept",
+              "ar": "17"
+            },
+            {
+              "id": "w-18",
+              "say": "dix-huit",
+              "ar": "18"
+            },
+            {
+              "id": "w-19",
+              "say": "dix-neuf",
+              "ar": "19"
+            }
+          ]
+        },
+        {
+          "id": "r-un",
+          "mark": "1",
+          "name_fr": "un / une",
+          "say": "un livre, une table.",
+          "name_ar": "مذكر ومؤنث",
+          "effect_ar": "الرقم 1 الوحيد الذي له مؤنث: **un** «أنْ» (أنفي) و **une** «يُن» (النون منطوقة). ومع حرف علة: un‿an «أنْنان».",
+          "examples": [
+            {
+              "id": "w-un-livre",
+              "say": "un livre",
+              "ar": "كتاب واحد"
+            },
+            {
+              "id": "w-une-table",
+              "say": "une table",
+              "ar": "طاولة واحدة"
+            },
+            {
+              "id": "w-une-heure",
+              "say": "une heure",
+              "ar": "ساعة واحدة"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: أي رقم تسمع؟",
+      "hint_ar": "أرقام متشابهة في السمع. استمع لنهاية الكلمة: هل فيها «ز»؟ هذا غالباً الفرق بين الرقم وأخيه في العشرات.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر الرقم",
+      "start_ar": "كل سؤال: تسمع رقماً وتختاره.",
+      "items": [
+        {
+          "id": "q-13",
+          "say": "treize",
+          "options": [
+            "3",
+            "13"
+          ],
+          "answer": "13",
+          "explain_ar": "treize: ينتهي بـ «ز»."
+        },
+        {
+          "id": "q-3",
+          "say": "trois",
+          "options": [
+            "3",
+            "13"
+          ],
+          "answer": "3",
+          "explain_ar": "trois «تغوا»: صوت «وا» بلا «ز»."
+        },
+        {
+          "id": "q-16",
+          "say": "seize",
+          "options": [
+            "6",
+            "16"
+          ],
+          "answer": "16",
+          "explain_ar": "seize «سيز»: صوت è ثم «ز»."
+        },
+        {
+          "id": "q-12",
+          "say": "douze",
+          "options": [
+            "2",
+            "12"
+          ],
+          "answer": "12",
+          "explain_ar": "douze «دوز»: ينتهي بـ «ز»."
+        },
+        {
+          "id": "q-14",
+          "say": "quatorze",
+          "options": [
+            "4",
+            "14"
+          ],
+          "answer": "14",
+          "explain_ar": "quatorze: أطول، وينتهي بـ «ز»."
+        },
+        {
+          "id": "q-15",
+          "say": "quinze",
+          "options": [
+            "5",
+            "15"
+          ],
+          "answer": "15",
+          "explain_ar": "quinze «كانز»: يبدأ بـ «ك» وينتهي بـ «ز»."
+        },
+        {
+          "id": "q-17",
+          "say": "dix-sept",
+          "options": [
+            "7",
+            "17"
+          ],
+          "answer": "17",
+          "explain_ar": "dix-sept: سمعت «ديس» قبل sept."
+        },
+        {
+          "id": "q-18",
+          "say": "dix-huit",
+          "options": [
+            "8",
+            "18"
+          ],
+          "answer": "18",
+          "explain_ar": "dix-huit «ديزويت»."
+        },
+        {
+          "id": "q-6",
+          "say": "six",
+          "options": [
+            "6",
+            "10",
+            "16"
+          ],
+          "answer": "6",
+          "explain_ar": "six «سيس»: يبدأ بـ «س»."
+        },
+        {
+          "id": "q-10",
+          "say": "dix",
+          "options": [
+            "6",
+            "10",
+            "16"
+          ],
+          "answer": "10",
+          "explain_ar": "dix «ديس»: يبدأ بـ «د»."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب الرقم بالحروف",
+      "hint_ar": "الرقم ظاهر، استمع لنطقه واكتبه بالحروف الفرنسية. لا تنسَ الشَّرطة في 17 و 18 و 19.",
+      "prompt_ar": "استمع واكتب الرقم بالحروف",
+      "show_meaning": true,
+      "result_ar": "تذكّر الحروف الصامتة: **sept** (p صامتة)، **vingt** (g و t صامتتان)، **deux** (x صامتة).",
+      "items": [
+        {
+          "id": "s-3",
+          "say": "trois",
+          "answer": "trois",
+          "ar": "3"
+        },
+        {
+          "id": "s-4",
+          "say": "quatre",
+          "answer": "quatre",
+          "ar": "4"
+        },
+        {
+          "id": "s-7",
+          "say": "sept",
+          "answer": "sept",
+          "ar": "7"
+        },
+        {
+          "id": "s-11",
+          "say": "onze",
+          "answer": "onze",
+          "ar": "11"
+        },
+        {
+          "id": "s-12",
+          "say": "douze",
+          "answer": "douze",
+          "ar": "12"
+        },
+        {
+          "id": "s-15",
+          "say": "quinze",
+          "answer": "quinze",
+          "ar": "15"
+        },
+        {
+          "id": "s-18",
+          "say": "dix-huit",
+          "answer": "dix-huit",
+          "ar": "18"
+        },
+        {
+          "id": "s-20",
+          "say": "vingt",
+          "answer": "vingt",
+          "ar": "20"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل للعمر والهاتف والمواعيد والأسعار. ابدأ بالبطيئة، وانتبه للوصل بين الرقم و ans أو heures.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "J'ai vingt ans.",
+          "ar": "عمري عشرون سنة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "J'ai",
+              "عندي"
+            ],
+            [
+              "vingt",
+              "20"
+            ],
+            [
+              "ans.",
+              "سنة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Il a douze ans.",
+          "ar": "عمره اثنتا عشرة سنة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Il",
+              "هو"
+            ],
+            [
+              "a",
+              "عنده"
+            ],
+            [
+              "douze",
+              "12"
+            ],
+            [
+              "ans.",
+              "سنة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Mon numéro, c'est le zéro six, onze, quinze, dix-neuf, vingt.",
+          "ar": "رقمي هو 06 11 15 19 20.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "numéro,",
+              "رقم"
+            ],
+            [
+              "c'est",
+              "هو"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "zéro six,",
+              "06"
+            ],
+            [
+              "onze,",
+              "11"
+            ],
+            [
+              "quinze,",
+              "15"
+            ],
+            [
+              "dix-neuf,",
+              "19"
+            ],
+            [
+              "vingt.",
+              "20"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Le cours est à seize heures.",
+          "ar": "الدرس الساعة الرابعة عصراً.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Le",
+              "الـ"
+            ],
+            [
+              "cours",
+              "درس"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "seize",
+              "16"
+            ],
+            [
+              "heures.",
+              "الساعة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Ça fait dix-huit euros.",
+          "ar": "المجموع ثمانية عشر يورو.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Ça fait",
+              "المجموع"
+            ],
+            [
+              "dix-huit",
+              "18"
+            ],
+            [
+              "euros.",
+              "يورو"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: سجّل نفسك تقول **رقم هاتفك** بالفرنسية رقمين رقمين، ثم **عمرك**: J'ai … ans."
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "على الوجه رقم: قله بالفرنسية بصوت عالٍ قبل أن تكشف الجواب وتستمع.",
+      "cards": [
+        {
+          "id": "c0",
+          "front": "0",
+          "say": "zéro",
+          "back_ar": "zéro «زيغو»"
+        },
+        {
+          "id": "c1",
+          "front": "1",
+          "say": "un",
+          "back_ar": "un «أنْ (أنفي)»"
+        },
+        {
+          "id": "c2",
+          "front": "2",
+          "say": "deux",
+          "back_ar": "deux «دُو»"
+        },
+        {
+          "id": "c3",
+          "front": "3",
+          "say": "trois",
+          "back_ar": "trois «تغوا»"
+        },
+        {
+          "id": "c4",
+          "front": "4",
+          "say": "quatre",
+          "back_ar": "quatre «كاتغ»"
+        },
+        {
+          "id": "c5",
+          "front": "5",
+          "say": "cinq",
+          "back_ar": "cinq «سانك»"
+        },
+        {
+          "id": "c6",
+          "front": "6",
+          "say": "six",
+          "back_ar": "six «سيس»"
+        },
+        {
+          "id": "c7",
+          "front": "7",
+          "say": "sept",
+          "back_ar": "sept «سيت»"
+        },
+        {
+          "id": "c8",
+          "front": "8",
+          "say": "huit",
+          "back_ar": "huit «ويت»"
+        },
+        {
+          "id": "c9",
+          "front": "9",
+          "say": "neuf",
+          "back_ar": "neuf «نُف»"
+        },
+        {
+          "id": "c10",
+          "front": "10",
+          "say": "dix",
+          "back_ar": "dix «ديس»"
+        },
+        {
+          "id": "c11",
+          "front": "11",
+          "say": "onze",
+          "back_ar": "onze «أونز»"
+        },
+        {
+          "id": "c12",
+          "front": "12",
+          "say": "douze",
+          "back_ar": "douze «دوز»"
+        },
+        {
+          "id": "c13",
+          "front": "13",
+          "say": "treize",
+          "back_ar": "treize «تغيز»"
+        },
+        {
+          "id": "c14",
+          "front": "14",
+          "say": "quatorze",
+          "back_ar": "quatorze «كاتورز»"
+        },
+        {
+          "id": "c15",
+          "front": "15",
+          "say": "quinze",
+          "back_ar": "quinze «كانز»"
+        },
+        {
+          "id": "c16",
+          "front": "16",
+          "say": "seize",
+          "back_ar": "seize «سيز»"
+        },
+        {
+          "id": "c17",
+          "front": "17",
+          "say": "dix-sept",
+          "back_ar": "dix-sept «ديسيت»"
+        },
+        {
+          "id": "c18",
+          "front": "18",
+          "say": "dix-huit",
+          "back_ar": "dix-huit «ديزويت»"
+        },
+        {
+          "id": "c19",
+          "front": "19",
+          "say": "dix-neuf",
+          "back_ar": "dix-neuf «ديزنُف»"
+        },
+        {
+          "id": "c20",
+          "front": "20",
+          "say": "vingt",
+          "back_ar": "vingt «ڤان»"
+        },
+        {
+          "id": "c-age",
+          "front": "Quel âge avez-vous ?",
+          "say": "Quel âge avez-vous ?",
+          "back_ar": "كم عمرك؟"
+        },
+        {
+          "id": "c-jai-ans",
+          "front": "J'ai … ans.",
+          "say": "J'ai vingt ans.",
+          "back_ar": "عمري … سنة."
+        },
+        {
+          "id": "c-numero",
+          "front": "le numéro de téléphone",
+          "say": "le numéro de téléphone",
+          "back_ar": "رقم الهاتف"
+        }
+      ]
+    }
+  ]
+}
