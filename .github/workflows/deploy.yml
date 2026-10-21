@@ -19,7 +19,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # نبدأ من أحدث main لا من الـ commit الذي أطلق التشغيل: إن انتظر تشغيلٌ دوره
+      # خلف تشغيل آخر ولّد الصوت ورفعه، يجد الصوت جاهزاً فلا يولّده (ولا يدفع ثمنه) مرة ثانية.
       - uses: actions/checkout@v5
+        with:
+          ref: main
 
       - name: Check content (glosses, ids)
         run: python3 tools/check_content.py
