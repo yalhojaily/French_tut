@@ -20,7 +20,18 @@ export interface PlayOptions {
   onChar?: (charIndex: number) => void;
 }
 
+import { load, save } from "./store";
+
 const BASE = import.meta.env.BASE_URL;
+
+/** مصدر الصوت: الملفات المولّدة (ElevenLabs) أو صوت المتصفح الفرنسي */
+export type AudioSource = "generated" | "browser";
+let source: AudioSource = load<AudioSource>("audioSource", "generated");
+export const getSource = () => source;
+export function setSource(next: AudioSource) {
+  source = next;
+  save("audioSource", next);
+}
 let manifest: Record<string, ManifestEntry> = {};
 let stopCurrent: (() => void) | null = null;
 
@@ -48,7 +59,7 @@ export function play(unitId: string, item: Speakable, opts: PlayOptions = {}): P
   const key = `${unitId}:${item.id}`;
   const slowEntry = opts.slow ? manifest[key + "@slow"] : undefined;
   const entry = slowEntry ?? manifest[key];
-  if (entry && entry.text === item.say) {
+  if (source === "generated" && entry && entry.text === item.say) {
     // لا توجد نسخة بطيئة مولّدة؟ نبطّئ النسخة العادية في المتصفح
     const rate = opts.slow && !slowEntry ? 0.75 : 1;
     return playFile(entry, rate, opts.onChar);

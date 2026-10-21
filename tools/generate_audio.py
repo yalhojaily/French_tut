@@ -114,6 +114,10 @@ def collect_items(unit: dict, cfg: dict) -> list[Item]:
 def fingerprint(item: Item, voice_id: str, cfg: dict) -> str:
     raw = "|".join([item.text, voice_id, cfg["model_id"], f"{item.speed:.2f}",
                     json.dumps(cfg.get("voice_settings", {}), sort_keys=True)])
+    # اللغة والسياق جزء من البصمة: تغييرهما يعيد التوليد
+    extra = [cfg.get("language_code") or "", context_for(item.text, cfg)]
+    if any(extra):
+        raw += "|" + "|".join(extra)
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
 
 
@@ -148,10 +152,23 @@ def api_request(method: str, path: str, api_key: str, body: dict | None = None,
     raise RuntimeError("unreachable")
 
 
+def context_for(text: str, cfg: dict) -> str:
+    """نص قصير جداً (حرف أو كلمة) يُسبق بسياق فرنسي غير منطوق حتى لا يُقرأ بالإنجليزية."""
+    ctx = cfg.get("short_text_context") or ""
+    limit = int(cfg.get("short_text_max_chars", 12))
+    return ctx if ctx and len(text) <= limit else ""
+
+
 def synthesize(item: Item, voice_id: str, cfg: dict, api_key: str) -> tuple[bytes, dict]:
     settings = dict(cfg.get("voice_settings", {}))
     settings["speed"] = item.speed
     body = {"text": item.text, "model_id": cfg["model_id"], "voice_settings": settings}
+    # فرض اللغة الفرنسية (لا يدعمه نموذج multilingual_v2)
+    if cfg.get("language_code") and "multilingual_v2" not in cfg["model_id"]:
+        body["language_code"] = cfg["language_code"]
+    ctx = context_for(item.text, cfg)
+    if ctx:
+        body["previous_text"] = ctx
     resp = api_request("POST", f"/text-to-speech/{voice_id}/with-timestamps", api_key,
                        body, query=f"?output_format={cfg.get('output_format', 'mp3_44100_128')}")
     audio = base64.b64decode(resp["audio_base64"])
@@ -186,9 +203,11 @@ def cmd_sample(args):
     """يولّد جملة تجريبية بصوت واحد لتسمعه قبل اعتماده (نحو 90 حرفاً)."""
     cfg = load_config()
     api_key = load_api_key()
+    if args.model:
+        cfg["model_id"] = args.model
     item = Item("sample", args.text, "sample", 1.0)
     audio, _ = synthesize(item, args.voice_id, cfg, api_key)
-    out = ROOT / f"sample_{args.voice_id[:8]}.mp3"
+    out = ROOT / f"sample_{args.voice_id[:8]}_{cfg['model_id']}.mp3"
     out.write_bytes(audio)
     print(f"احفظ واستمع: {out.name}  ({len(args.text)} حرفاً)")
 
@@ -287,7 +306,8 @@ def main():
     v.set_defaults(func=cmd_voices)
     sm = sub.add_parser("sample", help="جملة تجريبية بصوت واحد قبل اعتماده")
     sm.add_argument("voice_id")
-    sm.add_argument("--text", default="Bonjour ! Je m'appelle Youssef. Ça s'écrit I grec, O, U, deux S, E, F. Merci beaucoup !")
+    sm.add_argument("--text", default="a, bé, cé, dé, e, effe, gé, hache, i, ji, u, i grec. Bonjour, je m'appelle Youssef.")
+    sm.add_argument("--model", help="جرّب نموذجاً آخر دون تغيير voices.json")
     sm.set_defaults(func=cmd_sample)
     b = sub.add_parser("build", help="توليد الصوت للوحدات")
     b.add_argument("--unit", help="معرّف وحدة واحدة، مثل u0-01")

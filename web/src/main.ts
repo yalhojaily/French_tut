@@ -1,5 +1,5 @@
 import "./styles.css";
-import { loadManifest, stop } from "./audio";
+import { getSource, loadManifest, setSource, stop } from "./audio";
 import { clear, h } from "./dom";
 import { deckStats } from "./srs";
 import { renderHome } from "./views/home";
@@ -9,6 +9,19 @@ import { renderUnit } from "./views/unit";
 const app = document.getElementById("app")!;
 
 const reviewLink = h("a", { href: "#/review", class: "nav-review" }, "المراجعة");
+const sourceBtn = h("button", { type: "button", class: "source-btn" }) as HTMLButtonElement;
+const renderSource = () => {
+  const browser = getSource() === "browser";
+  sourceBtn.textContent = browser ? "الصوت: المتصفح" : "الصوت: ElevenLabs";
+  sourceBtn.title = browser ? "اضغط لاستخدام ملفات ElevenLabs" : "اضغط لاستخدام صوت المتصفح الفرنسي";
+  sourceBtn.setAttribute("aria-pressed", String(browser));
+};
+sourceBtn.addEventListener("click", () => {
+  stop();
+  setSource(getSource() === "browser" ? "generated" : "browser");
+  renderSource();
+});
+renderSource();
 const header = h(
   "div",
   { class: "topbar" },
@@ -16,7 +29,7 @@ const header = h(
     h("span", { class: "brand-plaque", lang: "fr", dir: "ltr" }, "Fr"),
     h("span", null, "الفرنسية من الصفر"),
   ),
-  reviewLink,
+  h("div", { class: "topbar-actions" }, sourceBtn, reviewLink),
 );
 const view = h("div", { class: "view" });
 app.append(header, view);

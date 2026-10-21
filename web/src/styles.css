@@ -486,3 +486,16 @@ a.station-body:hover { border-color: var(--line); }
 .glossed .chunk:not(.no-gloss):hover .ws { text-decoration: underline dotted var(--muted); text-underline-offset: 4px; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .glossed .g { color: var(--ok); } }
 @media (prefers-reduced-motion: reduce) { .glossed .g { transition: none; } }
+
+.topbar-actions { display: flex; align-items: center; gap: 14px; }
+.source-btn {
+  font-size: .82rem; padding: 4px 12px; border-radius: 16px; cursor: pointer;
+  border: 1.5px solid var(--mist); background: var(--surface); color: var(--muted);
+}
+.source-btn:hover { border-color: var(--enamel); color: var(--ink); }
+.source-btn[aria-pressed="true"] { border-color: var(--line-a1); color: var(--ink); }
+.source-btn { white-space: nowrap; }
+@media (max-width: 480px) {
+  .brand span:last-child { display: none; }
+  .topbar-actions { gap: 10px; }
+}

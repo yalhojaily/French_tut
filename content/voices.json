@@ -1,6 +1,11 @@
 {
   "_comment": "معرّفات الأصوات (voice_id). في الخطة المجانية تعمل الأصوات الجاهزة (premade) فقط عبر الـ API: python tools/generate_audio.py voices --premade ثم جرّب الصوت بـ: python tools/generate_audio.py sample VOICE_ID. تغيير أي صوت يعيد توليد العناصر التي تستخدمه فقط.",
-  "model_id": "eleven_multilingual_v2",
+  "model_id": "eleven_flash_v2_5",
+  "language_code": "fr",
+  "_language_code": "يفرض النطق الفرنسي حتى مع أصوات إنجليزية. يعمل مع eleven_flash_v2_5 (ونصف تكلفة multilingual_v2) ولا يعمل مع multilingual_v2.",
+  "short_text_context": "Voici, en français :",
+  "short_text_max_chars": 12,
+  "_short_text_context": "سياق فرنسي غير منطوق يُرسل قبل النصوص القصيرة (الحروف والكلمات المنفردة) حتى لا تُقرأ بالإنجليزية.",
   "output_format": "mp3_44100_128",
   "slow_speed": 0.75,
   "voice_settings": {
