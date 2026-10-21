@@ -243,6 +243,9 @@ def cmd_build(args):
     chars = sum(len(p[0].text) for p in {p[2]: p for p in todo}.values())
 
     print(f"العناصر: {len(plan)} | تحتاج توليداً: {len(todo)} | عدد الحروف المرسلة: {chars}")
+    if args.max_chars and chars > args.max_chars and not args.dry_run:
+        sys.exit(f"توقّف: {chars} حرفاً أكثر من الحد المسموح ({args.max_chars}). "
+                 "إن كان هذا مقصوداً (مثل تغيير الأصوات)، شغّل التوليد يدوياً أو ارفع الحد.")
     if args.dry_run:
         for item, _, rel in todo:
             print(f"  · {item.key:24} [{item.voice}, {item.speed}] {item.text}")
@@ -314,6 +317,7 @@ def main():
     b.add_argument("--dry-run", action="store_true", help="اعرض ما سيُولّد دون استدعاء الـ API")
     b.add_argument("--force", action="store_true", help="أعد توليد كل شيء")
     b.add_argument("--prune", action="store_true", help="احذف الملفات غير المستخدمة")
+    b.add_argument("--max-chars", type=int, default=0, help="أوقف التوليد إن تجاوز عدد الحروف هذا الحد (حماية للرصيد)")
     b.set_defaults(func=cmd_build)
     args = parser.parse_args()
     args.func(args)

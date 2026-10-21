@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build audio and deploy
 
 on:
   push:
@@ -6,32 +6,57 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write   # لرفع ملفات الصوت المولّدة
   pages: write
   id-token: write
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  # لا نلغي تشغيلاً جارياً: قد يكون في منتصف توليد صوت مدفوع
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: web
     steps:
       - uses: actions/checkout@v5
+
       - name: Check content (glosses, ids)
         run: python3 tools/check_content.py
-        working-directory: .
+
+      # يولّد صوت ElevenLabs لما هو جديد فقط، إن كان المفتاح محفوظاً في Secrets
+      - name: Generate missing audio
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          if [ -z "$ELEVENLABS_API_KEY" ]; then
+            echo "::notice::ELEVENLABS_API_KEY غير موجود في Secrets: تخطّي التوليد (الموقع يستخدم صوت المتصفح للعناصر الجديدة)."
+            exit 0
+          fi
+          python3 tools/generate_audio.py build --prune --max-chars 15000
+
+      - name: Commit generated audio
+        run: |
+          git add -A web/public/audio
+          if git diff --cached --quiet; then
+            echo "لا يوجد صوت جديد."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Generate audio [automated]"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
       - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
           cache-dependency-path: web/package-lock.json
       - run: npm ci
+        working-directory: web
       - run: npm run build
+        working-directory: web
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web/dist
