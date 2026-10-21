@@ -26,13 +26,20 @@
         "B": { "name_ar": "الزبونة", "voice": "female" }
       },
       "lines": [
-        { "id": "d1", "speaker": "A", "say": "Bonjour, madame ! Vous désirez ?", "ar": "صباح الخير سيدتي! ماذا تريدين؟", "slow": true },
-        { "id": "d2", "speaker": "B", "say": "Un café, s'il vous plaît. Et vous avez du jus ?", "ar": "قهوة من فضلك. وهل عندكم عصير؟", "slow": true },
-        { "id": "d3", "speaker": "A", "say": "Oui, du jus d'orange. C'est tout ?", "ar": "نعم، عصير برتقال. هل هذا كل شيء؟", "slow": true },
-        { "id": "d4", "speaker": "B", "say": "Oui, c'est tout. Merci.", "ar": "نعم، هذا كل شيء. شكراً.", "slow": true },
-        { "id": "d5", "speaker": "A", "say": "Alors, un café et un jus. Deux euros cinquante.", "ar": "إذن، قهوة وعصير. يورويان وخمسون سنتاً.", "slow": true },
-        { "id": "d6", "speaker": "B", "say": "Voilà. Merci beaucoup !", "ar": "تفضّل. شكراً جزيلاً!", "slow": true },
-        { "id": "d7", "speaker": "A", "say": "Merci à vous. Bonne journée !", "ar": "الشكر لكِ. يوماً سعيداً!", "slow": true }
+        { "id": "d1", "speaker": "A", "say": "Bonjour, madame ! Vous désirez ?", "ar": "صباح الخير سيدتي! ماذا تريدين؟", "slow": true,
+          "gloss": [["Bonjour,", "صباح الخير"], ["madame !", "سيدتي"], ["Vous", "حضرتكِ"], ["désirez ?", "تريدين"]] },
+        { "id": "d2", "speaker": "B", "say": "Un café, s'il vous plaît. Et vous avez du jus ?", "ar": "قهوة من فضلك. وهل عندكم عصير؟", "slow": true,
+          "gloss": [["Un", "(نكرة)"], ["café,", "قهوة"], ["s'il vous plaît.", "من فضلك"], ["Et", "و"], ["vous", "أنتم"], ["avez", "عندكم"], ["du", "(بعض)"], ["jus ?", "عصير"]] },
+        { "id": "d3", "speaker": "A", "say": "Oui, du jus d'orange. C'est tout ?", "ar": "نعم، عصير برتقال. هل هذا كل شيء؟", "slow": true,
+          "gloss": [["Oui,", "نعم"], ["du", "(بعض)"], ["jus", "عصير"], ["d'orange.", "برتقال"], ["C'est", "هذا"], ["tout ?", "كل شيء"]] },
+        { "id": "d4", "speaker": "B", "say": "Oui, c'est tout. Merci.", "ar": "نعم، هذا كل شيء. شكراً.", "slow": true,
+          "gloss": [["Oui,", "نعم"], ["c'est", "هذا"], ["tout.", "كل شيء"], ["Merci.", "شكراً"]] },
+        { "id": "d5", "speaker": "A", "say": "Alors, un café et un jus. Deux euros cinquante.", "ar": "إذن، قهوة وعصير. يورويان وخمسون سنتاً.", "slow": true,
+          "gloss": [["Alors,", "إذن"], ["un", "(نكرة)"], ["café", "قهوة"], ["et", "و"], ["un", "(نكرة)"], ["jus.", "عصير"], ["Deux", "اثنان"], ["euros", "يورو"], ["cinquante.", "خمسون"]] },
+        { "id": "d6", "speaker": "B", "say": "Voilà. Merci beaucoup !", "ar": "تفضّل. شكراً جزيلاً!", "slow": true,
+          "gloss": [["Voilà.", "تفضّل"], ["Merci", "شكراً"], ["beaucoup !", "كثيراً"]] },
+        { "id": "d7", "speaker": "A", "say": "Merci à vous. Bonne journée !", "ar": "الشكر لكِ. يوماً سعيداً!", "slow": true,
+          "gloss": [["Merci", "شكراً"], ["à vous.", "لكِ"], ["Bonne", "سعيد"], ["journée !", "يوم"]] }
       ],
       "tip_ar": "أشهر خطأ للعربي في هذا الحوار: نطق **du** «دو» فتصبح **doux** (ناعم). استمع جيداً: في du الشفتان مستديرتان لكن اللسان في الأمام كأنك تقول «إي»."
     },
@@ -163,11 +170,16 @@
       "title_ar": "الترديد (Shadowing)",
       "hint_ar": "جمل قصيرة مليئة بالأصوات التي تعلمتها. ابدأ بالنسخة البطيئة، وراقب شفتيك في المرآة مع u و eu.",
       "items": [
-        { "id": "sh-1", "say": "Tu as vu la rue ?", "ar": "هل رأيتَ الشارع؟", "slow": true, "voice": "female" },
-        { "id": "sh-2", "say": "Vous êtes où ?", "ar": "أين أنتم؟", "slow": true, "voice": "male" },
-        { "id": "sh-3", "say": "Deux cafés, s'il vous plaît.", "ar": "قهوتان، من فضلك.", "slow": true, "voice": "female" },
-        { "id": "sh-4", "say": "Le jus est sur la table.", "ar": "العصير على الطاولة.", "slow": true, "voice": "male" },
-        { "id": "sh-5", "say": "C'est tout, merci beaucoup !", "ar": "هذا كل شيء، شكراً جزيلاً!", "slow": true, "voice": "female" }
+        { "id": "sh-1", "say": "Tu as vu la rue ?", "ar": "هل رأيتَ الشارع؟", "slow": true, "voice": "female",
+          "gloss": [["Tu", "أنتَ"], ["as vu", "رأيتَ"], ["la", "الـ"], ["rue ?", "شارع"]] },
+        { "id": "sh-2", "say": "Vous êtes où ?", "ar": "أين أنتم؟", "slow": true, "voice": "male",
+          "gloss": [["Vous", "أنتم"], ["êtes", "تكونون"], ["où ?", "أين"]] },
+        { "id": "sh-3", "say": "Deux cafés, s'il vous plaît.", "ar": "قهوتان، من فضلك.", "slow": true, "voice": "female",
+          "gloss": [["Deux", "اثنان"], ["cafés,", "قهوة"], ["s'il vous plaît.", "من فضلك"]] },
+        { "id": "sh-4", "say": "Le jus est sur la table.", "ar": "العصير على الطاولة.", "slow": true, "voice": "male",
+          "gloss": [["Le", "الـ"], ["jus", "عصير"], ["est", "يكون"], ["sur", "على"], ["la", "الـ"], ["table.", "طاولة"]] },
+        { "id": "sh-5", "say": "C'est tout, merci beaucoup !", "ar": "هذا كل شيء، شكراً جزيلاً!", "slow": true, "voice": "female",
+          "gloss": [["C'est", "هذا"], ["tout,", "كل شيء"], ["merci", "شكراً"], ["beaucoup !", "كثيراً"]] }
       ],
       "task_ar": "تحدٍّ: سجّل نفسك تقول **tu, tout, tu, tout** بسرعة متزايدة، ثم استمع: هل ما زال الفرق واضحاً؟"
     },

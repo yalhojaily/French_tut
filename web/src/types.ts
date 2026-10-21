@@ -52,6 +52,8 @@ export interface DialogueSection extends SectionBase {
 
 export interface Word extends Speakable {
   ar: string;
+  /** معنى كل كلمة أو تعبير (لجمل الترديد) */
+  gloss?: [string, string][];
 }
 
 export interface LetterItem extends Speakable {

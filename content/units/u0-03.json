@@ -26,13 +26,20 @@
         "B": { "name_ar": "الزبون", "voice": "male" }
       },
       "lines": [
-        { "id": "d1", "speaker": "A", "say": "Bonjour, monsieur ! Vous voulez ?", "ar": "صباح الخير سيدي! ماذا تريد؟", "slow": true },
-        { "id": "d2", "speaker": "B", "say": "Bonjour ! Une baguette et deux pains au chocolat, s'il vous plaît.", "ar": "صباح الخير! خبزة طويلة (باغيت) وقطعتا خبز بالشوكولاتة، من فضلك.", "slow": true },
-        { "id": "d3", "speaker": "A", "say": "Voilà. Et avec ceci ?", "ar": "تفضّل. وماذا أيضاً؟", "slow": true },
-        { "id": "d4", "speaker": "B", "say": "Vous avez des croissants ?", "ar": "هل عندكم كرواسون؟", "slow": true },
-        { "id": "d5", "speaker": "A", "say": "Oui, bien sûr. Combien ?", "ar": "نعم، بالتأكيد. كم واحدة؟", "slow": true },
-        { "id": "d6", "speaker": "B", "say": "Trois, merci. C'est pour la maison.", "ar": "ثلاث، شكراً. إنها للبيت.", "slow": true },
-        { "id": "d7", "speaker": "A", "say": "Ça fait six euros vingt. Bonne journée !", "ar": "المجموع ستة يوروهات وعشرون سنتاً. يوماً سعيداً!", "slow": true }
+        { "id": "d1", "speaker": "A", "say": "Bonjour, monsieur ! Vous voulez ?", "ar": "صباح الخير سيدي! ماذا تريد؟", "slow": true,
+          "gloss": [["Bonjour,", "صباح الخير"], ["monsieur !", "سيدي"], ["Vous", "حضرتك"], ["voulez ?", "تريد"]] },
+        { "id": "d2", "speaker": "B", "say": "Bonjour ! Une baguette et deux pains au chocolat, s'il vous plaît.", "ar": "صباح الخير! خبزة طويلة (باغيت) وقطعتا خبز بالشوكولاتة، من فضلك.", "slow": true,
+          "gloss": [["Bonjour !", "صباح الخير"], ["Une", "(نكرة)"], ["baguette", "باغيت"], ["et", "و"], ["deux", "اثنان"], ["pains", "خبز"], ["au chocolat,", "بالشوكولاتة"], ["s'il vous plaît.", "من فضلك"]] },
+        { "id": "d3", "speaker": "A", "say": "Voilà. Et avec ceci ?", "ar": "تفضّل. وماذا أيضاً؟", "slow": true,
+          "gloss": [["Voilà.", "تفضّل"], ["Et", "و"], ["avec", "مع"], ["ceci ?", "هذا"]] },
+        { "id": "d4", "speaker": "B", "say": "Vous avez des croissants ?", "ar": "هل عندكم كرواسون؟", "slow": true,
+          "gloss": [["Vous", "أنتم"], ["avez", "عندكم"], ["des", "(جمع نكرة)"], ["croissants ?", "كرواسون"]] },
+        { "id": "d5", "speaker": "A", "say": "Oui, bien sûr. Combien ?", "ar": "نعم، بالتأكيد. كم واحدة؟", "slow": true,
+          "gloss": [["Oui,", "نعم"], ["bien sûr.", "بالتأكيد"], ["Combien ?", "كم"]] },
+        { "id": "d6", "speaker": "B", "say": "Trois, merci. C'est pour la maison.", "ar": "ثلاث، شكراً. إنها للبيت.", "slow": true,
+          "gloss": [["Trois,", "ثلاثة"], ["merci.", "شكراً"], ["C'est", "هذا"], ["pour", "لـ"], ["la", "الـ"], ["maison.", "بيت"]] },
+        { "id": "d7", "speaker": "A", "say": "Ça fait six euros vingt. Bonne journée !", "ar": "المجموع ستة يوروهات وعشرون سنتاً. يوماً سعيداً!", "slow": true,
+          "gloss": [["Ça fait", "المجموع"], ["six", "ستة"], ["euros", "يورو"], ["vingt.", "عشرون"], ["Bonne", "سعيد"], ["journée !", "يوم"]] }
       ],
       "tip_ar": "لاحظ **maison**: حرف s واحد بين حرفي علة يُنطق «ز»، فتُقرأ «ميزون». أما **croissant** ففيها ss، فتبقى «س»."
     },
@@ -161,11 +168,16 @@
       "title_ar": "الترديد (Shadowing)",
       "hint_ar": "جمل من المخبز والحياة اليومية. ضع يدك على حلقك وأنت تردد: يجب أن تشعر بالاهتزاز مع b و v و j، ولا تشعر به مع p و f و ch.",
       "items": [
-        { "id": "sh-1", "say": "Une baguette, s'il vous plaît.", "ar": "خبزة باغيت، من فضلك.", "slow": true, "voice": "male" },
-        { "id": "sh-2", "say": "Vous voulez du poisson ou une boisson ?", "ar": "هل تريد سمكاً أم مشروباً؟", "slow": true, "voice": "female" },
-        { "id": "sh-3", "say": "Je voudrais un pain au chocolat.", "ar": "أريد خبزاً بالشوكولاتة.", "slow": true, "voice": "male" },
-        { "id": "sh-4", "say": "La maison rouge est à Paris.", "ar": "البيت الأحمر في باريس.", "slow": true, "voice": "female" },
-        { "id": "sh-5", "say": "Merci beaucoup, au revoir !", "ar": "شكراً جزيلاً، إلى اللقاء!", "slow": true, "voice": "male" }
+        { "id": "sh-1", "say": "Une baguette, s'il vous plaît.", "ar": "خبزة باغيت، من فضلك.", "slow": true, "voice": "male",
+          "gloss": [["Une", "(نكرة)"], ["baguette,", "باغيت"], ["s'il vous plaît.", "من فضلك"]] },
+        { "id": "sh-2", "say": "Vous voulez du poisson ou une boisson ?", "ar": "هل تريد سمكاً أم مشروباً؟", "slow": true, "voice": "female",
+          "gloss": [["Vous", "أنتم"], ["voulez", "تريدون"], ["du", "(بعض)"], ["poisson", "سمك"], ["ou", "أو"], ["une", "(نكرة)"], ["boisson ?", "مشروب"]] },
+        { "id": "sh-3", "say": "Je voudrais un pain au chocolat.", "ar": "أريد خبزاً بالشوكولاتة.", "slow": true, "voice": "male",
+          "gloss": [["Je", "أنا"], ["voudrais", "أودّ"], ["un", "(نكرة)"], ["pain", "خبز"], ["au chocolat.", "بالشوكولاتة"]] },
+        { "id": "sh-4", "say": "La maison rouge est à Paris.", "ar": "البيت الأحمر في باريس.", "slow": true, "voice": "female",
+          "gloss": [["La", "الـ"], ["maison", "بيت"], ["rouge", "أحمر"], ["est", "يكون"], ["à", "في"], ["Paris.", "باريس"]] },
+        { "id": "sh-5", "say": "Merci beaucoup, au revoir !", "ar": "شكراً جزيلاً، إلى اللقاء!", "slow": true, "voice": "male",
+          "gloss": [["Merci", "شكراً"], ["beaucoup,", "كثيراً"], ["au revoir !", "إلى اللقاء"]] }
       ],
       "task_ar": "تحدٍّ: سجّل نفسك تقول **pain, bain, poisson, boisson, poison** ثم استمع: هل الكلمات الخمس مختلفة بوضوح؟"
     },

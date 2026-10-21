@@ -25,13 +25,20 @@
         "B": { "name_ar": "الزبونة", "voice": "female" }
       },
       "lines": [
-        { "id": "d1", "speaker": "A", "say": "Bonjour, madame ! Qu'est-ce que vous voulez ?", "ar": "صباح الخير سيدتي! ماذا تريدين؟", "slow": true },
-        { "id": "d2", "speaker": "B", "say": "Bonjour ! Je voudrais un melon et cinq oranges.", "ar": "صباح الخير! أريد شمّامة وخمس برتقالات.", "slow": true },
-        { "id": "d3", "speaker": "A", "say": "Très bien. Et avec ça ? Des citrons ?", "ar": "حسناً جداً. وماذا أيضاً؟ ليمون؟", "slow": true },
-        { "id": "d4", "speaker": "B", "say": "Non, merci. C'est combien ?", "ar": "لا، شكراً. بكم؟", "slow": true },
-        { "id": "d5", "speaker": "A", "say": "Cinq euros cinquante.", "ar": "خمسة يوروهات وخمسون سنتاً.", "slow": true },
-        { "id": "d6", "speaker": "B", "say": "Voilà. Bonne journée !", "ar": "تفضّل. يوماً سعيداً!", "slow": true },
-        { "id": "d7", "speaker": "A", "say": "Merci, madame. À demain !", "ar": "شكراً سيدتي. إلى الغد!", "slow": true }
+        { "id": "d1", "speaker": "A", "say": "Bonjour, madame ! Qu'est-ce que vous voulez ?", "ar": "صباح الخير سيدتي! ماذا تريدين؟", "slow": true,
+          "gloss": [["Bonjour,", "صباح الخير"], ["madame !", "سيدتي"], ["Qu'est-ce que", "ماذا"], ["vous", "حضرتكِ"], ["voulez ?", "تريدين"]] },
+        { "id": "d2", "speaker": "B", "say": "Bonjour ! Je voudrais un melon et cinq oranges.", "ar": "صباح الخير! أريد شمّامة وخمس برتقالات.", "slow": true,
+          "gloss": [["Bonjour !", "صباح الخير"], ["Je", "أنا"], ["voudrais", "أودّ"], ["un", "(نكرة)"], ["melon", "شمّام"], ["et", "و"], ["cinq", "خمس"], ["oranges.", "برتقالات"]] },
+        { "id": "d3", "speaker": "A", "say": "Très bien. Et avec ça ? Des citrons ?", "ar": "حسناً جداً. وماذا أيضاً؟ ليمون؟", "slow": true,
+          "gloss": [["Très bien.", "حسناً جداً"], ["Et", "و"], ["avec", "مع"], ["ça ?", "هذا"], ["Des", "(جمع نكرة)"], ["citrons ?", "ليمون"]] },
+        { "id": "d4", "speaker": "B", "say": "Non, merci. C'est combien ?", "ar": "لا، شكراً. بكم؟", "slow": true,
+          "gloss": [["Non,", "لا"], ["merci.", "شكراً"], ["C'est", "هذا"], ["combien ?", "بكم"]] },
+        { "id": "d5", "speaker": "A", "say": "Cinq euros cinquante.", "ar": "خمسة يوروهات وخمسون سنتاً.", "slow": true,
+          "gloss": [["Cinq", "خمسة"], ["euros", "يورو"], ["cinquante.", "خمسون"]] },
+        { "id": "d6", "speaker": "B", "say": "Voilà. Bonne journée !", "ar": "تفضّل. يوماً سعيداً!", "slow": true,
+          "gloss": [["Voilà.", "تفضّل"], ["Bonne", "سعيد"], ["journée !", "يوم"]] },
+        { "id": "d7", "speaker": "A", "say": "Merci, madame. À demain !", "ar": "شكراً سيدتي. إلى الغد!", "slow": true,
+          "gloss": [["Merci,", "شكراً"], ["madame.", "سيدتي"], ["À", "إلى"], ["demain !", "الغد"]] }
       ],
       "tip_ar": "قارن **bon**jour (أنفي، بلا نون) مع **bonne** journée (النون منطوقة). السبب: في bonne جاء بعد النون حرف علة (e)، فعادت النون نوناً عادية."
     },
@@ -162,11 +169,16 @@
       "title_ar": "الترديد (Shadowing)",
       "hint_ar": "ابدأ بالنسخة البطيئة. راقب لسانك: في الأصوات الأنفية يجب ألا يلمس سقف فمك أبداً.",
       "items": [
-        { "id": "sh-1", "say": "Bonjour, comment ça va ?", "ar": "مرحباً، كيف حالك؟", "slow": true, "voice": "female" },
-        { "id": "sh-2", "say": "Je voudrais un melon et cinq oranges.", "ar": "أريد شمّامة وخمس برتقالات.", "slow": true, "voice": "female" },
-        { "id": "sh-3", "say": "C'est un bon pain blanc.", "ar": "إنه خبز أبيض جيد.", "slow": true, "voice": "male" },
-        { "id": "sh-4", "say": "Mon enfant a onze ans.", "ar": "طفلي عمره أحد عشر عاماً.", "slow": true, "voice": "male" },
-        { "id": "sh-5", "say": "Une bonne journée, à demain !", "ar": "يوماً سعيداً، إلى الغد!", "slow": true, "voice": "female" }
+        { "id": "sh-1", "say": "Bonjour, comment ça va ?", "ar": "مرحباً، كيف حالك؟", "slow": true, "voice": "female",
+          "gloss": [["Bonjour,", "مرحباً"], ["comment ça va ?", "كيف حالك"]] },
+        { "id": "sh-2", "say": "Je voudrais un melon et cinq oranges.", "ar": "أريد شمّامة وخمس برتقالات.", "slow": true, "voice": "female",
+          "gloss": [["Je", "أنا"], ["voudrais", "أودّ"], ["un", "(نكرة)"], ["melon", "شمّام"], ["et", "و"], ["cinq", "خمس"], ["oranges.", "برتقالات"]] },
+        { "id": "sh-3", "say": "C'est un bon pain blanc.", "ar": "إنه خبز أبيض جيد.", "slow": true, "voice": "male",
+          "gloss": [["C'est", "هذا"], ["un", "(نكرة)"], ["bon", "جيد"], ["pain", "خبز"], ["blanc.", "أبيض"]] },
+        { "id": "sh-4", "say": "Mon enfant a onze ans.", "ar": "طفلي عمره أحد عشر عاماً.", "slow": true, "voice": "male",
+          "gloss": [["Mon", "ـي (لي)"], ["enfant", "طفل"], ["a", "عنده"], ["onze", "أحد عشر"], ["ans.", "سنة"]] },
+        { "id": "sh-5", "say": "Une bonne journée, à demain !", "ar": "يوماً سعيداً، إلى الغد!", "slow": true, "voice": "female",
+          "gloss": [["Une", "(نكرة)"], ["bonne", "سعيد"], ["journée,", "يوم"], ["à", "إلى"], ["demain !", "الغد"]] }
       ],
       "task_ar": "تحدٍّ: سجّل نفسك تقول **bon / bonne، un / une، an / Anne** ثم استمع: هل تسمع النون في الكلمة الثانية فقط؟"
     },

@@ -164,10 +164,14 @@
       "title_ar": "الترديد (Shadowing)",
       "hint_ar": "استمع للجملة، ثم سجّل صوتك وأنت تكررها، ثم قارن. ابدأ بالنسخة البطيئة. لا تهتم بالكمال: المهم أن تسمع الفرق بنفسك.",
       "items": [
-        { "id": "sh-1", "say": "Ça s'écrit comment ?", "ar": "كيف يُكتب؟", "slow": true, "voice": "female" },
-        { "id": "sh-2", "say": "Pouvez-vous épeler, s'il vous plaît ?", "ar": "هل يمكنك التهجئة من فضلك؟", "slow": true, "voice": "female" },
-        { "id": "sh-3", "say": "Je m'appelle Youssef. Ça s'écrit I grec, O, U, deux S, E, F.", "ar": "اسمي يوسف. يُكتب Y-O-U-SS-E-F.", "slow": true, "voice": "male" },
-        { "id": "sh-4", "say": "Bonjour, monsieur ! Bienvenue !", "ar": "مرحباً سيدي! أهلاً بك!", "slow": true, "voice": "female" }
+        { "id": "sh-1", "say": "Ça s'écrit comment ?", "ar": "كيف يُكتب؟", "slow": true, "voice": "female",
+          "gloss": [["Ça", "هذا"], ["s'écrit", "يُكتَب"], ["comment ?", "كيف"]] },
+        { "id": "sh-2", "say": "Pouvez-vous épeler, s'il vous plaît ?", "ar": "هل يمكنك التهجئة من فضلك؟", "slow": true, "voice": "female",
+          "gloss": [["Pouvez-vous", "هل تستطيع"], ["épeler,", "أن تتهجّى"], ["s'il vous plaît ?", "من فضلك"]] },
+        { "id": "sh-3", "say": "Je m'appelle Youssef. Ça s'écrit I grec, O, U, deux S, E, F.", "ar": "اسمي يوسف. يُكتب Y-O-U-SS-E-F.", "slow": true, "voice": "male",
+          "gloss": [["Je", "أنا"], ["m'appelle", "أُدعى"], ["Youssef.", "يوسف"], ["Ça", "هذا"], ["s'écrit", "يُكتَب"], ["I grec,", "Y"], ["O,", ""], ["U,", ""], ["deux S,", "اثنان S"], ["E,", ""], ["F.", ""]] },
+        { "id": "sh-4", "say": "Bonjour, monsieur ! Bienvenue !", "ar": "مرحباً سيدي! أهلاً بك!", "slow": true, "voice": "female",
+          "gloss": [["Bonjour,", "مرحباً"], ["monsieur !", "سيدي"], ["Bienvenue !", "أهلاً بك"]] }
       ],
       "task_ar": "تحدٍّ أخير: سجّل نفسك وأنت تتهجّى اسمك الكامل بالفرنسية."
     },

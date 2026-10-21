@@ -1,7 +1,7 @@
 import { play } from "../audio";
 import { h, icon, richAr } from "../dom";
-import type { ShadowingSection, Speakable } from "../types";
-import { karaokeText, speakButton } from "./speak";
+import type { ShadowingSection } from "../types";
+import { glossedText, karaokeText, speakButton } from "./speak";
 
 /** مسجّل صغير: تسجيل، إيقاف، تشغيل، ومقارنة مع النموذج */
 function recorder(onCompare?: () => Promise<void>) {
@@ -66,8 +66,13 @@ function recorder(onCompare?: () => Promise<void>) {
 }
 
 export function renderShadowing(unitId: string, s: ShadowingSection): HTMLElement {
-  const items = s.items.map((item: Speakable & { ar: string }) => {
-    const text = karaokeText(item.say);
+  const items = s.items.map((item) => {
+    const text = item.gloss ? glossedText(item.say, item.gloss) : { ...karaokeText(item.say), reset: () => {} };
+    const play1 = (slow: boolean) => {
+      const b = speakButton(unitId, item, { slow, onChar: text.onChar });
+      b.addEventListener("click", text.reset);
+      return b;
+    };
     return h(
       "li",
       { class: "shadow-item" },
@@ -76,9 +81,9 @@ export function renderShadowing(unitId: string, s: ShadowingSection): HTMLElemen
       h(
         "div",
         { class: "shadow-controls" },
-        speakButton(unitId, item, { onChar: text.onChar }),
-        item.slow ? speakButton(unitId, item, { slow: true, onChar: text.onChar }) : null,
-        recorder(() => play(unitId, item, { onChar: text.onChar })),
+        play1(false),
+        item.slow ? play1(true) : null,
+        recorder(() => { text.reset(); return play(unitId, item, { onChar: text.onChar }); }),
       ),
     );
   });
@@ -87,6 +92,7 @@ export function renderShadowing(unitId: string, s: ShadowingSection): HTMLElemen
     "div",
     { class: "section-shadowing" },
     h("p", { class: "lede" }, s.hint_ar),
+    s.items.some((i) => i.gloss) ? h("p", { class: "hint" }, "معنى كل كلمة يظهر فوقها لحظة نطقها، ويمكنك الضغط على أي كلمة لترى معناها.") : null,
     h("ol", { class: "shadow-list" }, items),
     s.task_ar
       ? h("aside", { class: "tip task" }, h("p", null, richAr(s.task_ar)), recorder())
