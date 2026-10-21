@@ -25,13 +25,20 @@
         "B": { "name_ar": "يوسف", "voice": "male" }
       },
       "lines": [
-        { "id": "d1", "speaker": "A", "say": "Bonjour, monsieur ! Votre nom, s'il vous plaît ?", "ar": "مرحباً سيدي! اسمك، من فضلك؟", "slow": true },
-        { "id": "d2", "speaker": "B", "say": "Bonjour ! Je m'appelle Youssef Haddad.", "ar": "مرحباً! اسمي يوسف حداد.", "slow": true },
-        { "id": "d3", "speaker": "A", "say": "Youssef… Ça s'écrit comment ?", "ar": "يوسف... كيف يُكتب؟", "slow": true },
-        { "id": "d4", "speaker": "B", "say": "I grec, O, U, deux S, E, F.", "ar": "Y - O - U - SS - E - F (حرفا S متتاليان: deux S)", "slow": true },
-        { "id": "d5", "speaker": "A", "say": "Merci. Et Haddad, avec un H ?", "ar": "شكراً. وحداد، بحرف H؟", "slow": true },
-        { "id": "d6", "speaker": "B", "say": "Oui : H, A, deux D, A, D.", "ar": "نعم: H - A - DD - A - D", "slow": true },
-        { "id": "d7", "speaker": "A", "say": "Parfait. Merci, monsieur Haddad. Bienvenue !", "ar": "ممتاز. شكراً سيد حداد. أهلاً بك!", "slow": true }
+        { "id": "d1", "speaker": "A", "say": "Bonjour, monsieur ! Votre nom, s'il vous plaît ?", "ar": "مرحباً سيدي! اسمك، من فضلك؟", "slow": true,
+          "gloss": [["Bonjour,", "مرحباً"], ["monsieur !", "سيدي"], ["Votre", "ـكَ"], ["nom,", "اسم"], ["s'il vous plaît ?", "من فضلك"]] },
+        { "id": "d2", "speaker": "B", "say": "Bonjour ! Je m'appelle Youssef Haddad.", "ar": "مرحباً! اسمي يوسف حداد.", "slow": true,
+          "gloss": [["Bonjour !", "مرحباً"], ["Je", "أنا"], ["m'appelle", "أُدعى"], ["Youssef Haddad.", "يوسف حداد"]] },
+        { "id": "d3", "speaker": "A", "say": "Youssef… Ça s'écrit comment ?", "ar": "يوسف... كيف يُكتب؟", "slow": true,
+          "gloss": [["Youssef…", "يوسف"], ["Ça", "هذا"], ["s'écrit", "يُكتَب"], ["comment ?", "كيف"]] },
+        { "id": "d4", "speaker": "B", "say": "I grec, O, U, deux S, E, F.", "ar": "Y - O - U - SS - E - F (حرفا S متتاليان: deux S)", "slow": true,
+          "gloss": [["I grec,", "Y"], ["O,", ""], ["U,", ""], ["deux S,", "اثنان S"], ["E,", ""], ["F.", ""]] },
+        { "id": "d5", "speaker": "A", "say": "Merci. Et Haddad, avec un H ?", "ar": "شكراً. وحداد، بحرف H؟", "slow": true,
+          "gloss": [["Merci.", "شكراً"], ["Et", "و"], ["Haddad,", "حداد"], ["avec", "بـ / مع"], ["un", "(نكرة)"], ["H ?", "حرف H"]] },
+        { "id": "d6", "speaker": "B", "say": "Oui : H, A, deux D, A, D.", "ar": "نعم: H - A - DD - A - D", "slow": true,
+          "gloss": [["Oui :", "نعم"], ["H,", ""], ["A,", ""], ["deux D,", "اثنان D"], ["A,", ""], ["D.", ""]] },
+        { "id": "d7", "speaker": "A", "say": "Parfait. Merci, monsieur Haddad. Bienvenue !", "ar": "ممتاز. شكراً سيد حداد. أهلاً بك!", "slow": true,
+          "gloss": [["Parfait.", "ممتاز"], ["Merci,", "شكراً"], ["monsieur", "سيد"], ["Haddad.", "حداد"], ["Bienvenue !", "أهلاً بك"]] }
       ],
       "tip_ar": "لاحظ أن الموظفة تنطق Haddad «أداد»: حرف **H لا يُنطق أبداً** في الفرنسية. لهذا يسأل الفرنسيون غالباً إن كان الاسم يبدأ بـ H."
     },

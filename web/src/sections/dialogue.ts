@@ -1,7 +1,7 @@
 import { play, stop } from "../audio";
 import { h, icon, richAr } from "../dom";
 import type { DialogueSection } from "../types";
-import { karaokeText, speakButton } from "./speak";
+import { glossedText, karaokeText, speakButton } from "./speak";
 
 export function renderDialogue(unitId: string, s: DialogueSection): HTMLElement {
   let showTranslation = false;
@@ -9,7 +9,7 @@ export function renderDialogue(unitId: string, s: DialogueSection): HTMLElement 
 
   const rows = s.lines.map((line) => {
     const speaker = s.speakers[line.speaker];
-    const text = karaokeText(line.say);
+    const text = line.gloss ? glossedText(line.say, line.gloss) : { ...karaokeText(line.say), reset: () => {} };
     const row = h(
       "li",
       { class: `line speaker-${line.speaker}` },
@@ -23,18 +23,21 @@ export function renderDialogue(unitId: string, s: DialogueSection): HTMLElement 
       h(
         "div",
         { class: "line-actions" },
-        speakButton(unitId, line, { onChar: text.onChar }),
-        line.slow ? speakButton(unitId, line, { slow: true, onChar: text.onChar }) : null,
+        withReset(speakButton(unitId, line, { onChar: text.onChar }), text.reset),
+        line.slow ? withReset(speakButton(unitId, line, { slow: true, onChar: text.onChar }), text.reset) : null,
       ),
     );
-    return { line, row, onChar: text.onChar };
+    return { line, row, onChar: text.onChar, reset: text.reset };
   });
+  const hasGloss = s.lines.some((l) => l.gloss);
 
   const list = h("ol", { class: "dialogue hide-ar" }, rows.map((r) => r.row));
 
   const playAllBtn = h("button", { type: "button", class: "btn primary", html: `${icon.play}<span>استمع للحوار كاملاً</span>` });
   const slowToggle = h("input", { type: "checkbox", id: "dlg-slow" }) as HTMLInputElement;
   const trToggle = h("button", { type: "button", class: "btn ghost" }, "أظهر الترجمة");
+  const glossToggle = h("input", { type: "checkbox", id: "dlg-gloss" }) as HTMLInputElement;
+  glossToggle.addEventListener("change", () => list.classList.toggle("show-gloss", glossToggle.checked));
 
   playAllBtn.addEventListener("click", async () => {
     if (playingAll) {
@@ -46,6 +49,7 @@ export function renderDialogue(unitId: string, s: DialogueSection): HTMLElement 
     playAllBtn.innerHTML = `${icon.stop}<span>إيقاف</span>`;
     for (const r of rows) {
       if (!playingAll) break;
+      r.reset();
       r.row.classList.add("active");
       r.row.scrollIntoView({ block: "nearest", behavior: "smooth" });
       await play(unitId, r.line, { slow: slowToggle.checked, onChar: r.onChar });
@@ -71,10 +75,19 @@ export function renderDialogue(unitId: string, s: DialogueSection): HTMLElement 
       { class: "toolbar" },
       playAllBtn,
       h("label", { class: "toggle", for: "dlg-slow" }, slowToggle, h("span", null, "ببطء")),
+      hasGloss ? h("label", { class: "toggle", for: "dlg-gloss" }, glossToggle, h("span", null, "كل معاني الكلمات")) : null,
       trToggle,
     ),
-    h("p", { class: "hint" }, "استمع مرتين دون ترجمة. حاول أن تلتقط الأسماء والحروف، ثم أظهر الترجمة."),
+    h("p", { class: "hint" }, hasGloss
+      ? "استمع مرتين دون ترجمة. معنى كل كلمة يظهر فوقها لحظة نطقها، ويمكنك الضغط على أي كلمة لترى معناها. والترجمة الكاملة للسطر بزر «أظهر الترجمة»."
+      : "استمع مرتين دون ترجمة. حاول أن تلتقط الأسماء والحروف، ثم أظهر الترجمة."),
     list,
     s.tip_ar ? h("aside", { class: "tip" }, richAr(s.tip_ar)) : null,
   );
+}
+
+/** قبل كل تشغيل: إخفاء المعاني التي ظهرت في التشغيل السابق */
+function withReset(btn: HTMLButtonElement, reset: () => void) {
+  btn.addEventListener("click", reset);
+  return btn;
 }

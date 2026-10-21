@@ -38,6 +38,8 @@ export interface Speakable {
 export interface DialogueLine extends Speakable {
   speaker: string;
   ar: string;
+  /** معنى كل كلمة أو تعبير، بترتيب الجملة: [النص الفرنسي، المعنى] */
+  gloss?: [string, string][];
 }
 
 export interface DialogueSection extends SectionBase {

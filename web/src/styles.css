@@ -467,3 +467,22 @@ a.station-body:hover { border-color: var(--line); }
 .accent-mark { white-space: nowrap; }
 .clue { margin: 0 0 10px; color: var(--muted); }
 .clue strong { color: var(--ink); }
+
+/* ترجمة فوق كل كلمة في الحوار */
+.karaoke.glossed { line-height: 1.2; }
+.glossed .chunk {
+  display: inline-flex; flex-direction: column; align-items: center;
+  vertical-align: bottom; margin: 0 1px; border-radius: 6px; cursor: pointer;
+}
+.glossed .chunk.no-gloss { cursor: default; }
+.glossed .g {
+  font-family: var(--f-ar); font-size: .78rem; line-height: 1.5; color: var(--frame);
+  white-space: nowrap; padding: 0 4px; border-radius: 4px;
+  visibility: hidden; opacity: 0; transition: opacity .2s;
+}
+.glossed .chunk.seen .g, .glossed .chunk.open .g, .show-gloss .glossed .g { visibility: visible; opacity: 1; }
+.glossed .chunk.no-gloss .g { visibility: hidden !important; }
+.glossed .chunk.speaking .g { background: var(--highlight); color: var(--ink); font-weight: 600; }
+.glossed .chunk:not(.no-gloss):hover .ws { text-decoration: underline dotted var(--muted); text-underline-offset: 4px; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .glossed .g { color: var(--ok); } }
+@media (prefers-reduced-motion: reduce) { .glossed .g { transition: none; } }
