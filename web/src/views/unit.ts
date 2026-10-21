@@ -126,7 +126,7 @@ export function renderUnit(unitId: string, step: number): HTMLElement {
     h(
       "header",
       { class: "unit-banner" },
-      h("img", { class: "banner-art", src: artUrl(scene.img), alt: "", width: "800", height: "560" }),
+      h("img", { class: "banner-art", src: artUrl(scene.img), alt: "", width: "1000", height: "750" }),
       h("nav", { class: "crumbs" }, h("a", { href: `#/` }, "كل المراحل"), " / ", meta.stage.name_ar),
       h(
         "div",

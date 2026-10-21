@@ -14,11 +14,12 @@ export interface Scene {
 const BASE = import.meta.env.BASE_URL;
 
 export const SCENES: Record<string, Scene> = {
-  "0": { img: "cafe", place_fr: "Au café", place_ar: "في المقهى", color: "#e8445f", ink: "#c22a47" },
-  A1: { img: "boulangerie", place_fr: "À la boulangerie", place_ar: "عند المخبز", color: "#f2a10c", ink: "#a86600", on: "#3b2400" },
-  A2: { img: "quais", place_fr: "Sur les quais", place_ar: "على ضفاف السين", color: "#0fa39c", ink: "#0a7a74" },
-  B1: { img: "montmartre", place_fr: "À Montmartre", place_ar: "في مونمارتر", color: "#7a5ae0", ink: "#5b3cc4" },
-  B2: { img: "eiffel", place_fr: "Au pied de la tour", place_ar: "عند البرج", color: "#2f7fe0", ink: "#1f5fb5" },
+  // ألوان مأخوذة من اللوحات نفسها
+  "0": { img: "cafe", place_fr: "Au café", place_ar: "في المقهى", color: "#c8323f", ink: "#a8242f" },
+  A1: { img: "boulangerie", place_fr: "À la boulangerie", place_ar: "عند المخبز", color: "#2f6b50", ink: "#245640" },
+  A2: { img: "quais", place_fr: "Sur les quais", place_ar: "على ضفاف السين", color: "#d9822b", ink: "#a85a12" },
+  B1: { img: "montmartre", place_fr: "À Montmartre", place_ar: "في مونمارتر", color: "#9a4f8e", ink: "#7c3a72" },
+  B2: { img: "eiffel", place_fr: "Au pied de la tour", place_ar: "عند البرج", color: "#3f62b0", ink: "#2f4d92" },
 };
 
 export function sceneOf(stageId: string): Scene {

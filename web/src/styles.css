@@ -1,24 +1,24 @@
-/* الطابع البصري: دفتر رسم مائي لباريس.
+/* الطابع البصري: لوحات مائية لباريس في الخريف (ضوء ذهبي، أحمر المظلات، أخضر المخبز، سماء وردية).
    لكل مرحلة مكان ولون زاهٍ (--stage) ولون أغمق للنص والأزرار (--stage-deep).
    الخطوط: Caveat للعناوين الفرنسية (كخط اليد على بطاقة بريدية)، Literata للنص الفرنسي،
    El Messiri لعناوين العربية، Readex Pro لنصها. */
 
 :root {
-  --paper: #fbfdff;
+  --paper: #fffaf4;
   --surface: #ffffff;
-  --mist: #e3e7f4;
-  --ink: #22305a;
-  --muted: #5c6689;
-  --link: #2a5fc9;
-  --red: #e0384f;
-  --ok: #17905b;
-  --ok-bg: #e0f6ea;
-  --no-bg: #ffe7ec;
-  --highlight: #ffe36e;
-  --sun: #ffc83d;
-  --line-a1: #f2a10c;
-  --stage: #e8445f;
-  --stage-deep: #c22a47;
+  --mist: #efe2d6;
+  --ink: #2e2530;
+  --muted: #6e6170;
+  --link: #a8242f;
+  --red: #d23a3a;
+  --ok: #2f7a4f;
+  --ok-bg: #e4f3e8;
+  --no-bg: #fde6e4;
+  --highlight: #ffdf8a;
+  --sun: #f0a632;
+  --line-a1: #f0a632;
+  --stage: #c8323f;
+  --stage-deep: #a8242f;
   --on-stage: #fff;
   --radius: 10px;
   --f-ar: "Readex Pro", "Segoe UI", Tahoma, sans-serif;
@@ -33,16 +33,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #121829;
-    --surface: #1b2338;
-    --mist: #2c3654;
-    --ink: #eef1fb;
-    --muted: #a3acc9;
-    --link: #9cc0ff;
-    --ok: #5fd39a;
-    --ok-bg: #173628;
-    --no-bg: #3d1c26;
-    --highlight: #7a6312;
+    --paper: #1b1517;
+    --surface: #261e21;
+    --mist: #3b2f33;
+    --ink: #f7ede6;
+    --muted: #bba9ad;
+    --link: #f3a1a1;
+    --ok: #6fcf98;
+    --ok-bg: #173226;
+    --no-bg: #3d1c22;
+    --highlight: #7a5a12;
     color-scheme: dark;
   }
   :root:not([data-theme="light"]),
@@ -50,16 +50,16 @@
   :root:not([data-theme="light"]) .chapter { --stage-ink: color-mix(in srgb, var(--stage) 62%, white); }
 }
 :root[data-theme="dark"] {
-  --paper: #121829;
-  --surface: #1b2338;
-  --mist: #2c3654;
-  --ink: #eef1fb;
-  --muted: #a3acc9;
-  --link: #9cc0ff;
-  --ok: #5fd39a;
-  --ok-bg: #173628;
-  --no-bg: #3d1c26;
-  --highlight: #7a6312;
+  --paper: #1b1517;
+  --surface: #261e21;
+  --mist: #3b2f33;
+  --ink: #f7ede6;
+  --muted: #bba9ad;
+  --link: #f3a1a1;
+  --ok: #6fcf98;
+  --ok-bg: #173226;
+  --no-bg: #3d1c22;
+  --highlight: #7a5a12;
   color-scheme: dark;
 }
 :root[data-theme="dark"], :root[data-theme="dark"] .unit, :root[data-theme="dark"] .chapter {
@@ -79,9 +79,9 @@ body {
   background-color: var(--paper);
   /* بقع لون خفيفة كأنها ماء سال على الورق */
   background-image:
-    radial-gradient(520px 360px at 92% -4%, rgb(255 200 61 / .20), transparent 70%),
-    radial-gradient(460px 420px at -6% 24%, rgb(232 68 95 / .08), transparent 70%),
-    radial-gradient(520px 420px at 104% 62%, rgb(15 163 156 / .08), transparent 70%);
+    radial-gradient(560px 380px at 92% -4%, rgb(240 166 50 / .16), transparent 70%),
+    radial-gradient(480px 440px at -6% 30%, rgb(220 120 170 / .09), transparent 70%),
+    radial-gradient(540px 440px at 104% 70%, rgb(150 130 220 / .08), transparent 70%);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -203,10 +203,15 @@ h1, h2, h3 { font-family: var(--f-ar-display); font-weight: 600; }
 @media (min-width: 760px) {
   .hero-title {
     position: absolute; top: 7%; inset-inline-start: 4%;
-    max-width: 46%; padding: 0;
+    max-width: 46%; padding: 0; z-index: 1;
   }
-  .hero-title > * { text-shadow: 0 0 22px rgb(255 255 255 / .95), 0 0 6px rgb(255 255 255 / .9); }
-  .hero h1 { color: #22305a; }
+  .hero-title::before {
+    content: ""; position: absolute; inset: -30% -18% -26% -12%; z-index: -1;
+    background: radial-gradient(closest-side, rgb(255 244 240 / .72), transparent);
+  }
+  .hero { isolation: isolate; }
+  .hero-title > * { text-shadow: 0 0 26px rgb(255 240 235 / .95), 0 0 8px rgb(255 240 235 / .9); }
+  .hero h1 { color: #2e2530; }
   .hero-below { margin-top: -28px; position: relative; }
 }
 
@@ -228,12 +233,12 @@ h1, h2, h3 { font-family: var(--f-ar-display); font-weight: 600; }
 .chapter-art { margin: 0; position: sticky; top: 16px; }
 .chapter-art img {
   display: block; width: 100%; height: auto;
-  -webkit-mask-image: radial-gradient(ellipse 72% 70% at 50% 50%, #000 66%, transparent 100%);
-  mask-image: radial-gradient(ellipse 72% 70% at 50% 50%, #000 66%, transparent 100%);
+  border-radius: 10px;
+  box-shadow: 0 22px 40px -28px rgb(80 40 20 / .55);
 }
 .chapter-art figcaption {
   font-family: var(--f-hand); font-weight: 700; font-size: 1.9rem; line-height: 1;
-  color: var(--stage-ink); text-align: center; margin-top: -10px;
+  color: var(--stage-ink); text-align: center; margin-top: 10px;
   transform: rotate(-2deg);
 }
 
@@ -261,10 +266,10 @@ h1, h2, h3 { font-family: var(--f-ar-display); font-weight: 600; }
   background: var(--surface); color: var(--ink); text-decoration: none;
   border: 1px solid var(--mist); border-radius: 6px;
   border-top: 6px solid var(--stage);
-  box-shadow: 0 10px 18px -16px rgb(34 48 90 / .55);
+  box-shadow: 0 10px 18px -16px rgb(80 40 20 / .5);
   transition: transform .18s, box-shadow .18s, border-color .18s;
 }
-a.pc-body:hover { transform: translateY(-3px) rotate(-.5deg); box-shadow: 0 16px 24px -18px rgb(34 48 90 / .6); border-color: color-mix(in srgb, var(--stage) 45%, var(--mist)); border-top-color: var(--stage); }
+a.pc-body:hover { transform: translateY(-3px) rotate(-.5deg); box-shadow: 0 16px 24px -18px rgb(80 40 20 / .55); border-color: color-mix(in srgb, var(--stage) 45%, var(--mist)); border-top-color: var(--stage); }
 .postcard .stamp { position: absolute; top: 10px; left: 10px; }
 .pc-ar { font-weight: 600; font-size: 1.04rem; line-height: 1.5; padding-inline-end: 56px; }
 .pc-fr { font-family: var(--f-hand); font-size: 1.4rem; line-height: 1.1; color: var(--stage-ink); margin: 2px 0 6px; text-align: right; }
@@ -286,7 +291,7 @@ a.pc-body:hover { transform: translateY(-3px) rotate(-.5deg); box-shadow: 0 16px
   border: 2px solid var(--ok); color: var(--ok);
   font-size: 1.2rem; font-weight: 700; transform: rotate(-14deg); opacity: .85;
 }
-.postcard.is-next .pc-body { box-shadow: 0 0 0 2px var(--stage), 0 14px 22px -16px rgb(34 48 90 / .6); }
+.postcard.is-next .pc-body { box-shadow: 0 0 0 2px var(--stage), 0 14px 22px -16px rgb(80 40 20 / .5); }
 
 .postcard.soon .pc-body { background: transparent; border-style: dashed; border-top: 1px dashed var(--mist); box-shadow: none; min-height: 0; }
 .postcard.soon .stamp { background: var(--mist); color: var(--muted); border-color: var(--paper); outline: 0; }
@@ -332,7 +337,7 @@ a.pc-body:hover { transform: translateY(-3px) rotate(-.5deg); box-shadow: 0 16px
 }
 .banner-art {
   position: absolute; inset: 0; z-index: -1;
-  width: 100%; height: 100%; object-fit: cover; object-position: center 62%;
+  width: 100%; height: 100%; object-fit: cover; object-position: center 55%;
   -webkit-mask-image: linear-gradient(to bottom, #000 45%, transparent 100%);
   mask-image: linear-gradient(to bottom, #000 45%, transparent 100%);
 }
@@ -345,7 +350,7 @@ a.pc-body:hover { transform: translateY(-3px) rotate(-.5deg); box-shadow: 0 16px
   display: flex; align-items: center; gap: 18px; align-self: flex-start;
   padding: 12px 18px 12px 24px; margin-top: 24px; border-radius: 8px;
   background: color-mix(in srgb, var(--surface) 92%, transparent);
-  box-shadow: 0 12px 24px -20px rgb(34 48 90 / .6);
+  box-shadow: 0 12px 24px -20px rgb(80 40 20 / .5);
 }
 .unit-fr { font-family: var(--f-hand); font-size: clamp(2rem, 6vw, 2.9rem); line-height: 1; margin: 0; font-weight: 700; color: var(--stage-ink); text-align: right; }
 .unit-ar { margin: 4px 0 0; color: var(--ink); font-family: var(--f-ar-display); font-size: 1.15rem; line-height: 1.4; }

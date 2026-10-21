@@ -51,7 +51,7 @@ export function renderHome(): HTMLElement {
   const hero = h(
     "header",
     { class: "hero" },
-    h("img", { class: "hero-art", src: artUrl("hero"), alt: "لوحة مائية لباريس: البرج، والمباني، والسين وجسر حجري", width: "1600", height: "640" }),
+    h("img", { class: "hero-art", src: artUrl("hero"), alt: "لوحة مائية لضفاف السين في الخريف: البرج، وجسر حجري، وباعة الكتب", width: "1915", height: "822" }),
     h(
       "div",
       { class: "hero-title" },
@@ -106,7 +106,7 @@ export function renderHome(): HTMLElement {
       h(
         "figure",
         { class: "chapter-art" },
-        h("img", { src: artUrl(scene.img), alt: `لوحة مائية: ${scene.place_ar}`, loading: "lazy", width: "800", height: "560" }),
+        h("img", { src: artUrl(scene.img), alt: `لوحة مائية: ${scene.place_ar}`, loading: "lazy", width: "1000", height: "750" }),
         h("figcaption", { lang: "fr", dir: "ltr" }, scene.place_fr),
       ),
       h(
