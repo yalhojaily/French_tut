@@ -48,7 +48,7 @@
       "title_ar": "الحروف الـ 26",
       "hint_ar": "اضغط على أي حرف لتسمع اسمه، ثم اضغط على الكلمة لتسمعها. الحروف المعلّمة بنقطة حمراء هي التي يخطئ فيها المتعلم العربي غالباً.",
       "items": [
-        { "id": "l-a", "letter": "A", "say": "a", "ipa": "a", "ar_hint": "آ", "example": { "id": "w-ami", "say": "ami", "ar": "صديق" } },
+        { "id": "l-a", "letter": "A", "say": "ah", "ipa": "a", "ar_hint": "آ", "example": { "id": "w-ami", "say": "ami", "ar": "صديق" } },
         { "id": "l-b", "letter": "B", "say": "bé", "ipa": "be", "ar_hint": "بيه", "example": { "id": "w-bateau", "say": "bateau", "ar": "قارب" } },
         { "id": "l-c", "letter": "C", "say": "cé", "ipa": "se", "ar_hint": "سيه", "example": { "id": "w-cafe", "say": "café", "ar": "قهوة / مقهى" }, "note_ar": "يُنطق «ك» قبل a و o و u، و«س» قبل e و i." },
         { "id": "l-d", "letter": "D", "say": "dé", "ipa": "de", "ar_hint": "ديه", "example": { "id": "w-desert", "say": "désert", "ar": "صحراء" } },

@@ -44,7 +44,7 @@ export function renderLetters(unitId: string, s: LettersSection): HTMLElement {
       const tile = h(
         "button",
         { type: "button", class: `plaque${item.tricky ? " tricky" : ""}`, lang: "fr", "aria-pressed": "false", "aria-label": `${item.letter}: ${item.ar_hint}` },
-        h("span", { class: `plaque-letter${item.letter.length > 1 ? " multi" : ""}`, dir: "ltr" }, item.letter),
+        h("span", { class: `plaque-letter${item.letter.length > 1 ? " multi" : ""}${item.letter.length > 3 ? " long" : ""}`, dir: "ltr" }, item.letter),
         h("span", { class: "plaque-hint", lang: "ar", dir: "rtl" }, item.ar_hint),
       );
       tile.addEventListener("click", () => select(item));

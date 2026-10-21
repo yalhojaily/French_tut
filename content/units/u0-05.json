@@ -1,0 +1,213 @@
+{
+  "id": "u0-05",
+  "stage": "0",
+  "title_fr": "Lire le français : les combinaisons de lettres",
+  "title_ar": "قراءة الفرنسية: تراكيب الحروف",
+  "goals_ar": [
+    "تقرأ كلمة فرنسية جديدة بصوت صحيح **دون أن تسمعها من قبل**",
+    "تعرف أن حرفين أو ثلاثة قد تُنطق صوتاً واحداً: **eau** = «أو»، **ai** = «إِ»",
+    "تنطق **oi** «وا»، و **gn** «نيـ»، و **ill** «يْ»",
+    "تعرف متى تُنطق **c** «ك» ومتى «س»، ومتى تُنطق **g** «گ» ومتى «ژ»"
+  ],
+  "intro_ar": [
+    "الإملاء الفرنسي يبدو فوضوياً في البداية: كلمة **eau** (ماء) ثلاثة حروف تُنطق صوتاً واحداً «أو». لكنه في الحقيقة **منتظم جداً**: التركيب نفسه يُنطق بالطريقة نفسها في معظم الكلمات.",
+    "هذا عكس الإنجليزية تماماً. في الإنجليزية لا تعرف كيف تُنطق الكلمة حتى تسمعها. في الفرنسية، إذا حفظت التراكيب العشرة في هذه الوحدة، تستطيع قراءة **أغلب** الكلمات الجديدة قراءة صحيحة.",
+    "طريقة الدراسة: لا تحفظ القواعد كقائمة. استمع لكل تركيب، ثم اقرأ الأمثلة بصوت عالٍ **قبل** أن تضغط زر الاستماع، ثم تحقق."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: في محطة القطار",
+      "context_ar": "يوسف في محطة القطار (la gare) يسأل عن قطار إلى مدينة بوردو. الحوار مليء بالتراكيب: Bordeaux (eau)، quai (qu + ai)، trois (oi)، huit (ui)، billet (ill)، gauche (au)، guichet (gu).",
+      "speakers": {
+        "A": { "name_ar": "موظفة المحطة", "voice": "female" },
+        "B": { "name_ar": "يوسف", "voice": "male" }
+      },
+      "lines": [
+        { "id": "d1", "speaker": "B", "say": "Bonjour, madame. Le train pour Bordeaux, s'il vous plaît ?", "ar": "صباح الخير سيدتي. القطار إلى بوردو، من فضلك؟", "slow": true,
+          "gloss": [["Bonjour,", "صباح الخير"], ["madame.", "سيدتي"], ["Le", "الـ"], ["train", "قطار"], ["pour", "إلى"], ["Bordeaux,", "بوردو"], ["s'il vous plaît ?", "من فضلك"]] },
+        { "id": "d2", "speaker": "A", "say": "Il part du quai trois, à huit heures.", "ar": "ينطلق من الرصيف رقم ثلاثة، الساعة الثامنة.", "slow": true,
+          "gloss": [["Il", "هو"], ["part", "ينطلق"], ["du", "من الـ"], ["quai", "رصيف"], ["trois,", "ثلاثة"], ["à", "في"], ["huit", "ثمانية"], ["heures.", "الساعة"]] },
+        { "id": "d3", "speaker": "B", "say": "Merci. Et où est le guichet ?", "ar": "شكراً. وأين شبّاك التذاكر؟", "slow": true,
+          "gloss": [["Merci.", "شكراً"], ["Et", "و"], ["où", "أين"], ["est", "يكون"], ["le", "الـ"], ["guichet ?", "شبّاك التذاكر"]] },
+        { "id": "d4", "speaker": "A", "say": "Le guichet est là-bas, à gauche.", "ar": "شبّاك التذاكر هناك، على اليسار.", "slow": true,
+          "gloss": [["Le", "الـ"], ["guichet", "شبّاك التذاكر"], ["est", "يكون"], ["là-bas,", "هناك"], ["à gauche.", "على اليسار"]] },
+        { "id": "d5", "speaker": "B", "say": "Un billet pour Bordeaux, s'il vous plaît.", "ar": "تذكرة إلى بوردو، من فضلك.", "slow": true,
+          "gloss": [["Un", "(نكرة)"], ["billet", "تذكرة"], ["pour", "إلى"], ["Bordeaux,", "بوردو"], ["s'il vous plaît.", "من فضلك"]] },
+        { "id": "d6", "speaker": "A", "say": "Voilà votre billet. Bon voyage !", "ar": "تفضّل تذكرتك. رحلة سعيدة!", "slow": true,
+          "gloss": [["Voilà", "تفضّل"], ["votre", "ـكَ"], ["billet.", "تذكرة"], ["Bon voyage !", "رحلة سعيدة"]] },
+        { "id": "d7", "speaker": "B", "say": "Merci beaucoup. Au revoir !", "ar": "شكراً جزيلاً. إلى اللقاء!", "slow": true,
+          "gloss": [["Merci", "شكراً"], ["beaucoup.", "كثيراً"], ["Au revoir !", "إلى اللقاء"]] }
+      ],
+      "tip_ar": "لاحظ **Bordeaux**: سبعة حروف تُنطق «بوردو». الـ **eau** = «أو»، والـ **x** في آخر الكلمة صامتة. وفي **heures** حرف h صامت كالعادة، والـ s في الآخر صامتة."
+    },
+    {
+      "type": "letters",
+      "key": "combos",
+      "short_ar": "التراكيب",
+      "title_ar": "التراكيب الأساسية",
+      "hint_ar": "كل لوحة تركيب واحد. اضغط لتسمعه في كلمة قصيرة، ثم اقرأ المثال بنفسك قبل أن تستمع إليه.",
+      "play_all_ar": "استمع لكل التراكيب",
+      "items": [
+        { "id": "k-ai", "letter": "ai", "say": "mais", "ipa": "ɛ", "ar_hint": "إِ مفتوحة", "example": { "id": "w-neige", "say": "neige", "ar": "ثلج" }, "note_ar": "**ai** و **ei** تُنطقان مثل **è**: mais، lait، neige، seize. حرفان وصوت واحد." },
+        { "id": "k-eau", "letter": "eau", "say": "eau", "ipa": "o", "ar_hint": "أو", "example": { "id": "w-chateau", "say": "château", "ar": "قصر" }, "note_ar": "**au** و **eau** كلاهما «أو» مثل o: gauche، beau، Bordeaux. وكثير من الكلمات تنتهي بـ **-eau**." },
+        { "id": "k-oi", "letter": "oi", "say": "moi", "ipa": "wa", "ar_hint": "وا", "example": { "id": "w-voiture", "say": "voiture", "ar": "سيارة" }, "tricky": true, "note_ar": "ليست «أوي». **oi** تُنطق دائماً «وا»: moi «موا»، trois «تغوا»، voilà «ڤوالا». ومثلها **oy** في voyage." },
+        { "id": "k-ui", "letter": "ui", "say": "huit", "ipa": "ɥi", "ar_hint": "ويـ سريعة", "example": { "id": "w-nuit", "say": "nuit", "ar": "ليل" }, "tricky": true, "note_ar": "صوت u الفرنسي (بشفاه مستديرة) ثم «إي» مباشرة، بسرعة: huit، nuit، cuisine. ليس «ويت» العربية تماماً: ابدأ بـ u لا بـ «و»." },
+        { "id": "k-eu", "letter": "eu", "say": "peu", "ipa": "ø", "ar_hint": "إيه + شفاه مستديرة", "example": { "id": "w-soeur", "say": "sœur", "ar": "أخت" }, "note_ar": "**eu** و **œu** صوت واحد تعلمته في الوحدة 0.2. و **œ** حرفان ملتصقان (o + e) يظهران في كلمات قليلة مهمة: sœur، cœur (قلب)، œuf (بيضة)." },
+        { "id": "k-ph", "letter": "ph", "say": "photo", "ipa": "f", "ar_hint": "ف", "example": { "id": "w-pharmacie", "say": "pharmacie", "ar": "صيدلية" }, "note_ar": "**ph** = **f** دائماً، كما في الإنجليزية: photo، téléphone، pharmacie." },
+        { "id": "k-qu", "letter": "qu", "say": "qui", "ipa": "k", "ar_hint": "ك", "example": { "id": "w-quatre", "say": "quatre", "ar": "أربعة" }, "note_ar": "**qu** = **k**، والـ u صامتة تماماً: qui «كي»، quai «كيه»، quatre «كاتغ». ليست «كو» ولا «كو-ا» كالإنجليزية." },
+        { "id": "k-gn", "letter": "gn", "say": "ligne", "ipa": "ɲ", "ar_hint": "نيـ", "example": { "id": "w-montagne", "say": "montagne", "ar": "جبل" }, "tricky": true, "note_ar": "صوت واحد: نون ممزوجة بياء، مثل «ني» في «نِيّة» تُنطق بسرعة. montagne «مونتانْيْ». **ليست** «غ» ثم «ن»." },
+        { "id": "k-ill", "letter": "ill", "say": "fille", "ipa": "ij", "ar_hint": "يْ", "example": { "id": "w-famille", "say": "famille", "ar": "عائلة" }, "tricky": true, "note_ar": "**ill** بعد حرف ساكن = «إيّ»، والـ ll لا تُنطق لاماً: fille «فيّ»، famille «فاميّ». بعد حرف علة = «يْ»: travail، bouteille. استثناءات مهمة تُنطق فيها اللام: **ville، mille، tranquille**." },
+        { "id": "k-c", "letter": "c / ç", "say": "ceci", "ipa": "s / k", "ar_hint": "س أو ك", "example": { "id": "w-garcon", "say": "garçon", "ar": "ولد" }, "note_ar": "**c** قبل e و i و y = «س» (ceci، cinéma). وقبل a و o و u أو حرف ساكن = «ك» (café، comme، classe). ولتصبح «س» قبل a/o/u تُكتب **ç**: ça، garçon." },
+        { "id": "k-g", "letter": "g / gu", "say": "page", "ipa": "ʒ / ɡ", "ar_hint": "ژ أو گ", "example": { "id": "w-guide", "say": "guide", "ar": "مرشد / دليل" }, "tricky": true, "note_ar": "**g** قبل e و i و y = «ژ» (page، girafe). وقبل a و o و u = «گ» مثل الجيم المصرية (gare، gauche). ولتبقى «گ» قبل e/i تُكتب **gu** والـ u صامتة: guide، guichet." }
+      ]
+    },
+    {
+      "type": "accents",
+      "key": "rules",
+      "short_ar": "اقرأ بنفسك",
+      "title_ar": "اقرأ بنفسك: نفس الحرف، صوتان",
+      "hint_ar": "في كل مجموعة: غطِّ زر الاستماع بإصبعك، اقرأ الكلمة بصوت عالٍ حسب القاعدة، ثم استمع وقارن.",
+      "items": [
+        {
+          "id": "r-c", "mark": "c", "name_fr": "café / cinéma", "say": "café, cinéma.", "name_ar": "ك أم س؟",
+          "effect_ar": "انظر للحرف **بعد** c: إذا كان e أو i فهي «س»، وإلا فهي «ك».",
+          "examples": [
+            { "id": "w-cafe", "say": "café", "ar": "قهوة" },
+            { "id": "w-cinema", "say": "cinéma", "ar": "سينما" },
+            { "id": "w-classe", "say": "classe", "ar": "صف دراسي" },
+            { "id": "w-merci", "say": "merci", "ar": "شكراً" },
+            { "id": "w-lecon", "say": "leçon", "ar": "درس" }
+          ]
+        },
+        {
+          "id": "r-g", "mark": "g", "name_fr": "gare / girafe", "say": "gare, girafe.", "name_ar": "گ أم ژ؟",
+          "effect_ar": "القاعدة نفسها: g قبل e أو i = «ژ»، وإلا = «گ». و **gu** تبقيها «گ».",
+          "examples": [
+            { "id": "w-gare", "say": "gare", "ar": "محطة قطار" },
+            { "id": "w-girafe", "say": "girafe", "ar": "زرافة" },
+            { "id": "w-rouge", "say": "rouge", "ar": "أحمر" },
+            { "id": "w-guitare", "say": "guitare", "ar": "غيتار" },
+            { "id": "w-gateau", "say": "gâteau", "ar": "كعكة" }
+          ]
+        },
+        {
+          "id": "r-ill", "mark": "ill", "name_fr": "fille / ville", "say": "fille, ville.", "name_ar": "القاعدة واستثناؤها",
+          "effect_ar": "عادة **ill** = «إيّ» بلا لام. لكن في ثلاث كلمات شائعة تُنطق اللام: ville، mille، tranquille.",
+          "examples": [
+            { "id": "w-fille", "say": "fille", "ar": "بنت / ابنة" },
+            { "id": "w-ville", "say": "ville", "ar": "مدينة" },
+            { "id": "w-billet", "say": "billet", "ar": "تذكرة" },
+            { "id": "w-mille", "say": "mille", "ar": "ألف" }
+          ]
+        },
+        {
+          "id": "r-o", "mark": "o au eau", "name_fr": "mot / faute / beau", "say": "mot, faute, beau.", "name_ar": "ثلاث كتابات، صوت واحد",
+          "effect_ar": "عند القراءة سهل: الثلاثة «أو». عند الكتابة صعب: عليك أن تحفظ أيها في كل كلمة.",
+          "examples": [
+            { "id": "w-mot", "say": "mot", "ar": "كلمة" },
+            { "id": "w-faute", "say": "faute", "ar": "خطأ" },
+            { "id": "w-beau", "say": "beau", "ar": "جميل" },
+            { "id": "w-bateau", "say": "bateau", "ar": "قارب" }
+          ]
+        },
+        {
+          "id": "r-oi", "mark": "oi ou u", "name_fr": "toi / tout / tu", "say": "toi, tout, tu.", "name_ar": "ثلاثة أصوات مختلفة",
+          "effect_ar": "**oi** = «وا»، و **ou** = «أو»، و **u** = «إي» بشفاه مستديرة. ثلاث كلمات تبدأ بـ t ومعانٍ مختلفة.",
+          "examples": [
+            { "id": "w-toi", "say": "toi", "ar": "أنتَ (للتأكيد)" },
+            { "id": "w-tout", "say": "tout", "ar": "كل" },
+            { "id": "w-tu", "say": "tu", "ar": "أنتَ" },
+            { "id": "w-moi", "say": "moi", "ar": "أنا (للتأكيد)" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: أي كتابة تسمع؟",
+      "hint_ar": "تسمع كلمة وتختار كتابتها الصحيحة. هذا يربط الصوت بالتركيب المكتوب.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر الكلمة",
+      "start_ar": "كل سؤال: تسمع كلمة وتختار كتابتها بين كلمتين.",
+      "items": [
+        { "id": "q-moi", "say": "moi", "options": ["moi", "mou"], "answer": "moi", "explain_ar": "moi: سمعت «وا»، فهي oi." },
+        { "id": "q-toi", "say": "toi", "options": ["toi", "tu"], "answer": "toi", "explain_ar": "toi «توا» = oi." },
+        { "id": "q-fille", "say": "fille", "options": ["fille", "file"], "answer": "fille", "explain_ar": "fille «فيّ» بلا لام = ill. أما file (طابور) ففيها لام واضحة." },
+        { "id": "q-peur", "say": "peur", "options": ["peur", "pour"], "answer": "peur", "explain_ar": "peur (خوف): صوت eu. أما pour (لِـ) فصوت ou." },
+        { "id": "q-queue", "say": "queue", "options": ["queue", "cou"], "answer": "queue", "explain_ar": "queue (ذيل/طابور): qu = ك، ثم eu. أما cou (عنق) فصوت ou." },
+        { "id": "q-agneau", "say": "agneau", "options": ["agneau", "anneau"], "answer": "agneau", "explain_ar": "agneau (خروف صغير): سمعت «نيـ» = gn. أما anneau (خاتم) فنون عادية." },
+        { "id": "q-glace", "say": "glace", "options": ["glace", "classe"], "answer": "glace", "explain_ar": "glace (مثلجات): يبدأ بـ «گ» = g قبل حرف ساكن." },
+        { "id": "q-rouge", "say": "rouge", "options": ["rouge", "rousse"], "answer": "rouge", "explain_ar": "rouge: سمعت «ژ» = g قبل e." },
+        { "id": "q-huit", "say": "huit", "options": ["huit", "oui"], "answer": "huit", "explain_ar": "huit (ثمانية): «ويت» بصوت u. أما oui (نعم) فـ «وي»." },
+        { "id": "q-beau", "say": "beau", "options": ["beau", "bout"], "answer": "beau", "explain_ar": "beau = eau، صوت o بفم نصف مفتوح. أما bout (طرف) فصوته ou، بشفاه مستديرة تماماً." }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب الكلمة التي تسمعها",
+      "hint_ar": "المعنى ظاهر ليساعدك. فكّر في التركيب: «أو» قد تكون o أو au أو eau، و «إِ» قد تكون è أو ai.",
+      "prompt_ar": "استمع واكتب الكلمة",
+      "show_meaning": true,
+      "result_ar": "الأخطاء هنا طبيعية جداً: الكتابة الفرنسية تُتعلّم بالقراءة الكثيرة. المهم أن تعرف **قراءة** هذه التراكيب دون تردد.",
+      "items": [
+        { "id": "s-chateau", "say": "château", "answer": "château", "ar": "قصر" },
+        { "id": "s-voiture", "say": "voiture", "answer": "voiture", "ar": "سيارة" },
+        { "id": "s-montagne", "say": "montagne", "answer": "montagne", "ar": "جبل" },
+        { "id": "s-famille", "say": "famille", "answer": "famille", "ar": "عائلة" },
+        { "id": "s-pharmacie", "say": "pharmacie", "answer": "pharmacie", "ar": "صيدلية" },
+        { "id": "s-quatre", "say": "quatre", "answer": "quatre", "ar": "أربعة" },
+        { "id": "s-neige", "say": "neige", "answer": "neige", "ar": "ثلج" },
+        { "id": "s-gauche", "say": "gauche", "answer": "gauche", "ar": "يسار" }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "اقرأ كل جملة بصوت عالٍ أولاً دون استماع، ثم استمع للنموذج وقارن: هل قرأت التراكيب صحيحة؟",
+      "items": [
+        { "id": "sh-1", "say": "Le train part du quai trois.", "ar": "القطار ينطلق من الرصيف رقم ثلاثة.", "slow": true, "voice": "male",
+          "gloss": [["Le", "الـ"], ["train", "قطار"], ["part", "ينطلق"], ["du", "من الـ"], ["quai", "رصيف"], ["trois.", "ثلاثة"]] },
+        { "id": "sh-2", "say": "Où est la pharmacie, s'il vous plaît ?", "ar": "أين الصيدلية، من فضلك؟", "slow": true, "voice": "female",
+          "gloss": [["Où", "أين"], ["est", "تكون"], ["la", "الـ"], ["pharmacie,", "صيدلية"], ["s'il vous plaît ?", "من فضلك"]] },
+        { "id": "sh-3", "say": "Ma fille a quatre ans.", "ar": "ابنتي عمرها أربع سنوات.", "slow": true, "voice": "female",
+          "gloss": [["Ma", "ـي"], ["fille", "ابنة"], ["a", "عندها"], ["quatre", "أربع"], ["ans.", "سنوات"]] },
+        { "id": "sh-4", "say": "Il fait beau à la montagne.", "ar": "الجو جميل في الجبل.", "slow": true, "voice": "male",
+          "gloss": [["Il fait beau", "الجو جميل"], ["à", "في"], ["la", "الـ"], ["montagne.", "جبل"]] },
+        { "id": "sh-5", "say": "Un billet pour Bordeaux, s'il vous plaît.", "ar": "تذكرة إلى بوردو، من فضلك.", "slow": true, "voice": "male",
+          "gloss": [["Un", "(نكرة)"], ["billet", "تذكرة"], ["pour", "إلى"], ["Bordeaux,", "بوردو"], ["s'il vous plaît.", "من فضلك"]] }
+      ],
+      "task_ar": "تحدٍّ: اقرأ بصوت عالٍ هذه الكلمات التي لم تسمعها من قبل، ثم سجّل نفسك: **poisson، cuisine، soleil، magnifique، oiseau**."
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "اقرأ الكلمة بصوت عالٍ قبل أن تستمع لها أو تكشف معناها.",
+      "cards": [
+        { "id": "c-gare", "front": "la gare", "say": "la gare", "back_ar": "محطة القطار" },
+        { "id": "c-quai", "front": "le quai", "say": "le quai", "back_ar": "الرصيف (في المحطة)" },
+        { "id": "c-billet", "front": "un billet", "say": "un billet", "back_ar": "تذكرة (ill = يْ)" },
+        { "id": "c-guichet", "front": "le guichet", "say": "le guichet", "back_ar": "شبّاك التذاكر (gu = گ)" },
+        { "id": "c-gauche", "front": "à gauche", "say": "à gauche", "back_ar": "على اليسار" },
+        { "id": "c-droite", "front": "à droite", "say": "à droite", "back_ar": "على اليمين" },
+        { "id": "c-trois", "front": "trois", "say": "trois", "back_ar": "3 (oi = وا)" },
+        { "id": "c-quatre", "front": "quatre", "say": "quatre", "back_ar": "4 (qu = ك)" },
+        { "id": "c-huit", "front": "huit", "say": "huit", "back_ar": "8" },
+        { "id": "c-fille", "front": "la fille", "say": "la fille", "back_ar": "البنت / الابنة" },
+        { "id": "c-famille", "front": "la famille", "say": "la famille", "back_ar": "العائلة" },
+        { "id": "c-ville", "front": "la ville", "say": "la ville", "back_ar": "المدينة (استثناء: اللام تُنطق)" },
+        { "id": "c-montagne", "front": "la montagne", "say": "la montagne", "back_ar": "الجبل (gn = نيـ)" },
+        { "id": "c-pharmacie", "front": "la pharmacie", "say": "la pharmacie", "back_ar": "الصيدلية" },
+        { "id": "c-chateau", "front": "le château", "say": "le château", "back_ar": "القصر" },
+        { "id": "c-eau", "front": "l'eau", "say": "l'eau", "back_ar": "الماء" },
+        { "id": "c-moi-toi", "front": "moi / toi", "say": "moi, toi", "back_ar": "أنا / أنتَ (للتأكيد)" },
+        { "id": "c-bon-voyage", "front": "Bon voyage !", "say": "Bon voyage !", "back_ar": "رحلة سعيدة!" }
+      ]
+    }
+  ]
+}
