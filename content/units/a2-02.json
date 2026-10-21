@@ -1,0 +1,1320 @@
+{
+  "id": "a2-02",
+  "stage": "A2",
+  "title_fr": "Le passé composé avec être",
+  "title_ar": "الماضي المركّب مع être",
+  "goals_ar": [
+    "تحكي تنقلاتك: **Je suis allé à Lyon. Elle est arrivée hier.**",
+    "تعرف الأفعال التي تأخذ **être** في الماضي",
+    "تطابق اسم المفعول مع الفاعل: **il est allé، elle est allée، ils sont allés**",
+    "تستعمل الأفعال الضميرية في الماضي: **je me suis levé**"
+  ],
+  "intro_ar": [
+    "نحو خمسة عشر فعلاً تأخذ **être** بدل avoir في الماضي. أغلبها أفعال **حركة أو تغيّر حالة**: aller، venir، arriver، partir، entrer، sortir، monter، descendre، rester، tomber، rentrer، naître، mourir.",
+    "**مع être يتفق اسم المفعول مع الفاعل** مثل الصفة: il est allé، و elle est allée بـ e، و ils sont allés بـ s. والنطق غالباً واحد!",
+    "**وكل الأفعال الضميرية تأخذ être:** je me suis levé، elle s'est couchée. وإن كانت المتكلمة امرأة كتبت: je suis allée."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: رحلة إلى ليون",
+      "context_ar": "يوسف عاد من رحلة قصيرة إلى ليون، وكلير تسأله. لاحظ être في كل فعل حركة.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Tu es rentré de Lyon ?",
+          "ar": "هل عدتَ من ليون؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "es rentré",
+              "عدتَ"
+            ],
+            [
+              "de Lyon ?",
+              "من ليون"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Oui, je suis rentré hier soir. Je suis parti vendredi en train.",
+          "ar": "نعم، عدت أمس مساءً. سافرت يوم الجمعة بالقطار.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "suis rentré",
+              "عدتُ"
+            ],
+            [
+              "hier soir.",
+              "أمس مساءً"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "suis parti",
+              "انطلقتُ"
+            ],
+            [
+              "vendredi",
+              "الجمعة"
+            ],
+            [
+              "en train.",
+              "بالقطار"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Ton frère est venu avec toi ?",
+          "ar": "هل جاء أخوك معك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Ton",
+              "ـك"
+            ],
+            [
+              "frère",
+              "أخ"
+            ],
+            [
+              "est venu",
+              "جاء"
+            ],
+            [
+              "avec toi ?",
+              "معك"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Non, il est resté à Paris. Mais ma cousine Leïla est venue de Marseille !",
+          "ar": "لا، بقي في باريس. لكن ابنة عمي ليلى جاءت من مرسيليا!",
+          "slow": true,
+          "gloss": [
+            [
+              "Non,",
+              "لا"
+            ],
+            [
+              "il",
+              "هو"
+            ],
+            [
+              "est resté",
+              "بقي"
+            ],
+            [
+              "à Paris.",
+              "في باريس"
+            ],
+            [
+              "Mais",
+              "لكن"
+            ],
+            [
+              "ma",
+              "ـي"
+            ],
+            [
+              "cousine",
+              "ابنة عم"
+            ],
+            [
+              "Leïla",
+              "ليلى"
+            ],
+            [
+              "est venue",
+              "جاءت"
+            ],
+            [
+              "de Marseille !",
+              "من مرسيليا"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Super ! Vous êtes allés où ?",
+          "ar": "رائع! إلى أين ذهبتما؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Super !",
+              "رائع"
+            ],
+            [
+              "Vous",
+              "أنتما"
+            ],
+            [
+              "êtes allés",
+              "ذهبتما"
+            ],
+            [
+              "où ?",
+              "إلى أين"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Nous sommes montés à Fourvière, et nous sommes descendus dans la vieille ville.",
+          "ar": "صعدنا إلى فورڤيير، ونزلنا إلى المدينة القديمة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "sommes montés",
+              "صعدنا"
+            ],
+            [
+              "à Fourvière,",
+              "إلى فورڤيير"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "sommes descendus",
+              "نزلنا"
+            ],
+            [
+              "dans",
+              "إلى"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "vieille",
+              "قديمة"
+            ],
+            [
+              "ville.",
+              "مدينة"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Et le soir, vous êtes sortis ?",
+          "ar": "وفي المساء، هل خرجتما؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "le soir,",
+              "في المساء"
+            ],
+            [
+              "vous",
+              "أنتما"
+            ],
+            [
+              "êtes sortis ?",
+              "خرجتما"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Oui, mais Leïla est tombée dans la rue ! Rien de grave.",
+          "ar": "نعم، لكن ليلى سقطت في الشارع! لا شيء خطير.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "Leïla",
+              "ليلى"
+            ],
+            [
+              "est tombée",
+              "سقطت"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "rue !",
+              "شارع"
+            ],
+            [
+              "Rien de grave.",
+              "لا شيء خطير"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Oh là là ! Et ce matin, tu t'es levé à quelle heure ?",
+          "ar": "يا إلهي! وهذا الصباح، متى استيقظت؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Oh là là !",
+              "يا إلهي"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "ce matin,",
+              "هذا الصباح"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "t'es levé",
+              "استيقظتَ"
+            ],
+            [
+              "à quelle heure ?",
+              "في أي ساعة"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "Je me suis levé à dix heures. Je suis très fatigué !",
+          "ar": "استيقظت الساعة العاشرة. أنا متعب جداً!",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "me suis levé",
+              "استيقظتُ"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "dix",
+              "10"
+            ],
+            [
+              "heures.",
+              "ساعات"
+            ],
+            [
+              "Je suis",
+              "أنا"
+            ],
+            [
+              "très",
+              "جداً"
+            ],
+            [
+              "fatigué !",
+              "متعب"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "قارن: **il est venu** (الأخ) و **elle est venue** (ليلى) بـ e. و **vous êtes allés** بـ s لأنهما اثنان. وفي السطر 9 **tu t'es levé**: الأفعال الضميرية تأخذ être دائماً."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "أفعال être مع أسماء مفعولها. احفظها أزواجاً.",
+      "groups": [
+        {
+          "title_ar": "أفعال الحركة مع être",
+          "items": [
+            {
+              "id": "v-aller",
+              "say": "aller, allé",
+              "ar": "ذهب",
+              "fr": "aller / allé"
+            },
+            {
+              "id": "v-venir",
+              "say": "venir, venu",
+              "ar": "جاء",
+              "fr": "venir / venu"
+            },
+            {
+              "id": "v-arriver",
+              "say": "arriver, arrivé",
+              "ar": "وصل",
+              "fr": "arriver / arrivé"
+            },
+            {
+              "id": "v-partir",
+              "say": "partir, parti",
+              "ar": "غادر / سافر",
+              "fr": "partir / parti"
+            },
+            {
+              "id": "v-entrer",
+              "say": "entrer, entré",
+              "ar": "دخل",
+              "fr": "entrer / entré"
+            },
+            {
+              "id": "v-sortir",
+              "say": "sortir, sorti",
+              "ar": "خرج",
+              "fr": "sortir / sorti"
+            },
+            {
+              "id": "v-monter",
+              "say": "monter, monté",
+              "ar": "صعد",
+              "fr": "monter / monté"
+            },
+            {
+              "id": "v-descendre",
+              "say": "descendre, descendu",
+              "ar": "نزل",
+              "fr": "descendre / descendu"
+            },
+            {
+              "id": "v-rester",
+              "say": "rester, resté",
+              "ar": "بقي",
+              "fr": "rester / resté"
+            },
+            {
+              "id": "v-tomber",
+              "say": "tomber, tombé",
+              "ar": "سقط",
+              "fr": "tomber / tombé"
+            },
+            {
+              "id": "v-rentrer",
+              "say": "rentrer, rentré",
+              "ar": "عاد إلى البيت",
+              "fr": "rentrer / rentré"
+            },
+            {
+              "id": "v-naitre",
+              "say": "naître, né",
+              "ar": "وُلد",
+              "fr": "naître / né",
+              "note_ar": "Je suis né à Riyad."
+            },
+            {
+              "id": "v-mourir",
+              "say": "mourir, mort",
+              "ar": "مات",
+              "fr": "mourir / mort"
+            }
+          ]
+        },
+        {
+          "title_ar": "السفر",
+          "items": [
+            {
+              "id": "v-voyage",
+              "say": "un voyage",
+              "ar": "رحلة"
+            },
+            {
+              "id": "v-billet",
+              "say": "un billet",
+              "ar": "تذكرة"
+            },
+            {
+              "id": "v-vacances",
+              "say": "partir en vacances",
+              "ar": "يذهب في عطلة"
+            },
+            {
+              "id": "v-vieille",
+              "say": "la vieille ville",
+              "ar": "المدينة القديمة"
+            },
+            {
+              "id": "v-grave",
+              "say": "Rien de grave.",
+              "ar": "لا شيء خطير."
+            },
+            {
+              "id": "v-quand",
+              "say": "Tu es rentré quand ?",
+              "ar": "متى عدت؟"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "être",
+      "title_ar": "القاعدة: الماضي المركّب مع être",
+      "intro_ar": "être في الحاضر + اسم المفعول، واسم المفعول يتفق مع الفاعل.",
+      "tables": [
+        {
+          "title_fr": "aller au passé composé",
+          "title_ar": "ذهبَ",
+          "head_ar": [
+            "الضمير",
+            "être",
+            "اسم المفعول"
+          ],
+          "rows": [
+            {
+              "id": "g-a1",
+              "say": "je suis allé",
+              "cells": [
+                "je",
+                "suis",
+                "allé(e)"
+              ],
+              "ar": "ذهبتُ"
+            },
+            {
+              "id": "g-a2",
+              "say": "tu es allé",
+              "cells": [
+                "tu",
+                "es",
+                "allé(e)"
+              ],
+              "ar": "ذهبتَ / ذهبتِ"
+            },
+            {
+              "id": "g-a3",
+              "say": "il est allé",
+              "cells": [
+                "il",
+                "est",
+                "allé"
+              ],
+              "ar": "ذهبَ"
+            },
+            {
+              "id": "g-a4",
+              "say": "elle est allée",
+              "cells": [
+                "elle",
+                "est",
+                "allée"
+              ],
+              "ar": "ذهبتْ"
+            },
+            {
+              "id": "g-a5",
+              "say": "nous sommes allés",
+              "cells": [
+                "nous",
+                "sommes",
+                "allé(e)s"
+              ],
+              "ar": "ذهبنا"
+            },
+            {
+              "id": "g-a6",
+              "say": "vous êtes allés",
+              "cells": [
+                "vous",
+                "êtes",
+                "allé(e)(s)"
+              ],
+              "ar": "ذهبتم"
+            },
+            {
+              "id": "g-a7",
+              "say": "ils sont allés",
+              "cells": [
+                "ils",
+                "sont",
+                "allés"
+              ],
+              "ar": "ذهبوا"
+            },
+            {
+              "id": "g-a8",
+              "say": "elles sont allées",
+              "cells": [
+                "elles",
+                "sont",
+                "allées"
+              ],
+              "ar": "ذهبن"
+            }
+          ],
+          "note_ar": "(e) للمؤنث و (s) للجمع. والنطق واحد في كل الأشكال: «أليه». فالفرق يظهر في الكتابة فقط."
+        },
+        {
+          "title_fr": "Les verbes avec être",
+          "title_ar": "الأفعال التي تأخذ être",
+          "head_ar": [
+            "المصدر",
+            "اسم المفعول"
+          ],
+          "rows": [
+            {
+              "id": "g-v1",
+              "say": "arriver, arrivé",
+              "cells": [
+                "arriver",
+                "arrivé"
+              ],
+              "ar": "وصل"
+            },
+            {
+              "id": "g-v2",
+              "say": "entrer, entré",
+              "cells": [
+                "entrer",
+                "entré"
+              ],
+              "ar": "دخل"
+            },
+            {
+              "id": "g-v3",
+              "say": "monter, monté",
+              "cells": [
+                "monter",
+                "monté"
+              ],
+              "ar": "صعد"
+            },
+            {
+              "id": "g-v4",
+              "say": "rester, resté",
+              "cells": [
+                "rester",
+                "resté"
+              ],
+              "ar": "بقي"
+            },
+            {
+              "id": "g-v5",
+              "say": "descendre, descendu",
+              "cells": [
+                "descendre",
+                "descendu"
+              ],
+              "ar": "نزل"
+            },
+            {
+              "id": "g-v6",
+              "say": "tomber, tombé",
+              "cells": [
+                "tomber",
+                "tombé"
+              ],
+              "ar": "سقط"
+            },
+            {
+              "id": "g-v7",
+              "say": "sortir, sorti",
+              "cells": [
+                "sortir",
+                "sorti"
+              ],
+              "ar": "خرج"
+            },
+            {
+              "id": "g-v8",
+              "say": "partir, parti",
+              "cells": [
+                "partir",
+                "parti"
+              ],
+              "ar": "غادر"
+            },
+            {
+              "id": "g-v9",
+              "say": "naître, né",
+              "cells": [
+                "naître",
+                "né"
+              ],
+              "ar": "وُلد"
+            },
+            {
+              "id": "g-v10",
+              "say": "mourir, mort",
+              "cells": [
+                "mourir",
+                "mort"
+              ],
+              "ar": "مات"
+            }
+          ],
+          "note_ar": "حيلة للحفظ: تخيّل بيتاً. تصل إليه، تدخل، تصعد الدرج، تبقى، تنزل، تسقط، تخرج، تغادر. وفيه تولد وتموت. ومعها aller و venir و rentrer."
+        },
+        {
+          "title_fr": "se lever au passé composé",
+          "title_ar": "الأفعال الضميرية في الماضي",
+          "head_ar": [
+            "الضمير",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-s1",
+              "say": "je me suis levé",
+              "cells": [
+                "je",
+                "me suis levé(e)"
+              ],
+              "ar": "استيقظتُ"
+            },
+            {
+              "id": "g-s2",
+              "say": "tu t'es levé",
+              "cells": [
+                "tu",
+                "t'es levé(e)"
+              ],
+              "ar": "استيقظتَ"
+            },
+            {
+              "id": "g-s3",
+              "say": "il s'est levé",
+              "cells": [
+                "il",
+                "s'est levé"
+              ],
+              "ar": "استيقظَ"
+            },
+            {
+              "id": "g-s4",
+              "say": "elle s'est levée",
+              "cells": [
+                "elle",
+                "s'est levée"
+              ],
+              "ar": "استيقظتْ"
+            },
+            {
+              "id": "g-s5",
+              "say": "nous nous sommes levés",
+              "cells": [
+                "nous",
+                "nous sommes levé(e)s"
+              ],
+              "ar": "استيقظنا"
+            },
+            {
+              "id": "g-s6",
+              "say": "ils se sont levés",
+              "cells": [
+                "ils / elles",
+                "se sont levé(e)s"
+              ],
+              "ar": "استيقظوا"
+            }
+          ],
+          "note_ar": "الضمير الثاني قبل être: je me suis levé. والنفي حولهما: je ne me suis pas levé."
+        }
+      ],
+      "points_ar": [
+        "**avoir أم être؟** الأفعال الضميرية وأفعال «البيت» مع être، والباقي (وهو الأغلبية) مع avoir.",
+        "**المطابقة مع être فقط:** elle est partie بـ e، لكن elle a mangé بلا e.",
+        "**الولادة بالماضي المركّب:** Je suis né à Riyad. Elle est née en 1995."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: être والمطابقة",
+      "hint_ar": "اختر être أو avoir، ثم انتبه لـ e و s.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je ___ allé à Lyon.",
+          "say": "Je suis allé à Lyon.",
+          "options": [
+            "ai",
+            "suis"
+          ],
+          "answer": "suis",
+          "ar": "ذهبت إلى ليون.",
+          "explain_ar": "aller فعل حركة: je **suis** allé."
+        },
+        {
+          "id": "f2",
+          "text": "Elle est ___ hier.",
+          "say": "Elle est arrivée hier.",
+          "options": [
+            "arrivée",
+            "arrivé"
+          ],
+          "answer": "arrivée",
+          "ar": "وصلت أمس.",
+          "explain_ar": "مع être والفاعل مؤنث: **arrivée**."
+        },
+        {
+          "id": "f3",
+          "text": "Ils sont ___ en train.",
+          "say": "Ils sont partis en train.",
+          "options": [
+            "parti",
+            "partis"
+          ],
+          "answer": "partis",
+          "ar": "سافروا بالقطار.",
+          "explain_ar": "الفاعل جمع: **partis**."
+        },
+        {
+          "id": "f4",
+          "text": "Nous ___ sortis samedi soir.",
+          "say": "Nous sommes sortis samedi soir.",
+          "options": [
+            "avons",
+            "sommes"
+          ],
+          "answer": "sommes",
+          "ar": "خرجنا مساء السبت.",
+          "explain_ar": "sortir مع être: nous **sommes**."
+        },
+        {
+          "id": "f5",
+          "text": "Mon frère ___ resté à Paris.",
+          "say": "Mon frère est resté à Paris.",
+          "options": [
+            "est",
+            "a"
+          ],
+          "answer": "est",
+          "ar": "بقي أخي في باريس.",
+          "explain_ar": "rester مع être: il **est** resté."
+        },
+        {
+          "id": "f6",
+          "text": "Elle a ___ une pizza.",
+          "say": "Elle a mangé une pizza.",
+          "options": [
+            "mangée",
+            "mangé"
+          ],
+          "answer": "mangé",
+          "ar": "أكلت بيتزا.",
+          "explain_ar": "مع avoir لا مطابقة: **mangé**."
+        },
+        {
+          "id": "f7",
+          "text": "Je ___ suis levé à sept heures.",
+          "say": "Je me suis levé à sept heures.",
+          "options": [
+            "se",
+            "me"
+          ],
+          "answer": "me",
+          "ar": "استيقظت الساعة السابعة.",
+          "explain_ar": "مع je: **me** suis levé."
+        },
+        {
+          "id": "f8",
+          "text": "Tu t'___ couché tard ?",
+          "say": "Tu t'es couché tard ?",
+          "options": [
+            "as",
+            "es"
+          ],
+          "answer": "es",
+          "ar": "هل نمت متأخراً؟",
+          "explain_ar": "الأفعال الضميرية مع être: tu **t'es**."
+        },
+        {
+          "id": "f9",
+          "text": "Leïla est ___ dans la rue.",
+          "say": "Leïla est tombée dans la rue.",
+          "options": [
+            "tombée",
+            "tombé"
+          ],
+          "answer": "tombée",
+          "ar": "سقطت ليلى في الشارع.",
+          "explain_ar": "ليلى مؤنث: **tombée**."
+        },
+        {
+          "id": "f10",
+          "text": "Je suis ___ à Riyad.",
+          "say": "Je suis né à Riyad.",
+          "options": [
+            "nais",
+            "né"
+          ],
+          "answer": "né",
+          "ar": "وُلدت في الرياض.",
+          "explain_ar": "الولادة بالماضي المركّب: je suis **né**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: ماضٍ أم حاضر؟",
+      "hint_ar": "الماضي مع être يبدأ بـ suis / est / sommes / sont قبل الفعل.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "Il est parti.",
+          "options": [
+            "Il part.",
+            "Il est parti."
+          ],
+          "answer": "Il est parti.",
+          "explain_ar": "est parti «إيه پاغتي»: غادر."
+        },
+        {
+          "id": "q2",
+          "say": "Elle vient.",
+          "options": [
+            "Elle vient.",
+            "Elle est venue."
+          ],
+          "answer": "Elle vient.",
+          "explain_ar": "vient «ڤيان»: تأتي الآن."
+        },
+        {
+          "id": "q3",
+          "say": "ils sont restés",
+          "options": [
+            "il est resté",
+            "ils sont restés"
+          ],
+          "answer": "ils sont restés",
+          "explain_ar": "sont «سون»: جمع."
+        },
+        {
+          "id": "q4",
+          "say": "Je me suis levé.",
+          "options": [
+            "Je me suis levé.",
+            "Je me lève."
+          ],
+          "answer": "Je me suis levé.",
+          "explain_ar": "me suis levé: استيقظتُ."
+        },
+        {
+          "id": "q5",
+          "say": "Elle est montée.",
+          "options": [
+            "Elle est tombée.",
+            "Elle est montée."
+          ],
+          "answer": "Elle est montée.",
+          "explain_ar": "montée «مونتيه»: صعدت."
+        },
+        {
+          "id": "q6",
+          "say": "Tu es rentré ?",
+          "options": [
+            "Tu es descendu ?",
+            "Tu es rentré ?"
+          ],
+          "answer": "Tu es rentré ?",
+          "explain_ar": "rentré «غونتغيه»: عدت."
+        },
+        {
+          "id": "q7",
+          "say": "Nous sommes partis vendredi.",
+          "options": [
+            "Nous sommes partis vendredi.",
+            "Nous partons vendredi."
+          ],
+          "answer": "Nous sommes partis vendredi.",
+          "explain_ar": "sommes partis: سافرنا."
+        },
+        {
+          "id": "q8",
+          "say": "Je suis né à Riyad.",
+          "options": [
+            "Je suis à Riyad.",
+            "Je suis né à Riyad."
+          ],
+          "answer": "Je suis né à Riyad.",
+          "explain_ar": "né «نيه»: وُلدت."
+        },
+        {
+          "id": "q9",
+          "say": "Vous sortez ?",
+          "options": [
+            "Vous êtes sortis ?",
+            "Vous sortez ?"
+          ],
+          "answer": "Vous sortez ?",
+          "explain_ar": "sortez «سوغتيه»: حاضر."
+        },
+        {
+          "id": "q10",
+          "say": "Elle est rentrée.",
+          "options": [
+            "Elle est entrée.",
+            "Elle est rentrée."
+          ],
+          "answer": "Elle est rentrée.",
+          "explain_ar": "rentrée بـ «غ» في أولها: عادت."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الماضي مع être",
+      "hint_ar": "انتبه لـ e و s في اسم المفعول.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: elle est venue بـ e، و ils sont partis بـ s، والنطق واحد.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je suis allé",
+          "answer": "je suis allé",
+          "ar": "ذهبتُ"
+        },
+        {
+          "id": "s2",
+          "say": "elle est venue",
+          "answer": "elle est venue",
+          "ar": "جاءت"
+        },
+        {
+          "id": "s3",
+          "say": "ils sont partis",
+          "answer": "ils sont partis",
+          "ar": "سافروا"
+        },
+        {
+          "id": "s4",
+          "say": "nous sommes sortis",
+          "answer": "nous sommes sortis",
+          "ar": "خرجنا"
+        },
+        {
+          "id": "s5",
+          "say": "il est resté",
+          "answer": "il est resté",
+          "ar": "بقي"
+        },
+        {
+          "id": "s6",
+          "say": "elle est tombée",
+          "answer": "elle est tombée",
+          "ar": "سقطت"
+        },
+        {
+          "id": "s7",
+          "say": "je me suis levé",
+          "answer": "je me suis levé",
+          "ar": "استيقظتُ"
+        },
+        {
+          "id": "s8",
+          "say": "je suis né",
+          "answer": "je suis né",
+          "ar": "وُلدتُ"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل التنقل في الماضي. لاحظ أن المتكلمة تقول levée بـ e.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Je suis allé à Lyon en train.",
+          "ar": "ذهبت إلى ليون بالقطار.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "suis allé",
+              "ذهبتُ"
+            ],
+            [
+              "à Lyon",
+              "إلى ليون"
+            ],
+            [
+              "en train.",
+              "بالقطار"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Elle est arrivée hier soir.",
+          "ar": "وصلت أمس مساءً.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "est arrivée",
+              "وصلت"
+            ],
+            [
+              "hier soir.",
+              "أمس مساءً"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Nous sommes sortis après le dîner.",
+          "ar": "خرجنا بعد العشاء.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "sommes sortis",
+              "خرجنا"
+            ],
+            [
+              "après",
+              "بعد"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "dîner.",
+              "عشاء"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Je me suis levée tard ce matin.",
+          "ar": "استيقظت متأخرة هذا الصباح.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "me suis levée",
+              "استيقظتُ"
+            ],
+            [
+              "tard",
+              "متأخرة"
+            ],
+            [
+              "ce matin.",
+              "هذا الصباح"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Il est resté à la maison.",
+          "ar": "بقي في البيت.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Il",
+              "هو"
+            ],
+            [
+              "est resté",
+              "بقي"
+            ],
+            [
+              "à la maison.",
+              "في البيت"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: احكِ آخر رحلة قمت بها: **Je suis parti… Je suis arrivé… Je suis allé… Je suis rentré…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "je suis allé(e)",
+          "say": "je suis allé",
+          "back_ar": "ذهبتُ"
+        },
+        {
+          "id": "c2",
+          "front": "elle est venue",
+          "say": "elle est venue",
+          "back_ar": "جاءت"
+        },
+        {
+          "id": "c3",
+          "front": "ils sont partis",
+          "say": "ils sont partis",
+          "back_ar": "سافروا / غادروا"
+        },
+        {
+          "id": "c4",
+          "front": "nous sommes arrivés",
+          "say": "nous sommes arrivés",
+          "back_ar": "وصلنا"
+        },
+        {
+          "id": "c5",
+          "front": "il est resté",
+          "say": "il est resté",
+          "back_ar": "بقي"
+        },
+        {
+          "id": "c6",
+          "front": "elle est tombée",
+          "say": "elle est tombée",
+          "back_ar": "سقطت"
+        },
+        {
+          "id": "c7",
+          "front": "je suis né(e)",
+          "say": "je suis né",
+          "back_ar": "وُلدتُ"
+        },
+        {
+          "id": "c8",
+          "front": "je suis rentré(e)",
+          "say": "je suis rentré",
+          "back_ar": "عدتُ"
+        },
+        {
+          "id": "c9",
+          "front": "je me suis levé(e)",
+          "say": "je me suis levé",
+          "back_ar": "استيقظتُ"
+        },
+        {
+          "id": "c10",
+          "front": "tu t'es couché(e)",
+          "say": "tu t'es couché",
+          "back_ar": "نمتَ"
+        },
+        {
+          "id": "c11",
+          "front": "monter / descendre",
+          "say": "monter, descendre",
+          "back_ar": "صعد / نزل"
+        },
+        {
+          "id": "c12",
+          "front": "entrer / sortir",
+          "say": "entrer, sortir",
+          "back_ar": "دخل / خرج"
+        },
+        {
+          "id": "c13",
+          "front": "être + allé, venu, parti",
+          "say": "je suis allé, je suis venu, je suis parti",
+          "back_ar": "أفعال الحركة تأخذ être"
+        },
+        {
+          "id": "c14",
+          "front": "un billet",
+          "say": "un billet",
+          "back_ar": "تذكرة"
+        },
+        {
+          "id": "c15",
+          "front": "un voyage",
+          "say": "un voyage",
+          "back_ar": "رحلة"
+        },
+        {
+          "id": "c16",
+          "front": "Rien de grave.",
+          "say": "Rien de grave.",
+          "back_ar": "لا شيء خطير."
+        }
+      ]
+    }
+  ]
+}

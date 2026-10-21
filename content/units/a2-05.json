@@ -1,0 +1,1252 @@
+{
+  "id": "a2-05",
+  "stage": "A2",
+  "title_fr": "Raconter une histoire",
+  "title_ar": "سرد قصة",
+  "goals_ar": [
+    "تجمع الزمنين في قصة: **Je marchais dans la rue quand j'ai vu Claire.**",
+    "تعرف متى تستعمل كل زمن: الخلفية بالناقص، والحدث بالمركّب",
+    "تربط الأحداث: **quand، pendant que، soudain، tout à coup**",
+    "تميّز في السمع **j'ai fait** من **je faisais**"
+  ],
+  "intro_ar": [
+    "في كل قصة نوعان من الجمل: **الخلفية** (المشهد، الجو، ما كان يجري) و**الأحداث** (ما وقع وانتهى). والفرنسية تعطي كلاً منهما زمناً.",
+    "**الخلفية بالناقص:** Il pleuvait. Je marchais dans la rue. و**الحدث بالمركّب:** Soudain, j'ai vu un chat.",
+    "**الصورة الذهنية:** الناقص فيلم يجري، والمركّب لقطة تقطعه: Je dormais **quand** le téléphone a sonné."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: المحفظة الضائعة",
+      "context_ar": "يوسف يحكي لكلير ما حدث له أمس في المترو. لاحظ: الخلفية بالناقص، والأحداث بالمركّب.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Tu as l'air content ! Qu'est-ce qui s'est passé ?",
+          "ar": "تبدو سعيداً! ماذا حدث؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu as l'air",
+              "تبدو"
+            ],
+            [
+              "content !",
+              "سعيداً"
+            ],
+            [
+              "Qu'est-ce qui s'est passé ?",
+              "ماذا حدث؟"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Une histoire incroyable ! Hier, je rentrais du travail en métro.",
+          "ar": "قصة لا تُصدَّق! أمس كنت عائداً من العمل بالمترو.",
+          "slow": true,
+          "gloss": [
+            [
+              "Une",
+              "(نكرة)"
+            ],
+            [
+              "histoire",
+              "قصة"
+            ],
+            [
+              "incroyable !",
+              "لا تُصدَّق"
+            ],
+            [
+              "Hier,",
+              "أمس"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "rentrais",
+              "كنتُ عائداً"
+            ],
+            [
+              "du travail",
+              "من العمل"
+            ],
+            [
+              "en métro.",
+              "بالمترو"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Et alors ?",
+          "ar": "وماذا بعد؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et alors ?",
+              "وماذا بعد؟"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Il y avait beaucoup de monde et je lisais mes messages. Quand je suis sorti, mon portefeuille n'était plus dans ma poche !",
+          "ar": "كان هناك زحام وكنت أقرأ رسائلي. عندما خرجت، لم تعد محفظتي في جيبي!",
+          "slow": true,
+          "gloss": [
+            [
+              "Il y avait",
+              "كان يوجد"
+            ],
+            [
+              "beaucoup de monde",
+              "زحام كبير"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "lisais",
+              "كنتُ أقرأ"
+            ],
+            [
+              "mes",
+              "ـي (جمع)"
+            ],
+            [
+              "messages.",
+              "رسائل"
+            ],
+            [
+              "Quand",
+              "عندما"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "suis sorti,",
+              "خرجتُ"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "portefeuille",
+              "محفظة"
+            ],
+            [
+              "n'était plus",
+              "لم تعد"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "ma",
+              "ـي"
+            ],
+            [
+              "poche !",
+              "جيب"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Oh non ! Qu'est-ce que tu as fait ?",
+          "ar": "يا للأسف! ماذا فعلت؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Oh non !",
+              "يا للأسف"
+            ],
+            [
+              "Qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "as fait ?",
+              "فعلتَ"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Je suis allé au guichet de la station. Pendant que j'expliquais le problème, mon téléphone a sonné.",
+          "ar": "ذهبت إلى شباك المحطة. وبينما كنت أشرح المشكلة، رنّ هاتفي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "suis allé",
+              "ذهبتُ"
+            ],
+            [
+              "au guichet",
+              "إلى الشباك"
+            ],
+            [
+              "de la station.",
+              "في المحطة"
+            ],
+            [
+              "Pendant que",
+              "بينما"
+            ],
+            [
+              "j'expliquais",
+              "كنتُ أشرح"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "problème,",
+              "مشكلة"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "téléphone",
+              "هاتف"
+            ],
+            [
+              "a sonné.",
+              "رنّ"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "C'était qui ?",
+          "ar": "من كان؟",
+          "slow": true,
+          "gloss": [
+            [
+              "C'était",
+              "كان"
+            ],
+            [
+              "qui ?",
+              "مَن"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Une vieille dame ! Elle a trouvé mon portefeuille par terre dans le métro.",
+          "ar": "سيدة عجوز! وجدت محفظتي على الأرض في المترو.",
+          "slow": true,
+          "gloss": [
+            [
+              "Une",
+              "(نكرة)"
+            ],
+            [
+              "vieille",
+              "عجوز"
+            ],
+            [
+              "dame !",
+              "سيدة"
+            ],
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "a trouvé",
+              "وجدت"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "portefeuille",
+              "محفظة"
+            ],
+            [
+              "par terre",
+              "على الأرض"
+            ],
+            [
+              "dans le métro.",
+              "في المترو"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Quelle chance ! Les gens sont gentils, parfois.",
+          "ar": "يا له من حظ! الناس لطفاء أحياناً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Quelle chance !",
+              "يا له من حظ"
+            ],
+            [
+              "Les",
+              "الـ"
+            ],
+            [
+              "gens",
+              "ناس"
+            ],
+            [
+              "sont",
+              "يكونون"
+            ],
+            [
+              "gentils,",
+              "لطفاء"
+            ],
+            [
+              "parfois.",
+              "أحياناً"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "Oui ! Soudain, Paris était la plus belle ville du monde !",
+          "ar": "نعم! فجأة صارت باريس أجمل مدينة في العالم!",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui !",
+              "نعم"
+            ],
+            [
+              "Soudain,",
+              "فجأة"
+            ],
+            [
+              "Paris",
+              "باريس"
+            ],
+            [
+              "était",
+              "كانت"
+            ],
+            [
+              "la plus belle",
+              "أجمل"
+            ],
+            [
+              "ville",
+              "مدينة"
+            ],
+            [
+              "du monde !",
+              "في العالم"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "لاحظ البناء: **الخلفية بالناقص** (je rentrais، il y avait، je lisais، j'expliquais) و**الأحداث بالمركّب** (je suis sorti، je suis allé، a sonné، a trouvé). وكلمة **pendant que** (بينما) تأتي غالباً مع الناقص."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "كلمات تربط القصة، وأحداث مفاجئة، وردود فعل.",
+      "groups": [
+        {
+          "title_ar": "ربط القصة",
+          "items": [
+            {
+              "id": "v-unjour",
+              "say": "un jour",
+              "ar": "ذات يوم"
+            },
+            {
+              "id": "v-quand",
+              "say": "quand",
+              "ar": "عندما"
+            },
+            {
+              "id": "v-pendant",
+              "say": "pendant que",
+              "ar": "بينما"
+            },
+            {
+              "id": "v-soudain",
+              "say": "soudain",
+              "ar": "فجأة"
+            },
+            {
+              "id": "v-toutacoup",
+              "say": "tout à coup",
+              "ar": "فجأة"
+            },
+            {
+              "id": "v-moment",
+              "say": "à ce moment-là",
+              "ar": "في تلك اللحظة"
+            },
+            {
+              "id": "v-apres",
+              "say": "après",
+              "ar": "بعد ذلك"
+            },
+            {
+              "id": "v-finalement",
+              "say": "finalement",
+              "ar": "في النهاية"
+            },
+            {
+              "id": "v-passe",
+              "say": "Qu'est-ce qui s'est passé ?",
+              "ar": "ماذا حدث؟"
+            }
+          ]
+        },
+        {
+          "title_ar": "أحداث",
+          "items": [
+            {
+              "id": "v-perdre",
+              "say": "perdre, perdu",
+              "ar": "فقد",
+              "fr": "perdre / perdu"
+            },
+            {
+              "id": "v-trouver",
+              "say": "trouver",
+              "ar": "وجد"
+            },
+            {
+              "id": "v-sonner",
+              "say": "sonner",
+              "ar": "رنّ"
+            },
+            {
+              "id": "v-rencontrer",
+              "say": "rencontrer",
+              "ar": "التقى (صدفة)"
+            },
+            {
+              "id": "v-oublier",
+              "say": "oublier",
+              "ar": "نسي"
+            },
+            {
+              "id": "v-entendre",
+              "say": "entendre, entendu",
+              "ar": "سمع",
+              "fr": "entendre / entendu"
+            },
+            {
+              "id": "v-accident",
+              "say": "un accident",
+              "ar": "حادث"
+            },
+            {
+              "id": "v-surprise",
+              "say": "une surprise",
+              "ar": "مفاجأة"
+            }
+          ]
+        },
+        {
+          "title_ar": "ردود فعل",
+          "items": [
+            {
+              "id": "v-air",
+              "say": "Tu as l'air content.",
+              "ar": "تبدو سعيداً."
+            },
+            {
+              "id": "v-chance",
+              "say": "Quelle chance !",
+              "ar": "يا له من حظ!"
+            },
+            {
+              "id": "v-histoire",
+              "say": "Quelle histoire !",
+              "ar": "يا لها من قصة!"
+            },
+            {
+              "id": "v-incroyable",
+              "say": "C'est incroyable !",
+              "ar": "لا يُصدَّق!"
+            },
+            {
+              "id": "v-parterre",
+              "say": "par terre",
+              "ar": "على الأرض"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "القصة",
+      "title_ar": "القاعدة: الناقص والمركّب معاً",
+      "intro_ar": "الناقص يرسم المشهد، والمركّب يحرّك القصة.",
+      "tables": [
+        {
+          "title_fr": "Imparfait + passé composé",
+          "title_ar": "خلفية وحدث",
+          "head_ar": [
+            "الخلفية (imparfait)",
+            "الحدث (passé composé)"
+          ],
+          "rows": [
+            {
+              "id": "g-c1",
+              "say": "Je dormais quand le téléphone a sonné.",
+              "cells": [
+                "Je dormais…",
+                "… quand le téléphone a sonné."
+              ],
+              "ar": "كنت نائماً عندما رنّ الهاتف"
+            },
+            {
+              "id": "g-c2",
+              "say": "Il pleuvait, alors j'ai pris un taxi.",
+              "cells": [
+                "Il pleuvait…",
+                "… alors j'ai pris un taxi."
+              ],
+              "ar": "كانت تمطر، فأخذت سيارة أجرة"
+            },
+            {
+              "id": "g-c3",
+              "say": "Pendant que je lisais, Claire est arrivée.",
+              "cells": [
+                "Pendant que je lisais,",
+                "Claire est arrivée."
+              ],
+              "ar": "بينما كنت أقرأ، وصلت كلير"
+            },
+            {
+              "id": "g-c4",
+              "say": "Il faisait beau, nous sommes sortis.",
+              "cells": [
+                "Il faisait beau,",
+                "nous sommes sortis."
+              ],
+              "ar": "كان الجو جميلاً، فخرجنا"
+            }
+          ],
+          "note_ar": "الناقص يجيب عن «كيف كان المشهد؟ ماذا كان يجري؟»، والمركّب عن «ماذا حدث بعد ذلك؟»."
+        },
+        {
+          "title_fr": "Les mots de l'histoire",
+          "title_ar": "كلمات القصة",
+          "head_ar": [
+            "الكلمة",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-w1",
+              "say": "Un jour, j'ai rencontré Claire.",
+              "cells": [
+                "un jour",
+                "Un jour, j'ai rencontré Claire."
+              ],
+              "ar": "ذات يوم التقيت كلير"
+            },
+            {
+              "id": "g-w2",
+              "say": "Quand je suis arrivé, il pleuvait.",
+              "cells": [
+                "quand",
+                "Quand je suis arrivé, il pleuvait."
+              ],
+              "ar": "عندما وصلت، كانت تمطر"
+            },
+            {
+              "id": "g-w3",
+              "say": "Pendant que je cuisinais, le chat dormait.",
+              "cells": [
+                "pendant que",
+                "Pendant que je cuisinais, le chat dormait."
+              ],
+              "ar": "بينما كنت أطبخ، كان القط نائماً"
+            },
+            {
+              "id": "g-w4",
+              "say": "Soudain, j'ai entendu un bruit.",
+              "cells": [
+                "soudain",
+                "Soudain, j'ai entendu un bruit."
+              ],
+              "ar": "فجأة سمعت صوتاً"
+            },
+            {
+              "id": "g-w5",
+              "say": "Finalement, tout s'est bien passé.",
+              "cells": [
+                "finalement",
+                "Finalement, tout s'est bien passé."
+              ],
+              "ar": "في النهاية مرّ كل شيء بخير"
+            }
+          ],
+          "note_ar": "بعد soudain و tout à coup يأتي دائماً حدث، أي ماضٍ مركّب."
+        },
+        {
+          "title_fr": "Écouter la différence",
+          "title_ar": "الفرق في السمع",
+          "head_ar": [
+            "passé composé",
+            "imparfait"
+          ],
+          "rows": [
+            {
+              "id": "g-s1",
+              "say": "j'ai fait, je faisais",
+              "cells": [
+                "j'ai fait",
+                "je faisais"
+              ],
+              "ar": "فعلتُ / كنتُ أفعل"
+            },
+            {
+              "id": "g-s2",
+              "say": "j'ai mangé, je mangeais",
+              "cells": [
+                "j'ai mangé",
+                "je mangeais"
+              ],
+              "ar": "أكلتُ / كنتُ آكل"
+            },
+            {
+              "id": "g-s3",
+              "say": "il a pris, il prenait",
+              "cells": [
+                "il a pris",
+                "il prenait"
+              ],
+              "ar": "أخذ / كان يأخذ"
+            },
+            {
+              "id": "g-s4",
+              "say": "nous avons vu, nous voyions",
+              "cells": [
+                "nous avons vu",
+                "nous voyions"
+              ],
+              "ar": "رأينا / كنا نرى"
+            }
+          ],
+          "note_ar": "المركّب يبدأ بـ avoir أو être قبل الفعل (j'ai، il a)، والناقص ينتهي بصوت «إيه» أو «يون»."
+        }
+      ],
+      "points_ar": [
+        "**الناقص فيلم، والمركّب لقطة.** في كل قصة تحتاج الاثنين.",
+        "**Qu'est-ce qui s'est passé ?** = ماذا حدث؟ سؤال يفتح كل قصة.",
+        "**c'était + صفة** لتقييم ما حدث: C'était incroyable ! C'était horrible !"
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: خلفية أم حدث؟",
+      "hint_ar": "اسأل نفسك: هل هذا مشهد يجري، أم حدث وقع؟",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je ___ quand le téléphone a sonné.",
+          "say": "Je dormais quand le téléphone a sonné.",
+          "options": [
+            "ai dormi",
+            "dormais"
+          ],
+          "answer": "dormais",
+          "ar": "كنت نائماً عندما رنّ الهاتف.",
+          "explain_ar": "حالة كانت تجري: **dormais**."
+        },
+        {
+          "id": "f2",
+          "text": "Il pleuvait, alors j'___ un taxi.",
+          "say": "Il pleuvait, alors j'ai pris un taxi.",
+          "options": [
+            "ai pris",
+            "prenais"
+          ],
+          "answer": "ai pris",
+          "ar": "كانت تمطر، فأخذت سيارة أجرة.",
+          "explain_ar": "حدث واحد: **j'ai pris**."
+        },
+        {
+          "id": "f3",
+          "text": "Pendant que je lisais, Claire ___.",
+          "say": "Pendant que je lisais, Claire est arrivée.",
+          "options": [
+            "arrivait",
+            "est arrivée"
+          ],
+          "answer": "est arrivée",
+          "ar": "بينما كنت أقرأ، وصلت كلير.",
+          "explain_ar": "الحدث الذي قطع القراءة: **est arrivée**."
+        },
+        {
+          "id": "f4",
+          "text": "Soudain, j'___ un bruit.",
+          "say": "Soudain, j'ai entendu un bruit.",
+          "options": [
+            "ai entendu",
+            "entendais"
+          ],
+          "answer": "ai entendu",
+          "ar": "فجأة سمعت صوتاً.",
+          "explain_ar": "بعد soudain: حدث، **j'ai entendu**."
+        },
+        {
+          "id": "f5",
+          "text": "Quand je suis arrivé, il ___ beau.",
+          "say": "Quand je suis arrivé, il faisait beau.",
+          "options": [
+            "a fait",
+            "faisait"
+          ],
+          "answer": "faisait",
+          "ar": "عندما وصلت، كان الجو جميلاً.",
+          "explain_ar": "وصف الجو: **faisait**."
+        },
+        {
+          "id": "f6",
+          "text": "Hier, j'___ mon portefeuille.",
+          "say": "Hier, j'ai perdu mon portefeuille.",
+          "options": [
+            "perdais",
+            "ai perdu"
+          ],
+          "answer": "ai perdu",
+          "ar": "أمس فقدت محفظتي.",
+          "explain_ar": "حدث واحد: **j'ai perdu**."
+        },
+        {
+          "id": "f7",
+          "text": "Il y ___ beaucoup de monde dans le métro.",
+          "say": "Il y avait beaucoup de monde dans le métro.",
+          "options": [
+            "avait",
+            "a eu"
+          ],
+          "answer": "avait",
+          "ar": "كان هناك زحام في المترو.",
+          "explain_ar": "وصف المشهد: il y **avait**."
+        },
+        {
+          "id": "f8",
+          "text": "___ que je cuisinais, le chat dormait.",
+          "say": "Pendant que je cuisinais, le chat dormait.",
+          "options": [
+            "Soudain",
+            "Pendant"
+          ],
+          "answer": "Pendant",
+          "ar": "بينما كنت أطبخ، كان القط نائماً.",
+          "explain_ar": "فعلان يجريان معاً: **Pendant** que."
+        },
+        {
+          "id": "f9",
+          "text": "Qu'est-ce qui s'est ___ ?",
+          "say": "Qu'est-ce qui s'est passé ?",
+          "options": [
+            "passé",
+            "passait"
+          ],
+          "answer": "passé",
+          "ar": "ماذا حدث؟",
+          "explain_ar": "العبارة الثابتة: Qu'est-ce qui s'est **passé** ?"
+        },
+        {
+          "id": "f10",
+          "text": "C'___ incroyable !",
+          "say": "C'était incroyable !",
+          "options": [
+            "être",
+            "était"
+          ],
+          "answer": "était",
+          "ar": "كان ذلك لا يُصدَّق!",
+          "explain_ar": "تقييم ما حدث: **c'était**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: مركّب أم ناقص؟",
+      "hint_ar": "هل سمعت avoir أو être قبل الفعل؟",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "j'ai fait",
+          "options": [
+            "je faisais",
+            "j'ai fait"
+          ],
+          "answer": "j'ai fait",
+          "explain_ar": "j'ai «ژيه» قبل الفعل: مركّب."
+        },
+        {
+          "id": "q2",
+          "say": "il prenait",
+          "options": [
+            "il prenait",
+            "il a pris"
+          ],
+          "answer": "il prenait",
+          "explain_ar": "prenait «پغُنيه»: ناقص."
+        },
+        {
+          "id": "q3",
+          "say": "nous avons mangé",
+          "options": [
+            "nous mangions",
+            "nous avons mangé"
+          ],
+          "answer": "nous avons mangé",
+          "explain_ar": "avons: مركّب."
+        },
+        {
+          "id": "q4",
+          "say": "elle sortait",
+          "options": [
+            "elle sortait",
+            "elle est sortie"
+          ],
+          "answer": "elle sortait",
+          "explain_ar": "sortait «سوغتيه»: ناقص."
+        },
+        {
+          "id": "q5",
+          "say": "soudain",
+          "options": [
+            "souvent",
+            "soudain"
+          ],
+          "answer": "soudain",
+          "explain_ar": "soudain «سودان»: فجأة."
+        },
+        {
+          "id": "q6",
+          "say": "pendant que",
+          "options": [
+            "pendant que",
+            "parce que"
+          ],
+          "answer": "pendant que",
+          "explain_ar": "pendant «پوندون»: بينما."
+        },
+        {
+          "id": "q7",
+          "say": "Il a plu.",
+          "options": [
+            "Il pleuvait.",
+            "Il a plu."
+          ],
+          "answer": "Il a plu.",
+          "explain_ar": "il a plu: أمطرت (حدث)."
+        },
+        {
+          "id": "q8",
+          "say": "J'ai trouvé mon portefeuille.",
+          "options": [
+            "J'ai perdu mon portefeuille.",
+            "J'ai trouvé mon portefeuille."
+          ],
+          "answer": "J'ai trouvé mon portefeuille.",
+          "explain_ar": "trouvé «تغوڤيه»: وجدت."
+        },
+        {
+          "id": "q9",
+          "say": "tout à coup",
+          "options": [
+            "tout à coup",
+            "tout de suite"
+          ],
+          "answer": "tout à coup",
+          "explain_ar": "tout à coup «توتاكو»: فجأة."
+        },
+        {
+          "id": "q10",
+          "say": "Quelle histoire !",
+          "options": [
+            "Quelle chance !",
+            "Quelle histoire !"
+          ],
+          "answer": "Quelle histoire !",
+          "explain_ar": "histoire «إيستوار»: قصة."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: كلمات القصة",
+      "hint_ar": "أفعال بالزمنين، وكلمات الربط.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **pendant que** كلمتان، و **tout à coup** ثلاث.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je dormais",
+          "answer": "je dormais",
+          "ar": "كنت نائماً"
+        },
+        {
+          "id": "s2",
+          "say": "il a sonné",
+          "answer": "il a sonné",
+          "ar": "رنّ"
+        },
+        {
+          "id": "s3",
+          "say": "pendant que",
+          "answer": "pendant que",
+          "ar": "بينما"
+        },
+        {
+          "id": "s4",
+          "say": "soudain",
+          "answer": "soudain",
+          "ar": "فجأة"
+        },
+        {
+          "id": "s5",
+          "say": "il pleuvait",
+          "answer": "il pleuvait",
+          "ar": "كانت تمطر"
+        },
+        {
+          "id": "s6",
+          "say": "j'ai perdu",
+          "answer": "j'ai perdu",
+          "ar": "فقدتُ"
+        },
+        {
+          "id": "s7",
+          "say": "c'était",
+          "answer": "c'était",
+          "ar": "كان"
+        },
+        {
+          "id": "s8",
+          "say": "tout à coup",
+          "answer": "tout à coup",
+          "ar": "فجأة"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "احكِ بإيقاع القصة: تمهّل في الخلفية، وأسرع قليلاً عند الحدث.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Je rentrais du travail quand j'ai vu Claire.",
+          "ar": "كنت عائداً من العمل عندما رأيت كلير.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "rentrais",
+              "كنتُ عائداً"
+            ],
+            [
+              "du travail",
+              "من العمل"
+            ],
+            [
+              "quand",
+              "عندما"
+            ],
+            [
+              "j'ai vu",
+              "رأيتُ"
+            ],
+            [
+              "Claire.",
+              "كلير"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Il pleuvait, alors nous avons pris un taxi.",
+          "ar": "كانت تمطر، فأخذنا سيارة أجرة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Il pleuvait,",
+              "كانت تمطر"
+            ],
+            [
+              "alors",
+              "فـ"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "avons pris",
+              "أخذنا"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "taxi.",
+              "سيارة أجرة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Soudain, mon téléphone a sonné.",
+          "ar": "فجأة رنّ هاتفي.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Soudain,",
+              "فجأة"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "téléphone",
+              "هاتف"
+            ],
+            [
+              "a sonné.",
+              "رنّ"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Pendant que je cuisinais, les enfants jouaient.",
+          "ar": "بينما كنت أطبخ، كان الأطفال يلعبون.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Pendant que",
+              "بينما"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "cuisinais,",
+              "كنتُ أطبخ"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "enfants",
+              "أطفال"
+            ],
+            [
+              "jouaient.",
+              "كانوا يلعبون"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Finalement, tout s'est bien passé.",
+          "ar": "في النهاية مرّ كل شيء بخير.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Finalement,",
+              "في النهاية"
+            ],
+            [
+              "tout",
+              "كل شيء"
+            ],
+            [
+              "s'est bien passé.",
+              "مرّ بخير"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: احكِ قصة قصيرة حدثت لك: **C'était… Il faisait… Je… quand soudain… Finalement…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "quand",
+          "say": "quand",
+          "back_ar": "عندما"
+        },
+        {
+          "id": "c2",
+          "front": "pendant que",
+          "say": "pendant que",
+          "back_ar": "بينما"
+        },
+        {
+          "id": "c3",
+          "front": "soudain / tout à coup",
+          "say": "soudain, tout à coup",
+          "back_ar": "فجأة"
+        },
+        {
+          "id": "c4",
+          "front": "un jour",
+          "say": "un jour",
+          "back_ar": "ذات يوم"
+        },
+        {
+          "id": "c5",
+          "front": "finalement",
+          "say": "finalement",
+          "back_ar": "في النهاية"
+        },
+        {
+          "id": "c6",
+          "front": "à ce moment-là",
+          "say": "à ce moment-là",
+          "back_ar": "في تلك اللحظة"
+        },
+        {
+          "id": "c7",
+          "front": "Qu'est-ce qui s'est passé ?",
+          "say": "Qu'est-ce qui s'est passé ?",
+          "back_ar": "ماذا حدث؟"
+        },
+        {
+          "id": "c8",
+          "front": "Je dormais quand…",
+          "say": "Je dormais quand le téléphone a sonné.",
+          "back_ar": "كنت نائماً عندما…"
+        },
+        {
+          "id": "c9",
+          "front": "perdre / perdu",
+          "say": "perdre, perdu",
+          "back_ar": "فقد"
+        },
+        {
+          "id": "c10",
+          "front": "trouver",
+          "say": "trouver",
+          "back_ar": "وجد"
+        },
+        {
+          "id": "c11",
+          "front": "rencontrer",
+          "say": "rencontrer",
+          "back_ar": "التقى صدفة"
+        },
+        {
+          "id": "c12",
+          "front": "oublier",
+          "say": "oublier",
+          "back_ar": "نسي"
+        },
+        {
+          "id": "c13",
+          "front": "Quelle chance !",
+          "say": "Quelle chance !",
+          "back_ar": "يا له من حظ!"
+        },
+        {
+          "id": "c14",
+          "front": "Quelle histoire !",
+          "say": "Quelle histoire !",
+          "back_ar": "يا لها من قصة!"
+        },
+        {
+          "id": "c15",
+          "front": "C'était incroyable !",
+          "say": "C'était incroyable !",
+          "back_ar": "كان ذلك لا يُصدَّق!"
+        },
+        {
+          "id": "c16",
+          "front": "par terre",
+          "say": "par terre",
+          "back_ar": "على الأرض"
+        }
+      ]
+    }
+  ]
+}

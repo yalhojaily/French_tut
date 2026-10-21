@@ -1,0 +1,1306 @@
+{
+  "id": "a2-04",
+  "stage": "A2",
+  "title_fr": "Souvenirs d'enfance",
+  "title_ar": "ذكريات الطفولة",
+  "goals_ar": [
+    "تصف الماضي كما كان: **Quand j'étais petit, j'habitais à Riyad.**",
+    "تكوّن **الماضي الناقص (l'imparfait)** لأي فعل",
+    "تعبّر عن العادات القديمة: **Le vendredi, nous allions chez mes grands-parents.**",
+    "تسمع أن ais و ait و aient تُنطق كلها «إيه»"
+  ],
+  "intro_ar": [
+    "**الماضي الناقص (l'imparfait)** زمن الوصف والعادة في الماضي، مثل «كنتُ أفعل» في العربية: je jouais = كنت ألعب.",
+    "**التكوين سهل جداً:** خذ تصريف nous في الحاضر واحذف ons: nous parlons يبقى منه parl، ثم أضف النهايات: je parlais. والنهايات واحدة لكل الأفعال: ais، ais، ait، ions، iez، aient.",
+    "**الاستثناء الوحيد:** être، وجذره ét: j'étais (كنتُ).",
+    "**المركّب أم الناقص؟** المركّب لحدث انتهى (j'ai mangé)، والناقص للخلفية والعادة (je mangeais souvent)."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: صورة قديمة",
+      "context_ar": "كلير ترى صورة ليوسف وهو طفل. كل الأفعال في الماضي الناقص: وصف وعادات.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "C'est toi sur cette photo ? Tu étais mignon !",
+          "ar": "هل هذا أنت في الصورة؟ كنت لطيفاً!",
+          "slow": true,
+          "gloss": [
+            [
+              "C'est",
+              "هل هذا"
+            ],
+            [
+              "toi",
+              "أنت"
+            ],
+            [
+              "sur",
+              "في"
+            ],
+            [
+              "cette",
+              "هذه"
+            ],
+            [
+              "photo ?",
+              "صورة"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "étais",
+              "كنتَ"
+            ],
+            [
+              "mignon !",
+              "لطيفاً"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Oui, j'avais sept ans. Nous habitions dans une petite maison à Riyad.",
+          "ar": "نعم، كان عمري سبع سنوات. كنا نسكن في بيت صغير في الرياض.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "j'avais",
+              "كان عندي"
+            ],
+            [
+              "sept",
+              "7"
+            ],
+            [
+              "ans.",
+              "سنوات"
+            ],
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "habitions",
+              "كنا نسكن"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "petite",
+              "صغير"
+            ],
+            [
+              "maison",
+              "بيت"
+            ],
+            [
+              "à Riyad.",
+              "في الرياض"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Comment était ton école ?",
+          "ar": "كيف كانت مدرستك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Comment",
+              "كيف"
+            ],
+            [
+              "était",
+              "كانت"
+            ],
+            [
+              "ton",
+              "ـك"
+            ],
+            [
+              "école ?",
+              "مدرسة"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Elle était grande. J'allais à l'école à pied avec mon frère.",
+          "ar": "كانت كبيرة. كنت أذهب إلى المدرسة مشياً مع أخي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "était",
+              "كانت"
+            ],
+            [
+              "grande.",
+              "كبيرة"
+            ],
+            [
+              "J'allais",
+              "كنتُ أذهب"
+            ],
+            [
+              "à l'école",
+              "إلى المدرسة"
+            ],
+            [
+              "à pied",
+              "مشياً"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "frère.",
+              "أخ"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Et qu'est-ce que tu faisais après l'école ?",
+          "ar": "وماذا كنت تفعل بعد المدرسة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "faisais",
+              "كنتَ تفعل"
+            ],
+            [
+              "après",
+              "بعد"
+            ],
+            [
+              "l'école ?",
+              "المدرسة"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Je jouais au football dans la rue. Il faisait très chaud, mais on adorait ça !",
+          "ar": "كنت ألعب كرة القدم في الشارع. كان الجو حاراً جداً، لكننا كنا نحب ذلك!",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "jouais",
+              "كنتُ ألعب"
+            ],
+            [
+              "au football",
+              "كرة القدم"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "rue.",
+              "شارع"
+            ],
+            [
+              "Il faisait",
+              "كان الجو"
+            ],
+            [
+              "très",
+              "جداً"
+            ],
+            [
+              "chaud,",
+              "حاراً"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "on",
+              "نحن"
+            ],
+            [
+              "adorait",
+              "كنا نعشق"
+            ],
+            [
+              "ça !",
+              "ذلك"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Moi, je lisais beaucoup. J'étais timide.",
+          "ar": "أنا كنت أقرأ كثيراً. كنت خجولة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "lisais",
+              "كنتُ أقرأ"
+            ],
+            [
+              "beaucoup.",
+              "كثيراً"
+            ],
+            [
+              "J'étais",
+              "كنتُ"
+            ],
+            [
+              "timide.",
+              "خجولة"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Et le week-end, vous alliez où ?",
+          "ar": "وفي نهاية الأسبوع، إلى أين كنتم تذهبون؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "le week-end,",
+              "في نهاية الأسبوع"
+            ],
+            [
+              "vous",
+              "أنتم"
+            ],
+            [
+              "alliez",
+              "كنتم تذهبون"
+            ],
+            [
+              "où ?",
+              "إلى أين"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Nous allions chez mes grands-parents, à la campagne. Ma grand-mère faisait des gâteaux délicieux.",
+          "ar": "كنا نذهب إلى أجدادي، في الريف. جدتي كانت تصنع كعكاً لذيذاً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "allions",
+              "كنا نذهب"
+            ],
+            [
+              "chez",
+              "عند"
+            ],
+            [
+              "mes",
+              "ـي (جمع)"
+            ],
+            [
+              "grands-parents,",
+              "أجداد"
+            ],
+            [
+              "à la campagne.",
+              "في الريف"
+            ],
+            [
+              "Ma",
+              "ـي"
+            ],
+            [
+              "grand-mère",
+              "جدة"
+            ],
+            [
+              "faisait",
+              "كانت تصنع"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "gâteaux",
+              "كعك"
+            ],
+            [
+              "délicieux.",
+              "لذيذ"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "كل أفعال الحوار في الماضي الناقص لأنها **وصف** (j'étais، elle était grande) أو **عادة** (j'allais، je jouais، nous allions). لا يوجد فيه حدث واحد محدد انتهى."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "كلمات الطفولة والمدرسة، وكلمات تدل على العادة.",
+      "groups": [
+        {
+          "title_ar": "الطفولة",
+          "items": [
+            {
+              "id": "v-petit",
+              "say": "quand j'étais petit",
+              "ar": "عندما كنت صغيراً",
+              "note_ar": "والمتكلمة تقول: quand j'étais petite."
+            },
+            {
+              "id": "v-enfance",
+              "say": "l'enfance",
+              "ar": "الطفولة"
+            },
+            {
+              "id": "v-jouer",
+              "say": "jouer",
+              "ar": "يلعب"
+            },
+            {
+              "id": "v-jouet",
+              "say": "un jouet",
+              "ar": "لعبة"
+            },
+            {
+              "id": "v-quartier",
+              "say": "le quartier",
+              "ar": "الحي"
+            },
+            {
+              "id": "v-voisin",
+              "say": "un voisin, une voisine",
+              "ar": "جار / جارة",
+              "fr": "un voisin / une voisine"
+            },
+            {
+              "id": "v-campagne",
+              "say": "la campagne",
+              "ar": "الريف"
+            },
+            {
+              "id": "v-timide",
+              "say": "timide",
+              "ar": "خجول"
+            },
+            {
+              "id": "v-sage",
+              "say": "sage",
+              "ar": "مؤدّب (للطفل)",
+              "note_ar": "يقال للطفل: Sois sage ! (كن مؤدباً!)"
+            }
+          ]
+        },
+        {
+          "title_ar": "المدرسة",
+          "items": [
+            {
+              "id": "v-primaire",
+              "say": "l'école primaire",
+              "ar": "المدرسة الابتدائية"
+            },
+            {
+              "id": "v-college",
+              "say": "le collège",
+              "ar": "المدرسة المتوسطة",
+              "note_ar": "ليست «الكلية»! الكلية = l'université."
+            },
+            {
+              "id": "v-lycee",
+              "say": "le lycée",
+              "ar": "المدرسة الثانوية"
+            },
+            {
+              "id": "v-maitre",
+              "say": "le maître, la maîtresse",
+              "ar": "معلّم / معلّمة الابتدائية",
+              "fr": "le maître / la maîtresse"
+            },
+            {
+              "id": "v-recre",
+              "say": "la récréation",
+              "ar": "الفسحة"
+            },
+            {
+              "id": "v-cahier",
+              "say": "un cahier",
+              "ar": "دفتر"
+            },
+            {
+              "id": "v-devoirs",
+              "say": "les devoirs",
+              "ar": "الواجبات المدرسية"
+            }
+          ]
+        },
+        {
+          "title_ar": "العادة",
+          "items": [
+            {
+              "id": "v-habitude",
+              "say": "d'habitude",
+              "ar": "عادةً"
+            },
+            {
+              "id": "v-autrefois",
+              "say": "autrefois",
+              "ar": "في الماضي / قديماً"
+            },
+            {
+              "id": "v-levendredi",
+              "say": "le vendredi",
+              "ar": "كل جمعة"
+            },
+            {
+              "id": "v-cetait",
+              "say": "C'était super !",
+              "ar": "كان رائعاً!"
+            },
+            {
+              "id": "v-ilyavait",
+              "say": "il y avait",
+              "ar": "كان يوجد"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الناقص",
+      "title_ar": "القاعدة: الماضي الناقص",
+      "intro_ar": "جذر nous في الحاضر + نهايات ثابتة. ثم متى تستعمله ومتى تستعمل المركّب.",
+      "tables": [
+        {
+          "title_fr": "parler à l'imparfait",
+          "title_ar": "كان يتكلم",
+          "head_ar": [
+            "الضمير",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-p1",
+              "say": "je parlais",
+              "cells": [
+                "je",
+                "parlais"
+              ],
+              "ar": "كنتُ أتكلم"
+            },
+            {
+              "id": "g-p2",
+              "say": "tu parlais",
+              "cells": [
+                "tu",
+                "parlais"
+              ],
+              "ar": "كنتَ تتكلم"
+            },
+            {
+              "id": "g-p3",
+              "say": "il parlait",
+              "cells": [
+                "il / elle / on",
+                "parlait"
+              ],
+              "ar": "كان يتكلم"
+            },
+            {
+              "id": "g-p4",
+              "say": "nous parlions",
+              "cells": [
+                "nous",
+                "parlions"
+              ],
+              "ar": "كنا نتكلم"
+            },
+            {
+              "id": "g-p5",
+              "say": "vous parliez",
+              "cells": [
+                "vous",
+                "parliez"
+              ],
+              "ar": "كنتم تتكلمون"
+            },
+            {
+              "id": "g-p6",
+              "say": "ils parlaient",
+              "cells": [
+                "ils / elles",
+                "parlaient"
+              ],
+              "ar": "كانوا يتكلمون"
+            }
+          ],
+          "note_ar": "parlais و parlait و parlaient تُنطق كلها «پارليه». فقط nous «پارليون» و vous «پارلييه» مختلفان."
+        },
+        {
+          "title_fr": "La formation",
+          "title_ar": "من الحاضر إلى الناقص",
+          "head_ar": [
+            "nous (présent)",
+            "الجذر",
+            "imparfait"
+          ],
+          "rows": [
+            {
+              "id": "g-f1",
+              "say": "nous finissons, je finissais",
+              "cells": [
+                "nous finissons",
+                "finiss",
+                "je finissais"
+              ],
+              "ar": "كنتُ أُنهي"
+            },
+            {
+              "id": "g-f2",
+              "say": "nous faisons, je faisais",
+              "cells": [
+                "nous faisons",
+                "fais",
+                "je faisais"
+              ],
+              "ar": "كنتُ أفعل"
+            },
+            {
+              "id": "g-f3",
+              "say": "nous prenons, je prenais",
+              "cells": [
+                "nous prenons",
+                "pren",
+                "je prenais"
+              ],
+              "ar": "كنتُ آخذ"
+            },
+            {
+              "id": "g-f4",
+              "say": "nous avons, j'avais",
+              "cells": [
+                "nous avons",
+                "av",
+                "j'avais"
+              ],
+              "ar": "كان عندي"
+            },
+            {
+              "id": "g-f5",
+              "say": "nous allons, j'allais",
+              "cells": [
+                "nous allons",
+                "all",
+                "j'allais"
+              ],
+              "ar": "كنتُ أذهب"
+            },
+            {
+              "id": "g-f6",
+              "say": "nous sommes, j'étais",
+              "cells": [
+                "nous sommes",
+                "ét",
+                "j'étais"
+              ],
+              "ar": "كنتُ (الاستثناء)"
+            }
+          ],
+          "note_ar": "être وحده شاذ: j'étais، tu étais، il était، nous étions، vous étiez، ils étaient."
+        },
+        {
+          "title_fr": "Imparfait ou passé composé ?",
+          "title_ar": "الناقص أم المركّب؟",
+          "head_ar": [
+            "الاستعمال",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-u1",
+              "say": "Il faisait beau.",
+              "cells": [
+                "imparfait : description",
+                "Il faisait beau."
+              ],
+              "ar": "كان الجو جميلاً (وصف)"
+            },
+            {
+              "id": "g-u2",
+              "say": "Je jouais au foot le samedi.",
+              "cells": [
+                "imparfait : habitude",
+                "Je jouais au foot le samedi."
+              ],
+              "ar": "كنت ألعب الكرة كل سبت (عادة)"
+            },
+            {
+              "id": "g-u3",
+              "say": "J'étais fatigué.",
+              "cells": [
+                "imparfait : état",
+                "J'étais fatigué."
+              ],
+              "ar": "كنت متعباً (حالة)"
+            },
+            {
+              "id": "g-u4",
+              "say": "Hier, j'ai joué au foot.",
+              "cells": [
+                "passé composé : action",
+                "Hier, j'ai joué au foot."
+              ],
+              "ar": "أمس لعبت الكرة (حدث واحد انتهى)"
+            }
+          ],
+          "note_ar": "سؤال يساعدك: هل هذا مشهد أو عادة؟ الناقص. هل هو حدث وقع مرة وانتهى؟ المركّب."
+        }
+      ],
+      "points_ar": [
+        "**كلمات العادة:** d'habitude، souvent، tous les jours، le samedi. معها الناقص غالباً.",
+        "**c'était** = كان (ذلك): C'était super ! أكثر عبارة تسمعها عند وصف ذكرى.",
+        "**il y avait** = كان يوجد: Il y avait un parc près de chez moi."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الماضي الناقص",
+      "hint_ar": "وصف أو عادة في الماضي: اختر الناقص.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Quand j'___ petit, j'habitais à Riyad.",
+          "say": "Quand j'étais petit, j'habitais à Riyad.",
+          "options": [
+            "ai été",
+            "étais"
+          ],
+          "answer": "étais",
+          "ar": "عندما كنت صغيراً، كنت أسكن في الرياض.",
+          "explain_ar": "وصف حالة في الماضي: **j'étais**."
+        },
+        {
+          "id": "f2",
+          "text": "Nous ___ au football tous les jours.",
+          "say": "Nous jouions au football tous les jours.",
+          "options": [
+            "jouions",
+            "jouons"
+          ],
+          "answer": "jouions",
+          "ar": "كنا نلعب كرة القدم كل يوم.",
+          "explain_ar": "عادة في الماضي: **jouions**."
+        },
+        {
+          "id": "f3",
+          "text": "Il ___ beau.",
+          "say": "Il faisait beau.",
+          "options": [
+            "a fait",
+            "faisait"
+          ],
+          "answer": "faisait",
+          "ar": "كان الجو جميلاً.",
+          "explain_ar": "وصف الجو: **faisait**.",
+          "context_ar": "تصف الجو في ذكرى"
+        },
+        {
+          "id": "f4",
+          "text": "Ma grand-mère ___ des gâteaux.",
+          "say": "Ma grand-mère faisait des gâteaux.",
+          "options": [
+            "faisais",
+            "faisait"
+          ],
+          "answer": "faisait",
+          "ar": "جدتي كانت تصنع كعكاً.",
+          "explain_ar": "مع elle: **faisait** بـ t."
+        },
+        {
+          "id": "f5",
+          "text": "Tu ___ timide ?",
+          "say": "Tu étais timide ?",
+          "options": [
+            "étais",
+            "était"
+          ],
+          "answer": "étais",
+          "ar": "هل كنت خجولاً؟",
+          "explain_ar": "مع tu: **étais** بـ s."
+        },
+        {
+          "id": "f6",
+          "text": "Ils ___ à la campagne.",
+          "say": "Ils habitaient à la campagne.",
+          "options": [
+            "habitait",
+            "habitaient"
+          ],
+          "answer": "habitaient",
+          "ar": "كانوا يسكنون في الريف.",
+          "explain_ar": "مع ils: **habitaient**."
+        },
+        {
+          "id": "f7",
+          "text": "Le vendredi, nous ___ chez mes grands-parents.",
+          "say": "Le vendredi, nous allions chez mes grands-parents.",
+          "options": [
+            "allons",
+            "allions"
+          ],
+          "answer": "allions",
+          "ar": "كل جمعة كنا نذهب إلى أجدادي.",
+          "explain_ar": "عادة: **allions**."
+        },
+        {
+          "id": "f8",
+          "text": "Vous ___ beaucoup ?",
+          "say": "Vous lisiez beaucoup ?",
+          "options": [
+            "lisiez",
+            "lisez"
+          ],
+          "answer": "lisiez",
+          "ar": "هل كنتم تقرؤون كثيراً؟",
+          "explain_ar": "الناقص مع vous: **lisiez**."
+        },
+        {
+          "id": "f9",
+          "text": "C'___ super !",
+          "say": "C'était super !",
+          "options": [
+            "est",
+            "était"
+          ],
+          "answer": "était",
+          "ar": "كان رائعاً!",
+          "explain_ar": "تقييم ذكرى: **c'était**.",
+          "context_ar": "تتكلم عن ذكرى"
+        },
+        {
+          "id": "f10",
+          "text": "Il y ___ un parc près de chez moi.",
+          "say": "Il y avait un parc près de chez moi.",
+          "options": [
+            "a eu",
+            "avait"
+          ],
+          "answer": "avait",
+          "ar": "كانت هناك حديقة قرب بيتي.",
+          "explain_ar": "وصف المكان: il y **avait**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: الناقص أم الحاضر؟",
+      "hint_ar": "الناقص ينتهي غالباً بصوت «إيه» أو «يون» أو «ييه».",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "je parlais",
+          "options": [
+            "je parle",
+            "je parlais"
+          ],
+          "answer": "je parlais",
+          "explain_ar": "parlais «پارليه»: كنت أتكلم."
+        },
+        {
+          "id": "q2",
+          "say": "nous habitons",
+          "options": [
+            "nous habitons",
+            "nous habitions"
+          ],
+          "answer": "nous habitons",
+          "explain_ar": "habitons «أبيتون»: حاضر."
+        },
+        {
+          "id": "q3",
+          "say": "il faisait",
+          "options": [
+            "il faisait",
+            "il fait"
+          ],
+          "answer": "il faisait",
+          "explain_ar": "faisait «فُزيه»: ناقص."
+        },
+        {
+          "id": "q4",
+          "say": "j'ai été",
+          "options": [
+            "j'étais",
+            "j'ai été"
+          ],
+          "answer": "j'ai été",
+          "explain_ar": "j'ai été «ژيه إيتيه»: ماضٍ مركّب."
+        },
+        {
+          "id": "q5",
+          "say": "vous alliez",
+          "options": [
+            "vous allez",
+            "vous alliez"
+          ],
+          "answer": "vous alliez",
+          "explain_ar": "alliez «اليِيه»: ناقص."
+        },
+        {
+          "id": "q6",
+          "say": "Il y avait un parc.",
+          "options": [
+            "Il y avait un parc.",
+            "Il y a un parc."
+          ],
+          "answer": "Il y avait un parc.",
+          "explain_ar": "avait «أڤيه»: كان يوجد."
+        },
+        {
+          "id": "q7",
+          "say": "ils jouent",
+          "options": [
+            "ils jouaient",
+            "ils jouent"
+          ],
+          "answer": "ils jouent",
+          "explain_ar": "jouent «ژو»: حاضر."
+        },
+        {
+          "id": "q8",
+          "say": "C'était super !",
+          "options": [
+            "C'est super !",
+            "C'était super !"
+          ],
+          "answer": "C'était super !",
+          "explain_ar": "était «إيتيه»: كان."
+        },
+        {
+          "id": "q9",
+          "say": "je lisais",
+          "options": [
+            "je lisais",
+            "je lis"
+          ],
+          "answer": "je lisais",
+          "explain_ar": "lisais «ليزيه»: كنت أقرأ."
+        },
+        {
+          "id": "q10",
+          "say": "nous étions",
+          "options": [
+            "nous sommes",
+            "nous étions"
+          ],
+          "answer": "nous étions",
+          "explain_ar": "étions «إيتيون»: كنا."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الماضي الناقص",
+      "hint_ar": "النهاية المسموعة واحدة، والمكتوبة حسب الضمير.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: je / tu ais، il ait، ils aient.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "j'étais",
+          "answer": "j'étais",
+          "ar": "كنتُ"
+        },
+        {
+          "id": "s2",
+          "say": "il faisait",
+          "answer": "il faisait",
+          "ar": "كان (الجو)"
+        },
+        {
+          "id": "s3",
+          "say": "nous habitions",
+          "answer": "nous habitions",
+          "ar": "كنا نسكن"
+        },
+        {
+          "id": "s4",
+          "say": "ils jouaient",
+          "answer": "ils jouaient",
+          "ar": "كانوا يلعبون"
+        },
+        {
+          "id": "s5",
+          "say": "tu avais",
+          "answer": "tu avais",
+          "ar": "كان عندك"
+        },
+        {
+          "id": "s6",
+          "say": "c'était",
+          "answer": "c'était",
+          "ar": "كان"
+        },
+        {
+          "id": "s7",
+          "say": "il y avait",
+          "answer": "il y avait",
+          "ar": "كان يوجد"
+        },
+        {
+          "id": "s8",
+          "say": "vous alliez",
+          "answer": "vous alliez",
+          "ar": "كنتم تذهبون"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "ذكريات بنبرة هادئة. لاحظ أن النهايات «إيه» لا تُشدَّد.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Quand j'étais petit, j'habitais à Riyad.",
+          "ar": "عندما كنت صغيراً، كنت أسكن في الرياض.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Quand",
+              "عندما"
+            ],
+            [
+              "j'étais",
+              "كنتُ"
+            ],
+            [
+              "petit,",
+              "صغيراً"
+            ],
+            [
+              "j'habitais",
+              "كنتُ أسكن"
+            ],
+            [
+              "à Riyad.",
+              "في الرياض"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Je lisais beaucoup, j'étais timide.",
+          "ar": "كنت أقرأ كثيراً، كنت خجولة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "lisais",
+              "كنتُ أقرأ"
+            ],
+            [
+              "beaucoup,",
+              "كثيراً"
+            ],
+            [
+              "j'étais",
+              "كنتُ"
+            ],
+            [
+              "timide.",
+              "خجولة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Le vendredi, nous allions chez mes grands-parents.",
+          "ar": "كل جمعة كنا نذهب إلى أجدادي.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Le vendredi,",
+              "كل جمعة"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "allions",
+              "كنا نذهب"
+            ],
+            [
+              "chez",
+              "إلى بيت"
+            ],
+            [
+              "mes",
+              "ـي (جمع)"
+            ],
+            [
+              "grands-parents.",
+              "أجداد"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Il faisait chaud et nous jouions dans la rue.",
+          "ar": "كان الجو حاراً وكنا نلعب في الشارع.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Il faisait chaud",
+              "كان الجو حاراً"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "jouions",
+              "كنا نلعب"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "rue.",
+              "شارع"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "C'était le bon temps !",
+          "ar": "كانت أياماً جميلة!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "C'était",
+              "كان"
+            ],
+            [
+              "le bon temps !",
+              "زمناً جميلاً"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: صف طفولتك في أربع جمل: **Quand j'étais petit, j'habitais… Mon école était… Je jouais… Le week-end, nous…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "j'étais",
+          "say": "j'étais",
+          "back_ar": "كنتُ"
+        },
+        {
+          "id": "c2",
+          "front": "c'était",
+          "say": "c'était",
+          "back_ar": "كان (ذلك)"
+        },
+        {
+          "id": "c3",
+          "front": "j'avais",
+          "say": "j'avais",
+          "back_ar": "كان عندي"
+        },
+        {
+          "id": "c4",
+          "front": "il y avait",
+          "say": "il y avait",
+          "back_ar": "كان يوجد"
+        },
+        {
+          "id": "c5",
+          "front": "je parlais",
+          "say": "je parlais",
+          "back_ar": "كنتُ أتكلم"
+        },
+        {
+          "id": "c6",
+          "front": "nous parlions",
+          "say": "nous parlions",
+          "back_ar": "كنا نتكلم"
+        },
+        {
+          "id": "c7",
+          "front": "ils parlaient",
+          "say": "ils parlaient",
+          "back_ar": "كانوا يتكلمون"
+        },
+        {
+          "id": "c8",
+          "front": "il faisait beau",
+          "say": "il faisait beau",
+          "back_ar": "كان الجو جميلاً"
+        },
+        {
+          "id": "c9",
+          "front": "quand j'étais petit",
+          "say": "quand j'étais petit",
+          "back_ar": "عندما كنت صغيراً"
+        },
+        {
+          "id": "c10",
+          "front": "d'habitude",
+          "say": "d'habitude",
+          "back_ar": "عادةً"
+        },
+        {
+          "id": "c11",
+          "front": "l'enfance",
+          "say": "l'enfance",
+          "back_ar": "الطفولة"
+        },
+        {
+          "id": "c12",
+          "front": "l'école primaire",
+          "say": "l'école primaire",
+          "back_ar": "المدرسة الابتدائية"
+        },
+        {
+          "id": "c13",
+          "front": "le collège",
+          "say": "le collège",
+          "back_ar": "المدرسة المتوسطة"
+        },
+        {
+          "id": "c14",
+          "front": "le lycée",
+          "say": "le lycée",
+          "back_ar": "المدرسة الثانوية"
+        },
+        {
+          "id": "c15",
+          "front": "les devoirs",
+          "say": "les devoirs",
+          "back_ar": "الواجبات المدرسية"
+        },
+        {
+          "id": "c16",
+          "front": "la campagne",
+          "say": "la campagne",
+          "back_ar": "الريف"
+        }
+      ]
+    }
+  ]
+}

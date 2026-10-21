@@ -1,0 +1,1265 @@
+{
+  "id": "a2-03",
+  "stage": "A2",
+  "title_fr": "Participes irréguliers",
+  "title_ar": "أسماء المفعول الشاذة",
+  "goals_ar": [
+    "تستعمل أسماء المفعول الشاذة: **fait، pris، vu، eu، été، dit، mis، lu، écrit، bu**",
+    "تحكي عطلة نهاية الأسبوع بأشيع الأفعال",
+    "تنفي في الماضي: **Je n'ai pas vu ce film.**",
+    "تنطق **j'ai eu** «ژيه يو» صحيحاً"
+  ],
+  "intro_ar": [
+    "أكثر الأفعال استعمالاً في الفرنسية شاذة، وأسماء مفعولها شاذة أيضاً. والخبر الجيد أنها قليلة، وتنقسم إلى مجموعات بنهايات متشابهة.",
+    "**بنهاية u:** eu (avoir)، vu (voir)، bu (boire)، lu (lire)، pu (pouvoir)، voulu (vouloir)، su (savoir)، connu (connaître).",
+    "**بنهاية is أو it:** pris (prendre)، mis (mettre)، dit (dire)، écrit (écrire)، fait (faire). **ووحدها:** été (être).",
+    "**أغربها:** j'ai **eu** = كان عندي، ويُنطق «ژيه يو» بصوت u الفرنسي فقط."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: عطلة نهاية الأسبوع",
+      "context_ar": "يوسف وكلير يتبادلان أخبار نهاية الأسبوع. عُدّ أسماء المفعول الشاذة.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "B",
+          "say": "Qu'est-ce que tu as fait ce week-end ?",
+          "ar": "ماذا فعلتِ في نهاية الأسبوع؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "tu",
+              "أنتِ"
+            ],
+            [
+              "as fait",
+              "فعلتِ"
+            ],
+            [
+              "ce week-end ?",
+              "نهاية الأسبوع"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "A",
+          "say": "J'ai vu un film au cinéma, et j'ai lu un roman de Victor Hugo.",
+          "ar": "شاهدت فيلماً في السينما، وقرأت رواية لفيكتور هوغو.",
+          "slow": true,
+          "gloss": [
+            [
+              "J'ai vu",
+              "شاهدتُ"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "film",
+              "فيلم"
+            ],
+            [
+              "au cinéma,",
+              "في السينما"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "j'ai lu",
+              "قرأتُ"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "roman",
+              "رواية"
+            ],
+            [
+              "de Victor Hugo.",
+              "لفيكتور هوغو"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "B",
+          "say": "Quel roman ? Les Misérables ?",
+          "ar": "أي رواية؟ البؤساء؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Quel",
+              "أي"
+            ],
+            [
+              "roman ?",
+              "رواية"
+            ],
+            [
+              "Les Misérables ?",
+              "البؤساء"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "A",
+          "say": "Oui ! Et toi, tu as eu un bon week-end ?",
+          "ar": "نعم! وأنت، هل كانت نهاية أسبوعك جيدة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui !",
+              "نعم"
+            ],
+            [
+              "Et toi,",
+              "وأنت"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "as eu",
+              "كان لك"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "bon",
+              "جيد"
+            ],
+            [
+              "week-end ?",
+              "نهاية أسبوع"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "B",
+          "say": "Pas mal. Samedi, j'ai pris le train pour Versailles avec mon frère.",
+          "ar": "لا بأس. يوم السبت أخذت القطار إلى فرساي مع أخي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Pas mal.",
+              "لا بأس"
+            ],
+            [
+              "Samedi,",
+              "السبت"
+            ],
+            [
+              "j'ai pris",
+              "أخذتُ"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "train",
+              "قطار"
+            ],
+            [
+              "pour Versailles",
+              "إلى فرساي"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "frère.",
+              "أخ"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "A",
+          "say": "Vous avez fait le tour du château ?",
+          "ar": "هل تجوّلتما في القصر؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Vous",
+              "أنتما"
+            ],
+            [
+              "avez fait le tour",
+              "تجوّلتما"
+            ],
+            [
+              "du château ?",
+              "في القصر"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "B",
+          "say": "Oui, mais il a plu ! Alors nous avons bu un thé au café du parc.",
+          "ar": "نعم، لكنها أمطرت! فشربنا شاياً في مقهى الحديقة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "il a plu !",
+              "أمطرت"
+            ],
+            [
+              "Alors",
+              "فـ"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "avons bu",
+              "شربنا"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "thé",
+              "شاي"
+            ],
+            [
+              "au café",
+              "في مقهى"
+            ],
+            [
+              "du parc.",
+              "الحديقة"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "A",
+          "say": "Tu as mis des photos sur Instagram ?",
+          "ar": "هل وضعت صوراً على إنستغرام؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "as mis",
+              "وضعتَ"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "photos",
+              "صور"
+            ],
+            [
+              "sur Instagram ?",
+              "على إنستغرام"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "B",
+          "say": "Non, je n'ai pas pris de photos. J'ai écrit dans mon carnet, c'est tout !",
+          "ar": "لا، لم ألتقط صوراً. كتبت في دفتري، هذا كل شيء!",
+          "slow": true,
+          "gloss": [
+            [
+              "Non,",
+              "لا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "n'ai pas pris",
+              "لم آخذ"
+            ],
+            [
+              "de photos.",
+              "صوراً"
+            ],
+            [
+              "J'ai écrit",
+              "كتبتُ"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "carnet,",
+              "دفتر"
+            ],
+            [
+              "c'est tout !",
+              "هذا كل شيء"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "A",
+          "say": "Tu as dit « carnet » ? Tu es un vrai poète !",
+          "ar": "قلت «دفتر»؟ أنت شاعر حقيقي!",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "as dit",
+              "قلتَ"
+            ],
+            [
+              "« carnet » ?",
+              "«دفتر»"
+            ],
+            [
+              "Tu es",
+              "أنت"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "vrai",
+              "حقيقي"
+            ],
+            [
+              "poète !",
+              "شاعر"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "في الحوار عشرة أسماء مفعول شاذة: fait، vu، lu، eu، pris، plu، bu، mis، écrit، dit. ولاحظ **je n'ai pas pris de photos**: بعد النفي تصير des إلى de كما في A1."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "كل فعل مع اسم مفعوله، مجموعات حسب النهاية.",
+      "groups": [
+        {
+          "title_ar": "بنهاية u",
+          "items": [
+            {
+              "id": "v-eu",
+              "say": "avoir, eu",
+              "ar": "كان عنده",
+              "fr": "avoir / eu"
+            },
+            {
+              "id": "v-vu",
+              "say": "voir, vu",
+              "ar": "رأى / شاهد",
+              "fr": "voir / vu"
+            },
+            {
+              "id": "v-bu",
+              "say": "boire, bu",
+              "ar": "شرب",
+              "fr": "boire / bu"
+            },
+            {
+              "id": "v-lu",
+              "say": "lire, lu",
+              "ar": "قرأ",
+              "fr": "lire / lu"
+            },
+            {
+              "id": "v-pu",
+              "say": "pouvoir, pu",
+              "ar": "استطاع",
+              "fr": "pouvoir / pu"
+            },
+            {
+              "id": "v-voulu",
+              "say": "vouloir, voulu",
+              "ar": "أراد",
+              "fr": "vouloir / voulu"
+            },
+            {
+              "id": "v-su",
+              "say": "savoir, su",
+              "ar": "عرف",
+              "fr": "savoir / su"
+            },
+            {
+              "id": "v-connu",
+              "say": "connaître, connu",
+              "ar": "عرف (شخصاً)",
+              "fr": "connaître / connu"
+            },
+            {
+              "id": "v-plu",
+              "say": "pleuvoir, il a plu",
+              "ar": "أمطرت",
+              "fr": "pleuvoir / il a plu"
+            }
+          ]
+        },
+        {
+          "title_ar": "بنهاية is أو it",
+          "items": [
+            {
+              "id": "v-pris",
+              "say": "prendre, pris",
+              "ar": "أخذ",
+              "fr": "prendre / pris"
+            },
+            {
+              "id": "v-mis",
+              "say": "mettre, mis",
+              "ar": "وضع",
+              "fr": "mettre / mis"
+            },
+            {
+              "id": "v-dit",
+              "say": "dire, dit",
+              "ar": "قال",
+              "fr": "dire / dit"
+            },
+            {
+              "id": "v-ecrit",
+              "say": "écrire, écrit",
+              "ar": "كتب",
+              "fr": "écrire / écrit"
+            },
+            {
+              "id": "v-fait",
+              "say": "faire, fait",
+              "ar": "فعل",
+              "fr": "faire / fait"
+            }
+          ]
+        },
+        {
+          "title_ar": "وحده",
+          "items": [
+            {
+              "id": "v-ete",
+              "say": "être, été",
+              "ar": "كان",
+              "fr": "être / été",
+              "note_ar": "مع avoir: j'ai été malade = كنت مريضاً."
+            }
+          ]
+        },
+        {
+          "title_ar": "عطلة نهاية الأسبوع",
+          "items": [
+            {
+              "id": "v-tour",
+              "say": "faire le tour de",
+              "ar": "يتجوّل في"
+            },
+            {
+              "id": "v-roman",
+              "say": "un roman",
+              "ar": "رواية"
+            },
+            {
+              "id": "v-carnet",
+              "say": "un carnet",
+              "ar": "دفتر صغير"
+            },
+            {
+              "id": "v-photos",
+              "say": "prendre des photos",
+              "ar": "يلتقط صوراً"
+            },
+            {
+              "id": "v-pasmal",
+              "say": "Pas mal.",
+              "ar": "لا بأس."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الشاذة",
+      "title_ar": "القاعدة: أسماء المفعول الشاذة",
+      "intro_ar": "كلها مع avoir. احفظ كل فعل مع اسم مفعوله، فالمجموعات تساعدك.",
+      "tables": [
+        {
+          "title_fr": "Participes en -u",
+          "title_ar": "بنهاية u",
+          "head_ar": [
+            "المصدر",
+            "اسم المفعول",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-u1",
+              "say": "J'ai eu de la chance.",
+              "cells": [
+                "avoir",
+                "eu",
+                "J'ai eu de la chance."
+              ],
+              "ar": "كنتُ محظوظاً"
+            },
+            {
+              "id": "g-u2",
+              "say": "J'ai vu un film.",
+              "cells": [
+                "voir",
+                "vu",
+                "J'ai vu un film."
+              ],
+              "ar": "شاهدتُ فيلماً"
+            },
+            {
+              "id": "g-u3",
+              "say": "J'ai bu un café.",
+              "cells": [
+                "boire",
+                "bu",
+                "J'ai bu un café."
+              ],
+              "ar": "شربتُ قهوة"
+            },
+            {
+              "id": "g-u4",
+              "say": "J'ai lu un livre.",
+              "cells": [
+                "lire",
+                "lu",
+                "J'ai lu un livre."
+              ],
+              "ar": "قرأتُ كتاباً"
+            },
+            {
+              "id": "g-u5",
+              "say": "Je n'ai pas pu venir.",
+              "cells": [
+                "pouvoir",
+                "pu",
+                "Je n'ai pas pu venir."
+              ],
+              "ar": "لم أستطع المجيء"
+            }
+          ],
+          "note_ar": "eu «يو» و vu «ڤو» و bu «بو» و lu «لو» و pu «پو»: كلها بصوت u الفرنسي."
+        },
+        {
+          "title_fr": "Participes en -is, -it, -é",
+          "title_ar": "بنهاية is أو it، و été",
+          "head_ar": [
+            "المصدر",
+            "اسم المفعول",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-i1",
+              "say": "J'ai pris le train.",
+              "cells": [
+                "prendre",
+                "pris",
+                "J'ai pris le train."
+              ],
+              "ar": "أخذتُ القطار"
+            },
+            {
+              "id": "g-i2",
+              "say": "J'ai mis ma veste.",
+              "cells": [
+                "mettre",
+                "mis",
+                "J'ai mis ma veste."
+              ],
+              "ar": "لبستُ سترتي"
+            },
+            {
+              "id": "g-i3",
+              "say": "Il a dit oui.",
+              "cells": [
+                "dire",
+                "dit",
+                "Il a dit oui."
+              ],
+              "ar": "قال نعم"
+            },
+            {
+              "id": "g-i4",
+              "say": "J'ai écrit un message.",
+              "cells": [
+                "écrire",
+                "écrit",
+                "J'ai écrit un message."
+              ],
+              "ar": "كتبتُ رسالة"
+            },
+            {
+              "id": "g-i5",
+              "say": "J'ai fait les courses.",
+              "cells": [
+                "faire",
+                "fait",
+                "J'ai fait les courses."
+              ],
+              "ar": "تسوّقتُ"
+            },
+            {
+              "id": "g-i6",
+              "say": "J'ai été malade.",
+              "cells": [
+                "être",
+                "été",
+                "J'ai été malade."
+              ],
+              "ar": "كنتُ مريضاً"
+            }
+          ],
+          "note_ar": "الحرف الأخير صامت: pris «پغي»، mis «مي»، dit «دي»، écrit «إيكغي»، fait «فيه»."
+        },
+        {
+          "title_fr": "La négation au passé",
+          "title_ar": "النفي في الماضي",
+          "head_ar": [
+            "الإثبات",
+            "النفي"
+          ],
+          "rows": [
+            {
+              "id": "g-n1",
+              "say": "Je n'ai pas vu ce film.",
+              "cells": [
+                "J'ai vu ce film.",
+                "Je n'ai pas vu ce film."
+              ],
+              "ar": "لم أشاهد هذا الفيلم"
+            },
+            {
+              "id": "g-n2",
+              "say": "Il n'a pas pris de photos.",
+              "cells": [
+                "Il a pris des photos.",
+                "Il n'a pas pris de photos."
+              ],
+              "ar": "لم يلتقط صوراً"
+            },
+            {
+              "id": "g-n3",
+              "say": "Nous n'avons pas fait les courses.",
+              "cells": [
+                "Nous avons fait les courses.",
+                "Nous n'avons pas fait les courses."
+              ],
+              "ar": "لم نتسوّق"
+            },
+            {
+              "id": "g-n4",
+              "say": "Elle n'est pas venue.",
+              "cells": [
+                "Elle est venue.",
+                "Elle n'est pas venue."
+              ],
+              "ar": "لم تأتِ"
+            }
+          ],
+          "note_ar": "ne … pas حول avoir أو être: je n'ai pas vu، elle n'est pas venue."
+        }
+      ],
+      "points_ar": [
+        "**j'ai été** = كنتُ، وتأتي مع avoir لا مع être: J'ai été malade.",
+        "**il a plu** (أمطرت) من pleuvoir، و **il a pu** (استطاع) من pouvoir. انتبه للفرق.",
+        "**النفي مع الأداة:** بعد النفي تصير un و des إلى de: Je n'ai pas pris de photos."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: أسماء المفعول الشاذة",
+      "hint_ar": "اختر اسم المفعول الصحيح. الشكل «المنتظم» المزيّف خطأ دائماً هنا.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "J'ai ___ un bon film.",
+          "say": "J'ai vu un bon film.",
+          "options": [
+            "voir",
+            "vu"
+          ],
+          "answer": "vu",
+          "ar": "شاهدت فيلماً جيداً.",
+          "explain_ar": "voir يعطي **vu**."
+        },
+        {
+          "id": "f2",
+          "text": "Tu as ___ le train ?",
+          "say": "Tu as pris le train ?",
+          "options": [
+            "prendu",
+            "pris"
+          ],
+          "answer": "pris",
+          "ar": "هل أخذت القطار؟",
+          "explain_ar": "prendre يعطي **pris**."
+        },
+        {
+          "id": "f3",
+          "text": "Nous avons ___ les courses.",
+          "say": "Nous avons fait les courses.",
+          "options": [
+            "fait",
+            "faisé"
+          ],
+          "answer": "fait",
+          "ar": "تسوّقنا.",
+          "explain_ar": "faire يعطي **fait**."
+        },
+        {
+          "id": "f4",
+          "text": "Il a ___ « merci ».",
+          "say": "Il a dit « merci ».",
+          "options": [
+            "disé",
+            "dit"
+          ],
+          "answer": "dit",
+          "ar": "قال «شكراً».",
+          "explain_ar": "dire يعطي **dit**."
+        },
+        {
+          "id": "f5",
+          "text": "J'ai ___ un message à Claire.",
+          "say": "J'ai écrit un message à Claire.",
+          "options": [
+            "écrit",
+            "écrivé"
+          ],
+          "answer": "écrit",
+          "ar": "كتبت رسالة لكلير.",
+          "explain_ar": "écrire يعطي **écrit**."
+        },
+        {
+          "id": "f6",
+          "text": "Elle a ___ un café.",
+          "say": "Elle a bu un café.",
+          "options": [
+            "boiré",
+            "bu"
+          ],
+          "answer": "bu",
+          "ar": "شربت قهوة.",
+          "explain_ar": "boire يعطي **bu**."
+        },
+        {
+          "id": "f7",
+          "text": "Hier, il a ___ toute la journée.",
+          "say": "Hier, il a plu toute la journée.",
+          "options": [
+            "plu",
+            "pu"
+          ],
+          "answer": "plu",
+          "ar": "أمطرت طوال اليوم أمس.",
+          "explain_ar": "المطر من pleuvoir: il a **plu**."
+        },
+        {
+          "id": "f8",
+          "text": "J'ai ___ de la chance !",
+          "say": "J'ai eu de la chance !",
+          "options": [
+            "été",
+            "eu"
+          ],
+          "answer": "eu",
+          "ar": "كنت محظوظاً!",
+          "explain_ar": "avoir de la chance في الماضي: j'ai **eu**."
+        },
+        {
+          "id": "f9",
+          "text": "Je ___ pas vu ce film.",
+          "say": "Je n'ai pas vu ce film.",
+          "options": [
+            "ne",
+            "n'ai"
+          ],
+          "answer": "n'ai",
+          "ar": "لم أشاهد هذا الفيلم.",
+          "explain_ar": "النفي حول avoir: je **n'ai** pas vu."
+        },
+        {
+          "id": "f10",
+          "text": "Il n'a pas pris ___ photos.",
+          "say": "Il n'a pas pris de photos.",
+          "options": [
+            "de",
+            "des"
+          ],
+          "answer": "de",
+          "ar": "لم يلتقط صوراً.",
+          "explain_ar": "بعد النفي: **de**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: أي فعل؟",
+      "hint_ar": "أسماء مفعول قصيرة جداً ومتشابهة. ركّز على الحرف الأول.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "j'ai eu",
+          "options": [
+            "j'ai vu",
+            "j'ai eu"
+          ],
+          "answer": "j'ai eu",
+          "explain_ar": "eu «يو» بلا حرف قبله: كان عندي."
+        },
+        {
+          "id": "q2",
+          "say": "il a pris",
+          "options": [
+            "il a pris",
+            "il a mis"
+          ],
+          "answer": "il a pris",
+          "explain_ar": "pris «پغي»: أخذ."
+        },
+        {
+          "id": "q3",
+          "say": "tu as lu",
+          "options": [
+            "tu as dit",
+            "tu as lu"
+          ],
+          "answer": "tu as lu",
+          "explain_ar": "lu «لو»: قرأت."
+        },
+        {
+          "id": "q4",
+          "say": "nous avons bu",
+          "options": [
+            "nous avons bu",
+            "nous avons vu"
+          ],
+          "answer": "nous avons bu",
+          "explain_ar": "bu «بو»: شربنا."
+        },
+        {
+          "id": "q5",
+          "say": "il a pu",
+          "options": [
+            "il a plu",
+            "il a pu"
+          ],
+          "answer": "il a pu",
+          "explain_ar": "pu «پو» بلا l: استطاع."
+        },
+        {
+          "id": "q6",
+          "say": "je fais",
+          "options": [
+            "j'ai fait",
+            "je fais"
+          ],
+          "answer": "je fais",
+          "explain_ar": "je fais «ژُ فيه»: حاضر."
+        },
+        {
+          "id": "q7",
+          "say": "elle a écrit",
+          "options": [
+            "elle a écrit",
+            "elle a dit"
+          ],
+          "answer": "elle a écrit",
+          "explain_ar": "écrit «إيكغي»: كتبت."
+        },
+        {
+          "id": "q8",
+          "say": "Je n'ai pas vu.",
+          "options": [
+            "J'ai vu.",
+            "Je n'ai pas vu."
+          ],
+          "answer": "Je n'ai pas vu.",
+          "explain_ar": "n'ai pas: لم أشاهد."
+        },
+        {
+          "id": "q9",
+          "say": "j'ai été malade",
+          "options": [
+            "j'ai été malade",
+            "je suis malade"
+          ],
+          "answer": "j'ai été malade",
+          "explain_ar": "j'ai été: كنتُ (ماضٍ)."
+        },
+        {
+          "id": "q10",
+          "say": "vous lisez",
+          "options": [
+            "vous avez lu",
+            "vous lisez"
+          ],
+          "answer": "vous lisez",
+          "explain_ar": "lisez «ليزيه»: حاضر."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الأفعال الشاذة في الماضي",
+      "hint_ar": "الحرف الأخير غالباً صامت: s في pris، و t في fait.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر الحرف الصامت في آخر: pris، fait، écrit، dit.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "j'ai fait",
+          "answer": "j'ai fait",
+          "ar": "فعلتُ"
+        },
+        {
+          "id": "s2",
+          "say": "il a pris",
+          "answer": "il a pris",
+          "ar": "أخذ"
+        },
+        {
+          "id": "s3",
+          "say": "nous avons vu",
+          "answer": "nous avons vu",
+          "ar": "شاهدنا"
+        },
+        {
+          "id": "s4",
+          "say": "tu as eu",
+          "answer": "tu as eu",
+          "ar": "كان عندك"
+        },
+        {
+          "id": "s5",
+          "say": "elle a dit",
+          "answer": "elle a dit",
+          "ar": "قالت"
+        },
+        {
+          "id": "s6",
+          "say": "j'ai écrit",
+          "answer": "j'ai écrit",
+          "ar": "كتبتُ"
+        },
+        {
+          "id": "s7",
+          "say": "ils ont bu",
+          "answer": "ils ont bu",
+          "ar": "شربوا"
+        },
+        {
+          "id": "s8",
+          "say": "je n'ai pas lu",
+          "answer": "je n'ai pas lu",
+          "ar": "لم أقرأ"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل نهاية الأسبوع بالأفعال الشاذة.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "J'ai fait les courses et j'ai pris un café.",
+          "ar": "تسوّقت وشربت قهوة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "J'ai fait",
+              "قمتُ بـ"
+            ],
+            [
+              "les courses",
+              "التسوّق"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "j'ai pris",
+              "أخذتُ"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "café.",
+              "قهوة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Tu as vu ce film ? Il est super !",
+          "ar": "هل شاهدت هذا الفيلم؟ إنه رائع!",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "as vu",
+              "شاهدتَ"
+            ],
+            [
+              "ce",
+              "هذا"
+            ],
+            [
+              "film ?",
+              "فيلم"
+            ],
+            [
+              "Il est super !",
+              "إنه رائع"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Il a plu toute la journée.",
+          "ar": "أمطرت طوال اليوم.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Il a plu",
+              "أمطرت"
+            ],
+            [
+              "toute la journée.",
+              "طوال اليوم"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Je n'ai pas pu venir, désolée.",
+          "ar": "لم أستطع المجيء، آسفة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "n'ai pas pu",
+              "لم أستطع"
+            ],
+            [
+              "venir,",
+              "المجيء"
+            ],
+            [
+              "désolée.",
+              "آسفة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Nous avons eu de la chance !",
+          "ar": "كنا محظوظين!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "avons eu de la chance !",
+              "كنا محظوظين"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: احكِ نهاية أسبوعك الماضية بخمسة أفعال شاذة: **J'ai fait… J'ai vu… J'ai pris… J'ai lu… J'ai bu…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "fait",
+          "say": "fait",
+          "back_ar": "فعل (faire)"
+        },
+        {
+          "id": "c2",
+          "front": "vu",
+          "say": "vu",
+          "back_ar": "رأى / شاهد (voir)"
+        },
+        {
+          "id": "c3",
+          "front": "pris",
+          "say": "pris",
+          "back_ar": "أخذ (prendre)"
+        },
+        {
+          "id": "c4",
+          "front": "eu",
+          "say": "eu",
+          "back_ar": "كان عنده (avoir)"
+        },
+        {
+          "id": "c5",
+          "front": "été",
+          "say": "été",
+          "back_ar": "كان (être)"
+        },
+        {
+          "id": "c6",
+          "front": "dit",
+          "say": "dit",
+          "back_ar": "قال (dire)"
+        },
+        {
+          "id": "c7",
+          "front": "mis",
+          "say": "mis",
+          "back_ar": "وضع / لبس (mettre)"
+        },
+        {
+          "id": "c8",
+          "front": "lu",
+          "say": "lu",
+          "back_ar": "قرأ (lire)"
+        },
+        {
+          "id": "c9",
+          "front": "écrit",
+          "say": "écrit",
+          "back_ar": "كتب (écrire)"
+        },
+        {
+          "id": "c10",
+          "front": "bu",
+          "say": "bu",
+          "back_ar": "شرب (boire)"
+        },
+        {
+          "id": "c11",
+          "front": "pu",
+          "say": "pu",
+          "back_ar": "استطاع (pouvoir)"
+        },
+        {
+          "id": "c12",
+          "front": "il a plu",
+          "say": "il a plu",
+          "back_ar": "أمطرت"
+        },
+        {
+          "id": "c13",
+          "front": "Je n'ai pas vu…",
+          "say": "Je n'ai pas vu ce film.",
+          "back_ar": "لم أشاهد…"
+        },
+        {
+          "id": "c14",
+          "front": "Je n'ai pas pu…",
+          "say": "Je n'ai pas pu venir.",
+          "back_ar": "لم أستطع…"
+        },
+        {
+          "id": "c15",
+          "front": "faire le tour de",
+          "say": "faire le tour de",
+          "back_ar": "يتجوّل في"
+        },
+        {
+          "id": "c16",
+          "front": "Pas mal.",
+          "say": "Pas mal.",
+          "back_ar": "لا بأس."
+        }
+      ]
+    }
+  ]
+}

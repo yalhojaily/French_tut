@@ -1,0 +1,1247 @@
+{
+  "id": "a2-01",
+  "stage": "A2",
+  "title_fr": "Le passé composé avec avoir",
+  "title_ar": "الماضي المركّب مع avoir",
+  "goals_ar": [
+    "تحكي ما فعلته: **Hier, j'ai mangé au restaurant.**",
+    "تكوّن اسم المفعول المنتظم: parler يصير **parlé**، و finir يصير **fini**، و attendre يصير **attendu**",
+    "تستعمل كلمات الماضي: **hier، la semaine dernière، il y a deux jours**",
+    "تميّز في السمع بين **j'ai mangé** و **je mange**"
+  ],
+  "intro_ar": [
+    "**الماضي المركّب (le passé composé)** أهم زمن ماضٍ في الكلام اليومي. يتكون من جزأين: **avoir** في الحاضر + **اسم المفعول**: j'ai mangé = أكلتُ.",
+    "**اسم المفعول سهل للأفعال المنتظمة:** أفعال er تنتهي بـ **é** (parlé)، وأفعال ir بـ **i** (fini)، وأفعال re بـ **u** (attendu).",
+    "**النفي حول avoir:** Je **n'ai pas** mangé. و **il y a** مع مدة تعني «قبل»: il y a deux jours = قبل يومين."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: كيف كانت نهاية الأسبوع؟",
+      "context_ar": "صباح الاثنين. كلير تسأل يوسف عن نهاية أسبوعه. كل الأفعال بالماضي المركّب مع avoir.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Salut ! Tu as passé un bon week-end ?",
+          "ar": "أهلاً! هل قضيت نهاية أسبوع جيدة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Salut !",
+              "أهلاً"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "as passé",
+              "قضيتَ"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "bon",
+              "جيد"
+            ],
+            [
+              "week-end ?",
+              "نهاية أسبوع"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Oui, très bon ! Samedi, j'ai visité le musée d'Orsay avec mon frère.",
+          "ar": "نعم، جيدة جداً! يوم السبت زرت متحف أورسيه مع أخي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "très bon !",
+              "جيدة جداً"
+            ],
+            [
+              "Samedi,",
+              "يوم السبت"
+            ],
+            [
+              "j'ai visité",
+              "زرتُ"
+            ],
+            [
+              "le musée d'Orsay",
+              "متحف أورسيه"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "frère.",
+              "أخ"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Et vous avez aimé ?",
+          "ar": "وهل أعجبكما؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "vous",
+              "أنتما"
+            ],
+            [
+              "avez aimé ?",
+              "أحببتما"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Beaucoup ! Nous avons regardé les tableaux de Monet pendant deux heures.",
+          "ar": "كثيراً! شاهدنا لوحات مونيه ساعتين.",
+          "slow": true,
+          "gloss": [
+            [
+              "Beaucoup !",
+              "كثيراً"
+            ],
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "avons regardé",
+              "شاهدنا"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "tableaux",
+              "لوحات"
+            ],
+            [
+              "de Monet",
+              "مونيه"
+            ],
+            [
+              "pendant",
+              "لمدة"
+            ],
+            [
+              "deux heures.",
+              "ساعتين"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Et dimanche, tu as dîné chez moi ! Tu as aimé mon couscous ?",
+          "ar": "ويوم الأحد تعشّيت عندي! هل أعجبك الكسكس؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "dimanche,",
+              "الأحد"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "as dîné",
+              "تعشّيتَ"
+            ],
+            [
+              "chez moi !",
+              "عندي"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "as aimé",
+              "أحببتَ"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "couscous ?",
+              "كسكس"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Oui, j'ai adoré ! Mon frère a mangé deux assiettes.",
+          "ar": "نعم، أعجبني كثيراً! أخي أكل صحنين.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "j'ai adoré !",
+              "أعجبني كثيراً"
+            ],
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "frère",
+              "أخ"
+            ],
+            [
+              "a mangé",
+              "أكل"
+            ],
+            [
+              "deux",
+              "2"
+            ],
+            [
+              "assiettes.",
+              "صحون"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Et hier soir ? Tu as travaillé ?",
+          "ar": "وأمس مساءً؟ هل عملت؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "hier soir ?",
+              "أمس مساءً"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "as travaillé ?",
+              "عملتَ"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Non, je n'ai pas travaillé. J'ai fini mon livre et j'ai dormi tôt.",
+          "ar": "لا، لم أعمل. أنهيت كتابي ونمت مبكراً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Non,",
+              "لا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "n'ai pas travaillé.",
+              "لم أعمل"
+            ],
+            [
+              "J'ai fini",
+              "أنهيتُ"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "livre",
+              "كتاب"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "j'ai dormi",
+              "نمتُ"
+            ],
+            [
+              "tôt.",
+              "مبكراً"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Tu as de la chance ! Moi, j'ai attendu le bus une heure sous la pluie.",
+          "ar": "أنت محظوظ! أنا انتظرت الحافلة ساعة تحت المطر.",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu as de la chance !",
+              "أنت محظوظ"
+            ],
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "j'ai attendu",
+              "انتظرتُ"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "bus",
+              "حافلة"
+            ],
+            [
+              "une heure",
+              "ساعة"
+            ],
+            [
+              "sous la pluie.",
+              "تحت المطر"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "كل الأفعال هنا avoir + اسم مفعول. لاحظ النهايات الثلاث: visité و regardé (é)، fini و dormi (i)، attendu (u). و **je n'ai pas travaillé**: النفي حول avoir."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "كلمات تدل على الماضي، ثم أنشطة الأمس بالماضي المركّب.",
+      "groups": [
+        {
+          "title_ar": "متى؟",
+          "items": [
+            {
+              "id": "v-hier",
+              "say": "hier",
+              "ar": "أمس"
+            },
+            {
+              "id": "v-hiersoir",
+              "say": "hier soir",
+              "ar": "أمس مساءً"
+            },
+            {
+              "id": "v-avant",
+              "say": "avant-hier",
+              "ar": "أول أمس"
+            },
+            {
+              "id": "v-semaine",
+              "say": "la semaine dernière",
+              "ar": "الأسبوع الماضي"
+            },
+            {
+              "id": "v-mois",
+              "say": "le mois dernier",
+              "ar": "الشهر الماضي"
+            },
+            {
+              "id": "v-annee",
+              "say": "l'année dernière",
+              "ar": "السنة الماضية"
+            },
+            {
+              "id": "v-ilya",
+              "say": "il y a deux jours",
+              "ar": "قبل يومين",
+              "note_ar": "il y a + مدة = قبل … في الماضي."
+            },
+            {
+              "id": "v-deja",
+              "say": "déjà",
+              "ar": "من قبل / سبق أن"
+            },
+            {
+              "id": "v-pasencore",
+              "say": "pas encore",
+              "ar": "ليس بعد"
+            }
+          ]
+        },
+        {
+          "title_ar": "ماذا فعلت؟",
+          "items": [
+            {
+              "id": "v-mange",
+              "say": "j'ai mangé",
+              "ar": "أكلتُ"
+            },
+            {
+              "id": "v-travaille",
+              "say": "j'ai travaillé",
+              "ar": "عملتُ"
+            },
+            {
+              "id": "v-regarde",
+              "say": "j'ai regardé un film",
+              "ar": "شاهدتُ فيلماً"
+            },
+            {
+              "id": "v-telephone",
+              "say": "j'ai téléphoné à ma mère",
+              "ar": "اتصلتُ بأمي"
+            },
+            {
+              "id": "v-achete",
+              "say": "j'ai acheté",
+              "ar": "اشتريتُ"
+            },
+            {
+              "id": "v-fini",
+              "say": "j'ai fini",
+              "ar": "أنهيتُ"
+            },
+            {
+              "id": "v-dormi",
+              "say": "j'ai dormi",
+              "ar": "نمتُ"
+            },
+            {
+              "id": "v-attendu",
+              "say": "j'ai attendu",
+              "ar": "انتظرتُ"
+            },
+            {
+              "id": "v-repondu",
+              "say": "j'ai répondu",
+              "ar": "أجبتُ"
+            },
+            {
+              "id": "v-choisi",
+              "say": "j'ai choisi",
+              "ar": "اخترتُ"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-passe",
+              "say": "Tu as passé un bon week-end ?",
+              "ar": "هل قضيت نهاية أسبوع جيدة؟"
+            },
+            {
+              "id": "v-quoi",
+              "say": "Qu'est-ce que tu as fait hier ?",
+              "ar": "ماذا فعلت أمس؟"
+            },
+            {
+              "id": "v-chance",
+              "say": "Tu as de la chance !",
+              "ar": "أنت محظوظ!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الماضي",
+      "title_ar": "القاعدة: الماضي المركّب مع avoir",
+      "intro_ar": "avoir في الحاضر (تعرفه من A1) + اسم المفعول. اسم المفعول لا يتغير مع avoir.",
+      "tables": [
+        {
+          "title_fr": "parler au passé composé",
+          "title_ar": "تكلّمَ",
+          "head_ar": [
+            "الضمير",
+            "avoir",
+            "اسم المفعول"
+          ],
+          "rows": [
+            {
+              "id": "g-p1",
+              "say": "j'ai parlé",
+              "cells": [
+                "j'",
+                "ai",
+                "parlé"
+              ],
+              "ar": "تكلمتُ"
+            },
+            {
+              "id": "g-p2",
+              "say": "tu as parlé",
+              "cells": [
+                "tu",
+                "as",
+                "parlé"
+              ],
+              "ar": "تكلمتَ"
+            },
+            {
+              "id": "g-p3",
+              "say": "il a parlé",
+              "cells": [
+                "il / elle / on",
+                "a",
+                "parlé"
+              ],
+              "ar": "تكلّمَ / تكلّمتْ"
+            },
+            {
+              "id": "g-p4",
+              "say": "nous avons parlé",
+              "cells": [
+                "nous",
+                "avons",
+                "parlé"
+              ],
+              "ar": "تكلمنا"
+            },
+            {
+              "id": "g-p5",
+              "say": "vous avez parlé",
+              "cells": [
+                "vous",
+                "avez",
+                "parlé"
+              ],
+              "ar": "تكلمتم"
+            },
+            {
+              "id": "g-p6",
+              "say": "ils ont parlé",
+              "cells": [
+                "ils / elles",
+                "ont",
+                "parlé"
+              ],
+              "ar": "تكلموا"
+            }
+          ],
+          "note_ar": "اسم المفعول parlé ثابت للجميع. التغيير كله في avoir الذي تعرفه منذ A1."
+        },
+        {
+          "title_fr": "Le participe passé",
+          "title_ar": "اسم المفعول المنتظم",
+          "head_ar": [
+            "المصدر",
+            "اسم المفعول",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-r1",
+              "say": "parler, parlé",
+              "cells": [
+                "parler",
+                "parlé",
+                "j'ai parlé"
+              ],
+              "ar": "er يصير é"
+            },
+            {
+              "id": "g-r2",
+              "say": "manger, mangé",
+              "cells": [
+                "manger",
+                "mangé",
+                "j'ai mangé"
+              ],
+              "ar": "أكلتُ"
+            },
+            {
+              "id": "g-r3",
+              "say": "finir, fini",
+              "cells": [
+                "finir",
+                "fini",
+                "j'ai fini"
+              ],
+              "ar": "ir يصير i"
+            },
+            {
+              "id": "g-r4",
+              "say": "dormir, dormi",
+              "cells": [
+                "dormir",
+                "dormi",
+                "j'ai dormi"
+              ],
+              "ar": "نمتُ"
+            },
+            {
+              "id": "g-r5",
+              "say": "attendre, attendu",
+              "cells": [
+                "attendre",
+                "attendu",
+                "j'ai attendu"
+              ],
+              "ar": "re يصير u"
+            },
+            {
+              "id": "g-r6",
+              "say": "répondre, répondu",
+              "cells": [
+                "répondre",
+                "répondu",
+                "j'ai répondu"
+              ],
+              "ar": "أجبتُ"
+            }
+          ],
+          "note_ar": "وفي الوحدة 2.3 ستتعلم أسماء المفعول الشاذة: fait و vu و pris…"
+        },
+        {
+          "title_fr": "La négation",
+          "title_ar": "النفي في الماضي",
+          "head_ar": [
+            "الإثبات",
+            "النفي"
+          ],
+          "rows": [
+            {
+              "id": "g-n1",
+              "say": "Je n'ai pas mangé.",
+              "cells": [
+                "J'ai mangé.",
+                "Je n'ai pas mangé."
+              ],
+              "ar": "لم آكل"
+            },
+            {
+              "id": "g-n2",
+              "say": "Il n'a pas fini.",
+              "cells": [
+                "Il a fini.",
+                "Il n'a pas fini."
+              ],
+              "ar": "لم ينتهِ"
+            },
+            {
+              "id": "g-n3",
+              "say": "Nous n'avons pas attendu.",
+              "cells": [
+                "Nous avons attendu.",
+                "Nous n'avons pas attendu."
+              ],
+              "ar": "لم ننتظر"
+            },
+            {
+              "id": "g-n4",
+              "say": "Je n'ai pas encore visité Paris.",
+              "cells": [
+                "Tu as déjà visité Paris ?",
+                "Je n'ai pas encore visité Paris."
+              ],
+              "ar": "لم أزر باريس بعد"
+            }
+          ],
+          "note_ar": "ne و pas حول avoir، واسم المفعول بعدهما. و **pas encore** = ليس بعد."
+        }
+      ],
+      "points_ar": [
+        "**j'ai mangé أم je mange؟** «ژيه مونژيه» للماضي، و«ژُ مونژ» للحاضر. تمرين الاستماع مخصص لهذا الفرق.",
+        "**il y a = قبل:** J'ai téléphoné il y a une heure (اتصلت قبل ساعة).",
+        "**مكان الظرف:** déjà و bien و beaucoup بين avoir واسم المفعول: J'ai déjà mangé. J'ai bien dormi."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الماضي المركّب",
+      "hint_ar": "اختر avoir المناسب، أو اسم المفعول الصحيح.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Hier, j'___ mangé au restaurant.",
+          "say": "Hier, j'ai mangé au restaurant.",
+          "options": [
+            "a",
+            "ai"
+          ],
+          "answer": "ai",
+          "ar": "أمس أكلت في المطعم.",
+          "explain_ar": "مع je: **j'ai**."
+        },
+        {
+          "id": "f2",
+          "text": "Nous ___ regardé un film.",
+          "say": "Nous avons regardé un film.",
+          "options": [
+            "avons",
+            "sommes"
+          ],
+          "answer": "avons",
+          "ar": "شاهدنا فيلماً.",
+          "explain_ar": "الماضي المركّب مع avoir: nous **avons**."
+        },
+        {
+          "id": "f3",
+          "text": "Ils ___ travaillé samedi.",
+          "say": "Ils ont travaillé samedi.",
+          "options": [
+            "sont",
+            "ont"
+          ],
+          "answer": "ont",
+          "ar": "عملوا يوم السبت.",
+          "explain_ar": "مع ils: **ont**."
+        },
+        {
+          "id": "f4",
+          "text": "J'ai ___ mon livre.",
+          "say": "J'ai fini mon livre.",
+          "options": [
+            "fini",
+            "finé"
+          ],
+          "answer": "fini",
+          "ar": "أنهيت كتابي.",
+          "explain_ar": "أفعال ir تعطي i: **fini**."
+        },
+        {
+          "id": "f5",
+          "text": "Tu as ___ le bus ?",
+          "say": "Tu as attendu le bus ?",
+          "options": [
+            "attendé",
+            "attendu"
+          ],
+          "answer": "attendu",
+          "ar": "هل انتظرت الحافلة؟",
+          "explain_ar": "أفعال re تعطي u: **attendu**."
+        },
+        {
+          "id": "f6",
+          "text": "Elle a ___ à sa mère.",
+          "say": "Elle a téléphoné à sa mère.",
+          "options": [
+            "téléphoner",
+            "téléphoné"
+          ],
+          "answer": "téléphoné",
+          "ar": "اتصلت بأمها.",
+          "explain_ar": "بعد avoir نكتب اسم المفعول **téléphoné**، والنطق مثل المصدر تماماً."
+        },
+        {
+          "id": "f7",
+          "text": "Je ___ pas dormi.",
+          "say": "Je n'ai pas dormi.",
+          "options": [
+            "n'ai",
+            "ai"
+          ],
+          "answer": "n'ai",
+          "ar": "لم أنم.",
+          "explain_ar": "النفي حول avoir: je **n'ai** pas."
+        },
+        {
+          "id": "f8",
+          "text": "J'ai téléphoné ___ une heure.",
+          "say": "J'ai téléphoné il y a une heure.",
+          "options": [
+            "depuis",
+            "il y a"
+          ],
+          "answer": "il y a",
+          "ar": "اتصلت قبل ساعة.",
+          "explain_ar": "قبل (في الماضي): **il y a**."
+        },
+        {
+          "id": "f9",
+          "text": "La semaine ___, j'ai visité Lyon.",
+          "say": "La semaine dernière, j'ai visité Lyon.",
+          "options": [
+            "dernière",
+            "prochaine"
+          ],
+          "answer": "dernière",
+          "ar": "في الأسبوع الماضي زرت ليون.",
+          "explain_ar": "الماضي: la semaine **dernière**."
+        },
+        {
+          "id": "f10",
+          "text": "Tu as ___ mangé ? Non, pas encore.",
+          "say": "Tu as déjà mangé ? Non, pas encore.",
+          "options": [
+            "encore",
+            "déjà"
+          ],
+          "answer": "déjà",
+          "ar": "هل أكلت؟ لا، ليس بعد.",
+          "explain_ar": "سؤال «هل سبق أن…؟»: **déjà**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: ماضٍ أم حاضر؟",
+      "hint_ar": "الماضي فيه avoir قبل الفعل: «ژيه»، «إيلا»، «نوزاڤون».",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "j'ai mangé",
+          "options": [
+            "je mange",
+            "j'ai mangé"
+          ],
+          "answer": "j'ai mangé",
+          "explain_ar": "j'ai «ژيه» قبل الفعل: ماضٍ."
+        },
+        {
+          "id": "q2",
+          "say": "il parle",
+          "options": [
+            "il parle",
+            "il a parlé"
+          ],
+          "answer": "il parle",
+          "explain_ar": "لا avoir: حاضر."
+        },
+        {
+          "id": "q3",
+          "say": "nous avons fini",
+          "options": [
+            "nous avons fini",
+            "nous finissons"
+          ],
+          "answer": "nous avons fini",
+          "explain_ar": "avons + fini: ماضٍ."
+        },
+        {
+          "id": "q4",
+          "say": "j'attends",
+          "options": [
+            "j'ai attendu",
+            "j'attends"
+          ],
+          "answer": "j'attends",
+          "explain_ar": "attends «أتون» بلا avoir: حاضر."
+        },
+        {
+          "id": "q5",
+          "say": "Je n'ai pas dormi.",
+          "options": [
+            "J'ai bien dormi.",
+            "Je n'ai pas dormi."
+          ],
+          "answer": "Je n'ai pas dormi.",
+          "explain_ar": "n'ai pas: لم أنم."
+        },
+        {
+          "id": "q6",
+          "say": "ils ont regardé",
+          "options": [
+            "ils ont regardé",
+            "il a regardé"
+          ],
+          "answer": "ils ont regardé",
+          "explain_ar": "ils‿ont «إيلزون»: جمع."
+        },
+        {
+          "id": "q7",
+          "say": "hier soir",
+          "options": [
+            "ce soir",
+            "hier soir"
+          ],
+          "answer": "hier soir",
+          "explain_ar": "hier «إييغ»: أمس."
+        },
+        {
+          "id": "q8",
+          "say": "la semaine dernière",
+          "options": [
+            "la semaine dernière",
+            "la semaine prochaine"
+          ],
+          "answer": "la semaine dernière",
+          "explain_ar": "dernière «ديغنيِيغ»: الماضية."
+        },
+        {
+          "id": "q9",
+          "say": "dans deux jours",
+          "options": [
+            "il y a deux jours",
+            "dans deux jours"
+          ],
+          "answer": "dans deux jours",
+          "explain_ar": "dans = بعد (مستقبل)."
+        },
+        {
+          "id": "q10",
+          "say": "tu as choisi",
+          "options": [
+            "tu choisis",
+            "tu as choisi"
+          ],
+          "answer": "tu as choisi",
+          "explain_ar": "as choisi: اخترتَ."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الماضي المركّب",
+      "hint_ar": "avoir ثم اسم المفعول بنهايته الصحيحة.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: é لأفعال er، و i لأفعال ir، و u لأفعال re.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "j'ai mangé",
+          "answer": "j'ai mangé",
+          "ar": "أكلتُ"
+        },
+        {
+          "id": "s2",
+          "say": "tu as parlé",
+          "answer": "tu as parlé",
+          "ar": "تكلمتَ"
+        },
+        {
+          "id": "s3",
+          "say": "il a fini",
+          "answer": "il a fini",
+          "ar": "أنهى"
+        },
+        {
+          "id": "s4",
+          "say": "nous avons attendu",
+          "answer": "nous avons attendu",
+          "ar": "انتظرنا"
+        },
+        {
+          "id": "s5",
+          "say": "ils ont travaillé",
+          "answer": "ils ont travaillé",
+          "ar": "عملوا"
+        },
+        {
+          "id": "s6",
+          "say": "je n'ai pas dormi",
+          "answer": "je n'ai pas dormi",
+          "ar": "لم أنم"
+        },
+        {
+          "id": "s7",
+          "say": "hier",
+          "answer": "hier",
+          "ar": "أمس"
+        },
+        {
+          "id": "s8",
+          "say": "la semaine dernière",
+          "answer": "la semaine dernière",
+          "ar": "الأسبوع الماضي"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "احكِ يومك الماضي. انطق j'ai «ژيه» بوضوح حتى يُفهم أنه ماضٍ.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Qu'est-ce que tu as fait hier ?",
+          "ar": "ماذا فعلت أمس؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "as fait",
+              "فعلتَ"
+            ],
+            [
+              "hier ?",
+              "أمس"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Hier, j'ai travaillé et j'ai regardé un film.",
+          "ar": "أمس عملت وشاهدت فيلماً.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Hier,",
+              "أمس"
+            ],
+            [
+              "j'ai travaillé",
+              "عملتُ"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "j'ai regardé",
+              "شاهدتُ"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "film.",
+              "فيلم"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Nous avons dîné au restaurant.",
+          "ar": "تعشّينا في المطعم.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "avons dîné",
+              "تعشّينا"
+            ],
+            [
+              "au",
+              "في الـ"
+            ],
+            [
+              "restaurant.",
+              "مطعم"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Je n'ai pas encore fini.",
+          "ar": "لم أنتهِ بعد.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "n'ai pas encore fini.",
+              "لم أنتهِ بعد"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Il y a deux jours, j'ai téléphoné à ma mère.",
+          "ar": "قبل يومين اتصلت بأمي.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Il y a",
+              "قبل"
+            ],
+            [
+              "deux jours,",
+              "يومين"
+            ],
+            [
+              "j'ai téléphoné",
+              "اتصلتُ"
+            ],
+            [
+              "à",
+              "بـ"
+            ],
+            [
+              "ma",
+              "ـي"
+            ],
+            [
+              "mère.",
+              "أم"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: احكِ يوم أمس في أربع جمل: **Hier matin, j'ai… L'après-midi, j'ai… Le soir, j'ai… Je n'ai pas…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "j'ai mangé",
+          "say": "j'ai mangé",
+          "back_ar": "أكلتُ"
+        },
+        {
+          "id": "c2",
+          "front": "tu as parlé",
+          "say": "tu as parlé",
+          "back_ar": "تكلمتَ"
+        },
+        {
+          "id": "c3",
+          "front": "il a fini",
+          "say": "il a fini",
+          "back_ar": "أنهى"
+        },
+        {
+          "id": "c4",
+          "front": "nous avons attendu",
+          "say": "nous avons attendu",
+          "back_ar": "انتظرنا"
+        },
+        {
+          "id": "c5",
+          "front": "ils ont travaillé",
+          "say": "ils ont travaillé",
+          "back_ar": "عملوا"
+        },
+        {
+          "id": "c6",
+          "front": "Je n'ai pas…",
+          "say": "Je n'ai pas mangé.",
+          "back_ar": "لم…"
+        },
+        {
+          "id": "c7",
+          "front": "hier",
+          "say": "hier",
+          "back_ar": "أمس"
+        },
+        {
+          "id": "c8",
+          "front": "hier soir",
+          "say": "hier soir",
+          "back_ar": "أمس مساءً"
+        },
+        {
+          "id": "c9",
+          "front": "la semaine dernière",
+          "say": "la semaine dernière",
+          "back_ar": "الأسبوع الماضي"
+        },
+        {
+          "id": "c10",
+          "front": "il y a deux jours",
+          "say": "il y a deux jours",
+          "back_ar": "قبل يومين"
+        },
+        {
+          "id": "c11",
+          "front": "déjà",
+          "say": "déjà",
+          "back_ar": "من قبل"
+        },
+        {
+          "id": "c12",
+          "front": "pas encore",
+          "say": "pas encore",
+          "back_ar": "ليس بعد"
+        },
+        {
+          "id": "c13",
+          "front": "Qu'est-ce que tu as fait ?",
+          "say": "Qu'est-ce que tu as fait ?",
+          "back_ar": "ماذا فعلت؟"
+        },
+        {
+          "id": "c14",
+          "front": "Tu as passé un bon week-end ?",
+          "say": "Tu as passé un bon week-end ?",
+          "back_ar": "هل قضيت نهاية أسبوع جيدة؟"
+        },
+        {
+          "id": "c15",
+          "front": "parlé, fini, attendu",
+          "say": "parlé, fini, attendu",
+          "back_ar": "أسماء المفعول: é / i / u"
+        },
+        {
+          "id": "c16",
+          "front": "Tu as de la chance !",
+          "say": "Tu as de la chance !",
+          "back_ar": "أنت محظوظ!"
+        }
+      ]
+    }
+  ]
+}
