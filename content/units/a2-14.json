@@ -1,0 +1,1262 @@
+{
+  "id": "a2-14",
+  "stage": "A2",
+  "title_fr": "Le futur simple",
+  "title_ar": "المستقبل البسيط",
+  "goals_ar": [
+    "تتكلم عن المستقبل البعيد: **Un jour, je parlerai français couramment.**",
+    "تكوّن المستقبل البسيط للأفعال المنتظمة",
+    "تحفظ الأفعال الشاذة: **je serai، j'aurai، j'irai، je ferai، je pourrai**",
+    "تضع شرطاً: **Si j'ai le temps, je viendrai.**"
+  ],
+  "intro_ar": [
+    "تعرف المستقبل القريب (je vais partir). و**المستقبل البسيط** للمستقبل الأبعد وللوعود والتوقعات: je partirai = سأرحل. الاثنان متداخلان في الكلام اليومي، والمكتوب والرسمي يفضّل البسيط.",
+    "**التكوين:** المصدر كاملاً + نهايات تشبه avoir: parler + ai = je parlerai. والنهايات: ai، as، a، ons، ez، ont. وأفعال re تحذف e الأخيرة: prendre يصير je prendrai.",
+    "**الشاذة تغيّر الجذر فقط** والنهايات نفسها: être جذره ser، و avoir جذره aur، و aller جذره ir، و faire جذره fer.",
+    "**الشرط الواقعي:** si + حاضر، ثم مستقبل: **S'il** fait beau, nous **irons** à la plage. ولا تضع المستقبل بعد si أبداً."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: بعد خمس سنوات",
+      "context_ar": "كلير ويوسف يتخيلان حياتهما بعد خمس سنوات. لاحظ المستقبل البسيط، وجمل si.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Dans cinq ans, tu seras où, à ton avis ?",
+          "ar": "بعد خمس سنوات، أين ستكون في رأيك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Dans cinq ans,",
+              "بعد خمس سنوات"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "seras",
+              "ستكون"
+            ],
+            [
+              "où,",
+              "أين"
+            ],
+            [
+              "à ton avis ?",
+              "في رأيك"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Je ne sais pas… J'espère que je parlerai français couramment !",
+          "ar": "لا أعرف… آمل أن أتكلم الفرنسية بطلاقة!",
+          "slow": true,
+          "gloss": [
+            [
+              "Je ne sais pas…",
+              "لا أعرف"
+            ],
+            [
+              "J'espère que",
+              "آمل أن"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "parlerai",
+              "سأتكلم"
+            ],
+            [
+              "français",
+              "الفرنسية"
+            ],
+            [
+              "couramment !",
+              "بطلاقة"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Bien sûr ! Et tu habiteras à Paris ou à Riyad ?",
+          "ar": "بالتأكيد! وهل ستسكن في باريس أم في الرياض؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bien sûr !",
+              "بالتأكيد"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "habiteras",
+              "ستسكن"
+            ],
+            [
+              "à Paris",
+              "في باريس"
+            ],
+            [
+              "ou",
+              "أم"
+            ],
+            [
+              "à Riyad ?",
+              "في الرياض"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Entre les deux ! J'aurai un bureau à Riyad, et je viendrai à Paris chaque automne.",
+          "ar": "بين الاثنتين! سيكون عندي مكتب في الرياض، وسآتي إلى باريس كل خريف.",
+          "slow": true,
+          "gloss": [
+            [
+              "Entre les deux !",
+              "بين الاثنتين"
+            ],
+            [
+              "J'aurai",
+              "سيكون عندي"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "bureau",
+              "مكتب"
+            ],
+            [
+              "à Riyad,",
+              "في الرياض"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "viendrai",
+              "سآتي"
+            ],
+            [
+              "à Paris",
+              "إلى باريس"
+            ],
+            [
+              "chaque automne.",
+              "كل خريف"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Et ton projet d'intelligence artificielle ?",
+          "ar": "ومشروعك في الذكاء الاصطناعي؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "ton",
+              "ـك"
+            ],
+            [
+              "projet",
+              "مشروع"
+            ],
+            [
+              "d'intelligence artificielle ?",
+              "في الذكاء الاصطناعي"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Si tout va bien, nous serons une petite équipe de dix personnes.",
+          "ar": "إذا سار كل شيء على ما يرام، سنكون فريقاً صغيراً من عشرة أشخاص.",
+          "slow": true,
+          "gloss": [
+            [
+              "Si",
+              "إذا"
+            ],
+            [
+              "tout va bien,",
+              "سار كل شيء جيداً"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "serons",
+              "سنكون"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "petite",
+              "صغير"
+            ],
+            [
+              "équipe",
+              "فريق"
+            ],
+            [
+              "de dix personnes.",
+              "من عشرة أشخاص"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Et moi, je ferai le tour du monde avec ma chorale !",
+          "ar": "وأنا سأجوب العالم مع جوقتي!",
+          "slow": true,
+          "gloss": [
+            [
+              "Et moi,",
+              "وأنا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "ferai le tour du monde",
+              "سأجوب العالم"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "ma",
+              "ـي"
+            ],
+            [
+              "chorale !",
+              "جوقة"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Alors, vous viendrez chanter à Riyad ?",
+          "ar": "إذن، هل ستأتون للغناء في الرياض؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Alors,",
+              "إذن"
+            ],
+            [
+              "vous",
+              "أنتم"
+            ],
+            [
+              "viendrez",
+              "ستأتون"
+            ],
+            [
+              "chanter",
+              "للغناء"
+            ],
+            [
+              "à Riyad ?",
+              "في الرياض"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Si tu nous invites, nous irons avec plaisir !",
+          "ar": "إذا دعوتنا، سنذهب بكل سرور!",
+          "slow": true,
+          "gloss": [
+            [
+              "Si",
+              "إذا"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "nous",
+              "نا"
+            ],
+            [
+              "invites,",
+              "تدعو"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "irons",
+              "سنذهب"
+            ],
+            [
+              "avec plaisir !",
+              "بكل سرور"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "C'est promis. Je vous attendrai à l'aéroport !",
+          "ar": "وعد. سأنتظركم في المطار!",
+          "slow": true,
+          "gloss": [
+            [
+              "C'est promis.",
+              "وعد"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "vous",
+              "ـكم"
+            ],
+            [
+              "attendrai",
+              "سأنتظر"
+            ],
+            [
+              "à l'aéroport !",
+              "في المطار"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "عُدّ الأفعال الشاذة: **seras** و **serons** (être)، و **aurai** (avoir)، و **viendrai** و **viendrez** (venir)، و **ferai** (faire)، و **irons** (aller). ولاحظ **Si tu nous invites, nous irons**: بعد si حاضر، ثم مستقبل."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "كلمات المستقبل، والمشاريع والأحلام، وعبارات.",
+      "groups": [
+        {
+          "title_ar": "متى؟",
+          "items": [
+            {
+              "id": "v-dans",
+              "say": "dans cinq ans",
+              "ar": "بعد خمس سنوات",
+              "note_ar": "dans + مدة = بعد … في المستقبل. عكس il y a."
+            },
+            {
+              "id": "v-unjour",
+              "say": "un jour",
+              "ar": "يوماً ما"
+            },
+            {
+              "id": "v-plustard",
+              "say": "plus tard",
+              "ar": "لاحقاً"
+            },
+            {
+              "id": "v-avenir",
+              "say": "à l'avenir",
+              "ar": "في المستقبل"
+            }
+          ]
+        },
+        {
+          "title_ar": "المشاريع والأحلام",
+          "items": [
+            {
+              "id": "v-projet",
+              "say": "un projet",
+              "ar": "مشروع"
+            },
+            {
+              "id": "v-reve",
+              "say": "un rêve",
+              "ar": "حلم"
+            },
+            {
+              "id": "v-realiser",
+              "say": "réaliser un rêve",
+              "ar": "يحقق حلماً"
+            },
+            {
+              "id": "v-esperer",
+              "say": "espérer",
+              "ar": "يأمل"
+            },
+            {
+              "id": "v-equipe",
+              "say": "une équipe",
+              "ar": "فريق"
+            },
+            {
+              "id": "v-devenir",
+              "say": "devenir",
+              "ar": "يصبح"
+            },
+            {
+              "id": "v-reussir",
+              "say": "réussir",
+              "ar": "ينجح"
+            },
+            {
+              "id": "v-tour",
+              "say": "faire le tour du monde",
+              "ar": "يجوب العالم"
+            },
+            {
+              "id": "v-couramment",
+              "say": "couramment",
+              "ar": "بطلاقة"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-jespere",
+              "say": "J'espère que…",
+              "ar": "آمل أن…"
+            },
+            {
+              "id": "v-sitout",
+              "say": "Si tout va bien…",
+              "ar": "إذا سار كل شيء على ما يرام…"
+            },
+            {
+              "id": "v-promis",
+              "say": "C'est promis.",
+              "ar": "وعد."
+            },
+            {
+              "id": "v-verra",
+              "say": "On verra.",
+              "ar": "سنرى.",
+              "note_ar": "من voir في المستقبل."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "المستقبل",
+      "title_ar": "القاعدة: المستقبل البسيط",
+      "intro_ar": "المصدر + النهايات، أو جذر شاذ + النهايات نفسها.",
+      "tables": [
+        {
+          "title_fr": "parler au futur simple",
+          "title_ar": "سيتكلم",
+          "head_ar": [
+            "الضمير",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-p1",
+              "say": "je parlerai",
+              "cells": [
+                "je",
+                "parlerai"
+              ],
+              "ar": "سأتكلم"
+            },
+            {
+              "id": "g-p2",
+              "say": "tu parleras",
+              "cells": [
+                "tu",
+                "parleras"
+              ],
+              "ar": "ستتكلم"
+            },
+            {
+              "id": "g-p3",
+              "say": "il parlera",
+              "cells": [
+                "il / elle / on",
+                "parlera"
+              ],
+              "ar": "سيتكلم"
+            },
+            {
+              "id": "g-p4",
+              "say": "nous parlerons",
+              "cells": [
+                "nous",
+                "parlerons"
+              ],
+              "ar": "سنتكلم"
+            },
+            {
+              "id": "g-p5",
+              "say": "vous parlerez",
+              "cells": [
+                "vous",
+                "parlerez"
+              ],
+              "ar": "ستتكلمون"
+            },
+            {
+              "id": "g-p6",
+              "say": "ils parleront",
+              "cells": [
+                "ils / elles",
+                "parleront"
+              ],
+              "ar": "سيتكلمون"
+            }
+          ],
+          "note_ar": "المصدر كاملاً + النهايات. ومع أفعال re تُحذف e: prendre يصير je prendrai، و attendre يصير j'attendrai."
+        },
+        {
+          "title_fr": "Les verbes irréguliers",
+          "title_ar": "الجذور الشاذة",
+          "head_ar": [
+            "المصدر",
+            "الجذر",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-i1",
+              "say": "je serai",
+              "cells": [
+                "être",
+                "ser",
+                "je serai"
+              ],
+              "ar": "سأكون"
+            },
+            {
+              "id": "g-i2",
+              "say": "j'aurai",
+              "cells": [
+                "avoir",
+                "aur",
+                "j'aurai"
+              ],
+              "ar": "سيكون عندي"
+            },
+            {
+              "id": "g-i3",
+              "say": "j'irai",
+              "cells": [
+                "aller",
+                "ir",
+                "j'irai"
+              ],
+              "ar": "سأذهب"
+            },
+            {
+              "id": "g-i4",
+              "say": "je ferai",
+              "cells": [
+                "faire",
+                "fer",
+                "je ferai"
+              ],
+              "ar": "سأفعل"
+            },
+            {
+              "id": "g-i5",
+              "say": "je viendrai",
+              "cells": [
+                "venir",
+                "viendr",
+                "je viendrai"
+              ],
+              "ar": "سآتي"
+            },
+            {
+              "id": "g-i6",
+              "say": "je pourrai",
+              "cells": [
+                "pouvoir",
+                "pourr",
+                "je pourrai"
+              ],
+              "ar": "سأستطيع"
+            },
+            {
+              "id": "g-i7",
+              "say": "je voudrai",
+              "cells": [
+                "vouloir",
+                "voudr",
+                "je voudrai"
+              ],
+              "ar": "سأريد"
+            },
+            {
+              "id": "g-i8",
+              "say": "je verrai",
+              "cells": [
+                "voir",
+                "verr",
+                "je verrai"
+              ],
+              "ar": "سأرى"
+            },
+            {
+              "id": "g-i9",
+              "say": "je devrai",
+              "cells": [
+                "devoir",
+                "devr",
+                "je devrai"
+              ],
+              "ar": "سيجب عليّ"
+            },
+            {
+              "id": "g-i10",
+              "say": "je saurai",
+              "cells": [
+                "savoir",
+                "saur",
+                "je saurai"
+              ],
+              "ar": "سأعرف"
+            }
+          ],
+          "note_ar": "الجذر وحده شاذ، والنهايات ثابتة. ولاحظ أن كل الجذور تنتهي بـ r."
+        },
+        {
+          "title_fr": "Si + présent, futur",
+          "title_ar": "الشرط الواقعي",
+          "head_ar": [
+            "الشرط (présent)",
+            "النتيجة (futur)"
+          ],
+          "rows": [
+            {
+              "id": "g-s1",
+              "say": "S'il fait beau, nous irons à la plage.",
+              "cells": [
+                "S'il fait beau,",
+                "nous irons à la plage."
+              ],
+              "ar": "إذا كان الجو جميلاً، سنذهب إلى الشاطئ"
+            },
+            {
+              "id": "g-s2",
+              "say": "Si j'ai le temps, je viendrai.",
+              "cells": [
+                "Si j'ai le temps,",
+                "je viendrai."
+              ],
+              "ar": "إذا كان عندي وقت، سآتي"
+            },
+            {
+              "id": "g-s3",
+              "say": "Si tu travailles bien, tu réussiras.",
+              "cells": [
+                "Si tu travailles bien,",
+                "tu réussiras."
+              ],
+              "ar": "إذا عملت جيداً، ستنجح"
+            },
+            {
+              "id": "g-s4",
+              "say": "Si vous m'invitez, je serai content.",
+              "cells": [
+                "Si vous m'invitez,",
+                "je serai content."
+              ],
+              "ar": "إذا دعوتموني، سأكون سعيداً"
+            }
+          ],
+          "note_ar": "لا مستقبل بعد si أبداً: si j'ai، لا si j'aurai."
+        }
+      ],
+      "points_ar": [
+        "**je parlerai أم je parlerais؟** الأول مستقبل، والثاني شرطي (ستتعلمه في 2.19). النطق متقارب جداً، والفرق في الكتابة: rai للمستقبل، و rais للشرطي.",
+        "**dans = بعد (مستقبل)، و il y a = قبل (ماضٍ):** dans deux ans، il y a deux ans.",
+        "**On verra !** = سنرى! جواب فرنسي كلاسيكي حين لا تريد أن تَعِد."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: المستقبل البسيط",
+      "hint_ar": "اختر شكل المستقبل الصحيح، وتذكّر: بعد si حاضر.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Demain, je ___ à Lyon.",
+          "say": "Demain, je partirai à Lyon.",
+          "options": [
+            "partir",
+            "partirai"
+          ],
+          "answer": "partirai",
+          "ar": "غداً سأسافر إلى ليون.",
+          "explain_ar": "المستقبل: je **partirai**."
+        },
+        {
+          "id": "f2",
+          "text": "Un jour, nous ___ français couramment.",
+          "say": "Un jour, nous parlerons français couramment.",
+          "options": [
+            "parlons",
+            "parlerons"
+          ],
+          "answer": "parlerons",
+          "ar": "يوماً ما سنتكلم الفرنسية بطلاقة.",
+          "explain_ar": "مستقبل مع nous: **parlerons**."
+        },
+        {
+          "id": "f3",
+          "text": "Tu ___ content.",
+          "say": "Tu seras content.",
+          "options": [
+            "seras",
+            "auras"
+          ],
+          "answer": "seras",
+          "ar": "ستكون سعيداً.",
+          "explain_ar": "être في المستقبل: tu **seras**."
+        },
+        {
+          "id": "f4",
+          "text": "J'___ un bureau à Riyad.",
+          "say": "J'aurai un bureau à Riyad.",
+          "options": [
+            "serai",
+            "aurai"
+          ],
+          "answer": "aurai",
+          "ar": "سيكون عندي مكتب في الرياض.",
+          "explain_ar": "avoir في المستقبل: **j'aurai**."
+        },
+        {
+          "id": "f5",
+          "text": "Ils ___ à Paris en mai.",
+          "say": "Ils iront à Paris en mai.",
+          "options": [
+            "allont",
+            "iront"
+          ],
+          "answer": "iront",
+          "ar": "سيذهبون إلى باريس في مايو.",
+          "explain_ar": "aller في المستقبل: ils **iront**."
+        },
+        {
+          "id": "f6",
+          "text": "Je ___ le tour du monde.",
+          "say": "Je ferai le tour du monde.",
+          "options": [
+            "ferai",
+            "faisai"
+          ],
+          "answer": "ferai",
+          "ar": "سأجوب العالم.",
+          "explain_ar": "faire في المستقبل: je **ferai**."
+        },
+        {
+          "id": "f7",
+          "text": "Si tu nous invites, nous ___.",
+          "say": "Si tu nous invites, nous viendrons.",
+          "options": [
+            "venirons",
+            "viendrons"
+          ],
+          "answer": "viendrons",
+          "ar": "إذا دعوتنا، سنأتي.",
+          "explain_ar": "venir في المستقبل: nous **viendrons**."
+        },
+        {
+          "id": "f8",
+          "text": "S'il ___ beau, nous irons à la plage.",
+          "say": "S'il fait beau, nous irons à la plage.",
+          "options": [
+            "fera",
+            "fait"
+          ],
+          "answer": "fait",
+          "ar": "إذا كان الجو جميلاً، سنذهب إلى الشاطئ.",
+          "explain_ar": "بعد si: الحاضر **fait**."
+        },
+        {
+          "id": "f9",
+          "text": "Je vous ___ à l'aéroport.",
+          "say": "Je vous attendrai à l'aéroport.",
+          "options": [
+            "attendrai",
+            "attendrerai"
+          ],
+          "answer": "attendrai",
+          "ar": "سأنتظركم في المطار.",
+          "explain_ar": "re تحذف e: **attendrai**."
+        },
+        {
+          "id": "f10",
+          "text": "___ cinq ans, j'aurai quarante ans.",
+          "say": "Dans cinq ans, j'aurai quarante ans.",
+          "options": [
+            "Il y a",
+            "Dans"
+          ],
+          "answer": "Dans",
+          "ar": "بعد خمس سنوات سيكون عمري أربعين.",
+          "explain_ar": "في المستقبل: **Dans** cinq ans."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: مستقبل أم حاضر؟",
+      "hint_ar": "المستقبل فيه «غ» قبل النهاية: parlerai، serons، iront.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "je parlerai",
+          "options": [
+            "je parle",
+            "je parlerai"
+          ],
+          "answer": "je parlerai",
+          "explain_ar": "parlerai «پاغلُغيه»: سأتكلم."
+        },
+        {
+          "id": "q2",
+          "say": "nous sommes",
+          "options": [
+            "nous serons",
+            "nous sommes"
+          ],
+          "answer": "nous sommes",
+          "explain_ar": "sommes «سوم»: حاضر."
+        },
+        {
+          "id": "q3",
+          "say": "j'aurai",
+          "options": [
+            "j'aurai",
+            "j'ai"
+          ],
+          "answer": "j'aurai",
+          "explain_ar": "aurai «أوغيه»: سيكون عندي."
+        },
+        {
+          "id": "q4",
+          "say": "ils iront",
+          "options": [
+            "ils vont",
+            "ils iront"
+          ],
+          "answer": "ils iront",
+          "explain_ar": "iront «إيغون»: سيذهبون."
+        },
+        {
+          "id": "q5",
+          "say": "tu feras",
+          "options": [
+            "tu feras",
+            "tu fais"
+          ],
+          "answer": "tu feras",
+          "explain_ar": "feras «فُغا»: ستفعل."
+        },
+        {
+          "id": "q6",
+          "say": "je viens",
+          "options": [
+            "je viendrai",
+            "je viens"
+          ],
+          "answer": "je viens",
+          "explain_ar": "viens «ڤيان»: حاضر."
+        },
+        {
+          "id": "q7",
+          "say": "dans deux ans",
+          "options": [
+            "il y a deux ans",
+            "dans deux ans"
+          ],
+          "answer": "dans deux ans",
+          "explain_ar": "dans «دون»: بعد."
+        },
+        {
+          "id": "q8",
+          "say": "On verra.",
+          "options": [
+            "On verra.",
+            "On voit."
+          ],
+          "answer": "On verra.",
+          "explain_ar": "verra «ڤيغا»: سنرى."
+        },
+        {
+          "id": "q9",
+          "say": "vous pouvez",
+          "options": [
+            "vous pourrez",
+            "vous pouvez"
+          ],
+          "answer": "vous pouvez",
+          "explain_ar": "pouvez «پوڤيه»: حاضر."
+        },
+        {
+          "id": "q10",
+          "say": "Si tu as le temps",
+          "options": [
+            "Si j'ai le temps",
+            "Si tu as le temps"
+          ],
+          "answer": "Si tu as le temps",
+          "explain_ar": "tu as «تو آ»: إذا كان عندك."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: المستقبل",
+      "hint_ar": "الجذر ثم النهاية.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: كل جذور المستقبل تنتهي بـ r: serai، aurai، irons.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je parlerai",
+          "answer": "je parlerai",
+          "ar": "سأتكلم"
+        },
+        {
+          "id": "s2",
+          "say": "tu seras",
+          "answer": "tu seras",
+          "ar": "ستكون"
+        },
+        {
+          "id": "s3",
+          "say": "j'aurai",
+          "answer": "j'aurai",
+          "ar": "سيكون عندي"
+        },
+        {
+          "id": "s4",
+          "say": "nous irons",
+          "answer": "nous irons",
+          "ar": "سنذهب"
+        },
+        {
+          "id": "s5",
+          "say": "je ferai",
+          "answer": "je ferai",
+          "ar": "سأفعل"
+        },
+        {
+          "id": "s6",
+          "say": "ils viendront",
+          "answer": "ils viendront",
+          "ar": "سيأتون"
+        },
+        {
+          "id": "s7",
+          "say": "dans cinq ans",
+          "answer": "dans cinq ans",
+          "ar": "بعد خمس سنوات"
+        },
+        {
+          "id": "s8",
+          "say": "on verra",
+          "answer": "on verra",
+          "ar": "سنرى"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل الأحلام والوعود. قلها بنبرة متفائلة.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Un jour, je parlerai français couramment.",
+          "ar": "يوماً ما سأتكلم الفرنسية بطلاقة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Un jour,",
+              "يوماً ما"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "parlerai",
+              "سأتكلم"
+            ],
+            [
+              "français",
+              "الفرنسية"
+            ],
+            [
+              "couramment.",
+              "بطلاقة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "S'il fait beau, nous irons à la plage.",
+          "ar": "إذا كان الجو جميلاً، سنذهب إلى الشاطئ.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "S'il fait beau,",
+              "إذا كان الجو جميلاً"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "irons",
+              "سنذهب"
+            ],
+            [
+              "à la plage.",
+              "إلى الشاطئ"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Dans cinq ans, j'aurai ma propre entreprise.",
+          "ar": "بعد خمس سنوات سيكون عندي شركتي الخاصة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Dans cinq ans,",
+              "بعد خمس سنوات"
+            ],
+            [
+              "j'aurai",
+              "سيكون عندي"
+            ],
+            [
+              "ma",
+              "ـي"
+            ],
+            [
+              "propre",
+              "الخاصة"
+            ],
+            [
+              "entreprise.",
+              "شركة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Tu viendras me voir à Paris ?",
+          "ar": "هل ستأتي لرؤيتي في باريس؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "viendras",
+              "ستأتي"
+            ],
+            [
+              "me voir",
+              "لرؤيتي"
+            ],
+            [
+              "à Paris ?",
+              "في باريس"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "On verra bien !",
+          "ar": "سنرى!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "On verra bien !",
+              "سنرى"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: صف حياتك بعد عشر سنوات: **Dans dix ans, j'habiterai… Je serai… J'aurai… Si tout va bien, je…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "je parlerai",
+          "say": "je parlerai",
+          "back_ar": "سأتكلم"
+        },
+        {
+          "id": "c2",
+          "front": "je serai",
+          "say": "je serai",
+          "back_ar": "سأكون"
+        },
+        {
+          "id": "c3",
+          "front": "j'aurai",
+          "say": "j'aurai",
+          "back_ar": "سيكون عندي"
+        },
+        {
+          "id": "c4",
+          "front": "j'irai",
+          "say": "j'irai",
+          "back_ar": "سأذهب"
+        },
+        {
+          "id": "c5",
+          "front": "je ferai",
+          "say": "je ferai",
+          "back_ar": "سأفعل"
+        },
+        {
+          "id": "c6",
+          "front": "je viendrai",
+          "say": "je viendrai",
+          "back_ar": "سآتي"
+        },
+        {
+          "id": "c7",
+          "front": "je pourrai",
+          "say": "je pourrai",
+          "back_ar": "سأستطيع"
+        },
+        {
+          "id": "c8",
+          "front": "je verrai",
+          "say": "je verrai",
+          "back_ar": "سأرى"
+        },
+        {
+          "id": "c9",
+          "front": "dans cinq ans",
+          "say": "dans cinq ans",
+          "back_ar": "بعد خمس سنوات"
+        },
+        {
+          "id": "c10",
+          "front": "un jour",
+          "say": "un jour",
+          "back_ar": "يوماً ما"
+        },
+        {
+          "id": "c11",
+          "front": "à l'avenir",
+          "say": "à l'avenir",
+          "back_ar": "في المستقبل"
+        },
+        {
+          "id": "c12",
+          "front": "Si j'ai le temps, je viendrai.",
+          "say": "Si j'ai le temps, je viendrai.",
+          "back_ar": "إذا كان عندي وقت، سآتي."
+        },
+        {
+          "id": "c13",
+          "front": "J'espère que…",
+          "say": "J'espère que…",
+          "back_ar": "آمل أن…"
+        },
+        {
+          "id": "c14",
+          "front": "un rêve",
+          "say": "un rêve",
+          "back_ar": "حلم"
+        },
+        {
+          "id": "c15",
+          "front": "On verra.",
+          "say": "On verra.",
+          "back_ar": "سنرى."
+        },
+        {
+          "id": "c16",
+          "front": "couramment",
+          "say": "couramment",
+          "back_ar": "بطلاقة"
+        }
+      ]
+    }
+  ]
+}

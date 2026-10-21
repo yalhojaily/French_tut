@@ -1,0 +1,1249 @@
+{
+  "id": "a2-12",
+  "stage": "A2",
+  "title_fr": "Les loisirs",
+  "title_ar": "أوقات الفراغ",
+  "goals_ar": [
+    "تتكلم عن هواياتك: **Je joue au tennis et je joue du piano.**",
+    "تميّز **jouer à** (رياضة) من **jouer de** (آلة)",
+    "تقول كم مرة: **souvent، parfois، rarement، jamais**",
+    "تستعمل النفي الجديد: **ne … jamais، ne … rien، ne … personne، ne … plus**"
+  ],
+  "intro_ar": [
+    "**jouer à** + رياضة أو لعبة: je joue au football، aux cartes. و **jouer de** + آلة موسيقية: je joue du piano، de la guitare. والدمج نفسه الذي تعرفه.",
+    "**نفي جديد:** تتبدّل pas بكلمات أخرى: ne … **jamais** (أبداً)، ne … **rien** (لا شيء)، ne … **personne** (لا أحد)، ne … **plus** (لم يعد).",
+    "**في الكلام الشفهي** يحذف الفرنسيون ne كثيراً: «Je sais pas»، «J'ai rien fait». افهمها حين تسمعها، لكن اكتب ne دائماً."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: الهوايات",
+      "context_ar": "كلير ويوسف يتكلمان عن الرياضة والموسيقى وعطلة الأحد. لاحظ أنواع النفي الأربعة.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Tu fais du sport ?",
+          "ar": "هل تمارس الرياضة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "fais du sport ?",
+              "تمارس الرياضة"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Je joue au tennis le samedi, mais je ne cours jamais. Je déteste courir !",
+          "ar": "ألعب التنس يوم السبت، لكنني لا أركض أبداً. أكره الركض!",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "joue",
+              "ألعب"
+            ],
+            [
+              "au tennis",
+              "التنس"
+            ],
+            [
+              "le samedi,",
+              "يوم السبت"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "ne cours jamais.",
+              "لا أركض أبداً"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "déteste",
+              "أكره"
+            ],
+            [
+              "courir !",
+              "الركض"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Et la musique ? Tu joues d'un instrument ?",
+          "ar": "والموسيقى؟ هل تعزف على آلة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "musique ?",
+              "موسيقى"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "joues",
+              "تعزف"
+            ],
+            [
+              "d'un instrument ?",
+              "على آلة"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Je jouais du oud quand j'étais jeune, mais je n'en joue plus.",
+          "ar": "كنت أعزف العود في صغري، لكنني لم أعد أعزف.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "jouais",
+              "كنتُ أعزف"
+            ],
+            [
+              "du oud",
+              "العود"
+            ],
+            [
+              "quand",
+              "عندما"
+            ],
+            [
+              "j'étais jeune,",
+              "كنتُ صغيراً"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "n'en joue plus.",
+              "لم أعد أعزف"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Dommage ! Moi, je joue du piano. Je fais un concert avec ma chorale samedi.",
+          "ar": "خسارة! أنا أعزف البيانو. عندي حفل مع جوقتي يوم السبت.",
+          "slow": true,
+          "gloss": [
+            [
+              "Dommage !",
+              "خسارة"
+            ],
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "joue",
+              "أعزف"
+            ],
+            [
+              "du piano.",
+              "البيانو"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "fais",
+              "أقيم"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "concert",
+              "حفلاً"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "ma",
+              "ـي"
+            ],
+            [
+              "chorale",
+              "جوقة"
+            ],
+            [
+              "samedi.",
+              "السبت"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Je ne connais personne dans ta chorale…",
+          "ar": "لا أعرف أحداً في جوقتك…",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "ne connais personne",
+              "لا أعرف أحداً"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "ta",
+              "ـكِ"
+            ],
+            [
+              "chorale…",
+              "جوقة"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Ce n'est pas grave ! Viens, tu vas rencontrer des gens sympas.",
+          "ar": "لا بأس! تعال، ستلتقي بأناس لطفاء.",
+          "slow": true,
+          "gloss": [
+            [
+              "Ce n'est pas grave !",
+              "لا بأس"
+            ],
+            [
+              "Viens,",
+              "تعال"
+            ],
+            [
+              "tu vas",
+              "سـ"
+            ],
+            [
+              "rencontrer",
+              "تلتقي"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "gens",
+              "أناس"
+            ],
+            [
+              "sympas.",
+              "لطفاء"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "D'accord. Et après le concert, on fait quoi ?",
+          "ar": "حسناً. وبعد الحفل، ماذا نفعل؟",
+          "slow": true,
+          "gloss": [
+            [
+              "D'accord.",
+              "حسناً"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "après",
+              "بعد"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "concert,",
+              "حفل"
+            ],
+            [
+              "on fait quoi ?",
+              "ماذا نفعل"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Rien ! On ne fait rien, on se repose. Le dimanche, je ne travaille jamais.",
+          "ar": "لا شيء! لا نفعل شيئاً، نرتاح. يوم الأحد لا أعمل أبداً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Rien !",
+              "لا شيء"
+            ],
+            [
+              "On",
+              "نحن"
+            ],
+            [
+              "ne fait rien,",
+              "لا نفعل شيئاً"
+            ],
+            [
+              "on se repose.",
+              "نرتاح"
+            ],
+            [
+              "Le dimanche,",
+              "يوم الأحد"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "ne travaille jamais.",
+              "لا أعمل أبداً"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "أربعة أنواع نفي في الحوار: **ne … jamais** (السطر 2)، و **ne … plus** (السطر 4)، و **ne … personne** (السطر 6)، و **ne … rien** (السطر 9). ولاحظ **du oud** و **du piano**: مع الآلات نقول jouer de."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "الرياضة بـ jouer à، والموسيقى بـ jouer de، ثم كم مرة.",
+      "groups": [
+        {
+          "title_ar": "الرياضة والألعاب",
+          "items": [
+            {
+              "id": "v-foot",
+              "say": "jouer au football",
+              "ar": "يلعب كرة القدم"
+            },
+            {
+              "id": "v-tennis",
+              "say": "jouer au tennis",
+              "ar": "يلعب التنس"
+            },
+            {
+              "id": "v-cartes",
+              "say": "jouer aux cartes",
+              "ar": "يلعب الورق"
+            },
+            {
+              "id": "v-echecs",
+              "say": "jouer aux échecs",
+              "ar": "يلعب الشطرنج"
+            },
+            {
+              "id": "v-courir",
+              "say": "courir",
+              "ar": "يركض"
+            },
+            {
+              "id": "v-nager",
+              "say": "nager",
+              "ar": "يسبح"
+            },
+            {
+              "id": "v-muscu",
+              "say": "faire de la musculation",
+              "ar": "يرفع الأثقال"
+            }
+          ]
+        },
+        {
+          "title_ar": "الموسيقى",
+          "items": [
+            {
+              "id": "v-piano",
+              "say": "jouer du piano",
+              "ar": "يعزف البيانو"
+            },
+            {
+              "id": "v-guitare",
+              "say": "jouer de la guitare",
+              "ar": "يعزف الغيتار"
+            },
+            {
+              "id": "v-violon",
+              "say": "jouer du violon",
+              "ar": "يعزف الكمان"
+            },
+            {
+              "id": "v-oud",
+              "say": "jouer du oud",
+              "ar": "يعزف العود"
+            },
+            {
+              "id": "v-chanter",
+              "say": "chanter",
+              "ar": "يغنّي"
+            },
+            {
+              "id": "v-concert",
+              "say": "un concert",
+              "ar": "حفل موسيقي"
+            },
+            {
+              "id": "v-chorale",
+              "say": "une chorale",
+              "ar": "جوقة"
+            }
+          ]
+        },
+        {
+          "title_ar": "القراءة والشاشات",
+          "items": [
+            {
+              "id": "v-roman",
+              "say": "lire un roman",
+              "ar": "يقرأ رواية"
+            },
+            {
+              "id": "v-bd",
+              "say": "une bande dessinée",
+              "ar": "قصة مصوّرة",
+              "note_ar": "فن فرنسي بلجيكي شهير: Tintin و Astérix."
+            },
+            {
+              "id": "v-serie",
+              "say": "regarder une série",
+              "ar": "يشاهد مسلسلاً"
+            },
+            {
+              "id": "v-jeux",
+              "say": "jouer aux jeux vidéo",
+              "ar": "يلعب ألعاب الفيديو"
+            }
+          ]
+        },
+        {
+          "title_ar": "كم مرة؟",
+          "items": [
+            {
+              "id": "v-toujours",
+              "say": "toujours",
+              "ar": "دائماً"
+            },
+            {
+              "id": "v-souvent",
+              "say": "souvent",
+              "ar": "غالباً"
+            },
+            {
+              "id": "v-parfois",
+              "say": "parfois",
+              "ar": "أحياناً"
+            },
+            {
+              "id": "v-rarement",
+              "say": "rarement",
+              "ar": "نادراً"
+            },
+            {
+              "id": "v-jamais",
+              "say": "ne … jamais",
+              "ar": "أبداً",
+              "fr": "ne … jamais"
+            },
+            {
+              "id": "v-fois",
+              "say": "une fois par semaine",
+              "ar": "مرة في الأسبوع"
+            },
+            {
+              "id": "v-weekends",
+              "say": "tous les week-ends",
+              "ar": "كل نهاية أسبوع"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "النفي",
+      "title_ar": "القاعدة: jouer à / de، والنفي الجديد، والتكرار",
+      "intro_ar": "ثلاثة جداول قصيرة، وكلها للكلام عن وقت الفراغ.",
+      "tables": [
+        {
+          "title_fr": "jouer à / jouer de",
+          "title_ar": "يلعب / يعزف",
+          "head_ar": [
+            "البناء",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-j1",
+              "say": "Je joue au tennis.",
+              "cells": [
+                "jouer au + sport",
+                "Je joue au tennis."
+              ],
+              "ar": "ألعب التنس"
+            },
+            {
+              "id": "g-j2",
+              "say": "Je joue à la pétanque.",
+              "cells": [
+                "jouer à la + jeu",
+                "Je joue à la pétanque."
+              ],
+              "ar": "ألعب البيتانك"
+            },
+            {
+              "id": "g-j3",
+              "say": "Je joue aux cartes.",
+              "cells": [
+                "jouer aux + pluriel",
+                "Je joue aux cartes."
+              ],
+              "ar": "ألعب الورق"
+            },
+            {
+              "id": "g-j4",
+              "say": "Je joue du piano.",
+              "cells": [
+                "jouer du + instrument",
+                "Je joue du piano."
+              ],
+              "ar": "أعزف البيانو"
+            },
+            {
+              "id": "g-j5",
+              "say": "Je joue de la guitare.",
+              "cells": [
+                "jouer de la + instrument",
+                "Je joue de la guitare."
+              ],
+              "ar": "أعزف الغيتار"
+            }
+          ],
+          "note_ar": "الرياضة والألعاب بـ à (ألعب)، والموسيقى بـ de (أعزف)."
+        },
+        {
+          "title_fr": "La négation",
+          "title_ar": "أنواع النفي",
+          "head_ar": [
+            "الإثبات",
+            "النفي"
+          ],
+          "rows": [
+            {
+              "id": "g-n1",
+              "say": "Je ne cours jamais.",
+              "cells": [
+                "Je cours souvent.",
+                "Je ne cours jamais."
+              ],
+              "ar": "لا أركض أبداً"
+            },
+            {
+              "id": "g-n2",
+              "say": "Je ne fais rien.",
+              "cells": [
+                "Je fais quelque chose.",
+                "Je ne fais rien."
+              ],
+              "ar": "لا أفعل شيئاً"
+            },
+            {
+              "id": "g-n3",
+              "say": "Je ne connais personne.",
+              "cells": [
+                "Je connais quelqu'un.",
+                "Je ne connais personne."
+              ],
+              "ar": "لا أعرف أحداً"
+            },
+            {
+              "id": "g-n4",
+              "say": "Je ne joue plus.",
+              "cells": [
+                "Je joue encore.",
+                "Je ne joue plus."
+              ],
+              "ar": "لم أعد ألعب"
+            },
+            {
+              "id": "g-n5",
+              "say": "Je n'ai vu personne.",
+              "cells": [
+                "J'ai vu quelqu'un.",
+                "Je n'ai vu personne."
+              ],
+              "ar": "لم أرَ أحداً"
+            }
+          ],
+          "note_ar": "في الماضي: jamais و rien و plus قبل اسم المفعول (je n'ai rien fait)، لكن personne بعده (je n'ai vu personne)."
+        },
+        {
+          "title_fr": "La fréquence",
+          "title_ar": "كم مرة؟",
+          "head_ar": [
+            "الكلمة",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-f1",
+              "say": "Je lis toujours le soir.",
+              "cells": [
+                "toujours",
+                "Je lis toujours le soir."
+              ],
+              "ar": "أقرأ دائماً في المساء"
+            },
+            {
+              "id": "g-f2",
+              "say": "Je joue souvent au tennis.",
+              "cells": [
+                "souvent",
+                "Je joue souvent au tennis."
+              ],
+              "ar": "ألعب التنس غالباً"
+            },
+            {
+              "id": "g-f3",
+              "say": "Je vais parfois au cinéma.",
+              "cells": [
+                "parfois",
+                "Je vais parfois au cinéma."
+              ],
+              "ar": "أذهب إلى السينما أحياناً"
+            },
+            {
+              "id": "g-f4",
+              "say": "Je regarde rarement la télé.",
+              "cells": [
+                "rarement",
+                "Je regarde rarement la télé."
+              ],
+              "ar": "نادراً ما أشاهد التلفاز"
+            },
+            {
+              "id": "g-f5",
+              "say": "Je nage une fois par semaine.",
+              "cells": [
+                "une fois par semaine",
+                "Je nage une fois par semaine."
+              ],
+              "ar": "أسبح مرة في الأسبوع"
+            }
+          ],
+          "note_ar": "هذه الكلمات تأتي بعد الفعل في الحاضر: Je joue souvent. وسؤال العادة: Tu fais ça souvent ?"
+        }
+      ],
+      "points_ar": [
+        "**الفرنسية الشفهية:** «Je sais pas»، «J'ai rien compris». ne تسقط في الكلام، لكنها إجبارية في الكتابة.",
+        "**أجوبة من كلمة:** Rien ! Personne ! Jamais ! مثلاً: Qui est là ? Personne !",
+        "**ne … plus = لم يعد:** Je n'habite plus à Riyad (لم أعد أسكن في الرياض)."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الهوايات والنفي",
+      "hint_ar": "à للرياضة، و de للموسيقى. ثم اختر كلمة النفي المناسبة للمعنى.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je joue ___ tennis.",
+          "say": "Je joue au tennis.",
+          "options": [
+            "du",
+            "au"
+          ],
+          "answer": "au",
+          "ar": "ألعب التنس.",
+          "explain_ar": "رياضة مذكرة: **au**."
+        },
+        {
+          "id": "f2",
+          "text": "Elle joue ___ guitare.",
+          "say": "Elle joue de la guitare.",
+          "options": [
+            "à la",
+            "de la"
+          ],
+          "answer": "de la",
+          "ar": "تعزف الغيتار.",
+          "explain_ar": "آلة مؤنثة: **de la**."
+        },
+        {
+          "id": "f3",
+          "text": "Ils jouent ___ cartes.",
+          "say": "Ils jouent aux cartes.",
+          "options": [
+            "aux",
+            "des"
+          ],
+          "answer": "aux",
+          "ar": "يلعبون الورق.",
+          "explain_ar": "لعبة بالجمع: **aux**."
+        },
+        {
+          "id": "f4",
+          "text": "Tu joues ___ piano ?",
+          "say": "Tu joues du piano ?",
+          "options": [
+            "au",
+            "du"
+          ],
+          "answer": "du",
+          "ar": "هل تعزف البيانو؟",
+          "explain_ar": "آلة مذكرة: **du**."
+        },
+        {
+          "id": "f5",
+          "text": "Je ne cours ___.",
+          "say": "Je ne cours jamais.",
+          "options": [
+            "personne",
+            "jamais"
+          ],
+          "answer": "jamais",
+          "ar": "لا أركض أبداً.",
+          "explain_ar": "أبداً: ne … **jamais**."
+        },
+        {
+          "id": "f6",
+          "text": "Je ne connais ___ ici.",
+          "say": "Je ne connais personne ici.",
+          "options": [
+            "personne",
+            "rien"
+          ],
+          "answer": "personne",
+          "ar": "لا أعرف أحداً هنا.",
+          "explain_ar": "لا أحد: ne … **personne**."
+        },
+        {
+          "id": "f7",
+          "text": "Il ne fait ___ le dimanche.",
+          "say": "Il ne fait rien le dimanche.",
+          "options": [
+            "rien",
+            "personne"
+          ],
+          "answer": "rien",
+          "ar": "لا يفعل شيئاً يوم الأحد.",
+          "explain_ar": "لا شيء: ne … **rien**."
+        },
+        {
+          "id": "f8",
+          "text": "Je n'habite ___ à Riyad.",
+          "say": "Je n'habite plus à Riyad.",
+          "options": [
+            "jamais",
+            "plus"
+          ],
+          "answer": "plus",
+          "ar": "لم أعد أسكن في الرياض.",
+          "explain_ar": "لم يعد: ne … **plus**."
+        },
+        {
+          "id": "f9",
+          "text": "Je n'ai vu ___.",
+          "say": "Je n'ai vu personne.",
+          "options": [
+            "rien",
+            "personne"
+          ],
+          "answer": "personne",
+          "ar": "لم أرَ أحداً.",
+          "explain_ar": "personne بعد اسم المفعول. أما rien فقبله: je n'ai rien vu."
+        },
+        {
+          "id": "f10",
+          "text": "Je nage une fois ___ semaine.",
+          "say": "Je nage une fois par semaine.",
+          "options": [
+            "de",
+            "par"
+          ],
+          "answer": "par",
+          "ar": "أسبح مرة في الأسبوع.",
+          "explain_ar": "مرة **par** semaine."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: الهوايات",
+      "hint_ar": "كلمات التكرار والنفي.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "Je joue du piano.",
+          "options": [
+            "Je joue au tennis.",
+            "Je joue du piano."
+          ],
+          "answer": "Je joue du piano.",
+          "explain_ar": "du piano: أعزف."
+        },
+        {
+          "id": "q2",
+          "say": "jamais",
+          "options": [
+            "toujours",
+            "jamais"
+          ],
+          "answer": "jamais",
+          "explain_ar": "jamais «ژاميه»: أبداً."
+        },
+        {
+          "id": "q3",
+          "say": "Je ne fais rien.",
+          "options": [
+            "Je ne fais rien.",
+            "Je ne fais pas ça."
+          ],
+          "answer": "Je ne fais rien.",
+          "explain_ar": "rien «غيان»: لا شيء."
+        },
+        {
+          "id": "q4",
+          "say": "personne",
+          "options": [
+            "parfois",
+            "personne"
+          ],
+          "answer": "personne",
+          "explain_ar": "personne «پيغسون»: لا أحد."
+        },
+        {
+          "id": "q5",
+          "say": "Je n'y vais plus.",
+          "options": [
+            "Je n'y vais plus.",
+            "J'y vais souvent."
+          ],
+          "answer": "Je n'y vais plus.",
+          "explain_ar": "plus: لم أعد."
+        },
+        {
+          "id": "q6",
+          "say": "rarement",
+          "options": [
+            "souvent",
+            "rarement"
+          ],
+          "answer": "rarement",
+          "explain_ar": "rarement «غاغمون»: نادراً."
+        },
+        {
+          "id": "q7",
+          "say": "aux échecs",
+          "options": [
+            "aux échecs",
+            "aux cartes"
+          ],
+          "answer": "aux échecs",
+          "explain_ar": "échecs «إيشيك»: شطرنج."
+        },
+        {
+          "id": "q8",
+          "say": "Je sais pas.",
+          "options": [
+            "Je sais.",
+            "Je sais pas."
+          ],
+          "answer": "Je sais pas.",
+          "explain_ar": "«ژُسيه پا» بلا ne: نفي شفهي."
+        },
+        {
+          "id": "q9",
+          "say": "deux fois par semaine",
+          "options": [
+            "une fois par semaine",
+            "deux fois par semaine"
+          ],
+          "answer": "deux fois par semaine",
+          "explain_ar": "deux «دُ»: مرتان."
+        },
+        {
+          "id": "q10",
+          "say": "du violon",
+          "options": [
+            "de la guitare",
+            "du violon"
+          ],
+          "answer": "du violon",
+          "explain_ar": "violon «ڤيولون»: كمان."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الهوايات",
+      "hint_ar": "jouer مع à أو de، والنفي.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **de la** guitare لكن **du** piano.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je joue au tennis",
+          "answer": "je joue au tennis",
+          "ar": "ألعب التنس"
+        },
+        {
+          "id": "s2",
+          "say": "du piano",
+          "answer": "du piano",
+          "ar": "البيانو"
+        },
+        {
+          "id": "s3",
+          "say": "de la guitare",
+          "answer": "de la guitare",
+          "ar": "الغيتار"
+        },
+        {
+          "id": "s4",
+          "say": "je ne cours jamais",
+          "answer": "je ne cours jamais",
+          "ar": "لا أركض أبداً"
+        },
+        {
+          "id": "s5",
+          "say": "je ne fais rien",
+          "answer": "je ne fais rien",
+          "ar": "لا أفعل شيئاً"
+        },
+        {
+          "id": "s6",
+          "say": "personne",
+          "answer": "personne",
+          "ar": "لا أحد"
+        },
+        {
+          "id": "s7",
+          "say": "souvent",
+          "answer": "souvent",
+          "ar": "غالباً"
+        },
+        {
+          "id": "s8",
+          "say": "parfois",
+          "answer": "parfois",
+          "ar": "أحياناً"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "هوايات وعادات. ضع النبرة على كلمة النفي: jamais، rien، personne.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Je joue au tennis une fois par semaine.",
+          "ar": "ألعب التنس مرة في الأسبوع.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "joue",
+              "ألعب"
+            ],
+            [
+              "au tennis",
+              "التنس"
+            ],
+            [
+              "une fois",
+              "مرة"
+            ],
+            [
+              "par semaine.",
+              "في الأسبوع"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Elle joue du piano depuis l'enfance.",
+          "ar": "تعزف البيانو منذ الطفولة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "joue",
+              "تعزف"
+            ],
+            [
+              "du piano",
+              "البيانو"
+            ],
+            [
+              "depuis",
+              "منذ"
+            ],
+            [
+              "l'enfance.",
+              "الطفولة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Je ne regarde jamais la télé.",
+          "ar": "لا أشاهد التلفاز أبداً.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "ne regarde jamais",
+              "لا أشاهد أبداً"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "télé.",
+              "تلفاز"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Je ne connais personne ici.",
+          "ar": "لا أعرف أحداً هنا.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "ne connais personne",
+              "لا أعرف أحداً"
+            ],
+            [
+              "ici.",
+              "هنا"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Le dimanche, je ne fais rien !",
+          "ar": "يوم الأحد لا أفعل شيئاً!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Le dimanche,",
+              "يوم الأحد"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "ne fais rien !",
+              "لا أفعل شيئاً"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: صف هواياتك وكم مرة تمارسها، مع نفي واحد على الأقل: **Je joue… souvent. Je… parfois. Je ne… jamais.**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "jouer à",
+          "say": "jouer au football",
+          "back_ar": "يلعب (رياضة / لعبة)"
+        },
+        {
+          "id": "c2",
+          "front": "jouer de",
+          "say": "jouer du piano",
+          "back_ar": "يعزف (آلة)"
+        },
+        {
+          "id": "c3",
+          "front": "jouer de la guitare",
+          "say": "jouer de la guitare",
+          "back_ar": "يعزف الغيتار"
+        },
+        {
+          "id": "c4",
+          "front": "jouer aux cartes",
+          "say": "jouer aux cartes",
+          "back_ar": "يلعب الورق"
+        },
+        {
+          "id": "c5",
+          "front": "ne … jamais",
+          "say": "je ne cours jamais",
+          "back_ar": "أبداً"
+        },
+        {
+          "id": "c6",
+          "front": "ne … rien",
+          "say": "je ne fais rien",
+          "back_ar": "لا شيء"
+        },
+        {
+          "id": "c7",
+          "front": "ne … personne",
+          "say": "je ne connais personne",
+          "back_ar": "لا أحد"
+        },
+        {
+          "id": "c8",
+          "front": "ne … plus",
+          "say": "je ne joue plus",
+          "back_ar": "لم يعد"
+        },
+        {
+          "id": "c9",
+          "front": "souvent",
+          "say": "souvent",
+          "back_ar": "غالباً"
+        },
+        {
+          "id": "c10",
+          "front": "parfois",
+          "say": "parfois",
+          "back_ar": "أحياناً"
+        },
+        {
+          "id": "c11",
+          "front": "rarement",
+          "say": "rarement",
+          "back_ar": "نادراً"
+        },
+        {
+          "id": "c12",
+          "front": "une fois par semaine",
+          "say": "une fois par semaine",
+          "back_ar": "مرة في الأسبوع"
+        },
+        {
+          "id": "c13",
+          "front": "une bande dessinée",
+          "say": "une bande dessinée",
+          "back_ar": "قصة مصوّرة"
+        },
+        {
+          "id": "c14",
+          "front": "une série",
+          "say": "une série",
+          "back_ar": "مسلسل"
+        },
+        {
+          "id": "c15",
+          "front": "courir",
+          "say": "courir",
+          "back_ar": "يركض"
+        },
+        {
+          "id": "c16",
+          "front": "Dommage !",
+          "say": "Dommage !",
+          "back_ar": "خسارة!"
+        }
+      ]
+    }
+  ]
+}

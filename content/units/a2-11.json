@@ -1,0 +1,1164 @@
+{
+  "id": "a2-11",
+  "stage": "A2",
+  "title_fr": "Études et travail",
+  "title_ar": "الدراسة والعمل",
+  "goals_ar": [
+    "تحكي مسيرتك: **J'ai étudié l'informatique pendant quatre ans.**",
+    "تميّز **depuis، il y a، pendant**",
+    "تسمّي المهن بالمذكر والمؤنث: **un informaticien، une informaticienne**",
+    "تتكلم عن عملك: **Je travaille dans la finance depuis dix ans.**"
+  ],
+  "intro_ar": [
+    "ثلاث كلمات للزمن يخلط بينها المتعلمون كثيراً:",
+    "**pendant** = لمدة، لشيء له بداية ونهاية: J'ai étudié pendant quatre ans (درست أربع سنوات، وانتهت).",
+    "**depuis** = منذ، لشيء ما زال مستمراً والفعل بالحاضر: Je travaille ici depuis 2020. و **il y a** = قبل، لنقطة في الماضي: J'ai fini mes études il y a dix ans.",
+    "**المهن بالمؤنث:** أغلبها بإضافة e (avocat، avocate)، و ien تصير ienne (informaticien، informaticienne)، و eur تصير غالباً euse أو rice (vendeur، vendeuse؛ directeur، directrice)."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: لقاء مهني",
+      "context_ar": "في لقاء تعارف مهني، محامية تسأل يوسف عن عمله ودراسته. لاحظ pendant و depuis و il y a.",
+      "speakers": {
+        "A": {
+          "name_ar": "المحامية",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Enchantée. Qu'est-ce que vous faites dans la vie ?",
+          "ar": "تشرّفت. ماذا تعمل؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Enchantée.",
+              "تشرّفت"
+            ],
+            [
+              "Qu'est-ce que vous faites dans la vie ?",
+              "ماذا تعمل في الحياة؟"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Je suis investisseur. Je travaille dans la finance depuis dix ans.",
+          "ar": "أنا مستثمر. أعمل في المجال المالي منذ عشر سنوات.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je suis",
+              "أنا"
+            ],
+            [
+              "investisseur.",
+              "مستثمر"
+            ],
+            [
+              "Je travaille",
+              "أعمل"
+            ],
+            [
+              "dans la finance",
+              "في المجال المالي"
+            ],
+            [
+              "depuis",
+              "منذ"
+            ],
+            [
+              "dix ans.",
+              "عشر سنوات"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Et avant, qu'est-ce que vous avez étudié ?",
+          "ar": "وقبل ذلك، ماذا درست؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "avant,",
+              "قبل ذلك"
+            ],
+            [
+              "qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "vous avez étudié ?",
+              "درستَ"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "J'ai étudié l'informatique pendant quatre ans, à Riyad.",
+          "ar": "درست علوم الحاسب أربع سنوات، في الرياض.",
+          "slow": true,
+          "gloss": [
+            [
+              "J'ai étudié",
+              "درستُ"
+            ],
+            [
+              "l'informatique",
+              "علوم الحاسب"
+            ],
+            [
+              "pendant",
+              "لمدة"
+            ],
+            [
+              "quatre ans,",
+              "أربع سنوات"
+            ],
+            [
+              "à Riyad.",
+              "في الرياض"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Informaticien et investisseur ! C'est original.",
+          "ar": "مبرمج ومستثمر! هذا مميّز.",
+          "slow": true,
+          "gloss": [
+            [
+              "Informaticien",
+              "مبرمج"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "investisseur !",
+              "مستثمر"
+            ],
+            [
+              "C'est original.",
+              "هذا مميّز"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Oui, je crée des outils d'intelligence artificielle pour analyser les entreprises.",
+          "ar": "نعم، أصنع أدوات ذكاء اصطناعي لتحليل الشركات.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "je crée",
+              "أصنع"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "outils",
+              "أدوات"
+            ],
+            [
+              "d'intelligence artificielle",
+              "ذكاء اصطناعي"
+            ],
+            [
+              "pour",
+              "لـ"
+            ],
+            [
+              "analyser",
+              "تحليل"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "entreprises.",
+              "شركات"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Passionnant ! Moi, je suis avocate. J'ai commencé il y a quinze ans.",
+          "ar": "رائع! أنا محامية. بدأت قبل خمسة عشر عاماً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Passionnant !",
+              "رائع"
+            ],
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "je suis",
+              "أكون"
+            ],
+            [
+              "avocate.",
+              "محامية"
+            ],
+            [
+              "J'ai commencé",
+              "بدأتُ"
+            ],
+            [
+              "il y a",
+              "قبل"
+            ],
+            [
+              "quinze ans.",
+              "خمسة عشر عاماً"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Vous travaillez dans un cabinet ?",
+          "ar": "هل تعملين في مكتب محاماة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Vous",
+              "حضرتكِ"
+            ],
+            [
+              "travaillez",
+              "تعملين"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "cabinet ?",
+              "مكتب محاماة"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Oui, à la Défense. Et je suis aussi professeure à l'université depuis l'année dernière.",
+          "ar": "نعم، في حي لا ديفانس. وأنا أيضاً أستاذة في الجامعة منذ السنة الماضية.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "à la Défense.",
+              "في لا ديفانس"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "je suis",
+              "أنا"
+            ],
+            [
+              "aussi",
+              "أيضاً"
+            ],
+            [
+              "professeure",
+              "أستاذة"
+            ],
+            [
+              "à l'université",
+              "في الجامعة"
+            ],
+            [
+              "depuis",
+              "منذ"
+            ],
+            [
+              "l'année dernière.",
+              "السنة الماضية"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "Bravo ! Vous n'avez pas le temps de vous ennuyer !",
+          "ar": "أحسنتِ! ليس عندك وقت للملل!",
+          "slow": true,
+          "gloss": [
+            [
+              "Bravo !",
+              "أحسنتِ"
+            ],
+            [
+              "Vous",
+              "حضرتكِ"
+            ],
+            [
+              "n'avez pas le temps",
+              "ليس عندكِ وقت"
+            ],
+            [
+              "de vous ennuyer !",
+              "للملل"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "**Qu'est-ce que vous faites dans la vie ?** الطريقة الطبيعية لسؤال «ما عملك؟». ولاحظ الثلاث: **pendant** quatre ans (انتهت)، **depuis** dix ans (مستمرة)، **il y a** quinze ans (نقطة في الماضي)."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "المهن بالمذكر والمؤنث، ثم الدراسة، ثم مكان العمل.",
+      "groups": [
+        {
+          "title_ar": "المهن",
+          "items": [
+            {
+              "id": "v-info",
+              "say": "un informaticien, une informaticienne",
+              "ar": "مبرمج / مبرمجة",
+              "fr": "un informaticien / une informaticienne"
+            },
+            {
+              "id": "v-ing",
+              "say": "un ingénieur, une ingénieure",
+              "ar": "مهندس / مهندسة",
+              "fr": "un ingénieur / une ingénieure"
+            },
+            {
+              "id": "v-avocat",
+              "say": "un avocat, une avocate",
+              "ar": "محامٍ / محامية",
+              "fr": "un avocat / une avocate"
+            },
+            {
+              "id": "v-medecin",
+              "say": "un médecin",
+              "ar": "طبيب / طبيبة",
+              "note_ar": "كلمة واحدة للاثنين غالباً."
+            },
+            {
+              "id": "v-prof",
+              "say": "un professeur, une professeure",
+              "ar": "أستاذ / أستاذة",
+              "fr": "un professeur / une professeure"
+            },
+            {
+              "id": "v-infirmier",
+              "say": "un infirmier, une infirmière",
+              "ar": "ممرّض / ممرّضة",
+              "fr": "un infirmier / une infirmière"
+            },
+            {
+              "id": "v-vendeur",
+              "say": "un vendeur, une vendeuse",
+              "ar": "بائع / بائعة",
+              "fr": "un vendeur / une vendeuse"
+            },
+            {
+              "id": "v-directeur",
+              "say": "un directeur, une directrice",
+              "ar": "مدير / مديرة",
+              "fr": "un directeur / une directrice"
+            },
+            {
+              "id": "v-comptable",
+              "say": "un comptable",
+              "ar": "محاسب",
+              "note_ar": "ينتهي بـ e: un comptable، une comptable."
+            },
+            {
+              "id": "v-pharmacien",
+              "say": "un pharmacien, une pharmacienne",
+              "ar": "صيدلي / صيدلانية",
+              "fr": "un pharmacien / une pharmacienne"
+            }
+          ]
+        },
+        {
+          "title_ar": "الدراسة",
+          "items": [
+            {
+              "id": "v-universite",
+              "say": "l'université",
+              "ar": "الجامعة"
+            },
+            {
+              "id": "v-licence",
+              "say": "la licence",
+              "ar": "البكالوريوس",
+              "note_ar": "الشهادة الجامعية الأولى في فرنسا، ثلاث سنوات."
+            },
+            {
+              "id": "v-master",
+              "say": "le master",
+              "ar": "الماجستير"
+            },
+            {
+              "id": "v-doctorat",
+              "say": "le doctorat",
+              "ar": "الدكتوراه"
+            },
+            {
+              "id": "v-diplome",
+              "say": "un diplôme",
+              "ar": "شهادة"
+            },
+            {
+              "id": "v-stage",
+              "say": "un stage",
+              "ar": "تدريب عملي"
+            },
+            {
+              "id": "v-etudiant",
+              "say": "un étudiant, une étudiante",
+              "ar": "طالب / طالبة",
+              "fr": "un étudiant / une étudiante"
+            }
+          ]
+        },
+        {
+          "title_ar": "العمل",
+          "items": [
+            {
+              "id": "v-entreprise",
+              "say": "une entreprise",
+              "ar": "شركة"
+            },
+            {
+              "id": "v-collegue",
+              "say": "un collègue",
+              "ar": "زميل"
+            },
+            {
+              "id": "v-patron",
+              "say": "le patron",
+              "ar": "صاحب العمل"
+            },
+            {
+              "id": "v-salaire",
+              "say": "un salaire",
+              "ar": "راتب"
+            },
+            {
+              "id": "v-poste",
+              "say": "un poste",
+              "ar": "وظيفة / منصب"
+            },
+            {
+              "id": "v-chercher",
+              "say": "chercher du travail",
+              "ar": "يبحث عن عمل"
+            },
+            {
+              "id": "v-vie",
+              "say": "Qu'est-ce que vous faites dans la vie ?",
+              "ar": "ماذا تعمل؟"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الزمن",
+      "title_ar": "القاعدة: pendant و depuis و il y a، والمهن",
+      "intro_ar": "سؤال واحد يحسم: هل انتهى الأمر أم ما زال مستمراً؟",
+      "tables": [
+        {
+          "title_fr": "pendant, depuis, il y a",
+          "title_ar": "لمدة / منذ / قبل",
+          "head_ar": [
+            "الكلمة",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-t1",
+              "say": "J'ai étudié pendant quatre ans.",
+              "cells": [
+                "pendant",
+                "J'ai étudié pendant quatre ans."
+              ],
+              "ar": "لمدة أربع سنوات (انتهت)"
+            },
+            {
+              "id": "g-t2",
+              "say": "Je travaille ici depuis cinq ans.",
+              "cells": [
+                "depuis",
+                "Je travaille ici depuis cinq ans."
+              ],
+              "ar": "منذ خمس سنوات (مستمر، والفعل حاضر)"
+            },
+            {
+              "id": "g-t3",
+              "say": "J'ai fini mes études il y a dix ans.",
+              "cells": [
+                "il y a",
+                "J'ai fini mes études il y a dix ans."
+              ],
+              "ar": "قبل عشر سنوات (نقطة في الماضي)"
+            },
+            {
+              "id": "g-t4",
+              "say": "Je travaille pendant la journée.",
+              "cells": [
+                "pendant + moment",
+                "Je travaille pendant la journée."
+              ],
+              "ar": "خلال النهار"
+            },
+            {
+              "id": "g-t5",
+              "say": "Ça fait cinq ans que j'habite ici.",
+              "cells": [
+                "ça fait … que",
+                "Ça fait cinq ans que j'habite ici."
+              ],
+              "ar": "مضت خمس سنوات وأنا أسكن هنا (= depuis)"
+            }
+          ],
+          "note_ar": "سؤالان مفيدان: Depuis quand tu habites ici ? (منذ متى؟) و Pendant combien de temps tu as étudié ? (كم من الوقت؟)"
+        },
+        {
+          "title_fr": "Les métiers",
+          "title_ar": "المذكر والمؤنث",
+          "head_ar": [
+            "المذكر",
+            "المؤنث"
+          ],
+          "rows": [
+            {
+              "id": "g-m1",
+              "say": "un avocat, une avocate",
+              "cells": [
+                "un avocat",
+                "une avocate"
+              ],
+              "ar": "نضيف e"
+            },
+            {
+              "id": "g-m2",
+              "say": "un informaticien, une informaticienne",
+              "cells": [
+                "un informaticien",
+                "une informaticienne"
+              ],
+              "ar": "ien تصير ienne"
+            },
+            {
+              "id": "g-m3",
+              "say": "un vendeur, une vendeuse",
+              "cells": [
+                "un vendeur",
+                "une vendeuse"
+              ],
+              "ar": "eur تصير euse"
+            },
+            {
+              "id": "g-m4",
+              "say": "un directeur, une directrice",
+              "cells": [
+                "un directeur",
+                "une directrice"
+              ],
+              "ar": "teur تصير trice"
+            },
+            {
+              "id": "g-m5",
+              "say": "un infirmier, une infirmière",
+              "cells": [
+                "un infirmier",
+                "une infirmière"
+              ],
+              "ar": "ier تصير ière"
+            },
+            {
+              "id": "g-m6",
+              "say": "un journaliste, une journaliste",
+              "cells": [
+                "un journaliste",
+                "une journaliste"
+              ],
+              "ar": "تنتهي بـ e: لا تتغير"
+            }
+          ],
+          "note_ar": "مع المهن لا نستعمل أداة بعد être: Je suis avocate (لا une avocate). لكن مع c'est نستعملها: C'est une avocate."
+        }
+      ],
+      "points_ar": [
+        "**Je suis ingénieur** بلا أداة، و **C'est un ingénieur** بأداة.",
+        "**ien و ienne:** informaticien بصوت أنفي «سيان»، و informaticienne بنون واضحة «سيين». الفرق نفسه في il vient و ils viennent.",
+        "**ça fait … que = depuis:** Ça fait dix ans que je travaille ici."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الزمن والمهن",
+      "hint_ar": "انتهى أم مستمر؟ ثم مذكر أم مؤنث؟",
+      "items": [
+        {
+          "id": "f1",
+          "text": "J'ai étudié ___ quatre ans.",
+          "say": "J'ai étudié pendant quatre ans.",
+          "options": [
+            "depuis",
+            "pendant"
+          ],
+          "answer": "pendant",
+          "ar": "درست أربع سنوات.",
+          "explain_ar": "مدة انتهت: **pendant**."
+        },
+        {
+          "id": "f2",
+          "text": "Je travaille ici ___ cinq ans.",
+          "say": "Je travaille ici depuis cinq ans.",
+          "options": [
+            "depuis",
+            "il y a"
+          ],
+          "answer": "depuis",
+          "ar": "أعمل هنا منذ خمس سنوات.",
+          "explain_ar": "مستمر والفعل حاضر: **depuis**."
+        },
+        {
+          "id": "f3",
+          "text": "J'ai fini mes études ___ dix ans.",
+          "say": "J'ai fini mes études il y a dix ans.",
+          "options": [
+            "pendant",
+            "il y a"
+          ],
+          "answer": "il y a",
+          "ar": "أنهيت دراستي قبل عشر سنوات.",
+          "explain_ar": "نقطة في الماضي: **il y a**."
+        },
+        {
+          "id": "f4",
+          "text": "Elle est ___.",
+          "say": "Elle est informaticienne.",
+          "options": [
+            "informaticien",
+            "informaticienne"
+          ],
+          "answer": "informaticienne",
+          "ar": "هي مبرمجة.",
+          "explain_ar": "المؤنث: **informaticienne**."
+        },
+        {
+          "id": "f5",
+          "text": "Je suis ___.",
+          "say": "Je suis avocat.",
+          "options": [
+            "un avocat",
+            "avocat"
+          ],
+          "answer": "avocat",
+          "ar": "أنا محامٍ.",
+          "explain_ar": "بعد je suis بلا أداة: **avocat**."
+        },
+        {
+          "id": "f6",
+          "text": "Ma sœur est ___.",
+          "say": "Ma sœur est vendeuse.",
+          "options": [
+            "vendeuse",
+            "vendeur"
+          ],
+          "answer": "vendeuse",
+          "ar": "أختي بائعة.",
+          "explain_ar": "eur تصير **euse**."
+        },
+        {
+          "id": "f7",
+          "text": "C'est ___ directrice.",
+          "say": "C'est une directrice.",
+          "options": [
+            "un",
+            "une"
+          ],
+          "answer": "une",
+          "ar": "إنها مديرة.",
+          "explain_ar": "مع c'est نستعمل الأداة: **une**."
+        },
+        {
+          "id": "f8",
+          "text": "___ quand tu habites ici ?",
+          "say": "Depuis quand tu habites ici ?",
+          "options": [
+            "Pendant",
+            "Depuis"
+          ],
+          "answer": "Depuis",
+          "ar": "منذ متى تسكن هنا؟",
+          "explain_ar": "منذ متى: **Depuis** quand."
+        },
+        {
+          "id": "f9",
+          "text": "Ça fait cinq ans ___ je travaille ici.",
+          "say": "Ça fait cinq ans que je travaille ici.",
+          "options": [
+            "que",
+            "depuis"
+          ],
+          "answer": "que",
+          "ar": "مضت خمس سنوات وأنا أعمل هنا.",
+          "explain_ar": "ça fait … **que**."
+        },
+        {
+          "id": "f10",
+          "text": "Il cherche du ___.",
+          "say": "Il cherche du travail.",
+          "options": [
+            "travaille",
+            "travail"
+          ],
+          "answer": "travail",
+          "ar": "يبحث عن عمل.",
+          "explain_ar": "الاسم **travail**. أما travaille فهو الفعل."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: الزمن والمهن",
+      "hint_ar": "انتبه للنون الواضحة في المؤنث: «سيين».",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "informaticienne",
+          "options": [
+            "informaticien",
+            "informaticienne"
+          ],
+          "answer": "informaticienne",
+          "explain_ar": "نون واضحة في الآخر: مؤنث."
+        },
+        {
+          "id": "q2",
+          "say": "il y a dix ans",
+          "options": [
+            "depuis dix ans",
+            "il y a dix ans"
+          ],
+          "answer": "il y a dix ans",
+          "explain_ar": "il y a «إيليا»: قبل."
+        },
+        {
+          "id": "q3",
+          "say": "pendant deux ans",
+          "options": [
+            "pendant deux ans",
+            "depuis deux ans"
+          ],
+          "answer": "pendant deux ans",
+          "explain_ar": "pendant «پوندون»: لمدة."
+        },
+        {
+          "id": "q4",
+          "say": "un vendeur",
+          "options": [
+            "une vendeuse",
+            "un vendeur"
+          ],
+          "answer": "un vendeur",
+          "explain_ar": "vendeur «ڤوندُغ»: مذكر."
+        },
+        {
+          "id": "q5",
+          "say": "une directrice",
+          "options": [
+            "un directeur",
+            "une directrice"
+          ],
+          "answer": "une directrice",
+          "explain_ar": "directrice «ديغيكتغيس»: مؤنث."
+        },
+        {
+          "id": "q6",
+          "say": "un salaire",
+          "options": [
+            "un stage",
+            "un salaire"
+          ],
+          "answer": "un salaire",
+          "explain_ar": "salaire «ساليِيغ»: راتب."
+        },
+        {
+          "id": "q7",
+          "say": "Je suis avocate.",
+          "options": [
+            "Je suis avocat.",
+            "Je suis avocate."
+          ],
+          "answer": "Je suis avocate.",
+          "explain_ar": "t مسموعة في الآخر: مؤنث."
+        },
+        {
+          "id": "q8",
+          "say": "pharmacien",
+          "options": [
+            "pharmacien",
+            "pharmacienne"
+          ],
+          "answer": "pharmacien",
+          "explain_ar": "صوت أنفي في الآخر: مذكر."
+        },
+        {
+          "id": "q9",
+          "say": "une entreprise",
+          "options": [
+            "une entreprise",
+            "une université"
+          ],
+          "answer": "une entreprise",
+          "explain_ar": "entreprise «أونتغُپغيز»: شركة."
+        },
+        {
+          "id": "q10",
+          "say": "la licence",
+          "options": [
+            "le master",
+            "la licence"
+          ],
+          "answer": "la licence",
+          "explain_ar": "licence «ليسونس»: بكالوريوس."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الدراسة والعمل",
+      "hint_ar": "كلمات الزمن والمهن.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **informaticienne** بـ nn، و **diplôme** بـ ô.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "depuis",
+          "answer": "depuis",
+          "ar": "منذ"
+        },
+        {
+          "id": "s2",
+          "say": "pendant",
+          "answer": "pendant",
+          "ar": "لمدة"
+        },
+        {
+          "id": "s3",
+          "say": "il y a",
+          "answer": "il y a",
+          "ar": "قبل"
+        },
+        {
+          "id": "s4",
+          "say": "une avocate",
+          "answer": "une avocate",
+          "ar": "محامية"
+        },
+        {
+          "id": "s5",
+          "say": "un informaticien",
+          "answer": "un informaticien",
+          "ar": "مبرمج"
+        },
+        {
+          "id": "s6",
+          "say": "une vendeuse",
+          "answer": "une vendeuse",
+          "ar": "بائعة"
+        },
+        {
+          "id": "s7",
+          "say": "l'université",
+          "answer": "l'université",
+          "ar": "الجامعة"
+        },
+        {
+          "id": "s8",
+          "say": "un diplôme",
+          "answer": "un diplôme",
+          "ar": "شهادة"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "قدّم نفسك مهنياً بثقة ووضوح.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Qu'est-ce que vous faites dans la vie ?",
+          "ar": "ماذا تعمل؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Qu'est-ce que vous faites dans la vie ?",
+              "ماذا تعمل في الحياة؟"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Je travaille dans la finance depuis dix ans.",
+          "ar": "أعمل في المجال المالي منذ عشر سنوات.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je travaille",
+              "أعمل"
+            ],
+            [
+              "dans la finance",
+              "في المجال المالي"
+            ],
+            [
+              "depuis",
+              "منذ"
+            ],
+            [
+              "dix ans.",
+              "عشر سنوات"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "J'ai étudié la médecine pendant sept ans.",
+          "ar": "درست الطب سبع سنوات.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "J'ai étudié",
+              "درستُ"
+            ],
+            [
+              "la médecine",
+              "الطب"
+            ],
+            [
+              "pendant",
+              "لمدة"
+            ],
+            [
+              "sept ans.",
+              "سبع سنوات"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "J'ai commencé ce travail il y a trois ans.",
+          "ar": "بدأت هذا العمل قبل ثلاث سنوات.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "J'ai commencé",
+              "بدأتُ"
+            ],
+            [
+              "ce",
+              "هذا"
+            ],
+            [
+              "travail",
+              "عمل"
+            ],
+            [
+              "il y a",
+              "قبل"
+            ],
+            [
+              "trois ans.",
+              "ثلاث سنوات"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Elle est infirmière à l'hôpital.",
+          "ar": "هي ممرّضة في المستشفى.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Elle est",
+              "هي"
+            ],
+            [
+              "infirmière",
+              "ممرّضة"
+            ],
+            [
+              "à l'hôpital.",
+              "في المستشفى"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: قدّم نفسك مهنياً: **Je suis… J'ai étudié… pendant… Je travaille… depuis…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "Qu'est-ce que vous faites dans la vie ?",
+          "say": "Qu'est-ce que vous faites dans la vie ?",
+          "back_ar": "ماذا تعمل؟"
+        },
+        {
+          "id": "c2",
+          "front": "pendant",
+          "say": "pendant",
+          "back_ar": "لمدة (انتهت)"
+        },
+        {
+          "id": "c3",
+          "front": "depuis",
+          "say": "depuis",
+          "back_ar": "منذ (مستمر)"
+        },
+        {
+          "id": "c4",
+          "front": "il y a",
+          "say": "il y a",
+          "back_ar": "قبل (في الماضي)"
+        },
+        {
+          "id": "c5",
+          "front": "Ça fait … que",
+          "say": "Ça fait cinq ans que j'habite ici.",
+          "back_ar": "مضى … و…"
+        },
+        {
+          "id": "c6",
+          "front": "Depuis quand ?",
+          "say": "Depuis quand ?",
+          "back_ar": "منذ متى؟"
+        },
+        {
+          "id": "c7",
+          "front": "un informaticien / une informaticienne",
+          "say": "un informaticien, une informaticienne",
+          "back_ar": "مبرمج / مبرمجة"
+        },
+        {
+          "id": "c8",
+          "front": "un avocat / une avocate",
+          "say": "un avocat, une avocate",
+          "back_ar": "محامٍ / محامية"
+        },
+        {
+          "id": "c9",
+          "front": "un vendeur / une vendeuse",
+          "say": "un vendeur, une vendeuse",
+          "back_ar": "بائع / بائعة"
+        },
+        {
+          "id": "c10",
+          "front": "un directeur / une directrice",
+          "say": "un directeur, une directrice",
+          "back_ar": "مدير / مديرة"
+        },
+        {
+          "id": "c11",
+          "front": "une entreprise",
+          "say": "une entreprise",
+          "back_ar": "شركة"
+        },
+        {
+          "id": "c12",
+          "front": "un stage",
+          "say": "un stage",
+          "back_ar": "تدريب عملي"
+        },
+        {
+          "id": "c13",
+          "front": "un salaire",
+          "say": "un salaire",
+          "back_ar": "راتب"
+        },
+        {
+          "id": "c14",
+          "front": "la licence",
+          "say": "la licence",
+          "back_ar": "البكالوريوس"
+        },
+        {
+          "id": "c15",
+          "front": "le master",
+          "say": "le master",
+          "back_ar": "الماجستير"
+        },
+        {
+          "id": "c16",
+          "front": "un collègue",
+          "say": "un collègue",
+          "back_ar": "زميل"
+        }
+      ]
+    }
+  ]
+}

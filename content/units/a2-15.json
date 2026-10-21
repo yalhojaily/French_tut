@@ -1,0 +1,1263 @@
+{
+  "id": "a2-15",
+  "stage": "A2",
+  "title_fr": "Les pronoms relatifs simples",
+  "title_ar": "أسماء الموصول البسيطة",
+  "goals_ar": [
+    "تربط جملتين بـ **qui**: **C'est un ami qui habite à Lyon.**",
+    "تستعمل **que** للمفعول: **Le livre que je lis est super.**",
+    "تستعمل **où** للمكان والزمن: **la ville où je suis né، le jour où…**",
+    "تصف الأشخاص والأماكن بجمل أطول وأجمل"
+  ],
+  "intro_ar": [
+    "العربية عندها «الذي» و«التي» و«الذين» حسب الجنس والعدد. أما الفرنسية فتختار حسب **دور الكلمة في الجملة**، لا حسب الجنس:",
+    "**qui** = الذي / التي **يفعل** (فاعل): l'ami qui habite à Lyon. وبعد qui يأتي فعل مباشرة.",
+    "**que** = الذي / التي **يقع عليه الفعل** (مفعول): le livre que je lis. وبعد que يأتي فاعل (je، tu، Claire…)، وأمام حرف علة تصير qu'.",
+    "**où** = حيث / الذي فيه، للمكان **والزمن**: la ville où je suis né، le jour où je suis arrivé."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: الحي القديم",
+      "context_ar": "كلير تُري يوسف الحي الذي كبرت فيه. لاحظ qui و que و où.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Voici le quartier où j'ai grandi.",
+          "ar": "هذا هو الحي الذي كبرت فيه.",
+          "slow": true,
+          "gloss": [
+            [
+              "Voici",
+              "هذا"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "quartier",
+              "حي"
+            ],
+            [
+              "où",
+              "الذي فيه"
+            ],
+            [
+              "j'ai grandi.",
+              "كبرتُ"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Il est magnifique ! C'est quoi, ce bâtiment qui est au coin de la rue ?",
+          "ar": "إنه رائع! ما هذا المبنى الذي في زاوية الشارع؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Il est magnifique !",
+              "إنه رائع"
+            ],
+            [
+              "C'est quoi,",
+              "ما"
+            ],
+            [
+              "ce",
+              "هذا"
+            ],
+            [
+              "bâtiment",
+              "مبنى"
+            ],
+            [
+              "qui",
+              "الذي"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "au coin de la rue ?",
+              "في زاوية الشارع"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "C'est l'école où j'allais quand j'étais petite.",
+          "ar": "إنها المدرسة التي كنت أذهب إليها عندما كنت صغيرة.",
+          "slow": true,
+          "gloss": [
+            [
+              "C'est",
+              "إنها"
+            ],
+            [
+              "l'école",
+              "المدرسة"
+            ],
+            [
+              "où",
+              "التي … إليها"
+            ],
+            [
+              "j'allais",
+              "كنتُ أذهب"
+            ],
+            [
+              "quand",
+              "عندما"
+            ],
+            [
+              "j'étais petite.",
+              "كنتُ صغيرة"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Et la boulangerie que tu aimes, elle est où ?",
+          "ar": "والمخبز الذي تحبينه، أين هو؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "boulangerie",
+              "مخبز"
+            ],
+            [
+              "que",
+              "الذي"
+            ],
+            [
+              "tu",
+              "أنتِ"
+            ],
+            [
+              "aimes,",
+              "تحبين"
+            ],
+            [
+              "elle est où ?",
+              "أين هو"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Juste là ! C'est le boulanger qui fait les meilleurs croissants de Paris.",
+          "ar": "هناك تماماً! إنه الخبّاز الذي يصنع أفضل كرواسون في باريس.",
+          "slow": true,
+          "gloss": [
+            [
+              "Juste là !",
+              "هناك تماماً"
+            ],
+            [
+              "C'est",
+              "إنه"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "boulanger",
+              "خبّاز"
+            ],
+            [
+              "qui",
+              "الذي"
+            ],
+            [
+              "fait",
+              "يصنع"
+            ],
+            [
+              "les meilleurs",
+              "أفضل"
+            ],
+            [
+              "croissants",
+              "كرواسون"
+            ],
+            [
+              "de Paris.",
+              "في باريس"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Tu exagères ! C'est la troisième boulangerie que tu me présentes comme ça.",
+          "ar": "تبالغين! هذا ثالث مخبز تقدّمينه لي هكذا.",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu exagères !",
+              "تبالغين"
+            ],
+            [
+              "C'est",
+              "هذا"
+            ],
+            [
+              "la troisième",
+              "الثالث"
+            ],
+            [
+              "boulangerie",
+              "مخبز"
+            ],
+            [
+              "que",
+              "الذي"
+            ],
+            [
+              "tu",
+              "أنتِ"
+            ],
+            [
+              "me",
+              "لي"
+            ],
+            [
+              "présentes",
+              "تقدّمين"
+            ],
+            [
+              "comme ça.",
+              "هكذا"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Peut-être ! Et tu vois cette dame qui nous regarde ? C'est madame Leroy, mon ancienne voisine.",
+          "ar": "ربما! وهل ترى هذه السيدة التي تنظر إلينا؟ إنها السيدة لوروا، جارتي السابقة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Peut-être !",
+              "ربما"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "tu vois",
+              "هل ترى"
+            ],
+            [
+              "cette",
+              "هذه"
+            ],
+            [
+              "dame",
+              "سيدة"
+            ],
+            [
+              "qui",
+              "التي"
+            ],
+            [
+              "nous",
+              "إلينا"
+            ],
+            [
+              "regarde ?",
+              "تنظر"
+            ],
+            [
+              "C'est",
+              "إنها"
+            ],
+            [
+              "madame Leroy,",
+              "السيدة لوروا"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "ancienne",
+              "السابقة"
+            ],
+            [
+              "voisine.",
+              "جارة"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "La voisine qui faisait des gâteaux pour toi ?",
+          "ar": "الجارة التي كانت تصنع لك الكعك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "La",
+              "الـ"
+            ],
+            [
+              "voisine",
+              "جارة"
+            ],
+            [
+              "qui",
+              "التي"
+            ],
+            [
+              "faisait",
+              "كانت تصنع"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "gâteaux",
+              "كعك"
+            ],
+            [
+              "pour toi ?",
+              "لكِ"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Oui ! C'est une femme que j'adore. Allons lui dire bonjour !",
+          "ar": "نعم! إنها امرأة أحبها كثيراً. لنذهب ونسلّم عليها!",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui !",
+              "نعم"
+            ],
+            [
+              "C'est",
+              "إنها"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "femme",
+              "امرأة"
+            ],
+            [
+              "que",
+              "التي"
+            ],
+            [
+              "j'adore.",
+              "أحبها كثيراً"
+            ],
+            [
+              "Allons",
+              "لنذهب"
+            ],
+            [
+              "lui",
+              "لها"
+            ],
+            [
+              "dire bonjour !",
+              "نقول مرحباً"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "قارن **qui** و **que**: la dame **qui** nous regarde (هي التي تنظر: فاعل)، و une femme **que** j'adore (أنا أحبها: مفعول). والعربية تضيف ضميراً («أحبّها»)، أما الفرنسية فلا: que j'adore فقط. و **mon ancienne voisine** = جارتي السابقة: ancien قبل الاسم معناه «السابق»."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "أسماء الموصول، ثم كلمات لوصف الأماكن والأشخاص.",
+      "groups": [
+        {
+          "title_ar": "أسماء الموصول",
+          "items": [
+            {
+              "id": "v-qui",
+              "say": "qui",
+              "ar": "الذي / التي (فاعل)"
+            },
+            {
+              "id": "v-que",
+              "say": "que",
+              "ar": "الذي / التي (مفعول)",
+              "note_ar": "أمام حرف علة: qu'."
+            },
+            {
+              "id": "v-ou",
+              "say": "où",
+              "ar": "الذي فيه / حيث (مكان أو زمن)"
+            }
+          ]
+        },
+        {
+          "title_ar": "وصف الأماكن",
+          "items": [
+            {
+              "id": "v-batiment",
+              "say": "un bâtiment",
+              "ar": "مبنى"
+            },
+            {
+              "id": "v-endroit",
+              "say": "un endroit",
+              "ar": "مكان"
+            },
+            {
+              "id": "v-monument",
+              "say": "un monument",
+              "ar": "معلم أثري"
+            },
+            {
+              "id": "v-magnifique",
+              "say": "magnifique",
+              "ar": "رائع"
+            },
+            {
+              "id": "v-historique",
+              "say": "historique",
+              "ar": "تاريخي"
+            },
+            {
+              "id": "v-celebre",
+              "say": "célèbre",
+              "ar": "مشهور"
+            },
+            {
+              "id": "v-coin",
+              "say": "au coin de la rue",
+              "ar": "في زاوية الشارع"
+            }
+          ]
+        },
+        {
+          "title_ar": "وصف الأشخاص",
+          "items": [
+            {
+              "id": "v-boulanger",
+              "say": "le boulanger, la boulangère",
+              "ar": "الخبّاز / الخبّازة",
+              "fr": "le boulanger / la boulangère"
+            },
+            {
+              "id": "v-quelquun",
+              "say": "quelqu'un qui…",
+              "ar": "شخص …",
+              "fr": "quelqu'un qui…"
+            },
+            {
+              "id": "v-grandir",
+              "say": "grandir",
+              "ar": "يكبر / ينشأ"
+            },
+            {
+              "id": "v-exagerer",
+              "say": "exagérer",
+              "ar": "يبالغ"
+            },
+            {
+              "id": "v-presenter",
+              "say": "présenter",
+              "ar": "يقدّم / يعرّف بـ"
+            },
+            {
+              "id": "v-ancien",
+              "say": "mon ancienne voisine",
+              "ar": "جارتي السابقة",
+              "note_ar": "ancien قبل الاسم = السابق، وبعده = القديم."
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-cestquoi",
+              "say": "C'est quoi, ce bâtiment ?",
+              "ar": "ما هذا المبنى؟"
+            },
+            {
+              "id": "v-justela",
+              "say": "Juste là !",
+              "ar": "هناك تماماً!"
+            },
+            {
+              "id": "v-exageres",
+              "say": "Tu exagères !",
+              "ar": "تبالغ!"
+            },
+            {
+              "id": "v-jour",
+              "say": "le jour où…",
+              "ar": "اليوم الذي…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "qui / que / où",
+      "title_ar": "القاعدة: qui و que و où",
+      "intro_ar": "اسأل: ماذا يأتي بعدها؟ فعل؟ فاعل؟ أم الكلام عن مكان أو زمن؟",
+      "tables": [
+        {
+          "title_fr": "qui (sujet)",
+          "title_ar": "qui: بعدها فعل",
+          "head_ar": [
+            "جملتان",
+            "جملة واحدة"
+          ],
+          "rows": [
+            {
+              "id": "g-q1",
+              "say": "J'ai un ami qui habite à Lyon.",
+              "cells": [
+                "J'ai un ami. Il habite à Lyon.",
+                "J'ai un ami qui habite à Lyon."
+              ],
+              "ar": "عندي صديق يسكن في ليون"
+            },
+            {
+              "id": "g-q2",
+              "say": "C'est une dame qui nous regarde.",
+              "cells": [
+                "C'est une dame. Elle nous regarde.",
+                "C'est une dame qui nous regarde."
+              ],
+              "ar": "إنها سيدة تنظر إلينا"
+            },
+            {
+              "id": "g-q3",
+              "say": "Je prends le bus qui va à la gare.",
+              "cells": [
+                "Je prends le bus. Il va à la gare.",
+                "Je prends le bus qui va à la gare."
+              ],
+              "ar": "آخذ الحافلة التي تذهب إلى المحطة"
+            }
+          ],
+          "note_ar": "بعد qui فعل مباشرة (أو ضمير مفعول ثم فعل). ولا تُحذف i من qui أبداً: qui habite."
+        },
+        {
+          "title_fr": "que (objet)",
+          "title_ar": "que: بعدها فاعل",
+          "head_ar": [
+            "جملتان",
+            "جملة واحدة"
+          ],
+          "rows": [
+            {
+              "id": "g-u1",
+              "say": "Le livre que je lis est super.",
+              "cells": [
+                "Je lis un livre. Il est super.",
+                "Le livre que je lis est super."
+              ],
+              "ar": "الكتاب الذي أقرؤه رائع"
+            },
+            {
+              "id": "g-u2",
+              "say": "C'est une femme que j'adore.",
+              "cells": [
+                "J'adore cette femme.",
+                "C'est une femme que j'adore."
+              ],
+              "ar": "إنها امرأة أحبها كثيراً"
+            },
+            {
+              "id": "g-u3",
+              "say": "La boulangerie que tu aimes est là.",
+              "cells": [
+                "Tu aimes cette boulangerie.",
+                "La boulangerie que tu aimes est là."
+              ],
+              "ar": "المخبز الذي تحبه هناك"
+            },
+            {
+              "id": "g-u4",
+              "say": "Le film qu'il regarde est long.",
+              "cells": [
+                "Il regarde un film.",
+                "Le film qu'il regarde est long."
+              ],
+              "ar": "الفيلم الذي يشاهده طويل"
+            }
+          ],
+          "note_ar": "بعد que فاعل، وتصير qu' أمام حرف علة: qu'il، qu'elle. ولا تضف ضميراً كالعربية: le livre que je lis، لا que je le lis."
+        },
+        {
+          "title_fr": "où (lieu et temps)",
+          "title_ar": "où: مكان أو زمن",
+          "head_ar": [
+            "جملتان",
+            "جملة واحدة"
+          ],
+          "rows": [
+            {
+              "id": "g-o1",
+              "say": "C'est le quartier où j'ai grandi.",
+              "cells": [
+                "J'ai grandi dans ce quartier.",
+                "C'est le quartier où j'ai grandi."
+              ],
+              "ar": "إنه الحي الذي كبرت فيه"
+            },
+            {
+              "id": "g-o2",
+              "say": "C'est la ville où je suis né.",
+              "cells": [
+                "Je suis né dans cette ville.",
+                "C'est la ville où je suis né."
+              ],
+              "ar": "إنها المدينة التي وُلدت فيها"
+            },
+            {
+              "id": "g-o3",
+              "say": "Le jour où je suis arrivé, il pleuvait.",
+              "cells": [
+                "Je suis arrivé ce jour-là. Il pleuvait.",
+                "Le jour où je suis arrivé, il pleuvait."
+              ],
+              "ar": "في اليوم الذي وصلت فيه كانت تمطر"
+            },
+            {
+              "id": "g-o4",
+              "say": "Le restaurant où on mange est italien.",
+              "cells": [
+                "On mange dans ce restaurant.",
+                "Le restaurant où on mange est italien."
+              ],
+              "ar": "المطعم الذي نأكل فيه إيطالي"
+            }
+          ],
+          "note_ar": "où للزمن أيضاً: le jour où، l'année où، le moment où. والعربية تقول «الذي … فيه»، والفرنسية تكتفي بـ où."
+        }
+      ],
+      "points_ar": [
+        "**qui أم que؟** انظر إلى ما بعدها: فعل؟ إذن qui. فاعل (je، tu، il…)؟ إذن que.",
+        "**لا ضمير عائد:** «الكتاب الذي أقرؤه» = le livre que je lis، بلا le.",
+        "**qu'il و qui l'** متشابهتان في السمع: le livre qu'il lit (الكتاب الذي يقرؤه)، و l'homme qui l'aime (الرجل الذي يحبها). والسياق يحسم."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: qui أم que أم où؟",
+      "hint_ar": "انظر إلى الكلمة التي بعد الفراغ.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "J'ai un ami ___ habite à Lyon.",
+          "say": "J'ai un ami qui habite à Lyon.",
+          "options": [
+            "que",
+            "qui"
+          ],
+          "answer": "qui",
+          "ar": "عندي صديق يسكن في ليون.",
+          "explain_ar": "بعدها فعل (habite): **qui**."
+        },
+        {
+          "id": "f2",
+          "text": "Le livre ___ je lis est super.",
+          "say": "Le livre que je lis est super.",
+          "options": [
+            "que",
+            "qui"
+          ],
+          "answer": "que",
+          "ar": "الكتاب الذي أقرؤه رائع.",
+          "explain_ar": "بعدها فاعل (je): **que**."
+        },
+        {
+          "id": "f3",
+          "text": "C'est la ville ___ je suis né.",
+          "say": "C'est la ville où je suis né.",
+          "options": [
+            "que",
+            "où"
+          ],
+          "answer": "où",
+          "ar": "إنها المدينة التي وُلدت فيها.",
+          "explain_ar": "مكان: **où**."
+        },
+        {
+          "id": "f4",
+          "text": "La dame ___ nous regarde est ma voisine.",
+          "say": "La dame qui nous regarde est ma voisine.",
+          "options": [
+            "qui",
+            "que"
+          ],
+          "answer": "qui",
+          "ar": "السيدة التي تنظر إلينا جارتي.",
+          "explain_ar": "هي التي تنظر (فاعل): **qui**."
+        },
+        {
+          "id": "f5",
+          "text": "C'est une femme ___ j'adore.",
+          "say": "C'est une femme que j'adore.",
+          "options": [
+            "qui",
+            "que"
+          ],
+          "answer": "que",
+          "ar": "إنها امرأة أحبها كثيراً.",
+          "explain_ar": "بعدها فاعل (j'): **que**."
+        },
+        {
+          "id": "f6",
+          "text": "Le film ___ il regarde est long.",
+          "say": "Le film qu'il regarde est long.",
+          "options": [
+            "qu'",
+            "qui"
+          ],
+          "answer": "qu'",
+          "ar": "الفيلم الذي يشاهده طويل.",
+          "explain_ar": "que أمام حرف علة: **qu'il**."
+        },
+        {
+          "id": "f7",
+          "text": "Le jour ___ je suis arrivé, il pleuvait.",
+          "say": "Le jour où je suis arrivé, il pleuvait.",
+          "options": [
+            "où",
+            "quand"
+          ],
+          "answer": "où",
+          "ar": "في اليوم الذي وصلت فيه كانت تمطر.",
+          "explain_ar": "بعد اسم زمن: **où**، لا quand."
+        },
+        {
+          "id": "f8",
+          "text": "Je prends le bus ___ va à la gare.",
+          "say": "Je prends le bus qui va à la gare.",
+          "options": [
+            "où",
+            "qui"
+          ],
+          "answer": "qui",
+          "ar": "آخذ الحافلة التي تذهب إلى المحطة.",
+          "explain_ar": "بعدها فعل (va): **qui**."
+        },
+        {
+          "id": "f9",
+          "text": "Voici le quartier ___ j'ai grandi.",
+          "say": "Voici le quartier où j'ai grandi.",
+          "options": [
+            "où",
+            "que"
+          ],
+          "answer": "où",
+          "ar": "هذا هو الحي الذي كبرت فيه.",
+          "explain_ar": "كبرتُ فيه: **où**."
+        },
+        {
+          "id": "f10",
+          "text": "C'est quelqu'un ___ je connais bien.",
+          "say": "C'est quelqu'un que je connais bien.",
+          "options": [
+            "que",
+            "qui"
+          ],
+          "answer": "que",
+          "ar": "إنه شخص أعرفه جيداً.",
+          "explain_ar": "بعدها فاعل (je): **que**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: الوصف",
+      "hint_ar": "جمل موصولة قصيرة. ركّز على الكلمة بعد qui أو que.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "le livre que je lis",
+          "options": [
+            "le livre que je lis",
+            "le livre qui est là"
+          ],
+          "answer": "le livre que je lis",
+          "explain_ar": "que je «كُژُ»: الذي أقرؤه."
+        },
+        {
+          "id": "q2",
+          "say": "la ville où je suis né",
+          "options": [
+            "la ville que j'aime",
+            "la ville où je suis né"
+          ],
+          "answer": "la ville où je suis né",
+          "explain_ar": "où «أو»: التي وُلدت فيها."
+        },
+        {
+          "id": "q3",
+          "say": "un endroit",
+          "options": [
+            "un endroit",
+            "un bâtiment"
+          ],
+          "answer": "un endroit",
+          "explain_ar": "endroit «أوندغوا»: مكان."
+        },
+        {
+          "id": "q4",
+          "say": "célèbre",
+          "options": [
+            "magnifique",
+            "célèbre"
+          ],
+          "answer": "célèbre",
+          "explain_ar": "célèbre «سيليبغ»: مشهور."
+        },
+        {
+          "id": "q5",
+          "say": "Tu exagères !",
+          "options": [
+            "Tu exagères !",
+            "Tu es en retard !"
+          ],
+          "answer": "Tu exagères !",
+          "explain_ar": "exagères «إيگزاژيغ»: تبالغ."
+        },
+        {
+          "id": "q6",
+          "say": "la boulangère",
+          "options": [
+            "le boulanger",
+            "la boulangère"
+          ],
+          "answer": "la boulangère",
+          "explain_ar": "boulangère بـ «ژيغ»: مؤنث."
+        },
+        {
+          "id": "q7",
+          "say": "quelqu'un que je connais",
+          "options": [
+            "quelqu'un qui parle",
+            "quelqu'un que je connais"
+          ],
+          "answer": "quelqu'un que je connais",
+          "explain_ar": "que je connais: شخص أعرفه."
+        },
+        {
+          "id": "q8",
+          "say": "le quartier où j'habite",
+          "options": [
+            "le quartier où j'ai grandi",
+            "le quartier où j'habite"
+          ],
+          "answer": "le quartier où j'habite",
+          "explain_ar": "j'habite «ژابيت»: أسكن."
+        },
+        {
+          "id": "q9",
+          "say": "Juste là !",
+          "options": [
+            "Juste là !",
+            "Juste après !"
+          ],
+          "answer": "Juste là !",
+          "explain_ar": "là «لا»: هناك."
+        },
+        {
+          "id": "q10",
+          "say": "historique",
+          "options": [
+            "historique",
+            "magnifique"
+          ],
+          "answer": "historique",
+          "explain_ar": "historique «إيستوغيك»: تاريخي."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الموصول",
+      "hint_ar": "qui و que و où في جمل قصيرة.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **où** بعلامة، و qu' أمام حرف علة.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "qui",
+          "answer": "qui",
+          "ar": "الذي (فاعل)"
+        },
+        {
+          "id": "s2",
+          "say": "que",
+          "answer": "que",
+          "ar": "الذي (مفعول)"
+        },
+        {
+          "id": "s3",
+          "say": "où",
+          "answer": "où",
+          "ar": "الذي فيه"
+        },
+        {
+          "id": "s4",
+          "say": "le livre que je lis",
+          "answer": "le livre que je lis",
+          "ar": "الكتاب الذي أقرؤه"
+        },
+        {
+          "id": "s5",
+          "say": "l'ami qui habite ici",
+          "answer": "l'ami qui habite ici",
+          "ar": "الصديق الذي يسكن هنا"
+        },
+        {
+          "id": "s6",
+          "say": "la ville où je suis né",
+          "answer": "la ville où je suis né",
+          "ar": "المدينة التي وُلدت فيها"
+        },
+        {
+          "id": "s7",
+          "say": "quelqu'un",
+          "answer": "quelqu'un",
+          "ar": "شخص ما"
+        },
+        {
+          "id": "s8",
+          "say": "un endroit",
+          "answer": "un endroit",
+          "ar": "مكان"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل وصف أطول. اجعل الجملة الموصولة تجري بلا توقف.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "C'est le quartier où j'ai grandi.",
+          "ar": "إنه الحي الذي كبرت فيه.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "C'est",
+              "إنه"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "quartier",
+              "حي"
+            ],
+            [
+              "où",
+              "الذي فيه"
+            ],
+            [
+              "j'ai grandi.",
+              "كبرتُ"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "J'ai un ami qui habite à Marseille.",
+          "ar": "عندي صديق يسكن في مرسيليا.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "J'ai",
+              "عندي"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "ami",
+              "صديق"
+            ],
+            [
+              "qui",
+              "الذي"
+            ],
+            [
+              "habite",
+              "يسكن"
+            ],
+            [
+              "à Marseille.",
+              "في مرسيليا"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Le livre que je lis est passionnant.",
+          "ar": "الكتاب الذي أقرؤه مشوّق.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Le",
+              "الـ"
+            ],
+            [
+              "livre",
+              "كتاب"
+            ],
+            [
+              "que",
+              "الذي"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "lis",
+              "أقرأ"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "passionnant.",
+              "مشوّقاً"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "C'est la boulangerie que je préfère.",
+          "ar": "إنه المخبز الذي أفضّله.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "C'est",
+              "إنه"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "boulangerie",
+              "مخبز"
+            ],
+            [
+              "que",
+              "الذي"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "préfère.",
+              "أفضّل"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Je n'oublierai jamais le jour où je suis arrivé à Paris.",
+          "ar": "لن أنسى أبداً اليوم الذي وصلت فيه إلى باريس.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "n'oublierai jamais",
+              "لن أنسى أبداً"
+            ],
+            [
+              "le jour",
+              "اليوم"
+            ],
+            [
+              "où",
+              "الذي … فيه"
+            ],
+            [
+              "je suis arrivé",
+              "وصلتُ"
+            ],
+            [
+              "à Paris.",
+              "إلى باريس"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: صف مكاناً تحبه بثلاث جمل موصولة: **C'est un endroit où… Il y a un café qui… C'est une ville que…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "qui",
+          "say": "qui",
+          "back_ar": "الذي / التي (بعدها فعل)"
+        },
+        {
+          "id": "c2",
+          "front": "que / qu'",
+          "say": "que, qu'",
+          "back_ar": "الذي / التي (بعدها فاعل)"
+        },
+        {
+          "id": "c3",
+          "front": "où",
+          "say": "où",
+          "back_ar": "الذي فيه (مكان أو زمن)"
+        },
+        {
+          "id": "c4",
+          "front": "l'ami qui habite…",
+          "say": "l'ami qui habite à Lyon",
+          "back_ar": "الصديق الذي يسكن…"
+        },
+        {
+          "id": "c5",
+          "front": "le livre que je lis",
+          "say": "le livre que je lis",
+          "back_ar": "الكتاب الذي أقرؤه"
+        },
+        {
+          "id": "c6",
+          "front": "la ville où je suis né",
+          "say": "la ville où je suis né",
+          "back_ar": "المدينة التي وُلدت فيها"
+        },
+        {
+          "id": "c7",
+          "front": "le jour où…",
+          "say": "le jour où je suis arrivé",
+          "back_ar": "اليوم الذي…"
+        },
+        {
+          "id": "c8",
+          "front": "quelqu'un qui…",
+          "say": "quelqu'un qui parle arabe",
+          "back_ar": "شخص…"
+        },
+        {
+          "id": "c9",
+          "front": "un endroit",
+          "say": "un endroit",
+          "back_ar": "مكان"
+        },
+        {
+          "id": "c10",
+          "front": "un bâtiment",
+          "say": "un bâtiment",
+          "back_ar": "مبنى"
+        },
+        {
+          "id": "c11",
+          "front": "célèbre",
+          "say": "célèbre",
+          "back_ar": "مشهور"
+        },
+        {
+          "id": "c12",
+          "front": "magnifique",
+          "say": "magnifique",
+          "back_ar": "رائع"
+        },
+        {
+          "id": "c13",
+          "front": "grandir",
+          "say": "grandir",
+          "back_ar": "يكبر / ينشأ"
+        },
+        {
+          "id": "c14",
+          "front": "Tu exagères !",
+          "say": "Tu exagères !",
+          "back_ar": "تبالغ!"
+        },
+        {
+          "id": "c15",
+          "front": "Juste là !",
+          "say": "Juste là !",
+          "back_ar": "هناك تماماً!"
+        },
+        {
+          "id": "c16",
+          "front": "C'est quoi, ce… ?",
+          "say": "C'est quoi, ce bâtiment ?",
+          "back_ar": "ما هذا الـ…؟"
+        }
+      ]
+    }
+  ]
+}

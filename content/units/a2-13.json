@@ -1,0 +1,1256 @@
+{
+  "id": "a2-13",
+  "stage": "A2",
+  "title_fr": "Voyager",
+  "title_ar": "السفر",
+  "goals_ar": [
+    "تحجز غرفة في فندق: **Je voudrais réserver une chambre pour deux nuits.**",
+    "تؤكد أو تلغي حجزاً: **confirmer، annuler، changer**",
+    "تفهم الإعلانات في المحطة والمطار",
+    "تسأل: **À quelle heure part le train ? De quel quai ?**"
+  ],
+  "intro_ar": [
+    "السفر يحتاج مفردات محددة أكثر من القواعد. وستعيد هنا استعمال ما تعرفه: je voudrais (A1.15)، والأسئلة (A1.9)، والوقت بنظام 24 ساعة (A1.10).",
+    "**في المحطات والمطارات** يتكلم الفرنسيون بسرعة: «Le TGV pour Lyon part à 18 h 42, quai numéro 7». قاعدة الاستماع: ركّز على **الرقم** و**المكان** فقط.",
+    "**الأسئلة الرسمية:** في الفنادق والمحطات ستسمع القلب كثيراً: Avez-vous une réservation ? À quelle heure part le train ?"
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: حجز فندق",
+      "context_ar": "يوسف يتصل بفندق ليحجز غرفة. لاحظ مفردات الحجز والإلغاء.",
+      "speakers": {
+        "A": {
+          "name_ar": "موظفة الاستقبال",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Hôtel du Parc, bonjour !",
+          "ar": "فندق دو بارك، صباح الخير!",
+          "slow": true,
+          "gloss": [
+            [
+              "Hôtel du Parc,",
+              "فندق دو بارك"
+            ],
+            [
+              "bonjour !",
+              "صباح الخير"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Bonjour, je voudrais réserver une chambre pour deux nuits, du douze au quatorze novembre.",
+          "ar": "صباح الخير، أودّ حجز غرفة لليلتين، من 12 إلى 14 نوفمبر.",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonjour,",
+              "صباح الخير"
+            ],
+            [
+              "je voudrais",
+              "أودّ"
+            ],
+            [
+              "réserver",
+              "حجز"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "chambre",
+              "غرفة"
+            ],
+            [
+              "pour",
+              "لـ"
+            ],
+            [
+              "deux nuits,",
+              "ليلتين"
+            ],
+            [
+              "du douze",
+              "من 12"
+            ],
+            [
+              "au quatorze",
+              "إلى 14"
+            ],
+            [
+              "novembre.",
+              "نوفمبر"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Une chambre simple ou double ?",
+          "ar": "غرفة مفردة أم مزدوجة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Une",
+              "(نكرة)"
+            ],
+            [
+              "chambre",
+              "غرفة"
+            ],
+            [
+              "simple",
+              "مفردة"
+            ],
+            [
+              "ou",
+              "أم"
+            ],
+            [
+              "double ?",
+              "مزدوجة"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Simple, avec salle de bains, s'il vous plaît. Le petit-déjeuner est compris ?",
+          "ar": "مفردة، مع حمّام، من فضلك. هل الفطور مشمول؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Simple,",
+              "مفردة"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "salle de bains,",
+              "حمّام"
+            ],
+            [
+              "s'il vous plaît.",
+              "من فضلك"
+            ],
+            [
+              "Le petit-déjeuner",
+              "الفطور"
+            ],
+            [
+              "est compris ?",
+              "مشمول"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Oui, il est compris. C'est cent vingt euros la nuit.",
+          "ar": "نعم، مشمول. السعر مئة وعشرون يورو لليلة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "il est compris.",
+              "مشمول"
+            ],
+            [
+              "C'est",
+              "السعر"
+            ],
+            [
+              "cent vingt",
+              "120"
+            ],
+            [
+              "euros",
+              "يورو"
+            ],
+            [
+              "la nuit.",
+              "لليلة"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Parfait. Je peux annuler si mes plans changent ?",
+          "ar": "ممتاز. هل أستطيع الإلغاء إذا تغيّرت خططي؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Parfait.",
+              "ممتاز"
+            ],
+            [
+              "Je peux",
+              "أستطيع"
+            ],
+            [
+              "annuler",
+              "الإلغاء"
+            ],
+            [
+              "si",
+              "إذا"
+            ],
+            [
+              "mes",
+              "ـي (جمع)"
+            ],
+            [
+              "plans",
+              "خطط"
+            ],
+            [
+              "changent ?",
+              "تغيّرت"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Oui, l'annulation est gratuite jusqu'à quarante-huit heures avant votre arrivée.",
+          "ar": "نعم، الإلغاء مجاني حتى 48 ساعة قبل وصولك.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "l'annulation",
+              "الإلغاء"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "gratuite",
+              "مجانياً"
+            ],
+            [
+              "jusqu'à",
+              "حتى"
+            ],
+            [
+              "quarante-huit heures",
+              "48 ساعة"
+            ],
+            [
+              "avant",
+              "قبل"
+            ],
+            [
+              "votre",
+              "ـك"
+            ],
+            [
+              "arrivée.",
+              "وصول"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Très bien. Je réserve au nom de Youssef Saleh.",
+          "ar": "حسناً جداً. أحجز باسم يوسف صالح.",
+          "slow": true,
+          "gloss": [
+            [
+              "Très bien.",
+              "حسناً جداً"
+            ],
+            [
+              "Je réserve",
+              "أحجز"
+            ],
+            [
+              "au nom de",
+              "باسم"
+            ],
+            [
+              "Youssef Saleh.",
+              "يوسف صالح"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "C'est noté. Je vous envoie une confirmation par e-mail.",
+          "ar": "سجّلت ذلك. أرسل لك تأكيداً بالبريد الإلكتروني.",
+          "slow": true,
+          "gloss": [
+            [
+              "C'est noté.",
+              "سُجّل"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "vous",
+              "لك"
+            ],
+            [
+              "envoie",
+              "أرسل"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "confirmation",
+              "تأكيداً"
+            ],
+            [
+              "par e-mail.",
+              "بالبريد الإلكتروني"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "Merci beaucoup. À partir de quelle heure je peux arriver ?",
+          "ar": "شكراً جزيلاً. من أي ساعة أستطيع الوصول؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Merci beaucoup.",
+              "شكراً جزيلاً"
+            ],
+            [
+              "À partir de quelle heure",
+              "من أي ساعة"
+            ],
+            [
+              "je peux",
+              "أستطيع"
+            ],
+            [
+              "arriver ?",
+              "الوصول"
+            ]
+          ]
+        },
+        {
+          "id": "d11",
+          "speaker": "A",
+          "say": "À partir de quinze heures. Bon voyage, monsieur !",
+          "ar": "من الساعة الثالثة عصراً. رحلة سعيدة يا سيدي!",
+          "slow": true,
+          "gloss": [
+            [
+              "À partir de",
+              "من"
+            ],
+            [
+              "quinze heures.",
+              "الساعة 15"
+            ],
+            [
+              "Bon voyage,",
+              "رحلة سعيدة"
+            ],
+            [
+              "monsieur !",
+              "سيدي"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "**Le petit-déjeuner est compris ?** سؤال مهم في كل فندق. و **C'est noté** = سجّلتُ ذلك. ولاحظ **du douze au quatorze**: من … إلى … في التواريخ."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "الفندق، ثم المطار، ثم القطار.",
+      "groups": [
+        {
+          "title_ar": "الفندق",
+          "items": [
+            {
+              "id": "v-reserver",
+              "say": "réserver",
+              "ar": "يحجز"
+            },
+            {
+              "id": "v-reservation",
+              "say": "une réservation",
+              "ar": "حجز"
+            },
+            {
+              "id": "v-annuler",
+              "say": "annuler",
+              "ar": "يلغي"
+            },
+            {
+              "id": "v-annulation",
+              "say": "une annulation",
+              "ar": "إلغاء"
+            },
+            {
+              "id": "v-confirmer",
+              "say": "confirmer",
+              "ar": "يؤكد"
+            },
+            {
+              "id": "v-chambre",
+              "say": "une chambre simple, double",
+              "ar": "غرفة مفردة / مزدوجة",
+              "fr": "une chambre simple / double"
+            },
+            {
+              "id": "v-compris",
+              "say": "Le petit-déjeuner est compris ?",
+              "ar": "هل الفطور مشمول؟"
+            },
+            {
+              "id": "v-reception",
+              "say": "la réception",
+              "ar": "الاستقبال"
+            },
+            {
+              "id": "v-complet",
+              "say": "complet",
+              "ar": "ممتلئ",
+              "note_ar": "Désolé, l'hôtel est complet = لا توجد غرف."
+            }
+          ]
+        },
+        {
+          "title_ar": "المطار",
+          "items": [
+            {
+              "id": "v-vol",
+              "say": "un vol",
+              "ar": "رحلة جوية"
+            },
+            {
+              "id": "v-embarquement",
+              "say": "la carte d'embarquement",
+              "ar": "بطاقة الصعود"
+            },
+            {
+              "id": "v-bagages",
+              "say": "les bagages",
+              "ar": "الأمتعة"
+            },
+            {
+              "id": "v-porte",
+              "say": "la porte",
+              "ar": "البوابة"
+            },
+            {
+              "id": "v-retard",
+              "say": "en retard",
+              "ar": "متأخر"
+            },
+            {
+              "id": "v-heure",
+              "say": "à l'heure",
+              "ar": "في الموعد"
+            },
+            {
+              "id": "v-annule",
+              "say": "annulé",
+              "ar": "ملغى"
+            }
+          ]
+        },
+        {
+          "title_ar": "القطار",
+          "items": [
+            {
+              "id": "v-quai",
+              "say": "le quai",
+              "ar": "الرصيف"
+            },
+            {
+              "id": "v-ar",
+              "say": "un billet aller-retour",
+              "ar": "تذكرة ذهاب وعودة"
+            },
+            {
+              "id": "v-allersimple",
+              "say": "un aller simple",
+              "ar": "تذكرة ذهاب فقط"
+            },
+            {
+              "id": "v-voiture",
+              "say": "la voiture",
+              "ar": "عربة القطار",
+              "note_ar": "في القطار voiture = عربة: voiture 12."
+            },
+            {
+              "id": "v-place",
+              "say": "une place",
+              "ar": "مقعد"
+            },
+            {
+              "id": "v-tgv",
+              "say": "le TGV",
+              "ar": "القطار السريع"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "السفر",
+      "title_ar": "القاعدة: أفعال الحجز وأسئلة السفر",
+      "intro_ar": "قواعد قليلة وجمل جاهزة كثيرة. احفظ الجمل كاملة.",
+      "tables": [
+        {
+          "title_fr": "Réserver, annuler, confirmer",
+          "title_ar": "أفعال الحجز",
+          "head_ar": [
+            "الفعل",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-r1",
+              "say": "Je voudrais réserver une chambre.",
+              "cells": [
+                "réserver",
+                "Je voudrais réserver une chambre."
+              ],
+              "ar": "أودّ حجز غرفة"
+            },
+            {
+              "id": "g-r2",
+              "say": "Je dois annuler ma réservation.",
+              "cells": [
+                "annuler",
+                "Je dois annuler ma réservation."
+              ],
+              "ar": "يجب أن ألغي حجزي"
+            },
+            {
+              "id": "g-r3",
+              "say": "Pouvez-vous confirmer par e-mail ?",
+              "cells": [
+                "confirmer",
+                "Pouvez-vous confirmer par e-mail ?"
+              ],
+              "ar": "هل يمكنكم التأكيد بالبريد؟"
+            },
+            {
+              "id": "g-r4",
+              "say": "Je voudrais changer la date.",
+              "cells": [
+                "changer",
+                "Je voudrais changer la date."
+              ],
+              "ar": "أودّ تغيير التاريخ"
+            },
+            {
+              "id": "g-r5",
+              "say": "Je peux payer par carte ?",
+              "cells": [
+                "payer",
+                "Je peux payer par carte ?"
+              ],
+              "ar": "هل أستطيع الدفع بالبطاقة؟"
+            }
+          ],
+          "note_ar": "كلها أفعال er منتظمة، والاسم منها ينتهي غالباً بـ ation: réservation، annulation، confirmation."
+        },
+        {
+          "title_fr": "Questions de voyage",
+          "title_ar": "أسئلة السفر",
+          "head_ar": [
+            "السؤال"
+          ],
+          "rows": [
+            {
+              "id": "g-q1",
+              "say": "À quelle heure part le train pour Lyon ?",
+              "cells": [
+                "À quelle heure part le train pour Lyon ?"
+              ],
+              "ar": "متى يغادر القطار إلى ليون؟"
+            },
+            {
+              "id": "g-q2",
+              "say": "De quel quai part le train ?",
+              "cells": [
+                "De quel quai part le train ?"
+              ],
+              "ar": "من أي رصيف يغادر القطار؟"
+            },
+            {
+              "id": "g-q3",
+              "say": "Le vol est à l'heure ?",
+              "cells": [
+                "Le vol est à l'heure ?"
+              ],
+              "ar": "هل الرحلة في موعدها؟"
+            },
+            {
+              "id": "g-q4",
+              "say": "Où est la porte vingt-trois ?",
+              "cells": [
+                "Où est la porte vingt-trois ?"
+              ],
+              "ar": "أين البوابة 23؟"
+            },
+            {
+              "id": "g-q5",
+              "say": "Combien coûte un aller-retour ?",
+              "cells": [
+                "Combien coûte un aller-retour ?"
+              ],
+              "ar": "كم ثمن تذكرة الذهاب والعودة؟"
+            },
+            {
+              "id": "g-q6",
+              "say": "Vous avez une chambre libre ?",
+              "cells": [
+                "Vous avez une chambre libre ?"
+              ],
+              "ar": "هل عندكم غرفة شاغرة؟"
+            }
+          ],
+          "note_ar": "مع partir و arriver يأتي الفعل قبل الاسم في السؤال الرسمي: À quelle heure part le train ?"
+        },
+        {
+          "title_fr": "Les annonces",
+          "title_ar": "الإعلانات",
+          "head_ar": [
+            "الإعلان"
+          ],
+          "rows": [
+            {
+              "id": "g-a1",
+              "say": "Le train pour Lyon part du quai sept.",
+              "cells": [
+                "Le train pour Lyon part du quai sept."
+              ],
+              "ar": "القطار إلى ليون يغادر من الرصيف 7"
+            },
+            {
+              "id": "g-a2",
+              "say": "Le vol pour Riyad a trente minutes de retard.",
+              "cells": [
+                "Le vol pour Riyad a trente minutes de retard."
+              ],
+              "ar": "رحلة الرياض متأخرة 30 دقيقة"
+            },
+            {
+              "id": "g-a3",
+              "say": "Le vol est annulé.",
+              "cells": [
+                "Le vol est annulé."
+              ],
+              "ar": "الرحلة ملغاة"
+            },
+            {
+              "id": "g-a4",
+              "say": "Embarquement immédiat, porte douze.",
+              "cells": [
+                "Embarquement immédiat, porte douze."
+              ],
+              "ar": "الصعود فوراً، البوابة 12"
+            },
+            {
+              "id": "g-a5",
+              "say": "Attention à la marche en descendant du train.",
+              "cells": [
+                "Attention à la marche en descendant du train."
+              ],
+              "ar": "انتبه للدرجة عند النزول من القطار"
+            }
+          ],
+          "note_ar": "في الإعلانات ركّز على الرقم (الوقت، الرصيف، البوابة) وعلى كلمة الحالة: retard (تأخير)، annulé (ملغى)، immédiat (فوري)."
+        }
+      ],
+      "points_ar": [
+        "**du … au …** للمدة بين تاريخين: du 12 au 14 novembre.",
+        "**complet** = ممتلئ: Le train est complet. L'hôtel est complet.",
+        "**aller-retour** = ذهاب وعودة، و **aller simple** = ذهاب فقط."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: في السفر",
+      "hint_ar": "اختر الكلمة المناسبة للموقف.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je voudrais ___ une chambre.",
+          "say": "Je voudrais réserver une chambre.",
+          "options": [
+            "réservation",
+            "réserver"
+          ],
+          "answer": "réserver",
+          "ar": "أودّ حجز غرفة.",
+          "explain_ar": "بعد je voudrais المصدر: **réserver**."
+        },
+        {
+          "id": "f2",
+          "text": "Je dois ___ ma réservation.",
+          "say": "Je dois annuler ma réservation.",
+          "options": [
+            "annuler",
+            "annulation"
+          ],
+          "answer": "annuler",
+          "ar": "يجب أن ألغي حجزي.",
+          "explain_ar": "بعد je dois المصدر: **annuler**."
+        },
+        {
+          "id": "f3",
+          "text": "Le petit-déjeuner est ___ ?",
+          "say": "Le petit-déjeuner est compris ?",
+          "options": [
+            "comprend",
+            "compris"
+          ],
+          "answer": "compris",
+          "ar": "هل الفطور مشمول؟",
+          "explain_ar": "مشمول: **compris**."
+        },
+        {
+          "id": "f4",
+          "text": "À quelle heure ___ le train ?",
+          "say": "À quelle heure part le train ?",
+          "options": [
+            "part",
+            "pars"
+          ],
+          "answer": "part",
+          "ar": "متى يغادر القطار؟",
+          "explain_ar": "le train = il: **part**."
+        },
+        {
+          "id": "f5",
+          "text": "De quel ___ part le train ?",
+          "say": "De quel quai part le train ?",
+          "options": [
+            "porte",
+            "quai"
+          ],
+          "answer": "quai",
+          "ar": "من أي رصيف يغادر القطار؟",
+          "explain_ar": "في المحطة: **quai**. وفي المطار: porte."
+        },
+        {
+          "id": "f6",
+          "text": "Le vol a trente minutes de ___.",
+          "say": "Le vol a trente minutes de retard.",
+          "options": [
+            "retard",
+            "heure"
+          ],
+          "answer": "retard",
+          "ar": "الرحلة متأخرة ثلاثين دقيقة.",
+          "explain_ar": "تأخير: **retard**."
+        },
+        {
+          "id": "f7",
+          "text": "Désolé, l'hôtel est ___.",
+          "say": "Désolé, l'hôtel est complet.",
+          "options": [
+            "compris",
+            "complet"
+          ],
+          "answer": "complet",
+          "ar": "آسف، الفندق ممتلئ.",
+          "explain_ar": "لا غرف: **complet**."
+        },
+        {
+          "id": "f8",
+          "text": "Un ___, s'il vous plaît : Paris-Lyon et Lyon-Paris.",
+          "say": "Un aller-retour, s'il vous plaît : Paris-Lyon et Lyon-Paris.",
+          "options": [
+            "aller-retour",
+            "aller simple"
+          ],
+          "answer": "aller-retour",
+          "ar": "تذكرة ذهاب وعودة من فضلك.",
+          "explain_ar": "ذهاب وعودة: **aller-retour**."
+        },
+        {
+          "id": "f9",
+          "text": "Je reste ___ 12 au 14 novembre.",
+          "say": "Je reste du 12 au 14 novembre.",
+          "options": [
+            "de",
+            "du"
+          ],
+          "answer": "du",
+          "ar": "أبقى من 12 إلى 14 نوفمبر.",
+          "explain_ar": "من تاريخ إلى تاريخ: **du** … au …"
+        },
+        {
+          "id": "f10",
+          "text": "Je peux payer ___ carte ?",
+          "say": "Je peux payer par carte ?",
+          "options": [
+            "avec",
+            "par"
+          ],
+          "answer": "par",
+          "ar": "هل أستطيع الدفع بالبطاقة؟",
+          "explain_ar": "الدفع: **par** carte."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: أرقام وإعلانات",
+      "hint_ar": "مثل إعلانات المحطة: ركّز على الرقم وكلمة الحالة.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "quai sept",
+          "options": [
+            "quai six",
+            "quai sept"
+          ],
+          "answer": "quai sept",
+          "explain_ar": "sept «سِت»: 7."
+        },
+        {
+          "id": "q2",
+          "say": "dix-huit heures quatorze",
+          "options": [
+            "dix-huit heures quarante",
+            "dix-huit heures quatorze"
+          ],
+          "answer": "dix-huit heures quatorze",
+          "explain_ar": "quatorze «كاتوغز»: 14."
+        },
+        {
+          "id": "q3",
+          "say": "Le vol est annulé.",
+          "options": [
+            "Le vol est annulé.",
+            "Le vol est à l'heure."
+          ],
+          "answer": "Le vol est annulé.",
+          "explain_ar": "annulé «أنوليه»: ملغى."
+        },
+        {
+          "id": "q4",
+          "say": "une chambre simple",
+          "options": [
+            "une chambre double",
+            "une chambre simple"
+          ],
+          "answer": "une chambre simple",
+          "explain_ar": "simple «سانپل»: مفردة."
+        },
+        {
+          "id": "q5",
+          "say": "un aller-retour",
+          "options": [
+            "un aller simple",
+            "un aller-retour"
+          ],
+          "answer": "un aller-retour",
+          "explain_ar": "retour «غُتوغ»: عودة."
+        },
+        {
+          "id": "q6",
+          "say": "porte douze",
+          "options": [
+            "porte douze",
+            "porte vingt-deux"
+          ],
+          "answer": "porte douze",
+          "explain_ar": "douze «دوز»: 12."
+        },
+        {
+          "id": "q7",
+          "say": "complet",
+          "options": [
+            "compris",
+            "complet"
+          ],
+          "answer": "complet",
+          "explain_ar": "complet «كومپليه»: ممتلئ."
+        },
+        {
+          "id": "q8",
+          "say": "trois minutes de retard",
+          "options": [
+            "trente minutes de retard",
+            "trois minutes de retard"
+          ],
+          "answer": "trois minutes de retard",
+          "explain_ar": "trois «تغوا»: 3."
+        },
+        {
+          "id": "q9",
+          "say": "la carte d'embarquement",
+          "options": [
+            "la carte d'embarquement",
+            "la carte bancaire"
+          ],
+          "answer": "la carte d'embarquement",
+          "explain_ar": "embarquement «أونباغكُمون»: الصعود."
+        },
+        {
+          "id": "q10",
+          "say": "deux nuits",
+          "options": [
+            "douze nuits",
+            "deux nuits"
+          ],
+          "answer": "deux nuits",
+          "explain_ar": "deux «دُ»: اثنتان."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: السفر",
+      "hint_ar": "كلمات الحجز والمحطة.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **annuler** بـ nn، و **aller-retour** بشرطة.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "réserver",
+          "answer": "réserver",
+          "ar": "يحجز"
+        },
+        {
+          "id": "s2",
+          "say": "une réservation",
+          "answer": "une réservation",
+          "ar": "حجز"
+        },
+        {
+          "id": "s3",
+          "say": "annuler",
+          "answer": "annuler",
+          "ar": "يلغي"
+        },
+        {
+          "id": "s4",
+          "say": "le quai",
+          "answer": "le quai",
+          "ar": "الرصيف"
+        },
+        {
+          "id": "s5",
+          "say": "un billet",
+          "answer": "un billet",
+          "ar": "تذكرة"
+        },
+        {
+          "id": "s6",
+          "say": "en retard",
+          "answer": "en retard",
+          "ar": "متأخر"
+        },
+        {
+          "id": "s7",
+          "say": "complet",
+          "answer": "complet",
+          "ar": "ممتلئ"
+        },
+        {
+          "id": "s8",
+          "say": "un aller-retour",
+          "answer": "un aller-retour",
+          "ar": "ذهاب وعودة"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل السفر الأساسية. ردّدها حتى تقولها دون تفكير في المطار.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Je voudrais réserver une chambre pour deux nuits.",
+          "ar": "أودّ حجز غرفة لليلتين.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je voudrais",
+              "أودّ"
+            ],
+            [
+              "réserver",
+              "حجز"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "chambre",
+              "غرفة"
+            ],
+            [
+              "pour",
+              "لـ"
+            ],
+            [
+              "deux nuits.",
+              "ليلتين"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Le petit-déjeuner est compris ?",
+          "ar": "هل الفطور مشمول؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Le petit-déjeuner",
+              "الفطور"
+            ],
+            [
+              "est compris ?",
+              "مشمول"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "À quelle heure part le train pour Lyon ?",
+          "ar": "متى يغادر القطار إلى ليون؟",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "À quelle heure",
+              "في أي ساعة"
+            ],
+            [
+              "part",
+              "يغادر"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "train",
+              "قطار"
+            ],
+            [
+              "pour Lyon ?",
+              "إلى ليون"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Un aller-retour pour Marseille, s'il vous plaît.",
+          "ar": "تذكرة ذهاب وعودة إلى مرسيليا من فضلك.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Un",
+              "(نكرة)"
+            ],
+            [
+              "aller-retour",
+              "ذهاب وعودة"
+            ],
+            [
+              "pour Marseille,",
+              "إلى مرسيليا"
+            ],
+            [
+              "s'il vous plaît.",
+              "من فضلك"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Mon vol est annulé. Qu'est-ce que je dois faire ?",
+          "ar": "رحلتي ملغاة. ماذا يجب أن أفعل؟",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "vol",
+              "رحلة"
+            ],
+            [
+              "est annulé.",
+              "ملغاة"
+            ],
+            [
+              "Qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "je dois",
+              "يجب أن"
+            ],
+            [
+              "faire ?",
+              "أفعل"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: احجز بصوتك غرفة في فندق: **Bonjour, je voudrais réserver… pour… nuits, du… au… Le petit-déjeuner est compris ?**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "réserver",
+          "say": "réserver",
+          "back_ar": "يحجز"
+        },
+        {
+          "id": "c2",
+          "front": "annuler",
+          "say": "annuler",
+          "back_ar": "يلغي"
+        },
+        {
+          "id": "c3",
+          "front": "confirmer",
+          "say": "confirmer",
+          "back_ar": "يؤكد"
+        },
+        {
+          "id": "c4",
+          "front": "une réservation",
+          "say": "une réservation",
+          "back_ar": "حجز"
+        },
+        {
+          "id": "c5",
+          "front": "une chambre simple / double",
+          "say": "une chambre simple, une chambre double",
+          "back_ar": "غرفة مفردة / مزدوجة"
+        },
+        {
+          "id": "c6",
+          "front": "Le petit-déjeuner est compris ?",
+          "say": "Le petit-déjeuner est compris ?",
+          "back_ar": "هل الفطور مشمول؟"
+        },
+        {
+          "id": "c7",
+          "front": "complet",
+          "say": "complet",
+          "back_ar": "ممتلئ"
+        },
+        {
+          "id": "c8",
+          "front": "un vol",
+          "say": "un vol",
+          "back_ar": "رحلة جوية"
+        },
+        {
+          "id": "c9",
+          "front": "la carte d'embarquement",
+          "say": "la carte d'embarquement",
+          "back_ar": "بطاقة الصعود"
+        },
+        {
+          "id": "c10",
+          "front": "les bagages",
+          "say": "les bagages",
+          "back_ar": "الأمتعة"
+        },
+        {
+          "id": "c11",
+          "front": "en retard",
+          "say": "en retard",
+          "back_ar": "متأخر"
+        },
+        {
+          "id": "c12",
+          "front": "à l'heure",
+          "say": "à l'heure",
+          "back_ar": "في الموعد"
+        },
+        {
+          "id": "c13",
+          "front": "le quai",
+          "say": "le quai",
+          "back_ar": "الرصيف"
+        },
+        {
+          "id": "c14",
+          "front": "un aller-retour",
+          "say": "un aller-retour",
+          "back_ar": "ذهاب وعودة"
+        },
+        {
+          "id": "c15",
+          "front": "un aller simple",
+          "say": "un aller simple",
+          "back_ar": "ذهاب فقط"
+        },
+        {
+          "id": "c16",
+          "front": "À quelle heure part le train ?",
+          "say": "À quelle heure part le train ?",
+          "back_ar": "متى يغادر القطار؟"
+        }
+      ]
+    }
+  ]
+}
