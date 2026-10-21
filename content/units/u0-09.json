@@ -1,0 +1,1052 @@
+{
+  "id": "u0-09",
+  "stage": "0",
+  "title_fr": "Grands nombres, années et prix",
+  "title_ar": "الأرقام الكبيرة والسنوات والأسعار",
+  "goals_ar": [
+    "تقرأ المئات والآلاف: **deux cents**، **mille cinq cents**",
+    "تقرأ السنوات: **mille neuf cent quatre-vingt-dix** (1990) و **deux mille vingt-six** (2026)",
+    "تفهم الأسعار الفرنسية: **12,50 €** تُقرأ «douze euros cinquante»",
+    "تستخدم الأعداد الترتيبية: **premier**، **deuxième**، **troisième**…",
+    "تقول التاريخ: **le premier mai** لكن **le deux mai**"
+  ],
+  "intro_ar": [
+    "بعد الوحدتين السابقتين لم يبقَ إلا البناء: **cent** (100)، و **mille** (1000)، و **un million** (مليون). وكل رقم كبير يُبنى من قطع تعرفها: 1 990 = mille + neuf cent + quatre-vingt-dix.",
+    "**الكتابة الفرنسية للأرقام مختلفة:** الآلاف تُفصل **بمسافة** (1 500) والكسور **بفاصلة** (12,50). أي عكس الإنجليزية تماماً: 1,500.00 بالإنجليزية = 1 500,00 بالفرنسية.",
+    "**الأعداد الترتيبية** سهلة: الرقم + **-ième** (deuxième، dixième). الاستثناء الكبير هو **premier/première**، وتعديلات صغيرة في الكتابة: cinquième، neuvième.",
+    "**مفاجأة في التواريخ:** الفرنسي يقول «الأول» فقط لليوم الأول من الشهر: **le premier mai**. وبعده يستعمل الأرقام العادية: **le deux mai**، **le quinze août**."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: في وكالة السفر",
+      "context_ar": "يوسف يحجز رحلة إلى باريس. استمع للتاريخ (le premier… le huit) وللأسعار الكبيرة (mille deux cent cinquante).",
+      "speakers": {
+        "A": {
+          "name_ar": "موظفة الوكالة",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "B",
+          "say": "Bonjour ! Je voudrais un voyage à Paris en mars.",
+          "ar": "مرحباً! أريد رحلة إلى باريس في مارس.",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonjour !",
+              "مرحباً"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "voudrais",
+              "أودّ"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "voyage",
+              "رحلة"
+            ],
+            [
+              "à",
+              "إلى"
+            ],
+            [
+              "Paris",
+              "باريس"
+            ],
+            [
+              "en",
+              "في"
+            ],
+            [
+              "mars.",
+              "مارس"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "A",
+          "say": "Très bien. Du premier au huit mars ?",
+          "ar": "حسناً جداً. من الأول إلى الثامن من مارس؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Très bien.",
+              "حسناً جداً"
+            ],
+            [
+              "Du",
+              "من الـ"
+            ],
+            [
+              "premier",
+              "أول"
+            ],
+            [
+              "au",
+              "إلى الـ"
+            ],
+            [
+              "huit",
+              "8"
+            ],
+            [
+              "mars ?",
+              "مارس"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "B",
+          "say": "Oui, parfait. Ça coûte combien ?",
+          "ar": "نعم، ممتاز. بكم؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "parfait.",
+              "ممتاز"
+            ],
+            [
+              "Ça",
+              "هذا"
+            ],
+            [
+              "coûte",
+              "يكلّف"
+            ],
+            [
+              "combien ?",
+              "كم"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "A",
+          "say": "Mille deux cent cinquante euros, avec l'hôtel.",
+          "ar": "ألف ومئتان وخمسون يورو، مع الفندق.",
+          "slow": true,
+          "gloss": [
+            [
+              "Mille deux cent cinquante",
+              "1250"
+            ],
+            [
+              "euros,",
+              "يورو"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "l'hôtel.",
+              "الفندق"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "B",
+          "say": "Et sans l'hôtel ?",
+          "ar": "وبدون الفندق؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "sans",
+              "بدون"
+            ],
+            [
+              "l'hôtel ?",
+              "الفندق"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "A",
+          "say": "Quatre cent quatre-vingt-dix euros seulement.",
+          "ar": "أربعمئة وتسعون يورو فقط.",
+          "slow": true,
+          "gloss": [
+            [
+              "Quatre cent quatre-vingt-dix",
+              "490"
+            ],
+            [
+              "euros",
+              "يورو"
+            ],
+            [
+              "seulement.",
+              "فقط"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "B",
+          "say": "D'accord, je prends le voyage avec l'hôtel !",
+          "ar": "حسناً، آخذ الرحلة مع الفندق!",
+          "slow": true,
+          "gloss": [
+            [
+              "D'accord,",
+              "حسناً"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "prends",
+              "آخذ"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "voyage",
+              "رحلة"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "l'hôtel !",
+              "الفندق"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "لاحظ **du premier au huit**: «الأول» ترتيبي، و «ثمانية» رقم عادي. و **mille deux cent cinquante**: لا s في cent لأن رقماً جاء بعدها."
+    },
+    {
+      "type": "letters",
+      "key": "big",
+      "short_ar": "الأرقام",
+      "title_ar": "المئات والآلاف والترتيب",
+      "hint_ar": "الصف الأول: المئات والآلاف. الصف الثاني: الأعداد الترتيبية. اضغط على كل لوحة واستمع للمثال.",
+      "play_all_ar": "استمع لكل اللوحات",
+      "items": [
+        {
+          "id": "b0",
+          "letter": "100",
+          "say": "cent",
+          "ipa": "sɑ̃",
+          "ar_hint": "سون",
+          "example": {
+            "id": "w-b0",
+            "say": "cent euros",
+            "ar": "100 يورو"
+          },
+          "note_ar": "لا تقول «un cent»: **cent** وحدها = مئة."
+        },
+        {
+          "id": "b1",
+          "letter": "101",
+          "say": "cent un",
+          "ipa": "sɑ̃.œ̃",
+          "ar_hint": "سون أن",
+          "example": {
+            "id": "w-b1",
+            "say": "cent un euros",
+            "ar": "101 يورو"
+          },
+          "note_ar": "**لا et** بعد cent: cent un، cent deux… والـ t في cent صامتة هنا."
+        },
+        {
+          "id": "b2",
+          "letter": "200",
+          "say": "deux cents",
+          "ipa": "dø.sɑ̃",
+          "ar_hint": "دُو سون",
+          "example": {
+            "id": "w-b2",
+            "say": "deux cents euros",
+            "ar": "200 يورو"
+          },
+          "note_ar": "**cents** بـ s لأنها مضروبة ولم يأتِ بعدها رقم. والـ s تُنطق «ز» في الوصل: deux cents‿euros.",
+          "tricky": true
+        },
+        {
+          "id": "b3",
+          "letter": "250",
+          "say": "deux cent cinquante",
+          "ipa": "dø.sɑ̃.sɛ̃.kɑ̃t",
+          "ar_hint": "دُو سون سانكونت",
+          "example": {
+            "id": "w-b3",
+            "say": "deux cent cinquante euros",
+            "ar": "250 يورو"
+          },
+          "note_ar": "تسقط s من cent لأن رقماً جاء بعدها: deux cent cinquante.",
+          "tricky": true
+        },
+        {
+          "id": "b4",
+          "letter": "1 000",
+          "say": "mille",
+          "ipa": "mil",
+          "ar_hint": "ميل",
+          "example": {
+            "id": "w-b4",
+            "say": "mille euros",
+            "ar": "1000 يورو"
+          },
+          "note_ar": "**mille** لا تأخذ s أبداً، ولا يُقال «un mille». والـ ll تُنطق لاماً (استثناء من قاعدة ill).",
+          "tricky": true
+        },
+        {
+          "id": "b5",
+          "letter": "2 000",
+          "say": "deux mille",
+          "ipa": "dø.mil",
+          "ar_hint": "دُو ميل",
+          "example": {
+            "id": "w-b5",
+            "say": "deux mille euros",
+            "ar": "2000 يورو"
+          },
+          "note_ar": "deux mille بلا s. والفرنسية تكتب الآلاف **بمسافة** لا فاصلة: 2 000."
+        },
+        {
+          "id": "b6",
+          "letter": "1er",
+          "say": "premier",
+          "ipa": "pʁə.mje",
+          "ar_hint": "پغُمييه",
+          "example": {
+            "id": "w-b6",
+            "say": "le premier mai",
+            "ar": "1 مايو"
+          },
+          "note_ar": "**الأول** شاذ: premier (مذكر) و première (مؤنث). ويُختصر **1er** و **1re**. وفي التاريخ: le **premier** mai.",
+          "tricky": true
+        },
+        {
+          "id": "b7",
+          "letter": "2e",
+          "say": "deuxième",
+          "ipa": "dø.zjɛm",
+          "ar_hint": "دُوزيام",
+          "example": {
+            "id": "w-b7",
+            "say": "le deuxième étage",
+            "ar": "الطابق الثاني"
+          },
+          "note_ar": "من 2 فما فوق: الرقم + **-ième**. والـ x تُنطق «ز»: «دُوزيام»."
+        },
+        {
+          "id": "b8",
+          "letter": "3e",
+          "say": "troisième",
+          "ipa": "tʁwa.zjɛm",
+          "ar_hint": "تغوازيام",
+          "example": {
+            "id": "w-b8",
+            "say": "la troisième fois",
+            "ar": "المرة الثالثة"
+          },
+          "note_ar": "trois + ième، والـ s بين حرفي علة = «ز»."
+        },
+        {
+          "id": "b9",
+          "letter": "4e",
+          "say": "quatrième",
+          "ipa": "ka.tʁi.jɛm",
+          "ar_hint": "كاتغيام",
+          "example": {
+            "id": "w-b9",
+            "say": "le quatrième jour",
+            "ar": "اليوم الرابع"
+          },
+          "note_ar": "تُحذف الـ e من quatre: **quatrième**."
+        },
+        {
+          "id": "b10",
+          "letter": "5e",
+          "say": "cinquième",
+          "ipa": "sɛ̃.kjɛm",
+          "ar_hint": "سانكيام",
+          "example": {
+            "id": "w-b10",
+            "say": "la cinquième rue",
+            "ar": "الشارع الخامس"
+          },
+          "note_ar": "تُضاف **u** بعد q: **cinquième**.",
+          "tricky": true
+        },
+        {
+          "id": "b11",
+          "letter": "9e",
+          "say": "neuvième",
+          "ipa": "nœ.vjɛm",
+          "ar_hint": "نُڤيام",
+          "example": {
+            "id": "w-b11",
+            "say": "le neuvième mois",
+            "ar": "الشهر التاسع"
+          },
+          "note_ar": "الـ f تصبح **v**: **neuvième**.",
+          "tricky": true
+        },
+        {
+          "id": "b12",
+          "letter": "20e",
+          "say": "vingtième",
+          "ipa": "vɛ̃.tjɛm",
+          "ar_hint": "ڤانتيام",
+          "example": {
+            "id": "w-b12",
+            "say": "le vingtième siècle",
+            "ar": "القرن العشرون"
+          },
+          "note_ar": "والـ t في vingt تُنطق هنا: «ڤانتيام»."
+        }
+      ]
+    },
+    {
+      "type": "accents",
+      "key": "rules",
+      "short_ar": "القواعد",
+      "title_ar": "السنوات والأسعار والتواريخ",
+      "hint_ar": "ست قواعد عملية. اقرأ كل مثال بصوت عالٍ قبل أن تستمع له.",
+      "items": [
+        {
+          "id": "y-years",
+          "mark": "1990 2026",
+          "name_fr": "les années",
+          "say": "mille neuf cent quatre-vingt-dix, deux mille vingt-six.",
+          "name_ar": "قراءة السنوات",
+          "effect_ar": "السنة تُقرأ **رقماً كاملاً**: 1990 = **mille neuf cent quatre-vingt-dix** (ألف وتسعمئة وتسعون). و 2026 = **deux mille vingt-six**. وتقول: **en** 2026 (في 2026).",
+          "examples": [
+            {
+              "id": "w-1789",
+              "say": "mille sept cent quatre-vingt-neuf",
+              "ar": "1789 (الثورة الفرنسية)"
+            },
+            {
+              "id": "w-1998",
+              "say": "mille neuf cent quatre-vingt-dix-huit",
+              "ar": "1998"
+            },
+            {
+              "id": "w-2000",
+              "say": "deux mille",
+              "ar": "2000"
+            },
+            {
+              "id": "w-en-2026",
+              "say": "en deux mille vingt-six",
+              "ar": "في 2026"
+            }
+          ]
+        },
+        {
+          "id": "y-prices",
+          "mark": "12,50 €",
+          "name_fr": "les prix",
+          "say": "douze euros cinquante.",
+          "name_ar": "قراءة الأسعار",
+          "effect_ar": "**12,50 €** تُقرأ «douze euros cinquante»: اليورو أولاً ثم السنتات **دون كلمة centimes**. والفاصلة هي الكسر العشري.",
+          "examples": [
+            {
+              "id": "w-p1",
+              "say": "trois euros vingt",
+              "ar": "3,20 €"
+            },
+            {
+              "id": "w-p2",
+              "say": "douze euros cinquante",
+              "ar": "12,50 €"
+            },
+            {
+              "id": "w-p3",
+              "say": "quatre-vingt-dix-neuf euros quatre-vingt-dix-neuf",
+              "ar": "99,99 €"
+            },
+            {
+              "id": "w-p4",
+              "say": "mille cinq cents euros",
+              "ar": "1 500 €"
+            }
+          ]
+        },
+        {
+          "id": "y-cents",
+          "mark": "cent(s)",
+          "name_fr": "deux cents / deux cent un",
+          "say": "deux cents, deux cent un.",
+          "name_ar": "متى تأخذ s؟",
+          "effect_ar": "**cent** و **vingt** يأخذان s فقط إذا كانا **مضروبين** و**في آخر الرقم**: deux **cents**، **quatre-vingts**. وتسقط s إذا جاء بعدهما رقم: deux cent un. أما **mille** فلا s أبداً.",
+          "examples": [
+            {
+              "id": "w-300",
+              "say": "trois cents",
+              "ar": "300"
+            },
+            {
+              "id": "w-310",
+              "say": "trois cent dix",
+              "ar": "310"
+            },
+            {
+              "id": "w-3000",
+              "say": "trois mille",
+              "ar": "3000"
+            },
+            {
+              "id": "w-480",
+              "say": "quatre cent quatre-vingts",
+              "ar": "480"
+            }
+          ]
+        },
+        {
+          "id": "y-million",
+          "mark": "1 000 000",
+          "name_fr": "un million",
+          "say": "un million, deux millions d'euros.",
+          "name_ar": "المليون",
+          "effect_ar": "**million** اسم لا رقم: يأخذ s في الجمع (deux **millions**)، وتأتي بعده **de**: un million **d'euros**، trois millions **de** personnes.",
+          "examples": [
+            {
+              "id": "w-million",
+              "say": "un million",
+              "ar": "مليون"
+            },
+            {
+              "id": "w-millions",
+              "say": "deux millions d'euros",
+              "ar": "مليونا يورو"
+            },
+            {
+              "id": "w-milliard",
+              "say": "un milliard",
+              "ar": "مليار"
+            }
+          ]
+        },
+        {
+          "id": "y-dates",
+          "mark": "1er 2",
+          "name_fr": "le premier mai / le deux mai",
+          "say": "le premier mai, le deux mai.",
+          "name_ar": "التواريخ",
+          "effect_ar": "**le premier** للأول من الشهر فقط، ثم أرقام عادية: le deux، le trois، le quatorze juillet (العيد الوطني). ولا حذف قبل huit و onze: **le** huit، **le** onze.",
+          "examples": [
+            {
+              "id": "w-d1",
+              "say": "le premier janvier",
+              "ar": "1 يناير"
+            },
+            {
+              "id": "w-d2",
+              "say": "le deux février",
+              "ar": "2 فبراير"
+            },
+            {
+              "id": "w-d3",
+              "say": "le quatorze juillet",
+              "ar": "14 يوليو"
+            },
+            {
+              "id": "w-d4",
+              "say": "le onze novembre",
+              "ar": "11 نوفمبر"
+            }
+          ]
+        },
+        {
+          "id": "y-ordinals",
+          "mark": "-ième",
+          "name_fr": "les ordinaux",
+          "say": "premier, deuxième, troisième, dixième.",
+          "name_ar": "الأعداد الترتيبية",
+          "effect_ar": "الرقم + **-ième**، مع حذف e الأخيرة (quatre تصبح quatrième). وللثاني كلمة أخرى رسمية: **second/seconde**. وتُختصر: 1er، 2e، 3e.",
+          "examples": [
+            {
+              "id": "w-o1",
+              "say": "la première fois",
+              "ar": "المرة الأولى"
+            },
+            {
+              "id": "w-o2",
+              "say": "le dixième étage",
+              "ar": "الطابق العاشر"
+            },
+            {
+              "id": "w-o3",
+              "say": "la seconde classe",
+              "ar": "الدرجة الثانية"
+            },
+            {
+              "id": "w-o4",
+              "say": "le vingt et unième siècle",
+              "ar": "القرن الحادي والعشرون"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: أي رقم تسمع؟",
+      "hint_ar": "أرقام كبيرة وسنوات وأسعار وتواريخ. استمع للرقم كاملاً قبل أن تختار.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع رقماً أو سعراً أو تاريخاً وتختاره.",
+      "items": [
+        {
+          "id": "q-100",
+          "say": "cent",
+          "options": [
+            "100",
+            "1 000"
+          ],
+          "answer": "100",
+          "explain_ar": "cent «سون» = 100. أما 1 000 فـ mille «ميل»."
+        },
+        {
+          "id": "q-1000",
+          "say": "mille",
+          "options": [
+            "100",
+            "1 000"
+          ],
+          "answer": "1 000",
+          "explain_ar": "mille «ميل» = 1 000."
+        },
+        {
+          "id": "q-2026",
+          "say": "deux mille vingt-six",
+          "options": [
+            "2006",
+            "2026"
+          ],
+          "answer": "2026",
+          "explain_ar": "deux mille **vingt-six** = 2026."
+        },
+        {
+          "id": "q-1990",
+          "say": "mille neuf cent quatre-vingt-dix",
+          "options": [
+            "1980",
+            "1990"
+          ],
+          "answer": "1990",
+          "explain_ar": "**quatre-vingt-dix** = 90، إذن 1990."
+        },
+        {
+          "id": "q-480",
+          "say": "quatre cent quatre-vingts",
+          "options": [
+            "420",
+            "480"
+          ],
+          "answer": "480",
+          "explain_ar": "quatre cent + quatre-vingts = 480."
+        },
+        {
+          "id": "q-300",
+          "say": "trois cents",
+          "options": [
+            "300",
+            "3 000"
+          ],
+          "answer": "300",
+          "explain_ar": "trois **cents** = 300. أما 3 000 فـ trois **mille**."
+        },
+        {
+          "id": "q-price",
+          "say": "douze euros cinquante",
+          "options": [
+            "12,50 €",
+            "15,20 €"
+          ],
+          "answer": "12,50 €",
+          "explain_ar": "douze (12) euros cinquante (50)."
+        },
+        {
+          "id": "q-date",
+          "say": "le premier mai",
+          "options": [
+            "1er mai",
+            "2 mai"
+          ],
+          "answer": "1er mai",
+          "explain_ar": "premier = الأول. أما 2 مايو فـ le deux mai."
+        },
+        {
+          "id": "q-ord",
+          "say": "la troisième rue",
+          "options": [
+            "3e rue",
+            "13e rue"
+          ],
+          "answer": "3e rue",
+          "explain_ar": "troisième = الثالث. أما 13e فـ treizième."
+        },
+        {
+          "id": "q-2500",
+          "say": "deux mille cinq cents",
+          "options": [
+            "2 500",
+            "2 050"
+          ],
+          "answer": "2 500",
+          "explain_ar": "deux mille + cinq cents = 2 500. أما 2 050 فـ deux mille cinquante."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء الأرقام: اكتبها بالأرقام",
+      "hint_ar": "تسمع رقماً أو سنة أو سعراً، وتكتبه **بالأرقام**. للأسعار اكتب الفاصلة: 10,50. والمسافة في الآلاف اختيارية (1200 أو 1 200).",
+      "prompt_ar": "استمع واكتب الرقم بالأرقام",
+      "start_ar": "ابدأ إملاء الأرقام",
+      "result_ar": "تذكّر: الفرنسية تكتب **1 500,50** حيث تكتب الإنجليزية 1,500.50.",
+      "items": [
+        {
+          "id": "s-150",
+          "say": "cent cinquante",
+          "answer": "150",
+          "ar": "cent cinquante"
+        },
+        {
+          "id": "s-300",
+          "say": "trois cents",
+          "answer": "300",
+          "ar": "trois cents"
+        },
+        {
+          "id": "s-480",
+          "say": "quatre cent quatre-vingts",
+          "answer": "480",
+          "ar": "quatre cent quatre-vingts"
+        },
+        {
+          "id": "s-1200",
+          "say": "mille deux cents",
+          "answer": "1 200",
+          "ar": "mille deux cents"
+        },
+        {
+          "id": "s-2026",
+          "say": "deux mille vingt-six",
+          "answer": "2026",
+          "ar": "deux mille vingt-six"
+        },
+        {
+          "id": "s-1998",
+          "say": "mille neuf cent quatre-vingt-dix-huit",
+          "answer": "1998",
+          "ar": "mille neuf cent quatre-vingt-dix-huit"
+        },
+        {
+          "id": "s-price",
+          "say": "dix euros cinquante",
+          "answer": "10,50",
+          "ar": "dix euros cinquante"
+        },
+        {
+          "id": "s-20000",
+          "say": "vingt mille",
+          "answer": "20 000",
+          "ar": "vingt mille"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل عن الأسعار والسنوات والتواريخ. ابدأ بالبطيئة، وحاول أن تقول السنة الطويلة دون توقف.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Le voyage coûte mille deux cents euros.",
+          "ar": "الرحلة تكلّف ألفاً ومئتي يورو.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Le",
+              "الـ"
+            ],
+            [
+              "voyage",
+              "رحلة"
+            ],
+            [
+              "coûte",
+              "تكلّف"
+            ],
+            [
+              "mille deux cents",
+              "1200"
+            ],
+            [
+              "euros.",
+              "يورو"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Je suis né en mille neuf cent quatre-vingt-dix.",
+          "ar": "وُلدتُ في عام 1990.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "suis né",
+              "وُلدتُ"
+            ],
+            [
+              "en",
+              "في"
+            ],
+            [
+              "mille neuf cent quatre-vingt-dix.",
+              "1990"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Nous sommes en deux mille vingt-six.",
+          "ar": "نحن في عام 2026.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Nous sommes",
+              "نحن"
+            ],
+            [
+              "en",
+              "في"
+            ],
+            [
+              "deux mille vingt-six.",
+              "2026"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Ça fait douze euros cinquante.",
+          "ar": "المجموع 12,50 يورو.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Ça fait",
+              "المجموع"
+            ],
+            [
+              "douze euros cinquante.",
+              "12,50 €"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Mon anniversaire, c'est le premier mai.",
+          "ar": "عيد ميلادي في الأول من مايو.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "anniversaire,",
+              "عيد ميلاد"
+            ],
+            [
+              "c'est",
+              "هو"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "premier",
+              "أول"
+            ],
+            [
+              "mai.",
+              "مايو"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: سجّل نفسك تقول **سنة ميلادك** (Je suis né en…) و**تاريخ ميلادك** (Mon anniversaire, c'est le…)."
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل الرقم أو التاريخ بالفرنسية بصوت عالٍ قبل أن تكشف الجواب.",
+      "cards": [
+        {
+          "id": "c0",
+          "front": "100",
+          "say": "cent",
+          "back_ar": "cent"
+        },
+        {
+          "id": "c1",
+          "front": "101",
+          "say": "cent un",
+          "back_ar": "cent un"
+        },
+        {
+          "id": "c2",
+          "front": "200",
+          "say": "deux cents",
+          "back_ar": "deux cents"
+        },
+        {
+          "id": "c3",
+          "front": "250",
+          "say": "deux cent cinquante",
+          "back_ar": "deux cent cinquante"
+        },
+        {
+          "id": "c4",
+          "front": "1 000",
+          "say": "mille",
+          "back_ar": "mille"
+        },
+        {
+          "id": "c5",
+          "front": "2 000",
+          "say": "deux mille",
+          "back_ar": "deux mille"
+        },
+        {
+          "id": "c6",
+          "front": "1er",
+          "say": "premier",
+          "back_ar": "premier"
+        },
+        {
+          "id": "c7",
+          "front": "2e",
+          "say": "deuxième",
+          "back_ar": "deuxième"
+        },
+        {
+          "id": "c8",
+          "front": "3e",
+          "say": "troisième",
+          "back_ar": "troisième"
+        },
+        {
+          "id": "c9",
+          "front": "4e",
+          "say": "quatrième",
+          "back_ar": "quatrième"
+        },
+        {
+          "id": "c10",
+          "front": "5e",
+          "say": "cinquième",
+          "back_ar": "cinquième"
+        },
+        {
+          "id": "c11",
+          "front": "9e",
+          "say": "neuvième",
+          "back_ar": "neuvième"
+        },
+        {
+          "id": "c12",
+          "front": "20e",
+          "say": "vingtième",
+          "back_ar": "vingtième"
+        },
+        {
+          "id": "c-1990",
+          "front": "1990",
+          "say": "mille neuf cent quatre-vingt-dix",
+          "back_ar": "mille neuf cent quatre-vingt-dix"
+        },
+        {
+          "id": "c-2026",
+          "front": "2026",
+          "say": "deux mille vingt-six",
+          "back_ar": "deux mille vingt-six"
+        },
+        {
+          "id": "c-1250",
+          "front": "12,50 €",
+          "say": "douze euros cinquante",
+          "back_ar": "douze euros cinquante"
+        },
+        {
+          "id": "c-million",
+          "front": "1 000 000",
+          "say": "un million",
+          "back_ar": "un million"
+        },
+        {
+          "id": "c-1mai",
+          "front": "1er mai",
+          "say": "le premier mai",
+          "back_ar": "le premier mai"
+        },
+        {
+          "id": "c-2mai",
+          "front": "2 mai",
+          "say": "le deux mai",
+          "back_ar": "le deux mai (رقم عادي، لا ترتيبي)"
+        },
+        {
+          "id": "c-ne",
+          "front": "Je suis né en…",
+          "say": "Je suis né en…",
+          "back_ar": "وُلدتُ في… (لمؤنث: née)"
+        }
+      ]
+    }
+  ]
+}

@@ -14,7 +14,7 @@ export function renderAccents(unitId: string, s: AccentsSection): HTMLElement {
         h(
           "li",
           { class: "accent" },
-          h("div", { class: "accent-mark", lang: "fr", dir: "ltr" }, a.mark),
+          h("div", { class: `accent-mark${a.mark.length > 6 ? " long" : ""}`, lang: "fr", dir: "ltr" }, a.mark),
           h(
             "div",
             { class: "accent-body" },
@@ -30,7 +30,7 @@ export function renderAccents(unitId: string, s: AccentsSection): HTMLElement {
               "div",
               { class: "chips" },
               a.examples.map((w) =>
-                h("span", { class: "chip" }, speakButton(unitId, w, { label: `استمع: ${w.say}`, cls: "icon-btn small" }), fr(w.say), h("span", { class: "chip-ar" }, w.ar)),
+                h("span", { class: "chip" }, speakButton(unitId, w, { label: `استمع: ${w.say}`, cls: "icon-btn small" }), fr(w.say), h("span", { class: "chip-ar" }, richAr(w.ar))),
               ),
             ),
           ),

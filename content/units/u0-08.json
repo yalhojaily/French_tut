@@ -1,0 +1,1032 @@
+{
+  "id": "u0-08",
+  "stage": "0",
+  "title_fr": "Les nombres de 21 à 100",
+  "title_ar": "الأرقام من 21 إلى 100",
+  "goals_ar": [
+    "تعدّ بالعشرات من 20 إلى 100",
+    "تفهم منطق **70 و 80 و 90** الغريب: 60 + 10، و 4 × 20، و 4 × 20 + 10",
+    "تعرف متى تأتي **et**: vingt **et** un، لكن quatre-vingt-un",
+    "تفهم الأسعار والأعمار حين تُقال بسرعة طبيعية"
+  ],
+  "intro_ar": [
+    "الأرقام من 21 إلى 69 منتظمة تماماً: العشرات (vingt، trente، quarante، cinquante، soixante) ثم الآحاد بشَرطة: **trente-quatre** = 34.",
+    "ثم يأتي الجزء الذي يتذكّره كل متعلم: **لا توجد كلمة فرنسية لـ 70 و 80 و 90**. بدلها يحسب الفرنسي: 70 = **soixante-dix** (60 + 10)، و 80 = **quatre-vingts** (4 × 20)، و 90 = **quatre-vingt-dix** (4 × 20 + 10). إذن 97 = 4 × 20 + 17!",
+    "نصيحة عملية: لا تحاول **الحساب** أثناء الاستماع. احفظ quatre-vingt-dix كـ«كلمة» تعني 90، كما تحفظ «تسعين». ستأتي السرعة بالتكرار.",
+    "وفي بلجيكا وسويسرا أسهل: **septante** (70) و **nonante** (90)، وفي سويسرا **huitante** (80). ستسمعها هناك، لكن تعلّم الفرنسية القياسية أولاً."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: مساومة في سوق المستعمل",
+      "context_ar": "زبونة تريد شراء دراجة من سوق الأشياء المستعملة (le marché aux puces)، وتساوم البائع على السعر. كل الأرقام بين 70 و 100.",
+      "speakers": {
+        "A": {
+          "name_ar": "البائع",
+          "voice": "male"
+        },
+        "B": {
+          "name_ar": "الزبونة",
+          "voice": "female"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "B",
+          "say": "Bonjour ! Ce vélo coûte combien ?",
+          "ar": "مرحباً! بكم هذه الدراجة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonjour !",
+              "مرحباً"
+            ],
+            [
+              "Ce",
+              "هذه"
+            ],
+            [
+              "vélo",
+              "دراجة"
+            ],
+            [
+              "coûte",
+              "تكلّف"
+            ],
+            [
+              "combien ?",
+              "كم"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "A",
+          "say": "Quatre-vingt-quinze euros, madame.",
+          "ar": "خمسة وتسعون يورو، سيدتي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Quatre-vingt-quinze",
+              "95"
+            ],
+            [
+              "euros,",
+              "يورو"
+            ],
+            [
+              "madame.",
+              "سيدتي"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "B",
+          "say": "C'est cher ! Soixante-dix euros ?",
+          "ar": "هذا غالٍ! سبعون يورو؟",
+          "slow": true,
+          "gloss": [
+            [
+              "C'est",
+              "هذا"
+            ],
+            [
+              "cher !",
+              "غالٍ"
+            ],
+            [
+              "Soixante-dix",
+              "70"
+            ],
+            [
+              "euros ?",
+              "يورو"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "A",
+          "say": "Non… Quatre-vingts euros, c'est mon dernier prix.",
+          "ar": "لا… ثمانون يورو، هذا آخر سعر عندي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Non…",
+              "لا"
+            ],
+            [
+              "Quatre-vingts",
+              "80"
+            ],
+            [
+              "euros,",
+              "يورو"
+            ],
+            [
+              "c'est",
+              "هذا"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "dernier",
+              "أخير"
+            ],
+            [
+              "prix.",
+              "سعر"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "B",
+          "say": "Soixante-quinze, et je le prends.",
+          "ar": "خمسة وسبعون، وآخذها.",
+          "slow": true,
+          "gloss": [
+            [
+              "Soixante-quinze,",
+              "75"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "le",
+              "ـها"
+            ],
+            [
+              "prends.",
+              "آخذ"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "A",
+          "say": "Bon… soixante-dix-huit. D'accord ?",
+          "ar": "حسناً… ثمانية وسبعون. موافقة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bon…",
+              "حسناً"
+            ],
+            [
+              "soixante-dix-huit.",
+              "78"
+            ],
+            [
+              "D'accord ?",
+              "موافقة"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "B",
+          "say": "D'accord ! Voilà quatre-vingts euros.",
+          "ar": "موافقة! تفضّل ثمانين يورو.",
+          "slow": true,
+          "gloss": [
+            [
+              "D'accord !",
+              "موافقة"
+            ],
+            [
+              "Voilà",
+              "تفضّل"
+            ],
+            [
+              "quatre-vingts",
+              "80"
+            ],
+            [
+              "euros.",
+              "يورو"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "لاحظ **soixante-dix-huit** = 60 + 18 = 78. وفي النهاية تعطيه الزبونة 80 فيردّ لها يوروين. في الأسواق الشعبية الفرنسية المساومة مقبولة، أما في المحلات فلا."
+    },
+    {
+      "type": "letters",
+      "key": "tens",
+      "short_ar": "العشرات",
+      "title_ar": "العشرات والأرقام الصعبة",
+      "hint_ar": "اضغط على كل رقم لتسمعه، ثم استمع للمثال بالسعر. ركّز على الأرقام المعلّمة بالأحمر: 60 إلى 99.",
+      "play_all_ar": "استمع لكل الأرقام",
+      "items": [
+        {
+          "id": "t0",
+          "letter": "20",
+          "say": "vingt",
+          "ipa": "vɛ̃",
+          "ar_hint": "ڤان",
+          "example": {
+            "id": "w-t0",
+            "say": "vingt euros",
+            "ar": "20 يورو"
+          },
+          "note_ar": "تذكير: الـ t تظهر في الوصل: vingt‿euros «ڤانتُغو»."
+        },
+        {
+          "id": "t1",
+          "letter": "21",
+          "say": "vingt et un",
+          "ipa": "vɛ̃.te.œ̃",
+          "ar_hint": "ڤانتيأن",
+          "example": {
+            "id": "w-t1",
+            "say": "vingt et un euros",
+            "ar": "21 يورو"
+          },
+          "note_ar": "في 21 و 31 و 41 و 51 و 61 تأتي **et** (و): vingt **et** un. ولاحظ أن الـ t في vingt تُنطق هنا.",
+          "tricky": true
+        },
+        {
+          "id": "t2",
+          "letter": "22",
+          "say": "vingt-deux",
+          "ipa": "vɛ̃t.dø",
+          "ar_hint": "ڤانت دُو",
+          "example": {
+            "id": "w-t2",
+            "say": "vingt-deux euros",
+            "ar": "22 يورو"
+          },
+          "note_ar": "من 22 إلى 29 بشَرطة، والـ t في vingt **تُنطق**: «ڤانت دُو»."
+        },
+        {
+          "id": "t3",
+          "letter": "30",
+          "say": "trente",
+          "ipa": "tʁɑ̃t",
+          "ar_hint": "تغونت",
+          "example": {
+            "id": "w-t3",
+            "say": "trente euros",
+            "ar": "30 يورو"
+          },
+          "note_ar": "لا تخلطه مع treize (13): trente فيه صوت an الأنفي و «ت» في الآخر."
+        },
+        {
+          "id": "t4",
+          "letter": "40",
+          "say": "quarante",
+          "ipa": "ka.ʁɑ̃t",
+          "ar_hint": "كارونت",
+          "example": {
+            "id": "w-t4",
+            "say": "quarante euros",
+            "ar": "40 يورو"
+          },
+          "note_ar": "لا تخلطه مع quatorze (14)."
+        },
+        {
+          "id": "t5",
+          "letter": "50",
+          "say": "cinquante",
+          "ipa": "sɛ̃.kɑ̃t",
+          "ar_hint": "سانكونت",
+          "example": {
+            "id": "w-t5",
+            "say": "cinquante euros",
+            "ar": "50 يورو"
+          },
+          "note_ar": "لا تخلطه مع quinze (15)."
+        },
+        {
+          "id": "t6",
+          "letter": "60",
+          "say": "soixante",
+          "ipa": "swa.sɑ̃t",
+          "ar_hint": "سواسونت",
+          "example": {
+            "id": "w-t6",
+            "say": "soixante euros",
+            "ar": "60 يورو"
+          },
+          "note_ar": "oi = «وا»، والـ x تُنطق **«س»**: «سواسونت».",
+          "tricky": true
+        },
+        {
+          "id": "t7",
+          "letter": "70",
+          "say": "soixante-dix",
+          "ipa": "swa.sɑ̃t.dis",
+          "ar_hint": "سواسونت ديس",
+          "example": {
+            "id": "w-t7",
+            "say": "soixante-dix euros",
+            "ar": "70 يورو"
+          },
+          "note_ar": "**لا توجد كلمة لـ 70!** تقول: 60 + 10 = soixante-dix. و 71 = 60 + 11، و 75 = 60 + 15.",
+          "tricky": true
+        },
+        {
+          "id": "t8",
+          "letter": "71",
+          "say": "soixante et onze",
+          "ipa": "swa.sɑ̃.te.ɔ̃z",
+          "ar_hint": "سواسونتيأونز",
+          "example": {
+            "id": "w-t8",
+            "say": "soixante et onze euros",
+            "ar": "71 يورو"
+          },
+          "note_ar": "60 **و** 11. والـ et هنا لأنها مثل 21 و 31.",
+          "tricky": true
+        },
+        {
+          "id": "t9",
+          "letter": "80",
+          "say": "quatre-vingts",
+          "ipa": "ka.tʁə.vɛ̃",
+          "ar_hint": "كاتغُڤان",
+          "example": {
+            "id": "w-t9",
+            "say": "quatre-vingts euros",
+            "ar": "80 يورو"
+          },
+          "note_ar": "**4 × 20**! وتأخذ s في الآخر لأن العشرين مضروبة. لكن الـ s صامتة إلا في الوصل: quatre-vingts‿euros «كاتغُڤانزُغو».",
+          "tricky": true
+        },
+        {
+          "id": "t10",
+          "letter": "81",
+          "say": "quatre-vingt-un",
+          "ipa": "ka.tʁə.vɛ̃.œ̃",
+          "ar_hint": "كاتغُڤان أن",
+          "example": {
+            "id": "w-t10",
+            "say": "quatre-vingt-un euros",
+            "ar": "81 يورو"
+          },
+          "note_ar": "تسقط الـ s (لأن رقماً جاء بعدها)، **ولا et** هنا، والـ t في vingt **صامتة**: «كاتغُڤان أن».",
+          "tricky": true
+        },
+        {
+          "id": "t11",
+          "letter": "90",
+          "say": "quatre-vingt-dix",
+          "ipa": "ka.tʁə.vɛ̃.dis",
+          "ar_hint": "كاتغُڤان ديس",
+          "example": {
+            "id": "w-t11",
+            "say": "quatre-vingt-dix euros",
+            "ar": "90 يورو"
+          },
+          "note_ar": "4 × 20 + 10. ثم 91 = quatre-vingt-onze، و 95 = quatre-vingt-quinze.",
+          "tricky": true
+        },
+        {
+          "id": "t12",
+          "letter": "99",
+          "say": "quatre-vingt-dix-neuf",
+          "ipa": "ka.tʁə.vɛ̃.diz.nœf",
+          "ar_hint": "كاتغُڤان ديزنُف",
+          "example": {
+            "id": "w-t12",
+            "say": "quatre-vingt-dix-neuf euros",
+            "ar": "99 يورو"
+          },
+          "note_ar": "4 × 20 + 10 + 9: أطول رقم تحت المئة، وأشهر سعر في المحلات!",
+          "tricky": true
+        },
+        {
+          "id": "t13",
+          "letter": "100",
+          "say": "cent",
+          "ipa": "sɑ̃",
+          "ar_hint": "سون",
+          "example": {
+            "id": "w-t13",
+            "say": "cent euros",
+            "ar": "100 يورو"
+          },
+          "note_ar": "صوت an الأنفي، والـ t صامتة إلا في الوصل: cent‿euros «سونتُغو». ولا تقول «un cent»، بل **cent** وحدها."
+        }
+      ]
+    },
+    {
+      "type": "accents",
+      "key": "logic",
+      "short_ar": "المنطق",
+      "title_ar": "منطق الأرقام الفرنسية",
+      "hint_ar": "خمس قواعد تكفيك لقراءة أي رقم حتى 100. اقرأ الأمثلة بصوت عالٍ قبل أن تستمع لها.",
+      "items": [
+        {
+          "id": "g-regular",
+          "mark": "21–69",
+          "name_fr": "trente-quatre",
+          "say": "trente-quatre, quarante-sept, cinquante-huit.",
+          "name_ar": "منتظمة",
+          "effect_ar": "العشرات ثم الآحاد بشَرطة، تماماً كالإنجليزية: **trente-quatre** = 34. والاستثناء الوحيد: الرقم 1 يأتي مع **et** (vingt et un).",
+          "examples": [
+            {
+              "id": "w-34",
+              "say": "trente-quatre",
+              "ar": "34"
+            },
+            {
+              "id": "w-47",
+              "say": "quarante-sept",
+              "ar": "47"
+            },
+            {
+              "id": "w-58",
+              "say": "cinquante-huit",
+              "ar": "58"
+            },
+            {
+              "id": "w-63",
+              "say": "soixante-trois",
+              "ar": "63"
+            }
+          ]
+        },
+        {
+          "id": "g-et",
+          "mark": "et",
+          "name_fr": "vingt et un",
+          "say": "vingt et un, trente et un, soixante et onze.",
+          "name_ar": "متى تأتي «و»؟",
+          "effect_ar": "مع 21 و 31 و 41 و 51 و 61 و 71 فقط. **لا** مع 81 و 91: quatre-vingt-un، quatre-vingt-onze.",
+          "examples": [
+            {
+              "id": "w-31",
+              "say": "trente et un",
+              "ar": "31"
+            },
+            {
+              "id": "w-71",
+              "say": "soixante et onze",
+              "ar": "71"
+            },
+            {
+              "id": "w-81",
+              "say": "quatre-vingt-un",
+              "ar": "81"
+            },
+            {
+              "id": "w-91",
+              "say": "quatre-vingt-onze",
+              "ar": "91"
+            }
+          ]
+        },
+        {
+          "id": "g-70",
+          "mark": "70",
+          "name_fr": "soixante-dix",
+          "say": "soixante-dix, soixante-quinze, soixante-dix-neuf.",
+          "name_ar": "60 + 10 … 19",
+          "effect_ar": "من 70 إلى 79 تقول **60** ثم الأرقام من 10 إلى 19: 72 = **soixante-douze**، و 76 = **soixante-seize**، و 79 = **soixante-dix-neuf**.",
+          "examples": [
+            {
+              "id": "w-72",
+              "say": "soixante-douze",
+              "ar": "72"
+            },
+            {
+              "id": "w-75",
+              "say": "soixante-quinze",
+              "ar": "75"
+            },
+            {
+              "id": "w-76",
+              "say": "soixante-seize",
+              "ar": "76"
+            },
+            {
+              "id": "w-79",
+              "say": "soixante-dix-neuf",
+              "ar": "79"
+            }
+          ]
+        },
+        {
+          "id": "g-80",
+          "mark": "80",
+          "name_fr": "quatre-vingts",
+          "say": "quatre-vingts, quatre-vingt-deux, quatre-vingt-cinq.",
+          "name_ar": "4 × 20",
+          "effect_ar": "**quatre-vingts** بـ s (20 مضروبة 4)، لكن الـ s تسقط إذا جاء بعدها رقم: **quatre-vingt-deux**. والـ t في vingt **صامتة** في كل الثمانينات والتسعينات.",
+          "examples": [
+            {
+              "id": "w-80",
+              "say": "quatre-vingts",
+              "ar": "80"
+            },
+            {
+              "id": "w-82",
+              "say": "quatre-vingt-deux",
+              "ar": "82"
+            },
+            {
+              "id": "w-85",
+              "say": "quatre-vingt-cinq",
+              "ar": "85"
+            },
+            {
+              "id": "w-88",
+              "say": "quatre-vingt-huit",
+              "ar": "88"
+            }
+          ]
+        },
+        {
+          "id": "g-90",
+          "mark": "90",
+          "name_fr": "quatre-vingt-dix",
+          "say": "quatre-vingt-dix, quatre-vingt-treize, quatre-vingt-dix-sept.",
+          "name_ar": "4 × 20 + 10 … 19",
+          "effect_ar": "مثل السبعينات لكن مع 80 بدل 60: 93 = **quatre-vingt-treize**، و 97 = **quatre-vingt-dix-sept**.",
+          "examples": [
+            {
+              "id": "w-90",
+              "say": "quatre-vingt-dix",
+              "ar": "90"
+            },
+            {
+              "id": "w-93",
+              "say": "quatre-vingt-treize",
+              "ar": "93"
+            },
+            {
+              "id": "w-96",
+              "say": "quatre-vingt-seize",
+              "ar": "96"
+            },
+            {
+              "id": "w-97",
+              "say": "quatre-vingt-dix-sept",
+              "ar": "97"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: أي رقم تسمع؟",
+      "hint_ar": "أرقام يكثر فيها الخلط. لا تحسب في رأسك، بل حاول التعرّف على «شكل» الرقم المسموع.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر الرقم",
+      "start_ar": "كل سؤال: تسمع رقماً وتختاره.",
+      "items": [
+        {
+          "id": "q-70",
+          "say": "soixante-dix",
+          "options": [
+            "60",
+            "70",
+            "80"
+          ],
+          "answer": "70",
+          "explain_ar": "soixante-dix = 60 + 10."
+        },
+        {
+          "id": "q-60",
+          "say": "soixante",
+          "options": [
+            "60",
+            "70"
+          ],
+          "answer": "60",
+          "explain_ar": "soixante وحدها = 60."
+        },
+        {
+          "id": "q-80",
+          "say": "quatre-vingts",
+          "options": [
+            "80",
+            "90"
+          ],
+          "answer": "80",
+          "explain_ar": "quatre-vingts = 4 × 20."
+        },
+        {
+          "id": "q-90",
+          "say": "quatre-vingt-dix",
+          "options": [
+            "80",
+            "90"
+          ],
+          "answer": "90",
+          "explain_ar": "quatre-vingt-dix = 80 + 10."
+        },
+        {
+          "id": "q-75",
+          "say": "soixante-quinze",
+          "options": [
+            "65",
+            "75"
+          ],
+          "answer": "75",
+          "explain_ar": "**soixante-quinze** = 60 + 15. أما 65 فهو soixante-cinq."
+        },
+        {
+          "id": "q-95",
+          "say": "quatre-vingt-quinze",
+          "options": [
+            "85",
+            "95"
+          ],
+          "answer": "95",
+          "explain_ar": "**quatre-vingt-quinze** = 80 + 15. أما 85 فهو quatre-vingt-cinq."
+        },
+        {
+          "id": "q-30",
+          "say": "trente",
+          "options": [
+            "13",
+            "30"
+          ],
+          "answer": "30",
+          "explain_ar": "trente: صوت an الأنفي و «ت» في الآخر. أما treize فينتهي بـ «ز»."
+        },
+        {
+          "id": "q-40",
+          "say": "quarante",
+          "options": [
+            "14",
+            "40"
+          ],
+          "answer": "40",
+          "explain_ar": "quarante «كارونت». أما quatorze فـ «كاتورز»."
+        },
+        {
+          "id": "q-71",
+          "say": "soixante et onze",
+          "options": [
+            "61",
+            "71"
+          ],
+          "answer": "71",
+          "explain_ar": "soixante et **onze** = 60 + 11."
+        },
+        {
+          "id": "q-81",
+          "say": "quatre-vingt-un",
+          "options": [
+            "81",
+            "91"
+          ],
+          "answer": "81",
+          "explain_ar": "**quatre-vingt-un** = 80 + 1. أما 91 فهو quatre-vingt-onze."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء الأرقام: اكتبها بالأرقام",
+      "hint_ar": "تسمع رقماً بالفرنسية وتكتبه **بالأرقام** (مثلاً 75). هذا ما ستحتاجه فعلاً: فهم سعر أو رقم هاتف وكتابته.",
+      "prompt_ar": "استمع واكتب الرقم بالأرقام",
+      "start_ar": "ابدأ إملاء الأرقام",
+      "result_ar": "إن أخطأت في السبعينات والتسعينات فهذا طبيعي جداً، حتى الفرنسيون الصغار يحتاجون وقتاً. أعد التمرين بعد يومين.",
+      "items": [
+        {
+          "id": "s-34",
+          "say": "trente-quatre",
+          "answer": "34",
+          "ar": "trente-quatre"
+        },
+        {
+          "id": "s-47",
+          "say": "quarante-sept",
+          "answer": "47",
+          "ar": "quarante-sept"
+        },
+        {
+          "id": "s-58",
+          "say": "cinquante-huit",
+          "answer": "58",
+          "ar": "cinquante-huit"
+        },
+        {
+          "id": "s-66",
+          "say": "soixante-six",
+          "answer": "66",
+          "ar": "soixante-six"
+        },
+        {
+          "id": "s-74",
+          "say": "soixante-quatorze",
+          "answer": "74",
+          "ar": "soixante-quatorze"
+        },
+        {
+          "id": "s-80",
+          "say": "quatre-vingts",
+          "answer": "80",
+          "ar": "quatre-vingts"
+        },
+        {
+          "id": "s-92",
+          "say": "quatre-vingt-douze",
+          "answer": "92",
+          "ar": "quatre-vingt-douze"
+        },
+        {
+          "id": "s-99",
+          "say": "quatre-vingt-dix-neuf",
+          "answer": "99",
+          "ar": "quatre-vingt-dix-neuf"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "أسعار وأعمار وغرف وأرقام هاتف. ردّد حتى تخرج الأرقام الطويلة دون توقف.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Ça coûte quatre-vingt-quinze euros.",
+          "ar": "هذا يكلّف خمسة وتسعين يورو.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Ça",
+              "هذا"
+            ],
+            [
+              "coûte",
+              "يكلّف"
+            ],
+            [
+              "quatre-vingt-quinze",
+              "95"
+            ],
+            [
+              "euros.",
+              "يورو"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "J'ai trente-cinq ans.",
+          "ar": "عمري خمسة وثلاثون عاماً.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "J'ai",
+              "عندي"
+            ],
+            [
+              "trente-cinq",
+              "35"
+            ],
+            [
+              "ans.",
+              "سنة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Mon père a soixante-dix ans.",
+          "ar": "أبي عمره سبعون عاماً.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "père",
+              "أب"
+            ],
+            [
+              "a",
+              "عنده"
+            ],
+            [
+              "soixante-dix",
+              "70"
+            ],
+            [
+              "ans.",
+              "سنة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "La chambre soixante et onze, s'il vous plaît.",
+          "ar": "الغرفة رقم 71، من فضلك.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "La",
+              "الـ"
+            ],
+            [
+              "chambre",
+              "غرفة"
+            ],
+            [
+              "soixante et onze,",
+              "71"
+            ],
+            [
+              "s'il vous plaît.",
+              "من فضلك"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Mon numéro, c'est le zéro six, soixante-dix, quatre-vingts, quarante-quatre, quatre-vingt-dix-neuf.",
+          "ar": "رقمي هو 06 70 80 44 99.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "numéro,",
+              "رقم"
+            ],
+            [
+              "c'est",
+              "هو"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "zéro six,",
+              "06"
+            ],
+            [
+              "soixante-dix,",
+              "70"
+            ],
+            [
+              "quatre-vingts,",
+              "80"
+            ],
+            [
+              "quarante-quatre,",
+              "44"
+            ],
+            [
+              "quatre-vingt-dix-neuf.",
+              "99"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: اقرأ بصوت عالٍ دون توقف: **77، 84، 91، 98، 100**. ثم سجّل نفسك وقارن مع الإجابة: soixante-dix-sept، quatre-vingt-quatre، quatre-vingt-onze، quatre-vingt-dix-huit، cent."
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "على الوجه رقم: قله بالفرنسية بصوت عالٍ قبل أن تكشف الجواب.",
+      "cards": [
+        {
+          "id": "c20",
+          "front": "20",
+          "say": "vingt",
+          "back_ar": "vingt"
+        },
+        {
+          "id": "c21",
+          "front": "21",
+          "say": "vingt et un",
+          "back_ar": "vingt et un"
+        },
+        {
+          "id": "c22",
+          "front": "22",
+          "say": "vingt-deux",
+          "back_ar": "vingt-deux"
+        },
+        {
+          "id": "c30",
+          "front": "30",
+          "say": "trente",
+          "back_ar": "trente"
+        },
+        {
+          "id": "c40",
+          "front": "40",
+          "say": "quarante",
+          "back_ar": "quarante"
+        },
+        {
+          "id": "c50",
+          "front": "50",
+          "say": "cinquante",
+          "back_ar": "cinquante"
+        },
+        {
+          "id": "c60",
+          "front": "60",
+          "say": "soixante",
+          "back_ar": "soixante"
+        },
+        {
+          "id": "c70",
+          "front": "70",
+          "say": "soixante-dix",
+          "back_ar": "soixante-dix"
+        },
+        {
+          "id": "c71",
+          "front": "71",
+          "say": "soixante et onze",
+          "back_ar": "soixante et onze"
+        },
+        {
+          "id": "c80",
+          "front": "80",
+          "say": "quatre-vingts",
+          "back_ar": "quatre-vingts"
+        },
+        {
+          "id": "c81",
+          "front": "81",
+          "say": "quatre-vingt-un",
+          "back_ar": "quatre-vingt-un"
+        },
+        {
+          "id": "c90",
+          "front": "90",
+          "say": "quatre-vingt-dix",
+          "back_ar": "quatre-vingt-dix"
+        },
+        {
+          "id": "c99",
+          "front": "99",
+          "say": "quatre-vingt-dix-neuf",
+          "back_ar": "quatre-vingt-dix-neuf"
+        },
+        {
+          "id": "c100",
+          "front": "100",
+          "say": "cent",
+          "back_ar": "cent"
+        },
+        {
+          "id": "c75",
+          "front": "75",
+          "say": "soixante-quinze",
+          "back_ar": "soixante-quinze (60 + 15)"
+        },
+        {
+          "id": "c97",
+          "front": "97",
+          "say": "quatre-vingt-dix-sept",
+          "back_ar": "quatre-vingt-dix-sept (4 × 20 + 17)"
+        },
+        {
+          "id": "c-cher",
+          "front": "C'est cher !",
+          "say": "C'est cher !",
+          "back_ar": "هذا غالٍ!"
+        },
+        {
+          "id": "c-combien",
+          "front": "Ça coûte combien ?",
+          "say": "Ça coûte combien ?",
+          "back_ar": "بكم هذا؟"
+        },
+        {
+          "id": "c-prix",
+          "front": "C'est mon dernier prix.",
+          "say": "C'est mon dernier prix.",
+          "back_ar": "هذا آخر سعر عندي."
+        }
+      ]
+    }
+  ]
+}

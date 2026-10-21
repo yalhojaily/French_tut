@@ -61,7 +61,11 @@ export function renderSpelling(unitId: string, s: SpellingSection, onDone: () =>
       }
       checked = true;
       // نوحّد الفواصل العليا والمسافات: l’hôtel = l'hôtel
-      const norm = (t: string) => t.toLowerCase().replace(/[’‘`´]/g, "'").replace(/\s+/g, " ");
+      // ونوحّد كتابة الأرقام: 1 200 = 1200، و 10.50 € = 10,50
+      const norm = (t: string) =>
+        t.toLowerCase().replace(/[’‘`´]/g, "'").replace(/€/g, "").trim()
+          .replace(/(\d)[\s\u00a0\u202f]+(?=\d)/g, "$1").replace(/(\d)\.(\d)/g, "$1,$2")
+          .replace(/\s+/g, " ");
       const exact = norm(given) === norm(item.answer);
       const accentsOnly = !exact && stripAccents(norm(given)) === stripAccents(norm(item.answer));
       if (exact) correct++;

@@ -7,11 +7,13 @@
 - أجزاء الترجمة تكوّن الجملة الفرنسية حرفاً بحرف
 - معرّفات العناصر المسموعة لا تتكرر داخل الوحدة
 - كل وحدة موجودة في خريطة المنهج
+- لا خط عريض على جزء من كلمة فرنسية (يقلب ترتيبها في النص العربي)
 
 يُشغَّل تلقائياً في GitHub Actions قبل النشر، ويمكن تشغيله محلياً:
     python tools/check_content.py
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -68,6 +70,31 @@ for path in sorted((ROOT / "content" / "units").glob("*.json")):
             joined = " ".join(part[0] for part in gloss)
             if joined != line["say"]:
                 errors.append(f"{where}: أجزاء gloss لا تطابق الجملة\n    say:   {line['say']}\n    gloss: {joined}")
+
+# الخط العريض على جزء من كلمة فرنسية (cent**s**) يقلب ترتيبها داخل النص العربي
+BOLD = re.compile(r"\*\*(.+?)\*\*")
+LATIN = re.compile(r"[A-Za-zÀ-ÿœŒ'’‿-]")
+
+
+def strings(node):
+    if isinstance(node, str):
+        yield node
+    elif isinstance(node, list):
+        for x in node:
+            yield from strings(x)
+    elif isinstance(node, dict):
+        for v in node.values():
+            yield from strings(v)
+
+
+for path in sorted((ROOT / "content" / "units").glob("*.json")):
+    for text in strings(json.loads(path.read_text(encoding="utf-8"))):
+        for m in BOLD.finditer(text):
+            before = text[m.start() - 1] if m.start() > 0 else ""
+            after = text[m.end()] if m.end() < len(text) else ""
+            if (LATIN.match(before) or LATIN.match(after)) and LATIN.search(m.group(1)):
+                snippet = text[max(0, m.start() - 12): m.end() + 12]
+                errors.append(f"{path.name}: خط عريض على جزء من كلمة: …{snippet}… (اجعل ** حول الكلمة كاملة)")
 
 if errors:
     print("فشل فحص المحتوى:")

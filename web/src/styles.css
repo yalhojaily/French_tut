@@ -500,3 +500,4 @@ a.station-body:hover { border-color: var(--line); }
   .topbar-actions { gap: 10px; }
 }
 .letter-grid .plaque-letter.long { font-size: 1.2rem; white-space: nowrap; }
+.accent-mark.long { font-size: 1.6rem; }

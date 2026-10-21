@@ -30,7 +30,7 @@ export function renderLetters(unitId: string, s: LettersSection): HTMLElement {
         { class: "detail-example" },
         speakButton(unitId, item.example, { label: `استمع: ${item.example.say}` }),
         fr(item.example.say, "fr example-fr"),
-        h("span", { class: "example-ar" }, item.example.ar),
+        h("span", { class: "example-ar" }, richAr(item.example.ar)),
       ),
     );
     if (item.note_ar) detail.append(h("p", { class: "detail-note" }, richAr(item.note_ar)));
