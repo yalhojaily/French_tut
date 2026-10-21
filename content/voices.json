@@ -3,8 +3,6 @@
   "model_id": "eleven_multilingual_v2",
   "output_format": "mp3_44100_128",
   "slow_speed": 0.75,
-  "generate_slow": false,
-  "_generate_slow": "false: لا تُولَّد نسخ بطيئة جديدة (توفّر نحو ثلث الحروف)، والموقع يبطّئ النسخة العادية بنفسه. النسخ البطيئة الموجودة تبقى.",
   "voice_settings": {
     "stability": 0.6,
     "similarity_boost": 0.8,
