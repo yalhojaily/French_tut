@@ -12,6 +12,10 @@
     "vite": "^8.3.4"
   },
   "dependencies": {
+    "@fontsource/caveat": "^5.3.0",
+    "@fontsource/el-messiri": "^5.3.0",
+    "@fontsource/literata": "^5.3.0",
+    "@fontsource/readex-pro": "^5.3.0",
     "ts-fsrs": "^5.4.2"
   },
   "private": true,

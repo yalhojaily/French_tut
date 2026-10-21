@@ -24,7 +24,7 @@ export function renderReview(): HTMLElement {
           h("p", null, s.total
             ? "ستظهر البطاقات هنا في الوقت المناسب قبل أن تنساها. عد لاحقاً."
             : "أضف بطاقات من قسم «البطاقات» في آخر كل وحدة."),
-          h("a", { class: "btn ghost", href: "#/" }, "خريطة المنهج"),
+          h("a", { class: "btn ghost", href: "#/" }, "كل المراحل"),
         ),
       );
       return;
@@ -77,7 +77,7 @@ export function renderReview(): HTMLElement {
   return h(
     "main",
     { class: "review" },
-    h("nav", { class: "crumbs" }, h("a", { href: "#/" }, "خريطة المنهج")),
+    h("nav", { class: "crumbs" }, h("a", { href: "#/" }, "كل المراحل")),
     h("h1", null, "المراجعة"),
     counter,
     stage,

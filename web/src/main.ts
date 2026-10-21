@@ -1,3 +1,13 @@
+import "@fontsource/readex-pro/400.css";
+import "@fontsource/readex-pro/500.css";
+import "@fontsource/readex-pro/600.css";
+import "@fontsource/el-messiri/600.css";
+import "@fontsource/el-messiri/700.css";
+import "@fontsource/literata/400.css";
+import "@fontsource/literata/400-italic.css";
+import "@fontsource/literata/600.css";
+import "@fontsource/caveat/500.css";
+import "@fontsource/caveat/700.css";
 import "./styles.css";
 import { getSource, loadManifest, setSource, stop } from "./audio";
 import { clear, h } from "./dom";
@@ -26,7 +36,7 @@ const header = h(
   "div",
   { class: "topbar" },
   h("a", { href: "#/", class: "brand" },
-    h("span", { class: "brand-plaque", lang: "fr", dir: "ltr" }, "Fr"),
+    h("span", { class: "brand-mark", lang: "fr", dir: "ltr", "aria-hidden": "true" }, "Fr"),
     h("span", null, "الفرنسية من الصفر"),
   ),
   h("div", { class: "topbar-actions" }, sourceBtn, reviewLink),

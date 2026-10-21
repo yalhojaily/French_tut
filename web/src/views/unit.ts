@@ -11,6 +11,7 @@ import { renderListen } from "../sections/listen";
 import { renderShadowing } from "../sections/shadowing";
 import { renderSpelling } from "../sections/spelling";
 import { renderVocab } from "../sections/vocab";
+import { artUrl, sceneOf, stageStyle } from "../scenes";
 import { getProgress, markSectionDone } from "../store";
 import type { Section, Unit } from "../types";
 
@@ -55,7 +56,7 @@ export function renderUnit(unitId: string, step: number): HTMLElement {
   if (!unit || !meta) {
     return h("main", { class: "unit missing" },
       h("p", null, "هذه الوحدة لم تُكتب بعد. "),
-      h("a", { href: "#/" }, "ارجع إلى خريطة المنهج"),
+      h("a", { href: "#/" }, "ارجع إلى كل المراحل"),
     );
   }
 
@@ -117,17 +118,24 @@ export function renderUnit(unitId: string, step: number): HTMLElement {
       )
     : null;
 
+  const scene = sceneOf(meta.stage.id);
+
   return h(
     "main",
-    { class: "unit" },
-    h("nav", { class: "crumbs" }, h("a", { href: `#/` }, "خريطة المنهج"), " / ", meta.stage.name_ar),
+    { class: "unit", style: stageStyle(meta.stage.id) },
     h(
       "header",
-      { class: "unit-head" },
-      h("span", { class: "plaque plaque-code", lang: "fr", dir: "ltr" }, unitCode(unit.id)),
-      h("div", null,
-        h("h1", { class: "unit-fr", lang: "fr", dir: "ltr" }, unit.title_fr),
-        h("p", { class: "unit-ar" }, unit.title_ar),
+      { class: "unit-banner" },
+      h("img", { class: "banner-art", src: artUrl(scene.img), alt: "", width: "800", height: "560" }),
+      h("nav", { class: "crumbs" }, h("a", { href: `#/` }, "كل المراحل"), " / ", meta.stage.name_ar),
+      h(
+        "div",
+        { class: "unit-head" },
+        h("span", { class: "stamp big", lang: "fr", dir: "ltr" }, unitCode(unit.id)),
+        h("div", null,
+          h("h1", { class: "unit-fr", lang: "fr", dir: "ltr" }, unit.title_fr),
+          h("p", { class: "unit-ar" }, unit.title_ar),
+        ),
       ),
     ),
     audioNote,
