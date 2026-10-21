@@ -100,7 +100,8 @@ def collect_items(unit: dict, cfg: dict) -> list[Item]:
                 sys.exit(f"معرّف مكرر في {unit_id}: {node['id']}")
             seen.add(key)
             items.append(Item(key, node["say"], voice, 1.0))
-            if node.get("slow"):
+            # النسخة البطيئة اختيارية: بدونها يبطّئ الموقع النسخة العادية في المتصفح
+            if node.get("slow") and cfg.get("generate_slow", True):
                 items.append(Item(key + "@slow", node["say"], voice, slow_speed))
 
         for value in node.values():
@@ -262,6 +263,10 @@ def cmd_build(args):
     valid_keys = {p[0].key for p in plan}
     for key in list(manifest):
         if key.split(":")[0] in processed_units and key not in valid_keys:
+            # نسخة بطيئة موجودة مسبقاً تبقى ما دام عنصرها الأصلي موجوداً ونصه لم يتغير
+            base = key.removesuffix("@slow")
+            if key.endswith("@slow") and base in manifest and manifest[base]["text"] == manifest[key]["text"]:
+                continue
             del manifest[key]
     MANIFEST_FILE.write_text(json.dumps(manifest, ensure_ascii=False, indent=0), encoding="utf-8")
 
