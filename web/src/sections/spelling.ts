@@ -60,8 +60,10 @@ export function renderSpelling(unitId: string, s: SpellingSection, onDone: () =>
         return;
       }
       checked = true;
-      const exact = given.toLowerCase() === item.answer.toLowerCase();
-      const accentsOnly = !exact && stripAccents(given.toLowerCase()) === stripAccents(item.answer.toLowerCase());
+      // نوحّد الفواصل العليا والمسافات: l’hôtel = l'hôtel
+      const norm = (t: string) => t.toLowerCase().replace(/[’‘`´]/g, "'").replace(/\s+/g, " ");
+      const exact = norm(given) === norm(item.answer);
+      const accentsOnly = !exact && stripAccents(norm(given)) === stripAccents(norm(item.answer));
       if (exact) correct++;
       feedback.className = `feedback ${exact ? "ok" : "no"}`;
       feedback.replaceChildren(

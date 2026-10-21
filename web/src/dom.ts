@@ -47,8 +47,8 @@ export function fr(text: string, cls = "fr"): HTMLSpanElement {
 
 // مقطع لاتيني متصل داخل نص عربي (كلمة فرنسية أو أكثر)
 // (يشمل رموز النطق الدولية IPA وعلامتي التنصيص الفرنسيتين « »)
-const L = "A-Za-zÀ-ÿœŒ\\u0250-\\u02AF\\u0300-\\u036F\\u02D0\\[\\]";
-const LATIN_RUN = new RegExp(`((?:«\\s?)?[${L}](?:[${L}'’ ,.?!…/-]*[${L}?!])?(?:\\s?»)?)`);
+const L = "A-Za-zÀ-ÿœŒ\\u0250-\\u02AF\\u0300-\\u036F\\u02D0\\u203F\\[\\]";
+const LATIN_RUN = new RegExp(`((?:«\\s?)?[${L}](?:[${L}'’ ,.?!…/-]*[${L}?!'’])?(?:\\s?»)?)`);
 
 /** نص عربي فيه **خط عريض** وكلمات فرنسية: يُبنى كعناصر DOM (لا حقن HTML) */
 export function richAr(text: string): HTMLSpanElement {

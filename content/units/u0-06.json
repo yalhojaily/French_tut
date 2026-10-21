@@ -1,0 +1,212 @@
+{
+  "id": "u0-06",
+  "stage": "0",
+  "title_fr": "Lettres muettes, liaison et élision",
+  "title_ar": "الحروف الصامتة والوصل والحذف",
+  "goals_ar": [
+    "تعرف أي الحروف **لا تُنطق** في آخر الكلمة: petit «پُتي»، grand «گغون»",
+    "تعرف أن **-ent** في آخر الأفعال صامتة: ils parlent «إيل پارل»",
+    "تصل الكلمات كما يفعل الفرنسيون: les amis «ليزامي» (**liaison**)",
+    "تحذف حرف العلة قبل حرف علة آخر: le hôtel ← **l'hôtel** (**élision**)",
+    "تسمع الفرق بين **ils ont** (عندهم) و **ils sont** (هم يكونون)"
+  ],
+  "intro_ar": [
+    "لماذا يبدو الفرنسي سريعاً وكأنه كلمة واحدة طويلة؟ لسببين: **حروف كثيرة لا تُنطق**، و**الكلمات تلتصق ببعضها**. هذه الوحدة تفكّ اللغز.",
+    "**الحروف الصامتة:** معظم الحروف الساكنة في آخر الكلمة لا تُنطق: s، t، d، x، z، p. والقاعدة المساعدة: الحروف التي **تُنطق** غالباً في الآخر هي **c، r، f، l** (تذكّرها بكلمة **CaReFuL**): avec، sac، neuf، hôtel.",
+    "**الوصل (liaison):** الحرف الصامت في آخر الكلمة **يستيقظ** إذا جاءت بعده كلمة تبدأ بحرف علة: les (لي) + amis (آمي) = «ليزامي». الـ s صارت «ز» وانتقلت إلى الكلمة التالية.",
+    "**الحذف (élision):** الفرنسية تكره حرفي علة متتاليين، فتحذف الأول وتضع مكانه فاصلة عليا: le + hôtel = **l'hôtel**، je + habite = **j'habite**."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: جارة جديدة",
+      "context_ar": "يوسف انتقل إلى شقة جديدة، وجارته تتعرّف عليه في المصعد. استمع للوصل: vous‿êtes، vous‿avez، deux‿enfants، ils‿ont، huit‿ans، mes‿amis.",
+      "speakers": {
+        "A": { "name_ar": "الجارة", "voice": "female" },
+        "B": { "name_ar": "يوسف", "voice": "male" }
+      },
+      "lines": [
+        { "id": "d1", "speaker": "A", "say": "Bonjour ! Vous êtes nouveau ici ?", "ar": "مرحباً! هل أنت جديد هنا؟", "slow": true,
+          "gloss": [["Bonjour !", "مرحباً"], ["Vous", "حضرتك"], ["êtes", "تكون"], ["nouveau", "جديد"], ["ici ?", "هنا"]] },
+        { "id": "d2", "speaker": "B", "say": "Oui, j'habite au troisième étage.", "ar": "نعم، أسكن في الطابق الثالث.", "slow": true,
+          "gloss": [["Oui,", "نعم"], ["j'habite", "أسكن"], ["au", "في الـ"], ["troisième", "ثالث"], ["étage.", "طابق"]] },
+        { "id": "d3", "speaker": "A", "say": "Ah, très bien ! Vous avez des enfants ?", "ar": "آه، جيد جداً! هل عندك أطفال؟", "slow": true,
+          "gloss": [["Ah,", "آه"], ["très bien !", "جيد جداً"], ["Vous", "حضرتك"], ["avez", "عندك"], ["des", "(جمع نكرة)"], ["enfants ?", "أطفال"]] },
+        { "id": "d4", "speaker": "B", "say": "Oui, deux enfants. Ils ont huit ans et dix ans.", "ar": "نعم، طفلان. عمرهما ثماني سنوات وعشر سنوات.", "slow": true,
+          "gloss": [["Oui,", "نعم"], ["deux", "اثنان"], ["enfants.", "أطفال"], ["Ils", "هم"], ["ont", "عندهم"], ["huit", "ثماني"], ["ans", "سنوات"], ["et", "و"], ["dix", "عشر"], ["ans.", "سنوات"]] },
+        { "id": "d5", "speaker": "A", "say": "Mes amis ont aussi un petit garçon.", "ar": "أصدقائي عندهم أيضاً ولد صغير.", "slow": true,
+          "gloss": [["Mes", "ـي (جمع)"], ["amis", "أصدقاء"], ["ont", "عندهم"], ["aussi", "أيضاً"], ["un", "(نكرة)"], ["petit", "صغير"], ["garçon.", "ولد"]] },
+        { "id": "d6", "speaker": "B", "say": "Ah oui ? C'est une bonne idée de les inviter !", "ar": "حقاً؟ فكرة جيدة أن ندعوهم!", "slow": true,
+          "gloss": [["Ah oui ?", "حقاً"], ["C'est", "هذه"], ["une", "(نكرة)"], ["bonne", "جيدة"], ["idée", "فكرة"], ["de les inviter !", "أن ندعوهم"]] },
+        { "id": "d7", "speaker": "A", "say": "Avec plaisir. À bientôt !", "ar": "بكل سرور. إلى اللقاء قريباً!", "slow": true,
+          "gloss": [["Avec plaisir.", "بكل سرور"], ["À bientôt !", "إلى اللقاء قريباً"]] }
+      ],
+      "tip_ar": "في **ils ont huit ans** ثلاثة وصلات متتالية: «إيلزون ويتان». والـ **x** في **dix ans** تُنطق «ز»: «ديزان». بدون الوصل تبدو الجملة متقطعة وأجنبية."
+    },
+    {
+      "type": "letters",
+      "key": "silent",
+      "short_ar": "الصامتة",
+      "title_ar": "الحروف الصامتة في آخر الكلمة",
+      "hint_ar": "كل لوحة حرف أو مقطع في **آخر** الكلمة. اضغط لتسمع كلمة مثالاً، ولاحظ أن الحرف الأخير لا يُسمع. اللوحتان المعلّمتان بنقطة حمراء استثناءات مهمة.",
+      "play_all_ar": "استمع لكل الأمثلة",
+      "items": [
+        { "id": "m-s", "letter": "-s", "say": "Paris", "ipa": "–", "ar_hint": "صامت", "example": { "id": "w-francais", "say": "français", "ar": "فرنسي" }, "note_ar": "الـ s في آخر الكلمة لا تُنطق، ولا حتى في الجمع: **les livres** تُنطق مثل le livre تقريباً، والفرق في «لي» و «لُ» فقط." },
+        { "id": "m-t", "letter": "-t", "say": "petit", "ipa": "–", "ar_hint": "صامت", "example": { "id": "w-chocolat", "say": "chocolat", "ar": "شوكولاتة" }, "note_ar": "petit «پُتي»، chocolat «شوكولا». لكن في المؤنث يُضاف e فيظهر الحرف: **petite** «پُتيت»." },
+        { "id": "m-d", "letter": "-d", "say": "grand", "ipa": "–", "ar_hint": "صامت", "example": { "id": "w-froid", "say": "froid", "ar": "بارد" }, "note_ar": "grand «گغون»، froid «فغوا». ومؤنثهما يُظهر الحرف: **grande**، **froide**." },
+        { "id": "m-x", "letter": "-x / -z", "say": "deux", "ipa": "–", "ar_hint": "صامت", "example": { "id": "w-nez", "say": "nez", "ar": "أنف" }, "note_ar": "deux «دُو»، prix «پغي»، nez «نيه». استثناء: **six** و **dix** حين تأتيان وحدهما تُنطق فيهما «س»." },
+        { "id": "m-e", "letter": "-e", "say": "table", "ipa": "–", "ar_hint": "صامت", "example": { "id": "w-porte", "say": "porte", "ar": "باب" }, "note_ar": "الـ e في آخر الكلمة لا تُنطق، **لكنها تجعل الحرف الذي قبلها يُنطق**: petit (پُتي) ← petite (پُتيت)." },
+        { "id": "m-er", "letter": "-er", "say": "parler", "ipa": "e", "ar_hint": "«إيه» والـ r صامتة", "example": { "id": "w-boulanger", "say": "boulanger", "ar": "خبّاز" }, "tricky": true, "note_ar": "الـ r عادة تُنطق (CaReFuL)، **إلا** في **-er**: في الأفعال (parler، manger) وكثير من الأسماء (boulanger، premier) تُنطق «إيه» فقط. لكن في كلمات قصيرة تُنطق: mer، fer، hiver." },
+        { "id": "m-ent", "letter": "-ent", "say": "ils parlent", "ipa": "–", "ar_hint": "صامتة كلها", "example": { "id": "w-ils-mangent", "say": "ils mangent", "ar": "هم يأكلون" }, "tricky": true, "note_ar": "في آخر **الأفعال** مع ils/elles، المقطع **-ent** كله صامت: ils parlent «إيل پارل». لكن في الأسماء والصفات يُنطق أنفياً: **le vent** (الريح)، **lent**." },
+        { "id": "m-crfl", "letter": "c r f l", "say": "avec", "ipa": "k ʁ f l", "ar_hint": "تُنطق!", "example": { "id": "w-hotel", "say": "hôtel", "ar": "فندق" }, "note_ar": "**CaReFuL:** هذه الحروف الأربعة **تُنطق** غالباً في الآخر: avec، sac، bonjour، neuf، hôtel، avril." },
+        { "id": "m-h", "letter": "h", "say": "homme", "ipa": "–", "ar_hint": "صامت دائماً", "example": { "id": "w-heure", "say": "heure", "ar": "ساعة" }, "note_ar": "حرف h لا يُنطق أبداً، في أول الكلمة أو وسطها. لكن بعض الكلمات تبدأ بـ **h aspiré** فتمنع الوصل والحذف (انظر القسم التالي)." }
+      ]
+    },
+    {
+      "type": "accents",
+      "key": "liaison",
+      "short_ar": "الوصل",
+      "title_ar": "الوصل والحذف",
+      "hint_ar": "في كل مجموعة اقرأ الأمثلة بصوت عالٍ وأنت تصل الكلمات، ثم استمع وقارن. علامة ‿ تعني: صِل هنا.",
+      "items": [
+        {
+          "id": "l-z", "mark": "s x ‿ z", "name_fr": "les‿amis", "say": "les amis.", "name_ar": "s و x تصبحان «ز»",
+          "effect_ar": "أشهر وصل: الحرف الصامت s أو x يُنطق **«ز»** إذا جاءت بعده كلمة تبدأ بحرف علة أو h صامت. **les‿amis** «ليزامي»، **vous‿avez** «ڤوزاڤيه»، **deux‿enfants** «دُوزونفون».",
+          "examples": [
+            { "id": "w-les-amis", "say": "les amis", "ar": "الأصدقاء" },
+            { "id": "w-vous-avez", "say": "vous avez", "ar": "عندكم" },
+            { "id": "w-deux-enfants", "say": "deux enfants", "ar": "طفلان" },
+            { "id": "w-trois-heures", "say": "trois heures", "ar": "الساعة الثالثة" }
+          ]
+        },
+        {
+          "id": "l-n", "mark": "n ‿", "name_fr": "un‿ami", "say": "un ami.", "name_ar": "النون تظهر",
+          "effect_ar": "الصوت الأنفي يبقى أنفياً، لكن **تظهر نون** تصله بالكلمة التالية: **un‿ami** «أنْنامي»، **on‿a** «أونْنا»، **mon‿enfant**.",
+          "examples": [
+            { "id": "w-un-ami", "say": "un ami", "ar": "صديق" },
+            { "id": "w-on-a", "say": "on a", "ar": "عندنا" },
+            { "id": "w-mon-enfant", "say": "mon enfant", "ar": "طفلي" },
+            { "id": "w-en-avion", "say": "en avion", "ar": "بالطائرة" }
+          ]
+        },
+        {
+          "id": "l-t", "mark": "t d ‿ t", "name_fr": "petit‿ami", "say": "un petit ami.", "name_ar": "t و d تصبحان «ت»",
+          "effect_ar": "**c'est‿un** «سيتأن»، **huit‿ans** «ويتان»، **quand‿il** «كونتيل» (الـ d تُنطق «ت»). وتنبيه مهم: **et** لا توصل أبداً: un garçon et | une fille.",
+          "examples": [
+            { "id": "w-cest-un", "say": "c'est un", "ar": "إنه / هذا" },
+            { "id": "w-huit-ans", "say": "huit ans", "ar": "ثماني سنوات" },
+            { "id": "w-petit-ami", "say": "un petit ami", "ar": "صديق (حبيب)" },
+            { "id": "w-quand-il", "say": "quand il", "ar": "عندما هو" }
+          ]
+        },
+        {
+          "id": "l-elision", "mark": "l' j' d'", "name_fr": "l'élision", "say": "l'hôtel, j'habite, c'est.", "name_ar": "الحذف",
+          "effect_ar": "حرف العلة في الكلمات القصيرة يُحذف قبل حرف علة أو h صامت، وتحل محله فاصلة عليا. le و la تصبحان **l'**، و je تصبح **j'**، و de تصبح **d'**، و ne تصبح **n'**، و que تصبح **qu'**، و ce تصبح **c'**. هذا **إجباري** في الكتابة والنطق.",
+          "examples": [
+            { "id": "w-lhotel", "say": "l'hôtel", "ar": "الفندق" },
+            { "id": "w-lecole", "say": "l'école", "ar": "المدرسة" },
+            { "id": "w-jhabite", "say": "j'habite", "ar": "أسكن" },
+            { "id": "w-daccord", "say": "d'accord", "ar": "موافق" },
+            { "id": "w-cest", "say": "c'est", "ar": "هذا / إنه" }
+          ]
+        },
+        {
+          "id": "l-h", "mark": "h", "name_fr": "l'homme / le héros", "say": "l'homme, le héros.", "name_ar": "نوعان من h",
+          "effect_ar": "الاثنان لا يُنطقان. لكن **h muet** يسمح بالوصل والحذف (**l'homme**، les‿hommes)، و **h aspiré** يمنعهما (**le héros**، les | héros). لا توجد قاعدة: تُحفظ مع الكلمة، والقواميس تعلّمها بنجمة *.",
+          "examples": [
+            { "id": "w-lhomme", "say": "l'homme", "ar": "الرجل" },
+            { "id": "w-les-hommes", "say": "les hommes", "ar": "الرجال" },
+            { "id": "w-le-heros", "say": "le héros", "ar": "البطل" },
+            { "id": "w-les-heros", "say": "les héros", "ar": "الأبطال" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: هل سمعت وصلاً؟",
+      "hint_ar": "عبارتان تختلفان في الوصل فقط، والمعنى يتغيّر تماماً. استمع لصوت «ز» أو «س» بين الكلمتين.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر العبارة",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار بين عبارتين.",
+      "items": [
+        { "id": "q-ils-ont", "say": "ils ont", "options": ["ils ont", "ils sont"], "answer": "ils ont", "explain_ar": "ils‿ont «إيلزون» (عندهم): سمعت «ز» = وصل." },
+        { "id": "q-ils-sont", "say": "ils sont", "options": ["ils ont", "ils sont"], "answer": "ils sont", "explain_ar": "ils sont «إيل سون» (هم يكونون): سمعت «س» حقيقية." },
+        { "id": "q-elles-ont", "say": "elles ont", "options": ["elles ont", "elles sont"], "answer": "elles ont", "explain_ar": "elles‿ont «إيلزون»: «ز» = عندهنّ." },
+        { "id": "q-heros", "say": "les héros", "options": ["les héros", "les zéros"], "answer": "les héros", "explain_ar": "les héros (الأبطال): لا وصل بسبب h aspiré. ولو وصلت لقلت les zéros (الأصفار)!" },
+        { "id": "q-zeros", "say": "les zéros", "options": ["les héros", "les zéros"], "answer": "les zéros", "explain_ar": "les zéros: سمعت «ز» واضحة." },
+        { "id": "q-deux-ans", "say": "deux ans", "options": ["deux ans", "deux cents"], "answer": "deux ans", "explain_ar": "deux‿ans «دُوزان» (سنتان): الـ x صارت «ز»." },
+        { "id": "q-deux-cents", "say": "deux cents", "options": ["deux ans", "deux cents"], "answer": "deux cents", "explain_ar": "deux cents «دُو سان» (مئتان): «س» حقيقية." },
+        { "id": "q-lete", "say": "l'été", "options": ["l'été", "les étés"], "answer": "l'été", "explain_ar": "l'été «ليتيه» (الصيف): لا «ز»." },
+        { "id": "q-les-etes", "say": "les étés", "options": ["l'été", "les étés"], "answer": "les étés", "explain_ar": "les‿étés «ليزيتيه»: «ز» = جمع." },
+        { "id": "q-nous-avons", "say": "nous avons", "options": ["nous avons", "nous savons"], "answer": "nous avons", "explain_ar": "nous‿avons «نوزاڤون» (عندنا): «ز». أما nous savons (نعرف) فـ «س»." }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب ما تسمعه",
+      "hint_ar": "انتبه للحروف التي **لا تسمعها** لكنها تُكتب، وللفاصلة العليا في الحذف ( ' ).",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "في الفرنسية تكتب أكثر مما تسمع. القاعدة المفيدة: إذا عرفت المؤنث (petite، grande) عرفت الحرف الصامت في المذكر.",
+      "items": [
+        { "id": "s-petit", "say": "petit", "answer": "petit", "ar": "صغير" },
+        { "id": "s-grand", "say": "grand", "answer": "grand", "ar": "كبير" },
+        { "id": "s-lhotel", "say": "l'hôtel", "answer": "l'hôtel", "ar": "الفندق" },
+        { "id": "s-beaucoup", "say": "beaucoup", "answer": "beaucoup", "ar": "كثيراً" },
+        { "id": "s-les-amis", "say": "les amis", "answer": "les amis", "ar": "الأصدقاء" },
+        { "id": "s-ils-parlent", "say": "ils parlent", "answer": "ils parlent", "ar": "هم يتكلمون" },
+        { "id": "s-daccord", "say": "d'accord", "answer": "d'accord", "ar": "موافق" },
+        { "id": "s-trop", "say": "trop", "answer": "trop", "ar": "أكثر من اللازم" }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "ركّز على الوصل: لا تتوقف بين الكلمات المتصلة. قل الجملة كأنها كلمة واحدة طويلة.",
+      "items": [
+        { "id": "sh-1", "say": "Vous avez des enfants ?", "ar": "هل عندك أطفال؟", "slow": true, "voice": "female",
+          "gloss": [["Vous", "حضرتك"], ["avez", "عندك"], ["des", "(جمع نكرة)"], ["enfants ?", "أطفال"]] },
+        { "id": "sh-2", "say": "Ils ont deux enfants.", "ar": "عندهم طفلان.", "slow": true, "voice": "male",
+          "gloss": [["Ils", "هم"], ["ont", "عندهم"], ["deux", "اثنان"], ["enfants.", "أطفال"]] },
+        { "id": "sh-3", "say": "J'habite à l'hôtel.", "ar": "أسكن في الفندق.", "slow": true, "voice": "male",
+          "gloss": [["J'habite", "أسكن"], ["à", "في"], ["l'hôtel.", "الفندق"]] },
+        { "id": "sh-4", "say": "C'est un petit hôtel.", "ar": "إنه فندق صغير.", "slow": true, "voice": "female",
+          "gloss": [["C'est", "هذا"], ["un", "(نكرة)"], ["petit", "صغير"], ["hôtel.", "فندق"]] },
+        { "id": "sh-5", "say": "Les amis arrivent à huit heures.", "ar": "الأصدقاء يصلون الساعة الثامنة.", "slow": true, "voice": "female",
+          "gloss": [["Les", "الـ"], ["amis", "أصدقاء"], ["arrivent", "يصلون"], ["à", "في"], ["huit", "الثامنة"], ["heures.", "الساعة"]] }
+      ],
+      "task_ar": "تحدٍّ: اقرأ هذه الجملة بكل وصلاتها ثم سجّل نفسك: **Mes amis ont un grand appartement.** (الوصلات: mes‿amis بـ «ز»، و grand‿appartement بـ «ت»)."
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "انطق كل بطاقة بوصلاتها قبل أن تستمع: هل وصلت حيث يجب؟",
+      "cards": [
+        { "id": "c-ils-ont", "front": "ils ont / ils sont", "say": "ils ont, ils sont", "back_ar": "عندهم / هم يكونون (ز أم س)" },
+        { "id": "c-les-amis", "front": "les amis", "say": "les amis", "back_ar": "الأصدقاء «ليزامي»" },
+        { "id": "c-un-ami", "front": "un ami / une amie", "say": "un ami, une amie", "back_ar": "صديق / صديقة" },
+        { "id": "c-vous-avez", "front": "Vous avez… ?", "say": "Vous avez… ?", "back_ar": "هل عندك…؟" },
+        { "id": "c-deux-enfants", "front": "deux enfants", "say": "deux enfants", "back_ar": "طفلان" },
+        { "id": "c-lhotel", "front": "l'hôtel", "say": "l'hôtel", "back_ar": "الفندق (h صامت + حذف)" },
+        { "id": "c-lhomme", "front": "l'homme", "say": "l'homme", "back_ar": "الرجل" },
+        { "id": "c-le-heros", "front": "le héros", "say": "le héros", "back_ar": "البطل (h aspiré: لا حذف ولا وصل)" },
+        { "id": "c-jhabite", "front": "j'habite", "say": "j'habite", "back_ar": "أسكن" },
+        { "id": "c-petit", "front": "petit / petite", "say": "petit, petite", "back_ar": "صغير / صغيرة" },
+        { "id": "c-grand", "front": "grand / grande", "say": "grand, grande", "back_ar": "كبير / كبيرة" },
+        { "id": "c-ils-parlent", "front": "ils parlent", "say": "ils parlent", "back_ar": "هم يتكلمون (-ent صامتة)" },
+        { "id": "c-avec", "front": "avec", "say": "avec", "back_ar": "مع (c تُنطق)" },
+        { "id": "c-daccord", "front": "d'accord", "say": "d'accord", "back_ar": "موافق / حسناً" },
+        { "id": "c-nouveau", "front": "nouveau / nouvelle", "say": "nouveau, nouvelle", "back_ar": "جديد / جديدة" },
+        { "id": "c-etage", "front": "l'étage", "say": "l'étage", "back_ar": "الطابق" },
+        { "id": "c-plaisir", "front": "Avec plaisir.", "say": "Avec plaisir.", "back_ar": "بكل سرور." },
+        { "id": "c-bientot", "front": "À bientôt !", "say": "À bientôt !", "back_ar": "إلى اللقاء قريباً!" }
+      ]
+    }
+  ]
+}
