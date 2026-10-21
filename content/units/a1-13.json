@@ -1,0 +1,1217 @@
+{
+  "id": "a1-13",
+  "stage": "A1",
+  "title_fr": "En ville",
+  "title_ar": "في المدينة",
+  "goals_ar": [
+    "تسأل عن الطريق بأدب: **Excusez-moi, où est la poste ?**",
+    "تفهم الإرشادات وتعطيها بصيغة الأمر: **Tournez à gauche. Continuez tout droit.**",
+    "تحدد المكان: **à côté de، en face de، entre**",
+    "تميّز **à droite** (يميناً) من **tout droit** (مستقيماً)"
+  ],
+  "intro_ar": [
+    "**صيغة الأمر** في الفرنسية سهلة: خذ تصريف الحاضر واحذف الضمير. vous tournez (تنعطفون) تصير **Tournez !** (انعطف!). ومع الغرباء استعمل دائماً صيغة vous.",
+    "ومع tu تُحذف s من أفعال er: tu tournes تصير **Tourne !**",
+    "**انتبه لفخّين:** **à droite** (يميناً) و **tout droit** (مستقيماً) متقاربتان جداً في الصوت. و **en face de** تعني «مقابل»."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: أين البريد؟",
+      "context_ar": "يوسف يسأل امرأة في الشارع عن مكتب البريد. كل إرشاداتها بصيغة الأمر.",
+      "speakers": {
+        "A": {
+          "name_ar": "امرأة في الشارع",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "B",
+          "say": "Excusez-moi, madame. Où est la poste, s'il vous plaît ?",
+          "ar": "عفواً سيدتي. أين مكتب البريد من فضلك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Excusez-moi,",
+              "عفواً"
+            ],
+            [
+              "madame.",
+              "سيدتي"
+            ],
+            [
+              "Où",
+              "أين"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "poste,",
+              "بريد"
+            ],
+            [
+              "s'il vous plaît ?",
+              "من فضلك"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "A",
+          "say": "La poste ? C'est près d'ici. Continuez tout droit jusqu'au feu.",
+          "ar": "البريد؟ إنه قريب من هنا. استمر مستقيماً حتى الإشارة.",
+          "slow": true,
+          "gloss": [
+            [
+              "La",
+              "الـ"
+            ],
+            [
+              "poste ?",
+              "بريد"
+            ],
+            [
+              "C'est",
+              "إنه"
+            ],
+            [
+              "près d'ici.",
+              "قريب من هنا"
+            ],
+            [
+              "Continuez",
+              "استمر"
+            ],
+            [
+              "tout droit",
+              "مستقيماً"
+            ],
+            [
+              "jusqu'au",
+              "حتى الـ"
+            ],
+            [
+              "feu.",
+              "إشارة المرور"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "B",
+          "say": "Jusqu'au feu, d'accord. Et après ?",
+          "ar": "حتى الإشارة، حسناً. وبعد ذلك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Jusqu'au",
+              "حتى الـ"
+            ],
+            [
+              "feu,",
+              "إشارة"
+            ],
+            [
+              "d'accord.",
+              "حسناً"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "après ?",
+              "بعد ذلك"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "A",
+          "say": "Au feu, tournez à droite et traversez la rue.",
+          "ar": "عند الإشارة، انعطف يميناً واعبر الشارع.",
+          "slow": true,
+          "gloss": [
+            [
+              "Au",
+              "عند الـ"
+            ],
+            [
+              "feu,",
+              "إشارة"
+            ],
+            [
+              "tournez",
+              "انعطف"
+            ],
+            [
+              "à droite",
+              "يميناً"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "traversez",
+              "اعبر"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "rue.",
+              "شارع"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "B",
+          "say": "À droite, puis je traverse. C'est loin ?",
+          "ar": "يميناً، ثم أعبر. هل هو بعيد؟",
+          "slow": true,
+          "gloss": [
+            [
+              "À droite,",
+              "يميناً"
+            ],
+            [
+              "puis",
+              "ثم"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "traverse.",
+              "أعبر"
+            ],
+            [
+              "C'est",
+              "هل هو"
+            ],
+            [
+              "loin ?",
+              "بعيد"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "A",
+          "say": "Non, cinq minutes à pied. La poste est en face de la pharmacie.",
+          "ar": "لا، خمس دقائق مشياً. البريد مقابل الصيدلية.",
+          "slow": true,
+          "gloss": [
+            [
+              "Non,",
+              "لا"
+            ],
+            [
+              "cinq",
+              "5"
+            ],
+            [
+              "minutes",
+              "دقائق"
+            ],
+            [
+              "à pied.",
+              "مشياً"
+            ],
+            [
+              "La",
+              "الـ"
+            ],
+            [
+              "poste",
+              "بريد"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "en face de",
+              "مقابل"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "pharmacie.",
+              "صيدلية"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "B",
+          "say": "En face de la pharmacie… et à côté de la banque ?",
+          "ar": "مقابل الصيدلية… وبجانب البنك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "En face de",
+              "مقابل"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "pharmacie…",
+              "صيدلية"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "à côté de",
+              "بجانب"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "banque ?",
+              "بنك"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "A",
+          "say": "Exactement ! Entre la banque et le café.",
+          "ar": "تماماً! بين البنك والمقهى.",
+          "slow": true,
+          "gloss": [
+            [
+              "Exactement !",
+              "تماماً"
+            ],
+            [
+              "Entre",
+              "بين"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "banque",
+              "بنك"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "café.",
+              "مقهى"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "B",
+          "say": "Merci beaucoup, madame. Bonne journée !",
+          "ar": "شكراً جزيلاً سيدتي. يوماً سعيداً!",
+          "slow": true,
+          "gloss": [
+            [
+              "Merci beaucoup,",
+              "شكراً جزيلاً"
+            ],
+            [
+              "madame.",
+              "سيدتي"
+            ],
+            [
+              "Bonne journée !",
+              "يوماً سعيداً"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "كل إرشادات المرأة بصيغة الأمر مع vous: **Continuez، tournez، traversez**. ولاحظ **jusqu'au feu**: jusqu'à مع le تُدمج أيضاً فتصير jusqu'au."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "الاتجاهات، ومواقع الأماكن، والمعالم، وعبارات الأدب مع الغرباء.",
+      "groups": [
+        {
+          "title_ar": "الاتجاهات",
+          "items": [
+            {
+              "id": "v-droite",
+              "say": "à droite",
+              "ar": "يميناً"
+            },
+            {
+              "id": "v-gauche",
+              "say": "à gauche",
+              "ar": "يساراً"
+            },
+            {
+              "id": "v-toutdroit",
+              "say": "tout droit",
+              "ar": "مستقيماً",
+              "note_ar": "لا تخلطها مع à droite: «تو دغوا» مقابل «أ دغوات»."
+            },
+            {
+              "id": "v-tourner",
+              "say": "tourner",
+              "ar": "ينعطف"
+            },
+            {
+              "id": "v-continuer",
+              "say": "continuer",
+              "ar": "يستمر"
+            },
+            {
+              "id": "v-traverser",
+              "say": "traverser",
+              "ar": "يعبر"
+            },
+            {
+              "id": "v-jusqua",
+              "say": "jusqu'à",
+              "ar": "حتى"
+            },
+            {
+              "id": "v-carrefour",
+              "say": "le carrefour",
+              "ar": "التقاطع"
+            },
+            {
+              "id": "v-feu",
+              "say": "le feu",
+              "ar": "إشارة المرور"
+            },
+            {
+              "id": "v-rue",
+              "say": "la rue",
+              "ar": "الشارع"
+            }
+          ]
+        },
+        {
+          "title_ar": "أين يقع؟",
+          "items": [
+            {
+              "id": "v-cote",
+              "say": "à côté de",
+              "ar": "بجانب"
+            },
+            {
+              "id": "v-face",
+              "say": "en face de",
+              "ar": "مقابل"
+            },
+            {
+              "id": "v-entre",
+              "say": "entre",
+              "ar": "بين"
+            },
+            {
+              "id": "v-pres",
+              "say": "près de",
+              "ar": "قرب"
+            },
+            {
+              "id": "v-loin",
+              "say": "loin de",
+              "ar": "بعيد عن"
+            },
+            {
+              "id": "v-coin",
+              "say": "au coin de la rue",
+              "ar": "عند زاوية الشارع"
+            }
+          ]
+        },
+        {
+          "title_ar": "المعالم",
+          "items": [
+            {
+              "id": "v-poste",
+              "say": "la poste",
+              "ar": "مكتب البريد"
+            },
+            {
+              "id": "v-banque",
+              "say": "la banque",
+              "ar": "البنك"
+            },
+            {
+              "id": "v-hotel",
+              "say": "l'hôtel",
+              "ar": "الفندق"
+            },
+            {
+              "id": "v-supermarche",
+              "say": "le supermarché",
+              "ar": "السوبرماركت"
+            },
+            {
+              "id": "v-place",
+              "say": "la place",
+              "ar": "الساحة"
+            },
+            {
+              "id": "v-pont",
+              "say": "le pont",
+              "ar": "الجسر"
+            },
+            {
+              "id": "v-station",
+              "say": "la station de métro",
+              "ar": "محطة المترو"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-excusez",
+              "say": "Excusez-moi…",
+              "ar": "عفواً…"
+            },
+            {
+              "id": "v-cherche",
+              "say": "Je cherche la gare.",
+              "ar": "أبحث عن المحطة."
+            },
+            {
+              "id": "v-minutes",
+              "say": "C'est à cinq minutes.",
+              "ar": "على بُعد خمس دقائق."
+            },
+            {
+              "id": "v-perdu",
+              "say": "Vous êtes perdu ?",
+              "ar": "هل أنت تائه؟"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الأمر",
+      "title_ar": "القاعدة: صيغة الأمر وحروف المكان",
+      "intro_ar": "الأمر = تصريف الحاضر بلا ضمير. ثم الحروف التي تحدد مكان الشيء.",
+      "tables": [
+        {
+          "title_fr": "L'impératif",
+          "title_ar": "صيغة الأمر",
+          "head_ar": [
+            "مع tu",
+            "مع vous"
+          ],
+          "rows": [
+            {
+              "id": "g-i1",
+              "say": "Tourne ! Tournez !",
+              "cells": [
+                "Tourne !",
+                "Tournez !"
+              ],
+              "ar": "انعطف!"
+            },
+            {
+              "id": "g-i2",
+              "say": "Continue ! Continuez !",
+              "cells": [
+                "Continue !",
+                "Continuez !"
+              ],
+              "ar": "استمر!"
+            },
+            {
+              "id": "g-i3",
+              "say": "Traverse ! Traversez !",
+              "cells": [
+                "Traverse !",
+                "Traversez !"
+              ],
+              "ar": "اعبر!"
+            },
+            {
+              "id": "g-i4",
+              "say": "Prends ! Prenez !",
+              "cells": [
+                "Prends !",
+                "Prenez !"
+              ],
+              "ar": "خذ!"
+            },
+            {
+              "id": "g-i5",
+              "say": "Va ! Allez !",
+              "cells": [
+                "Va !",
+                "Allez !"
+              ],
+              "ar": "اذهب!"
+            },
+            {
+              "id": "g-i6",
+              "say": "Excuse-moi. Excusez-moi.",
+              "cells": [
+                "Excuse-moi.",
+                "Excusez-moi."
+              ],
+              "ar": "عفواً."
+            }
+          ],
+          "note_ar": "مع tu تسقط s في أفعال er وفي aller: tu tournes تصير Tourne، و tu vas تصير Va. والنفي حول الفعل: **Ne tournez pas !** (لا تنعطف!)"
+        },
+        {
+          "title_fr": "Prépositions de lieu",
+          "title_ar": "أين يقع؟",
+          "head_ar": [
+            "الحرف",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-p1",
+              "say": "à côté de la banque",
+              "cells": [
+                "à côté de",
+                "à côté de la banque"
+              ],
+              "ar": "بجانب البنك"
+            },
+            {
+              "id": "g-p2",
+              "say": "en face de la gare",
+              "cells": [
+                "en face de",
+                "en face de la gare"
+              ],
+              "ar": "مقابل المحطة"
+            },
+            {
+              "id": "g-p3",
+              "say": "entre la banque et le café",
+              "cells": [
+                "entre",
+                "entre la banque et le café"
+              ],
+              "ar": "بين البنك والمقهى"
+            },
+            {
+              "id": "g-p4",
+              "say": "près du métro",
+              "cells": [
+                "près de",
+                "près du métro"
+              ],
+              "ar": "قرب المترو"
+            },
+            {
+              "id": "g-p5",
+              "say": "loin d'ici",
+              "cells": [
+                "loin de",
+                "loin d'ici"
+              ],
+              "ar": "بعيد عن هنا"
+            },
+            {
+              "id": "g-p6",
+              "say": "au coin de la rue",
+              "cells": [
+                "au coin de",
+                "au coin de la rue"
+              ],
+              "ar": "عند زاوية الشارع"
+            }
+          ],
+          "note_ar": "de هنا تُدمج كما تعلّمت: à côté du café، près du métro، en face des toilettes."
+        }
+      ],
+      "points_ar": [
+        "**à droite أم tout droit؟** droite «دغوات» بـ t مسموعة = يميناً. droit «دغوا» بلا t = مستقيماً.",
+        "**الأدب مع الغرباء:** ابدأ بـ Excusez-moi، واستعمل vous، واختم بـ Merci, bonne journée !",
+        "**C'est à cinq minutes à pied** = على بُعد خمس دقائق مشياً."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الإرشادات",
+      "hint_ar": "اختر صيغة الأمر أو حرف المكان المناسب.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "___ à droite.",
+          "say": "Tournez à droite.",
+          "options": [
+            "Tourner",
+            "Tournez"
+          ],
+          "answer": "Tournez",
+          "ar": "انعطف يميناً.",
+          "explain_ar": "الأمر مع vous: **Tournez**، لا المصدر tourner."
+        },
+        {
+          "id": "f2",
+          "text": "Continuez tout ___.",
+          "say": "Continuez tout droit.",
+          "options": [
+            "droit",
+            "droite"
+          ],
+          "answer": "droit",
+          "ar": "استمر مستقيماً.",
+          "explain_ar": "مستقيماً: tout **droit** بلا e."
+        },
+        {
+          "id": "f3",
+          "text": "La poste est à ___ de la banque.",
+          "say": "La poste est à côté de la banque.",
+          "options": [
+            "face",
+            "côté"
+          ],
+          "answer": "côté",
+          "ar": "البريد بجانب البنك.",
+          "explain_ar": "بجانب: à **côté** de."
+        },
+        {
+          "id": "f4",
+          "text": "La pharmacie est en ___ de la gare.",
+          "say": "La pharmacie est en face de la gare.",
+          "options": [
+            "face",
+            "côté"
+          ],
+          "answer": "face",
+          "ar": "الصيدلية مقابل المحطة.",
+          "explain_ar": "مقابل: en **face** de."
+        },
+        {
+          "id": "f5",
+          "text": "Le café est ___ la banque et la poste.",
+          "say": "Le café est entre la banque et la poste.",
+          "options": [
+            "en face",
+            "entre"
+          ],
+          "answer": "entre",
+          "ar": "المقهى بين البنك والبريد.",
+          "explain_ar": "بين شيئين: **entre** … et …"
+        },
+        {
+          "id": "f6",
+          "text": "C'est à côté ___ métro.",
+          "say": "C'est à côté du métro.",
+          "options": [
+            "du",
+            "de le"
+          ],
+          "answer": "du",
+          "ar": "إنه بجانب المترو.",
+          "explain_ar": "de + le = **du**."
+        },
+        {
+          "id": "f7",
+          "text": "___ la rue au feu.",
+          "say": "Traversez la rue au feu.",
+          "options": [
+            "Traverse",
+            "Traversez"
+          ],
+          "answer": "Traversez",
+          "ar": "اعبر الشارع عند الإشارة.",
+          "explain_ar": "مع شخص غريب: صيغة vous **Traversez**.",
+          "context_ar": "تكلّم شخصاً غريباً بأدب"
+        },
+        {
+          "id": "f8",
+          "text": "Tu es mon ami : ___ à gauche !",
+          "say": "Tu es mon ami : tourne à gauche !",
+          "options": [
+            "tournes",
+            "tourne"
+          ],
+          "answer": "tourne",
+          "ar": "أنت صديقي: انعطف يساراً!",
+          "explain_ar": "الأمر مع tu تسقط منه s: **tourne**."
+        },
+        {
+          "id": "f9",
+          "text": "___-moi, où est la gare ?",
+          "say": "Excusez-moi, où est la gare ?",
+          "options": [
+            "Excuser",
+            "Excusez"
+          ],
+          "answer": "Excusez",
+          "ar": "عفواً، أين المحطة؟",
+          "explain_ar": "الأمر مع vous: **Excusez-moi**."
+        },
+        {
+          "id": "f10",
+          "text": "Ne ___ pas ici !",
+          "say": "Ne traversez pas ici !",
+          "options": [
+            "traversez",
+            "traverser"
+          ],
+          "answer": "traversez",
+          "ar": "لا تعبر هنا!",
+          "explain_ar": "النفي حول فعل الأمر: ne … **traversez** … pas."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: الاتجاهات",
+      "hint_ar": "أهم زوج: à droite «أ دغوات» و tout droit «تو دغوا».",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع إرشاداً وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "tout droit",
+          "options": [
+            "à droite",
+            "tout droit"
+          ],
+          "answer": "tout droit",
+          "explain_ar": "tout droit «تو دغوا» بلا t في الآخر: مستقيماً."
+        },
+        {
+          "id": "q2",
+          "say": "à gauche",
+          "options": [
+            "à gauche",
+            "à droite"
+          ],
+          "answer": "à gauche",
+          "explain_ar": "gauche «گوش»: يسار."
+        },
+        {
+          "id": "q3",
+          "say": "Traversez.",
+          "options": [
+            "Continuez.",
+            "Traversez."
+          ],
+          "answer": "Traversez.",
+          "explain_ar": "traversez «تغاڤيغسيه»: اعبر."
+        },
+        {
+          "id": "q4",
+          "say": "en face de la gare",
+          "options": [
+            "en face de la gare",
+            "à côté de la gare"
+          ],
+          "answer": "en face de la gare",
+          "explain_ar": "en face «أون فاس»: مقابل."
+        },
+        {
+          "id": "q5",
+          "say": "loin d'ici",
+          "options": [
+            "près d'ici",
+            "loin d'ici"
+          ],
+          "answer": "loin d'ici",
+          "explain_ar": "loin «لوان»: بعيد."
+        },
+        {
+          "id": "q6",
+          "say": "la banque",
+          "options": [
+            "la banque",
+            "la place"
+          ],
+          "answer": "la banque",
+          "explain_ar": "banque «بونك»: بنك."
+        },
+        {
+          "id": "q7",
+          "say": "le pont",
+          "options": [
+            "le feu",
+            "le pont"
+          ],
+          "answer": "le pont",
+          "explain_ar": "pont «پون»: جسر."
+        },
+        {
+          "id": "q8",
+          "say": "entre",
+          "options": [
+            "entre",
+            "en face"
+          ],
+          "answer": "entre",
+          "explain_ar": "entre «أونتغ»: بين."
+        },
+        {
+          "id": "q9",
+          "say": "Prenez la deuxième rue.",
+          "options": [
+            "Prenez la première rue.",
+            "Prenez la deuxième rue."
+          ],
+          "answer": "Prenez la deuxième rue.",
+          "explain_ar": "deuxième «دُزيام»: الثاني."
+        },
+        {
+          "id": "q10",
+          "say": "C'est à deux minutes.",
+          "options": [
+            "C'est à dix minutes.",
+            "C'est à deux minutes."
+          ],
+          "answer": "C'est à deux minutes.",
+          "explain_ar": "deux «دُ»: اثنان."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الاتجاهات",
+      "hint_ar": "كلمات الإرشاد اليومية.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: à droite بـ e، و tout droit بلا e.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "à droite",
+          "answer": "à droite",
+          "ar": "يميناً"
+        },
+        {
+          "id": "s2",
+          "say": "à gauche",
+          "answer": "à gauche",
+          "ar": "يساراً"
+        },
+        {
+          "id": "s3",
+          "say": "tout droit",
+          "answer": "tout droit",
+          "ar": "مستقيماً"
+        },
+        {
+          "id": "s4",
+          "say": "tournez",
+          "answer": "tournez",
+          "ar": "انعطفوا"
+        },
+        {
+          "id": "s5",
+          "say": "en face de",
+          "answer": "en face de",
+          "ar": "مقابل"
+        },
+        {
+          "id": "s6",
+          "say": "à côté de",
+          "answer": "à côté de",
+          "ar": "بجانب"
+        },
+        {
+          "id": "s7",
+          "say": "la rue",
+          "answer": "la rue",
+          "ar": "الشارع"
+        },
+        {
+          "id": "s8",
+          "say": "traversez",
+          "answer": "traversez",
+          "ar": "اعبروا"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "اسأل عن الطريق وأعطِ إرشاداً. انطق t في droite بوضوح.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Excusez-moi, où est la station de métro ?",
+          "ar": "عفواً، أين محطة المترو؟",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Excusez-moi,",
+              "عفواً"
+            ],
+            [
+              "où",
+              "أين"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "la station de métro ?",
+              "محطة المترو"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Continuez tout droit, puis tournez à gauche.",
+          "ar": "استمر مستقيماً، ثم انعطف يساراً.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Continuez",
+              "استمر"
+            ],
+            [
+              "tout droit,",
+              "مستقيماً"
+            ],
+            [
+              "puis",
+              "ثم"
+            ],
+            [
+              "tournez",
+              "انعطف"
+            ],
+            [
+              "à gauche.",
+              "يساراً"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "La banque est en face de la poste.",
+          "ar": "البنك مقابل البريد.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "La",
+              "الـ"
+            ],
+            [
+              "banque",
+              "بنك"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "en face de",
+              "مقابل"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "poste.",
+              "بريد"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "C'est à cinq minutes à pied.",
+          "ar": "على بُعد خمس دقائق مشياً.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "C'est",
+              "إنه"
+            ],
+            [
+              "à",
+              "على بُعد"
+            ],
+            [
+              "cinq",
+              "5"
+            ],
+            [
+              "minutes",
+              "دقائق"
+            ],
+            [
+              "à pied.",
+              "مشياً"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Merci beaucoup, bonne journée !",
+          "ar": "شكراً جزيلاً، يوماً سعيداً!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Merci beaucoup,",
+              "شكراً جزيلاً"
+            ],
+            [
+              "bonne journée !",
+              "يوماً سعيداً"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: صف بصوتك الطريق من بيتك إلى أقرب مقهى: **Tournez à…, continuez…, c'est en face de…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل الإرشاد بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "à droite",
+          "say": "à droite",
+          "back_ar": "يميناً"
+        },
+        {
+          "id": "c2",
+          "front": "à gauche",
+          "say": "à gauche",
+          "back_ar": "يساراً"
+        },
+        {
+          "id": "c3",
+          "front": "tout droit",
+          "say": "tout droit",
+          "back_ar": "مستقيماً"
+        },
+        {
+          "id": "c4",
+          "front": "Tournez !",
+          "say": "Tournez !",
+          "back_ar": "انعطف!"
+        },
+        {
+          "id": "c5",
+          "front": "Continuez !",
+          "say": "Continuez !",
+          "back_ar": "استمر!"
+        },
+        {
+          "id": "c6",
+          "front": "Traversez !",
+          "say": "Traversez !",
+          "back_ar": "اعبر!"
+        },
+        {
+          "id": "c7",
+          "front": "à côté de",
+          "say": "à côté de",
+          "back_ar": "بجانب"
+        },
+        {
+          "id": "c8",
+          "front": "en face de",
+          "say": "en face de",
+          "back_ar": "مقابل"
+        },
+        {
+          "id": "c9",
+          "front": "entre",
+          "say": "entre",
+          "back_ar": "بين"
+        },
+        {
+          "id": "c10",
+          "front": "près de / loin de",
+          "say": "près de, loin de",
+          "back_ar": "قرب / بعيد عن"
+        },
+        {
+          "id": "c11",
+          "front": "le feu",
+          "say": "le feu",
+          "back_ar": "إشارة المرور"
+        },
+        {
+          "id": "c12",
+          "front": "le carrefour",
+          "say": "le carrefour",
+          "back_ar": "التقاطع"
+        },
+        {
+          "id": "c13",
+          "front": "la rue",
+          "say": "la rue",
+          "back_ar": "الشارع"
+        },
+        {
+          "id": "c14",
+          "front": "Excusez-moi…",
+          "say": "Excusez-moi…",
+          "back_ar": "عفواً…"
+        },
+        {
+          "id": "c15",
+          "front": "Je cherche…",
+          "say": "Je cherche la poste.",
+          "back_ar": "أبحث عن…"
+        },
+        {
+          "id": "c16",
+          "front": "C'est à cinq minutes.",
+          "say": "C'est à cinq minutes.",
+          "back_ar": "على بُعد خمس دقائق."
+        }
+      ]
+    }
+  ]
+}

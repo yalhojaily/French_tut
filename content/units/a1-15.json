@@ -1,0 +1,1178 @@
+{
+  "id": "a1-15",
+  "stage": "A1",
+  "title_fr": "Au restaurant",
+  "title_ar": "في المطعم",
+  "goals_ar": [
+    "تطلب بأدب: **Je voudrais un café, s'il vous plaît.**",
+    "تصرّف **vouloir** (يريد)",
+    "تستعمل أداة البعض: **du pain، de la soupe، de l'eau**",
+    "تسأل عن مكونات الطبق وتطلب الحساب: **L'addition, s'il vous plaît.**"
+  ],
+  "intro_ar": [
+    "**je veux** (أريد) صحيحة لكنها حادة مع النادل. والصيغة المهذبة التي يستعملها الجميع هي **je voudrais** (أودّ).",
+    "**أداة البعض:** حين تطلب كمية غير محددة من شيء لا يُعدّ تقول **du** pain (خبزاً)، **de la** soupe، و **de l'** أمام حرف علة: de l'eau. العربية تقول «أريد خبزاً» بلا أداة، والفرنسية لا تترك الاسم بلا أداة أبداً.",
+    "**قاعدة الاختيار:** شيء معدود = un / une (un croissant). كمية من شيء لا يُعدّ = du / de la (du pain). الشيء عموماً بعد aimer = le / la (j'aime le pain)."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: وجبة في مطعم",
+      "context_ar": "يوسف يطلب الغداء في مطعم صغير. لاحظ je voudrais، وأداة البعض، وسؤاله عن الخنزير.",
+      "speakers": {
+        "A": {
+          "name_ar": "النادلة",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Bonjour monsieur, vous êtes prêt ?",
+          "ar": "مرحباً سيدي، هل أنت مستعد للطلب؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonjour",
+              "مرحباً"
+            ],
+            [
+              "monsieur,",
+              "سيدي"
+            ],
+            [
+              "vous",
+              "حضرتك"
+            ],
+            [
+              "êtes",
+              "تكون"
+            ],
+            [
+              "prêt ?",
+              "مستعد"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Oui. Je voudrais la soupe du jour, s'il vous plaît.",
+          "ar": "نعم. أودّ حساء اليوم من فضلك.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui.",
+              "نعم"
+            ],
+            [
+              "Je voudrais",
+              "أودّ"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "soupe",
+              "حساء"
+            ],
+            [
+              "du jour,",
+              "اليوم"
+            ],
+            [
+              "s'il vous plaît.",
+              "من فضلك"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Et ensuite, le poulet ou le poisson ?",
+          "ar": "وبعد ذلك، الدجاج أم السمك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "ensuite,",
+              "بعد ذلك"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "poulet",
+              "دجاج"
+            ],
+            [
+              "ou",
+              "أم"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "poisson ?",
+              "سمك"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Le poisson, avec du riz. Est-ce qu'il y a du porc dans la sauce ?",
+          "ar": "السمك، مع أرز. هل في الصلصة لحم خنزير؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Le",
+              "الـ"
+            ],
+            [
+              "poisson,",
+              "سمك"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "du",
+              "(بعض)"
+            ],
+            [
+              "riz.",
+              "أرز"
+            ],
+            [
+              "Est-ce qu'il y a",
+              "هل يوجد"
+            ],
+            [
+              "du",
+              "(بعض)"
+            ],
+            [
+              "porc",
+              "لحم خنزير"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "sauce ?",
+              "صلصة"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Non, c'est une sauce au citron. Et comme boisson ?",
+          "ar": "لا، إنها صلصة بالليمون. وماذا تشرب؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Non,",
+              "لا"
+            ],
+            [
+              "c'est",
+              "إنها"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "sauce",
+              "صلصة"
+            ],
+            [
+              "au citron.",
+              "بالليمون"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "comme boisson ?",
+              "كمشروب"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "De l'eau, s'il vous plaît. Une carafe d'eau.",
+          "ar": "ماء من فضلك. إبريق ماء.",
+          "slow": true,
+          "gloss": [
+            [
+              "De l'eau,",
+              "ماء"
+            ],
+            [
+              "s'il vous plaît.",
+              "من فضلك"
+            ],
+            [
+              "Une",
+              "(نكرة)"
+            ],
+            [
+              "carafe",
+              "إبريق"
+            ],
+            [
+              "d'eau.",
+              "ماء"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Très bien. Vous voulez un dessert ?",
+          "ar": "حسناً جداً. هل تريد حلوى؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Très bien.",
+              "حسناً جداً"
+            ],
+            [
+              "Vous",
+              "حضرتك"
+            ],
+            [
+              "voulez",
+              "تريد"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "dessert ?",
+              "حلوى"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Oui, une tarte aux pommes. Et l'addition, s'il vous plaît.",
+          "ar": "نعم، فطيرة تفاح. والحساب من فضلك.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "tarte",
+              "فطيرة"
+            ],
+            [
+              "aux pommes.",
+              "بالتفاح"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "l'addition,",
+              "الحساب"
+            ],
+            [
+              "s'il vous plaît.",
+              "من فضلك"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Bien sûr. Bon appétit, monsieur !",
+          "ar": "بالتأكيد. شهية طيبة يا سيدي!",
+          "slow": true,
+          "gloss": [
+            [
+              "Bien sûr.",
+              "بالتأكيد"
+            ],
+            [
+              "Bon appétit,",
+              "شهية طيبة"
+            ],
+            [
+              "monsieur !",
+              "سيدي"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "**une carafe d'eau** ماء الصنبور، ويُقدَّم مجاناً في مطاعم فرنسا. ولاحظ سؤال يوسف: **Est-ce qu'il y a du porc… ?** سؤال ستحتاجه كثيراً."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "كلمات المطعم، ثم الطعام مع أداة البعض كما تطلبه، ثم عبارات مفيدة.",
+      "groups": [
+        {
+          "title_ar": "في المطعم",
+          "items": [
+            {
+              "id": "v-carte",
+              "say": "la carte",
+              "ar": "قائمة الطعام"
+            },
+            {
+              "id": "v-menu",
+              "say": "le menu",
+              "ar": "الوجبة بسعر ثابت",
+              "note_ar": "انتبه: le menu ليس القائمة كلها، بل وجبة من عدة أطباق بسعر واحد."
+            },
+            {
+              "id": "v-entree",
+              "say": "l'entrée",
+              "ar": "المقبّلات",
+              "note_ar": "في المطعم معناها الطبق الأول."
+            },
+            {
+              "id": "v-plat",
+              "say": "le plat principal",
+              "ar": "الطبق الرئيسي"
+            },
+            {
+              "id": "v-dessert",
+              "say": "le dessert",
+              "ar": "الحلوى"
+            },
+            {
+              "id": "v-boisson",
+              "say": "la boisson",
+              "ar": "المشروب"
+            },
+            {
+              "id": "v-addition",
+              "say": "l'addition",
+              "ar": "الحساب"
+            },
+            {
+              "id": "v-serveur",
+              "say": "le serveur, la serveuse",
+              "ar": "النادل / النادلة",
+              "fr": "le serveur / la serveuse"
+            }
+          ]
+        },
+        {
+          "title_ar": "الطعام",
+          "items": [
+            {
+              "id": "v-pain",
+              "say": "du pain",
+              "ar": "خبز"
+            },
+            {
+              "id": "v-riz",
+              "say": "du riz",
+              "ar": "أرز"
+            },
+            {
+              "id": "v-poulet",
+              "say": "du poulet",
+              "ar": "دجاج"
+            },
+            {
+              "id": "v-poisson",
+              "say": "du poisson",
+              "ar": "سمك"
+            },
+            {
+              "id": "v-viande",
+              "say": "de la viande",
+              "ar": "لحم"
+            },
+            {
+              "id": "v-soupe",
+              "say": "de la soupe",
+              "ar": "حساء"
+            },
+            {
+              "id": "v-salade",
+              "say": "de la salade",
+              "ar": "سلطة"
+            },
+            {
+              "id": "v-frites",
+              "say": "des frites",
+              "ar": "بطاطا مقلية"
+            },
+            {
+              "id": "v-fromage",
+              "say": "du fromage",
+              "ar": "جبن"
+            },
+            {
+              "id": "v-eau",
+              "say": "de l'eau",
+              "ar": "ماء"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-voudrais",
+              "say": "Je voudrais…",
+              "ar": "أودّ…"
+            },
+            {
+              "id": "v-pourmoi",
+              "say": "Pour moi, le poisson.",
+              "ar": "لي أنا السمك."
+            },
+            {
+              "id": "v-sansporc",
+              "say": "Sans porc, s'il vous plaît.",
+              "ar": "بلا لحم خنزير من فضلك."
+            },
+            {
+              "id": "v-alcool",
+              "say": "Je ne bois pas d'alcool.",
+              "ar": "لا أشرب الكحول."
+            },
+            {
+              "id": "v-delicieux",
+              "say": "C'est délicieux !",
+              "ar": "لذيذ!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "vouloir",
+      "title_ar": "القاعدة: vouloir وأداة البعض",
+      "intro_ar": "فعل الإرادة، ثم كيف تختار الأداة المناسبة أمام الطعام.",
+      "tables": [
+        {
+          "title_fr": "vouloir (au présent)",
+          "title_ar": "فعل «يريد»",
+          "head_ar": [
+            "الضمير",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-v1",
+              "say": "je veux",
+              "cells": [
+                "je",
+                "veux"
+              ],
+              "ar": "أريد"
+            },
+            {
+              "id": "g-v2",
+              "say": "tu veux",
+              "cells": [
+                "tu",
+                "veux"
+              ],
+              "ar": "تريد"
+            },
+            {
+              "id": "g-v3",
+              "say": "il veut",
+              "cells": [
+                "il / elle / on",
+                "veut"
+              ],
+              "ar": "يريد / تريد / نريد"
+            },
+            {
+              "id": "g-v4",
+              "say": "nous voulons",
+              "cells": [
+                "nous",
+                "voulons"
+              ],
+              "ar": "نريد"
+            },
+            {
+              "id": "g-v5",
+              "say": "vous voulez",
+              "cells": [
+                "vous",
+                "voulez"
+              ],
+              "ar": "تريدون / تريد حضرتك"
+            },
+            {
+              "id": "g-v6",
+              "say": "ils veulent",
+              "cells": [
+                "ils / elles",
+                "veulent"
+              ],
+              "ar": "يريدون"
+            }
+          ],
+          "note_ar": "**je voudrais** ليست من هذا الجدول: هي صيغة الشرط المهذبة (أودّ). احفظها الآن عبارةً جاهزة، وستتعلم الشرط في B1."
+        },
+        {
+          "title_fr": "Quel article ?",
+          "title_ar": "أي أداة أختار؟",
+          "head_ar": [
+            "الأداة",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-a1",
+              "say": "un croissant",
+              "cells": [
+                "un / une",
+                "un croissant"
+              ],
+              "ar": "شيء معدود: كرواسون واحد"
+            },
+            {
+              "id": "g-a2",
+              "say": "du pain",
+              "cells": [
+                "du (masculin)",
+                "du pain"
+              ],
+              "ar": "كمية من الخبز"
+            },
+            {
+              "id": "g-a3",
+              "say": "de la soupe",
+              "cells": [
+                "de la (féminin)",
+                "de la soupe"
+              ],
+              "ar": "كمية من الحساء"
+            },
+            {
+              "id": "g-a4",
+              "say": "de l'eau",
+              "cells": [
+                "de l' (voyelle)",
+                "de l'eau"
+              ],
+              "ar": "كمية من الماء"
+            },
+            {
+              "id": "g-a5",
+              "say": "des frites",
+              "cells": [
+                "des (pluriel)",
+                "des frites"
+              ],
+              "ar": "بطاطا مقلية"
+            },
+            {
+              "id": "g-a6",
+              "say": "J'aime le pain.",
+              "cells": [
+                "le / la (en général)",
+                "J'aime le pain."
+              ],
+              "ar": "أحب الخبز (عموماً)"
+            }
+          ],
+          "note_ar": "بعد النفي تصير كلها de: Je ne veux pas de pain، و Je ne bois pas d'alcool."
+        }
+      ],
+      "points_ar": [
+        "**je voudrais** = أودّ: الصيغة المهذبة للطلب في كل مكان، من المطعم إلى المحطة.",
+        "**لا اسم بلا أداة:** العربية تقول «أريد ماءً»، والفرنسية تقول de l'eau.",
+        "**s'il vous plaît** في آخر كل طلب، و **merci** عند الاستلام."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الطلب وأداة البعض",
+      "hint_ar": "اختر تصريف vouloir أو الأداة المناسبة للطعام.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je ___ un café, s'il vous plaît.",
+          "say": "Je voudrais un café, s'il vous plaît.",
+          "options": [
+            "veux",
+            "voudrais"
+          ],
+          "answer": "voudrais",
+          "ar": "أودّ قهوة من فضلك.",
+          "explain_ar": "الصيغة المهذبة: **voudrais**.",
+          "context_ar": "تطلب بأدب من النادل"
+        },
+        {
+          "id": "f2",
+          "text": "Vous ___ un dessert ?",
+          "say": "Vous voulez un dessert ?",
+          "options": [
+            "voulons",
+            "voulez"
+          ],
+          "answer": "voulez",
+          "ar": "هل تريد حلوى؟",
+          "explain_ar": "مع vous: **voulez**."
+        },
+        {
+          "id": "f3",
+          "text": "Ils ___ de la salade.",
+          "say": "Ils veulent de la salade.",
+          "options": [
+            "veut",
+            "veulent"
+          ],
+          "answer": "veulent",
+          "ar": "يريدون سلطة.",
+          "explain_ar": "مع ils: **veulent**."
+        },
+        {
+          "id": "f4",
+          "text": "Je voudrais ___ pain.",
+          "say": "Je voudrais du pain.",
+          "options": [
+            "du",
+            "de la"
+          ],
+          "answer": "du",
+          "ar": "أودّ خبزاً.",
+          "explain_ar": "pain مذكر: **du**."
+        },
+        {
+          "id": "f5",
+          "text": "Tu veux ___ soupe ?",
+          "say": "Tu veux de la soupe ?",
+          "options": [
+            "du",
+            "de la"
+          ],
+          "answer": "de la",
+          "ar": "هل تريد حساء؟",
+          "explain_ar": "soupe مؤنثة: **de la**."
+        },
+        {
+          "id": "f6",
+          "text": "Je bois ___ eau.",
+          "say": "Je bois de l'eau.",
+          "options": [
+            "de la",
+            "de l'"
+          ],
+          "answer": "de l'",
+          "ar": "أشرب ماءً.",
+          "explain_ar": "eau تبدأ بحرف علة: **de l'**."
+        },
+        {
+          "id": "f7",
+          "text": "Je ne mange pas ___ porc.",
+          "say": "Je ne mange pas de porc.",
+          "options": [
+            "du",
+            "de"
+          ],
+          "answer": "de",
+          "ar": "لا آكل لحم الخنزير.",
+          "explain_ar": "بعد النفي: **de**."
+        },
+        {
+          "id": "f8",
+          "text": "J'aime ___ poisson.",
+          "say": "J'aime le poisson.",
+          "options": [
+            "du",
+            "le"
+          ],
+          "answer": "le",
+          "ar": "أحب السمك.",
+          "explain_ar": "بعد aimer نتكلم عن الشيء عموماً: **le**."
+        },
+        {
+          "id": "f9",
+          "text": "L'___, s'il vous plaît.",
+          "say": "L'addition, s'il vous plaît.",
+          "options": [
+            "entrée",
+            "addition"
+          ],
+          "answer": "addition",
+          "ar": "الحساب من فضلك.",
+          "explain_ar": "**l'addition** = الحساب."
+        },
+        {
+          "id": "f10",
+          "text": "Comme ___, une salade.",
+          "say": "Comme entrée, une salade.",
+          "options": [
+            "entrée",
+            "dessert"
+          ],
+          "answer": "entrée",
+          "ar": "كمقبّلات، سلطة.",
+          "explain_ar": "الطبق الأول: **entrée**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: في المطعم",
+      "hint_ar": "استمع للأداة وللاسم.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع طلباً وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "je voudrais",
+          "options": [
+            "je veux",
+            "je voudrais"
+          ],
+          "answer": "je voudrais",
+          "explain_ar": "voudrais «ڤودغيه»: أودّ."
+        },
+        {
+          "id": "q2",
+          "say": "du riz",
+          "options": [
+            "du pain",
+            "du riz"
+          ],
+          "answer": "du riz",
+          "explain_ar": "riz «غي»: أرز."
+        },
+        {
+          "id": "q3",
+          "say": "de l'eau",
+          "options": [
+            "de l'eau",
+            "du lait"
+          ],
+          "answer": "de l'eau",
+          "explain_ar": "de l'eau «دُلو»: ماء."
+        },
+        {
+          "id": "q4",
+          "say": "ils veulent",
+          "options": [
+            "il veut",
+            "ils veulent"
+          ],
+          "answer": "ils veulent",
+          "explain_ar": "veulent «ڤُل» بـ l مسموعة: جمع."
+        },
+        {
+          "id": "q5",
+          "say": "le poulet",
+          "options": [
+            "le poulet",
+            "le poisson"
+          ],
+          "answer": "le poulet",
+          "explain_ar": "poulet «پوليه»: دجاج."
+        },
+        {
+          "id": "q6",
+          "say": "La carte, s'il vous plaît.",
+          "options": [
+            "L'addition, s'il vous plaît.",
+            "La carte, s'il vous plaît."
+          ],
+          "answer": "La carte, s'il vous plaît.",
+          "explain_ar": "carte «كاغت»: قائمة الطعام."
+        },
+        {
+          "id": "q7",
+          "say": "la salade",
+          "options": [
+            "la soupe",
+            "la salade"
+          ],
+          "answer": "la salade",
+          "explain_ar": "salade «سالاد»: سلطة."
+        },
+        {
+          "id": "q8",
+          "say": "nous voulons",
+          "options": [
+            "nous voulons",
+            "vous voulez"
+          ],
+          "answer": "nous voulons",
+          "explain_ar": "voulons «ڤولون»: نريد."
+        },
+        {
+          "id": "q9",
+          "say": "Bon appétit !",
+          "options": [
+            "Bonne journée !",
+            "Bon appétit !"
+          ],
+          "answer": "Bon appétit !",
+          "explain_ar": "appétit «أپيتي»: شهية."
+        },
+        {
+          "id": "q10",
+          "say": "Sans sauce.",
+          "options": [
+            "Sans sauce.",
+            "Avec sauce."
+          ],
+          "answer": "Sans sauce.",
+          "explain_ar": "sans «سون»: بدون."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: كلمات المطعم",
+      "hint_ar": "الأداة مع الاسم.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **de l'eau** بفاصلة عليا، و **l'addition** بـ dd.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je voudrais",
+          "answer": "je voudrais",
+          "ar": "أودّ"
+        },
+        {
+          "id": "s2",
+          "say": "du pain",
+          "answer": "du pain",
+          "ar": "خبز"
+        },
+        {
+          "id": "s3",
+          "say": "de la soupe",
+          "answer": "de la soupe",
+          "ar": "حساء"
+        },
+        {
+          "id": "s4",
+          "say": "de l'eau",
+          "answer": "de l'eau",
+          "ar": "ماء"
+        },
+        {
+          "id": "s5",
+          "say": "l'addition",
+          "answer": "l'addition",
+          "ar": "الحساب"
+        },
+        {
+          "id": "s6",
+          "say": "le poisson",
+          "answer": "le poisson",
+          "ar": "السمك"
+        },
+        {
+          "id": "s7",
+          "say": "ils veulent",
+          "answer": "ils veulent",
+          "ar": "يريدون"
+        },
+        {
+          "id": "s8",
+          "say": "le dessert",
+          "answer": "le dessert",
+          "ar": "الحلوى"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل الطلب كاملة. ردّدها بنبرة مهذبة وهادئة.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Je voudrais un café, s'il vous plaît.",
+          "ar": "أودّ قهوة من فضلك.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je voudrais",
+              "أودّ"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "café,",
+              "قهوة"
+            ],
+            [
+              "s'il vous plaît.",
+              "من فضلك"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Pour moi, le poulet avec des frites.",
+          "ar": "لي أنا الدجاج مع بطاطا مقلية.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Pour moi,",
+              "لي أنا"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "poulet",
+              "دجاج"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "frites.",
+              "بطاطا مقلية"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Est-ce qu'il y a du porc dans ce plat ?",
+          "ar": "هل في هذا الطبق لحم خنزير؟",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Est-ce qu'il y a",
+              "هل يوجد"
+            ],
+            [
+              "du",
+              "(بعض)"
+            ],
+            [
+              "porc",
+              "لحم خنزير"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "ce",
+              "هذا"
+            ],
+            [
+              "plat ?",
+              "طبق"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Une carafe d'eau, s'il vous plaît.",
+          "ar": "إبريق ماء من فضلك.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Une",
+              "(نكرة)"
+            ],
+            [
+              "carafe",
+              "إبريق"
+            ],
+            [
+              "d'eau,",
+              "ماء"
+            ],
+            [
+              "s'il vous plaît.",
+              "من فضلك"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "L'addition, s'il vous plaît. Merci !",
+          "ar": "الحساب من فضلك. شكراً!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "L'addition,",
+              "الحساب"
+            ],
+            [
+              "s'il vous plaît.",
+              "من فضلك"
+            ],
+            [
+              "Merci !",
+              "شكراً"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: اطلب وجبة كاملة بصوتك: **Je voudrais… comme entrée, … comme plat, et… comme dessert.**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل الطلب بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "Je voudrais…",
+          "say": "Je voudrais un café.",
+          "back_ar": "أودّ…"
+        },
+        {
+          "id": "c2",
+          "front": "vouloir",
+          "say": "vouloir",
+          "back_ar": "يريد"
+        },
+        {
+          "id": "c3",
+          "front": "je veux / ils veulent",
+          "say": "je veux, ils veulent",
+          "back_ar": "أريد / يريدون"
+        },
+        {
+          "id": "c4",
+          "front": "du pain",
+          "say": "du pain",
+          "back_ar": "خبز"
+        },
+        {
+          "id": "c5",
+          "front": "de la soupe",
+          "say": "de la soupe",
+          "back_ar": "حساء"
+        },
+        {
+          "id": "c6",
+          "front": "de l'eau",
+          "say": "de l'eau",
+          "back_ar": "ماء"
+        },
+        {
+          "id": "c7",
+          "front": "la carte",
+          "say": "la carte",
+          "back_ar": "قائمة الطعام"
+        },
+        {
+          "id": "c8",
+          "front": "le menu",
+          "say": "le menu",
+          "back_ar": "وجبة بسعر ثابت"
+        },
+        {
+          "id": "c9",
+          "front": "l'entrée",
+          "say": "l'entrée",
+          "back_ar": "المقبّلات"
+        },
+        {
+          "id": "c10",
+          "front": "le plat principal",
+          "say": "le plat principal",
+          "back_ar": "الطبق الرئيسي"
+        },
+        {
+          "id": "c11",
+          "front": "le dessert",
+          "say": "le dessert",
+          "back_ar": "الحلوى"
+        },
+        {
+          "id": "c12",
+          "front": "l'addition",
+          "say": "l'addition",
+          "back_ar": "الحساب"
+        },
+        {
+          "id": "c13",
+          "front": "sans porc",
+          "say": "sans porc",
+          "back_ar": "بلا لحم خنزير"
+        },
+        {
+          "id": "c14",
+          "front": "Bon appétit !",
+          "say": "Bon appétit !",
+          "back_ar": "شهية طيبة!"
+        },
+        {
+          "id": "c15",
+          "front": "C'est délicieux !",
+          "say": "C'est délicieux !",
+          "back_ar": "لذيذ!"
+        },
+        {
+          "id": "c16",
+          "front": "une carafe d'eau",
+          "say": "une carafe d'eau",
+          "back_ar": "إبريق ماء (مجاني)"
+        }
+      ]
+    }
+  ]
+}

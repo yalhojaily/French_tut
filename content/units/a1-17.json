@@ -1,0 +1,1223 @@
+{
+  "id": "a1-17",
+  "stage": "A1",
+  "title_fr": "Chez moi",
+  "title_ar": "في بيتي",
+  "goals_ar": [
+    "تصف بيتك: **Il y a trois pièces et un balcon.**",
+    "تستعمل أسماء الإشارة: **ce، cet، cette، ces**",
+    "تحدد مكان الأشياء: **sur، sous، dans، devant، derrière**",
+    "تميّز sur «سُور» من sous «سو»"
+  ],
+  "intro_ar": [
+    "**il y a** (يوجد / هناك) أهم عبارة لوصف المكان: Il y a une cuisine. Il n'y a pas de jardin.",
+    "**اسم الإشارة** يتفق مع الاسم: **ce** salon (مذكر)، **cette** chambre (مؤنث)، **ces** chaises (جمع). وأمام مذكر يبدأ بحرف علة نقول **cet**: cet appartement، لتسهيل النطق.",
+    "**أهم فخ صوتي في الوحدة:** **sur** (على) و **sous** (تحت) عكس بعضهما، والفرق صوت واحد: «يو» الفرنسية و «و» العربية، وقد تدربت عليه في المرحلة 0."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: الشقة الجديدة",
+      "context_ar": "يوسف يُري كلير شقته. لاحظ أسماء الإشارة وحروف المكان.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "B",
+          "say": "Entre ! Voici mon appartement.",
+          "ar": "تفضّلي بالدخول! هذه شقتي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Entre !",
+              "ادخلي"
+            ],
+            [
+              "Voici",
+              "هذه"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "appartement.",
+              "شقة"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "A",
+          "say": "Il est très beau ! Il y a combien de pièces ?",
+          "ar": "إنها جميلة جداً! كم غرفة فيها؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Il",
+              "هو (الشقة)"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "très",
+              "جداً"
+            ],
+            [
+              "beau !",
+              "جميل"
+            ],
+            [
+              "Il y a",
+              "يوجد"
+            ],
+            [
+              "combien de",
+              "كم"
+            ],
+            [
+              "pièces ?",
+              "غرفة"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "B",
+          "say": "Trois pièces : ce salon, une chambre et un bureau.",
+          "ar": "ثلاث غرف: هذه الصالة، وغرفة نوم، ومكتب.",
+          "slow": true,
+          "gloss": [
+            [
+              "Trois",
+              "3"
+            ],
+            [
+              "pièces :",
+              "غرف"
+            ],
+            [
+              "ce",
+              "هذا"
+            ],
+            [
+              "salon,",
+              "صالة"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "chambre",
+              "غرفة نوم"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "bureau.",
+              "مكتب"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "A",
+          "say": "J'adore ce canapé ! Et cette lampe est jolie.",
+          "ar": "أحب هذه الأريكة كثيراً! وهذا المصباح جميل.",
+          "slow": true,
+          "gloss": [
+            [
+              "J'adore",
+              "أعشق"
+            ],
+            [
+              "ce",
+              "هذه"
+            ],
+            [
+              "canapé !",
+              "أريكة"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "cette",
+              "هذا"
+            ],
+            [
+              "lampe",
+              "مصباح"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "jolie.",
+              "جميل"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "B",
+          "say": "Merci. La cuisine est derrière le salon, à gauche.",
+          "ar": "شكراً. المطبخ خلف الصالة، على اليسار.",
+          "slow": true,
+          "gloss": [
+            [
+              "Merci.",
+              "شكراً"
+            ],
+            [
+              "La",
+              "الـ"
+            ],
+            [
+              "cuisine",
+              "مطبخ"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "derrière",
+              "خلف"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "salon,",
+              "صالة"
+            ],
+            [
+              "à gauche.",
+              "على اليسار"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "A",
+          "say": "Et ces livres sous la table ? Tu n'as pas d'étagère ?",
+          "ar": "وهذه الكتب تحت الطاولة؟ أليس عندك رفّ؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "ces",
+              "هذه"
+            ],
+            [
+              "livres",
+              "كتب"
+            ],
+            [
+              "sous",
+              "تحت"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "table ?",
+              "طاولة"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "n'as pas d'étagère ?",
+              "ليس عندك رفّ؟"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "B",
+          "say": "Pas encore ! Pour l'instant, les livres sont sous la table et sur le lit.",
+          "ar": "ليس بعد! حالياً الكتب تحت الطاولة وعلى السرير.",
+          "slow": true,
+          "gloss": [
+            [
+              "Pas encore !",
+              "ليس بعد"
+            ],
+            [
+              "Pour l'instant,",
+              "حالياً"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "livres",
+              "كتب"
+            ],
+            [
+              "sont",
+              "تكون"
+            ],
+            [
+              "sous",
+              "تحت"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "table",
+              "طاولة"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "sur",
+              "على"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "lit.",
+              "سرير"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "A",
+          "say": "Sur le lit ? Samedi, on va acheter une étagère ensemble !",
+          "ar": "على السرير؟ يوم السبت سنشتري رفّاً معاً!",
+          "slow": true,
+          "gloss": [
+            [
+              "Sur le lit ?",
+              "على السرير؟"
+            ],
+            [
+              "Samedi,",
+              "السبت"
+            ],
+            [
+              "on va",
+              "سوف"
+            ],
+            [
+              "acheter",
+              "نشتري"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "étagère",
+              "رفّ"
+            ],
+            [
+              "ensemble !",
+              "معاً"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "قارن **ce** canapé (مذكر في الفرنسية، والأريكة مؤنثة في العربية) و **cette** lampe (مؤنث، والمصباح مذكر في العربية). الجنس لا ينتقل بين اللغتين، فاحفظ الكلمة مع أداتها. وانتبه لـ **sous** و **sur** في السطر 7."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات البيت",
+      "hint_ar": "الغرف، ثم الأثاث، ثم حروف المكان. احفظ كل اسم مع أداته.",
+      "groups": [
+        {
+          "title_ar": "البيت والغرف",
+          "items": [
+            {
+              "id": "v-appart",
+              "say": "un appartement",
+              "ar": "شقة"
+            },
+            {
+              "id": "v-maison",
+              "say": "une maison",
+              "ar": "بيت"
+            },
+            {
+              "id": "v-piece",
+              "say": "une pièce",
+              "ar": "غرفة",
+              "note_ar": "أي غرفة. أما chambre فغرفة النوم."
+            },
+            {
+              "id": "v-chambre",
+              "say": "une chambre",
+              "ar": "غرفة نوم"
+            },
+            {
+              "id": "v-salon",
+              "say": "le salon",
+              "ar": "الصالة"
+            },
+            {
+              "id": "v-cuisine",
+              "say": "la cuisine",
+              "ar": "المطبخ"
+            },
+            {
+              "id": "v-sdb",
+              "say": "la salle de bains",
+              "ar": "الحمّام"
+            },
+            {
+              "id": "v-balcon",
+              "say": "le balcon",
+              "ar": "الشرفة"
+            },
+            {
+              "id": "v-jardin",
+              "say": "le jardin",
+              "ar": "الحديقة"
+            },
+            {
+              "id": "v-etage",
+              "say": "l'étage",
+              "ar": "الطابق"
+            }
+          ]
+        },
+        {
+          "title_ar": "الأثاث",
+          "items": [
+            {
+              "id": "v-lit",
+              "say": "un lit",
+              "ar": "سرير"
+            },
+            {
+              "id": "v-table",
+              "say": "une table",
+              "ar": "طاولة"
+            },
+            {
+              "id": "v-chaise",
+              "say": "une chaise",
+              "ar": "كرسي"
+            },
+            {
+              "id": "v-canape",
+              "say": "un canapé",
+              "ar": "أريكة"
+            },
+            {
+              "id": "v-armoire",
+              "say": "une armoire",
+              "ar": "خزانة ملابس"
+            },
+            {
+              "id": "v-etagere",
+              "say": "une étagère",
+              "ar": "رفّ"
+            },
+            {
+              "id": "v-lampe",
+              "say": "une lampe",
+              "ar": "مصباح"
+            },
+            {
+              "id": "v-tapis",
+              "say": "un tapis",
+              "ar": "سجادة"
+            },
+            {
+              "id": "v-frigo",
+              "say": "un frigo",
+              "ar": "ثلاجة"
+            }
+          ]
+        },
+        {
+          "title_ar": "أين الشيء؟",
+          "items": [
+            {
+              "id": "v-sur",
+              "say": "sur",
+              "ar": "على"
+            },
+            {
+              "id": "v-sous",
+              "say": "sous",
+              "ar": "تحت"
+            },
+            {
+              "id": "v-dans",
+              "say": "dans",
+              "ar": "في / داخل"
+            },
+            {
+              "id": "v-devant",
+              "say": "devant",
+              "ar": "أمام"
+            },
+            {
+              "id": "v-derriere",
+              "say": "derrière",
+              "ar": "خلف"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-ilya",
+              "say": "Il y a…",
+              "ar": "يوجد…"
+            },
+            {
+              "id": "v-nya",
+              "say": "Il n'y a pas de…",
+              "ar": "لا يوجد…"
+            },
+            {
+              "id": "v-chez",
+              "say": "chez moi",
+              "ar": "في بيتي / عندي"
+            },
+            {
+              "id": "v-fais",
+              "say": "Fais comme chez toi !",
+              "ar": "البيت بيتك!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "ce / cette",
+      "title_ar": "القاعدة: أسماء الإشارة وحروف المكان",
+      "intro_ar": "اسم الإشارة يتبع جنس الاسم وعدده. ثم خمسة حروف تحدد مكان أي شيء.",
+      "tables": [
+        {
+          "title_fr": "ce, cet, cette, ces",
+          "title_ar": "أسماء الإشارة",
+          "head_ar": [
+            "مع",
+            "الأداة",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-d1",
+              "say": "ce salon",
+              "cells": [
+                "masculin",
+                "ce",
+                "ce salon"
+              ],
+              "ar": "هذه الصالة"
+            },
+            {
+              "id": "g-d2",
+              "say": "cet appartement",
+              "cells": [
+                "masculin + voyelle",
+                "cet",
+                "cet appartement"
+              ],
+              "ar": "هذه الشقة"
+            },
+            {
+              "id": "g-d3",
+              "say": "cette chambre",
+              "cells": [
+                "féminin",
+                "cette",
+                "cette chambre"
+              ],
+              "ar": "هذه الغرفة"
+            },
+            {
+              "id": "g-d4",
+              "say": "ces chaises",
+              "cells": [
+                "pluriel",
+                "ces",
+                "ces chaises"
+              ],
+              "ar": "هذه الكراسي"
+            }
+          ],
+          "note_ar": "cet و cette تُنطقان بالطريقة نفسها «سِت». والفرنسية لا تفرّق عادةً بين «هذا» و«ذاك»: ce livre تعني الاثنين."
+        },
+        {
+          "title_fr": "Où est… ?",
+          "title_ar": "حروف المكان",
+          "head_ar": [
+            "الحرف",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-p1",
+              "say": "Le livre est sur la table.",
+              "cells": [
+                "sur",
+                "Le livre est sur la table."
+              ],
+              "ar": "على"
+            },
+            {
+              "id": "g-p2",
+              "say": "Le chat est sous le lit.",
+              "cells": [
+                "sous",
+                "Le chat est sous le lit."
+              ],
+              "ar": "تحت"
+            },
+            {
+              "id": "g-p3",
+              "say": "Les clés sont dans le sac.",
+              "cells": [
+                "dans",
+                "Les clés sont dans le sac."
+              ],
+              "ar": "في / داخل"
+            },
+            {
+              "id": "g-p4",
+              "say": "La voiture est devant la maison.",
+              "cells": [
+                "devant",
+                "La voiture est devant la maison."
+              ],
+              "ar": "أمام"
+            },
+            {
+              "id": "g-p5",
+              "say": "Le jardin est derrière la maison.",
+              "cells": [
+                "derrière",
+                "Le jardin est derrière la maison."
+              ],
+              "ar": "خلف"
+            },
+            {
+              "id": "g-p6",
+              "say": "La lampe est à côté du canapé.",
+              "cells": [
+                "à côté de",
+                "La lampe est à côté du canapé."
+              ],
+              "ar": "بجانب"
+            }
+          ],
+          "note_ar": "**sur** «سُور» بشفتين مستديرتين ولسان إلى الأمام، و **sous** «سو» بواو عربية. إن أخطأت فيهما وضعت الشيء في المكان المعاكس!"
+        }
+      ],
+      "points_ar": [
+        "**il y a مع النفي:** Il y a un jardin، لكن Il n'y a pas de jardin.",
+        "**chez** = في بيت: chez moi (في بيتي)، chez toi، chez Claire.",
+        "**pièce أم chambre؟** trois pièces = ثلاث غرف من أي نوع، و une chambre = غرفة نوم."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: أسماء الإشارة والمكان",
+      "hint_ar": "انظر إلى جنس الاسم وعدده، ثم إلى المعنى.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "J'adore ___ canapé.",
+          "say": "J'adore ce canapé.",
+          "options": [
+            "cette",
+            "ce"
+          ],
+          "answer": "ce",
+          "ar": "أحب هذه الأريكة كثيراً.",
+          "explain_ar": "canapé مذكر: **ce**."
+        },
+        {
+          "id": "f2",
+          "text": "___ chambre est grande.",
+          "say": "Cette chambre est grande.",
+          "options": [
+            "Ce",
+            "Cette"
+          ],
+          "answer": "Cette",
+          "ar": "هذه الغرفة كبيرة.",
+          "explain_ar": "chambre مؤنثة: **Cette**."
+        },
+        {
+          "id": "f3",
+          "text": "___ appartement est beau.",
+          "say": "Cet appartement est beau.",
+          "options": [
+            "Cet",
+            "Ce"
+          ],
+          "answer": "Cet",
+          "ar": "هذه الشقة جميلة.",
+          "explain_ar": "مذكر يبدأ بحرف علة: **Cet**."
+        },
+        {
+          "id": "f4",
+          "text": "___ livres sont à moi.",
+          "say": "Ces livres sont à moi.",
+          "options": [
+            "Cette",
+            "Ces"
+          ],
+          "answer": "Ces",
+          "ar": "هذه الكتب لي.",
+          "explain_ar": "جمع: **Ces**."
+        },
+        {
+          "id": "f5",
+          "text": "Le chat dort ___ le lit.",
+          "say": "Le chat dort sous le lit.",
+          "options": [
+            "sur",
+            "sous"
+          ],
+          "answer": "sous",
+          "ar": "القط ينام تحت السرير.",
+          "explain_ar": "تحت: **sous** «سو»."
+        },
+        {
+          "id": "f6",
+          "text": "La lampe est ___ la table.",
+          "say": "La lampe est sur la table.",
+          "options": [
+            "sur",
+            "sous"
+          ],
+          "answer": "sur",
+          "ar": "المصباح على الطاولة.",
+          "explain_ar": "على: **sur** «سُور»."
+        },
+        {
+          "id": "f7",
+          "text": "Les clés sont ___ le sac.",
+          "say": "Les clés sont dans le sac.",
+          "options": [
+            "devant",
+            "dans"
+          ],
+          "answer": "dans",
+          "ar": "المفاتيح في الحقيبة.",
+          "explain_ar": "داخل: **dans**."
+        },
+        {
+          "id": "f8",
+          "text": "La voiture est ___ la maison.",
+          "say": "La voiture est devant la maison.",
+          "options": [
+            "devant",
+            "derrière"
+          ],
+          "answer": "devant",
+          "ar": "السيارة أمام البيت.",
+          "explain_ar": "أمام: **devant**."
+        },
+        {
+          "id": "f9",
+          "text": "Il n'y a pas ___ jardin.",
+          "say": "Il n'y a pas de jardin.",
+          "options": [
+            "un",
+            "de"
+          ],
+          "answer": "de",
+          "ar": "لا توجد حديقة.",
+          "explain_ar": "بعد النفي: **de**."
+        },
+        {
+          "id": "f10",
+          "text": "Il y a ___ pièces ?",
+          "say": "Il y a combien de pièces ?",
+          "options": [
+            "combien",
+            "combien de"
+          ],
+          "answer": "combien de",
+          "ar": "كم غرفة يوجد؟",
+          "explain_ar": "قبل الاسم: **combien de**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: sur أم sous؟",
+      "hint_ar": "أول سؤالين هما أهم ما في الوحدة: «سُور» أم «سو»؟",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "sur la table",
+          "options": [
+            "sous la table",
+            "sur la table"
+          ],
+          "answer": "sur la table",
+          "explain_ar": "sur «سُور»: على."
+        },
+        {
+          "id": "q2",
+          "say": "sous le lit",
+          "options": [
+            "sous le lit",
+            "sur le lit"
+          ],
+          "answer": "sous le lit",
+          "explain_ar": "sous «سو»: تحت."
+        },
+        {
+          "id": "q3",
+          "say": "ces chambres",
+          "options": [
+            "cette chambre",
+            "ces chambres"
+          ],
+          "answer": "ces chambres",
+          "explain_ar": "ces «سيه»: جمع."
+        },
+        {
+          "id": "q4",
+          "say": "derrière",
+          "options": [
+            "devant",
+            "derrière"
+          ],
+          "answer": "derrière",
+          "explain_ar": "derrière «ديغيِيغ»: خلف."
+        },
+        {
+          "id": "q5",
+          "say": "dans la cuisine",
+          "options": [
+            "dans la cuisine",
+            "dans la chambre"
+          ],
+          "answer": "dans la cuisine",
+          "explain_ar": "cuisine «كويزين»: مطبخ."
+        },
+        {
+          "id": "q6",
+          "say": "ces appartements",
+          "options": [
+            "cet appartement",
+            "ces appartements"
+          ],
+          "answer": "ces appartements",
+          "explain_ar": "ces‿appartements «سيزاپاغتُمون»: الوصل = جمع."
+        },
+        {
+          "id": "q7",
+          "say": "Il n'y a pas de balcon.",
+          "options": [
+            "Il y a un balcon.",
+            "Il n'y a pas de balcon."
+          ],
+          "answer": "Il n'y a pas de balcon.",
+          "explain_ar": "n'y a pas «نيا پا»: لا يوجد."
+        },
+        {
+          "id": "q8",
+          "say": "la salle de bains",
+          "options": [
+            "le salon",
+            "la salle de bains"
+          ],
+          "answer": "la salle de bains",
+          "explain_ar": "salle de bains «سال دُ بان»: حمّام."
+        },
+        {
+          "id": "q9",
+          "say": "une chaise",
+          "options": [
+            "une chaise",
+            "une chambre"
+          ],
+          "answer": "une chaise",
+          "explain_ar": "chaise «شيز»: كرسي."
+        },
+        {
+          "id": "q10",
+          "say": "chez toi",
+          "options": [
+            "chez moi",
+            "chez toi"
+          ],
+          "answer": "chez toi",
+          "explain_ar": "toi «توا»: أنت."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: البيت والمكان",
+      "hint_ar": "أسماء الإشارة وحروف المكان.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **cette** بـ tt، و **derrière** بـ rr و è.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "ce salon",
+          "answer": "ce salon",
+          "ar": "هذه الصالة"
+        },
+        {
+          "id": "s2",
+          "say": "cette chambre",
+          "answer": "cette chambre",
+          "ar": "هذه الغرفة"
+        },
+        {
+          "id": "s3",
+          "say": "ces chaises",
+          "answer": "ces chaises",
+          "ar": "هذه الكراسي"
+        },
+        {
+          "id": "s4",
+          "say": "sur",
+          "answer": "sur",
+          "ar": "على"
+        },
+        {
+          "id": "s5",
+          "say": "sous",
+          "answer": "sous",
+          "ar": "تحت"
+        },
+        {
+          "id": "s6",
+          "say": "dans",
+          "answer": "dans",
+          "ar": "في"
+        },
+        {
+          "id": "s7",
+          "say": "derrière",
+          "answer": "derrière",
+          "ar": "خلف"
+        },
+        {
+          "id": "s8",
+          "say": "il y a",
+          "answer": "il y a",
+          "ar": "يوجد"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "صف البيت. بالغ في تدوير الشفتين مع sur.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Il y a trois pièces et un balcon.",
+          "ar": "توجد ثلاث غرف وشرفة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Il y a",
+              "يوجد"
+            ],
+            [
+              "trois",
+              "3"
+            ],
+            [
+              "pièces",
+              "غرف"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "balcon.",
+              "شرفة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Cette chambre est petite, mais jolie.",
+          "ar": "هذه الغرفة صغيرة لكنها جميلة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Cette",
+              "هذه"
+            ],
+            [
+              "chambre",
+              "غرفة"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "petite,",
+              "صغيرة"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "jolie.",
+              "جميلة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Le chat est sous le lit.",
+          "ar": "القط تحت السرير.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Le",
+              "الـ"
+            ],
+            [
+              "chat",
+              "قط"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "sous",
+              "تحت"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "lit.",
+              "سرير"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Les clés sont sur la table.",
+          "ar": "المفاتيح على الطاولة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Les",
+              "الـ"
+            ],
+            [
+              "clés",
+              "مفاتيح"
+            ],
+            [
+              "sont",
+              "تكون"
+            ],
+            [
+              "sur",
+              "على"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "table.",
+              "طاولة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Entre, fais comme chez toi !",
+          "ar": "ادخل، البيت بيتك!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Entre,",
+              "ادخل"
+            ],
+            [
+              "fais comme chez toi !",
+              "البيت بيتك"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: صف غرفتك بصوتك: **Dans ma chambre, il y a… Le lit est à côté de… Sur la table, il y a…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل الكلمة مع أداتها قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "un appartement",
+          "say": "un appartement",
+          "back_ar": "شقة"
+        },
+        {
+          "id": "c2",
+          "front": "une pièce",
+          "say": "une pièce",
+          "back_ar": "غرفة (أي غرفة)"
+        },
+        {
+          "id": "c3",
+          "front": "une chambre",
+          "say": "une chambre",
+          "back_ar": "غرفة نوم"
+        },
+        {
+          "id": "c4",
+          "front": "le salon",
+          "say": "le salon",
+          "back_ar": "الصالة"
+        },
+        {
+          "id": "c5",
+          "front": "la cuisine",
+          "say": "la cuisine",
+          "back_ar": "المطبخ"
+        },
+        {
+          "id": "c6",
+          "front": "la salle de bains",
+          "say": "la salle de bains",
+          "back_ar": "الحمّام"
+        },
+        {
+          "id": "c7",
+          "front": "un lit",
+          "say": "un lit",
+          "back_ar": "سرير"
+        },
+        {
+          "id": "c8",
+          "front": "un canapé",
+          "say": "un canapé",
+          "back_ar": "أريكة"
+        },
+        {
+          "id": "c9",
+          "front": "une armoire",
+          "say": "une armoire",
+          "back_ar": "خزانة ملابس"
+        },
+        {
+          "id": "c10",
+          "front": "ce / cet / cette / ces",
+          "say": "ce salon, cet appartement, cette chambre, ces chaises",
+          "back_ar": "هذا / هذه (حسب الجنس والعدد)"
+        },
+        {
+          "id": "c11",
+          "front": "sur / sous",
+          "say": "sur, sous",
+          "back_ar": "على / تحت"
+        },
+        {
+          "id": "c12",
+          "front": "dans",
+          "say": "dans",
+          "back_ar": "في / داخل"
+        },
+        {
+          "id": "c13",
+          "front": "devant / derrière",
+          "say": "devant, derrière",
+          "back_ar": "أمام / خلف"
+        },
+        {
+          "id": "c14",
+          "front": "Il y a…",
+          "say": "Il y a un balcon.",
+          "back_ar": "يوجد…"
+        },
+        {
+          "id": "c15",
+          "front": "Il n'y a pas de…",
+          "say": "Il n'y a pas de jardin.",
+          "back_ar": "لا يوجد…"
+        },
+        {
+          "id": "c16",
+          "front": "Fais comme chez toi !",
+          "say": "Fais comme chez toi !",
+          "back_ar": "البيت بيتك!"
+        }
+      ]
+    }
+  ]
+}

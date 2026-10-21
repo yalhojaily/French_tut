@@ -1,0 +1,1213 @@
+{
+  "id": "a1-16",
+  "stage": "A1",
+  "title_fr": "Faire les courses",
+  "title_ar": "التسوّق",
+  "goals_ar": [
+    "تشتري بكميات: **un kilo de tomates، une bouteille d'eau**",
+    "تسأل عن السعر وتفهمه: **Ça fait combien ? Ça fait 4,50 €.**",
+    "تقول ما ليس عندك: **Je n'ai pas de sac.**",
+    "تتعامل مع البائع: **Et avec ceci ? C'est tout.**"
+  ],
+  "intro_ar": [
+    "تعلّمت du و de la في المطعم. والخبر الجيد: **مع الكميات تختفي الأداة** وتبقى de وحدها: un kilo de pommes، une bouteille d'eau، beaucoup de pain.",
+    "**وكذلك بعد النفي:** Je veux du pain تصير Je ne veux **pas de** pain.",
+    "**الأسعار:** الفرنسيون يكتبون فاصلة بدل النقطة: 4,50 € ويقرؤونها «quatre euros cinquante»."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: في السوق",
+      "context_ar": "يوسف يشتري خضاراً وفواكه من بائعة في السوق. لاحظ الكميات والسعر.",
+      "speakers": {
+        "A": {
+          "name_ar": "البائعة",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Bonjour monsieur ! Qu'est-ce que je vous sers ?",
+          "ar": "صباح الخير سيدي! ماذا أقدّم لك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonjour",
+              "صباح الخير"
+            ],
+            [
+              "monsieur !",
+              "سيدي"
+            ],
+            [
+              "Qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "vous",
+              "لك"
+            ],
+            [
+              "sers ?",
+              "أقدّم"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Bonjour ! Je voudrais un kilo de tomates, s'il vous plaît.",
+          "ar": "صباح الخير! أودّ كيلو طماطم من فضلك.",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonjour !",
+              "صباح الخير"
+            ],
+            [
+              "Je voudrais",
+              "أودّ"
+            ],
+            [
+              "un kilo de",
+              "كيلو من"
+            ],
+            [
+              "tomates,",
+              "طماطم"
+            ],
+            [
+              "s'il vous plaît.",
+              "من فضلك"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Voilà. Et avec ceci ?",
+          "ar": "تفضّل. وماذا أيضاً؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Voilà.",
+              "تفضّل"
+            ],
+            [
+              "Et avec ceci ?",
+              "وماذا أيضاً؟"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Une douzaine d'œufs et un peu de fromage.",
+          "ar": "دزينة بيض وقليل من الجبن.",
+          "slow": true,
+          "gloss": [
+            [
+              "Une",
+              "(نكرة)"
+            ],
+            [
+              "douzaine",
+              "دزينة"
+            ],
+            [
+              "d'œufs",
+              "من البيض"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "un peu de",
+              "قليل من"
+            ],
+            [
+              "fromage.",
+              "جبن"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Je suis désolée, je n'ai pas de fromage aujourd'hui.",
+          "ar": "آسفة، ليس عندي جبن اليوم.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je suis désolée,",
+              "آسفة"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "n'ai pas de",
+              "ليس عندي"
+            ],
+            [
+              "fromage",
+              "جبن"
+            ],
+            [
+              "aujourd'hui.",
+              "اليوم"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Pas de problème. Les pommes, c'est combien ?",
+          "ar": "لا مشكلة. التفاح بكم؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Pas de problème.",
+              "لا مشكلة"
+            ],
+            [
+              "Les",
+              "الـ"
+            ],
+            [
+              "pommes,",
+              "تفاح"
+            ],
+            [
+              "c'est combien ?",
+              "بكم"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Trois euros le kilo. Elles sont très bonnes !",
+          "ar": "ثلاثة يورو للكيلو. إنه تفاح لذيذ جداً!",
+          "slow": true,
+          "gloss": [
+            [
+              "Trois",
+              "3"
+            ],
+            [
+              "euros",
+              "يورو"
+            ],
+            [
+              "le kilo.",
+              "للكيلو"
+            ],
+            [
+              "Elles",
+              "هي"
+            ],
+            [
+              "sont",
+              "تكون"
+            ],
+            [
+              "très",
+              "جداً"
+            ],
+            [
+              "bonnes !",
+              "جيدة"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Alors deux kilos de pommes. C'est tout. Ça fait combien ?",
+          "ar": "إذن كيلوان من التفاح. هذا كل شيء. كم المجموع؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Alors",
+              "إذن"
+            ],
+            [
+              "deux",
+              "2"
+            ],
+            [
+              "kilos de",
+              "كيلو من"
+            ],
+            [
+              "pommes.",
+              "تفاح"
+            ],
+            [
+              "C'est tout.",
+              "هذا كل شيء"
+            ],
+            [
+              "Ça fait combien ?",
+              "كم المجموع؟"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Ça fait onze euros cinquante. Vous avez un sac ?",
+          "ar": "المجموع أحد عشر يورو وخمسون سنتاً. هل معك كيس؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Ça fait",
+              "المجموع"
+            ],
+            [
+              "onze",
+              "11"
+            ],
+            [
+              "euros",
+              "يورو"
+            ],
+            [
+              "cinquante.",
+              "50"
+            ],
+            [
+              "Vous",
+              "حضرتك"
+            ],
+            [
+              "avez",
+              "معك"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "sac ?",
+              "كيس"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "Oui, j'ai un sac. Merci, bonne journée !",
+          "ar": "نعم، معي كيس. شكراً، يوماً سعيداً!",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "j'ai",
+              "معي"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "sac.",
+              "كيس"
+            ],
+            [
+              "Merci,",
+              "شكراً"
+            ],
+            [
+              "bonne journée !",
+              "يوماً سعيداً"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "**Et avec ceci ?** سؤال كل بائع في فرنسا: «وماذا أيضاً؟». والجواب حين تنتهي: **C'est tout.** ولاحظ **je n'ai pas de fromage**: بعد النفي اختفت du وبقيت de."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "الكميات كلها تنتهي بـ de. ثم الخضار والفواكه والمحلات.",
+      "groups": [
+        {
+          "title_ar": "الكميات",
+          "items": [
+            {
+              "id": "v-kilo",
+              "say": "un kilo de",
+              "ar": "كيلو من"
+            },
+            {
+              "id": "v-demi",
+              "say": "un demi-kilo de",
+              "ar": "نصف كيلو من"
+            },
+            {
+              "id": "v-grammes",
+              "say": "cent grammes de",
+              "ar": "مئة غرام من"
+            },
+            {
+              "id": "v-bouteille",
+              "say": "une bouteille de",
+              "ar": "قارورة من"
+            },
+            {
+              "id": "v-paquet",
+              "say": "un paquet de",
+              "ar": "علبة / كيس من"
+            },
+            {
+              "id": "v-boite",
+              "say": "une boîte de",
+              "ar": "علبة معدنية من"
+            },
+            {
+              "id": "v-douzaine",
+              "say": "une douzaine de",
+              "ar": "دزينة من"
+            },
+            {
+              "id": "v-morceau",
+              "say": "un morceau de",
+              "ar": "قطعة من"
+            },
+            {
+              "id": "v-beaucoup",
+              "say": "beaucoup de",
+              "ar": "كثير من"
+            },
+            {
+              "id": "v-unpeu",
+              "say": "un peu de",
+              "ar": "قليل من"
+            }
+          ]
+        },
+        {
+          "title_ar": "الخضار والفواكه",
+          "items": [
+            {
+              "id": "v-tomate",
+              "say": "une tomate",
+              "ar": "طماطم"
+            },
+            {
+              "id": "v-pomme",
+              "say": "une pomme",
+              "ar": "تفاحة"
+            },
+            {
+              "id": "v-banane",
+              "say": "une banane",
+              "ar": "موزة"
+            },
+            {
+              "id": "v-orange",
+              "say": "une orange",
+              "ar": "برتقالة"
+            },
+            {
+              "id": "v-pdt",
+              "say": "une pomme de terre",
+              "ar": "بطاطس",
+              "note_ar": "حرفياً: تفاحة الأرض."
+            },
+            {
+              "id": "v-oignon",
+              "say": "un oignon",
+              "ar": "بصلة",
+              "note_ar": "تُنطق «أونيون»: الـ i صامتة."
+            },
+            {
+              "id": "v-carotte",
+              "say": "une carotte",
+              "ar": "جزرة"
+            },
+            {
+              "id": "v-oeufs",
+              "say": "des œufs",
+              "ar": "بيض",
+              "note_ar": "un œuf «أنُف»، لكن des œufs «ديزُ»: الـ f صامتة في الجمع!"
+            },
+            {
+              "id": "v-lait",
+              "say": "le lait",
+              "ar": "الحليب"
+            }
+          ]
+        },
+        {
+          "title_ar": "المحلات",
+          "items": [
+            {
+              "id": "v-boucherie",
+              "say": "la boucherie",
+              "ar": "الملحمة"
+            },
+            {
+              "id": "v-halal",
+              "say": "la boucherie halal",
+              "ar": "ملحمة حلال"
+            },
+            {
+              "id": "v-epicerie",
+              "say": "l'épicerie",
+              "ar": "البقالة"
+            },
+            {
+              "id": "v-supermarche",
+              "say": "le supermarché",
+              "ar": "السوبرماركت"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-cafait",
+              "say": "Ça fait combien ?",
+              "ar": "كم المجموع؟"
+            },
+            {
+              "id": "v-cest",
+              "say": "C'est combien ?",
+              "ar": "بكم هذا؟"
+            },
+            {
+              "id": "v-ceci",
+              "say": "Et avec ceci ?",
+              "ar": "وماذا أيضاً؟"
+            },
+            {
+              "id": "v-tout",
+              "say": "C'est tout.",
+              "ar": "هذا كل شيء."
+            },
+            {
+              "id": "v-monnaie",
+              "say": "la monnaie",
+              "ar": "الفكّة / الصرف"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الكميات",
+      "title_ar": "القاعدة: الكمية والنفي والأسعار",
+      "intro_ar": "قاعدة واحدة تجمع الجدولين الأولين: بعد الكمية وبعد النفي تبقى **de** وحدها.",
+      "tables": [
+        {
+          "title_fr": "Les quantités",
+          "title_ar": "الكمية مع de",
+          "head_ar": [
+            "الكمية",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-q1",
+              "say": "un kilo de tomates",
+              "cells": [
+                "un kilo de",
+                "un kilo de tomates"
+              ],
+              "ar": "كيلو طماطم"
+            },
+            {
+              "id": "g-q2",
+              "say": "une bouteille d'eau",
+              "cells": [
+                "une bouteille de",
+                "une bouteille d'eau"
+              ],
+              "ar": "قارورة ماء"
+            },
+            {
+              "id": "g-q3",
+              "say": "un paquet de riz",
+              "cells": [
+                "un paquet de",
+                "un paquet de riz"
+              ],
+              "ar": "كيس أرز"
+            },
+            {
+              "id": "g-q4",
+              "say": "une douzaine d'œufs",
+              "cells": [
+                "une douzaine de",
+                "une douzaine d'œufs"
+              ],
+              "ar": "دزينة بيض"
+            },
+            {
+              "id": "g-q5",
+              "say": "beaucoup de lait",
+              "cells": [
+                "beaucoup de",
+                "beaucoup de lait"
+              ],
+              "ar": "كثير من الحليب"
+            },
+            {
+              "id": "g-q6",
+              "say": "un peu de fromage",
+              "cells": [
+                "un peu de",
+                "un peu de fromage"
+              ],
+              "ar": "قليل من الجبن"
+            }
+          ],
+          "note_ar": "بعد الكمية de وحدها مهما كان الاسم: مذكراً أو مؤنثاً أو جمعاً. وأمام حرف علة: d'. لا تقل un kilo des tomates."
+        },
+        {
+          "title_fr": "La négation + de",
+          "title_ar": "النفي مع de",
+          "head_ar": [
+            "الإثبات",
+            "النفي"
+          ],
+          "rows": [
+            {
+              "id": "g-n1",
+              "say": "Je n'ai pas de pain.",
+              "cells": [
+                "J'ai du pain.",
+                "Je n'ai pas de pain."
+              ],
+              "ar": "ليس عندي خبز"
+            },
+            {
+              "id": "g-n2",
+              "say": "Il n'y a pas de viande.",
+              "cells": [
+                "Il y a de la viande.",
+                "Il n'y a pas de viande."
+              ],
+              "ar": "لا يوجد لحم"
+            },
+            {
+              "id": "g-n3",
+              "say": "Je ne veux pas d'œufs.",
+              "cells": [
+                "Je veux des œufs.",
+                "Je ne veux pas d'œufs."
+              ],
+              "ar": "لا أريد بيضاً"
+            },
+            {
+              "id": "g-n4",
+              "say": "Je n'ai pas de sac.",
+              "cells": [
+                "J'ai un sac.",
+                "Je n'ai pas de sac."
+              ],
+              "ar": "ليس معي كيس"
+            }
+          ],
+          "note_ar": "du و de la و des و un و une كلها تصير de بعد النفي. والاستثناء: être لا يغيّرها: C'est un sac، Ce n'est pas un sac."
+        },
+        {
+          "title_fr": "Les prix",
+          "title_ar": "قراءة الأسعار",
+          "head_ar": [
+            "المكتوب",
+            "المنطوق"
+          ],
+          "rows": [
+            {
+              "id": "g-p1",
+              "say": "deux euros",
+              "cells": [
+                "2 €",
+                "deux euros"
+              ],
+              "ar": "يوروان"
+            },
+            {
+              "id": "g-p2",
+              "say": "quatre euros cinquante",
+              "cells": [
+                "4,50 €",
+                "quatre euros cinquante"
+              ],
+              "ar": "4 يورو و50 سنتاً"
+            },
+            {
+              "id": "g-p3",
+              "say": "quatre-vingts centimes",
+              "cells": [
+                "0,80 €",
+                "quatre-vingts centimes"
+              ],
+              "ar": "80 سنتاً"
+            },
+            {
+              "id": "g-p4",
+              "say": "douze euros quatre-vingt-dix-neuf",
+              "cells": [
+                "12,99 €",
+                "douze euros quatre-vingt-dix-neuf"
+              ],
+              "ar": "12 يورو و99 سنتاً"
+            }
+          ],
+          "note_ar": "الفاصلة تفصل اليورو عن السنتات، ولا يقولون «فاصلة»: 4,50 = quatre euros cinquante."
+        }
+      ],
+      "points_ar": [
+        "**C'est combien أم Ça fait combien؟** الأولى لسعر شيء واحد، والثانية للمجموع.",
+        "**السعر للكيلو:** trois euros le kilo (بأداة التعريف).",
+        "**œufs:** المفرد «أنُف» والجمع «ديزُ» بلا f."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الكميات والنفي",
+      "hint_ar": "بعد الكمية والنفي: de فقط.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je voudrais un kilo ___ tomates.",
+          "say": "Je voudrais un kilo de tomates.",
+          "options": [
+            "des",
+            "de"
+          ],
+          "answer": "de",
+          "ar": "أودّ كيلو طماطم.",
+          "explain_ar": "بعد الكمية: **de** فقط."
+        },
+        {
+          "id": "f2",
+          "text": "Une bouteille ___ eau, s'il vous plaît.",
+          "say": "Une bouteille d'eau, s'il vous plaît.",
+          "options": [
+            "d'",
+            "de l'"
+          ],
+          "answer": "d'",
+          "ar": "قارورة ماء من فضلك.",
+          "explain_ar": "بعد الكمية وأمام حرف علة: **d'**."
+        },
+        {
+          "id": "f3",
+          "text": "Je n'ai pas ___ sac.",
+          "say": "Je n'ai pas de sac.",
+          "options": [
+            "un",
+            "de"
+          ],
+          "answer": "de",
+          "ar": "ليس معي كيس.",
+          "explain_ar": "بعد النفي: **de**."
+        },
+        {
+          "id": "f4",
+          "text": "Il n'y a pas ___ lait.",
+          "say": "Il n'y a pas de lait.",
+          "options": [
+            "de",
+            "du"
+          ],
+          "answer": "de",
+          "ar": "لا يوجد حليب.",
+          "explain_ar": "بعد النفي: **de**، لا du."
+        },
+        {
+          "id": "f5",
+          "text": "J'achète beaucoup ___ fruits.",
+          "say": "J'achète beaucoup de fruits.",
+          "options": [
+            "des",
+            "de"
+          ],
+          "answer": "de",
+          "ar": "أشتري فواكه كثيرة.",
+          "explain_ar": "beaucoup **de** دائماً."
+        },
+        {
+          "id": "f6",
+          "text": "Ça ___ combien ?",
+          "say": "Ça fait combien ?",
+          "options": [
+            "fait",
+            "est"
+          ],
+          "answer": "fait",
+          "ar": "كم المجموع؟",
+          "explain_ar": "للمجموع: Ça **fait** combien."
+        },
+        {
+          "id": "f7",
+          "text": "Les pommes, c'est trois euros ___ kilo.",
+          "say": "Les pommes, c'est trois euros le kilo.",
+          "options": [
+            "un",
+            "le"
+          ],
+          "answer": "le",
+          "ar": "التفاح بثلاثة يورو للكيلو.",
+          "explain_ar": "السعر للكيلو: **le** kilo."
+        },
+        {
+          "id": "f8",
+          "text": "Une ___ d'œufs.",
+          "say": "Une douzaine d'œufs.",
+          "options": [
+            "bouteille",
+            "douzaine"
+          ],
+          "answer": "douzaine",
+          "ar": "دزينة بيض.",
+          "explain_ar": "البيض بالدزينة: **douzaine**."
+        },
+        {
+          "id": "f9",
+          "text": "Et avec ___ ?",
+          "say": "Et avec ceci ?",
+          "options": [
+            "ceci",
+            "tout"
+          ],
+          "answer": "ceci",
+          "ar": "وماذا أيضاً؟",
+          "explain_ar": "عبارة البائع الثابتة: Et avec **ceci** ?"
+        },
+        {
+          "id": "f10",
+          "text": "C'est ___, merci.",
+          "say": "C'est tout, merci.",
+          "options": [
+            "combien",
+            "tout"
+          ],
+          "answer": "tout",
+          "ar": "هذا كل شيء، شكراً.",
+          "explain_ar": "حين تنتهي: C'est **tout**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: الأسعار والكميات",
+      "hint_ar": "الأرقام بسرعة طبيعية، كما تسمعها عند البائع.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع سعراً أو كمية وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "quatorze euros cinquante",
+          "options": [
+            "quatre euros cinquante",
+            "quatorze euros cinquante"
+          ],
+          "answer": "quatorze euros cinquante",
+          "explain_ar": "quatorze «كاتوغز»: 14."
+        },
+        {
+          "id": "q2",
+          "say": "douze euros",
+          "options": [
+            "deux euros",
+            "douze euros"
+          ],
+          "answer": "douze euros",
+          "explain_ar": "douze «دوز»: 12."
+        },
+        {
+          "id": "q3",
+          "say": "des œufs",
+          "options": [
+            "un œuf",
+            "des œufs"
+          ],
+          "answer": "des œufs",
+          "explain_ar": "des‿œufs «ديزُ» بلا f: جمع."
+        },
+        {
+          "id": "q4",
+          "say": "pas de pain",
+          "options": [
+            "pas de pain",
+            "du pain"
+          ],
+          "answer": "pas de pain",
+          "explain_ar": "pas de «پادُ»: نفي."
+        },
+        {
+          "id": "q5",
+          "say": "une pomme de terre",
+          "options": [
+            "une pomme",
+            "une pomme de terre"
+          ],
+          "answer": "une pomme de terre",
+          "explain_ar": "de terre «دُتيغ»: بطاطس."
+        },
+        {
+          "id": "q6",
+          "say": "un peu de",
+          "options": [
+            "beaucoup de",
+            "un peu de"
+          ],
+          "answer": "un peu de",
+          "explain_ar": "un peu «أنپُ»: قليل."
+        },
+        {
+          "id": "q7",
+          "say": "trois euros vingt",
+          "options": [
+            "trois euros vingt",
+            "treize euros vingt"
+          ],
+          "answer": "trois euros vingt",
+          "explain_ar": "trois «تغوا»: 3."
+        },
+        {
+          "id": "q8",
+          "say": "C'est tout.",
+          "options": [
+            "C'est tout.",
+            "C'est combien ?"
+          ],
+          "answer": "C'est tout.",
+          "explain_ar": "tout «تو»: كل شيء."
+        },
+        {
+          "id": "q9",
+          "say": "la boucherie",
+          "options": [
+            "la boulangerie",
+            "la boucherie"
+          ],
+          "answer": "la boucherie",
+          "explain_ar": "boucherie «بوشغي»: ملحمة."
+        },
+        {
+          "id": "q10",
+          "say": "un demi-kilo",
+          "options": [
+            "un demi-kilo",
+            "deux kilos"
+          ],
+          "answer": "un demi-kilo",
+          "explain_ar": "demi «دُمي»: نصف."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: في السوق",
+      "hint_ar": "الكمية و de، والنفي و de.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **des œufs** بحرف œ، و une bouteille **d'eau**.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "un kilo de",
+          "answer": "un kilo de",
+          "ar": "كيلو من"
+        },
+        {
+          "id": "s2",
+          "say": "une bouteille d'eau",
+          "answer": "une bouteille d'eau",
+          "ar": "قارورة ماء"
+        },
+        {
+          "id": "s3",
+          "say": "beaucoup de",
+          "answer": "beaucoup de",
+          "ar": "كثير من"
+        },
+        {
+          "id": "s4",
+          "say": "un peu de",
+          "answer": "un peu de",
+          "ar": "قليل من"
+        },
+        {
+          "id": "s5",
+          "say": "pas de pain",
+          "answer": "pas de pain",
+          "ar": "لا خبز"
+        },
+        {
+          "id": "s6",
+          "say": "des œufs",
+          "answer": "des œufs",
+          "ar": "بيض"
+        },
+        {
+          "id": "s7",
+          "say": "ça fait combien",
+          "answer": "ça fait combien",
+          "ar": "كم المجموع"
+        },
+        {
+          "id": "s8",
+          "say": "c'est tout",
+          "answer": "c'est tout",
+          "ar": "هذا كل شيء"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "حوار البائع والمشتري. ردّد الأسعار بسرعة طبيعية.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Je voudrais un kilo de pommes, s'il vous plaît.",
+          "ar": "أودّ كيلو تفاح من فضلك.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Je voudrais",
+              "أودّ"
+            ],
+            [
+              "un kilo de",
+              "كيلو من"
+            ],
+            [
+              "pommes,",
+              "تفاح"
+            ],
+            [
+              "s'il vous plaît.",
+              "من فضلك"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Ça fait combien ?",
+          "ar": "كم المجموع؟",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Ça fait combien ?",
+              "كم المجموع؟"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Ça fait quatre euros cinquante.",
+          "ar": "المجموع أربعة يورو وخمسون سنتاً.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Ça fait",
+              "المجموع"
+            ],
+            [
+              "quatre",
+              "4"
+            ],
+            [
+              "euros",
+              "يورو"
+            ],
+            [
+              "cinquante.",
+              "50"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Je n'ai pas de monnaie, désolé.",
+          "ar": "ليس معي فكّة، آسف.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "n'ai pas de",
+              "ليس عندي"
+            ],
+            [
+              "monnaie,",
+              "فكّة"
+            ],
+            [
+              "désolé.",
+              "آسف"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "C'est tout, merci. Bonne journée !",
+          "ar": "هذا كل شيء، شكراً. يوماً سعيداً!",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "C'est tout,",
+              "هذا كل شيء"
+            ],
+            [
+              "merci.",
+              "شكراً"
+            ],
+            [
+              "Bonne journée !",
+              "يوماً سعيداً"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: قل قائمة مشترياتك بصوتك: **un kilo de…, une bouteille de…, un paquet de…** ثم اسأل: Ça fait combien ?"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "un kilo de",
+          "say": "un kilo de",
+          "back_ar": "كيلو من"
+        },
+        {
+          "id": "c2",
+          "front": "une bouteille de",
+          "say": "une bouteille de",
+          "back_ar": "قارورة من"
+        },
+        {
+          "id": "c3",
+          "front": "un paquet de",
+          "say": "un paquet de",
+          "back_ar": "علبة / كيس من"
+        },
+        {
+          "id": "c4",
+          "front": "beaucoup de",
+          "say": "beaucoup de",
+          "back_ar": "كثير من"
+        },
+        {
+          "id": "c5",
+          "front": "un peu de",
+          "say": "un peu de",
+          "back_ar": "قليل من"
+        },
+        {
+          "id": "c6",
+          "front": "une douzaine d'œufs",
+          "say": "une douzaine d'œufs",
+          "back_ar": "دزينة بيض"
+        },
+        {
+          "id": "c7",
+          "front": "Je n'ai pas de…",
+          "say": "Je n'ai pas de sac.",
+          "back_ar": "ليس عندي…"
+        },
+        {
+          "id": "c8",
+          "front": "Ça fait combien ?",
+          "say": "Ça fait combien ?",
+          "back_ar": "كم المجموع؟"
+        },
+        {
+          "id": "c9",
+          "front": "C'est combien ?",
+          "say": "C'est combien ?",
+          "back_ar": "بكم هذا؟"
+        },
+        {
+          "id": "c10",
+          "front": "Et avec ceci ?",
+          "say": "Et avec ceci ?",
+          "back_ar": "وماذا أيضاً؟"
+        },
+        {
+          "id": "c11",
+          "front": "C'est tout.",
+          "say": "C'est tout.",
+          "back_ar": "هذا كل شيء."
+        },
+        {
+          "id": "c12",
+          "front": "une pomme de terre",
+          "say": "une pomme de terre",
+          "back_ar": "بطاطس"
+        },
+        {
+          "id": "c13",
+          "front": "un oignon",
+          "say": "un oignon",
+          "back_ar": "بصلة"
+        },
+        {
+          "id": "c14",
+          "front": "la boucherie halal",
+          "say": "la boucherie halal",
+          "back_ar": "ملحمة حلال"
+        },
+        {
+          "id": "c15",
+          "front": "la monnaie",
+          "say": "la monnaie",
+          "back_ar": "الفكّة"
+        },
+        {
+          "id": "c16",
+          "front": "un sac",
+          "say": "un sac",
+          "back_ar": "كيس"
+        }
+      ]
+    }
+  ]
+}

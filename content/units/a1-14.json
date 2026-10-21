@@ -1,0 +1,1139 @@
+{
+  "id": "a1-14",
+  "stage": "A1",
+  "title_fr": "Le temps et les activités",
+  "title_ar": "الطقس والأنشطة",
+  "goals_ar": [
+    "تصرّف **faire** (يفعل / يصنع)",
+    "تتكلم عن الطقس: **Il fait beau. Il pleut. Il fait 30 degrés.**",
+    "تقول ما تمارسه: **Je fais du sport، de la natation**",
+    "تسأل: **Quel temps fait-il ? Qu'est-ce que tu fais le week-end ?**"
+  ],
+  "intro_ar": [
+    "**faire** فعل شاذ ومتعدد المعاني: يفعل، ويصنع، ويمارس. وهو أيضاً فعل الطقس: الفرنسية تقول حرفياً «يفعل جميلاً» = **Il fait beau** (الجو جميل).",
+    "**الطقس دائماً بـ il** الذي لا يعود على أحد: il fait chaud، il pleut، il neige.",
+    "**الأنشطة بـ faire de:** و de تُدمج مع الأداة: **du** sport (مذكر)، **de la** natation (مؤنث)، و **de l'** أمام حرف علة: de l'escalade."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: ماذا نفعل في نهاية الأسبوع؟",
+      "context_ar": "كلير ويوسف يتكلمان عن الطقس وعن خططهما. لاحظ faire في كل سطر تقريباً.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "B",
+          "say": "Quel temps fait-il aujourd'hui ?",
+          "ar": "كيف الطقس اليوم؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Quel temps fait-il",
+              "كيف الطقس"
+            ],
+            [
+              "aujourd'hui ?",
+              "اليوم"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "A",
+          "say": "Il fait beau, mais il fait un peu froid : douze degrés.",
+          "ar": "الجو جميل، لكنه بارد قليلاً: اثنتا عشرة درجة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Il fait beau,",
+              "الجو جميل"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "il fait",
+              "الجو"
+            ],
+            [
+              "un peu",
+              "قليلاً"
+            ],
+            [
+              "froid :",
+              "بارد"
+            ],
+            [
+              "douze",
+              "12"
+            ],
+            [
+              "degrés.",
+              "درجة"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "B",
+          "say": "Douze degrés ! À Riyad, il fait trente degrés en octobre.",
+          "ar": "12 درجة! في الرياض تكون الحرارة 30 درجة في أكتوبر.",
+          "slow": true,
+          "gloss": [
+            [
+              "Douze",
+              "12"
+            ],
+            [
+              "degrés !",
+              "درجة"
+            ],
+            [
+              "À",
+              "في"
+            ],
+            [
+              "Riyad,",
+              "الرياض"
+            ],
+            [
+              "il fait",
+              "الجو"
+            ],
+            [
+              "trente",
+              "30"
+            ],
+            [
+              "degrés",
+              "درجة"
+            ],
+            [
+              "en",
+              "في"
+            ],
+            [
+              "octobre.",
+              "أكتوبر"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "A",
+          "say": "Qu'est-ce que tu fais ce week-end ?",
+          "ar": "ماذا تفعل في نهاية هذا الأسبوع؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "fais",
+              "تفعل"
+            ],
+            [
+              "ce",
+              "هذا"
+            ],
+            [
+              "week-end ?",
+              "نهاية الأسبوع"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "B",
+          "say": "S'il fait beau, je fais du vélo le long de la Seine.",
+          "ar": "إذا كان الجو جميلاً، أركب الدراجة على طول السين.",
+          "slow": true,
+          "gloss": [
+            [
+              "S'il fait beau,",
+              "إذا كان الجو جميلاً"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "fais du vélo",
+              "أركب الدراجة"
+            ],
+            [
+              "le long de",
+              "على طول"
+            ],
+            [
+              "la Seine.",
+              "السين"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "A",
+          "say": "Et s'il pleut ?",
+          "ar": "وإذا أمطرت؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "s'il pleut ?",
+              "إذا أمطرت"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "B",
+          "say": "S'il pleut, je fais de la cuisine ! Et toi ?",
+          "ar": "إذا أمطرت، أطبخ! وأنتِ؟",
+          "slow": true,
+          "gloss": [
+            [
+              "S'il pleut,",
+              "إذا أمطرت"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "fais de la cuisine !",
+              "أطبخ"
+            ],
+            [
+              "Et toi ?",
+              "وأنتِ؟"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "A",
+          "say": "Moi, je fais de la natation le samedi, il y a une piscine près de chez moi.",
+          "ar": "أنا أسبح أيام السبت، هناك مسبح قرب بيتي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "fais de la natation",
+              "أسبح"
+            ],
+            [
+              "le samedi,",
+              "أيام السبت"
+            ],
+            [
+              "il y a",
+              "يوجد"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "piscine",
+              "مسبح"
+            ],
+            [
+              "près de chez moi.",
+              "قرب بيتي"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "B",
+          "say": "Nous faisons du sport tous les deux, c'est bien !",
+          "ar": "كلانا يمارس الرياضة، هذا جيد!",
+          "slow": true,
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "faisons du sport",
+              "نمارس الرياضة"
+            ],
+            [
+              "tous les deux,",
+              "كلانا"
+            ],
+            [
+              "c'est bien !",
+              "هذا جيد"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "**nous faisons** يُنطق «فُزون» لا «فيزون»، وهو استثناء نطق مشهور. ولاحظ **s'il**: si مع il تُحذف منها i فتصير s'il، أما مع elle فتبقى si elle."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "الطقس أولاً، ثم الأنشطة بـ faire، ثم كلمات التكرار.",
+      "groups": [
+        {
+          "title_ar": "الطقس",
+          "items": [
+            {
+              "id": "v-quel",
+              "say": "Quel temps fait-il ?",
+              "ar": "كيف الطقس؟"
+            },
+            {
+              "id": "v-beau",
+              "say": "Il fait beau.",
+              "ar": "الجو جميل."
+            },
+            {
+              "id": "v-mauvais",
+              "say": "Il fait mauvais.",
+              "ar": "الجو سيئ."
+            },
+            {
+              "id": "v-chaud",
+              "say": "Il fait chaud.",
+              "ar": "الجو حار."
+            },
+            {
+              "id": "v-froid",
+              "say": "Il fait froid.",
+              "ar": "الجو بارد."
+            },
+            {
+              "id": "v-pleut",
+              "say": "Il pleut.",
+              "ar": "إنها تمطر."
+            },
+            {
+              "id": "v-neige",
+              "say": "Il neige.",
+              "ar": "إنها تثلج."
+            },
+            {
+              "id": "v-vent",
+              "say": "Il y a du vent.",
+              "ar": "هناك ريح."
+            },
+            {
+              "id": "v-soleil",
+              "say": "Il y a du soleil.",
+              "ar": "الشمس مشرقة."
+            },
+            {
+              "id": "v-degres",
+              "say": "Il fait vingt degrés.",
+              "ar": "الحرارة عشرون درجة."
+            }
+          ]
+        },
+        {
+          "title_ar": "الأنشطة",
+          "items": [
+            {
+              "id": "v-sport",
+              "say": "faire du sport",
+              "ar": "يمارس الرياضة"
+            },
+            {
+              "id": "v-velo",
+              "say": "faire du vélo",
+              "ar": "يركب الدراجة"
+            },
+            {
+              "id": "v-natation",
+              "say": "faire de la natation",
+              "ar": "يسبح"
+            },
+            {
+              "id": "v-yoga",
+              "say": "faire du yoga",
+              "ar": "يمارس اليوغا"
+            },
+            {
+              "id": "v-rando",
+              "say": "faire de la randonnée",
+              "ar": "يمشي في الطبيعة"
+            },
+            {
+              "id": "v-cuisine",
+              "say": "faire la cuisine",
+              "ar": "يطبخ"
+            },
+            {
+              "id": "v-courses",
+              "say": "faire les courses",
+              "ar": "يتسوّق",
+              "note_ar": "هنا بـ les لا du."
+            },
+            {
+              "id": "v-promenade",
+              "say": "faire une promenade",
+              "ar": "يتنزّه"
+            }
+          ]
+        },
+        {
+          "title_ar": "كم مرة؟",
+          "items": [
+            {
+              "id": "v-souvent",
+              "say": "souvent",
+              "ar": "غالباً"
+            },
+            {
+              "id": "v-parfois",
+              "say": "parfois",
+              "ar": "أحياناً"
+            },
+            {
+              "id": "v-tous",
+              "say": "tous les jours",
+              "ar": "كل يوم"
+            },
+            {
+              "id": "v-quoi",
+              "say": "Qu'est-ce que tu fais ?",
+              "ar": "ماذا تفعل؟"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "faire",
+      "title_ar": "القاعدة: faire والطقس والأنشطة",
+      "intro_ar": "فعل شاذ واحد يكفيك للطقس وللرياضة وللطبخ وللتسوق.",
+      "tables": [
+        {
+          "title_fr": "faire (au présent)",
+          "title_ar": "فعل «يفعل»",
+          "head_ar": [
+            "الضمير",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-f1",
+              "say": "je fais",
+              "cells": [
+                "je",
+                "fais"
+              ],
+              "ar": "أفعل"
+            },
+            {
+              "id": "g-f2",
+              "say": "tu fais",
+              "cells": [
+                "tu",
+                "fais"
+              ],
+              "ar": "تفعل"
+            },
+            {
+              "id": "g-f3",
+              "say": "il fait",
+              "cells": [
+                "il / elle / on",
+                "fait"
+              ],
+              "ar": "يفعل / تفعل / نفعل"
+            },
+            {
+              "id": "g-f4",
+              "say": "nous faisons",
+              "cells": [
+                "nous",
+                "faisons"
+              ],
+              "ar": "نفعل"
+            },
+            {
+              "id": "g-f5",
+              "say": "vous faites",
+              "cells": [
+                "vous",
+                "faites"
+              ],
+              "ar": "تفعلون"
+            },
+            {
+              "id": "g-f6",
+              "say": "ils font",
+              "cells": [
+                "ils / elles",
+                "font"
+              ],
+              "ar": "يفعلون"
+            }
+          ],
+          "note_ar": "**vous faites** بلا ez، مثل vous êtes. و **nous faisons** تُنطق «فُزون». و fais و fait تُنطقان «فيه»."
+        },
+        {
+          "title_fr": "Le temps",
+          "title_ar": "تراكيب الطقس",
+          "head_ar": [
+            "التركيب",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-t1",
+              "say": "Il fait chaud.",
+              "cells": [
+                "il fait + adjectif",
+                "Il fait chaud."
+              ],
+              "ar": "الجو حار"
+            },
+            {
+              "id": "g-t2",
+              "say": "Il pleut.",
+              "cells": [
+                "il + verbe",
+                "Il pleut."
+              ],
+              "ar": "إنها تمطر"
+            },
+            {
+              "id": "g-t3",
+              "say": "Il y a du vent.",
+              "cells": [
+                "il y a + du",
+                "Il y a du vent."
+              ],
+              "ar": "هناك ريح"
+            },
+            {
+              "id": "g-t4",
+              "say": "Il fait trente degrés.",
+              "cells": [
+                "il fait + degrés",
+                "Il fait trente degrés."
+              ],
+              "ar": "الحرارة 30 درجة"
+            }
+          ],
+          "note_ar": "il هنا لا يعود على شخص. لا تقل le temps est beau في الكلام اليومي، بل Il fait beau."
+        },
+        {
+          "title_fr": "faire de + activité",
+          "title_ar": "faire مع الأنشطة",
+          "head_ar": [
+            "الأداة",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-a1",
+              "say": "du sport",
+              "cells": [
+                "du (masculin)",
+                "du sport"
+              ],
+              "ar": "الرياضة"
+            },
+            {
+              "id": "g-a2",
+              "say": "de la natation",
+              "cells": [
+                "de la (féminin)",
+                "de la natation"
+              ],
+              "ar": "السباحة"
+            },
+            {
+              "id": "g-a3",
+              "say": "de l'escalade",
+              "cells": [
+                "de l' (voyelle)",
+                "de l'escalade"
+              ],
+              "ar": "التسلّق"
+            },
+            {
+              "id": "g-a4",
+              "say": "Je ne fais pas de sport.",
+              "cells": [
+                "ne … pas de",
+                "Je ne fais pas de sport."
+              ],
+              "ar": "لا أمارس الرياضة"
+            }
+          ],
+          "note_ar": "بعد النفي تبقى de وحدها: Je ne fais pas de sport. وستعود هذه القاعدة في الوحدة القادمة مع الطعام."
+        }
+      ],
+      "points_ar": [
+        "**jouer أم faire؟** jouer au football (يلعب الكرة)، لكن faire du sport و faire du vélo.",
+        "**si مع il = s'il:** S'il fait beau… لكن مع elle تبقى: si elle vient…",
+        "**كم مرة؟** souvent (غالباً)، parfois (أحياناً)، tous les jours (كل يوم). وتأتي بعد الفعل: Je fais souvent du sport."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: faire والطقس",
+      "hint_ar": "اختر تصريف faire، أو التركيب الصحيح للطقس، أو الأداة.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Quel temps ___-il ?",
+          "say": "Quel temps fait-il ?",
+          "options": [
+            "fait",
+            "fais"
+          ],
+          "answer": "fait",
+          "ar": "كيف الطقس؟",
+          "explain_ar": "مع il: **fait**."
+        },
+        {
+          "id": "f2",
+          "text": "Il ___ beau aujourd'hui.",
+          "say": "Il fait beau aujourd'hui.",
+          "options": [
+            "est",
+            "fait"
+          ],
+          "answer": "fait",
+          "ar": "الجو جميل اليوم.",
+          "explain_ar": "الطقس بـ faire: **Il fait** beau."
+        },
+        {
+          "id": "f3",
+          "text": "Il ___. Prends un parapluie !",
+          "say": "Il pleut. Prends un parapluie !",
+          "options": [
+            "pleut",
+            "fait"
+          ],
+          "answer": "pleut",
+          "ar": "إنها تمطر. خذ مظلة!",
+          "explain_ar": "المطر بفعل خاص: **Il pleut**."
+        },
+        {
+          "id": "f4",
+          "text": "Nous ___ du sport.",
+          "say": "Nous faisons du sport.",
+          "options": [
+            "faites",
+            "faisons"
+          ],
+          "answer": "faisons",
+          "ar": "نمارس الرياضة.",
+          "explain_ar": "مع nous: **faisons**."
+        },
+        {
+          "id": "f5",
+          "text": "Vous ___ quoi ce soir ?",
+          "say": "Vous faites quoi ce soir ?",
+          "options": [
+            "faisez",
+            "faites"
+          ],
+          "answer": "faites",
+          "ar": "ماذا تفعلون الليلة؟",
+          "explain_ar": "**vous faites**، ولا وجود لـ faisez."
+        },
+        {
+          "id": "f6",
+          "text": "Ils ___ de la natation.",
+          "say": "Ils font de la natation.",
+          "options": [
+            "font",
+            "fait"
+          ],
+          "answer": "font",
+          "ar": "يسبحون.",
+          "explain_ar": "مع ils: **font**."
+        },
+        {
+          "id": "f7",
+          "text": "Je fais ___ vélo.",
+          "say": "Je fais du vélo.",
+          "options": [
+            "de la",
+            "du"
+          ],
+          "answer": "du",
+          "ar": "أركب الدراجة.",
+          "explain_ar": "vélo مذكر: **du**."
+        },
+        {
+          "id": "f8",
+          "text": "Elle fait ___ randonnée.",
+          "say": "Elle fait de la randonnée.",
+          "options": [
+            "de la",
+            "du"
+          ],
+          "answer": "de la",
+          "ar": "تمشي في الطبيعة.",
+          "explain_ar": "randonnée مؤنثة: **de la**."
+        },
+        {
+          "id": "f9",
+          "text": "Il y a ___ vent.",
+          "say": "Il y a du vent.",
+          "options": [
+            "du",
+            "de"
+          ],
+          "answer": "du",
+          "ar": "هناك ريح.",
+          "explain_ar": "vent مذكر: **du** vent."
+        },
+        {
+          "id": "f10",
+          "text": "Je ne fais pas ___ sport.",
+          "say": "Je ne fais pas de sport.",
+          "options": [
+            "du",
+            "de"
+          ],
+          "answer": "de",
+          "ar": "لا أمارس الرياضة.",
+          "explain_ar": "بعد النفي: **de** فقط."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: الطقس",
+      "hint_ar": "عبارات قصيرة متشابهة. ركّز على الكلمة الأخيرة.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "Il fait froid.",
+          "options": [
+            "Il fait chaud.",
+            "Il fait froid."
+          ],
+          "answer": "Il fait froid.",
+          "explain_ar": "froid «فغوا»: بارد."
+        },
+        {
+          "id": "q2",
+          "say": "Il pleut.",
+          "options": [
+            "Il pleut.",
+            "Il neige."
+          ],
+          "answer": "Il pleut.",
+          "explain_ar": "pleut «پلُ»: تمطر."
+        },
+        {
+          "id": "q3",
+          "say": "vous faites",
+          "options": [
+            "nous faisons",
+            "vous faites"
+          ],
+          "answer": "vous faites",
+          "explain_ar": "faites «فيت»: تفعلون."
+        },
+        {
+          "id": "q4",
+          "say": "ils font",
+          "options": [
+            "ils font",
+            "il fait"
+          ],
+          "answer": "ils font",
+          "explain_ar": "font «فون»: يفعلون."
+        },
+        {
+          "id": "q5",
+          "say": "du yoga",
+          "options": [
+            "du vélo",
+            "du yoga"
+          ],
+          "answer": "du yoga",
+          "explain_ar": "yoga «يوگا»."
+        },
+        {
+          "id": "q6",
+          "say": "Il fait mauvais.",
+          "options": [
+            "Il fait beau.",
+            "Il fait mauvais."
+          ],
+          "answer": "Il fait mauvais.",
+          "explain_ar": "mauvais «موڤيه»: سيئ."
+        },
+        {
+          "id": "q7",
+          "say": "Il fait vingt degrés.",
+          "options": [
+            "Il fait vingt degrés.",
+            "Il fait trente degrés."
+          ],
+          "answer": "Il fait vingt degrés.",
+          "explain_ar": "vingt «ڤان»: 20."
+        },
+        {
+          "id": "q8",
+          "say": "Il y a du soleil.",
+          "options": [
+            "Il y a du vent.",
+            "Il y a du soleil."
+          ],
+          "answer": "Il y a du soleil.",
+          "explain_ar": "soleil «سولاي»: شمس."
+        },
+        {
+          "id": "q9",
+          "say": "parfois",
+          "options": [
+            "souvent",
+            "parfois"
+          ],
+          "answer": "parfois",
+          "explain_ar": "parfois «پارفوا»: أحياناً."
+        },
+        {
+          "id": "q10",
+          "say": "faire les courses",
+          "options": [
+            "faire les courses",
+            "faire la cuisine"
+          ],
+          "answer": "faire les courses",
+          "explain_ar": "courses «كوغس»: مشتريات."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الطقس و faire",
+      "hint_ar": "انتبه للحروف الصامتة في fait و font.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **vous faites** بلا ez، و il fait بـ t صامتة.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "il fait beau",
+          "answer": "il fait beau",
+          "ar": "الجو جميل"
+        },
+        {
+          "id": "s2",
+          "say": "il pleut",
+          "answer": "il pleut",
+          "ar": "إنها تمطر"
+        },
+        {
+          "id": "s3",
+          "say": "il neige",
+          "answer": "il neige",
+          "ar": "إنها تثلج"
+        },
+        {
+          "id": "s4",
+          "say": "nous faisons",
+          "answer": "nous faisons",
+          "ar": "نفعل"
+        },
+        {
+          "id": "s5",
+          "say": "vous faites",
+          "answer": "vous faites",
+          "ar": "تفعلون"
+        },
+        {
+          "id": "s6",
+          "say": "ils font",
+          "answer": "ils font",
+          "ar": "يفعلون"
+        },
+        {
+          "id": "s7",
+          "say": "du sport",
+          "answer": "du sport",
+          "ar": "الرياضة"
+        },
+        {
+          "id": "s8",
+          "say": "de la natation",
+          "answer": "de la natation",
+          "ar": "السباحة"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "الطقس والهوايات. انطق nous faisons «فُزون».",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Quel temps fait-il ? Il fait beau !",
+          "ar": "كيف الطقس؟ الجو جميل!",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Quel temps fait-il ?",
+              "كيف الطقس؟"
+            ],
+            [
+              "Il fait beau !",
+              "الجو جميل"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Il pleut, il fait froid.",
+          "ar": "إنها تمطر، الجو بارد.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Il pleut,",
+              "إنها تمطر"
+            ],
+            [
+              "il fait froid.",
+              "الجو بارد"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Le samedi, je fais du vélo.",
+          "ar": "أيام السبت أركب الدراجة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Le samedi,",
+              "أيام السبت"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "fais du vélo.",
+              "أركب الدراجة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Nous faisons une promenade au parc.",
+          "ar": "نتنزّه في الحديقة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "faisons",
+              "نقوم بـ"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "promenade",
+              "نزهة"
+            ],
+            [
+              "au",
+              "في الـ"
+            ],
+            [
+              "parc.",
+              "حديقة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Qu'est-ce que vous faites ce week-end ?",
+          "ar": "ماذا تفعلون في نهاية هذا الأسبوع؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "vous",
+              "أنتم"
+            ],
+            [
+              "faites",
+              "تفعلون"
+            ],
+            [
+              "ce",
+              "هذا"
+            ],
+            [
+              "week-end ?",
+              "نهاية الأسبوع"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: صف طقس مدينتك اليوم ونشاطاً تمارسه: **Aujourd'hui, à Riyad, il fait… Le week-end, je fais…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "faire",
+          "say": "faire",
+          "back_ar": "يفعل / يصنع / يمارس"
+        },
+        {
+          "id": "c2",
+          "front": "je fais / tu fais",
+          "say": "je fais, tu fais",
+          "back_ar": "أفعل / تفعل"
+        },
+        {
+          "id": "c3",
+          "front": "nous faisons",
+          "say": "nous faisons",
+          "back_ar": "نفعل («فُزون»)"
+        },
+        {
+          "id": "c4",
+          "front": "vous faites",
+          "say": "vous faites",
+          "back_ar": "تفعلون"
+        },
+        {
+          "id": "c5",
+          "front": "ils font",
+          "say": "ils font",
+          "back_ar": "يفعلون"
+        },
+        {
+          "id": "c6",
+          "front": "Quel temps fait-il ?",
+          "say": "Quel temps fait-il ?",
+          "back_ar": "كيف الطقس؟"
+        },
+        {
+          "id": "c7",
+          "front": "Il fait beau.",
+          "say": "Il fait beau.",
+          "back_ar": "الجو جميل."
+        },
+        {
+          "id": "c8",
+          "front": "Il fait chaud / froid.",
+          "say": "Il fait chaud. Il fait froid.",
+          "back_ar": "الجو حار / بارد."
+        },
+        {
+          "id": "c9",
+          "front": "Il pleut.",
+          "say": "Il pleut.",
+          "back_ar": "إنها تمطر."
+        },
+        {
+          "id": "c10",
+          "front": "Il neige.",
+          "say": "Il neige.",
+          "back_ar": "إنها تثلج."
+        },
+        {
+          "id": "c11",
+          "front": "Il y a du vent.",
+          "say": "Il y a du vent.",
+          "back_ar": "هناك ريح."
+        },
+        {
+          "id": "c12",
+          "front": "faire du sport",
+          "say": "faire du sport",
+          "back_ar": "يمارس الرياضة"
+        },
+        {
+          "id": "c13",
+          "front": "faire de la natation",
+          "say": "faire de la natation",
+          "back_ar": "يسبح"
+        },
+        {
+          "id": "c14",
+          "front": "faire du vélo",
+          "say": "faire du vélo",
+          "back_ar": "يركب الدراجة"
+        },
+        {
+          "id": "c15",
+          "front": "faire une promenade",
+          "say": "faire une promenade",
+          "back_ar": "يتنزّه"
+        },
+        {
+          "id": "c16",
+          "front": "souvent / parfois",
+          "say": "souvent, parfois",
+          "back_ar": "غالباً / أحياناً"
+        }
+      ]
+    }
+  ]
+}
