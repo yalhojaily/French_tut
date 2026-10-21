@@ -1,0 +1,1116 @@
+{
+  "id": "a1-01",
+  "stage": "A1",
+  "title_fr": "Bonjour !",
+  "title_ar": "مرحباً!",
+  "goals_ar": [
+    "تحيّي الناس بالطريقة المناسبة: **Bonjour** و **Bonsoir** و **Salut**",
+    "تقدّم نفسك وتسأل غيرك عن اسمه",
+    "تعرف متى تقول **tu** ومتى تقول **vous**",
+    "تصرّف فعل **être** (يكون) في الحاضر",
+    "تودّع بالعبارة المناسبة للموقف"
+  ],
+  "intro_ar": [
+    "مرحباً بك في المرحلة A1! من الآن تتعلم **لغة تتكلمها**، لا أصواتاً فقط. كل وحدة فيها: حوار، ومفردات، وقاعدة واحدة، وتمارين.",
+    "أول فرق كبير بين العربية والفرنسية: في العربية نقول «أنا يوسف» دون فعل. في الفرنسية **لا بد من فعل**: Je **suis** Youssef (أنا **أكون** يوسف). هذا الفعل هو **être**، وهو أهم فعل في اللغة.",
+    "وثاني فرق: الفرنسية تفرّق بين **tu** (أنتَ للقريب) و **vous** (حضرتك للغريب أو للجمع). الخطأ هنا قد يبدو قلة أدب، لذلك ستتدرب عليه كثيراً."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: اليوم الأول في معهد اللغة",
+      "context_ar": "يوسف في أول يوم بمعهد لتعليم الفرنسية. يتعرّف على زميلة (بـ tu لأنهما في العمر نفسه)، ثم على الأستاذ (بـ vous احتراماً).",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير (زميلة)",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        },
+        "C": {
+          "name_ar": "الأستاذ",
+          "voice": "narrator"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Salut ! Je m'appelle Claire. Et toi ?",
+          "ar": "أهلاً! اسمي كلير. وأنت؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Salut !",
+              "أهلاً"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "m'appelle",
+              "أُدعى"
+            ],
+            [
+              "Claire.",
+              "كلير"
+            ],
+            [
+              "Et toi ?",
+              "وأنت؟"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Salut, Claire ! Moi, c'est Youssef.",
+          "ar": "أهلاً كلير! أنا يوسف.",
+          "slow": true,
+          "gloss": [
+            [
+              "Salut,",
+              "أهلاً"
+            ],
+            [
+              "Claire !",
+              "كلير"
+            ],
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "c'est",
+              "هو"
+            ],
+            [
+              "Youssef.",
+              "يوسف"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Enchantée ! Tu es nouveau ici ?",
+          "ar": "تشرّفت! هل أنت جديد هنا؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Enchantée !",
+              "تشرّفت"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "es",
+              "تكون"
+            ],
+            [
+              "nouveau",
+              "جديد"
+            ],
+            [
+              "ici ?",
+              "هنا"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Oui, je suis nouveau. Ah, voilà le professeur !",
+          "ar": "نعم، أنا جديد. آه، ها هو الأستاذ!",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "suis",
+              "أكون"
+            ],
+            [
+              "nouveau.",
+              "جديد"
+            ],
+            [
+              "Ah,",
+              "آه"
+            ],
+            [
+              "voilà",
+              "ها هو"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "professeur !",
+              "أستاذ"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "C",
+          "say": "Bonjour ! Vous êtes Youssef Haddad ?",
+          "ar": "صباح الخير! هل حضرتك يوسف حداد؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonjour !",
+              "صباح الخير"
+            ],
+            [
+              "Vous",
+              "حضرتك"
+            ],
+            [
+              "êtes",
+              "تكون"
+            ],
+            [
+              "Youssef Haddad ?",
+              "يوسف حداد"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Oui, c'est moi. Enchanté, monsieur.",
+          "ar": "نعم، أنا هو. تشرّفت، سيدي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "c'est moi.",
+              "أنا هو"
+            ],
+            [
+              "Enchanté,",
+              "تشرّفت"
+            ],
+            [
+              "monsieur.",
+              "سيدي"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "C",
+          "say": "Bienvenue ! Comment allez-vous ?",
+          "ar": "أهلاً بك! كيف حالك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bienvenue !",
+              "أهلاً بك"
+            ],
+            [
+              "Comment allez-vous ?",
+              "كيف حال حضرتك؟"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Très bien, merci. Et vous ?",
+          "ar": "بخير جداً، شكراً. وحضرتك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Très bien,",
+              "بخير جداً"
+            ],
+            [
+              "merci.",
+              "شكراً"
+            ],
+            [
+              "Et vous ?",
+              "وحضرتك؟"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "C",
+          "say": "Bien, merci. À tout à l'heure !",
+          "ar": "بخير، شكراً. أراك بعد قليل!",
+          "slow": true,
+          "gloss": [
+            [
+              "Bien,",
+              "بخير"
+            ],
+            [
+              "merci.",
+              "شكراً"
+            ],
+            [
+              "À tout à l'heure !",
+              "أراك بعد قليل"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "لاحظ: كلير قالت **Enchantée** (بـ e لأنها امرأة)، ويوسف قال **Enchanté**. النطق واحد، والفرق في الكتابة فقط. ولاحظ أن يوسف كلّم كلير بـ **tu**، والأستاذَ بـ **vous**."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "اضغط على كل عبارة لتسمعها وردّدها. العبارات المكتوبة بجانبها «غير رسمي» لا تقولها لغريب أو لمديرك.",
+      "groups": [
+        {
+          "title_ar": "التحية",
+          "items": [
+            {
+              "id": "v-bonjour",
+              "say": "Bonjour !",
+              "ar": "صباح الخير / مرحباً",
+              "note_ar": "للجميع، من الصباح حتى المساء. أكثر تحية أماناً."
+            },
+            {
+              "id": "v-bonsoir",
+              "say": "Bonsoir !",
+              "ar": "مساء الخير",
+              "note_ar": "بعد الساعة السادسة مساءً تقريباً."
+            },
+            {
+              "id": "v-salut",
+              "say": "Salut !",
+              "ar": "أهلاً (غير رسمي)",
+              "note_ar": "للأصدقاء والعائلة. وتُستعمل للوداع أيضاً."
+            },
+            {
+              "id": "v-bienvenue",
+              "say": "Bienvenue !",
+              "ar": "أهلاً بك / مرحباً بك"
+            }
+          ]
+        },
+        {
+          "title_ar": "السؤال عن الحال",
+          "items": [
+            {
+              "id": "v-allez",
+              "say": "Comment allez-vous ?",
+              "ar": "كيف حالك؟ (رسمي)"
+            },
+            {
+              "id": "v-cava",
+              "say": "Comment ça va ?",
+              "ar": "كيف حالك؟ (غير رسمي)",
+              "note_ar": "وأقصر منها: **Ça va ?**"
+            },
+            {
+              "id": "v-tresbien",
+              "say": "Très bien, merci.",
+              "ar": "بخير جداً، شكراً."
+            },
+            {
+              "id": "v-cavabien",
+              "say": "Ça va bien.",
+              "ar": "أنا بخير."
+            },
+            {
+              "id": "v-pasmal",
+              "say": "Pas mal.",
+              "ar": "لا بأس."
+            },
+            {
+              "id": "v-etvous",
+              "say": "Et vous ? Et toi ?",
+              "ar": "وأنت؟ (رسمي / غير رسمي)",
+              "fr": "Et vous ? / Et toi ?"
+            }
+          ]
+        },
+        {
+          "title_ar": "التعارف",
+          "items": [
+            {
+              "id": "v-mappelle",
+              "say": "Je m'appelle Youssef.",
+              "ar": "اسمي يوسف."
+            },
+            {
+              "id": "v-moi",
+              "say": "Moi, c'est Claire.",
+              "ar": "أنا كلير. (غير رسمي)"
+            },
+            {
+              "id": "v-vous-appelez",
+              "say": "Vous vous appelez comment ?",
+              "ar": "ما اسمك؟ (رسمي)"
+            },
+            {
+              "id": "v-tu-appelles",
+              "say": "Tu t'appelles comment ?",
+              "ar": "ما اسمك؟ (غير رسمي)"
+            },
+            {
+              "id": "v-enchante",
+              "say": "Enchanté ! Enchantée !",
+              "ar": "تشرّفت!",
+              "fr": "Enchanté / Enchantée",
+              "note_ar": "الرجل يكتب Enchanté، والمرأة تكتب Enchantée. والنطق واحد."
+            }
+          ]
+        },
+        {
+          "title_ar": "الأدب",
+          "items": [
+            {
+              "id": "v-svp",
+              "say": "S'il vous plaît.",
+              "ar": "من فضلك (رسمي)",
+              "note_ar": "وغير الرسمي: **S'il te plaît.**"
+            },
+            {
+              "id": "v-merci",
+              "say": "Merci beaucoup !",
+              "ar": "شكراً جزيلاً!"
+            },
+            {
+              "id": "v-derien",
+              "say": "De rien.",
+              "ar": "عفواً / لا شكر على واجب"
+            },
+            {
+              "id": "v-pardon",
+              "say": "Pardon !",
+              "ar": "عفواً / آسف"
+            },
+            {
+              "id": "v-excusez",
+              "say": "Excusez-moi.",
+              "ar": "اعذرني / من فضلك (لجذب الانتباه)"
+            }
+          ]
+        },
+        {
+          "title_ar": "الوداع",
+          "items": [
+            {
+              "id": "v-revoir",
+              "say": "Au revoir !",
+              "ar": "إلى اللقاء"
+            },
+            {
+              "id": "v-bientot",
+              "say": "À bientôt !",
+              "ar": "أراك قريباً"
+            },
+            {
+              "id": "v-demain",
+              "say": "À demain !",
+              "ar": "إلى الغد"
+            },
+            {
+              "id": "v-tout",
+              "say": "À tout à l'heure !",
+              "ar": "أراك بعد قليل (اليوم نفسه)"
+            },
+            {
+              "id": "v-journee",
+              "say": "Bonne journée !",
+              "ar": "يوماً سعيداً"
+            },
+            {
+              "id": "v-soiree",
+              "say": "Bonne soirée !",
+              "ar": "أمسية سعيدة"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "être",
+      "title_ar": "القاعدة: فعل être (يكون)",
+      "intro_ar": "**être** أهم فعل في الفرنسية، وهو **شاذ**: كل شكل منه مختلف، فاحفظه كما هو. استمع لكل سطر وردّده حتى يخرج دون تفكير.",
+      "tables": [
+        {
+          "title_fr": "être (au présent)",
+          "title_ar": "فعل «يكون» في الحاضر",
+          "head_ar": [
+            "الضمير",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-je",
+              "say": "je suis",
+              "cells": [
+                "je",
+                "suis"
+              ],
+              "ar": "أنا أكون"
+            },
+            {
+              "id": "g-tu",
+              "say": "tu es",
+              "cells": [
+                "tu",
+                "es"
+              ],
+              "ar": "أنتَ / أنتِ تكون"
+            },
+            {
+              "id": "g-il",
+              "say": "il est",
+              "cells": [
+                "il",
+                "est"
+              ],
+              "ar": "هو يكون"
+            },
+            {
+              "id": "g-elle",
+              "say": "elle est",
+              "cells": [
+                "elle",
+                "est"
+              ],
+              "ar": "هي تكون"
+            },
+            {
+              "id": "g-on",
+              "say": "on est",
+              "cells": [
+                "on",
+                "est"
+              ],
+              "ar": "نحن نكون (في الكلام اليومي)"
+            },
+            {
+              "id": "g-nous",
+              "say": "nous sommes",
+              "cells": [
+                "nous",
+                "sommes"
+              ],
+              "ar": "نحن نكون"
+            },
+            {
+              "id": "g-vous",
+              "say": "vous êtes",
+              "cells": [
+                "vous",
+                "êtes"
+              ],
+              "ar": "أنتم / حضرتك تكون"
+            },
+            {
+              "id": "g-ils",
+              "say": "ils sont",
+              "cells": [
+                "ils",
+                "sont"
+              ],
+              "ar": "هم يكونون"
+            },
+            {
+              "id": "g-elles",
+              "say": "elles sont",
+              "cells": [
+                "elles",
+                "sont"
+              ],
+              "ar": "هنّ يكنّ"
+            }
+          ],
+          "note_ar": "لاحظ: **es** و **est** تُنطقان «إي» مثل بعض. والوصل إجباري في **vous‿êtes** «ڤوزيت» و **on‿est** «أونّيه»."
+        }
+      ],
+      "points_ar": [
+        "**الضمير إجباري دائماً.** في العربية «أكون» تحمل الضمير في داخلها، أما في الفرنسية فلا يُقال «suis Youssef» أبداً، بل **Je suis Youssef**.",
+        "**tu أم vous؟** استخدم **tu** مع: الأصدقاء، والعائلة، والأطفال، والزملاء الشباب. واستخدم **vous** مع: أي شخص لا تعرفه، ومن هو أكبر منك، وفي العمل والمحلات. وعند الشك قل **vous**، ثم انتقل إلى tu إذا دعاك الآخر إليها.",
+        "**vous** أيضاً للجمع: إذا كلّمت صديقين معاً تقول **vous** حتى لو كنت تقول لكل واحد منهما tu.",
+        "**on** يعني «نحن» في الكلام اليومي، ويُصرّف مثل il: **on est** = nous sommes. ستسمعه كثيراً.",
+        "**لا يوجد ضمير محايد:** il للمذكر و elle للمؤنث، حتى للأشياء. و **ils** لمجموعة فيها رجل واحد على الأقل."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: اختر الكلمة الناقصة",
+      "hint_ar": "اختر الشكل الصحيح. بعد الإجابة تسمع الجملة كاملة، فردّدها.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je ___ Youssef.",
+          "say": "Je suis Youssef.",
+          "options": [
+            "suis",
+            "es",
+            "est"
+          ],
+          "answer": "suis",
+          "ar": "أنا يوسف.",
+          "explain_ar": "مع je دائماً **suis**."
+        },
+        {
+          "id": "f2",
+          "text": "Tu ___ nouveau ?",
+          "say": "Tu es nouveau ?",
+          "options": [
+            "es",
+            "est",
+            "êtes"
+          ],
+          "answer": "es",
+          "ar": "هل أنت جديد؟",
+          "explain_ar": "مع tu: **es**."
+        },
+        {
+          "id": "f3",
+          "text": "Vous ___ le professeur ?",
+          "say": "Vous êtes le professeur ?",
+          "options": [
+            "êtes",
+            "est",
+            "sommes"
+          ],
+          "answer": "êtes",
+          "ar": "هل حضرتك الأستاذ؟",
+          "explain_ar": "مع vous: **êtes**."
+        },
+        {
+          "id": "f4",
+          "text": "Claire ___ française.",
+          "say": "Claire est française.",
+          "options": [
+            "est",
+            "es",
+            "sont"
+          ],
+          "answer": "est",
+          "ar": "كلير فرنسية.",
+          "explain_ar": "Claire = elle، ومعها **est**."
+        },
+        {
+          "id": "f5",
+          "text": "Nous ___ étudiants.",
+          "say": "Nous sommes étudiants.",
+          "options": [
+            "sommes",
+            "êtes",
+            "sont"
+          ],
+          "answer": "sommes",
+          "ar": "نحن طلاب.",
+          "explain_ar": "مع nous: **sommes**."
+        },
+        {
+          "id": "f6",
+          "text": "Ils ___ à Paris.",
+          "say": "Ils sont à Paris.",
+          "options": [
+            "sont",
+            "ont",
+            "est"
+          ],
+          "answer": "sont",
+          "ar": "هم في باريس.",
+          "explain_ar": "مع ils: **sont**. أما **ont** فمن فعل avoir (يملك) وستتعلمه في الوحدة A1.5."
+        },
+        {
+          "id": "f7",
+          "context_ar": "تكلّم مديرك في العمل:",
+          "text": "Bonjour, monsieur. Comment allez-___ ?",
+          "say": "Bonjour, monsieur. Comment allez-vous ?",
+          "options": [
+            "vous",
+            "tu"
+          ],
+          "answer": "vous",
+          "ar": "صباح الخير سيدي. كيف حالك؟",
+          "explain_ar": "مع المدير **vous** دائماً، احتراماً."
+        },
+        {
+          "id": "f8",
+          "context_ar": "تكلّم صديقك:",
+          "text": "Salut ! ___ es où ?",
+          "say": "Salut ! Tu es où ?",
+          "options": [
+            "Tu",
+            "Vous"
+          ],
+          "answer": "Tu",
+          "ar": "أهلاً! أين أنت؟",
+          "explain_ar": "مع صديق **tu**. ولاحظ أن الفعل es يناسب tu فقط."
+        },
+        {
+          "id": "f9",
+          "context_ar": "تقولها امرأة:",
+          "text": "Je suis ___ !",
+          "say": "Je suis enchantée !",
+          "options": [
+            "enchantée",
+            "enchanté"
+          ],
+          "answer": "enchantée",
+          "ar": "أنا متشرّفة!",
+          "explain_ar": "المرأة تضيف **e**: enchantée. والنطق لا يتغيّر."
+        },
+        {
+          "id": "f10",
+          "context_ar": "الساعة الثامنة مساءً:",
+          "text": "___ , madame !",
+          "say": "Bonsoir, madame !",
+          "options": [
+            "Bonsoir",
+            "Bonjour"
+          ],
+          "answer": "Bonsoir",
+          "ar": "مساء الخير، سيدتي!",
+          "explain_ar": "في المساء **Bonsoir**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: ماذا قال؟",
+      "hint_ar": "عبارات قصيرة متشابهة. استمع جيداً ثم اختر ما سمعته.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختارها.",
+      "items": [
+        {
+          "id": "q-bonsoir",
+          "say": "Bonsoir !",
+          "options": [
+            "Bonjour !",
+            "Bonsoir !"
+          ],
+          "answer": "Bonsoir !",
+          "explain_ar": "Bonsoir: صوت «وا» في soir."
+        },
+        {
+          "id": "q-il-est",
+          "say": "il est",
+          "options": [
+            "il est",
+            "ils sont"
+          ],
+          "answer": "il est",
+          "explain_ar": "il est «إيليه»: مفرد."
+        },
+        {
+          "id": "q-ils-sont",
+          "say": "ils sont",
+          "options": [
+            "il est",
+            "ils sont"
+          ],
+          "answer": "ils sont",
+          "explain_ar": "ils sont «إيل سون»: جمع."
+        },
+        {
+          "id": "q-elles",
+          "say": "elles sont",
+          "options": [
+            "elle est",
+            "elles sont"
+          ],
+          "answer": "elles sont",
+          "explain_ar": "elles sont: سمعت «سون»."
+        },
+        {
+          "id": "q-nous",
+          "say": "nous sommes",
+          "options": [
+            "nous sommes",
+            "vous êtes"
+          ],
+          "answer": "nous sommes",
+          "explain_ar": "nous sommes «نو سوم»."
+        },
+        {
+          "id": "q-vous",
+          "say": "vous êtes",
+          "options": [
+            "vous êtes",
+            "vous avez"
+          ],
+          "answer": "vous êtes",
+          "explain_ar": "vous‿êtes «ڤوزيت»: من être."
+        },
+        {
+          "id": "q-bientot",
+          "say": "À bientôt !",
+          "options": [
+            "À bientôt !",
+            "À demain !"
+          ],
+          "answer": "À bientôt !",
+          "explain_ar": "bientôt: صوت «يان» الأنفي."
+        },
+        {
+          "id": "q-derien",
+          "say": "De rien.",
+          "options": [
+            "De rien.",
+            "Merci."
+          ],
+          "answer": "De rien.",
+          "explain_ar": "De rien = عفواً، رداً على الشكر."
+        },
+        {
+          "id": "q-cava",
+          "say": "Comment ça va ?",
+          "options": [
+            "Comment ça va ?",
+            "Comment allez-vous ?"
+          ],
+          "answer": "Comment ça va ?",
+          "explain_ar": "ça va: غير رسمي."
+        },
+        {
+          "id": "q-excusez",
+          "say": "Excusez-moi.",
+          "options": [
+            "Excusez-moi.",
+            "Enchanté."
+          ],
+          "answer": "Excusez-moi.",
+          "explain_ar": "Excusez-moi: تبدأ بـ «إكس»."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب ما تسمعه",
+      "hint_ar": "كلمات وعبارات الوحدة. المعنى ظاهر ليساعدك.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "انتبه لعلامات **enchanté** و **à bientôt** و **êtes**: هي جزء من الإملاء.",
+      "items": [
+        {
+          "id": "s-bonsoir",
+          "say": "bonsoir",
+          "answer": "bonsoir",
+          "ar": "مساء الخير"
+        },
+        {
+          "id": "s-salut",
+          "say": "salut",
+          "answer": "salut",
+          "ar": "أهلاً"
+        },
+        {
+          "id": "s-enchante",
+          "say": "enchanté",
+          "answer": "enchanté",
+          "ar": "تشرّفت (رجل)"
+        },
+        {
+          "id": "s-je-suis",
+          "say": "je suis",
+          "answer": "je suis",
+          "ar": "أنا أكون"
+        },
+        {
+          "id": "s-vous-etes",
+          "say": "vous êtes",
+          "answer": "vous êtes",
+          "ar": "حضرتك تكون"
+        },
+        {
+          "id": "s-nous-sommes",
+          "say": "nous sommes",
+          "answer": "nous sommes",
+          "ar": "نحن نكون"
+        },
+        {
+          "id": "s-bientot",
+          "say": "à bientôt",
+          "answer": "à bientôt",
+          "ar": "أراك قريباً"
+        },
+        {
+          "id": "s-de-rien",
+          "say": "de rien",
+          "answer": "de rien",
+          "ar": "عفواً"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل التعارف الأساسية. ردّدها حتى تقولها دون تفكير، فستحتاجها في أول لقاء حقيقي.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Bonjour, je m'appelle Youssef.",
+          "ar": "صباح الخير، اسمي يوسف.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Bonjour,",
+              "صباح الخير"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "m'appelle",
+              "أُدعى"
+            ],
+            [
+              "Youssef.",
+              "يوسف"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Enchantée ! Moi, c'est Claire.",
+          "ar": "تشرّفت! أنا كلير.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Enchantée !",
+              "تشرّفت"
+            ],
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "c'est",
+              "هي"
+            ],
+            [
+              "Claire.",
+              "كلير"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Vous êtes le professeur ?",
+          "ar": "هل حضرتك الأستاذ؟",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Vous",
+              "حضرتك"
+            ],
+            [
+              "êtes",
+              "تكون"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "professeur ?",
+              "أستاذ"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Comment ça va ? Ça va bien, merci.",
+          "ar": "كيف حالك؟ بخير، شكراً.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Comment ça va ?",
+              "كيف حالك؟"
+            ],
+            [
+              "Ça va bien,",
+              "أنا بخير"
+            ],
+            [
+              "merci.",
+              "شكراً"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Nous sommes étudiants.",
+          "ar": "نحن طلاب.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "sommes",
+              "نكون"
+            ],
+            [
+              "étudiants.",
+              "طلاب"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: سجّل نفسك وأنت تقدّم نفسك في ثلاث جمل: **Bonjour ! Je m'appelle … Je suis …** (طالب: étudiant، مستثمر: investisseur). **Enchanté !**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "انطق العبارة بصوت عالٍ قبل أن تكشف معناها.",
+      "cards": [
+        {
+          "id": "c-bonjour",
+          "front": "Bonjour !",
+          "say": "Bonjour !",
+          "back_ar": "صباح الخير / مرحباً"
+        },
+        {
+          "id": "c-bonsoir",
+          "front": "Bonsoir !",
+          "say": "Bonsoir !",
+          "back_ar": "مساء الخير"
+        },
+        {
+          "id": "c-salut",
+          "front": "Salut !",
+          "say": "Salut !",
+          "back_ar": "أهلاً (غير رسمي)"
+        },
+        {
+          "id": "c-allez",
+          "front": "Comment allez-vous ?",
+          "say": "Comment allez-vous ?",
+          "back_ar": "كيف حالك؟ (رسمي)"
+        },
+        {
+          "id": "c-cava",
+          "front": "Ça va ?",
+          "say": "Ça va ?",
+          "back_ar": "كيف الحال؟ (غير رسمي)"
+        },
+        {
+          "id": "c-mappelle",
+          "front": "Je m'appelle…",
+          "say": "Je m'appelle Youssef.",
+          "back_ar": "اسمي…"
+        },
+        {
+          "id": "c-enchante",
+          "front": "Enchanté(e) !",
+          "say": "Enchanté !",
+          "back_ar": "تشرّفت!"
+        },
+        {
+          "id": "c-derien",
+          "front": "De rien.",
+          "say": "De rien.",
+          "back_ar": "عفواً"
+        },
+        {
+          "id": "c-excusez",
+          "front": "Excusez-moi.",
+          "say": "Excusez-moi.",
+          "back_ar": "اعذرني"
+        },
+        {
+          "id": "c-revoir",
+          "front": "Au revoir !",
+          "say": "Au revoir !",
+          "back_ar": "إلى اللقاء"
+        },
+        {
+          "id": "c-tout",
+          "front": "À tout à l'heure !",
+          "say": "À tout à l'heure !",
+          "back_ar": "أراك بعد قليل"
+        },
+        {
+          "id": "c-journee",
+          "front": "Bonne journée !",
+          "say": "Bonne journée !",
+          "back_ar": "يوماً سعيداً"
+        },
+        {
+          "id": "c-je-suis",
+          "front": "je suis",
+          "say": "je suis",
+          "back_ar": "أنا أكون"
+        },
+        {
+          "id": "c-tu-es",
+          "front": "tu es",
+          "say": "tu es",
+          "back_ar": "أنتَ تكون"
+        },
+        {
+          "id": "c-il-est",
+          "front": "il / elle est",
+          "say": "il est, elle est",
+          "back_ar": "هو / هي يكون"
+        },
+        {
+          "id": "c-nous",
+          "front": "nous sommes",
+          "say": "nous sommes",
+          "back_ar": "نحن نكون"
+        },
+        {
+          "id": "c-vous",
+          "front": "vous êtes",
+          "say": "vous êtes",
+          "back_ar": "أنتم / حضرتك تكون"
+        },
+        {
+          "id": "c-ils",
+          "front": "ils / elles sont",
+          "say": "ils sont, elles sont",
+          "back_ar": "هم / هنّ يكونون"
+        },
+        {
+          "id": "c-tu-vous",
+          "front": "tu / vous",
+          "say": "tu, vous",
+          "back_ar": "tu للقريب، vous للغريب أو للجمع"
+        }
+      ]
+    }
+  ]
+}

@@ -3,11 +3,14 @@ import { findUnit, isReady, unitOrder, units } from "../data";
 import { clear, h, richAr } from "../dom";
 import { renderAccents } from "../sections/accents";
 import { renderDialogue } from "../sections/dialogue";
+import { renderFill } from "../sections/fill";
 import { renderFlashcards } from "../sections/flashcards";
+import { renderGrammar } from "../sections/grammar";
 import { renderLetters } from "../sections/letters";
 import { renderListen } from "../sections/listen";
 import { renderShadowing } from "../sections/shadowing";
 import { renderSpelling } from "../sections/spelling";
+import { renderVocab } from "../sections/vocab";
 import { getProgress, markSectionDone } from "../store";
 import type { Section, Unit } from "../types";
 
@@ -19,6 +22,9 @@ const SHORT_TITLES: Record<Section["type"], string> = {
   spelling: "الإملاء",
   shadowing: "الترديد",
   flashcards: "البطاقات",
+  vocab: "المفردات",
+  grammar: "القواعد",
+  fill_choice: "تمرين",
 };
 
 function renderSection(unit: Unit, s: Section, onDone: () => void): HTMLElement {
@@ -30,6 +36,9 @@ function renderSection(unit: Unit, s: Section, onDone: () => void): HTMLElement 
     case "spelling": return renderSpelling(unit.id, s, onDone);
     case "shadowing": return renderShadowing(unit.id, s);
     case "flashcards": return renderFlashcards(unit.id, s, onDone);
+    case "vocab": return renderVocab(unit.id, s);
+    case "grammar": return renderGrammar(unit.id, s);
+    case "fill_choice": return renderFill(unit.id, s, onDone);
   }
 }
 

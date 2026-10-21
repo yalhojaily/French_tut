@@ -141,7 +141,54 @@ export interface FlashcardsSection extends SectionBase {
   cards: FlashCard[];
 }
 
+/** قائمة مفردات مقسّمة إلى مجموعات */
+export interface VocabItem extends Speakable {
+  /** النص المعروض إن اختلف عن المنطوق */
+  fr?: string;
+  ar: string;
+  note_ar?: string;
+}
+
+export interface VocabSection extends SectionBase {
+  type: "vocab";
+  hint_ar: string;
+  groups: { title_ar: string; items: VocabItem[] }[];
+}
+
+/** جدول قواعد (تصريف فعل مثلاً) مع نقاط شرح */
+export interface GrammarRow extends Speakable {
+  cells: string[];
+  ar: string;
+}
+
+export interface GrammarSection extends SectionBase {
+  type: "grammar";
+  intro_ar: string;
+  tables: { title_fr: string; title_ar: string; head_ar: string[]; rows: GrammarRow[]; note_ar?: string }[];
+  points_ar?: string[];
+}
+
+/** اختر الكلمة الناقصة: جملة فيها ___ وخيارات */
+export interface FillItem extends Speakable {
+  text: string;
+  options: string[];
+  answer: string;
+  ar: string;
+  explain_ar: string;
+  /** سياق قبل الجملة: لمن تقولها مثلاً */
+  context_ar?: string;
+}
+
+export interface FillSection extends SectionBase {
+  type: "fill_choice";
+  hint_ar: string;
+  items: FillItem[];
+}
+
 export type Section =
+  | VocabSection
+  | GrammarSection
+  | FillSection
   | DialogueSection
   | LettersSection
   | AccentsSection
