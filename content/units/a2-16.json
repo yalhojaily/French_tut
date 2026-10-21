@@ -1,0 +1,1291 @@
+{
+  "id": "a2-16",
+  "stage": "A2",
+  "title_fr": "Technologie et médias",
+  "title_ar": "التقنية والإعلام",
+  "goals_ar": [
+    "تتكلم عن استعمالك للهاتف والإنترنت: **Je passe deux heures par jour sur mon téléphone.**",
+    "تستعمل الضمائر المنفصلة: **moi، toi، lui، elle، nous، vous، eux، elles**",
+    "تستعمل **chez** مع الضمير: **chez moi، chez eux**",
+    "تنطق الكلمات الإنجليزية بالطريقة الفرنسية: **le wifi، un e-mail، un selfie**"
+  ],
+  "intro_ar": [
+    "**الضمائر المنفصلة (les pronoms toniques)** تأتي وحدها، أو بعد حرف جر، أو للتأكيد: Moi, je préfère… / avec toi / C'est lui !",
+    "وهي: **moi، toi، lui، elle، nous، vous، eux، elles**. الجديد منها **eux** (هم). و lui هنا = هو فقط، لا «له».",
+    "**chez** = في بيت / عند: chez moi (في بيتي)، chez eux (عندهم)، chez le médecin (عند الطبيب).",
+    "**الكلمات الإنجليزية** كثيرة في التقنية، لكن الفرنسيين ينطقونها بطريقتهم وبنبرة على المقطع الأخير: le wifi «ويفي»، un e-mail «إيميل»."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: الشاشات",
+      "context_ar": "كلير تلاحظ أن يوسف على هاتفه دائماً. لاحظ moi و toi و lui و eux.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Tu es encore sur ton téléphone ! Tu passes combien de temps sur les écrans ?",
+          "ar": "أنت على هاتفك مرة أخرى! كم من الوقت تقضي أمام الشاشات؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu es",
+              "أنتَ"
+            ],
+            [
+              "encore",
+              "مرة أخرى"
+            ],
+            [
+              "sur ton téléphone !",
+              "على هاتفك"
+            ],
+            [
+              "Tu passes",
+              "تقضي"
+            ],
+            [
+              "combien de temps",
+              "كم من الوقت"
+            ],
+            [
+              "sur les écrans ?",
+              "أمام الشاشات"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Trop ! Je lis mes e-mails, je regarde les actualités et je réponds à mes collègues.",
+          "ar": "كثيراً جداً! أقرأ بريدي، وأتابع الأخبار، وأرد على زملائي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Trop !",
+              "كثيراً جداً"
+            ],
+            [
+              "Je lis",
+              "أقرأ"
+            ],
+            [
+              "mes",
+              "ـي (جمع)"
+            ],
+            [
+              "e-mails,",
+              "رسائل البريد"
+            ],
+            [
+              "je regarde",
+              "أتابع"
+            ],
+            [
+              "les actualités",
+              "الأخبار"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "je réponds",
+              "أرد"
+            ],
+            [
+              "à",
+              "على"
+            ],
+            [
+              "mes",
+              "ـي (جمع)"
+            ],
+            [
+              "collègues.",
+              "زملاء"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Moi, je n'ai plus Instagram. Je l'ai supprimé le mois dernier.",
+          "ar": "أنا لم يعد عندي إنستغرام. حذفته الشهر الماضي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "je n'ai plus",
+              "لم يعد عندي"
+            ],
+            [
+              "Instagram.",
+              "إنستغرام"
+            ],
+            [
+              "Je l'ai supprimé",
+              "حذفتُه"
+            ],
+            [
+              "le mois dernier.",
+              "الشهر الماضي"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "C'est vrai ? Et tes amis, comment tu leur parles ?",
+          "ar": "حقاً؟ وأصدقاؤك، كيف تكلّمينهم؟",
+          "slow": true,
+          "gloss": [
+            [
+              "C'est vrai ?",
+              "حقاً؟"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "tes",
+              "ـكِ (جمع)"
+            ],
+            [
+              "amis,",
+              "أصدقاء"
+            ],
+            [
+              "comment",
+              "كيف"
+            ],
+            [
+              "tu",
+              "أنتِ"
+            ],
+            [
+              "leur",
+              "ـهم"
+            ],
+            [
+              "parles ?",
+              "تكلّمين"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Je les vois ! Je vais chez eux, ou ils viennent chez moi.",
+          "ar": "أراهم! أذهب إليهم، أو يأتون إليّ.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "les",
+              "ـهم"
+            ],
+            [
+              "vois !",
+              "أرى"
+            ],
+            [
+              "Je vais",
+              "أذهب"
+            ],
+            [
+              "chez eux,",
+              "إليهم"
+            ],
+            [
+              "ou",
+              "أو"
+            ],
+            [
+              "ils",
+              "هم"
+            ],
+            [
+              "viennent",
+              "يأتون"
+            ],
+            [
+              "chez moi.",
+              "إليّ"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Toi, tu es courageuse. Moi, je ne peux pas vivre sans wifi !",
+          "ar": "أنتِ شجاعة. أما أنا فلا أستطيع العيش بلا واي فاي!",
+          "slow": true,
+          "gloss": [
+            [
+              "Toi,",
+              "أنتِ"
+            ],
+            [
+              "tu es",
+              "تكونين"
+            ],
+            [
+              "courageuse.",
+              "شجاعة"
+            ],
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "ne peux pas",
+              "لا أستطيع"
+            ],
+            [
+              "vivre",
+              "العيش"
+            ],
+            [
+              "sans wifi !",
+              "بلا واي فاي"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Et ton frère ? Il est comme toi ?",
+          "ar": "وأخوك؟ هل هو مثلك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "ton",
+              "ـك"
+            ],
+            [
+              "frère ?",
+              "أخ"
+            ],
+            [
+              "Il est",
+              "هل هو"
+            ],
+            [
+              "comme toi ?",
+              "مثلك"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Lui ? Il est pire ! Il fait des selfies toute la journée et il les met en ligne.",
+          "ar": "هو؟ إنه أسوأ! يلتقط صور سيلفي طوال اليوم وينشرها على الإنترنت.",
+          "slow": true,
+          "gloss": [
+            [
+              "Lui ?",
+              "هو؟"
+            ],
+            [
+              "Il est",
+              "إنه"
+            ],
+            [
+              "pire !",
+              "أسوأ"
+            ],
+            [
+              "Il fait",
+              "يلتقط"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "selfies",
+              "صور سيلفي"
+            ],
+            [
+              "toute la journée",
+              "طوال اليوم"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "il",
+              "هو"
+            ],
+            [
+              "les",
+              "ـها"
+            ],
+            [
+              "met en ligne.",
+              "ينشر"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Alors ce soir, on dîne sans téléphone, d'accord ? Ni toi, ni moi !",
+          "ar": "إذن الليلة نتعشى بلا هاتف، اتفقنا؟ لا أنت ولا أنا!",
+          "slow": true,
+          "gloss": [
+            [
+              "Alors",
+              "إذن"
+            ],
+            [
+              "ce soir,",
+              "الليلة"
+            ],
+            [
+              "on",
+              "نحن"
+            ],
+            [
+              "dîne",
+              "نتعشى"
+            ],
+            [
+              "sans téléphone,",
+              "بلا هاتف"
+            ],
+            [
+              "d'accord ?",
+              "اتفقنا"
+            ],
+            [
+              "Ni toi,",
+              "لا أنت"
+            ],
+            [
+              "ni moi !",
+              "ولا أنا"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "الضمائر المنفصلة في كل مكان: **Moi, je…** للتأكيد، و **chez eux** و **chez moi** بعد chez، و **comme toi** بعد comme، و **Lui ?** وحدها كجواب. و **Ni toi, ni moi** = لا أنت ولا أنا."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "الإنترنت، ثم الهاتف، ثم وسائل التواصل.",
+      "groups": [
+        {
+          "title_ar": "الإنترنت",
+          "items": [
+            {
+              "id": "v-internet",
+              "say": "internet",
+              "ar": "الإنترنت"
+            },
+            {
+              "id": "v-wifi",
+              "say": "le wifi",
+              "ar": "الواي فاي"
+            },
+            {
+              "id": "v-site",
+              "say": "un site",
+              "ar": "موقع"
+            },
+            {
+              "id": "v-email",
+              "say": "un e-mail",
+              "ar": "رسالة بريد إلكتروني"
+            },
+            {
+              "id": "v-mdp",
+              "say": "un mot de passe",
+              "ar": "كلمة مرور"
+            },
+            {
+              "id": "v-telecharger",
+              "say": "télécharger",
+              "ar": "يحمّل / ينزّل"
+            },
+            {
+              "id": "v-enligne",
+              "say": "en ligne",
+              "ar": "على الإنترنت"
+            },
+            {
+              "id": "v-supprimer",
+              "say": "supprimer",
+              "ar": "يحذف"
+            },
+            {
+              "id": "v-connecter",
+              "say": "se connecter",
+              "ar": "يسجّل الدخول"
+            },
+            {
+              "id": "v-lien",
+              "say": "un lien",
+              "ar": "رابط"
+            }
+          ]
+        },
+        {
+          "title_ar": "الهاتف",
+          "items": [
+            {
+              "id": "v-portable",
+              "say": "un portable",
+              "ar": "هاتف محمول"
+            },
+            {
+              "id": "v-appli",
+              "say": "une application",
+              "ar": "تطبيق"
+            },
+            {
+              "id": "v-message",
+              "say": "envoyer un message",
+              "ar": "يرسل رسالة"
+            },
+            {
+              "id": "v-appel",
+              "say": "un appel",
+              "ar": "مكالمة"
+            },
+            {
+              "id": "v-batterie",
+              "say": "la batterie",
+              "ar": "البطارية"
+            },
+            {
+              "id": "v-recharger",
+              "say": "recharger",
+              "ar": "يشحن"
+            },
+            {
+              "id": "v-chargeur",
+              "say": "un chargeur",
+              "ar": "شاحن"
+            }
+          ]
+        },
+        {
+          "title_ar": "وسائل التواصل",
+          "items": [
+            {
+              "id": "v-reseaux",
+              "say": "les réseaux sociaux",
+              "ar": "وسائل التواصل الاجتماعي"
+            },
+            {
+              "id": "v-partager",
+              "say": "partager",
+              "ar": "يشارك"
+            },
+            {
+              "id": "v-selfie",
+              "say": "un selfie",
+              "ar": "صورة سيلفي"
+            },
+            {
+              "id": "v-actu",
+              "say": "les actualités",
+              "ar": "الأخبار"
+            },
+            {
+              "id": "v-ecran",
+              "say": "un écran",
+              "ar": "شاشة"
+            },
+            {
+              "id": "v-abonne",
+              "say": "un abonné",
+              "ar": "متابع"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "moi / toi",
+      "title_ar": "القاعدة: الضمائر المنفصلة و chez",
+      "intro_ar": "متى تقول je ومتى تقول moi؟ je قبل الفعل دائماً، و moi في كل مكان آخر.",
+      "tables": [
+        {
+          "title_fr": "Les pronoms toniques",
+          "title_ar": "الضمائر المنفصلة",
+          "head_ar": [
+            "الضمير",
+            "المنفصل",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-t1",
+              "say": "Moi, je préfère le thé.",
+              "cells": [
+                "je",
+                "moi",
+                "Moi, je préfère le thé."
+              ],
+              "ar": "أنا أفضّل الشاي"
+            },
+            {
+              "id": "g-t2",
+              "say": "C'est pour toi.",
+              "cells": [
+                "tu",
+                "toi",
+                "C'est pour toi."
+              ],
+              "ar": "هذا لك"
+            },
+            {
+              "id": "g-t3",
+              "say": "Lui ? Il est pire !",
+              "cells": [
+                "il",
+                "lui",
+                "Lui ? Il est pire !"
+              ],
+              "ar": "هو؟ إنه أسوأ!"
+            },
+            {
+              "id": "g-t4",
+              "say": "Je pars avec elle.",
+              "cells": [
+                "elle",
+                "elle",
+                "Je pars avec elle."
+              ],
+              "ar": "أسافر معها"
+            },
+            {
+              "id": "g-t5",
+              "say": "Viens chez nous !",
+              "cells": [
+                "nous",
+                "nous",
+                "Viens chez nous !"
+              ],
+              "ar": "تعال عندنا!"
+            },
+            {
+              "id": "g-t6",
+              "say": "Et vous ?",
+              "cells": [
+                "vous",
+                "vous",
+                "Et vous ?"
+              ],
+              "ar": "وأنتم؟"
+            },
+            {
+              "id": "g-t7",
+              "say": "Je vais chez eux.",
+              "cells": [
+                "ils",
+                "eux",
+                "Je vais chez eux."
+              ],
+              "ar": "أذهب إليهم"
+            },
+            {
+              "id": "g-t8",
+              "say": "Je pense à elles.",
+              "cells": [
+                "elles",
+                "elles",
+                "Je pense à elles."
+              ],
+              "ar": "أفكر فيهن"
+            }
+          ],
+          "note_ar": "الجديد حقاً eux للجمع المذكر. والباقي يشبه ما تعرف."
+        },
+        {
+          "title_fr": "Quand les utiliser ?",
+          "title_ar": "متى نستعملها؟",
+          "head_ar": [
+            "الاستعمال",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-u1",
+              "say": "Moi, j'adore Paris.",
+              "cells": [
+                "pour insister",
+                "Moi, j'adore Paris."
+              ],
+              "ar": "للتأكيد"
+            },
+            {
+              "id": "g-u2",
+              "say": "avec toi, sans lui, pour elle",
+              "cells": [
+                "après une préposition",
+                "avec toi, sans lui, pour elle"
+              ],
+              "ar": "بعد حرف جر"
+            },
+            {
+              "id": "g-u3",
+              "say": "Qui veut du thé ? Moi !",
+              "cells": [
+                "seul",
+                "Qui veut du thé ? Moi !"
+              ],
+              "ar": "وحده كجواب"
+            },
+            {
+              "id": "g-u4",
+              "say": "C'est lui !",
+              "cells": [
+                "après c'est",
+                "C'est lui !"
+              ],
+              "ar": "بعد c'est"
+            },
+            {
+              "id": "g-u5",
+              "say": "Il est plus grand que moi.",
+              "cells": [
+                "après que",
+                "Il est plus grand que moi."
+              ],
+              "ar": "في المقارنة"
+            }
+          ],
+          "note_ar": "لا تقل avec je أو plus grand que je: بعد حرف الجر و que دائماً الضمير المنفصل."
+        },
+        {
+          "title_fr": "chez",
+          "title_ar": "عند / في بيت",
+          "head_ar": [
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-c1",
+              "say": "chez moi",
+              "cells": [
+                "chez moi"
+              ],
+              "ar": "في بيتي / عندي"
+            },
+            {
+              "id": "g-c2",
+              "say": "chez eux",
+              "cells": [
+                "chez eux"
+              ],
+              "ar": "عندهم"
+            },
+            {
+              "id": "g-c3",
+              "say": "chez Claire",
+              "cells": [
+                "chez Claire"
+              ],
+              "ar": "عند كلير"
+            },
+            {
+              "id": "g-c4",
+              "say": "chez le médecin",
+              "cells": [
+                "chez le médecin"
+              ],
+              "ar": "عند الطبيب"
+            },
+            {
+              "id": "g-c5",
+              "say": "chez le coiffeur",
+              "cells": [
+                "chez le coiffeur"
+              ],
+              "ar": "عند الحلّاق"
+            }
+          ],
+          "note_ar": "chez مع الأشخاص فقط. لا تقل chez la pharmacie، بل à la pharmacie."
+        }
+      ],
+      "points_ar": [
+        "**lui المنفصل = هو فقط:** C'est lui. أما lui في الوحدة 2.7 فمعناه «له / لها». السياق يفرّق.",
+        "**الإنجليزية بنطق فرنسي:** le wifi «ويفي»، le week-end «ويكاند»، un e-mail «إيميل»: النبرة على المقطع الأخير.",
+        "**Moi aussi و Moi non plus:** Moi aussi = وأنا أيضاً، و Moi non plus = ولا أنا (بعد جملة منفية)."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الضمائر المنفصلة",
+      "hint_ar": "قبل الفعل je و tu. في كل مكان آخر: moi و toi.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "___, je préfère le thé.",
+          "say": "Moi, je préfère le thé.",
+          "options": [
+            "Je",
+            "Moi"
+          ],
+          "answer": "Moi",
+          "ar": "أنا أفضّل الشاي.",
+          "explain_ar": "للتأكيد في أول الجملة: **Moi**."
+        },
+        {
+          "id": "f2",
+          "text": "Je vais chez ___ ce soir.",
+          "say": "Je vais chez eux ce soir.",
+          "options": [
+            "ils",
+            "eux"
+          ],
+          "answer": "eux",
+          "ar": "أذهب إليهم الليلة.",
+          "explain_ar": "بعد chez: **eux**."
+        },
+        {
+          "id": "f3",
+          "text": "C'est pour ___ !",
+          "say": "C'est pour toi !",
+          "options": [
+            "toi",
+            "tu"
+          ],
+          "answer": "toi",
+          "ar": "هذا لك!",
+          "explain_ar": "بعد pour: **toi**."
+        },
+        {
+          "id": "f4",
+          "text": "Qui a gagné ? ___ !",
+          "say": "Qui a gagné ? Lui !",
+          "options": [
+            "Il",
+            "Lui"
+          ],
+          "answer": "Lui",
+          "ar": "من فاز؟ هو!",
+          "explain_ar": "وحده كجواب: **Lui**."
+        },
+        {
+          "id": "f5",
+          "text": "Il est plus grand que ___.",
+          "say": "Il est plus grand que moi.",
+          "options": [
+            "moi",
+            "je"
+          ],
+          "answer": "moi",
+          "ar": "هو أطول مني.",
+          "explain_ar": "بعد que: **moi**."
+        },
+        {
+          "id": "f6",
+          "text": "Je pars avec ___ : Claire et Leïla.",
+          "say": "Je pars avec elles : Claire et Leïla.",
+          "options": [
+            "eux",
+            "elles"
+          ],
+          "answer": "elles",
+          "ar": "أسافر معهما: كلير وليلى.",
+          "explain_ar": "جمع مؤنث: **elles**."
+        },
+        {
+          "id": "f7",
+          "text": "J'aime le café. Moi ___ !",
+          "say": "J'aime le café. Moi aussi !",
+          "options": [
+            "aussi",
+            "non plus"
+          ],
+          "answer": "aussi",
+          "ar": "أحب القهوة. وأنا أيضاً!",
+          "explain_ar": "بعد جملة مثبتة: Moi **aussi**."
+        },
+        {
+          "id": "f8",
+          "text": "Je n'aime pas le thé. Moi ___ !",
+          "say": "Je n'aime pas le thé. Moi non plus !",
+          "options": [
+            "aussi",
+            "non plus"
+          ],
+          "answer": "non plus",
+          "ar": "لا أحب الشاي. ولا أنا!",
+          "explain_ar": "بعد جملة منفية: Moi **non plus**."
+        },
+        {
+          "id": "f9",
+          "text": "Mon téléphone n'a plus de ___.",
+          "say": "Mon téléphone n'a plus de batterie.",
+          "options": [
+            "chargeur",
+            "batterie"
+          ],
+          "answer": "batterie",
+          "ar": "هاتفي لم يعد فيه شحن.",
+          "explain_ar": "البطارية: **batterie**."
+        },
+        {
+          "id": "f10",
+          "text": "Je vais ___ le médecin.",
+          "say": "Je vais chez le médecin.",
+          "options": [
+            "à",
+            "chez"
+          ],
+          "answer": "chez",
+          "ar": "أذهب إلى الطبيب.",
+          "explain_ar": "مع الأشخاص: **chez**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: الضمائر والتقنية",
+      "hint_ar": "ضمائر قصيرة، ثم كلمات إنجليزية بنطق فرنسي.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "chez toi",
+          "options": [
+            "chez moi",
+            "chez toi"
+          ],
+          "answer": "chez toi",
+          "explain_ar": "toi «توا»: عندك."
+        },
+        {
+          "id": "q2",
+          "say": "avec eux",
+          "options": [
+            "avec eux",
+            "avec elle"
+          ],
+          "answer": "avec eux",
+          "explain_ar": "eux «أُ»: معهم."
+        },
+        {
+          "id": "q3",
+          "say": "C'est elle.",
+          "options": [
+            "C'est lui.",
+            "C'est elle."
+          ],
+          "answer": "C'est elle.",
+          "explain_ar": "elle «إيل»: هي."
+        },
+        {
+          "id": "q4",
+          "say": "Moi non plus.",
+          "options": [
+            "Moi aussi.",
+            "Moi non plus."
+          ],
+          "answer": "Moi non plus.",
+          "explain_ar": "non plus «نون پلو»: ولا أنا."
+        },
+        {
+          "id": "q5",
+          "say": "le wifi",
+          "options": [
+            "le wifi",
+            "le week-end"
+          ],
+          "answer": "le wifi",
+          "explain_ar": "wifi «ويفي»."
+        },
+        {
+          "id": "q6",
+          "say": "un mot de passe",
+          "options": [
+            "un message",
+            "un mot de passe"
+          ],
+          "answer": "un mot de passe",
+          "explain_ar": "mot de passe «مو دُ پاس»: كلمة مرور."
+        },
+        {
+          "id": "q7",
+          "say": "recharger",
+          "options": [
+            "télécharger",
+            "recharger"
+          ],
+          "answer": "recharger",
+          "explain_ar": "recharger «غُشاغژيه»: يشحن."
+        },
+        {
+          "id": "q8",
+          "say": "les réseaux sociaux",
+          "options": [
+            "les réseaux sociaux",
+            "les actualités"
+          ],
+          "answer": "les réseaux sociaux",
+          "explain_ar": "réseaux «غيزو»: شبكات."
+        },
+        {
+          "id": "q9",
+          "say": "en ligne",
+          "options": [
+            "en ligne",
+            "en ville"
+          ],
+          "answer": "en ligne",
+          "explain_ar": "ligne «لينيُ»: خط."
+        },
+        {
+          "id": "q10",
+          "say": "partager",
+          "options": [
+            "supprimer",
+            "partager"
+          ],
+          "answer": "partager",
+          "explain_ar": "partager «پاغتاژيه»: يشارك."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الضمائر والتقنية",
+      "hint_ar": "الضمائر المنفصلة وكلمات الإنترنت.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **eux** بـ x، و **mot de passe** ثلاث كلمات.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "chez moi",
+          "answer": "chez moi",
+          "ar": "في بيتي"
+        },
+        {
+          "id": "s2",
+          "say": "avec eux",
+          "answer": "avec eux",
+          "ar": "معهم"
+        },
+        {
+          "id": "s3",
+          "say": "moi aussi",
+          "answer": "moi aussi",
+          "ar": "وأنا أيضاً"
+        },
+        {
+          "id": "s4",
+          "say": "moi non plus",
+          "answer": "moi non plus",
+          "ar": "ولا أنا"
+        },
+        {
+          "id": "s5",
+          "say": "le wifi",
+          "answer": "le wifi",
+          "ar": "الواي فاي"
+        },
+        {
+          "id": "s6",
+          "say": "un mot de passe",
+          "answer": "un mot de passe",
+          "ar": "كلمة مرور"
+        },
+        {
+          "id": "s7",
+          "say": "télécharger",
+          "answer": "télécharger",
+          "ar": "يحمّل"
+        },
+        {
+          "id": "s8",
+          "say": "les réseaux sociaux",
+          "answer": "les réseaux sociaux",
+          "ar": "وسائل التواصل"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "ضع النبرة على الضمير المنفصل: **Moi**, je…",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Moi, je passe trop de temps sur mon téléphone.",
+          "ar": "أنا أقضي وقتاً كثيراً جداً على هاتفي.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "je passe",
+              "أقضي"
+            ],
+            [
+              "trop de temps",
+              "وقتاً كثيراً جداً"
+            ],
+            [
+              "sur mon téléphone.",
+              "على هاتفي"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Tu viens chez moi ce soir ?",
+          "ar": "هل تأتي إليّ الليلة؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Tu viens",
+              "هل تأتي"
+            ],
+            [
+              "chez moi",
+              "إليّ"
+            ],
+            [
+              "ce soir ?",
+              "الليلة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Je n'ai plus de batterie, tu as un chargeur ?",
+          "ar": "لم يعد عندي شحن، هل معك شاحن؟",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je n'ai plus de",
+              "لم يعد عندي"
+            ],
+            [
+              "batterie,",
+              "شحن"
+            ],
+            [
+              "tu as",
+              "هل معك"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "chargeur ?",
+              "شاحن"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Je ne peux pas vivre sans wifi !",
+          "ar": "لا أستطيع العيش بلا واي فاي!",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "ne peux pas",
+              "لا أستطيع"
+            ],
+            [
+              "vivre",
+              "العيش"
+            ],
+            [
+              "sans wifi !",
+              "بلا واي فاي"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "C'est lui sur la photo ? Oui, c'est lui !",
+          "ar": "هل هذا هو في الصورة؟ نعم، إنه هو!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "C'est lui",
+              "هل هذا هو"
+            ],
+            [
+              "sur la photo ?",
+              "في الصورة"
+            ],
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "c'est lui !",
+              "إنه هو"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: صف علاقتك بالهاتف: **Moi, je passe… heures par jour sur… J'utilise… pour… Je ne peux pas vivre sans…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "moi / toi",
+          "say": "moi, toi",
+          "back_ar": "أنا / أنت (منفصل)"
+        },
+        {
+          "id": "c2",
+          "front": "lui / elle",
+          "say": "lui, elle",
+          "back_ar": "هو / هي"
+        },
+        {
+          "id": "c3",
+          "front": "nous / vous",
+          "say": "nous, vous",
+          "back_ar": "نحن / أنتم"
+        },
+        {
+          "id": "c4",
+          "front": "eux / elles",
+          "say": "eux, elles",
+          "back_ar": "هم / هن"
+        },
+        {
+          "id": "c5",
+          "front": "chez moi",
+          "say": "chez moi",
+          "back_ar": "في بيتي"
+        },
+        {
+          "id": "c6",
+          "front": "chez eux",
+          "say": "chez eux",
+          "back_ar": "عندهم"
+        },
+        {
+          "id": "c7",
+          "front": "Moi aussi.",
+          "say": "Moi aussi.",
+          "back_ar": "وأنا أيضاً."
+        },
+        {
+          "id": "c8",
+          "front": "Moi non plus.",
+          "say": "Moi non plus.",
+          "back_ar": "ولا أنا."
+        },
+        {
+          "id": "c9",
+          "front": "C'est lui !",
+          "say": "C'est lui !",
+          "back_ar": "إنه هو!"
+        },
+        {
+          "id": "c10",
+          "front": "le wifi",
+          "say": "le wifi",
+          "back_ar": "الواي فاي"
+        },
+        {
+          "id": "c11",
+          "front": "un mot de passe",
+          "say": "un mot de passe",
+          "back_ar": "كلمة مرور"
+        },
+        {
+          "id": "c12",
+          "front": "télécharger",
+          "say": "télécharger",
+          "back_ar": "يحمّل"
+        },
+        {
+          "id": "c13",
+          "front": "une application",
+          "say": "une application",
+          "back_ar": "تطبيق"
+        },
+        {
+          "id": "c14",
+          "front": "les réseaux sociaux",
+          "say": "les réseaux sociaux",
+          "back_ar": "وسائل التواصل"
+        },
+        {
+          "id": "c15",
+          "front": "en ligne",
+          "say": "en ligne",
+          "back_ar": "على الإنترنت"
+        },
+        {
+          "id": "c16",
+          "front": "la batterie",
+          "say": "la batterie",
+          "back_ar": "البطارية"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1239 @@
+{
+  "id": "a2-18",
+  "stage": "A2",
+  "title_fr": "Les adverbes",
+  "title_ar": "الظروف",
+  "goals_ar": [
+    "تكوّن الظروف بـ **ment**: lent يصير **lentement**",
+    "تعرف الأشكال الخاصة: **couramment، évidemment**",
+    "تضع الظرف في مكانه: **Il parle bien. Il a bien parlé.**",
+    "تصف كيف يحدث الشيء: **vite، lentement، doucement، fort**"
+  ],
+  "intro_ar": [
+    "الظرف يصف **كيف** يحدث الفعل، مثل «ببطء» أو «بسرعة» في العربية. ومعظم الظروف الفرنسية تنتهي بـ **ment**.",
+    "**القاعدة:** خذ الصفة **بالمؤنث** وأضف ment: lent، lente، فيصير lentement (ببطء). heureux، heureuse، فيصير heureusement.",
+    "**إذا انتهت الصفة المذكرة بحرف علة** نضيف ment مباشرة: vrai يصير vraiment، poli يصير poliment.",
+    "**ant و ent:** courant يصير **couramment**، و évident يصير **évidemment**، والاثنان يُنطقان «أمون»."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: درس عربي",
+      "context_ar": "هذه المرة كلير هي التي تتعلم: يوسف يعلّمها العربية. لاحظ الظروف المنتهية بـ ment.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Youssef, tu peux parler plus lentement ? Mon arabe est encore faible.",
+          "ar": "يوسف، هل يمكنك أن تتكلم ببطء أكثر؟ عربيتي ما زالت ضعيفة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Youssef,",
+              "يوسف"
+            ],
+            [
+              "tu peux",
+              "هل يمكنك"
+            ],
+            [
+              "parler",
+              "أن تتكلم"
+            ],
+            [
+              "plus lentement ?",
+              "ببطء أكثر"
+            ],
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "arabe",
+              "عربية"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "encore",
+              "ما زالت"
+            ],
+            [
+              "faible.",
+              "ضعيفة"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Bien sûr. Écoute attentivement : « marhaban ». Ça veut dire « bonjour ».",
+          "ar": "بالتأكيد. استمعي بانتباه: «مرحباً». معناها bonjour.",
+          "slow": true,
+          "gloss": [
+            [
+              "Bien sûr.",
+              "بالتأكيد"
+            ],
+            [
+              "Écoute",
+              "استمعي"
+            ],
+            [
+              "attentivement :",
+              "بانتباه"
+            ],
+            [
+              "« marhaban ».",
+              "«مرحباً»"
+            ],
+            [
+              "Ça veut dire",
+              "معناها"
+            ],
+            [
+              "« bonjour ».",
+              "bonjour"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Marhaban ! C'est facile !",
+          "ar": "مرحباً! هذا سهل!",
+          "slow": true,
+          "gloss": [
+            [
+              "Marhaban !",
+              "مرحباً"
+            ],
+            [
+              "C'est facile !",
+              "هذا سهل"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Parfait ! Tu prononces vraiment bien. Maintenant, un son difficile : il faut le dire doucement, du fond de la gorge.",
+          "ar": "ممتاز! نطقك جيد حقاً. والآن صوت صعب: يجب أن تقوليه بلطف، من عمق الحلق.",
+          "slow": true,
+          "gloss": [
+            [
+              "Parfait !",
+              "ممتاز"
+            ],
+            [
+              "Tu prononces",
+              "تنطقين"
+            ],
+            [
+              "vraiment",
+              "حقاً"
+            ],
+            [
+              "bien.",
+              "جيداً"
+            ],
+            [
+              "Maintenant,",
+              "والآن"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "son",
+              "صوت"
+            ],
+            [
+              "difficile :",
+              "صعب"
+            ],
+            [
+              "il faut",
+              "يجب"
+            ],
+            [
+              "le",
+              "ـه"
+            ],
+            [
+              "dire",
+              "أن تقولي"
+            ],
+            [
+              "doucement,",
+              "بلطف"
+            ],
+            [
+              "du fond de la gorge.",
+              "من عمق الحلق"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "C'est exactement comme le « r » français, non ?",
+          "ar": "إنه تماماً مثل حرف r الفرنسي، أليس كذلك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "C'est",
+              "إنه"
+            ],
+            [
+              "exactement",
+              "تماماً"
+            ],
+            [
+              "comme",
+              "مثل"
+            ],
+            [
+              "le « r » français,",
+              "حرف r الفرنسي"
+            ],
+            [
+              "non ?",
+              "أليس كذلك"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Pas tout à fait ! Mais tu apprends rapidement. Évidemment, il faut pratiquer régulièrement.",
+          "ar": "ليس تماماً! لكنك تتعلمين بسرعة. طبعاً، يجب التمرّن بانتظام.",
+          "slow": true,
+          "gloss": [
+            [
+              "Pas tout à fait !",
+              "ليس تماماً"
+            ],
+            [
+              "Mais",
+              "لكن"
+            ],
+            [
+              "tu apprends",
+              "تتعلمين"
+            ],
+            [
+              "rapidement.",
+              "بسرعة"
+            ],
+            [
+              "Évidemment,",
+              "طبعاً"
+            ],
+            [
+              "il faut",
+              "يجب"
+            ],
+            [
+              "pratiquer",
+              "التمرّن"
+            ],
+            [
+              "régulièrement.",
+              "بانتظام"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Et toi, tu parles français couramment maintenant !",
+          "ar": "وأنت تتكلم الفرنسية بطلاقة الآن!",
+          "slow": true,
+          "gloss": [
+            [
+              "Et toi,",
+              "وأنت"
+            ],
+            [
+              "tu parles",
+              "تتكلم"
+            ],
+            [
+              "français",
+              "الفرنسية"
+            ],
+            [
+              "couramment",
+              "بطلاقة"
+            ],
+            [
+              "maintenant !",
+              "الآن"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Pas encore, malheureusement. Mais j'ai beaucoup travaillé et j'ai bien progressé.",
+          "ar": "ليس بعد، للأسف. لكنني عملت كثيراً وتقدّمت جيداً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Pas encore,",
+              "ليس بعد"
+            ],
+            [
+              "malheureusement.",
+              "للأسف"
+            ],
+            [
+              "Mais",
+              "لكن"
+            ],
+            [
+              "j'ai beaucoup travaillé",
+              "عملتُ كثيراً"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "j'ai bien progressé.",
+              "تقدّمتُ جيداً"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Franchement, je suis impressionnée !",
+          "ar": "بصراحة، أنا معجبة!",
+          "slow": true,
+          "gloss": [
+            [
+              "Franchement,",
+              "بصراحة"
+            ],
+            [
+              "je suis",
+              "أنا"
+            ],
+            [
+              "impressionnée !",
+              "معجبة"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "عُدّ الظروف: lentement، attentivement، vraiment، doucement، exactement، rapidement، évidemment، régulièrement، couramment، malheureusement، franchement. ولاحظ مكانها في الماضي: j'ai **beaucoup** travaillé، j'ai **bien** progressé: الظروف القصيرة بين avoir واسم المفعول."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "الطريقة، ثم ظروف الرأي والموقف، ثم كلمات تعلّم اللغة.",
+      "groups": [
+        {
+          "title_ar": "كيف؟",
+          "items": [
+            {
+              "id": "v-lentement",
+              "say": "lentement",
+              "ar": "ببطء"
+            },
+            {
+              "id": "v-rapidement",
+              "say": "rapidement",
+              "ar": "بسرعة"
+            },
+            {
+              "id": "v-vite",
+              "say": "vite",
+              "ar": "بسرعة",
+              "note_ar": "بلا ment، وهي الأكثر استعمالاً في الكلام."
+            },
+            {
+              "id": "v-doucement",
+              "say": "doucement",
+              "ar": "بلطف / بهدوء"
+            },
+            {
+              "id": "v-fort",
+              "say": "fort",
+              "ar": "بصوت عالٍ / بقوة",
+              "note_ar": "Parle plus fort ! = تكلّم بصوت أعلى!"
+            },
+            {
+              "id": "v-attentivement",
+              "say": "attentivement",
+              "ar": "بانتباه"
+            },
+            {
+              "id": "v-facilement",
+              "say": "facilement",
+              "ar": "بسهولة"
+            },
+            {
+              "id": "v-regulierement",
+              "say": "régulièrement",
+              "ar": "بانتظام"
+            },
+            {
+              "id": "v-poliment",
+              "say": "poliment",
+              "ar": "بأدب"
+            }
+          ]
+        },
+        {
+          "title_ar": "الموقف",
+          "items": [
+            {
+              "id": "v-vraiment",
+              "say": "vraiment",
+              "ar": "حقاً"
+            },
+            {
+              "id": "v-evidemment",
+              "say": "évidemment",
+              "ar": "طبعاً"
+            },
+            {
+              "id": "v-franchement",
+              "say": "franchement",
+              "ar": "بصراحة"
+            },
+            {
+              "id": "v-heureusement",
+              "say": "heureusement",
+              "ar": "لحسن الحظ"
+            },
+            {
+              "id": "v-malheureusement",
+              "say": "malheureusement",
+              "ar": "للأسف"
+            },
+            {
+              "id": "v-exactement",
+              "say": "exactement",
+              "ar": "تماماً"
+            },
+            {
+              "id": "v-seulement",
+              "say": "seulement",
+              "ar": "فقط"
+            },
+            {
+              "id": "v-absolument",
+              "say": "absolument",
+              "ar": "بالتأكيد / تماماً"
+            }
+          ]
+        },
+        {
+          "title_ar": "تعلّم اللغة",
+          "items": [
+            {
+              "id": "v-couramment",
+              "say": "couramment",
+              "ar": "بطلاقة"
+            },
+            {
+              "id": "v-prononcer",
+              "say": "prononcer",
+              "ar": "ينطق"
+            },
+            {
+              "id": "v-progresser",
+              "say": "progresser",
+              "ar": "يتقدّم"
+            },
+            {
+              "id": "v-pratiquer",
+              "say": "pratiquer",
+              "ar": "يتمرّن"
+            },
+            {
+              "id": "v-faible",
+              "say": "faible",
+              "ar": "ضعيف"
+            },
+            {
+              "id": "v-son",
+              "say": "un son",
+              "ar": "صوت"
+            },
+            {
+              "id": "v-pluslent",
+              "say": "Tu peux parler plus lentement ?",
+              "ar": "هل يمكنك أن تتكلم ببطء أكثر؟"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "ment",
+      "title_ar": "القاعدة: تكوين الظروف ومكانها",
+      "intro_ar": "المؤنث + ment، مع استثناءين، ثم مكان الظرف في الجملة.",
+      "tables": [
+        {
+          "title_fr": "La formation",
+          "title_ar": "المؤنث + ment",
+          "head_ar": [
+            "المذكر",
+            "المؤنث",
+            "الظرف"
+          ],
+          "rows": [
+            {
+              "id": "g-f1",
+              "say": "lentement",
+              "cells": [
+                "lent",
+                "lente",
+                "lentement"
+              ],
+              "ar": "ببطء"
+            },
+            {
+              "id": "g-f2",
+              "say": "heureusement",
+              "cells": [
+                "heureux",
+                "heureuse",
+                "heureusement"
+              ],
+              "ar": "لحسن الحظ"
+            },
+            {
+              "id": "g-f3",
+              "say": "doucement",
+              "cells": [
+                "doux",
+                "douce",
+                "doucement"
+              ],
+              "ar": "بلطف"
+            },
+            {
+              "id": "g-f4",
+              "say": "régulièrement",
+              "cells": [
+                "régulier",
+                "régulière",
+                "régulièrement"
+              ],
+              "ar": "بانتظام"
+            },
+            {
+              "id": "g-f5",
+              "say": "facilement",
+              "cells": [
+                "facile",
+                "facile",
+                "facilement"
+              ],
+              "ar": "بسهولة"
+            },
+            {
+              "id": "g-f6",
+              "say": "vraiment",
+              "cells": [
+                "vrai",
+                "vraie",
+                "vraiment"
+              ],
+              "ar": "حقاً (المذكر ينتهي بحرف علة)"
+            },
+            {
+              "id": "g-f7",
+              "say": "poliment",
+              "cells": [
+                "poli",
+                "polie",
+                "poliment"
+              ],
+              "ar": "بأدب (المذكر ينتهي بحرف علة)"
+            }
+          ],
+          "note_ar": "القاعدة: المؤنث + ment. والاستثناء: إذا انتهى المذكر بحرف علة نضيف ment إليه مباشرة: vraiment لا vraiement."
+        },
+        {
+          "title_fr": "-amment, -emment",
+          "title_ar": "ant و ent",
+          "head_ar": [
+            "الصفة",
+            "الظرف"
+          ],
+          "rows": [
+            {
+              "id": "g-a1",
+              "say": "couramment",
+              "cells": [
+                "courant",
+                "couramment"
+              ],
+              "ar": "بطلاقة"
+            },
+            {
+              "id": "g-a2",
+              "say": "évidemment",
+              "cells": [
+                "évident",
+                "évidemment"
+              ],
+              "ar": "طبعاً"
+            },
+            {
+              "id": "g-a3",
+              "say": "récemment",
+              "cells": [
+                "récent",
+                "récemment"
+              ],
+              "ar": "مؤخراً"
+            },
+            {
+              "id": "g-a4",
+              "say": "patiemment",
+              "cells": [
+                "patient",
+                "patiemment"
+              ],
+              "ar": "بصبر"
+            },
+            {
+              "id": "g-a5",
+              "say": "prudemment",
+              "cells": [
+                "prudent",
+                "prudemment"
+              ],
+              "ar": "بحذر"
+            },
+            {
+              "id": "g-a6",
+              "say": "constamment",
+              "cells": [
+                "constant",
+                "constamment"
+              ],
+              "ar": "باستمرار"
+            }
+          ],
+          "note_ar": "ant يصير amment، و ent يصير emment، والاثنان يُنطقان «أمون»: évidemment «إيڤيدامون»."
+        },
+        {
+          "title_fr": "La place de l'adverbe",
+          "title_ar": "مكان الظرف",
+          "head_ar": [
+            "الحالة",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-p1",
+              "say": "Il parle lentement.",
+              "cells": [
+                "présent",
+                "Il parle lentement."
+              ],
+              "ar": "يتكلم ببطء"
+            },
+            {
+              "id": "g-p2",
+              "say": "Il a bien parlé.",
+              "cells": [
+                "passé : adverbe court",
+                "Il a bien parlé."
+              ],
+              "ar": "تكلّم جيداً"
+            },
+            {
+              "id": "g-p3",
+              "say": "Il a parlé lentement.",
+              "cells": [
+                "passé : adverbe long",
+                "Il a parlé lentement."
+              ],
+              "ar": "تكلّم ببطء"
+            },
+            {
+              "id": "g-p4",
+              "say": "Heureusement, il est arrivé.",
+              "cells": [
+                "début de phrase",
+                "Heureusement, il est arrivé."
+              ],
+              "ar": "لحسن الحظ وصل"
+            },
+            {
+              "id": "g-p5",
+              "say": "C'est vraiment beau.",
+              "cells": [
+                "avant un adjectif",
+                "C'est vraiment beau."
+              ],
+              "ar": "جميل حقاً"
+            }
+          ],
+          "note_ar": "في الحاضر بعد الفعل. وفي الماضي: الظروف القصيرة (bien، mal، beaucoup، déjà، vite) بين avoir واسم المفعول، والطويلة غالباً بعده."
+        }
+      ],
+      "points_ar": [
+        "**bien و mal** ظرفا bon و mauvais: Il chante bien (يغنّي جيداً).",
+        "**vite = rapidement،** و vite أكثر في الكلام: Viens vite !",
+        "**Parle plus fort / moins fort** = تكلّم بصوت أعلى / أخفض."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الظروف",
+      "hint_ar": "اختر الظرف الصحيح، أو مكانه الصحيح.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Tu peux parler plus ___ ?",
+          "say": "Tu peux parler plus lentement ?",
+          "options": [
+            "lent",
+            "lentement"
+          ],
+          "answer": "lentement",
+          "ar": "هل يمكنك أن تتكلم ببطء أكثر؟",
+          "explain_ar": "يصف الفعل: الظرف **lentement**."
+        },
+        {
+          "id": "f2",
+          "text": "Il parle français ___.",
+          "say": "Il parle français couramment.",
+          "options": [
+            "couramment",
+            "courant"
+          ],
+          "answer": "couramment",
+          "ar": "يتكلم الفرنسية بطلاقة.",
+          "explain_ar": "ant يصير **couramment**."
+        },
+        {
+          "id": "f3",
+          "text": "___, il faut pratiquer.",
+          "say": "Évidemment, il faut pratiquer.",
+          "options": [
+            "Évident",
+            "Évidemment"
+          ],
+          "answer": "Évidemment",
+          "ar": "طبعاً، يجب التمرّن.",
+          "explain_ar": "ent يصير **Évidemment**."
+        },
+        {
+          "id": "f4",
+          "text": "Elle conduit ___.",
+          "say": "Elle conduit prudemment.",
+          "options": [
+            "prudemment",
+            "prudentement"
+          ],
+          "answer": "prudemment",
+          "ar": "تقود بحذر.",
+          "explain_ar": "prudent يصير **prudemment**."
+        },
+        {
+          "id": "f5",
+          "text": "Je comprends ___ maintenant.",
+          "say": "Je comprends facilement maintenant.",
+          "options": [
+            "facile",
+            "facilement"
+          ],
+          "answer": "facilement",
+          "ar": "أفهم بسهولة الآن.",
+          "explain_ar": "facile + ment: **facilement**."
+        },
+        {
+          "id": "f6",
+          "text": "J'ai ___ dormi.",
+          "say": "J'ai bien dormi.",
+          "options": [
+            "bon",
+            "bien"
+          ],
+          "answer": "bien",
+          "ar": "نمت جيداً.",
+          "explain_ar": "ظرف bon هو **bien**، بين avoir واسم المفعول."
+        },
+        {
+          "id": "f7",
+          "text": "Il a ___ travaillé.",
+          "say": "Il a beaucoup travaillé.",
+          "options": [
+            "très",
+            "beaucoup"
+          ],
+          "answer": "beaucoup",
+          "ar": "عمل كثيراً.",
+          "explain_ar": "مع الأفعال: **beaucoup**. أما très فمع الصفات."
+        },
+        {
+          "id": "f8",
+          "text": "C'est ___ beau.",
+          "say": "C'est vraiment beau.",
+          "options": [
+            "vrai",
+            "vraiment"
+          ],
+          "answer": "vraiment",
+          "ar": "إنه جميل حقاً.",
+          "explain_ar": "قبل الصفة: **vraiment**."
+        },
+        {
+          "id": "f9",
+          "text": "Parle plus ___, je n'entends rien !",
+          "say": "Parle plus fort, je n'entends rien !",
+          "options": [
+            "vite",
+            "fort"
+          ],
+          "answer": "fort",
+          "ar": "تكلّم بصوت أعلى، لا أسمع شيئاً!",
+          "explain_ar": "بصوت أعلى: plus **fort**."
+        },
+        {
+          "id": "f10",
+          "text": "Il est arrivé ___ : il y a deux jours.",
+          "say": "Il est arrivé récemment : il y a deux jours.",
+          "options": [
+            "récentement",
+            "récemment"
+          ],
+          "answer": "récemment",
+          "ar": "وصل مؤخراً: قبل يومين.",
+          "explain_ar": "ent يصير **récemment**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: الظروف",
+      "hint_ar": "كل الظروف تنتهي بـ «مون». ركّز على أولها.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "rapidement",
+          "options": [
+            "lentement",
+            "rapidement"
+          ],
+          "answer": "rapidement",
+          "explain_ar": "rapidement «غاپيدمون»: بسرعة."
+        },
+        {
+          "id": "q2",
+          "say": "évidemment",
+          "options": [
+            "évidemment",
+            "heureusement"
+          ],
+          "answer": "évidemment",
+          "explain_ar": "évidemment «إيڤيدامون»: طبعاً."
+        },
+        {
+          "id": "q3",
+          "say": "constamment",
+          "options": [
+            "couramment",
+            "constamment"
+          ],
+          "answer": "constamment",
+          "explain_ar": "constamment «كونستامون»: باستمرار."
+        },
+        {
+          "id": "q4",
+          "say": "doucement",
+          "options": [
+            "doucement",
+            "facilement"
+          ],
+          "answer": "doucement",
+          "explain_ar": "doucement «دوسمون»: بلطف."
+        },
+        {
+          "id": "q5",
+          "say": "Il a mal parlé.",
+          "options": [
+            "Il a bien parlé.",
+            "Il a mal parlé."
+          ],
+          "answer": "Il a mal parlé.",
+          "explain_ar": "mal «مال»: بشكل سيئ."
+        },
+        {
+          "id": "q6",
+          "say": "seulement",
+          "options": [
+            "vraiment",
+            "seulement"
+          ],
+          "answer": "seulement",
+          "explain_ar": "seulement «سُلمون»: فقط."
+        },
+        {
+          "id": "q7",
+          "say": "Parle plus fort.",
+          "options": [
+            "Parle plus fort.",
+            "Parle plus vite."
+          ],
+          "answer": "Parle plus fort.",
+          "explain_ar": "fort «فوغ»: بصوت أعلى."
+        },
+        {
+          "id": "q8",
+          "say": "finalement",
+          "options": [
+            "franchement",
+            "finalement"
+          ],
+          "answer": "finalement",
+          "explain_ar": "finalement «فينالمون»: في النهاية."
+        },
+        {
+          "id": "q9",
+          "say": "heureusement",
+          "options": [
+            "malheureusement",
+            "heureusement"
+          ],
+          "answer": "heureusement",
+          "explain_ar": "بلا mal في أولها: لحسن الحظ."
+        },
+        {
+          "id": "q10",
+          "say": "récemment",
+          "options": [
+            "régulièrement",
+            "récemment"
+          ],
+          "answer": "récemment",
+          "explain_ar": "récemment «غيسامون»: مؤخراً."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الظروف",
+      "hint_ar": "انتبه لـ emment و amment.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **évidemment** بـ mm، و **vraiment** بلا e.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "lentement",
+          "answer": "lentement",
+          "ar": "ببطء"
+        },
+        {
+          "id": "s2",
+          "say": "rapidement",
+          "answer": "rapidement",
+          "ar": "بسرعة"
+        },
+        {
+          "id": "s3",
+          "say": "vraiment",
+          "answer": "vraiment",
+          "ar": "حقاً"
+        },
+        {
+          "id": "s4",
+          "say": "évidemment",
+          "answer": "évidemment",
+          "ar": "طبعاً"
+        },
+        {
+          "id": "s5",
+          "say": "couramment",
+          "answer": "couramment",
+          "ar": "بطلاقة"
+        },
+        {
+          "id": "s6",
+          "say": "heureusement",
+          "answer": "heureusement",
+          "ar": "لحسن الحظ"
+        },
+        {
+          "id": "s7",
+          "say": "doucement",
+          "answer": "doucement",
+          "ar": "بلطف"
+        },
+        {
+          "id": "s8",
+          "say": "récemment",
+          "answer": "récemment",
+          "ar": "مؤخراً"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "ظروف طويلة: لا تتوقف قبل ment.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Tu peux parler plus lentement, s'il te plaît ?",
+          "ar": "هل يمكنك أن تتكلم ببطء أكثر من فضلك؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Tu peux",
+              "هل يمكنك"
+            ],
+            [
+              "parler",
+              "أن تتكلم"
+            ],
+            [
+              "plus lentement,",
+              "ببطء أكثر"
+            ],
+            [
+              "s'il te plaît ?",
+              "من فضلك"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Il parle français couramment.",
+          "ar": "يتكلم الفرنسية بطلاقة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Il parle",
+              "يتكلم"
+            ],
+            [
+              "français",
+              "الفرنسية"
+            ],
+            [
+              "couramment.",
+              "بطلاقة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Évidemment, il faut pratiquer régulièrement.",
+          "ar": "طبعاً، يجب التمرّن بانتظام.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Évidemment,",
+              "طبعاً"
+            ],
+            [
+              "il faut",
+              "يجب"
+            ],
+            [
+              "pratiquer",
+              "التمرّن"
+            ],
+            [
+              "régulièrement.",
+              "بانتظام"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Heureusement, tout s'est bien passé.",
+          "ar": "لحسن الحظ، مرّ كل شيء بخير.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Heureusement,",
+              "لحسن الحظ"
+            ],
+            [
+              "tout",
+              "كل شيء"
+            ],
+            [
+              "s'est bien passé.",
+              "مرّ بخير"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Franchement, c'est vraiment génial !",
+          "ar": "بصراحة، إنه رائع حقاً!",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Franchement,",
+              "بصراحة"
+            ],
+            [
+              "c'est",
+              "إنه"
+            ],
+            [
+              "vraiment",
+              "حقاً"
+            ],
+            [
+              "génial !",
+              "رائع"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: صف كيف تتعلم الفرنسية بأربعة ظروف: **J'étudie régulièrement… Je parle encore lentement… Heureusement… Franchement…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "lentement",
+          "say": "lentement",
+          "back_ar": "ببطء"
+        },
+        {
+          "id": "c2",
+          "front": "rapidement / vite",
+          "say": "rapidement, vite",
+          "back_ar": "بسرعة"
+        },
+        {
+          "id": "c3",
+          "front": "doucement",
+          "say": "doucement",
+          "back_ar": "بلطف"
+        },
+        {
+          "id": "c4",
+          "front": "fort",
+          "say": "fort",
+          "back_ar": "بصوت عالٍ"
+        },
+        {
+          "id": "c5",
+          "front": "vraiment",
+          "say": "vraiment",
+          "back_ar": "حقاً"
+        },
+        {
+          "id": "c6",
+          "front": "évidemment",
+          "say": "évidemment",
+          "back_ar": "طبعاً"
+        },
+        {
+          "id": "c7",
+          "front": "couramment",
+          "say": "couramment",
+          "back_ar": "بطلاقة"
+        },
+        {
+          "id": "c8",
+          "front": "heureusement",
+          "say": "heureusement",
+          "back_ar": "لحسن الحظ"
+        },
+        {
+          "id": "c9",
+          "front": "malheureusement",
+          "say": "malheureusement",
+          "back_ar": "للأسف"
+        },
+        {
+          "id": "c10",
+          "front": "franchement",
+          "say": "franchement",
+          "back_ar": "بصراحة"
+        },
+        {
+          "id": "c11",
+          "front": "facilement",
+          "say": "facilement",
+          "back_ar": "بسهولة"
+        },
+        {
+          "id": "c12",
+          "front": "régulièrement",
+          "say": "régulièrement",
+          "back_ar": "بانتظام"
+        },
+        {
+          "id": "c13",
+          "front": "récemment",
+          "say": "récemment",
+          "back_ar": "مؤخراً"
+        },
+        {
+          "id": "c14",
+          "front": "bien / mal",
+          "say": "bien, mal",
+          "back_ar": "جيداً / بشكل سيئ"
+        },
+        {
+          "id": "c15",
+          "front": "Parle plus fort !",
+          "say": "Parle plus fort !",
+          "back_ar": "تكلّم بصوت أعلى!"
+        },
+        {
+          "id": "c16",
+          "front": "Tu peux parler plus lentement ?",
+          "say": "Tu peux parler plus lentement ?",
+          "back_ar": "هل يمكنك أن تتكلم ببطء أكثر؟"
+        }
+      ]
+    }
+  ]
+}

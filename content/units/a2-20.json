@@ -1,0 +1,1418 @@
+{
+  "id": "a2-20",
+  "stage": "A2",
+  "title_fr": "Bilan A2",
+  "title_ar": "مراجعة A2",
+  "goals_ar": [
+    "تحكي رحلة كاملة بالتفصيل، بالماضي المركّب والناقص",
+    "تستعمل الضمائر لتجنّب التكرار: **le، lui، y، en**",
+    "تقرأ نصاً قصيراً بصوت عالٍ",
+    "تراجع أهم ما في A2"
+  ],
+  "intro_ar": [
+    "**هذه آخر وحدة في A2.** حوارها قصة سفر كاملة يحكيها يوسف لكلير، وفيها كل ما تعلمته في المرحلة: الماضي المركّب والناقص، والضمائر، والمقارنة، والمستقبل، والشرطي.",
+    "**التحدي:** استمع إلى الحوار مرتين دون ترجمة. إن فهمت معظمه فأنت في مستوى A2 فعلاً.",
+    "وفي آخر قسم الترديد نص قصير لتقرأه بصوت عالٍ."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: رحلة إلى بروفانس",
+      "context_ar": "يوسف عاد من رحلة إلى بروفانس مع أخيه، ويحكيها لكلير. استمع أولاً دون ترجمة.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Alors, raconte ! Comment s'est passé ton voyage en Provence ?",
+          "ar": "إذن، احكِ! كيف كانت رحلتك إلى بروفانس؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Alors,",
+              "إذن"
+            ],
+            [
+              "raconte !",
+              "احكِ"
+            ],
+            [
+              "Comment",
+              "كيف"
+            ],
+            [
+              "s'est passé",
+              "مرّت"
+            ],
+            [
+              "ton",
+              "ـك"
+            ],
+            [
+              "voyage",
+              "رحلة"
+            ],
+            [
+              "en Provence ?",
+              "إلى بروفانس"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "C'était magnifique ! Nous sommes partis lundi matin en TGV, et nous sommes arrivés à Avignon deux heures et demie plus tard.",
+          "ar": "كانت رائعة! سافرنا صباح الاثنين بالقطار السريع، ووصلنا إلى أفينيون بعد ساعتين ونصف.",
+          "slow": true,
+          "gloss": [
+            [
+              "C'était magnifique !",
+              "كانت رائعة"
+            ],
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "sommes partis",
+              "سافرنا"
+            ],
+            [
+              "lundi matin",
+              "صباح الاثنين"
+            ],
+            [
+              "en TGV,",
+              "بالقطار السريع"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "sommes arrivés",
+              "وصلنا"
+            ],
+            [
+              "à Avignon",
+              "إلى أفينيون"
+            ],
+            [
+              "deux heures et demie plus tard.",
+              "بعد ساعتين ونصف"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Il faisait beau ?",
+          "ar": "هل كان الجو جميلاً؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Il faisait beau ?",
+              "هل كان الجو جميلاً"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Très beau ! Il faisait plus chaud qu'à Paris, et le ciel était toujours bleu.",
+          "ar": "جميل جداً! كان أدفأ من باريس، والسماء كانت زرقاء دائماً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Très beau !",
+              "جميل جداً"
+            ],
+            [
+              "Il faisait",
+              "كان الجو"
+            ],
+            [
+              "plus chaud",
+              "أدفأ"
+            ],
+            [
+              "qu'à Paris,",
+              "من باريس"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "ciel",
+              "سماء"
+            ],
+            [
+              "était",
+              "كانت"
+            ],
+            [
+              "toujours",
+              "دائماً"
+            ],
+            [
+              "bleu.",
+              "زرقاء"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Et qu'est-ce que vous avez visité ?",
+          "ar": "وماذا زرتما؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "vous avez visité ?",
+              "زرتما"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Le palais des Papes, et un petit village où on vendait de la lavande partout. Mon frère en a acheté trois sacs !",
+          "ar": "قصر الباباوات، وقرية صغيرة كانوا يبيعون فيها الخزامى في كل مكان. اشترى أخي منها ثلاثة أكياس!",
+          "slow": true,
+          "gloss": [
+            [
+              "Le palais des Papes,",
+              "قصر الباباوات"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "petit",
+              "صغيرة"
+            ],
+            [
+              "village",
+              "قرية"
+            ],
+            [
+              "où",
+              "حيث"
+            ],
+            [
+              "on vendait",
+              "كانوا يبيعون"
+            ],
+            [
+              "de la lavande",
+              "الخزامى"
+            ],
+            [
+              "partout.",
+              "في كل مكان"
+            ],
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "frère",
+              "أخ"
+            ],
+            [
+              "en a acheté",
+              "اشترى منها"
+            ],
+            [
+              "trois sacs !",
+              "ثلاثة أكياس"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Pour votre mère ?",
+          "ar": "لأمكما؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Pour",
+              "لـ"
+            ],
+            [
+              "votre",
+              "ـكما"
+            ],
+            [
+              "mère ?",
+              "أم"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Oui, il va lui offrir la lavande. Elle adore ça.",
+          "ar": "نعم، سيهديها الخزامى. إنها تحب ذلك كثيراً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "il va",
+              "سـ"
+            ],
+            [
+              "lui",
+              "لها"
+            ],
+            [
+              "offrir",
+              "يهدي"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "lavande.",
+              "خزامى"
+            ],
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "adore",
+              "تعشق"
+            ],
+            [
+              "ça.",
+              "ذلك"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Et il y a eu des problèmes ?",
+          "ar": "وهل حدثت مشاكل؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "il y a eu",
+              "حدثت"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "problèmes ?",
+              "مشاكل"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "Un seul ! Pendant que nous mangions au restaurant, quelqu'un a pris ma veste. Heureusement, le serveur l'a retrouvée dans la rue.",
+          "ar": "مشكلة واحدة! بينما كنا نأكل في المطعم، أخذ أحدهم سترتي. لحسن الحظ، وجدها النادل في الشارع.",
+          "slow": true,
+          "gloss": [
+            [
+              "Un seul !",
+              "واحدة فقط"
+            ],
+            [
+              "Pendant que",
+              "بينما"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "mangions",
+              "كنا نأكل"
+            ],
+            [
+              "au restaurant,",
+              "في المطعم"
+            ],
+            [
+              "quelqu'un",
+              "أحدهم"
+            ],
+            [
+              "a pris",
+              "أخذ"
+            ],
+            [
+              "ma",
+              "ـي"
+            ],
+            [
+              "veste.",
+              "سترة"
+            ],
+            [
+              "Heureusement,",
+              "لحسن الحظ"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "serveur",
+              "نادل"
+            ],
+            [
+              "l'a retrouvée",
+              "وجدها"
+            ],
+            [
+              "dans la rue.",
+              "في الشارع"
+            ]
+          ]
+        },
+        {
+          "id": "d11",
+          "speaker": "A",
+          "say": "Quelle aventure ! Tu y retourneras ?",
+          "ar": "يا لها من مغامرة! هل ستعود إلى هناك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Quelle aventure !",
+              "يا لها من مغامرة"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "y",
+              "إلى هناك"
+            ],
+            [
+              "retourneras ?",
+              "ستعود"
+            ]
+          ]
+        },
+        {
+          "id": "d12",
+          "speaker": "B",
+          "say": "Bien sûr ! L'année prochaine, j'aimerais y aller en été, pour voir les champs de lavande en fleurs.",
+          "ar": "بالتأكيد! في السنة القادمة أودّ أن أذهب في الصيف، لأرى حقول الخزامى مزهرة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Bien sûr !",
+              "بالتأكيد"
+            ],
+            [
+              "L'année prochaine,",
+              "السنة القادمة"
+            ],
+            [
+              "j'aimerais",
+              "أودّ"
+            ],
+            [
+              "y",
+              "إلى هناك"
+            ],
+            [
+              "aller",
+              "الذهاب"
+            ],
+            [
+              "en été,",
+              "في الصيف"
+            ],
+            [
+              "pour voir",
+              "لأرى"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "champs de lavande",
+              "حقول الخزامى"
+            ],
+            [
+              "en fleurs.",
+              "مزهرة"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "مراجعة A2 في حوار واحد: **الماضي المركّب** للأحداث (sommes partis، a pris)، و**الناقص** للوصف (il faisait، on vendait، nous mangions)، و**الضمائر** (en a acheté، lui offrir، l'a retrouvée، y retourneras)، و**المقارنة** (plus chaud qu'à Paris)، و**المستقبل** (retourneras)، و**الشرطي** (j'aimerais). ولاحظ retrouvée بـ e: مع avoir يتفق اسم المفعول إذا جاء المفعول قبله، وستتعلم هذا في B1."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "كلمات القصة، ثم كلمات الربط للمراجعة، ثم عبارات.",
+      "groups": [
+        {
+          "title_ar": "قصة سفر",
+          "items": [
+            {
+              "id": "v-raconter",
+              "say": "raconter",
+              "ar": "يحكي"
+            },
+            {
+              "id": "v-aventure",
+              "say": "une aventure",
+              "ar": "مغامرة"
+            },
+            {
+              "id": "v-village",
+              "say": "un village",
+              "ar": "قرية"
+            },
+            {
+              "id": "v-lavande",
+              "say": "la lavande",
+              "ar": "الخزامى"
+            },
+            {
+              "id": "v-champ",
+              "say": "un champ",
+              "ar": "حقل"
+            },
+            {
+              "id": "v-ciel",
+              "say": "le ciel",
+              "ar": "السماء"
+            },
+            {
+              "id": "v-partout",
+              "say": "partout",
+              "ar": "في كل مكان"
+            },
+            {
+              "id": "v-retrouver",
+              "say": "retrouver",
+              "ar": "يجد ما فقده"
+            },
+            {
+              "id": "v-retourner",
+              "say": "retourner",
+              "ar": "يعود إلى مكان"
+            },
+            {
+              "id": "v-fleurs",
+              "say": "en fleurs",
+              "ar": "مزهر"
+            }
+          ]
+        },
+        {
+          "title_ar": "ربط القصة (مراجعة)",
+          "items": [
+            {
+              "id": "v-dabord",
+              "say": "d'abord",
+              "ar": "أولاً"
+            },
+            {
+              "id": "v-ensuite",
+              "say": "ensuite",
+              "ar": "بعد ذلك"
+            },
+            {
+              "id": "v-pendant",
+              "say": "pendant que",
+              "ar": "بينما"
+            },
+            {
+              "id": "v-soudain",
+              "say": "soudain",
+              "ar": "فجأة"
+            },
+            {
+              "id": "v-heureusement",
+              "say": "heureusement",
+              "ar": "لحسن الحظ"
+            },
+            {
+              "id": "v-finalement",
+              "say": "finalement",
+              "ar": "في النهاية"
+            },
+            {
+              "id": "v-plustard",
+              "say": "plus tard",
+              "ar": "لاحقاً / بعد ذلك"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-raconte",
+              "say": "Raconte !",
+              "ar": "احكِ!"
+            },
+            {
+              "id": "v-passe",
+              "say": "Comment s'est passé ton voyage ?",
+              "ar": "كيف كانت رحلتك؟"
+            },
+            {
+              "id": "v-aventure2",
+              "say": "Quelle aventure !",
+              "ar": "يا لها من مغامرة!"
+            },
+            {
+              "id": "v-magnifique",
+              "say": "C'était magnifique !",
+              "ar": "كان رائعاً!"
+            },
+            {
+              "id": "v-retourner2",
+              "say": "J'aimerais y retourner.",
+              "ar": "أودّ العودة إلى هناك."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "المراجعة",
+      "title_ar": "مراجعة A2: الأزمنة والضمائر",
+      "intro_ar": "ثلاثة جداول تجمع المرحلة كلها. إن احتجت تفصيلاً فارجع إلى الوحدة المذكورة.",
+      "tables": [
+        {
+          "title_fr": "Les temps du passé",
+          "title_ar": "أزمنة الماضي (2.1 إلى 2.5)",
+          "head_ar": [
+            "الزمن",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-p1",
+              "say": "J'ai visité Avignon.",
+              "cells": [
+                "passé composé + avoir",
+                "J'ai visité Avignon."
+              ],
+              "ar": "حدث: زرت أفينيون"
+            },
+            {
+              "id": "g-p2",
+              "say": "Nous sommes partis lundi.",
+              "cells": [
+                "passé composé + être",
+                "Nous sommes partis lundi."
+              ],
+              "ar": "حركة: سافرنا يوم الاثنين"
+            },
+            {
+              "id": "g-p3",
+              "say": "Il faisait beau.",
+              "cells": [
+                "imparfait",
+                "Il faisait beau."
+              ],
+              "ar": "وصف: كان الجو جميلاً"
+            },
+            {
+              "id": "g-p4",
+              "say": "Je jouais au foot le samedi.",
+              "cells": [
+                "imparfait",
+                "Je jouais au foot le samedi."
+              ],
+              "ar": "عادة: كنت ألعب الكرة كل سبت"
+            },
+            {
+              "id": "g-p5",
+              "say": "Pendant que nous mangions, quelqu'un a pris ma veste.",
+              "cells": [
+                "imparfait + passé composé",
+                "Pendant que nous mangions, quelqu'un a pris ma veste."
+              ],
+              "ar": "قصة: خلفية وحدث"
+            }
+          ],
+          "note_ar": "سؤال الاختيار: حدث وانتهى؟ المركّب. وصف أو عادة؟ الناقص."
+        },
+        {
+          "title_fr": "Les pronoms",
+          "title_ar": "الضمائر (2.6 إلى 2.8 و 2.15 و 2.16)",
+          "head_ar": [
+            "الضمير",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-r1",
+              "say": "Je la vois.",
+              "cells": [
+                "le, la, les",
+                "Je la vois."
+              ],
+              "ar": "أراها (مفعول مباشر)"
+            },
+            {
+              "id": "g-r2",
+              "say": "Je lui parle.",
+              "cells": [
+                "lui, leur",
+                "Je lui parle."
+              ],
+              "ar": "أكلّمه (بعد à)"
+            },
+            {
+              "id": "g-r3",
+              "say": "J'y vais.",
+              "cells": [
+                "y",
+                "J'y vais."
+              ],
+              "ar": "أذهب إلى هناك (مكان)"
+            },
+            {
+              "id": "g-r4",
+              "say": "J'en ai trois.",
+              "cells": [
+                "en",
+                "J'en ai trois."
+              ],
+              "ar": "عندي ثلاثة منه (كمية)"
+            },
+            {
+              "id": "g-r5",
+              "say": "la ville où je suis né",
+              "cells": [
+                "qui, que, où",
+                "la ville où je suis né"
+              ],
+              "ar": "المدينة التي وُلدت فيها"
+            },
+            {
+              "id": "g-r6",
+              "say": "Je vais chez eux.",
+              "cells": [
+                "moi, toi, eux…",
+                "Je vais chez eux."
+              ],
+              "ar": "أذهب إليهم"
+            }
+          ],
+          "note_ar": "كل الضمائر قبل الفعل، وقبل avoir في الماضي، وبعد الفعل في الأمر الإيجابي فقط."
+        },
+        {
+          "title_fr": "Futur et conditionnel",
+          "title_ar": "المستقبل والشرطي (2.14 و 2.19)",
+          "head_ar": [
+            "الزمن",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-f1",
+              "say": "Je vais partir.",
+              "cells": [
+                "futur proche",
+                "Je vais partir."
+              ],
+              "ar": "سأرحل (قريباً)"
+            },
+            {
+              "id": "g-f2",
+              "say": "Je partirai l'année prochaine.",
+              "cells": [
+                "futur simple",
+                "Je partirai l'année prochaine."
+              ],
+              "ar": "سأرحل السنة القادمة"
+            },
+            {
+              "id": "g-f3",
+              "say": "S'il fait beau, je partirai.",
+              "cells": [
+                "si + présent, futur",
+                "S'il fait beau, je partirai."
+              ],
+              "ar": "إذا كان الجو جميلاً سأرحل"
+            },
+            {
+              "id": "g-f4",
+              "say": "J'aimerais partir.",
+              "cells": [
+                "conditionnel",
+                "J'aimerais partir."
+              ],
+              "ar": "أودّ الرحيل"
+            }
+          ],
+          "note_ar": "بهذه الأزمنة تستطيع أن تحكي الماضي، وتصف الحاضر، وتخطط للمستقبل، وتتمنى بأدب."
+        }
+      ],
+      "points_ar": [
+        "**مبروك على إنهاء A2!** أنت الآن تتدبر أمورك في معظم مواقف السفر والحياة اليومية.",
+        "**قبل B1:** راجع بطاقاتك يومياً، وأعد الاستماع إلى حوارات A2 دون ترجمة.",
+        "**في B1** ستتعلم الـ subjonctif، والماضي الأسبق، والكلام المنقول، وكتابة نصوص أطول."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: مراجعة A2",
+      "hint_ar": "سؤال من كل وحدة تقريباً. فكّر قبل أن تختار.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Hier, nous ___ partis à six heures.",
+          "say": "Hier, nous sommes partis à six heures.",
+          "options": [
+            "avons",
+            "sommes"
+          ],
+          "answer": "sommes",
+          "ar": "أمس سافرنا الساعة السادسة.",
+          "explain_ar": "partir مع être: nous **sommes** partis."
+        },
+        {
+          "id": "f2",
+          "text": "Il ___ beau quand nous sommes arrivés.",
+          "say": "Il faisait beau quand nous sommes arrivés.",
+          "options": [
+            "a fait",
+            "faisait"
+          ],
+          "answer": "faisait",
+          "ar": "كان الجو جميلاً عندما وصلنا.",
+          "explain_ar": "وصف الجو: **faisait**."
+        },
+        {
+          "id": "f3",
+          "text": "Des sacs de lavande ? Mon frère ___ a acheté trois.",
+          "say": "Des sacs de lavande ? Mon frère en a acheté trois.",
+          "options": [
+            "les",
+            "en"
+          ],
+          "answer": "en",
+          "ar": "أكياس خزامى؟ اشترى أخي منها ثلاثة.",
+          "explain_ar": "كمية مع رقم: **en**."
+        },
+        {
+          "id": "f4",
+          "text": "Ma mère ? Il va ___ offrir la lavande.",
+          "say": "Ma mère ? Il va lui offrir la lavande.",
+          "options": [
+            "la",
+            "lui"
+          ],
+          "answer": "lui",
+          "ar": "أمي؟ سيهديها الخزامى.",
+          "explain_ar": "offrir à quelqu'un: **lui**."
+        },
+        {
+          "id": "f5",
+          "text": "Avignon ? J'___ retournerai l'année prochaine.",
+          "say": "Avignon ? J'y retournerai l'année prochaine.",
+          "options": [
+            "en",
+            "y"
+          ],
+          "answer": "y",
+          "ar": "أفينيون؟ سأعود إليها السنة القادمة.",
+          "explain_ar": "مكان: **j'y** retournerai."
+        },
+        {
+          "id": "f6",
+          "text": "C'est le village ___ on vendait de la lavande.",
+          "say": "C'est le village où on vendait de la lavande.",
+          "options": [
+            "que",
+            "où"
+          ],
+          "answer": "où",
+          "ar": "إنها القرية التي كانوا يبيعون فيها الخزامى.",
+          "explain_ar": "مكان: **où**."
+        },
+        {
+          "id": "f7",
+          "text": "Il fait plus chaud ___ Paris.",
+          "say": "Il fait plus chaud qu'à Paris.",
+          "options": [
+            "que",
+            "qu'à"
+          ],
+          "answer": "qu'à",
+          "ar": "الجو أدفأ من باريس.",
+          "explain_ar": "المقارنة مع مكان: **qu'à** Paris."
+        },
+        {
+          "id": "f8",
+          "text": "L'année prochaine, j'___ y aller en été.",
+          "say": "L'année prochaine, j'aimerais y aller en été.",
+          "options": [
+            "aimais",
+            "aimerais"
+          ],
+          "answer": "aimerais",
+          "ar": "في السنة القادمة أودّ الذهاب في الصيف.",
+          "explain_ar": "أمنية: **j'aimerais**."
+        },
+        {
+          "id": "f9",
+          "text": "Pendant que nous ___, quelqu'un a pris ma veste.",
+          "say": "Pendant que nous mangions, quelqu'un a pris ma veste.",
+          "options": [
+            "avons mangé",
+            "mangions"
+          ],
+          "answer": "mangions",
+          "ar": "بينما كنا نأكل، أخذ أحدهم سترتي.",
+          "explain_ar": "خلفية بعد pendant que: **mangions**."
+        },
+        {
+          "id": "f10",
+          "text": "S'il fait beau, nous ___ à la plage.",
+          "say": "S'il fait beau, nous irons à la plage.",
+          "options": [
+            "allions",
+            "irons"
+          ],
+          "answer": "irons",
+          "ar": "إذا كان الجو جميلاً سنذهب إلى الشاطئ.",
+          "explain_ar": "si + حاضر، ثم مستقبل: **irons**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: مراجعة A2",
+      "hint_ar": "أصعب الأزواج في المرحلة.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "nous sommes partis",
+          "options": [
+            "nous partons",
+            "nous sommes partis"
+          ],
+          "answer": "nous sommes partis",
+          "explain_ar": "sommes partis: ماضٍ مركّب."
+        },
+        {
+          "id": "q2",
+          "say": "il fera beau",
+          "options": [
+            "il faisait beau",
+            "il fera beau"
+          ],
+          "answer": "il fera beau",
+          "explain_ar": "fera «فُغا»: مستقبل."
+        },
+        {
+          "id": "q3",
+          "say": "j'en ai acheté",
+          "options": [
+            "j'en ai acheté",
+            "je l'ai acheté"
+          ],
+          "answer": "j'en ai acheté",
+          "explain_ar": "j'en «ژون»: منه."
+        },
+        {
+          "id": "q4",
+          "say": "j'y vais",
+          "options": [
+            "j'y vais",
+            "j'en veux"
+          ],
+          "answer": "j'y vais",
+          "explain_ar": "j'y «ژي»: إلى هناك."
+        },
+        {
+          "id": "q5",
+          "say": "le village que j'aime",
+          "options": [
+            "le village où j'habite",
+            "le village que j'aime"
+          ],
+          "answer": "le village que j'aime",
+          "explain_ar": "que j'aime: الذي أحبه."
+        },
+        {
+          "id": "q6",
+          "say": "moins chaud",
+          "options": [
+            "plus chaud",
+            "moins chaud"
+          ],
+          "answer": "moins chaud",
+          "explain_ar": "moins «موان»: أقل."
+        },
+        {
+          "id": "q7",
+          "say": "j'aimerais",
+          "options": [
+            "j'aimais",
+            "j'aimerais"
+          ],
+          "answer": "j'aimerais",
+          "explain_ar": "aimerais «إيمُغيه»: شرطي."
+        },
+        {
+          "id": "q8",
+          "say": "pendant que",
+          "options": [
+            "parce que",
+            "pendant que"
+          ],
+          "answer": "pendant que",
+          "explain_ar": "pendant «پوندون»: بينما."
+        },
+        {
+          "id": "q9",
+          "say": "malheureusement",
+          "options": [
+            "heureusement",
+            "malheureusement"
+          ],
+          "answer": "malheureusement",
+          "explain_ar": "mal في أولها: للأسف."
+        },
+        {
+          "id": "q10",
+          "say": "Quelle aventure !",
+          "options": [
+            "Quelle aventure !",
+            "Quelle chance !"
+          ],
+          "answer": "Quelle aventure !",
+          "explain_ar": "aventure «أڤونتوغ»: مغامرة."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: مراجعة A2",
+      "hint_ar": "جمل قصيرة من كل المرحلة.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **sommes partis** بـ s، و **j'aimerais** بـ ais.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "nous sommes partis",
+          "answer": "nous sommes partis",
+          "ar": "سافرنا"
+        },
+        {
+          "id": "s2",
+          "say": "il faisait beau",
+          "answer": "il faisait beau",
+          "ar": "كان الجو جميلاً"
+        },
+        {
+          "id": "s3",
+          "say": "j'en ai acheté",
+          "answer": "j'en ai acheté",
+          "ar": "اشتريت منه"
+        },
+        {
+          "id": "s4",
+          "say": "je lui parle",
+          "answer": "je lui parle",
+          "ar": "أكلّمه"
+        },
+        {
+          "id": "s5",
+          "say": "j'y vais",
+          "answer": "j'y vais",
+          "ar": "أذهب إلى هناك"
+        },
+        {
+          "id": "s6",
+          "say": "la ville où",
+          "answer": "la ville où",
+          "ar": "المدينة التي"
+        },
+        {
+          "id": "s7",
+          "say": "j'aimerais",
+          "answer": "j'aimerais",
+          "ar": "أودّ"
+        },
+        {
+          "id": "s8",
+          "say": "heureusement",
+          "answer": "heureusement",
+          "ar": "لحسن الحظ"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "أربع جمل، ثم نص كامل لتقرأه بصوت عالٍ: الأخير هو التحدي.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Comment s'est passé ton voyage ?",
+          "ar": "كيف كانت رحلتك؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Comment",
+              "كيف"
+            ],
+            [
+              "s'est passé",
+              "مرّت"
+            ],
+            [
+              "ton",
+              "ـك"
+            ],
+            [
+              "voyage ?",
+              "رحلة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Nous sommes partis lundi et nous sommes rentrés vendredi.",
+          "ar": "سافرنا يوم الاثنين وعدنا يوم الجمعة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "sommes partis",
+              "سافرنا"
+            ],
+            [
+              "lundi",
+              "الاثنين"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "sommes rentrés",
+              "عدنا"
+            ],
+            [
+              "vendredi.",
+              "الجمعة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Il faisait beau, alors nous avons marché toute la journée.",
+          "ar": "كان الجو جميلاً، فمشينا طوال اليوم.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Il faisait beau,",
+              "كان الجو جميلاً"
+            ],
+            [
+              "alors",
+              "فـ"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "avons marché",
+              "مشينا"
+            ],
+            [
+              "toute la journée.",
+              "طوال اليوم"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "J'aimerais y retourner l'année prochaine.",
+          "ar": "أودّ العودة إلى هناك السنة القادمة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "J'aimerais",
+              "أودّ"
+            ],
+            [
+              "y retourner",
+              "العودة إلى هناك"
+            ],
+            [
+              "l'année prochaine.",
+              "السنة القادمة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Le mois dernier, je suis allé en Provence avec mon frère. Il faisait beau et chaud. Nous avons visité Avignon et un petit village où on vendait de la lavande. C'était un voyage magnifique, et j'aimerais y retourner en été.",
+          "ar": "الشهر الماضي ذهبت إلى بروفانس مع أخي. كان الجو جميلاً ودافئاً. زرنا أفينيون وقرية صغيرة كانوا يبيعون فيها الخزامى. كانت رحلة رائعة، وأودّ العودة إليها في الصيف.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Le mois dernier,",
+              "الشهر الماضي"
+            ],
+            [
+              "je suis allé",
+              "ذهبتُ"
+            ],
+            [
+              "en Provence",
+              "إلى بروفانس"
+            ],
+            [
+              "avec mon frère.",
+              "مع أخي"
+            ],
+            [
+              "Il faisait",
+              "كان الجو"
+            ],
+            [
+              "beau et chaud.",
+              "جميلاً ودافئاً"
+            ],
+            [
+              "Nous avons visité",
+              "زرنا"
+            ],
+            [
+              "Avignon",
+              "أفينيون"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "un petit village",
+              "قرية صغيرة"
+            ],
+            [
+              "où on vendait",
+              "كانوا يبيعون فيها"
+            ],
+            [
+              "de la lavande.",
+              "الخزامى"
+            ],
+            [
+              "C'était",
+              "كانت"
+            ],
+            [
+              "un voyage magnifique,",
+              "رحلة رائعة"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "j'aimerais",
+              "أودّ"
+            ],
+            [
+              "y retourner",
+              "العودة إليها"
+            ],
+            [
+              "en été.",
+              "في الصيف"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "التحدي الختامي لـ A2: احكِ أجمل رحلة قمت بها في دقيقة كاملة، بالماضي المركّب والناقص، وأنهِها بأمنية: **C'était… Nous sommes allés… Il faisait… J'aimerais…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "Raconte !",
+          "say": "Raconte !",
+          "back_ar": "احكِ!"
+        },
+        {
+          "id": "c2",
+          "front": "Comment s'est passé ton voyage ?",
+          "say": "Comment s'est passé ton voyage ?",
+          "back_ar": "كيف كانت رحلتك؟"
+        },
+        {
+          "id": "c3",
+          "front": "C'était magnifique !",
+          "say": "C'était magnifique !",
+          "back_ar": "كان رائعاً!"
+        },
+        {
+          "id": "c4",
+          "front": "Quelle aventure !",
+          "say": "Quelle aventure !",
+          "back_ar": "يا لها من مغامرة!"
+        },
+        {
+          "id": "c5",
+          "front": "une aventure",
+          "say": "une aventure",
+          "back_ar": "مغامرة"
+        },
+        {
+          "id": "c6",
+          "front": "un village",
+          "say": "un village",
+          "back_ar": "قرية"
+        },
+        {
+          "id": "c7",
+          "front": "partout",
+          "say": "partout",
+          "back_ar": "في كل مكان"
+        },
+        {
+          "id": "c8",
+          "front": "retrouver",
+          "say": "retrouver",
+          "back_ar": "يجد ما فقده"
+        },
+        {
+          "id": "c9",
+          "front": "retourner",
+          "say": "retourner",
+          "back_ar": "يعود إلى مكان"
+        },
+        {
+          "id": "c10",
+          "front": "plus tard",
+          "say": "plus tard",
+          "back_ar": "لاحقاً"
+        },
+        {
+          "id": "c11",
+          "front": "J'aimerais y retourner.",
+          "say": "J'aimerais y retourner.",
+          "back_ar": "أودّ العودة إلى هناك."
+        },
+        {
+          "id": "c12",
+          "front": "J'ai visité… / Il faisait…",
+          "say": "J'ai visité Avignon. Il faisait beau.",
+          "back_ar": "حدث بالمركّب / وصف بالناقص"
+        },
+        {
+          "id": "c13",
+          "front": "J'en ai trois. J'y vais.",
+          "say": "J'en ai trois. J'y vais.",
+          "back_ar": "en للكمية / y للمكان"
+        },
+        {
+          "id": "c14",
+          "front": "Je le vois. Je lui parle.",
+          "say": "Je le vois. Je lui parle.",
+          "back_ar": "le مباشر / lui مع à"
+        },
+        {
+          "id": "c15",
+          "front": "qui / que / où",
+          "say": "qui, que, où",
+          "back_ar": "الذي (فاعل / مفعول / مكان)"
+        },
+        {
+          "id": "c16",
+          "front": "la lavande",
+          "say": "la lavande",
+          "back_ar": "الخزامى"
+        }
+      ]
+    }
+  ]
+}

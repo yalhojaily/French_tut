@@ -1,0 +1,1217 @@
+{
+  "id": "a2-19",
+  "stage": "A2",
+  "title_fr": "Le conditionnel de politesse",
+  "title_ar": "الشرطي للتأدب",
+  "goals_ar": [
+    "تطلب بأدب: **Je voudrais… Pourriez-vous… ?**",
+    "تعبّر عن أمنية: **J'aimerais visiter le Japon.**",
+    "تقدّم نصيحة: **Tu devrais dormir plus.**",
+    "تسمع الفرق بين **nous parlerons** و **nous parlerions**"
+  ],
+  "intro_ar": [
+    "تعرف **je voudrais** منذ A1. وهي من زمن اسمه **الشرطي (le conditionnel)**، يستعمله الفرنسيون لتليين الكلام: طلب مهذب، أو أمنية، أو نصيحة.",
+    "**التكوين:** جذر المستقبل (من الوحدة 2.14) + نهايات الماضي الناقص: parler + ais = je parlerais. والجذور الشاذة نفسها: voudr، pourr، devr، ser، aur.",
+    "**ثلاثة استعمالات يومية:** الطلب: **Pourriez-vous** m'aider ? والأمنية: **J'aimerais** voyager. والنصيحة: **Tu devrais** te reposer.",
+    "**النطق:** je parlerai (مستقبل) و je parlerais (شرطي) متقاربان جداً، والفرق في الكتابة. أما في الجمع فواضح: nous parlerons و nous parlerions."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: طلب ونصيحة",
+      "context_ar": "كلير مشغولة ومتعبة، وتطلب من يوسف مساعدة. لاحظ الطلب والأمنية والنصيحة.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Youssef, pourrais-tu m'aider ce soir ? J'aurais besoin de toi.",
+          "ar": "يوسف، هل يمكنك مساعدتي الليلة؟ أحتاج إليك.",
+          "slow": true,
+          "gloss": [
+            [
+              "Youssef,",
+              "يوسف"
+            ],
+            [
+              "pourrais-tu",
+              "هل يمكنك"
+            ],
+            [
+              "m'aider",
+              "مساعدتي"
+            ],
+            [
+              "ce soir ?",
+              "الليلة"
+            ],
+            [
+              "J'aurais besoin",
+              "أحتاج"
+            ],
+            [
+              "de toi.",
+              "إليك"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Bien sûr. Qu'est-ce qui se passe ?",
+          "ar": "بالتأكيد. ماذا يحدث؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bien sûr.",
+              "بالتأكيد"
+            ],
+            [
+              "Qu'est-ce qui se passe ?",
+              "ماذا يحدث؟"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Je dois écrire une lettre à l'université. Tu pourrais la relire ?",
+          "ar": "يجب أن أكتب رسالة إلى الجامعة. هل يمكنك مراجعتها؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Je dois",
+              "يجب أن"
+            ],
+            [
+              "écrire",
+              "أكتب"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "lettre",
+              "رسالة"
+            ],
+            [
+              "à l'université.",
+              "إلى الجامعة"
+            ],
+            [
+              "Tu pourrais",
+              "هل يمكنك"
+            ],
+            [
+              "la",
+              "ها"
+            ],
+            [
+              "relire ?",
+              "أن تراجع"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Avec plaisir. Mais tu as l'air fatiguée. Tu devrais te reposer un peu.",
+          "ar": "بكل سرور. لكنك تبدين متعبة. ينبغي أن ترتاحي قليلاً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Avec plaisir.",
+              "بكل سرور"
+            ],
+            [
+              "Mais",
+              "لكن"
+            ],
+            [
+              "tu as l'air",
+              "تبدين"
+            ],
+            [
+              "fatiguée.",
+              "متعبة"
+            ],
+            [
+              "Tu devrais",
+              "ينبغي أن"
+            ],
+            [
+              "te reposer",
+              "ترتاحي"
+            ],
+            [
+              "un peu.",
+              "قليلاً"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Je sais… J'aimerais partir en vacances, mais j'ai trop de travail.",
+          "ar": "أعرف… أودّ الذهاب في عطلة، لكن عندي عمل كثير جداً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je sais…",
+              "أعرف"
+            ],
+            [
+              "J'aimerais",
+              "أودّ"
+            ],
+            [
+              "partir en vacances,",
+              "الذهاب في عطلة"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "j'ai",
+              "عندي"
+            ],
+            [
+              "trop de travail.",
+              "عمل كثير جداً"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "À ta place, je prendrais trois jours. Tu pourrais aller à la mer.",
+          "ar": "لو كنت مكانك لأخذت ثلاثة أيام. يمكنك الذهاب إلى البحر.",
+          "slow": true,
+          "gloss": [
+            [
+              "À ta place,",
+              "لو كنتُ مكانك"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "prendrais",
+              "لأخذتُ"
+            ],
+            [
+              "trois jours.",
+              "ثلاثة أيام"
+            ],
+            [
+              "Tu pourrais",
+              "يمكنك"
+            ],
+            [
+              "aller",
+              "الذهاب"
+            ],
+            [
+              "à la mer.",
+              "إلى البحر"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Ce serait merveilleux… Tu viendrais avec moi ?",
+          "ar": "سيكون ذلك رائعاً… هل تأتي معي؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Ce serait",
+              "سيكون"
+            ],
+            [
+              "merveilleux…",
+              "رائعاً"
+            ],
+            [
+              "Tu viendrais",
+              "هل تأتي"
+            ],
+            [
+              "avec moi ?",
+              "معي"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "J'aimerais bien, mais je ne peux pas. Mon frère arrive la semaine prochaine.",
+          "ar": "أودّ ذلك، لكن لا أستطيع. أخي يصل الأسبوع القادم.",
+          "slow": true,
+          "gloss": [
+            [
+              "J'aimerais bien,",
+              "أودّ ذلك"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "je ne peux pas.",
+              "لا أستطيع"
+            ],
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "frère",
+              "أخ"
+            ],
+            [
+              "arrive",
+              "يصل"
+            ],
+            [
+              "la semaine prochaine.",
+              "الأسبوع القادم"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Dommage ! Alors, on se voit ce soir pour la lettre ?",
+          "ar": "خسارة! إذن نلتقي الليلة من أجل الرسالة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Dommage !",
+              "خسارة"
+            ],
+            [
+              "Alors,",
+              "إذن"
+            ],
+            [
+              "on se voit",
+              "نلتقي"
+            ],
+            [
+              "ce soir",
+              "الليلة"
+            ],
+            [
+              "pour la lettre ?",
+              "من أجل الرسالة"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "D'accord, à vingt heures. Je t'apporterai des chocolats contre le stress !",
+          "ar": "حسناً، الساعة الثامنة مساءً. سأُحضر لك شوكولاتة ضد التوتر!",
+          "slow": true,
+          "gloss": [
+            [
+              "D'accord,",
+              "حسناً"
+            ],
+            [
+              "à vingt heures.",
+              "الساعة الثامنة مساءً"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "t'apporterai",
+              "سأُحضر لكِ"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "chocolats",
+              "شوكولاتة"
+            ],
+            [
+              "contre le stress !",
+              "ضد التوتر"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "ثلاثة استعمالات للشرطي في الحوار: **الطلب** (pourrais-tu، tu pourrais)، و**الأمنية** (j'aimerais، ce serait merveilleux)، و**النصيحة** (tu devrais، à ta place je prendrais). و **À ta place** = لو كنت مكانك، أشهر بداية للنصيحة."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "الطلب المهذب، ثم الأمنيات، ثم النصائح.",
+      "groups": [
+        {
+          "title_ar": "الطلب المهذب",
+          "items": [
+            {
+              "id": "v-voudrais",
+              "say": "Je voudrais…",
+              "ar": "أودّ…"
+            },
+            {
+              "id": "v-pourriez",
+              "say": "Pourriez-vous… ?",
+              "ar": "هل يمكنكم…؟"
+            },
+            {
+              "id": "v-pourrais",
+              "say": "Pourrais-tu… ?",
+              "ar": "هل يمكنك…؟"
+            },
+            {
+              "id": "v-estcequevous",
+              "say": "Est-ce que vous pourriez… ?",
+              "ar": "هل يمكنكم…؟"
+            },
+            {
+              "id": "v-besoin",
+              "say": "J'aurais besoin de…",
+              "ar": "أحتاج إلى…"
+            },
+            {
+              "id": "v-derangerait",
+              "say": "Ça vous dérangerait de… ?",
+              "ar": "هل يزعجك أن…؟"
+            },
+            {
+              "id": "v-auriez",
+              "say": "Auriez-vous… ?",
+              "ar": "هل عندكم…؟"
+            }
+          ]
+        },
+        {
+          "title_ar": "الأمنيات",
+          "items": [
+            {
+              "id": "v-aimerais",
+              "say": "J'aimerais…",
+              "ar": "أودّ…"
+            },
+            {
+              "id": "v-serait",
+              "say": "Ce serait génial.",
+              "ar": "سيكون ذلك رائعاً."
+            },
+            {
+              "id": "v-prefererais",
+              "say": "Je préférerais…",
+              "ar": "أفضّل…"
+            },
+            {
+              "id": "v-aimerais-bien",
+              "say": "J'aimerais bien.",
+              "ar": "أودّ ذلك."
+            }
+          ]
+        },
+        {
+          "title_ar": "النصائح",
+          "items": [
+            {
+              "id": "v-devrais",
+              "say": "Tu devrais…",
+              "ar": "ينبغي أن…"
+            },
+            {
+              "id": "v-devriez",
+              "say": "Vous devriez…",
+              "ar": "ينبغي أن… (رسمي)"
+            },
+            {
+              "id": "v-place",
+              "say": "À ta place, je…",
+              "ar": "لو كنت مكانك، لـ…"
+            },
+            {
+              "id": "v-tupourrais",
+              "say": "Tu pourrais…",
+              "ar": "يمكنك…"
+            },
+            {
+              "id": "v-faudrait",
+              "say": "Il faudrait…",
+              "ar": "ينبغي…"
+            },
+            {
+              "id": "v-air",
+              "say": "Tu as l'air fatigué.",
+              "ar": "تبدو متعباً."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الشرطي",
+      "title_ar": "القاعدة: الشرطي للتأدب",
+      "intro_ar": "جذر المستقبل + نهايات الناقص. ثم الأفعال الأكثر فائدة، ثم استعمالاتها.",
+      "tables": [
+        {
+          "title_fr": "Le conditionnel",
+          "title_ar": "parler في الشرطي",
+          "head_ar": [
+            "الضمير",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-c1",
+              "say": "je parlerais",
+              "cells": [
+                "je",
+                "parlerais"
+              ],
+              "ar": "كنتُ سأتكلم"
+            },
+            {
+              "id": "g-c2",
+              "say": "tu parlerais",
+              "cells": [
+                "tu",
+                "parlerais"
+              ],
+              "ar": "كنتَ ستتكلم"
+            },
+            {
+              "id": "g-c3",
+              "say": "il parlerait",
+              "cells": [
+                "il / elle / on",
+                "parlerait"
+              ],
+              "ar": "كان سيتكلم"
+            },
+            {
+              "id": "g-c4",
+              "say": "nous parlerions",
+              "cells": [
+                "nous",
+                "parlerions"
+              ],
+              "ar": "كنا سنتكلم"
+            },
+            {
+              "id": "g-c5",
+              "say": "vous parleriez",
+              "cells": [
+                "vous",
+                "parleriez"
+              ],
+              "ar": "كنتم ستتكلمون"
+            },
+            {
+              "id": "g-c6",
+              "say": "ils parleraient",
+              "cells": [
+                "ils / elles",
+                "parleraient"
+              ],
+              "ar": "كانوا سيتكلمون"
+            }
+          ],
+          "note_ar": "جذر المستقبل + نهايات الناقص: ais، ais، ait، ions، iez، aient."
+        },
+        {
+          "title_fr": "Verbes utiles",
+          "title_ar": "الأفعال الأكثر فائدة",
+          "head_ar": [
+            "المصدر",
+            "الشرطي"
+          ],
+          "rows": [
+            {
+              "id": "g-v1",
+              "say": "je voudrais",
+              "cells": [
+                "vouloir",
+                "je voudrais"
+              ],
+              "ar": "أودّ"
+            },
+            {
+              "id": "g-v2",
+              "say": "je pourrais, vous pourriez",
+              "cells": [
+                "pouvoir",
+                "je pourrais, vous pourriez"
+              ],
+              "ar": "أستطيع / هل تستطيعون"
+            },
+            {
+              "id": "g-v3",
+              "say": "tu devrais",
+              "cells": [
+                "devoir",
+                "tu devrais"
+              ],
+              "ar": "ينبغي أن"
+            },
+            {
+              "id": "g-v4",
+              "say": "j'aimerais",
+              "cells": [
+                "aimer",
+                "j'aimerais"
+              ],
+              "ar": "أودّ لو"
+            },
+            {
+              "id": "g-v5",
+              "say": "ce serait",
+              "cells": [
+                "être",
+                "ce serait"
+              ],
+              "ar": "سيكون"
+            },
+            {
+              "id": "g-v6",
+              "say": "j'aurais",
+              "cells": [
+                "avoir",
+                "j'aurais"
+              ],
+              "ar": "سيكون عندي"
+            },
+            {
+              "id": "g-v7",
+              "say": "il faudrait",
+              "cells": [
+                "falloir",
+                "il faudrait"
+              ],
+              "ar": "ينبغي"
+            }
+          ],
+          "note_ar": "هذه السبعة تكفيك لـ 90٪ من استعمالات الشرطي في الكلام."
+        },
+        {
+          "title_fr": "Trois usages",
+          "title_ar": "ثلاثة استعمالات",
+          "head_ar": [
+            "الاستعمال",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-u1",
+              "say": "Pourriez-vous fermer la fenêtre ?",
+              "cells": [
+                "demande polie",
+                "Pourriez-vous fermer la fenêtre ?"
+              ],
+              "ar": "هل يمكنك إغلاق النافذة؟"
+            },
+            {
+              "id": "g-u2",
+              "say": "J'aimerais visiter le Japon.",
+              "cells": [
+                "souhait",
+                "J'aimerais visiter le Japon."
+              ],
+              "ar": "أودّ زيارة اليابان"
+            },
+            {
+              "id": "g-u3",
+              "say": "Tu devrais dormir plus.",
+              "cells": [
+                "conseil",
+                "Tu devrais dormir plus."
+              ],
+              "ar": "ينبغي أن تنام أكثر"
+            },
+            {
+              "id": "g-u4",
+              "say": "À ta place, je prendrais le train.",
+              "cells": [
+                "conseil",
+                "À ta place, je prendrais le train."
+              ],
+              "ar": "لو كنت مكانك لأخذت القطار"
+            },
+            {
+              "id": "g-u5",
+              "say": "Ce serait génial !",
+              "cells": [
+                "hypothèse",
+                "Ce serait génial !"
+              ],
+              "ar": "سيكون ذلك رائعاً!"
+            }
+          ],
+          "note_ar": "مع الغرباء والزبائن: Pourriez-vous… ? ومع الأصدقاء: Tu pourrais… ?"
+        }
+      ],
+      "points_ar": [
+        "**je parlerai أم je parlerais؟** المستقبل rai والشرطي rais. وفي الكلام السياق يحسم.",
+        "**À ta place** = لو كنت مكانك: أشهر بداية للنصيحة.",
+        "**si + ناقص، ثم شرطي** (ستتعلمه بالتفصيل في B1): Si j'avais le temps, je viendrais."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الشرطي",
+      "hint_ar": "طلب، أو أمنية، أو نصيحة: اختر الشرطي.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "___-vous m'aider, s'il vous plaît ?",
+          "say": "Pourriez-vous m'aider, s'il vous plaît ?",
+          "options": [
+            "Pourriez",
+            "Pourrez"
+          ],
+          "answer": "Pourriez",
+          "ar": "هل يمكنك مساعدتي من فضلك؟",
+          "explain_ar": "طلب مهذب: **Pourriez-vous**.",
+          "context_ar": "تطلب بأدب من شخص لا تعرفه"
+        },
+        {
+          "id": "f2",
+          "text": "J'___ visiter le Japon.",
+          "say": "J'aimerais visiter le Japon.",
+          "options": [
+            "aimerai",
+            "aimerais"
+          ],
+          "answer": "aimerais",
+          "ar": "أودّ زيارة اليابان.",
+          "explain_ar": "أمنية: **j'aimerais**."
+        },
+        {
+          "id": "f3",
+          "text": "Tu ___ te reposer.",
+          "say": "Tu devrais te reposer.",
+          "options": [
+            "devras",
+            "devrais"
+          ],
+          "answer": "devrais",
+          "ar": "ينبغي أن ترتاح.",
+          "explain_ar": "نصيحة: tu **devrais**."
+        },
+        {
+          "id": "f4",
+          "text": "À ta place, je ___ le train.",
+          "say": "À ta place, je prendrais le train.",
+          "options": [
+            "prendrais",
+            "prends"
+          ],
+          "answer": "prendrais",
+          "ar": "لو كنت مكانك لأخذت القطار.",
+          "explain_ar": "بعد à ta place: الشرطي **prendrais**."
+        },
+        {
+          "id": "f5",
+          "text": "Ce ___ génial !",
+          "say": "Ce serait génial !",
+          "options": [
+            "serait",
+            "sera"
+          ],
+          "answer": "serait",
+          "ar": "سيكون ذلك رائعاً!",
+          "explain_ar": "أمنية غير مؤكدة: ce **serait**.",
+          "context_ar": "تتخيل فكرة جميلة"
+        },
+        {
+          "id": "f6",
+          "text": "Nous ___ partir demain, si possible.",
+          "say": "Nous voudrions partir demain, si possible.",
+          "options": [
+            "voulons",
+            "voudrions"
+          ],
+          "answer": "voudrions",
+          "ar": "نودّ الرحيل غداً، إن أمكن.",
+          "explain_ar": "طلب مهذب مع nous: **voudrions**."
+        },
+        {
+          "id": "f7",
+          "text": "Vous ___ dormir plus.",
+          "say": "Vous devriez dormir plus.",
+          "options": [
+            "devez",
+            "devriez"
+          ],
+          "answer": "devriez",
+          "ar": "ينبغي أن تناموا أكثر.",
+          "explain_ar": "نصيحة مهذبة: vous **devriez**."
+        },
+        {
+          "id": "f8",
+          "text": "J'___ besoin d'aide.",
+          "say": "J'aurais besoin d'aide.",
+          "options": [
+            "avais",
+            "aurais"
+          ],
+          "answer": "aurais",
+          "ar": "أحتاج إلى مساعدة.",
+          "explain_ar": "طلب ملطّف: **j'aurais** besoin."
+        },
+        {
+          "id": "f9",
+          "text": "Il ___ partir tôt.",
+          "say": "Il faudrait partir tôt.",
+          "options": [
+            "faudrait",
+            "fallait"
+          ],
+          "answer": "faudrait",
+          "ar": "ينبغي الرحيل مبكراً.",
+          "explain_ar": "نصيحة لطيفة: il **faudrait**."
+        },
+        {
+          "id": "f10",
+          "text": "Ils ___ venir, mais ils sont malades.",
+          "say": "Ils voudraient venir, mais ils sont malades.",
+          "options": [
+            "voudrait",
+            "voudraient"
+          ],
+          "answer": "voudraient",
+          "ar": "يودّون المجيء، لكنهم مرضى.",
+          "explain_ar": "مع ils: **voudraient**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: شرطي أم لا؟",
+      "hint_ar": "الشرطي ينتهي بـ «غيه» أو «غيون» أو «غيِيه».",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "nous parlerions",
+          "options": [
+            "nous parlerons",
+            "nous parlerions"
+          ],
+          "answer": "nous parlerions",
+          "explain_ar": "parlerions «پاغلُغيون»: شرطي."
+        },
+        {
+          "id": "q2",
+          "say": "vous pouvez",
+          "options": [
+            "vous pourriez",
+            "vous pouvez"
+          ],
+          "answer": "vous pouvez",
+          "explain_ar": "pouvez «پوڤيه»: حاضر."
+        },
+        {
+          "id": "q3",
+          "say": "tu devrais",
+          "options": [
+            "tu devrais",
+            "tu dois"
+          ],
+          "answer": "tu devrais",
+          "explain_ar": "devrais «دُڤغيه»: ينبغي."
+        },
+        {
+          "id": "q4",
+          "say": "j'aime",
+          "options": [
+            "j'aimerais",
+            "j'aime"
+          ],
+          "answer": "j'aime",
+          "explain_ar": "aime «إيم»: حاضر."
+        },
+        {
+          "id": "q5",
+          "say": "ce serait",
+          "options": [
+            "ce serait",
+            "c'est"
+          ],
+          "answer": "ce serait",
+          "explain_ar": "serait «سُغيه»: سيكون."
+        },
+        {
+          "id": "q6",
+          "say": "je veux",
+          "options": [
+            "je voudrais",
+            "je veux"
+          ],
+          "answer": "je veux",
+          "explain_ar": "veux «ڤُ»: أريد (حاد)."
+        },
+        {
+          "id": "q7",
+          "say": "À ta place",
+          "options": [
+            "À ta place",
+            "À ta santé"
+          ],
+          "answer": "À ta place",
+          "explain_ar": "place «پلاس»: مكان."
+        },
+        {
+          "id": "q8",
+          "say": "ils viendraient",
+          "options": [
+            "ils viendront",
+            "ils viendraient"
+          ],
+          "answer": "ils viendraient",
+          "explain_ar": "viendraient «ڤيندغيه»: شرطي."
+        },
+        {
+          "id": "q9",
+          "say": "il faut",
+          "options": [
+            "il faudrait",
+            "il faut"
+          ],
+          "answer": "il faut",
+          "explain_ar": "faut «فو»: حاضر."
+        },
+        {
+          "id": "q10",
+          "say": "j'aurais besoin",
+          "options": [
+            "j'aurais besoin",
+            "j'ai besoin"
+          ],
+          "answer": "j'aurais besoin",
+          "explain_ar": "aurais «أوغيه»: شرطي."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الشرطي",
+      "hint_ar": "جذر المستقبل + ais.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: الشرطي ينتهي بـ **ais** مع je، والمستقبل بـ **ai**.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je voudrais",
+          "answer": "je voudrais",
+          "ar": "أودّ"
+        },
+        {
+          "id": "s2",
+          "say": "pourriez-vous",
+          "answer": "pourriez-vous",
+          "ar": "هل يمكنكم"
+        },
+        {
+          "id": "s3",
+          "say": "tu devrais",
+          "answer": "tu devrais",
+          "ar": "ينبغي أن"
+        },
+        {
+          "id": "s4",
+          "say": "j'aimerais",
+          "answer": "j'aimerais",
+          "ar": "أودّ"
+        },
+        {
+          "id": "s5",
+          "say": "ce serait",
+          "answer": "ce serait",
+          "ar": "سيكون"
+        },
+        {
+          "id": "s6",
+          "say": "à ta place",
+          "answer": "à ta place",
+          "ar": "لو كنت مكانك"
+        },
+        {
+          "id": "s7",
+          "say": "il faudrait",
+          "answer": "il faudrait",
+          "ar": "ينبغي"
+        },
+        {
+          "id": "s8",
+          "say": "nous pourrions",
+          "answer": "nous pourrions",
+          "ar": "يمكننا"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "نبرة لطيفة وهادئة: الشرطي يليّن الكلام.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Pourriez-vous parler plus lentement, s'il vous plaît ?",
+          "ar": "هل يمكنك أن تتكلم ببطء أكثر من فضلك؟",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Pourriez-vous",
+              "هل يمكنك"
+            ],
+            [
+              "parler",
+              "أن تتكلم"
+            ],
+            [
+              "plus lentement,",
+              "ببطء أكثر"
+            ],
+            [
+              "s'il vous plaît ?",
+              "من فضلك"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "J'aimerais visiter le Japon un jour.",
+          "ar": "أودّ زيارة اليابان يوماً ما.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "J'aimerais",
+              "أودّ"
+            ],
+            [
+              "visiter",
+              "زيارة"
+            ],
+            [
+              "le Japon",
+              "اليابان"
+            ],
+            [
+              "un jour.",
+              "يوماً ما"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Tu devrais te reposer un peu.",
+          "ar": "ينبغي أن ترتاح قليلاً.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Tu devrais",
+              "ينبغي أن"
+            ],
+            [
+              "te reposer",
+              "ترتاح"
+            ],
+            [
+              "un peu.",
+              "قليلاً"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "À ta place, je prendrais le train.",
+          "ar": "لو كنت مكانك لأخذت القطار.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "À ta place,",
+              "لو كنتُ مكانك"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "prendrais",
+              "لأخذتُ"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "train.",
+              "قطار"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Ce serait vraiment génial !",
+          "ar": "سيكون ذلك رائعاً حقاً!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Ce serait",
+              "سيكون"
+            ],
+            [
+              "vraiment",
+              "حقاً"
+            ],
+            [
+              "génial !",
+              "رائعاً"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: قل ثلاث أمنيات ونصيحة: **J'aimerais… Ce serait… Je voudrais… Et toi, tu devrais…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "Je voudrais…",
+          "say": "Je voudrais…",
+          "back_ar": "أودّ…"
+        },
+        {
+          "id": "c2",
+          "front": "Pourriez-vous… ?",
+          "say": "Pourriez-vous… ?",
+          "back_ar": "هل يمكنكم…؟"
+        },
+        {
+          "id": "c3",
+          "front": "Tu pourrais… ?",
+          "say": "Tu pourrais… ?",
+          "back_ar": "هل يمكنك…؟"
+        },
+        {
+          "id": "c4",
+          "front": "J'aimerais…",
+          "say": "J'aimerais…",
+          "back_ar": "أودّ…"
+        },
+        {
+          "id": "c5",
+          "front": "Tu devrais…",
+          "say": "Tu devrais…",
+          "back_ar": "ينبغي أن…"
+        },
+        {
+          "id": "c6",
+          "front": "Vous devriez…",
+          "say": "Vous devriez…",
+          "back_ar": "ينبغي أن… (رسمي)"
+        },
+        {
+          "id": "c7",
+          "front": "À ta place, je…",
+          "say": "À ta place, je prendrais le train.",
+          "back_ar": "لو كنت مكانك، لـ…"
+        },
+        {
+          "id": "c8",
+          "front": "Ce serait génial !",
+          "say": "Ce serait génial !",
+          "back_ar": "سيكون ذلك رائعاً!"
+        },
+        {
+          "id": "c9",
+          "front": "J'aurais besoin de…",
+          "say": "J'aurais besoin de…",
+          "back_ar": "أحتاج إلى…"
+        },
+        {
+          "id": "c10",
+          "front": "Il faudrait…",
+          "say": "Il faudrait…",
+          "back_ar": "ينبغي…"
+        },
+        {
+          "id": "c11",
+          "front": "je parlerais",
+          "say": "je parlerais",
+          "back_ar": "كنت سأتكلم"
+        },
+        {
+          "id": "c12",
+          "front": "nous parlerions",
+          "say": "nous parlerions",
+          "back_ar": "كنا سنتكلم"
+        },
+        {
+          "id": "c13",
+          "front": "J'aimerais bien.",
+          "say": "J'aimerais bien.",
+          "back_ar": "أودّ ذلك."
+        },
+        {
+          "id": "c14",
+          "front": "Ça vous dérangerait de… ?",
+          "say": "Ça vous dérangerait de… ?",
+          "back_ar": "هل يزعجك أن…؟"
+        },
+        {
+          "id": "c15",
+          "front": "Je préférerais…",
+          "say": "Je préférerais…",
+          "back_ar": "أفضّل…"
+        },
+        {
+          "id": "c16",
+          "front": "Auriez-vous… ?",
+          "say": "Auriez-vous… ?",
+          "back_ar": "هل عندكم…؟"
+        }
+      ]
+    }
+  ]
+}

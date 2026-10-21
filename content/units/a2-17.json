@@ -1,0 +1,1217 @@
+{
+  "id": "a2-17",
+  "stage": "A2",
+  "title_fr": "Donner son opinion",
+  "title_ar": "إبداء الرأي",
+  "goals_ar": [
+    "تعبّر عن رأيك: **Je pense que… Je trouve que… À mon avis…**",
+    "توافق وتعترض بلطف: **Tu as raison. Je ne suis pas d'accord.**",
+    "تقيّم فيلماً أو كتاباً: **C'était génial / pas mal / ennuyeux.**",
+    "تستعمل نبرة الاعتراض المهذّب: **Oui, mais…**"
+  ],
+  "intro_ar": [
+    "الفرنسيون يحبون النقاش وإبداء الرأي، والاعتراض عندهم ليس قلة أدب إذا كان بأسلوب لطيف.",
+    "**لإبداء الرأي:** **Je pense que** + جملة، **Je trouve que** + جملة، **À mon avis,** + جملة، **Pour moi,** + جملة.",
+    "**للموافقة:** Je suis d'accord. Tu as raison. Exactement ! **وللاعتراض بلطف:** Je ne suis pas tout à fait d'accord. Oui, mais… Je vois ce que tu veux dire, mais…",
+    "**النبرة مهمة:** الاعتراض المهذب يبدأ بموافقة جزئية (Oui, mais…) وبصوت هادئ، لا بـ Non ! مباشرة."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: بعد الفيلم",
+      "context_ar": "كلير ويوسف خرجا من السينما، ولم يتفقا على الفيلم. لاحظ كيف يعترض كل منهما بلطف.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Alors, tu as aimé le film ?",
+          "ar": "إذن، هل أعجبك الفيلم؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Alors,",
+              "إذن"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "as aimé",
+              "أحببتَ"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "film ?",
+              "فيلم"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Bof… Je trouve que l'histoire était un peu lente.",
+          "ar": "ليس كثيراً… أجد أن القصة كانت بطيئة قليلاً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Bof…",
+              "ليس كثيراً"
+            ],
+            [
+              "Je trouve que",
+              "أجد أن"
+            ],
+            [
+              "l'histoire",
+              "القصة"
+            ],
+            [
+              "était",
+              "كانت"
+            ],
+            [
+              "un peu",
+              "قليلاً"
+            ],
+            [
+              "lente.",
+              "بطيئة"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Lente ? Je ne suis pas d'accord ! À mon avis, c'était un chef-d'œuvre.",
+          "ar": "بطيئة؟ لا أوافق! في رأيي كان تحفة فنية.",
+          "slow": true,
+          "gloss": [
+            [
+              "Lente ?",
+              "بطيئة؟"
+            ],
+            [
+              "Je ne suis pas d'accord !",
+              "لا أوافق"
+            ],
+            [
+              "À mon avis,",
+              "في رأيي"
+            ],
+            [
+              "c'était",
+              "كان"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "chef-d'œuvre.",
+              "تحفة فنية"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Je vois ce que tu veux dire. Les acteurs étaient excellents, c'est vrai.",
+          "ar": "أفهم ما تقصدين. الممثلون كانوا ممتازين، هذا صحيح.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je vois ce que tu veux dire.",
+              "أفهم ما تقصدين"
+            ],
+            [
+              "Les",
+              "الـ"
+            ],
+            [
+              "acteurs",
+              "ممثلون"
+            ],
+            [
+              "étaient",
+              "كانوا"
+            ],
+            [
+              "excellents,",
+              "ممتازين"
+            ],
+            [
+              "c'est vrai.",
+              "هذا صحيح"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Et la musique ? Elle était magnifique, non ?",
+          "ar": "والموسيقى؟ كانت رائعة، أليس كذلك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "musique ?",
+              "موسيقى"
+            ],
+            [
+              "Elle était",
+              "كانت"
+            ],
+            [
+              "magnifique,",
+              "رائعة"
+            ],
+            [
+              "non ?",
+              "أليس كذلك"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Oui, mais elle était trop forte ! Je pense que le réalisateur exagère.",
+          "ar": "نعم، لكنها كانت عالية جداً! أظن أن المخرج يبالغ.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui, mais",
+              "نعم، لكن"
+            ],
+            [
+              "elle",
+              "هي"
+            ],
+            [
+              "était",
+              "كانت"
+            ],
+            [
+              "trop forte !",
+              "عالية جداً"
+            ],
+            [
+              "Je pense que",
+              "أظن أن"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "réalisateur",
+              "مخرج"
+            ],
+            [
+              "exagère.",
+              "يبالغ"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Tu as raison sur un point : la fin était trop longue.",
+          "ar": "معك حق في نقطة: النهاية كانت طويلة جداً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu as raison",
+              "معك حق"
+            ],
+            [
+              "sur un point :",
+              "في نقطة"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "fin",
+              "نهاية"
+            ],
+            [
+              "était",
+              "كانت"
+            ],
+            [
+              "trop longue.",
+              "طويلة جداً"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Exactement ! Bon, pour moi, c'était pas mal, mais pas génial.",
+          "ar": "تماماً! حسناً، بالنسبة لي كان لا بأس به، لكن ليس رائعاً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Exactement !",
+              "تماماً"
+            ],
+            [
+              "Bon,",
+              "حسناً"
+            ],
+            [
+              "pour moi,",
+              "بالنسبة لي"
+            ],
+            [
+              "c'était",
+              "كان"
+            ],
+            [
+              "pas mal,",
+              "لا بأس به"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "pas génial.",
+              "ليس رائعاً"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "D'accord, on n'est pas d'accord ! Mais la prochaine fois, c'est moi qui choisis le film.",
+          "ar": "حسناً، لسنا متفقين! لكن في المرة القادمة أنا من يختار الفيلم.",
+          "slow": true,
+          "gloss": [
+            [
+              "D'accord,",
+              "حسناً"
+            ],
+            [
+              "on n'est pas d'accord !",
+              "لسنا متفقين"
+            ],
+            [
+              "Mais",
+              "لكن"
+            ],
+            [
+              "la prochaine fois,",
+              "في المرة القادمة"
+            ],
+            [
+              "c'est moi qui",
+              "أنا من"
+            ],
+            [
+              "choisis",
+              "يختار"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "film.",
+              "فيلم"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "لاحظ كيف يعترض يوسف بلطف: **Je vois ce que tu veux dire** ثم يضيف رأيه، و **Oui, mais…**. و **Bof** كلمة شفهية تعني «ليس كثيراً / عادي». و **c'était pas mal** في الكلام = لا بأس به، بلا ne."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "عبارات الرأي، ثم الموافقة والاعتراض، ثم كلمات التقييم.",
+      "groups": [
+        {
+          "title_ar": "الرأي",
+          "items": [
+            {
+              "id": "v-pense",
+              "say": "Je pense que…",
+              "ar": "أظن أن…"
+            },
+            {
+              "id": "v-trouve",
+              "say": "Je trouve que…",
+              "ar": "أجد أن…"
+            },
+            {
+              "id": "v-avis",
+              "say": "À mon avis,…",
+              "ar": "في رأيي،…"
+            },
+            {
+              "id": "v-pourmoi",
+              "say": "Pour moi,…",
+              "ar": "بالنسبة لي،…"
+            },
+            {
+              "id": "v-crois",
+              "say": "Je crois que…",
+              "ar": "أعتقد أن…"
+            },
+            {
+              "id": "v-enpenses",
+              "say": "Qu'est-ce que tu en penses ?",
+              "ar": "ما رأيك في ذلك؟",
+              "note_ar": "en = في ذلك."
+            },
+            {
+              "id": "v-selon",
+              "say": "Selon moi,…",
+              "ar": "برأيي،…"
+            }
+          ]
+        },
+        {
+          "title_ar": "موافق أم لا؟",
+          "items": [
+            {
+              "id": "v-daccord",
+              "say": "Je suis d'accord.",
+              "ar": "أوافق."
+            },
+            {
+              "id": "v-raison",
+              "say": "Tu as raison.",
+              "ar": "معك حق."
+            },
+            {
+              "id": "v-tort",
+              "say": "Tu as tort.",
+              "ar": "أنت مخطئ."
+            },
+            {
+              "id": "v-exactement",
+              "say": "Exactement !",
+              "ar": "تماماً!"
+            },
+            {
+              "id": "v-pasdaccord",
+              "say": "Je ne suis pas d'accord.",
+              "ar": "لا أوافق."
+            },
+            {
+              "id": "v-toutafait",
+              "say": "Je ne suis pas tout à fait d'accord.",
+              "ar": "لا أوافق تماماً."
+            },
+            {
+              "id": "v-ouimais",
+              "say": "Oui, mais…",
+              "ar": "نعم، لكن…"
+            },
+            {
+              "id": "v-vois",
+              "say": "Je vois ce que tu veux dire.",
+              "ar": "أفهم ما تقصد."
+            },
+            {
+              "id": "v-depend",
+              "say": "Ça dépend.",
+              "ar": "حسب الحالة."
+            }
+          ]
+        },
+        {
+          "title_ar": "التقييم",
+          "items": [
+            {
+              "id": "v-genial",
+              "say": "génial",
+              "ar": "رائع"
+            },
+            {
+              "id": "v-excellent",
+              "say": "excellent",
+              "ar": "ممتاز"
+            },
+            {
+              "id": "v-interessant",
+              "say": "intéressant",
+              "ar": "مثير للاهتمام"
+            },
+            {
+              "id": "v-pasmal",
+              "say": "pas mal",
+              "ar": "لا بأس به / جيد",
+              "note_ar": "مديح خفيف، لا ذم!"
+            },
+            {
+              "id": "v-bof",
+              "say": "bof",
+              "ar": "عادي / ليس كثيراً"
+            },
+            {
+              "id": "v-ennuyeux",
+              "say": "ennuyeux",
+              "ar": "مملّ"
+            },
+            {
+              "id": "v-nul",
+              "say": "nul",
+              "ar": "سيئ جداً",
+              "note_ar": "شفهي وقوي: C'est nul !"
+            },
+            {
+              "id": "v-chef",
+              "say": "un chef-d'œuvre",
+              "ar": "تحفة فنية"
+            },
+            {
+              "id": "v-decevant",
+              "say": "décevant",
+              "ar": "مخيّب للآمال"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الرأي",
+      "title_ar": "القاعدة: إبداء الرأي والاعتراض",
+      "intro_ar": "بعد عبارات الرأي جملة كاملة. ثم درجات الموافقة، ثم سلّم التقييم.",
+      "tables": [
+        {
+          "title_fr": "Donner son opinion",
+          "title_ar": "إبداء الرأي",
+          "head_ar": [
+            "العبارة",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-o1",
+              "say": "Je pense que c'est une bonne idée.",
+              "cells": [
+                "Je pense que",
+                "Je pense que c'est une bonne idée."
+              ],
+              "ar": "أظن أنها فكرة جيدة"
+            },
+            {
+              "id": "g-o2",
+              "say": "Je trouve que ce film est trop long.",
+              "cells": [
+                "Je trouve que",
+                "Je trouve que ce film est trop long."
+              ],
+              "ar": "أجد أن هذا الفيلم طويل جداً"
+            },
+            {
+              "id": "g-o3",
+              "say": "À mon avis, il a raison.",
+              "cells": [
+                "À mon avis",
+                "À mon avis, il a raison."
+              ],
+              "ar": "في رأيي، معه حق"
+            },
+            {
+              "id": "g-o4",
+              "say": "Pour moi, c'est le meilleur restaurant.",
+              "cells": [
+                "Pour moi",
+                "Pour moi, c'est le meilleur restaurant."
+              ],
+              "ar": "بالنسبة لي، إنه أفضل مطعم"
+            },
+            {
+              "id": "g-o5",
+              "say": "Je crois qu'il va pleuvoir.",
+              "cells": [
+                "Je crois que",
+                "Je crois qu'il va pleuvoir."
+              ],
+              "ar": "أعتقد أنها ستمطر"
+            }
+          ],
+          "note_ar": "بعد que جملة كاملة، و que تصير qu' أمام حرف علة. أما Je ne pense pas que فتحتاج صيغة خاصة (subjonctif) ستتعلمها في B1، فقل الآن: Je pense que ce n'est pas…"
+        },
+        {
+          "title_fr": "D'accord ou pas ?",
+          "title_ar": "درجات الموافقة",
+          "head_ar": [
+            "الدرجة",
+            "العبارة"
+          ],
+          "rows": [
+            {
+              "id": "g-d1",
+              "say": "Je suis tout à fait d'accord.",
+              "cells": [
+                "accord total",
+                "Je suis tout à fait d'accord."
+              ],
+              "ar": "أوافق تماماً"
+            },
+            {
+              "id": "g-d2",
+              "say": "Tu as raison.",
+              "cells": [
+                "accord",
+                "Tu as raison."
+              ],
+              "ar": "معك حق"
+            },
+            {
+              "id": "g-d3",
+              "say": "Oui, mais…",
+              "cells": [
+                "accord partiel",
+                "Oui, mais…"
+              ],
+              "ar": "نعم، لكن…"
+            },
+            {
+              "id": "g-d4",
+              "say": "Je ne suis pas tout à fait d'accord.",
+              "cells": [
+                "désaccord poli",
+                "Je ne suis pas tout à fait d'accord."
+              ],
+              "ar": "لا أوافق تماماً"
+            },
+            {
+              "id": "g-d5",
+              "say": "Je ne suis pas d'accord.",
+              "cells": [
+                "désaccord",
+                "Je ne suis pas d'accord."
+              ],
+              "ar": "لا أوافق"
+            },
+            {
+              "id": "g-d6",
+              "say": "Ça dépend.",
+              "cells": [
+                "neutre",
+                "Ça dépend."
+              ],
+              "ar": "حسب الحالة"
+            }
+          ],
+          "note_ar": "الأسلوب الفرنسي: ابدأ بما توافق عليه، ثم أضف mais: C'est vrai, mais… أو Je vois ce que tu veux dire, mais…"
+        },
+        {
+          "title_fr": "Évaluer",
+          "title_ar": "من الأفضل إلى الأسوأ",
+          "head_ar": [
+            "التقييم"
+          ],
+          "rows": [
+            {
+              "id": "g-e1",
+              "say": "C'est génial !",
+              "cells": [
+                "C'est génial !"
+              ],
+              "ar": "رائع!"
+            },
+            {
+              "id": "g-e2",
+              "say": "C'est très bien.",
+              "cells": [
+                "C'est très bien."
+              ],
+              "ar": "جيد جداً"
+            },
+            {
+              "id": "g-e3",
+              "say": "C'est pas mal.",
+              "cells": [
+                "C'est pas mal."
+              ],
+              "ar": "لا بأس به (مديح خفيف)"
+            },
+            {
+              "id": "g-e4",
+              "say": "Bof.",
+              "cells": [
+                "Bof."
+              ],
+              "ar": "عادي / ليس كثيراً"
+            },
+            {
+              "id": "g-e5",
+              "say": "C'est ennuyeux.",
+              "cells": [
+                "C'est ennuyeux."
+              ],
+              "ar": "مملّ"
+            },
+            {
+              "id": "g-e6",
+              "say": "C'est nul !",
+              "cells": [
+                "C'est nul !"
+              ],
+              "ar": "سيئ جداً!"
+            }
+          ],
+          "note_ar": "pas mal في الفرنسية مديح خفيف (= جيد)، لا ذم!"
+        }
+      ],
+      "points_ar": [
+        "**Qu'est-ce que tu en penses ?** = ما رأيك (في ذلك)؟ أهم سؤال في أي نقاش.",
+        "**c'est moi qui choisis** = أنا من يختار: التأكيد بـ c'est … qui.",
+        "**نبرة الاعتراض المهذب:** هادئة، تصعد قليلاً على mais، ومع ابتسامة."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الرأي",
+      "hint_ar": "اختر العبارة المناسبة للمعنى.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je pense ___ c'est une bonne idée.",
+          "say": "Je pense que c'est une bonne idée.",
+          "options": [
+            "de",
+            "que"
+          ],
+          "answer": "que",
+          "ar": "أظن أنها فكرة جيدة.",
+          "explain_ar": "بعد je pense: **que** + جملة."
+        },
+        {
+          "id": "f2",
+          "text": "À mon ___, il a raison.",
+          "say": "À mon avis, il a raison.",
+          "options": [
+            "opinion",
+            "avis"
+          ],
+          "answer": "avis",
+          "ar": "في رأيي، معه حق.",
+          "explain_ar": "العبارة الثابتة: à mon **avis**."
+        },
+        {
+          "id": "f3",
+          "text": "Je ne suis pas ___.",
+          "say": "Je ne suis pas d'accord.",
+          "options": [
+            "d'accord",
+            "raison"
+          ],
+          "answer": "d'accord",
+          "ar": "لا أوافق.",
+          "explain_ar": "أوافق: être **d'accord**."
+        },
+        {
+          "id": "f4",
+          "text": "Tu as ___ !",
+          "say": "Tu as raison !",
+          "options": [
+            "d'accord",
+            "raison"
+          ],
+          "answer": "raison",
+          "ar": "معك حق!",
+          "explain_ar": "معك حق: avoir **raison**."
+        },
+        {
+          "id": "f5",
+          "text": "Je trouve ___ ce film est trop long.",
+          "say": "Je trouve que ce film est trop long.",
+          "options": [
+            "que",
+            "qui"
+          ],
+          "answer": "que",
+          "ar": "أجد أن هذا الفيلم طويل جداً.",
+          "explain_ar": "بعدها جملة: **que**."
+        },
+        {
+          "id": "f6",
+          "text": "Qu'est-ce que tu ___ penses ?",
+          "say": "Qu'est-ce que tu en penses ?",
+          "options": [
+            "y",
+            "en"
+          ],
+          "answer": "en",
+          "ar": "ما رأيك في ذلك؟",
+          "explain_ar": "penser de quelque chose = **en** penser."
+        },
+        {
+          "id": "f7",
+          "text": "C'était ___ : je me suis endormi !",
+          "say": "C'était ennuyeux : je me suis endormi !",
+          "options": [
+            "génial",
+            "ennuyeux"
+          ],
+          "answer": "ennuyeux",
+          "ar": "كان مملاً: نمت!",
+          "explain_ar": "نام من الملل: **ennuyeux**."
+        },
+        {
+          "id": "f8",
+          "text": "Oui, ___ la fin était trop longue.",
+          "say": "Oui, mais la fin était trop longue.",
+          "options": [
+            "et",
+            "mais"
+          ],
+          "answer": "mais",
+          "ar": "نعم، لكن النهاية كانت طويلة جداً.",
+          "explain_ar": "الاعتراض المهذب: Oui, **mais**…"
+        },
+        {
+          "id": "f9",
+          "text": "Pour ___, c'est le meilleur restaurant.",
+          "say": "Pour moi, c'est le meilleur restaurant.",
+          "options": [
+            "moi",
+            "je"
+          ],
+          "answer": "moi",
+          "ar": "بالنسبة لي، إنه أفضل مطعم.",
+          "explain_ar": "بعد pour: **moi**."
+        },
+        {
+          "id": "f10",
+          "text": "Je vois ce que tu veux ___.",
+          "say": "Je vois ce que tu veux dire.",
+          "options": [
+            "dis",
+            "dire"
+          ],
+          "answer": "dire",
+          "ar": "أفهم ما تقصد.",
+          "explain_ar": "بعد veux المصدر: **dire**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: موافق أم لا؟",
+      "hint_ar": "استمع إلى ne … pas، وإلى كلمات التقييم.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "Je ne suis pas d'accord.",
+          "options": [
+            "Je suis d'accord.",
+            "Je ne suis pas d'accord."
+          ],
+          "answer": "Je ne suis pas d'accord.",
+          "explain_ar": "ne … pas: لا أوافق."
+        },
+        {
+          "id": "q2",
+          "say": "nul",
+          "options": [
+            "génial",
+            "nul"
+          ],
+          "answer": "nul",
+          "explain_ar": "nul «نول»: سيئ جداً."
+        },
+        {
+          "id": "q3",
+          "say": "pas mal",
+          "options": [
+            "pas mal",
+            "pas du tout"
+          ],
+          "answer": "pas mal",
+          "explain_ar": "pas mal «پا مال»: لا بأس به."
+        },
+        {
+          "id": "q4",
+          "say": "Tu as tort.",
+          "options": [
+            "Tu as raison.",
+            "Tu as tort."
+          ],
+          "answer": "Tu as tort.",
+          "explain_ar": "tort «توغ»: مخطئ."
+        },
+        {
+          "id": "q5",
+          "say": "Je trouve que",
+          "options": [
+            "Je pense que",
+            "Je trouve que"
+          ],
+          "answer": "Je trouve que",
+          "explain_ar": "trouve «تغوڤ»: أجد."
+        },
+        {
+          "id": "q6",
+          "say": "À ton avis ?",
+          "options": [
+            "À mon avis",
+            "À ton avis ?"
+          ],
+          "answer": "À ton avis ?",
+          "explain_ar": "ton «تون» مع نغمة سؤال: في رأيك؟"
+        },
+        {
+          "id": "q7",
+          "say": "Bof.",
+          "options": [
+            "Bof.",
+            "Super !"
+          ],
+          "answer": "Bof.",
+          "explain_ar": "bof «بوف»: عادي."
+        },
+        {
+          "id": "q8",
+          "say": "intéressant",
+          "options": [
+            "ennuyeux",
+            "intéressant"
+          ],
+          "answer": "intéressant",
+          "explain_ar": "intéressant «أنتيغيسون»: مثير للاهتمام."
+        },
+        {
+          "id": "q9",
+          "say": "Ça dépend.",
+          "options": [
+            "C'est vrai.",
+            "Ça dépend."
+          ],
+          "answer": "Ça dépend.",
+          "explain_ar": "dépend «ديپون»: حسب الحالة."
+        },
+        {
+          "id": "q10",
+          "say": "un chef-d'œuvre",
+          "options": [
+            "un chef-d'œuvre",
+            "un réalisateur"
+          ],
+          "answer": "un chef-d'œuvre",
+          "explain_ar": "chef-d'œuvre «شي دُڤغ»: تحفة."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الرأي",
+      "hint_ar": "عبارات الرأي والتقييم.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **d'accord** بفاصلة عليا، و **ennuyeux** بـ nn.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je pense que",
+          "answer": "je pense que",
+          "ar": "أظن أن"
+        },
+        {
+          "id": "s2",
+          "say": "à mon avis",
+          "answer": "à mon avis",
+          "ar": "في رأيي"
+        },
+        {
+          "id": "s3",
+          "say": "je ne suis pas d'accord",
+          "answer": "je ne suis pas d'accord",
+          "ar": "لا أوافق"
+        },
+        {
+          "id": "s4",
+          "say": "tu as raison",
+          "answer": "tu as raison",
+          "ar": "معك حق"
+        },
+        {
+          "id": "s5",
+          "say": "génial",
+          "answer": "génial",
+          "ar": "رائع"
+        },
+        {
+          "id": "s6",
+          "say": "ennuyeux",
+          "answer": "ennuyeux",
+          "ar": "مملّ"
+        },
+        {
+          "id": "s7",
+          "say": "ça dépend",
+          "answer": "ça dépend",
+          "ar": "حسب الحالة"
+        },
+        {
+          "id": "s8",
+          "say": "qu'est-ce que tu en penses",
+          "answer": "qu'est-ce que tu en penses",
+          "ar": "ما رأيك"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "ردّد بنبرة الاعتراض المهذب: هادئة، وتصعد قليلاً على mais.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "À mon avis, c'est une excellente idée.",
+          "ar": "في رأيي، إنها فكرة ممتازة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "À mon avis,",
+              "في رأيي"
+            ],
+            [
+              "c'est",
+              "إنها"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "excellente",
+              "ممتازة"
+            ],
+            [
+              "idée.",
+              "فكرة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Je vois ce que tu veux dire, mais je ne suis pas d'accord.",
+          "ar": "أفهم ما تقصد، لكنني لا أوافق.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je vois ce que tu veux dire,",
+              "أفهم ما تقصد"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "je ne suis pas d'accord.",
+              "لا أوافق"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Qu'est-ce que tu en penses ?",
+          "ar": "ما رأيك في ذلك؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Qu'est-ce que tu en penses ?",
+              "ما رأيك في ذلك؟"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "C'était pas mal, mais un peu long.",
+          "ar": "كان لا بأس به، لكنه طويل قليلاً.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "C'était",
+              "كان"
+            ],
+            [
+              "pas mal,",
+              "لا بأس به"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "un peu long.",
+              "طويلاً قليلاً"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Tu as tout à fait raison !",
+          "ar": "معك حق تماماً!",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Tu as",
+              "معك"
+            ],
+            [
+              "tout à fait",
+              "تماماً"
+            ],
+            [
+              "raison !",
+              "حق"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: قيّم آخر فيلم أو كتاب: **J'ai vu / lu… Je trouve que… À mon avis… mais…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "Je pense que…",
+          "say": "Je pense que…",
+          "back_ar": "أظن أن…"
+        },
+        {
+          "id": "c2",
+          "front": "Je trouve que…",
+          "say": "Je trouve que…",
+          "back_ar": "أجد أن…"
+        },
+        {
+          "id": "c3",
+          "front": "À mon avis,…",
+          "say": "À mon avis,…",
+          "back_ar": "في رأيي،…"
+        },
+        {
+          "id": "c4",
+          "front": "Pour moi,…",
+          "say": "Pour moi,…",
+          "back_ar": "بالنسبة لي،…"
+        },
+        {
+          "id": "c5",
+          "front": "Qu'est-ce que tu en penses ?",
+          "say": "Qu'est-ce que tu en penses ?",
+          "back_ar": "ما رأيك؟"
+        },
+        {
+          "id": "c6",
+          "front": "Je suis d'accord.",
+          "say": "Je suis d'accord.",
+          "back_ar": "أوافق."
+        },
+        {
+          "id": "c7",
+          "front": "Je ne suis pas d'accord.",
+          "say": "Je ne suis pas d'accord.",
+          "back_ar": "لا أوافق."
+        },
+        {
+          "id": "c8",
+          "front": "Tu as raison.",
+          "say": "Tu as raison.",
+          "back_ar": "معك حق."
+        },
+        {
+          "id": "c9",
+          "front": "Tu as tort.",
+          "say": "Tu as tort.",
+          "back_ar": "أنت مخطئ."
+        },
+        {
+          "id": "c10",
+          "front": "Oui, mais…",
+          "say": "Oui, mais…",
+          "back_ar": "نعم، لكن…"
+        },
+        {
+          "id": "c11",
+          "front": "Je vois ce que tu veux dire.",
+          "say": "Je vois ce que tu veux dire.",
+          "back_ar": "أفهم ما تقصد."
+        },
+        {
+          "id": "c12",
+          "front": "Ça dépend.",
+          "say": "Ça dépend.",
+          "back_ar": "حسب الحالة."
+        },
+        {
+          "id": "c13",
+          "front": "génial",
+          "say": "génial",
+          "back_ar": "رائع"
+        },
+        {
+          "id": "c14",
+          "front": "pas mal",
+          "say": "pas mal",
+          "back_ar": "لا بأس به"
+        },
+        {
+          "id": "c15",
+          "front": "ennuyeux",
+          "say": "ennuyeux",
+          "back_ar": "مملّ"
+        },
+        {
+          "id": "c16",
+          "front": "nul",
+          "say": "nul",
+          "back_ar": "سيئ جداً"
+        }
+      ]
+    }
+  ]
+}
