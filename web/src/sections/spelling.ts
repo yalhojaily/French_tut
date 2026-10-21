@@ -2,7 +2,7 @@ import { play } from "../audio";
 import { clear, fr, h, icon, richAr } from "../dom";
 import type { SpellingSection } from "../types";
 
-const ACCENT_KEYS = ["é", "è", "ê", "ë", "à", "â", "ç", "î", "ï", "ô", "ù", "û"];
+const ACCENT_KEYS = ["é", "è", "ê", "ë", "à", "â", "ç", "î", "ï", "ô", "ù", "û", "œ"];
 
 const stripAccents = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "");
 
@@ -63,7 +63,7 @@ export function renderSpelling(unitId: string, s: SpellingSection, onDone: () =>
       // نوحّد الفواصل العليا والمسافات: l’hôtel = l'hôtel
       // ونوحّد كتابة الأرقام: 1 200 = 1200، و 10.50 € = 10,50
       const norm = (t: string) =>
-        t.toLowerCase().replace(/[’‘`´]/g, "'").replace(/€/g, "").trim()
+        t.toLowerCase().replace(/[’‘`´]/g, "'").replace(/œ/g, "oe").replace(/€/g, "").trim()
           .replace(/(\d)[\s\u00a0\u202f]+(?=\d)/g, "$1").replace(/(\d)\.(\d)/g, "$1,$2")
           .replace(/\s+/g, " ");
       const exact = norm(given) === norm(item.answer);

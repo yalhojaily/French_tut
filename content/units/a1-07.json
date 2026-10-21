@@ -1,0 +1,1270 @@
+{
+  "id": "a1-07",
+  "stage": "A1",
+  "title_fr": "Décrire une personne",
+  "title_ar": "وصف شخص",
+  "goals_ar": [
+    "تصف شكل شخص: **Il est grand et brun. Elle a les yeux verts.**",
+    "تصف طباعه: **Elle est gentille et un peu timide.**",
+    "تطابق الصفة مع الاسم في الجنس والعدد: grand، grande، grands، grandes",
+    "تعرف مكان الصفة: بعد الاسم عادة (une veste **rouge**)، وقبله في صفات قليلة (une **jolie** maison)",
+    "تسمّي الألوان"
+  ],
+  "intro_ar": [
+    "خبر جيد: الصفة في الفرنسية تعمل **مثل العربية تقريباً**. تأتي غالباً بعد الاسم (سيارة حمراء = une voiture **rouge**)، وتتطابق معه في التذكير والتأنيث والإفراد والجمع.",
+    "الجديد هو **النطق**: صفات كثيرة يتغير نطقها في المؤنث، لأن الـ e تجعل الحرف الأخير يُنطق: grand «گغون» ← grande «گغوند». هذا ما تدربت عليه في الوحدة 0.6.",
+    "وسؤال الوصف في الفرنسية: **Il est comment ?** (حرفياً: هو كيف؟) = «كيف شكله؟ كيف هو؟»."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: من سيستقبلني في المحطة؟",
+      "context_ar": "أخو كلير سيستقبل يوسف في محطة ليون، ويوسف لا يعرفه. يتصل بكلير ليسألها عن شكله.",
+      "speakers": {
+        "A": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        },
+        "B": {
+          "name_ar": "كلير",
+          "voice": "female"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Allô, Claire ? Ton frère est à la gare. Il est comment ?",
+          "ar": "ألو، كلير؟ أخوكِ في المحطة. كيف شكله؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Allô,",
+              "ألو"
+            ],
+            [
+              "Claire ?",
+              "كلير"
+            ],
+            [
+              "Ton",
+              "ـكِ"
+            ],
+            [
+              "frère",
+              "أخ"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "gare.",
+              "محطة"
+            ],
+            [
+              "Il est comment ?",
+              "كيف شكله؟"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Il est grand et brun, avec des lunettes.",
+          "ar": "هو طويل وأسمر الشعر، ويلبس نظارة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Il",
+              "هو"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "grand",
+              "طويل"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "brun,",
+              "أسمر الشعر"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "lunettes.",
+              "نظارة"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Il a les cheveux courts ?",
+          "ar": "هل شعره قصير؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Il",
+              "هو"
+            ],
+            [
+              "a",
+              "عنده"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "cheveux",
+              "شعر"
+            ],
+            [
+              "courts ?",
+              "قصير"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Oui, courts et noirs. Et il a les yeux bleus.",
+          "ar": "نعم، قصير وأسود. وعيناه زرقاوان.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "courts",
+              "قصير"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "noirs.",
+              "أسود"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "il",
+              "هو"
+            ],
+            [
+              "a",
+              "عنده"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "yeux",
+              "عيون"
+            ],
+            [
+              "bleus.",
+              "زرقاء"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Et il porte quoi aujourd'hui ?",
+          "ar": "وماذا يلبس اليوم؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "il",
+              "هو"
+            ],
+            [
+              "porte",
+              "يلبس"
+            ],
+            [
+              "quoi",
+              "ماذا"
+            ],
+            [
+              "aujourd'hui ?",
+              "اليوم"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Une veste rouge et un jean. Il est très sympa !",
+          "ar": "سترة حمراء وبنطال جينز. هو لطيف جداً!",
+          "slow": true,
+          "gloss": [
+            [
+              "Une",
+              "(نكرة)"
+            ],
+            [
+              "veste",
+              "سترة"
+            ],
+            [
+              "rouge",
+              "حمراء"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "jean.",
+              "جينز"
+            ],
+            [
+              "Il",
+              "هو"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "très",
+              "جداً"
+            ],
+            [
+              "sympa !",
+              "لطيف"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Et sa femme ? Elle est comment ?",
+          "ar": "وزوجته؟ كيف شكلها؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "sa",
+              "ـه"
+            ],
+            [
+              "femme ?",
+              "زوجة"
+            ],
+            [
+              "Elle est comment ?",
+              "كيف شكلها؟"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Elle est petite et blonde. Elle est gentille et un peu timide.",
+          "ar": "هي قصيرة وشقراء. هي لطيفة وخجولة قليلاً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "petite",
+              "قصيرة"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "blonde.",
+              "شقراء"
+            ],
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "gentille",
+              "لطيفة"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "un peu",
+              "قليلاً"
+            ],
+            [
+              "timide.",
+              "خجولة"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Parfait, merci ! À bientôt.",
+          "ar": "ممتاز، شكراً! أراكِ قريباً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Parfait,",
+              "ممتاز"
+            ],
+            [
+              "merci !",
+              "شكراً"
+            ],
+            [
+              "À bientôt.",
+              "أراكِ قريباً"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "قارن صفات الأخ والزوجة: **grand / petite**، **brun / blonde**. ولاحظ **les cheveux** و **les yeux**: الفرنسية تقول «عنده **الـ**عيون الزرقاء» (Il a **les** yeux bleus)، بأداة التعريف."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوصف",
+      "hint_ar": "الصفات بالمذكر والمؤنث. استمع للفرق في النطق، وانتبه للصفات التي لا تتغير.",
+      "groups": [
+        {
+          "title_ar": "الشكل",
+          "items": [
+            {
+              "id": "v-grand",
+              "say": "grand, grande",
+              "ar": "طويل / طويلة (وكبير)",
+              "fr": "grand / grande"
+            },
+            {
+              "id": "v-petit",
+              "say": "petit, petite",
+              "ar": "قصير / قصيرة (وصغير)",
+              "fr": "petit / petite"
+            },
+            {
+              "id": "v-mince",
+              "say": "mince",
+              "ar": "نحيف / نحيفة"
+            },
+            {
+              "id": "v-jeune",
+              "say": "jeune",
+              "ar": "شاب / شابة"
+            },
+            {
+              "id": "v-age",
+              "say": "âgé, âgée",
+              "ar": "مسنّ / مسنّة",
+              "fr": "âgé / âgée"
+            },
+            {
+              "id": "v-beau",
+              "say": "beau, belle",
+              "ar": "جميل / جميلة",
+              "fr": "beau / belle",
+              "note_ar": "شاذ: belle للمؤنث."
+            },
+            {
+              "id": "v-joli",
+              "say": "joli, jolie",
+              "ar": "جميل / جميلة (لطيف الشكل)",
+              "fr": "joli / jolie"
+            }
+          ]
+        },
+        {
+          "title_ar": "الشعر والعيون",
+          "items": [
+            {
+              "id": "v-cheveux",
+              "say": "les cheveux",
+              "ar": "الشعر (جمع دائماً)"
+            },
+            {
+              "id": "v-courts",
+              "say": "courts, longs",
+              "ar": "قصير / طويل (للشعر)",
+              "fr": "courts / longs"
+            },
+            {
+              "id": "v-brun",
+              "say": "brun, brune",
+              "ar": "أسمر الشعر / سمراء الشعر",
+              "fr": "brun / brune"
+            },
+            {
+              "id": "v-blond",
+              "say": "blond, blonde",
+              "ar": "أشقر / شقراء",
+              "fr": "blond / blonde"
+            },
+            {
+              "id": "v-roux",
+              "say": "roux, rousse",
+              "ar": "أحمر الشعر / حمراء الشعر",
+              "fr": "roux / rousse"
+            },
+            {
+              "id": "v-yeux",
+              "say": "les yeux",
+              "ar": "العيون",
+              "note_ar": "المفرد: **un œil**. شاذ تماماً!"
+            },
+            {
+              "id": "v-marron",
+              "say": "les yeux marron",
+              "ar": "عيون بنية",
+              "note_ar": "**marron** لا يتغير أبداً."
+            }
+          ]
+        },
+        {
+          "title_ar": "الطباع",
+          "items": [
+            {
+              "id": "v-sympa",
+              "say": "sympa",
+              "ar": "لطيف / ودود",
+              "note_ar": "لا يتغير."
+            },
+            {
+              "id": "v-gentil",
+              "say": "gentil, gentille",
+              "ar": "طيب / طيبة",
+              "fr": "gentil / gentille"
+            },
+            {
+              "id": "v-timide",
+              "say": "timide",
+              "ar": "خجول / خجولة"
+            },
+            {
+              "id": "v-drole",
+              "say": "drôle",
+              "ar": "مضحك / ظريف"
+            },
+            {
+              "id": "v-intel",
+              "say": "intelligent, intelligente",
+              "ar": "ذكي / ذكية",
+              "fr": "intelligent / intelligente"
+            },
+            {
+              "id": "v-serieux",
+              "say": "sérieux, sérieuse",
+              "ar": "جاد / جادة",
+              "fr": "sérieux / sérieuse"
+            },
+            {
+              "id": "v-calme",
+              "say": "calme",
+              "ar": "هادئ / هادئة"
+            }
+          ]
+        },
+        {
+          "title_ar": "الألوان",
+          "items": [
+            {
+              "id": "v-rouge",
+              "say": "rouge",
+              "ar": "أحمر"
+            },
+            {
+              "id": "v-bleu",
+              "say": "bleu, bleue",
+              "ar": "أزرق / زرقاء",
+              "fr": "bleu / bleue"
+            },
+            {
+              "id": "v-vert",
+              "say": "vert, verte",
+              "ar": "أخضر / خضراء",
+              "fr": "vert / verte"
+            },
+            {
+              "id": "v-jaune",
+              "say": "jaune",
+              "ar": "أصفر"
+            },
+            {
+              "id": "v-noir",
+              "say": "noir, noire",
+              "ar": "أسود / سوداء",
+              "fr": "noir / noire"
+            },
+            {
+              "id": "v-blanc",
+              "say": "blanc, blanche",
+              "ar": "أبيض / بيضاء",
+              "fr": "blanc / blanche",
+              "note_ar": "شاذ: blanche."
+            },
+            {
+              "id": "v-gris",
+              "say": "gris, grise",
+              "ar": "رمادي / رمادية",
+              "fr": "gris / grise"
+            },
+            {
+              "id": "v-rose",
+              "say": "rose",
+              "ar": "وردي"
+            },
+            {
+              "id": "v-orange",
+              "say": "orange",
+              "ar": "برتقالي",
+              "note_ar": "لا يتغير أبداً، مثل marron."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الصفات",
+      "title_ar": "القاعدة: مطابقة الصفة ومكانها",
+      "intro_ar": "الصفة تتطابق مع الاسم في **الجنس** (مذكر/مؤنث) و**العدد** (مفرد/جمع)، مثل العربية. استمع لكل سطر ولاحظ متى يتغير النطق.",
+      "tables": [
+        {
+          "title_fr": "L'accord de l'adjectif",
+          "title_ar": "مطابقة الصفة",
+          "head_ar": [
+            "مذكر",
+            "مؤنث",
+            "جمع مذكر",
+            "جمع مؤنث"
+          ],
+          "rows": [
+            {
+              "id": "g-grand",
+              "say": "grand, grande, grands, grandes",
+              "cells": [
+                "grand",
+                "grande",
+                "grands",
+                "grandes"
+              ],
+              "ar": "القاعدة: e للمؤنث و s للجمع"
+            },
+            {
+              "id": "g-brun",
+              "say": "brun, brune, bruns, brunes",
+              "cells": [
+                "brun",
+                "brune",
+                "bruns",
+                "brunes"
+              ],
+              "ar": "الأنفي يصبح «ين»"
+            },
+            {
+              "id": "g-gentil",
+              "say": "gentil, gentille, gentils, gentilles",
+              "cells": [
+                "gentil",
+                "gentille",
+                "gentils",
+                "gentilles"
+              ],
+              "ar": "تتضاعف اللام"
+            },
+            {
+              "id": "g-serieux",
+              "say": "sérieux, sérieuse, sérieux, sérieuses",
+              "cells": [
+                "sérieux",
+                "sérieuse",
+                "sérieux",
+                "sérieuses"
+              ],
+              "ar": "x تصبح se"
+            },
+            {
+              "id": "g-rouge",
+              "say": "rouge, rouge, rouges, rouges",
+              "cells": [
+                "rouge",
+                "rouge",
+                "rouges",
+                "rouges"
+              ],
+              "ar": "ينتهي بـ e: لا يتغير للمؤنث"
+            },
+            {
+              "id": "g-beau",
+              "say": "beau, belle, beaux, belles",
+              "cells": [
+                "beau",
+                "belle",
+                "beaux",
+                "belles"
+              ],
+              "ar": "شاذ"
+            }
+          ],
+          "note_ar": "**الجمع لا يُسمع** في الصفات (grand = grands في النطق). أما **المؤنث فيُسمع** غالباً: grand «گغون» / grande «گغوند»."
+        },
+        {
+          "title_fr": "La place de l'adjectif",
+          "title_ar": "مكان الصفة",
+          "head_ar": [
+            "المكان",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-apres",
+              "say": "une veste rouge, un homme sympa",
+              "cells": [
+                "بعد الاسم",
+                "une veste rouge"
+              ],
+              "ar": "معظم الصفات، وكل الألوان"
+            },
+            {
+              "id": "g-avant",
+              "say": "un grand homme, une jolie maison, une bonne idée",
+              "cells": [
+                "قبل الاسم",
+                "une jolie maison"
+              ],
+              "ar": "صفات قصيرة شائعة"
+            }
+          ],
+          "note_ar": "الصفات التي تأتي **قبل** الاسم قليلة، وتُحفظ في أربع مجموعات: **الجمال** (beau، joli)، و**العمر** (jeune، vieux، nouveau)، و**الجودة** (bon، mauvais)، و**الحجم** (grand، petit)."
+        }
+      ],
+      "points_ar": [
+        "**Il est comment ?** = كيف هو؟ كيف شكله؟ والجواب: Il est grand / Il a les yeux bleus.",
+        "**الشعر والعيون بـ avoir و les:** Il **a les** cheveux noirs (شعره أسود)، Elle **a les** yeux verts (عيناها خضراوان).",
+        "**ألوان لا تتغير أبداً:** **marron** و **orange**: des yeux marron، une veste orange. لأنها في الأصل أسماء فواكه (الكستناء والبرتقال).",
+        "**grand و petit** تصف الطول والحجم معاً: un **grand** homme (رجل طويل)، une **petite** maison (بيت صغير)."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: مطابقة الصفة",
+      "hint_ar": "طابِق الصفة مع الاسم: مذكر أم مؤنث؟ مفرد أم جمع؟",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Elle est ___.",
+          "say": "Elle est grande.",
+          "options": [
+            "grand",
+            "grande"
+          ],
+          "answer": "grande",
+          "ar": "هي طويلة.",
+          "explain_ar": "elle مؤنث: **grande**، والـ d تُنطق."
+        },
+        {
+          "id": "f2",
+          "text": "Ils sont ___.",
+          "say": "Ils sont petits.",
+          "options": [
+            "petit",
+            "petits",
+            "petites"
+          ],
+          "answer": "petits",
+          "ar": "هم قصار.",
+          "explain_ar": "ils مذكر جمع: **petits**."
+        },
+        {
+          "id": "f3",
+          "text": "Elle a une veste ___.",
+          "say": "Elle a une veste rouge.",
+          "options": [
+            "rouge",
+            "rougee"
+          ],
+          "answer": "rouge",
+          "ar": "عندها سترة حمراء.",
+          "explain_ar": "rouge ينتهي بـ e، فلا يتغير للمؤنث."
+        },
+        {
+          "id": "f4",
+          "text": "Il a les yeux ___.",
+          "say": "Il a les yeux bleus.",
+          "options": [
+            "bleu",
+            "bleus"
+          ],
+          "answer": "bleus",
+          "ar": "عيناه زرقاوان.",
+          "explain_ar": "yeux جمع مذكر: **bleus**."
+        },
+        {
+          "id": "f5",
+          "text": "C'est une ___ idée !",
+          "say": "C'est une bonne idée !",
+          "options": [
+            "bon",
+            "bonne"
+          ],
+          "answer": "bonne",
+          "ar": "إنها فكرة جيدة!",
+          "explain_ar": "idée مؤنثة: **bonne**، و bon/bonne تأتي قبل الاسم."
+        },
+        {
+          "id": "f6",
+          "text": "Ma sœur est très ___.",
+          "say": "Ma sœur est très gentille.",
+          "options": [
+            "gentil",
+            "gentille"
+          ],
+          "answer": "gentille",
+          "ar": "أختي طيبة جداً.",
+          "explain_ar": "sœur مؤنثة: **gentille** (لام مضاعفة)."
+        },
+        {
+          "id": "f7",
+          "text": "C'est un ___ chien.",
+          "say": "C'est un petit chien.",
+          "options": [
+            "petit",
+            "petite"
+          ],
+          "answer": "petit",
+          "ar": "إنه كلب صغير.",
+          "explain_ar": "chien مذكر: **petit**، وتأتي قبل الاسم."
+        },
+        {
+          "id": "f8",
+          "text": "Elle a les cheveux ___.",
+          "say": "Elle a les cheveux blonds.",
+          "options": [
+            "blonds",
+            "blondes"
+          ],
+          "answer": "blonds",
+          "ar": "شعرها أشقر.",
+          "explain_ar": "cheveux **مذكر** جمع: **blonds**، حتى لو كانت امرأة."
+        },
+        {
+          "id": "f9",
+          "text": "Ma mère est ___.",
+          "say": "Ma mère est heureuse.",
+          "options": [
+            "heureux",
+            "heureuse"
+          ],
+          "answer": "heureuse",
+          "ar": "أمي سعيدة.",
+          "explain_ar": "heureux للمؤنث: **heureuse**."
+        },
+        {
+          "id": "f10",
+          "text": "C'est une ___ maison.",
+          "say": "C'est une belle maison.",
+          "options": [
+            "beau",
+            "belle"
+          ],
+          "answer": "belle",
+          "ar": "إنه بيت جميل.",
+          "explain_ar": "maison مؤنثة: **belle**، وهي قبل الاسم."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: مذكر أم مؤنث؟",
+      "hint_ar": "تسمع صفة واحدة. هل يُنطق الحرف الأخير؟ إذا نعم، فهي غالباً مؤنث.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع صفة وتختار شكلها.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "grande",
+          "options": [
+            "grand",
+            "grande"
+          ],
+          "answer": "grande",
+          "explain_ar": "grande: سمعت «د»."
+        },
+        {
+          "id": "q2",
+          "say": "petit",
+          "options": [
+            "petit",
+            "petite"
+          ],
+          "answer": "petit",
+          "explain_ar": "petit: لا «ت» في الآخر."
+        },
+        {
+          "id": "q3",
+          "say": "blonde",
+          "options": [
+            "blond",
+            "blonde"
+          ],
+          "answer": "blonde",
+          "explain_ar": "blonde: سمعت «د»."
+        },
+        {
+          "id": "q4",
+          "say": "brun",
+          "options": [
+            "brun",
+            "brune"
+          ],
+          "answer": "brun",
+          "explain_ar": "brun: صوت أنفي بلا نون."
+        },
+        {
+          "id": "q5",
+          "say": "gentille",
+          "options": [
+            "gentil",
+            "gentille"
+          ],
+          "answer": "gentille",
+          "explain_ar": "gentille «ژونتيّ»: صوت «يّ» في الآخر."
+        },
+        {
+          "id": "q6",
+          "say": "heureux",
+          "options": [
+            "heureux",
+            "heureuse"
+          ],
+          "answer": "heureux",
+          "explain_ar": "heureux: لا «ز» في الآخر."
+        },
+        {
+          "id": "q7",
+          "say": "verte",
+          "options": [
+            "vert",
+            "verte"
+          ],
+          "answer": "verte",
+          "explain_ar": "verte: سمعت «ت»."
+        },
+        {
+          "id": "q8",
+          "say": "blanche",
+          "options": [
+            "blanc",
+            "blanche"
+          ],
+          "answer": "blanche",
+          "explain_ar": "blanche: سمعت «ش»."
+        },
+        {
+          "id": "q9",
+          "say": "belle",
+          "options": [
+            "beau",
+            "belle"
+          ],
+          "answer": "belle",
+          "explain_ar": "belle «بيل»."
+        },
+        {
+          "id": "q10",
+          "say": "intelligente",
+          "options": [
+            "intelligent",
+            "intelligente"
+          ],
+          "answer": "intelligente",
+          "explain_ar": "intelligente: سمعت «ت»."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب ما تسمعه",
+      "hint_ar": "صفات بالمؤنث، وعبارات الوصف. المعنى ظاهر.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر الشواذ: **belle** (beau)، **blanche** (blanc)، **gentille** (gentil)، **heureuse** (heureux).",
+      "items": [
+        {
+          "id": "s1",
+          "say": "grande",
+          "answer": "grande",
+          "ar": "طويلة"
+        },
+        {
+          "id": "s2",
+          "say": "petite",
+          "answer": "petite",
+          "ar": "قصيرة"
+        },
+        {
+          "id": "s3",
+          "say": "gentille",
+          "answer": "gentille",
+          "ar": "طيبة"
+        },
+        {
+          "id": "s4",
+          "say": "heureuse",
+          "answer": "heureuse",
+          "ar": "سعيدة"
+        },
+        {
+          "id": "s5",
+          "say": "les yeux bleus",
+          "answer": "les yeux bleus",
+          "ar": "العيون الزرقاء"
+        },
+        {
+          "id": "s6",
+          "say": "les cheveux noirs",
+          "answer": "les cheveux noirs",
+          "ar": "الشعر الأسود"
+        },
+        {
+          "id": "s7",
+          "say": "blanche",
+          "answer": "blanche",
+          "ar": "بيضاء"
+        },
+        {
+          "id": "s8",
+          "say": "belle",
+          "answer": "belle",
+          "ar": "جميلة"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل وصف. ركّز على نطق المؤنث: الحرف الأخير يُسمع.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Il est grand et brun.",
+          "ar": "هو طويل وأسمر الشعر.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Il",
+              "هو"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "grand",
+              "طويل"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "brun.",
+              "أسمر الشعر"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Elle a les yeux verts.",
+          "ar": "عيناها خضراوان.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "a",
+              "عندها"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "yeux",
+              "عيون"
+            ],
+            [
+              "verts.",
+              "خضراء"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Mon frère est très sympa.",
+          "ar": "أخي لطيف جداً.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "frère",
+              "أخ"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "très",
+              "جداً"
+            ],
+            [
+              "sympa.",
+              "لطيف"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "C'est une jolie maison blanche.",
+          "ar": "إنه بيت أبيض جميل.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "C'est",
+              "هذا"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "jolie",
+              "جميل"
+            ],
+            [
+              "maison",
+              "بيت"
+            ],
+            [
+              "blanche.",
+              "أبيض"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Elle est petite, blonde et un peu timide.",
+          "ar": "هي قصيرة وشقراء وخجولة قليلاً.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "petite,",
+              "قصيرة"
+            ],
+            [
+              "blonde",
+              "شقراء"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "un peu",
+              "قليلاً"
+            ],
+            [
+              "timide.",
+              "خجولة"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: صِف نفسك أو صديقاً في ثلاث جمل وسجّل نفسك: **Je suis… J'ai les cheveux… et les yeux… Je suis (طباعك)…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل الصفة بالمذكر والمؤنث قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "Il est comment ?",
+          "say": "Il est comment ?",
+          "back_ar": "كيف هو؟ كيف شكله؟"
+        },
+        {
+          "id": "c2",
+          "front": "grand / grande",
+          "say": "grand, grande",
+          "back_ar": "طويل / طويلة"
+        },
+        {
+          "id": "c3",
+          "front": "petit / petite",
+          "say": "petit, petite",
+          "back_ar": "قصير / قصيرة"
+        },
+        {
+          "id": "c4",
+          "front": "beau / belle",
+          "say": "beau, belle",
+          "back_ar": "جميل / جميلة"
+        },
+        {
+          "id": "c5",
+          "front": "gentil / gentille",
+          "say": "gentil, gentille",
+          "back_ar": "طيب / طيبة"
+        },
+        {
+          "id": "c6",
+          "front": "sympa",
+          "say": "sympa",
+          "back_ar": "لطيف / ودود"
+        },
+        {
+          "id": "c7",
+          "front": "timide",
+          "say": "timide",
+          "back_ar": "خجول"
+        },
+        {
+          "id": "c8",
+          "front": "les cheveux",
+          "say": "les cheveux",
+          "back_ar": "الشعر"
+        },
+        {
+          "id": "c9",
+          "front": "les yeux",
+          "say": "les yeux",
+          "back_ar": "العيون (مفرد: un œil)"
+        },
+        {
+          "id": "c10",
+          "front": "brun / blond",
+          "say": "brun, blond",
+          "back_ar": "أسمر الشعر / أشقر"
+        },
+        {
+          "id": "c11",
+          "front": "rouge / bleu / vert",
+          "say": "rouge, bleu, vert",
+          "back_ar": "أحمر / أزرق / أخضر"
+        },
+        {
+          "id": "c12",
+          "front": "noir / blanc",
+          "say": "noir, blanc",
+          "back_ar": "أسود / أبيض"
+        },
+        {
+          "id": "c13",
+          "front": "blanc → blanche",
+          "say": "blanc, blanche",
+          "back_ar": "أبيض (مؤنث شاذ)"
+        },
+        {
+          "id": "c14",
+          "front": "marron",
+          "say": "marron",
+          "back_ar": "بني (لا يتغير)"
+        },
+        {
+          "id": "c15",
+          "front": "sérieux / sérieuse",
+          "say": "sérieux, sérieuse",
+          "back_ar": "جاد / جادة"
+        },
+        {
+          "id": "c16",
+          "front": "une jolie maison",
+          "say": "une jolie maison",
+          "back_ar": "بيت جميل (الصفة قبل الاسم)"
+        }
+      ]
+    }
+  ]
+}

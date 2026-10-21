@@ -1,0 +1,1174 @@
+{
+  "id": "a1-06",
+  "stage": "A1",
+  "title_fr": "Ma famille",
+  "title_ar": "عائلتي",
+  "goals_ar": [
+    "تسمّي أفراد العائلة: **le père، la mère، le frère، la sœur…**",
+    "تعرّف بعائلتك وتسأل عن عائلة غيرك",
+    "تستعمل كل أدوات الملكية: **ton، son، notre، votre، leur…**",
+    "تفهم أهم فرق مع العربية: **son père** = أبوه **أو** أبوها!"
+  ],
+  "intro_ar": [
+    "في العربية نعرف من الضمير من هو المالك: «أبوه» (لرجل) و«أبوها» (لامرأة). في الفرنسية **لا**: **son père** تعني أبوه وأبوها معاً!",
+    "أداة الملكية الفرنسية تتفق مع **الشيء المملوك** فقط: son (مذكر)، sa (مؤنث)، ses (جمع). فـ «سيارة يوسف» = **sa** voiture (لأن voiture مؤنثة)، و«أبو كلير» = **son** père (لأن père مذكر).",
+    "هذه أصعب نقطة في الوحدة للعربي، لذلك معظم التمرين عليها. والباقي سهل: مفردات العائلة تُحفظ مع أداتها."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: صورة العائلة",
+      "context_ar": "كلير تُري يوسف صورة عائلتها على هاتفها. انتبه لأدوات الملكية: mon، ma، mes، ton، sa، leur، votre.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "B",
+          "say": "C'est ta famille sur la photo ?",
+          "ar": "هل هذه عائلتك في الصورة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "C'est",
+              "هذه"
+            ],
+            [
+              "ta",
+              "ـكِ"
+            ],
+            [
+              "famille",
+              "عائلة"
+            ],
+            [
+              "sur",
+              "في"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "photo ?",
+              "صورة"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "A",
+          "say": "Oui ! Voilà mes parents. Mon père s'appelle Paul et ma mère s'appelle Anne.",
+          "ar": "نعم! هذان والداي. أبي اسمه بول وأمي اسمها آن.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui !",
+              "نعم"
+            ],
+            [
+              "Voilà",
+              "هؤلاء"
+            ],
+            [
+              "mes",
+              "ـي (جمع)"
+            ],
+            [
+              "parents.",
+              "والدان"
+            ],
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "père",
+              "أب"
+            ],
+            [
+              "s'appelle",
+              "اسمه"
+            ],
+            [
+              "Paul",
+              "بول"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "ma",
+              "ـي"
+            ],
+            [
+              "mère",
+              "أم"
+            ],
+            [
+              "s'appelle",
+              "اسمها"
+            ],
+            [
+              "Anne.",
+              "آن"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "B",
+          "say": "Et lui, c'est ton frère ?",
+          "ar": "وهو، هل هو أخوكِ؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "lui,",
+              "هو"
+            ],
+            [
+              "c'est",
+              "هل هو"
+            ],
+            [
+              "ton",
+              "ـكِ"
+            ],
+            [
+              "frère ?",
+              "أخ"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "A",
+          "say": "Oui, c'est mon frère Hugo. Sa femme est espagnole.",
+          "ar": "نعم، هذا أخي هوغو. زوجته إسبانية.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "c'est",
+              "هذا"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "frère",
+              "أخ"
+            ],
+            [
+              "Hugo.",
+              "هوغو"
+            ],
+            [
+              "Sa",
+              "ـه"
+            ],
+            [
+              "femme",
+              "زوجة"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "espagnole.",
+              "إسبانية"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "B",
+          "say": "Ils ont des enfants ?",
+          "ar": "هل عندهما أطفال؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Ils",
+              "هم"
+            ],
+            [
+              "ont",
+              "عندهم"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "enfants ?",
+              "أطفال"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "A",
+          "say": "Oui, leur fille a trois ans. C'est ma nièce !",
+          "ar": "نعم، ابنتهما عمرها ثلاث سنوات. إنها ابنة أخي!",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "leur",
+              "ـهما"
+            ],
+            [
+              "fille",
+              "ابنة"
+            ],
+            [
+              "a",
+              "عندها"
+            ],
+            [
+              "trois",
+              "3"
+            ],
+            [
+              "ans.",
+              "سنوات"
+            ],
+            [
+              "C'est",
+              "هي"
+            ],
+            [
+              "ma",
+              "ـي"
+            ],
+            [
+              "nièce !",
+              "ابنة أخ"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "B",
+          "say": "Elle est mignonne ! Et ta sœur ?",
+          "ar": "إنها لطيفة! وأختكِ؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "mignonne !",
+              "لطيفة"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "ta",
+              "ـكِ"
+            ],
+            [
+              "sœur ?",
+              "أخت"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "A",
+          "say": "Ma sœur habite au Canada avec son mari.",
+          "ar": "أختي تسكن في كندا مع زوجها.",
+          "slow": true,
+          "gloss": [
+            [
+              "Ma",
+              "ـي"
+            ],
+            [
+              "sœur",
+              "أخت"
+            ],
+            [
+              "habite",
+              "تسكن"
+            ],
+            [
+              "au",
+              "في"
+            ],
+            [
+              "Canada",
+              "كندا"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "son",
+              "ـها"
+            ],
+            [
+              "mari.",
+              "زوج"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "B",
+          "say": "Votre famille est très internationale !",
+          "ar": "عائلتكم دولية جداً!",
+          "slow": true,
+          "gloss": [
+            [
+              "Votre",
+              "ـكم"
+            ],
+            [
+              "famille",
+              "عائلة"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "très",
+              "جداً"
+            ],
+            [
+              "internationale !",
+              "دولية"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "قارن: **Sa** femme (زوجته، عن هوغو) و **son** mari (زوجها، عن الأخت). في العربية الفرق في الضمير (ـه / ـها)، وفي الفرنسية الفرق في **جنس الكلمة**: femme مؤنثة فـ sa، و mari مذكر فـ son."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات العائلة",
+      "hint_ar": "كل فرد مع أداته. لاحظ أن بعض الكلمات لها معنيان: **femme** (امرأة / زوجة)، **fille** (بنت / ابنة).",
+      "groups": [
+        {
+          "title_ar": "الوالدان والأبناء",
+          "items": [
+            {
+              "id": "v-pere",
+              "say": "le père",
+              "ar": "الأب"
+            },
+            {
+              "id": "v-mere",
+              "say": "la mère",
+              "ar": "الأم"
+            },
+            {
+              "id": "v-parents",
+              "say": "les parents",
+              "ar": "الوالدان",
+              "note_ar": "وتعني أيضاً «الأقارب»."
+            },
+            {
+              "id": "v-fils",
+              "say": "le fils",
+              "ar": "الابن",
+              "note_ar": "تُنطق «فيس»: الـ l صامتة والـ s تُنطق."
+            },
+            {
+              "id": "v-fille",
+              "say": "la fille",
+              "ar": "الابنة / البنت",
+              "note_ar": "تُنطق «فيّ»."
+            },
+            {
+              "id": "v-enfant",
+              "say": "l'enfant",
+              "ar": "الطفل"
+            }
+          ]
+        },
+        {
+          "title_ar": "الإخوة والزوجان",
+          "items": [
+            {
+              "id": "v-frere",
+              "say": "le frère",
+              "ar": "الأخ"
+            },
+            {
+              "id": "v-soeur",
+              "say": "la sœur",
+              "ar": "الأخت"
+            },
+            {
+              "id": "v-mari",
+              "say": "le mari",
+              "ar": "الزوج"
+            },
+            {
+              "id": "v-femme",
+              "say": "la femme",
+              "ar": "الزوجة / المرأة"
+            },
+            {
+              "id": "v-marie",
+              "say": "marié, mariée",
+              "ar": "متزوج / متزوجة",
+              "fr": "marié / mariée"
+            },
+            {
+              "id": "v-celib",
+              "say": "célibataire",
+              "ar": "أعزب / عزباء"
+            }
+          ]
+        },
+        {
+          "title_ar": "الأجداد والأقارب",
+          "items": [
+            {
+              "id": "v-gp",
+              "say": "le grand-père",
+              "ar": "الجد"
+            },
+            {
+              "id": "v-gm",
+              "say": "la grand-mère",
+              "ar": "الجدة"
+            },
+            {
+              "id": "v-gps",
+              "say": "les grands-parents",
+              "ar": "الأجداد"
+            },
+            {
+              "id": "v-oncle",
+              "say": "l'oncle",
+              "ar": "العم / الخال",
+              "note_ar": "كلمة واحدة للعم والخال!"
+            },
+            {
+              "id": "v-tante",
+              "say": "la tante",
+              "ar": "العمة / الخالة"
+            },
+            {
+              "id": "v-cousin",
+              "say": "le cousin, la cousine",
+              "ar": "ابن العم أو الخال / ابنة العم أو الخالة",
+              "fr": "le cousin / la cousine"
+            },
+            {
+              "id": "v-neveu",
+              "say": "le neveu, la nièce",
+              "ar": "ابن الأخ أو الأخت / ابنتهما",
+              "fr": "le neveu / la nièce"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-freres",
+              "say": "Tu as des frères et sœurs ?",
+              "ar": "هل عندك إخوة؟"
+            },
+            {
+              "id": "v-unique",
+              "say": "Je suis fils unique.",
+              "ar": "أنا ابن وحيد.",
+              "note_ar": "والبنت: **fille unique**."
+            },
+            {
+              "id": "v-sappelle",
+              "say": "Il s'appelle Hugo.",
+              "ar": "اسمه هوغو."
+            },
+            {
+              "id": "v-mignon",
+              "say": "mignon, mignonne",
+              "ar": "لطيف / لطيفة (للأطفال)",
+              "fr": "mignon / mignonne"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الملكية",
+      "title_ar": "القاعدة: أدوات الملكية كاملة",
+      "intro_ar": "اختر السطر حسب **المالك** (أنا، أنت، هو…)، ثم العمود حسب **الشيء المملوك** (مذكر، مؤنث، جمع).",
+      "tables": [
+        {
+          "title_fr": "Les adjectifs possessifs",
+          "title_ar": "أدوات الملكية",
+          "head_ar": [
+            "المالك",
+            "مذكر",
+            "مؤنث",
+            "جمع"
+          ],
+          "rows": [
+            {
+              "id": "g-je",
+              "say": "mon père, ma mère, mes parents",
+              "cells": [
+                "je",
+                "mon",
+                "ma",
+                "mes"
+              ],
+              "ar": "ـي"
+            },
+            {
+              "id": "g-tu",
+              "say": "ton père, ta mère, tes parents",
+              "cells": [
+                "tu",
+                "ton",
+                "ta",
+                "tes"
+              ],
+              "ar": "ـكَ / ـكِ"
+            },
+            {
+              "id": "g-il",
+              "say": "son père, sa mère, ses parents",
+              "cells": [
+                "il / elle",
+                "son",
+                "sa",
+                "ses"
+              ],
+              "ar": "ـه / ـها (الاثنان!)"
+            },
+            {
+              "id": "g-nous",
+              "say": "notre père, notre mère, nos parents",
+              "cells": [
+                "nous",
+                "notre",
+                "notre",
+                "nos"
+              ],
+              "ar": "ـنا"
+            },
+            {
+              "id": "g-vous",
+              "say": "votre père, votre mère, vos parents",
+              "cells": [
+                "vous",
+                "votre",
+                "votre",
+                "vos"
+              ],
+              "ar": "ـكم / ـك (رسمي)"
+            },
+            {
+              "id": "g-ils",
+              "say": "leur père, leur mère, leurs parents",
+              "cells": [
+                "ils / elles",
+                "leur",
+                "leur",
+                "leurs"
+              ],
+              "ar": "ـهم / ـهنّ"
+            }
+          ],
+          "note_ar": "مع **nous** و **vous** و **ils** لا فرق بين المذكر والمؤنث: notre، votre، leur. الفرق فقط في الجمع."
+        }
+      ],
+      "points_ar": [
+        "**son père = أبوه أو أبوها.** الأداة تتبع **الشيء** لا المالك: le père de Claire = **son** père، و la voiture de Youssef = **sa** voiture.",
+        "**mon/ton/son أمام حرف علة:** أمام اسم مؤنث يبدأ بحرف علة نقول mon/ton/son: **mon** amie، **son** école. وذلك لتسهيل النطق.",
+        "**leur أم leurs؟** النطق واحد «لوغ»، والفرق يُسمع فقط في الوصل: **leurs‿enfants** «لوغزونفون».",
+        "**oncle = عم وخال، tante = عمة وخالة.** الفرنسية لا تفرّق بين جهة الأب وجهة الأم. وإن أردت التوضيح: mon oncle **paternel** (من جهة الأب)."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: أدوات الملكية",
+      "hint_ar": "فكّر في سؤالين: من المالك؟ وما جنس الشيء المملوك وعدده؟",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Paul, c'est le père de Claire. C'est ___ père.",
+          "say": "Paul, c'est le père de Claire. C'est son père.",
+          "options": [
+            "son",
+            "sa"
+          ],
+          "answer": "son",
+          "ar": "بول هو أبو كلير. إنه أبوها.",
+          "explain_ar": "père مذكر: **son**، حتى لو كانت المالكة امرأة."
+        },
+        {
+          "id": "f2",
+          "text": "C'est la voiture de Youssef. C'est ___ voiture.",
+          "say": "C'est la voiture de Youssef. C'est sa voiture.",
+          "options": [
+            "son",
+            "sa"
+          ],
+          "answer": "sa",
+          "ar": "هذه سيارة يوسف. إنها سيارته.",
+          "explain_ar": "voiture مؤنثة: **sa**، حتى لو كان المالك رجلاً."
+        },
+        {
+          "id": "f3",
+          "text": "Anne, c'est la mère de Hugo. C'est ___ mère.",
+          "say": "Anne, c'est la mère de Hugo. C'est sa mère.",
+          "options": [
+            "son",
+            "sa",
+            "ses"
+          ],
+          "answer": "sa",
+          "ar": "آن هي أم هوغو. إنها أمه.",
+          "explain_ar": "mère مؤنثة: **sa**."
+        },
+        {
+          "id": "f4",
+          "text": "Ce sont les enfants de Hugo et Sofia. Ce sont ___ enfants.",
+          "say": "Ce sont les enfants de Hugo et Sofia. Ce sont leurs enfants.",
+          "options": [
+            "leur",
+            "leurs",
+            "ses"
+          ],
+          "answer": "leurs",
+          "ar": "هؤلاء أطفال هوغو وصوفيا. إنهم أطفالهما.",
+          "explain_ar": "مالكان + شيء جمع: **leurs**."
+        },
+        {
+          "id": "f5",
+          "text": "Nous avons une maison. C'est ___ maison.",
+          "say": "Nous avons une maison. C'est notre maison.",
+          "options": [
+            "notre",
+            "nos"
+          ],
+          "answer": "notre",
+          "ar": "عندنا بيت. إنه بيتنا.",
+          "explain_ar": "nous + مفرد: **notre**."
+        },
+        {
+          "id": "f6",
+          "text": "Vous avez des enfants ? Ce sont ___ enfants ?",
+          "say": "Vous avez des enfants ? Ce sont vos enfants ?",
+          "options": [
+            "votre",
+            "vos"
+          ],
+          "answer": "vos",
+          "ar": "هل عندكم أطفال؟ هل هؤلاء أطفالكم؟",
+          "explain_ar": "vous + جمع: **vos**."
+        },
+        {
+          "id": "f7",
+          "text": "Tu as un frère ? Comment s'appelle ___ frère ?",
+          "say": "Tu as un frère ? Comment s'appelle ton frère ?",
+          "options": [
+            "ton",
+            "ta",
+            "tes"
+          ],
+          "answer": "ton",
+          "ar": "هل عندك أخ؟ ما اسم أخيك؟",
+          "explain_ar": "tu + مذكر: **ton**."
+        },
+        {
+          "id": "f8",
+          "text": "C'est ___ amie Léa.",
+          "say": "C'est mon amie Léa.",
+          "options": [
+            "mon",
+            "ma"
+          ],
+          "answer": "mon",
+          "ar": "هذه صديقتي ليا.",
+          "explain_ar": "amie تبدأ بحرف علة: **mon**."
+        },
+        {
+          "id": "f9",
+          "text": "Ce sont ___ parents.",
+          "say": "Ce sont mes parents.",
+          "options": [
+            "mon",
+            "mes"
+          ],
+          "answer": "mes",
+          "ar": "هؤلاء والداي.",
+          "explain_ar": "parents جمع: **mes**."
+        },
+        {
+          "id": "f10",
+          "text": "Claire et son frère ont une tante. C'est ___ tante.",
+          "say": "Claire et son frère ont une tante. C'est leur tante.",
+          "options": [
+            "leur",
+            "leurs",
+            "sa"
+          ],
+          "answer": "leur",
+          "ar": "كلير وأخوها عندهما عمة. إنها عمتهما.",
+          "explain_ar": "مالكان + شيء مفرد: **leur**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: ماذا سمعت؟",
+      "hint_ar": "أدوات ملكية وكلمات عائلة متشابهة في السمع.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختارها.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "sa sœur",
+          "options": [
+            "sa sœur",
+            "ses sœurs"
+          ],
+          "answer": "sa sœur",
+          "explain_ar": "sa «سا»: مفرد."
+        },
+        {
+          "id": "q2",
+          "say": "ses frères",
+          "options": [
+            "son frère",
+            "ses frères"
+          ],
+          "answer": "ses frères",
+          "explain_ar": "ses «سي»: جمع."
+        },
+        {
+          "id": "q3",
+          "say": "mon fils",
+          "options": [
+            "mon fils",
+            "ma fille"
+          ],
+          "answer": "mon fils",
+          "explain_ar": "fils «فيس»: ابن."
+        },
+        {
+          "id": "q4",
+          "say": "ma fille",
+          "options": [
+            "mon fils",
+            "ma fille"
+          ],
+          "answer": "ma fille",
+          "explain_ar": "fille «فيّ»: ابنة."
+        },
+        {
+          "id": "q5",
+          "say": "leurs enfants",
+          "options": [
+            "leur enfant",
+            "leurs enfants"
+          ],
+          "answer": "leurs enfants",
+          "explain_ar": "leurs‿enfants «لوغزونفون»: سمعت «ز» = جمع."
+        },
+        {
+          "id": "q6",
+          "say": "nos parents",
+          "options": [
+            "notre parent",
+            "nos parents"
+          ],
+          "answer": "nos parents",
+          "explain_ar": "nos «نو»: جمع."
+        },
+        {
+          "id": "q7",
+          "say": "ma cousine",
+          "options": [
+            "mon cousin",
+            "ma cousine"
+          ],
+          "answer": "ma cousine",
+          "explain_ar": "cousine: سمعت النون «كوزين»."
+        },
+        {
+          "id": "q8",
+          "say": "ton oncle",
+          "options": [
+            "ton oncle",
+            "ta tante"
+          ],
+          "answer": "ton oncle",
+          "explain_ar": "oncle «أونكل»: عم/خال."
+        },
+        {
+          "id": "q9",
+          "say": "ma mère",
+          "options": [
+            "ma mère",
+            "mon père"
+          ],
+          "answer": "ma mère",
+          "explain_ar": "mère «ميغ»: أم."
+        },
+        {
+          "id": "q10",
+          "say": "vos enfants",
+          "options": [
+            "votre enfant",
+            "vos enfants"
+          ],
+          "answer": "vos enfants",
+          "explain_ar": "vos‿enfants «ڤوزونفون»: جمع."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب ما تسمعه",
+      "hint_ar": "أفراد العائلة مع أدوات الملكية. المعنى ظاهر.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "انتبه: **sœur** فيها حرف **œ** (o و e ملتصقان)، وتجده في لوحة الحروف أو تكتب oe.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "le père",
+          "answer": "le père",
+          "ar": "الأب"
+        },
+        {
+          "id": "s2",
+          "say": "la mère",
+          "answer": "la mère",
+          "ar": "الأم"
+        },
+        {
+          "id": "s3",
+          "say": "mon frère",
+          "answer": "mon frère",
+          "ar": "أخي"
+        },
+        {
+          "id": "s4",
+          "say": "ma sœur",
+          "answer": "ma sœur",
+          "ar": "أختي"
+        },
+        {
+          "id": "s5",
+          "say": "les parents",
+          "answer": "les parents",
+          "ar": "الوالدان"
+        },
+        {
+          "id": "s6",
+          "say": "son mari",
+          "answer": "son mari",
+          "ar": "زوجها"
+        },
+        {
+          "id": "s7",
+          "say": "leurs enfants",
+          "answer": "leurs enfants",
+          "ar": "أطفالهم"
+        },
+        {
+          "id": "s8",
+          "say": "notre famille",
+          "answer": "notre famille",
+          "ar": "عائلتنا"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل تعرّف بها عائلتك. ردّدها ثم غيّر الأسماء لتناسب عائلتك.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Voilà mes parents.",
+          "ar": "هذان والداي.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Voilà",
+              "هؤلاء"
+            ],
+            [
+              "mes",
+              "ـي (جمع)"
+            ],
+            [
+              "parents.",
+              "والدان"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Mon frère s'appelle Hugo.",
+          "ar": "أخي اسمه هوغو.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "frère",
+              "أخ"
+            ],
+            [
+              "s'appelle",
+              "اسمه"
+            ],
+            [
+              "Hugo.",
+              "هوغو"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Sa femme est espagnole.",
+          "ar": "زوجته إسبانية.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Sa",
+              "ـه"
+            ],
+            [
+              "femme",
+              "زوجة"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "espagnole.",
+              "إسبانية"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Leur fille a trois ans.",
+          "ar": "ابنتهما عمرها ثلاث سنوات.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Leur",
+              "ـهما"
+            ],
+            [
+              "fille",
+              "ابنة"
+            ],
+            [
+              "a",
+              "عندها"
+            ],
+            [
+              "trois",
+              "3"
+            ],
+            [
+              "ans.",
+              "سنوات"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "J'ai deux frères et une sœur.",
+          "ar": "عندي أخوان وأخت.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "J'ai",
+              "عندي"
+            ],
+            [
+              "deux",
+              "اثنان"
+            ],
+            [
+              "frères",
+              "إخوة"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "sœur.",
+              "أخت"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: عرّف بعائلتك في أربع جمل وسجّل نفسك: **Mon père s'appelle… Ma mère… J'ai … frères. Mes enfants…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل الكلمة مع أداتها قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "le père / la mère",
+          "say": "le père, la mère",
+          "back_ar": "الأب / الأم"
+        },
+        {
+          "id": "c2",
+          "front": "le frère / la sœur",
+          "say": "le frère, la sœur",
+          "back_ar": "الأخ / الأخت"
+        },
+        {
+          "id": "c3",
+          "front": "le fils / la fille",
+          "say": "le fils, la fille",
+          "back_ar": "الابن / الابنة"
+        },
+        {
+          "id": "c4",
+          "front": "le mari / la femme",
+          "say": "le mari, la femme",
+          "back_ar": "الزوج / الزوجة"
+        },
+        {
+          "id": "c5",
+          "front": "les parents",
+          "say": "les parents",
+          "back_ar": "الوالدان"
+        },
+        {
+          "id": "c6",
+          "front": "les grands-parents",
+          "say": "les grands-parents",
+          "back_ar": "الأجداد"
+        },
+        {
+          "id": "c7",
+          "front": "l'oncle / la tante",
+          "say": "l'oncle, la tante",
+          "back_ar": "العم أو الخال / العمة أو الخالة"
+        },
+        {
+          "id": "c8",
+          "front": "le cousin / la cousine",
+          "say": "le cousin, la cousine",
+          "back_ar": "ابن العم / ابنة العم"
+        },
+        {
+          "id": "c9",
+          "front": "son père",
+          "say": "son père",
+          "back_ar": "أبوه **أو** أبوها"
+        },
+        {
+          "id": "c10",
+          "front": "sa voiture",
+          "say": "sa voiture",
+          "back_ar": "سيارته أو سيارتها"
+        },
+        {
+          "id": "c11",
+          "front": "ton / ta / tes",
+          "say": "ton, ta, tes",
+          "back_ar": "ـكَ: مذكر / مؤنث / جمع"
+        },
+        {
+          "id": "c12",
+          "front": "notre / nos",
+          "say": "notre, nos",
+          "back_ar": "ـنا: مفرد / جمع"
+        },
+        {
+          "id": "c13",
+          "front": "votre / vos",
+          "say": "votre, vos",
+          "back_ar": "ـكم: مفرد / جمع"
+        },
+        {
+          "id": "c14",
+          "front": "leur / leurs",
+          "say": "leur, leurs",
+          "back_ar": "ـهم: مفرد / جمع"
+        },
+        {
+          "id": "c15",
+          "front": "marié(e)",
+          "say": "marié",
+          "back_ar": "متزوج(ة)"
+        },
+        {
+          "id": "c16",
+          "front": "fils unique",
+          "say": "fils unique",
+          "back_ar": "ابن وحيد"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1155 @@
+{
+  "id": "a1-05",
+  "stage": "A1",
+  "title_fr": "J'ai vingt ans",
+  "title_ar": "عمري عشرون سنة",
+  "goals_ar": [
+    "تصرّف فعل **avoir** (يملك / عنده) في الحاضر",
+    "تقول عمرك وتسأل عن عمر غيرك: **J'ai trente ans. Tu as quel âge ?**",
+    "تتكلم عن أشيائك: **J'ai une voiture.**",
+    "تستعمل أدوات الملكية الأولى: **mon**، **ma**، **mes**",
+    "تعبّر عن الجوع والعطش والبرد: **J'ai faim.**"
+  ],
+  "intro_ar": [
+    "**avoir** ثاني أهم فعل بعد être. معناه الأصلي «يملك»، لكن الفرنسية تستعمله في أماكن كثيرة تستعمل فيها العربية «عند» أو فعل الكون.",
+    "**الفرق الكبير في العمر:** العربية تقول «عمري ثلاثون» أو «أنا في الثلاثين»، والفرنسية تقول **«عندي ثلاثون سنة»**: **J'ai trente ans**. لا تقل أبداً «je suis trente»، وكلمة **ans** إجبارية.",
+    "ومثلها الجوع والعطش: «أنا جائع» = **J'ai faim** (عندي جوع)، و«أنا عطشان» = **J'ai soif**."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: استبيان للصف",
+      "context_ar": "الأستاذ طلب من الطلاب استبياناً قصيراً. كلير تسأل يوسف الأسئلة، وكلها بفعل avoir.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Pour le cours, j'ai un questionnaire. Tu as quel âge ?",
+          "ar": "للدرس عندي استبيان. كم عمرك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Pour",
+              "لـ"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "cours,",
+              "درس"
+            ],
+            [
+              "j'ai",
+              "عندي"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "questionnaire.",
+              "استبيان"
+            ],
+            [
+              "Tu as quel âge ?",
+              "كم عمرك؟"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "J'ai trente-cinq ans. Et toi ?",
+          "ar": "عمري خمسة وثلاثون عاماً. وأنتِ؟",
+          "slow": true,
+          "gloss": [
+            [
+              "J'ai",
+              "عندي"
+            ],
+            [
+              "trente-cinq",
+              "35"
+            ],
+            [
+              "ans.",
+              "سنة"
+            ],
+            [
+              "Et toi ?",
+              "وأنتِ؟"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Moi, j'ai vingt-huit ans. Tu as une voiture ?",
+          "ar": "أنا عمري ثمانية وعشرون. هل عندك سيارة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "j'ai",
+              "عندي"
+            ],
+            [
+              "vingt-huit",
+              "28"
+            ],
+            [
+              "ans.",
+              "سنة"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "as",
+              "عندك"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "voiture ?",
+              "سيارة"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Oui, j'ai une voiture à Riyad, mais ici, j'ai un vélo.",
+          "ar": "نعم، عندي سيارة في الرياض، لكن هنا عندي دراجة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "j'ai",
+              "عندي"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "voiture",
+              "سيارة"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "Riyad,",
+              "الرياض"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "ici,",
+              "هنا"
+            ],
+            [
+              "j'ai",
+              "عندي"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "vélo.",
+              "دراجة"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Tu as des enfants ?",
+          "ar": "هل عندك أطفال؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "as",
+              "عندك"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "enfants ?",
+              "أطفال"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Oui, j'ai deux enfants : un fils et une fille.",
+          "ar": "نعم، عندي طفلان: ابن وابنة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "j'ai",
+              "عندي"
+            ],
+            [
+              "deux",
+              "اثنان"
+            ],
+            [
+              "enfants :",
+              "أطفال"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "fils",
+              "ابن"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "fille.",
+              "ابنة"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Et vous avez un animal ?",
+          "ar": "وهل عندكم حيوان أليف؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "vous",
+              "أنتم"
+            ],
+            [
+              "avez",
+              "عندكم"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "animal ?",
+              "حيوان"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Oui, mes enfants ont un poisson rouge !",
+          "ar": "نعم، أطفالي عندهم سمكة ذهبية!",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "mes",
+              "ـي (جمع)"
+            ],
+            [
+              "enfants",
+              "أطفال"
+            ],
+            [
+              "ont",
+              "عندهم"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "poisson rouge !",
+              "سمكة ذهبية"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Super ! Merci, et voilà mon questionnaire complet.",
+          "ar": "رائع! شكراً، وهذا استبياني كاملاً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Super !",
+              "رائع"
+            ],
+            [
+              "Merci,",
+              "شكراً"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "voilà",
+              "ها هو"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "questionnaire",
+              "استبيان"
+            ],
+            [
+              "complet.",
+              "كامل"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "لاحظ **vous avez** في السطر 7: كلير تسأل عن يوسف وعائلته معاً، فاستعملت vous للجمع. ولاحظ **poisson rouge**: حرفياً «سمكة حمراء»، وهي السمكة الذهبية الصغيرة."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "عبارات avoir اليومية، وأشياء تملكها. استمع لكل عبارة وردّدها.",
+      "groups": [
+        {
+          "title_ar": "العمر",
+          "items": [
+            {
+              "id": "v-quelage",
+              "say": "Tu as quel âge ?",
+              "ar": "كم عمرك؟ (غير رسمي)"
+            },
+            {
+              "id": "v-quelage2",
+              "say": "Quel âge avez-vous ?",
+              "ar": "كم عمرك؟ (رسمي)"
+            },
+            {
+              "id": "v-ans",
+              "say": "J'ai trente ans.",
+              "ar": "عمري ثلاثون سنة.",
+              "note_ar": "لا تنسَ **ans** أبداً."
+            },
+            {
+              "id": "v-an",
+              "say": "Il a un an.",
+              "ar": "عمره سنة واحدة."
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات avoir",
+          "items": [
+            {
+              "id": "v-faim",
+              "say": "J'ai faim.",
+              "ar": "أنا جائع.",
+              "note_ar": "حرفياً: «عندي جوع»."
+            },
+            {
+              "id": "v-soif",
+              "say": "J'ai soif.",
+              "ar": "أنا عطشان."
+            },
+            {
+              "id": "v-chaud",
+              "say": "J'ai chaud.",
+              "ar": "أشعر بالحر."
+            },
+            {
+              "id": "v-froid",
+              "say": "J'ai froid.",
+              "ar": "أشعر بالبرد."
+            },
+            {
+              "id": "v-sommeil",
+              "say": "J'ai sommeil.",
+              "ar": "أنا نعسان."
+            },
+            {
+              "id": "v-raison",
+              "say": "Tu as raison.",
+              "ar": "معك حق."
+            },
+            {
+              "id": "v-peur",
+              "say": "J'ai peur.",
+              "ar": "أنا خائف."
+            }
+          ]
+        },
+        {
+          "title_ar": "أشياء تملكها",
+          "items": [
+            {
+              "id": "v-voiture",
+              "say": "une voiture",
+              "ar": "سيارة"
+            },
+            {
+              "id": "v-velo",
+              "say": "un vélo",
+              "ar": "دراجة"
+            },
+            {
+              "id": "v-portable",
+              "say": "un portable",
+              "ar": "هاتف محمول"
+            },
+            {
+              "id": "v-passeport",
+              "say": "un passeport",
+              "ar": "جواز سفر"
+            },
+            {
+              "id": "v-portefeuille",
+              "say": "un portefeuille",
+              "ar": "محفظة"
+            },
+            {
+              "id": "v-carte",
+              "say": "une carte bancaire",
+              "ar": "بطاقة بنكية"
+            },
+            {
+              "id": "v-animal",
+              "say": "un animal",
+              "ar": "حيوان",
+              "note_ar": "الجمع: des animaux."
+            },
+            {
+              "id": "v-chat",
+              "say": "un chat",
+              "ar": "قط"
+            },
+            {
+              "id": "v-chien",
+              "say": "un chien",
+              "ar": "كلب"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "avoir",
+      "title_ar": "القاعدة: فعل avoir وأدوات الملكية",
+      "intro_ar": "**avoir** شاذ مثل être، فاحفظه كما هو. ثم تعلّم أول أدوات الملكية: كيف تقول «كتابي» و«سيارتي» و«مفاتيحي».",
+      "tables": [
+        {
+          "title_fr": "avoir (au présent)",
+          "title_ar": "فعل «يملك / عنده» في الحاضر",
+          "head_ar": [
+            "الضمير",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-jai",
+              "say": "j'ai",
+              "cells": [
+                "j'",
+                "ai"
+              ],
+              "ar": "عندي"
+            },
+            {
+              "id": "g-tuas",
+              "say": "tu as",
+              "cells": [
+                "tu",
+                "as"
+              ],
+              "ar": "عندك"
+            },
+            {
+              "id": "g-ila",
+              "say": "il a",
+              "cells": [
+                "il / elle / on",
+                "a"
+              ],
+              "ar": "عنده / عندها / عندنا"
+            },
+            {
+              "id": "g-nous",
+              "say": "nous avons",
+              "cells": [
+                "nous",
+                "avons"
+              ],
+              "ar": "عندنا"
+            },
+            {
+              "id": "g-vous",
+              "say": "vous avez",
+              "cells": [
+                "vous",
+                "avez"
+              ],
+              "ar": "عندكم / عند حضرتك"
+            },
+            {
+              "id": "g-ils",
+              "say": "ils ont",
+              "cells": [
+                "ils / elles",
+                "ont"
+              ],
+              "ar": "عندهم / عندهنّ"
+            }
+          ],
+          "note_ar": "**j'ai** بالحذف لأن ai تبدأ بحرف علة. وانتبه للوصل: **nous‿avons** «نوزاڤون»، **vous‿avez** «ڤوزاڤيه»، **ils‿ont** «إيلزون»."
+        },
+        {
+          "title_fr": "mon, ma, mes",
+          "title_ar": "ملكية «أنا»: ـي",
+          "head_ar": [
+            "الأداة",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-mon",
+              "say": "mon livre",
+              "cells": [
+                "mon",
+                "mon livre"
+              ],
+              "ar": "كتابي (مذكر)"
+            },
+            {
+              "id": "g-ma",
+              "say": "ma voiture",
+              "cells": [
+                "ma",
+                "ma voiture"
+              ],
+              "ar": "سيارتي (مؤنث)"
+            },
+            {
+              "id": "g-mes",
+              "say": "mes clés",
+              "cells": [
+                "mes",
+                "mes clés"
+              ],
+              "ar": "مفاتيحي (جمع)"
+            },
+            {
+              "id": "g-monamie",
+              "say": "mon amie",
+              "cells": [
+                "mon",
+                "mon amie"
+              ],
+              "ar": "صديقتي (مؤنث يبدأ بحرف علة)"
+            }
+          ],
+          "note_ar": "الأداة تتفق مع **الشيء المملوك** لا مع المالك: يوسف يقول **ma** voiture لأن voiture مؤنثة. وأمام اسم مؤنث يبدأ بحرف علة نقول **mon** لتسهيل النطق: mon amie، mon école."
+        }
+      ],
+      "points_ar": [
+        "**العمر بـ avoir:** **J'ai 35 ans**. لا تقل je suis 35، ولا تحذف ans.",
+        "**ils ont أم ils sont؟** الفرق صوت واحد: «إيلزون» (عندهم) و«إيل سون» (هم يكونون). تدربت عليه في الوحدة 0.6، وهو الآن مهم جداً.",
+        "**الجوع والعطش والبرد:** الفرنسية تقول «عندي جوع» لا «أنا جائع»: J'ai faim، J'ai soif، J'ai froid."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: avoir والملكية",
+      "hint_ar": "اختر الشكل الصحيح. انتبه: avoir أم être؟ مذكر أم مؤنث أم جمع؟",
+      "items": [
+        {
+          "id": "f1",
+          "text": "J'___ trente ans.",
+          "say": "J'ai trente ans.",
+          "options": [
+            "ai",
+            "suis"
+          ],
+          "answer": "ai",
+          "ar": "عمري ثلاثون سنة.",
+          "explain_ar": "العمر بفعل avoir: **j'ai** … ans."
+        },
+        {
+          "id": "f2",
+          "text": "Tu ___ quel âge ?",
+          "say": "Tu as quel âge ?",
+          "options": [
+            "as",
+            "es"
+          ],
+          "answer": "as",
+          "ar": "كم عمرك؟",
+          "explain_ar": "avoir مع tu: **as**."
+        },
+        {
+          "id": "f3",
+          "text": "Nous ___ une voiture.",
+          "say": "Nous avons une voiture.",
+          "options": [
+            "avons",
+            "sommes"
+          ],
+          "answer": "avons",
+          "ar": "عندنا سيارة.",
+          "explain_ar": "الملكية بـ avoir: **nous avons**."
+        },
+        {
+          "id": "f4",
+          "text": "Vous ___ des enfants ?",
+          "say": "Vous avez des enfants ?",
+          "options": [
+            "avez",
+            "êtes"
+          ],
+          "answer": "avez",
+          "ar": "هل عندكم أطفال؟",
+          "explain_ar": "**vous avez** = عندكم."
+        },
+        {
+          "id": "f5",
+          "text": "Ils ___ un chien.",
+          "say": "Ils ont un chien.",
+          "options": [
+            "ont",
+            "sont"
+          ],
+          "answer": "ont",
+          "ar": "عندهم كلب.",
+          "explain_ar": "**ils ont** = عندهم. أما ils sont = هم يكونون."
+        },
+        {
+          "id": "f6",
+          "text": "Elle ___ vingt ans.",
+          "say": "Elle a vingt ans.",
+          "options": [
+            "a",
+            "est"
+          ],
+          "answer": "a",
+          "ar": "عمرها عشرون سنة.",
+          "explain_ar": "العمر: **elle a** … ans."
+        },
+        {
+          "id": "f7",
+          "text": "J'ai ___.",
+          "say": "J'ai faim.",
+          "options": [
+            "faim",
+            "faime"
+          ],
+          "answer": "faim",
+          "ar": "أنا جائع.",
+          "explain_ar": "**J'ai faim** = عندي جوع."
+        },
+        {
+          "id": "f8",
+          "text": "C'est ___ téléphone.",
+          "say": "C'est mon téléphone.",
+          "options": [
+            "mon",
+            "ma",
+            "mes"
+          ],
+          "answer": "mon",
+          "ar": "هذا هاتفي.",
+          "explain_ar": "téléphone مذكر: **mon**."
+        },
+        {
+          "id": "f9",
+          "text": "Voilà ___ clés.",
+          "say": "Voilà mes clés.",
+          "options": [
+            "mon",
+            "ma",
+            "mes"
+          ],
+          "answer": "mes",
+          "ar": "ها هي مفاتيحي.",
+          "explain_ar": "clés جمع: **mes**."
+        },
+        {
+          "id": "f10",
+          "text": "C'est ___ amie Claire.",
+          "say": "C'est mon amie Claire.",
+          "options": [
+            "mon",
+            "ma"
+          ],
+          "answer": "mon",
+          "ar": "هذه صديقتي كلير.",
+          "explain_ar": "amie مؤنثة لكنها تبدأ بحرف علة: **mon** amie."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: avoir أم être؟",
+      "hint_ar": "أزواج تختلف في صوت واحد. استمع لما بعد الضمير جيداً.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "ils ont",
+          "options": [
+            "ils ont",
+            "ils sont"
+          ],
+          "answer": "ils ont",
+          "explain_ar": "ils‿ont «إيلزون»: عندهم."
+        },
+        {
+          "id": "q2",
+          "say": "elles sont",
+          "options": [
+            "elles ont",
+            "elles sont"
+          ],
+          "answer": "elles sont",
+          "explain_ar": "elles sont «إيل سون»: هنّ يكنّ."
+        },
+        {
+          "id": "q3",
+          "say": "il a",
+          "options": [
+            "il a",
+            "il est"
+          ],
+          "answer": "il a",
+          "explain_ar": "il a «إيلا»: عنده."
+        },
+        {
+          "id": "q4",
+          "say": "tu es",
+          "options": [
+            "tu as",
+            "tu es"
+          ],
+          "answer": "tu es",
+          "explain_ar": "tu es «تُو إي»: أنتَ تكون."
+        },
+        {
+          "id": "q5",
+          "say": "j'ai",
+          "options": [
+            "j'ai",
+            "je suis"
+          ],
+          "answer": "j'ai",
+          "explain_ar": "j'ai «ژيه»: عندي."
+        },
+        {
+          "id": "q6",
+          "say": "mes clés",
+          "options": [
+            "ma clé",
+            "mes clés"
+          ],
+          "answer": "mes clés",
+          "explain_ar": "mes «مي»: جمع."
+        },
+        {
+          "id": "q7",
+          "say": "mon vélo",
+          "options": [
+            "mon vélo",
+            "mes vélos"
+          ],
+          "answer": "mon vélo",
+          "explain_ar": "mon «مون»: مفرد مذكر."
+        },
+        {
+          "id": "q8",
+          "say": "nous avons",
+          "options": [
+            "nous avons",
+            "vous avez"
+          ],
+          "answer": "nous avons",
+          "explain_ar": "nous‿avons «نوزاڤون»."
+        },
+        {
+          "id": "q9",
+          "say": "J'ai froid.",
+          "options": [
+            "J'ai faim.",
+            "J'ai froid."
+          ],
+          "answer": "J'ai froid.",
+          "explain_ar": "froid «فغوا»: برد."
+        },
+        {
+          "id": "q10",
+          "say": "trente ans",
+          "options": [
+            "treize ans",
+            "trente ans"
+          ],
+          "answer": "trente ans",
+          "explain_ar": "trente‿ans «تغونتان»: 30."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب ما تسمعه",
+      "hint_ar": "تصريف avoir وأدوات الملكية. المعنى ظاهر.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **j'ai** بفاصلة عليا، و **ils ont** بلا s في ont.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "j'ai",
+          "answer": "j'ai",
+          "ar": "عندي"
+        },
+        {
+          "id": "s2",
+          "say": "tu as",
+          "answer": "tu as",
+          "ar": "عندك"
+        },
+        {
+          "id": "s3",
+          "say": "il a",
+          "answer": "il a",
+          "ar": "عنده"
+        },
+        {
+          "id": "s4",
+          "say": "nous avons",
+          "answer": "nous avons",
+          "ar": "عندنا"
+        },
+        {
+          "id": "s5",
+          "say": "vous avez",
+          "answer": "vous avez",
+          "ar": "عندكم"
+        },
+        {
+          "id": "s6",
+          "say": "ils ont",
+          "answer": "ils ont",
+          "ar": "عندهم"
+        },
+        {
+          "id": "s7",
+          "say": "mes clés",
+          "answer": "mes clés",
+          "ar": "مفاتيحي"
+        },
+        {
+          "id": "s8",
+          "say": "ma voiture",
+          "answer": "ma voiture",
+          "ar": "سيارتي"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل avoir اليومية. ركّز على الوصل في nous avons و vous avez و ils ont.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "J'ai trente-cinq ans.",
+          "ar": "عمري خمسة وثلاثون عاماً.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "J'ai",
+              "عندي"
+            ],
+            [
+              "trente-cinq",
+              "35"
+            ],
+            [
+              "ans.",
+              "سنة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Tu as quel âge ?",
+          "ar": "كم عمرك؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Tu as quel âge ?",
+              "كم عمرك؟"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Nous avons une voiture et un vélo.",
+          "ar": "عندنا سيارة ودراجة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "avons",
+              "عندنا"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "voiture",
+              "سيارة"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "vélo.",
+              "دراجة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "J'ai faim et j'ai soif !",
+          "ar": "أنا جائع وعطشان!",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "J'ai faim",
+              "أنا جائع"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "j'ai soif !",
+              "أنا عطشان"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Voilà mon passeport et mes clés.",
+          "ar": "ها هو جوازي ومفاتيحي.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Voilà",
+              "ها هو"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "passeport",
+              "جواز سفر"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "mes",
+              "ـي (جمع)"
+            ],
+            [
+              "clés.",
+              "مفاتيح"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: سجّل ثلاث جمل عنك: **J'ai … ans. J'ai un/une… Mes enfants / Mon ami a…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "j'ai / tu as",
+          "say": "j'ai, tu as",
+          "back_ar": "عندي / عندك"
+        },
+        {
+          "id": "c2",
+          "front": "il a / elle a",
+          "say": "il a, elle a",
+          "back_ar": "عنده / عندها"
+        },
+        {
+          "id": "c3",
+          "front": "nous avons",
+          "say": "nous avons",
+          "back_ar": "عندنا"
+        },
+        {
+          "id": "c4",
+          "front": "vous avez",
+          "say": "vous avez",
+          "back_ar": "عندكم"
+        },
+        {
+          "id": "c5",
+          "front": "ils ont",
+          "say": "ils ont",
+          "back_ar": "عندهم (لا تخلطها مع ils sont)"
+        },
+        {
+          "id": "c6",
+          "front": "Tu as quel âge ?",
+          "say": "Tu as quel âge ?",
+          "back_ar": "كم عمرك؟"
+        },
+        {
+          "id": "c7",
+          "front": "J'ai … ans.",
+          "say": "J'ai trente ans.",
+          "back_ar": "عمري … سنة."
+        },
+        {
+          "id": "c8",
+          "front": "J'ai faim.",
+          "say": "J'ai faim.",
+          "back_ar": "أنا جائع."
+        },
+        {
+          "id": "c9",
+          "front": "J'ai soif.",
+          "say": "J'ai soif.",
+          "back_ar": "أنا عطشان."
+        },
+        {
+          "id": "c10",
+          "front": "J'ai froid / chaud.",
+          "say": "J'ai froid. J'ai chaud.",
+          "back_ar": "أشعر بالبرد / بالحر."
+        },
+        {
+          "id": "c11",
+          "front": "Tu as raison.",
+          "say": "Tu as raison.",
+          "back_ar": "معك حق."
+        },
+        {
+          "id": "c12",
+          "front": "mon / ma / mes",
+          "say": "mon, ma, mes",
+          "back_ar": "ـي: مذكر / مؤنث / جمع"
+        },
+        {
+          "id": "c13",
+          "front": "mon amie",
+          "say": "mon amie",
+          "back_ar": "صديقتي (mon أمام حرف علة)"
+        },
+        {
+          "id": "c14",
+          "front": "un portefeuille",
+          "say": "un portefeuille",
+          "back_ar": "محفظة"
+        },
+        {
+          "id": "c15",
+          "front": "un passeport",
+          "say": "un passeport",
+          "back_ar": "جواز سفر"
+        },
+        {
+          "id": "c16",
+          "front": "un chien / un chat",
+          "say": "un chien, un chat",
+          "back_ar": "كلب / قط"
+        }
+      ]
+    }
+  ]
+}
