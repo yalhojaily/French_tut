@@ -1,0 +1,1165 @@
+{
+  "id": "a1-08",
+  "stage": "A1",
+  "title_fr": "Les verbes en -er",
+  "title_ar": "الأفعال المنتهية بـ er",
+  "goals_ar": [
+    "تصرّف أفعال **er** في الحاضر، وهي أغلب أفعال الفرنسية",
+    "تقول أين تسكن وأين تعمل: **J'habite à Paris. Je travaille ici.**",
+    "تنفي: **Je ne parle pas chinois.**",
+    "تقول ما تحب وما تكره: **J'aime le café. Je déteste cuisiner.**"
+  ],
+  "intro_ar": [
+    "تعلّمت حتى الآن فعلين شاذّين: être و avoir. والخبر الجميل أن معظم أفعال الفرنسية **منتظمة** وتنتهي بـ er، مثل parler (يتكلم) و habiter (يسكن). تعلّم نمطاً واحداً، وتستطيع تصريف مئات الأفعال.",
+    "**القاعدة:** احذف er من المصدر، وأضف النهاية حسب الضمير: parl + e = je parle.",
+    "**وخبر أجمل للنطق:** ثلاث نهايات من ست صامتة تماماً: je parle و tu parles و ils parlent كلها تُنطق «پارل»."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: ماذا تحب أن تفعل؟",
+      "context_ar": "كلير ويوسف يتكلمان عن نهاية الأسبوع. كل الأفعال تقريباً من نوع er.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Qu'est-ce que tu aimes faire le week-end ?",
+          "ar": "ماذا تحب أن تفعل في نهاية الأسبوع؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "aimes",
+              "تحب"
+            ],
+            [
+              "faire",
+              "أن تفعل"
+            ],
+            [
+              "le week-end ?",
+              "في نهاية الأسبوع"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "J'adore marcher dans Paris et je regarde des films.",
+          "ar": "أحب كثيراً المشي في باريس، وأشاهد أفلاماً.",
+          "slow": true,
+          "gloss": [
+            [
+              "J'adore",
+              "أعشق"
+            ],
+            [
+              "marcher",
+              "المشي"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "Paris",
+              "باريس"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "regarde",
+              "أشاهد"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "films.",
+              "أفلام"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Tu travailles le samedi ?",
+          "ar": "هل تعمل يوم السبت؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "travailles",
+              "تعمل"
+            ],
+            [
+              "le samedi ?",
+              "يوم السبت"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Non, je ne travaille pas le week-end. J'étudie le français !",
+          "ar": "لا، لا أعمل في نهاية الأسبوع. أدرس الفرنسية!",
+          "slow": true,
+          "gloss": [
+            [
+              "Non,",
+              "لا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "ne travaille pas",
+              "لا أعمل"
+            ],
+            [
+              "le week-end.",
+              "نهاية الأسبوع"
+            ],
+            [
+              "J'étudie",
+              "أدرس"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "français !",
+              "فرنسية"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Et tu habites où ?",
+          "ar": "وأين تسكن؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "habites",
+              "تسكن"
+            ],
+            [
+              "où ?",
+              "أين"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "J'habite près de la tour Eiffel. Et toi ?",
+          "ar": "أسكن قرب برج إيفل. وأنتِ؟",
+          "slow": true,
+          "gloss": [
+            [
+              "J'habite",
+              "أسكن"
+            ],
+            [
+              "près de",
+              "قرب"
+            ],
+            [
+              "la tour Eiffel.",
+              "برج إيفل"
+            ],
+            [
+              "Et toi ?",
+              "وأنتِ؟"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Moi, j'habite à Montmartre. Je chante dans une chorale.",
+          "ar": "أنا أسكن في مونمارتر. أغنّي في جوقة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "j'habite",
+              "أسكن"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "Montmartre.",
+              "مونمارتر"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "chante",
+              "أغنّي"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "chorale.",
+              "جوقة"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Tu chantes ? Moi, je déteste chanter, mais j'aime écouter !",
+          "ar": "تغنّين؟ أنا أكره الغناء، لكني أحب الاستماع!",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu chantes ?",
+              "تغنّين؟"
+            ],
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "déteste",
+              "أكره"
+            ],
+            [
+              "chanter,",
+              "الغناء"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "j'aime",
+              "أحب"
+            ],
+            [
+              "écouter !",
+              "الاستماع"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Alors samedi, tu écoutes et nous chantons !",
+          "ar": "إذن يوم السبت، أنت تستمع ونحن نغنّي!",
+          "slow": true,
+          "gloss": [
+            [
+              "Alors",
+              "إذن"
+            ],
+            [
+              "samedi,",
+              "السبت"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "écoutes",
+              "تستمع"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "chantons !",
+              "نغنّي"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "لاحظ **je ne travaille pas**: النفي يحيط بالفعل من الجهتين: **ne** قبله و **pas** بعده. ولاحظ **je déteste chanter**: بعد aimer و adorer و détester يأتي الفعل الثاني بالمصدر كما هو."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "أفعال er اليومية، وأفعال الذوق، والهوايات. كل الأفعال هنا تُصرَّف بالنمط نفسه.",
+      "groups": [
+        {
+          "title_ar": "أفعال يومية",
+          "items": [
+            {
+              "id": "v-parler",
+              "say": "parler",
+              "ar": "يتكلم"
+            },
+            {
+              "id": "v-habiter",
+              "say": "habiter",
+              "ar": "يسكن"
+            },
+            {
+              "id": "v-travailler",
+              "say": "travailler",
+              "ar": "يعمل"
+            },
+            {
+              "id": "v-etudier",
+              "say": "étudier",
+              "ar": "يدرس"
+            },
+            {
+              "id": "v-manger",
+              "say": "manger",
+              "ar": "يأكل",
+              "note_ar": "مع nous نضيف e: nous mangeons، لتبقى g ناعمة «ژ»."
+            },
+            {
+              "id": "v-regarder",
+              "say": "regarder",
+              "ar": "يشاهد / ينظر"
+            },
+            {
+              "id": "v-ecouter",
+              "say": "écouter",
+              "ar": "يستمع"
+            },
+            {
+              "id": "v-marcher",
+              "say": "marcher",
+              "ar": "يمشي"
+            },
+            {
+              "id": "v-chercher",
+              "say": "chercher",
+              "ar": "يبحث عن"
+            },
+            {
+              "id": "v-cuisiner",
+              "say": "cuisiner",
+              "ar": "يطبخ"
+            }
+          ]
+        },
+        {
+          "title_ar": "الذوق",
+          "items": [
+            {
+              "id": "v-aimer",
+              "say": "aimer",
+              "ar": "يحب"
+            },
+            {
+              "id": "v-adorer",
+              "say": "adorer",
+              "ar": "يعشق / يحب كثيراً"
+            },
+            {
+              "id": "v-detester",
+              "say": "détester",
+              "ar": "يكره"
+            },
+            {
+              "id": "v-preferer",
+              "say": "préférer",
+              "ar": "يفضّل",
+              "note_ar": "مع je و tu و il و ils تصير é الثانية è: je préfère."
+            },
+            {
+              "id": "v-jaimecafe",
+              "say": "J'aime le café.",
+              "ar": "أحب القهوة.",
+              "note_ar": "بعد aimer نستعمل أداة التعريف: le café، لا un café."
+            }
+          ]
+        },
+        {
+          "title_ar": "الهوايات",
+          "items": [
+            {
+              "id": "v-sport",
+              "say": "le sport",
+              "ar": "الرياضة"
+            },
+            {
+              "id": "v-musique",
+              "say": "la musique",
+              "ar": "الموسيقى"
+            },
+            {
+              "id": "v-lecture",
+              "say": "la lecture",
+              "ar": "القراءة"
+            },
+            {
+              "id": "v-cinema",
+              "say": "le cinéma",
+              "ar": "السينما"
+            },
+            {
+              "id": "v-cuisine",
+              "say": "la cuisine",
+              "ar": "الطبخ / المطبخ"
+            },
+            {
+              "id": "v-voyages",
+              "say": "les voyages",
+              "ar": "السفر"
+            },
+            {
+              "id": "v-foot",
+              "say": "jouer au football",
+              "ar": "يلعب كرة القدم"
+            },
+            {
+              "id": "v-danser",
+              "say": "danser",
+              "ar": "يرقص"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "er",
+      "title_ar": "القاعدة: تصريف er والنفي",
+      "intro_ar": "جذر الفعل ثابت، والنهاية تتغير حسب الضمير. ثم النفي: **ne** قبل الفعل و **pas** بعده.",
+      "tables": [
+        {
+          "title_fr": "parler (au présent)",
+          "title_ar": "فعل «يتكلم» في الحاضر",
+          "head_ar": [
+            "الضمير",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-je",
+              "say": "je parle",
+              "cells": [
+                "je",
+                "parle"
+              ],
+              "ar": "أتكلم"
+            },
+            {
+              "id": "g-tu",
+              "say": "tu parles",
+              "cells": [
+                "tu",
+                "parles"
+              ],
+              "ar": "تتكلم"
+            },
+            {
+              "id": "g-il",
+              "say": "il parle",
+              "cells": [
+                "il / elle / on",
+                "parle"
+              ],
+              "ar": "يتكلم / تتكلم / نتكلم"
+            },
+            {
+              "id": "g-nous",
+              "say": "nous parlons",
+              "cells": [
+                "nous",
+                "parlons"
+              ],
+              "ar": "نتكلم"
+            },
+            {
+              "id": "g-vous",
+              "say": "vous parlez",
+              "cells": [
+                "vous",
+                "parlez"
+              ],
+              "ar": "تتكلمون / تتكلم حضرتك"
+            },
+            {
+              "id": "g-ils",
+              "say": "ils parlent",
+              "cells": [
+                "ils / elles",
+                "parlent"
+              ],
+              "ar": "يتكلمون / يتكلمن"
+            }
+          ],
+          "note_ar": "parle و parles و parlent تُنطق كلها «پارل»: النهايات e و es و ent صامتة. الصوت يتغير فقط مع nous «پارلون» و vous «پارليه». ومع فعل يبدأ بحرف علة: **j'habite**، و **nous‿habitons** بالوصل."
+        },
+        {
+          "title_fr": "la négation : ne … pas",
+          "title_ar": "النفي",
+          "head_ar": [
+            "الإثبات",
+            "النفي"
+          ],
+          "rows": [
+            {
+              "id": "g-n1",
+              "say": "je ne parle pas",
+              "cells": [
+                "je parle",
+                "je ne parle pas"
+              ],
+              "ar": "لا أتكلم"
+            },
+            {
+              "id": "g-n2",
+              "say": "tu n'aimes pas",
+              "cells": [
+                "tu aimes",
+                "tu n'aimes pas"
+              ],
+              "ar": "لا تحب"
+            },
+            {
+              "id": "g-n3",
+              "say": "il n'habite pas ici",
+              "cells": [
+                "il habite ici",
+                "il n'habite pas ici"
+              ],
+              "ar": "لا يسكن هنا"
+            },
+            {
+              "id": "g-n4",
+              "say": "nous ne travaillons pas",
+              "cells": [
+                "nous travaillons",
+                "nous ne travaillons pas"
+              ],
+              "ar": "لا نعمل"
+            }
+          ],
+          "note_ar": "ne تصير **n'** أمام حرف علة: je n'aime pas. وفي الكلام اليومي يحذف الفرنسيون ne كثيراً فتسمع «j'aime pas»، لكن اكتبها دائماً."
+        }
+      ],
+      "points_ar": [
+        "**الفعل الثاني بالمصدر:** J'aime danser، Je déteste cuisiner، J'adore voyager.",
+        "**aimer مع أداة التعريف:** J'aime le thé (أحب الشاي عموماً)، J'aime la musique.",
+        "**préférer:** الـ é الثانية تصير è مع je و tu و il و ils: je préfère، لكن nous préférons."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: التصريف والنفي",
+      "hint_ar": "اختر الشكل الصحيح حسب الضمير.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je ___ français.",
+          "say": "Je parle français.",
+          "options": [
+            "parles",
+            "parle",
+            "parlent"
+          ],
+          "answer": "parle",
+          "ar": "أتكلم الفرنسية.",
+          "explain_ar": "مع je: **parle**."
+        },
+        {
+          "id": "f2",
+          "text": "Tu ___ à Paris ?",
+          "say": "Tu habites à Paris ?",
+          "options": [
+            "habite",
+            "habitez",
+            "habites"
+          ],
+          "answer": "habites",
+          "ar": "هل تسكن في باريس؟",
+          "explain_ar": "مع tu نضيف s: **habites**."
+        },
+        {
+          "id": "f3",
+          "text": "Nous ___ le samedi.",
+          "say": "Nous travaillons le samedi.",
+          "options": [
+            "travaillons",
+            "travaillez"
+          ],
+          "answer": "travaillons",
+          "ar": "نعمل يوم السبت.",
+          "explain_ar": "مع nous: **travaillons**."
+        },
+        {
+          "id": "f4",
+          "text": "Vous ___ anglais ?",
+          "say": "Vous parlez anglais ?",
+          "options": [
+            "parlons",
+            "parlez"
+          ],
+          "answer": "parlez",
+          "ar": "هل تتكلمون الإنجليزية؟",
+          "explain_ar": "مع vous: **parlez**."
+        },
+        {
+          "id": "f5",
+          "text": "Ils ___ la télé.",
+          "say": "Ils regardent la télé.",
+          "options": [
+            "regardent",
+            "regarde"
+          ],
+          "answer": "regardent",
+          "ar": "يشاهدون التلفاز.",
+          "explain_ar": "مع ils: **regardent**، والنهاية صامتة."
+        },
+        {
+          "id": "f6",
+          "text": "Je ne parle ___ chinois.",
+          "say": "Je ne parle pas chinois.",
+          "options": [
+            "ne",
+            "pas"
+          ],
+          "answer": "pas",
+          "ar": "لا أتكلم الصينية.",
+          "explain_ar": "النفي: ne قبل الفعل و **pas** بعده."
+        },
+        {
+          "id": "f7",
+          "text": "Elle ___ aime pas le café.",
+          "say": "Elle n'aime pas le café.",
+          "options": [
+            "ne",
+            "n'"
+          ],
+          "answer": "n'",
+          "ar": "لا تحب القهوة.",
+          "explain_ar": "أمام حرف علة تصير ne إلى **n'**."
+        },
+        {
+          "id": "f8",
+          "text": "J'adore ___.",
+          "say": "J'adore danser.",
+          "options": [
+            "danser",
+            "danse"
+          ],
+          "answer": "danser",
+          "ar": "أحب الرقص كثيراً.",
+          "explain_ar": "بعد adorer يأتي الفعل بالمصدر: **danser**."
+        },
+        {
+          "id": "f9",
+          "text": "Tu aimes ___ musique ?",
+          "say": "Tu aimes la musique ?",
+          "options": [
+            "une",
+            "la"
+          ],
+          "answer": "la",
+          "ar": "هل تحب الموسيقى؟",
+          "explain_ar": "بعد aimer نستعمل أداة التعريف: **la** musique."
+        },
+        {
+          "id": "f10",
+          "text": "Nous ___ des films.",
+          "say": "Nous regardons des films.",
+          "options": [
+            "regardent",
+            "regardons"
+          ],
+          "answer": "regardons",
+          "ar": "نشاهد أفلاماً.",
+          "explain_ar": "مع nous: **regardons**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع",
+      "hint_ar": "انتبه للوصل بعد ils و elles، ولـ ne في النفي.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "nous parlons",
+          "options": [
+            "vous parlez",
+            "nous parlons"
+          ],
+          "answer": "nous parlons",
+          "explain_ar": "nous parlons «نو پارلون»."
+        },
+        {
+          "id": "q2",
+          "say": "Je n'aime pas.",
+          "options": [
+            "J'aime.",
+            "Je n'aime pas."
+          ],
+          "answer": "Je n'aime pas.",
+          "explain_ar": "سمعت «ن» قبل aime: نفي."
+        },
+        {
+          "id": "q3",
+          "say": "ils aiment",
+          "options": [
+            "ils aiment",
+            "il aime"
+          ],
+          "answer": "ils aiment",
+          "explain_ar": "الوصل «إيلزيم» يدل على الجمع."
+        },
+        {
+          "id": "q4",
+          "say": "elle habite",
+          "options": [
+            "elles habitent",
+            "elle habite"
+          ],
+          "answer": "elle habite",
+          "explain_ar": "بلا وصل «إيلابيت»: مفرد."
+        },
+        {
+          "id": "q5",
+          "say": "Je ne travaille pas.",
+          "options": [
+            "Je ne travaille pas.",
+            "Je travaille."
+          ],
+          "answer": "Je ne travaille pas.",
+          "explain_ar": "ne … pas حول الفعل."
+        },
+        {
+          "id": "q6",
+          "say": "Je déteste.",
+          "options": [
+            "J'adore.",
+            "Je déteste."
+          ],
+          "answer": "Je déteste.",
+          "explain_ar": "déteste «ديتيست»: أكره."
+        },
+        {
+          "id": "q7",
+          "say": "nous mangeons",
+          "options": [
+            "nous mangeons",
+            "nous marchons"
+          ],
+          "answer": "nous mangeons",
+          "explain_ar": "mangeons «مونژون»: نأكل."
+        },
+        {
+          "id": "q8",
+          "say": "vous étudiez",
+          "options": [
+            "vous écoutez",
+            "vous étudiez"
+          ],
+          "answer": "vous étudiez",
+          "explain_ar": "étudiez «إيتوديه»: تدرسون."
+        },
+        {
+          "id": "q9",
+          "say": "Je préfère le thé.",
+          "options": [
+            "Je préfère le café.",
+            "Je préfère le thé."
+          ],
+          "answer": "Je préfère le thé.",
+          "explain_ar": "thé «تيه»: شاي."
+        },
+        {
+          "id": "q10",
+          "say": "tu regardes",
+          "options": [
+            "tu regardes",
+            "vous regardez"
+          ],
+          "answer": "tu regardes",
+          "explain_ar": "regardes «غُگارد»، والنهاية صامتة."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب ما تسمعه",
+      "hint_ar": "النهايات الصامتة لا تُسمع لكنها تُكتب. فكّر في الضمير.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: tu ← s، و ils ← ent، حتى لو لم تسمعها.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je parle",
+          "answer": "je parle",
+          "ar": "أتكلم"
+        },
+        {
+          "id": "s2",
+          "say": "tu habites",
+          "answer": "tu habites",
+          "ar": "تسكن"
+        },
+        {
+          "id": "s3",
+          "say": "nous travaillons",
+          "answer": "nous travaillons",
+          "ar": "نعمل"
+        },
+        {
+          "id": "s4",
+          "say": "vous aimez",
+          "answer": "vous aimez",
+          "ar": "تحبون"
+        },
+        {
+          "id": "s5",
+          "say": "ils regardent",
+          "answer": "ils regardent",
+          "ar": "يشاهدون"
+        },
+        {
+          "id": "s6",
+          "say": "elle n'aime pas",
+          "answer": "elle n'aime pas",
+          "ar": "لا تحب"
+        },
+        {
+          "id": "s7",
+          "say": "j'adore",
+          "answer": "j'adore",
+          "ar": "أعشق"
+        },
+        {
+          "id": "s8",
+          "say": "nous mangeons",
+          "answer": "nous mangeons",
+          "ar": "نأكل"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل عن الذوق والحياة اليومية. ركّز على الوصل في nous‿habitons و ils‿aiment.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "J'aime le café et j'adore le thé.",
+          "ar": "أحب القهوة وأعشق الشاي.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "J'aime",
+              "أحب"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "café",
+              "قهوة"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "j'adore",
+              "أعشق"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "thé.",
+              "شاي"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Je ne travaille pas le dimanche.",
+          "ar": "لا أعمل يوم الأحد.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "ne travaille pas",
+              "لا أعمل"
+            ],
+            [
+              "le dimanche.",
+              "يوم الأحد"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Nous habitons à Paris.",
+          "ar": "نسكن في باريس.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "habitons",
+              "نسكن"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "Paris.",
+              "باريس"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Ils aiment écouter la radio.",
+          "ar": "يحبون الاستماع إلى الراديو.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Ils",
+              "هم"
+            ],
+            [
+              "aiment",
+              "يحبون"
+            ],
+            [
+              "écouter",
+              "الاستماع إلى"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "radio.",
+              "راديو"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Tu parles français ? Oui, un peu !",
+          "ar": "هل تتكلم الفرنسية؟ نعم، قليلاً!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "parles",
+              "تتكلم"
+            ],
+            [
+              "français ?",
+              "الفرنسية"
+            ],
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "un peu !",
+              "قليلاً"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: سجّل ثلاث جمل عنك: **J'habite à… Je travaille… J'aime… mais je n'aime pas…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل الفعل أو العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "parler",
+          "say": "parler",
+          "back_ar": "يتكلم"
+        },
+        {
+          "id": "c2",
+          "front": "habiter",
+          "say": "habiter",
+          "back_ar": "يسكن"
+        },
+        {
+          "id": "c3",
+          "front": "travailler",
+          "say": "travailler",
+          "back_ar": "يعمل"
+        },
+        {
+          "id": "c4",
+          "front": "étudier",
+          "say": "étudier",
+          "back_ar": "يدرس"
+        },
+        {
+          "id": "c5",
+          "front": "aimer / adorer",
+          "say": "aimer, adorer",
+          "back_ar": "يحب / يعشق"
+        },
+        {
+          "id": "c6",
+          "front": "détester",
+          "say": "détester",
+          "back_ar": "يكره"
+        },
+        {
+          "id": "c7",
+          "front": "préférer",
+          "say": "préférer, je préfère",
+          "back_ar": "يفضّل (je préfère)"
+        },
+        {
+          "id": "c8",
+          "front": "je parle / ils parlent",
+          "say": "je parle, ils parlent",
+          "back_ar": "نفس النطق «پارل»"
+        },
+        {
+          "id": "c9",
+          "front": "nous parlons",
+          "say": "nous parlons",
+          "back_ar": "نتكلم"
+        },
+        {
+          "id": "c10",
+          "front": "vous parlez",
+          "say": "vous parlez",
+          "back_ar": "تتكلمون"
+        },
+        {
+          "id": "c11",
+          "front": "ne … pas",
+          "say": "je ne parle pas",
+          "back_ar": "لا (النفي حول الفعل)"
+        },
+        {
+          "id": "c12",
+          "front": "je n'aime pas",
+          "say": "je n'aime pas",
+          "back_ar": "لا أحب"
+        },
+        {
+          "id": "c13",
+          "front": "J'aime danser.",
+          "say": "J'aime danser.",
+          "back_ar": "أحب الرقص."
+        },
+        {
+          "id": "c14",
+          "front": "le week-end",
+          "say": "le week-end",
+          "back_ar": "نهاية الأسبوع"
+        },
+        {
+          "id": "c15",
+          "front": "un peu",
+          "say": "un peu",
+          "back_ar": "قليلاً"
+        },
+        {
+          "id": "c16",
+          "front": "regarder un film",
+          "say": "regarder un film",
+          "back_ar": "يشاهد فيلماً"
+        }
+      ]
+    }
+  ]
+}

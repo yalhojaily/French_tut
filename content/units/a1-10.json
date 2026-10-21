@@ -1,0 +1,1242 @@
+{
+  "id": "a1-10",
+  "stage": "A1",
+  "title_fr": "Ma journée",
+  "title_ar": "يومي",
+  "goals_ar": [
+    "تسأل عن الوقت وتقوله: **Quelle heure est-il ? Il est huit heures.**",
+    "تستعمل الأفعال الضميرية: **je me lève، je me couche**",
+    "تصف يومك بالترتيب: **d'abord، ensuite، puis، enfin**",
+    "تقول متى تفعل الأشياء: **à sept heures، le matin، le soir**"
+  ],
+  "intro_ar": [
+    "الوقت بالفرنسية بسيط: **Il est** + الرقم + **heures**. والفرنسيون يستعملون نظام 24 ساعة كثيراً في المواعيد: الساعة 18 هي السادسة مساءً.",
+    "**الجديد في الوحدة: الأفعال الضميرية.** في العربية نقول «أستيقظ» بفعل واحد، والفرنسية تقول حرفياً «أُقيم نفسي»: **je me lève**. الفعل يحمل ضميراً إضافياً (me، te، se…) يعود على الفاعل نفسه.",
+    "**للنطق:** في الكلام السريع تسقط e في me، فتسمع je me lève «ژُمْلِڤ»."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: يوم يوسف",
+      "context_ar": "كلير تسأل يوسف عن يومه العادي. لاحظ الأفعال الضميرية وكلمات الترتيب.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Tu te lèves à quelle heure le matin ?",
+          "ar": "في أي ساعة تستيقظ صباحاً؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "te lèves",
+              "تستيقظ"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "quelle",
+              "أي"
+            ],
+            [
+              "heure",
+              "ساعة"
+            ],
+            [
+              "le matin ?",
+              "صباحاً"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Je me lève à six heures et demie.",
+          "ar": "أستيقظ الساعة السادسة والنصف.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "me lève",
+              "أستيقظ"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "six",
+              "6"
+            ],
+            [
+              "heures",
+              "ساعات"
+            ],
+            [
+              "et demie.",
+              "والنصف"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Si tôt ! Et après ?",
+          "ar": "مبكراً هكذا! وبعد ذلك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Si",
+              "هكذا"
+            ],
+            [
+              "tôt !",
+              "مبكراً"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "après ?",
+              "بعد ذلك"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "D'abord, je me douche. Ensuite, je prends un café.",
+          "ar": "أولاً أستحم. ثم أشرب قهوة.",
+          "slow": true,
+          "gloss": [
+            [
+              "D'abord,",
+              "أولاً"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "me douche.",
+              "أستحم"
+            ],
+            [
+              "Ensuite,",
+              "بعد ذلك"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "prends",
+              "آخذ"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "café.",
+              "قهوة"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Tu commences le travail à quelle heure ?",
+          "ar": "في أي ساعة تبدأ العمل؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "commences",
+              "تبدأ"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "travail",
+              "عمل"
+            ],
+            [
+              "à quelle heure ?",
+              "في أي ساعة"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "À huit heures. Puis, je déjeune à midi avec mes collègues.",
+          "ar": "الساعة الثامنة. ثم أتغدى عند الظهر مع زملائي.",
+          "slow": true,
+          "gloss": [
+            [
+              "À",
+              "في"
+            ],
+            [
+              "huit",
+              "8"
+            ],
+            [
+              "heures.",
+              "ساعات"
+            ],
+            [
+              "Puis,",
+              "ثم"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "déjeune",
+              "أتغدى"
+            ],
+            [
+              "à",
+              "عند"
+            ],
+            [
+              "midi",
+              "الظهر"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "mes",
+              "ـي (جمع)"
+            ],
+            [
+              "collègues.",
+              "زملاء"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Et le soir ?",
+          "ar": "وفي المساء؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "le soir ?",
+              "المساء"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Je rentre à dix-huit heures, je dîne et j'étudie le français.",
+          "ar": "أعود الساعة 18، أتعشى وأدرس الفرنسية.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "rentre",
+              "أعود"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "dix-huit",
+              "18"
+            ],
+            [
+              "heures,",
+              "ساعة"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "dîne",
+              "أتعشى"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "j'étudie",
+              "أدرس"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "français.",
+              "فرنسية"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Et enfin, tu te couches à quelle heure ?",
+          "ar": "وأخيراً، في أي ساعة تنام؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "enfin,",
+              "أخيراً"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "te couches",
+              "تنام"
+            ],
+            [
+              "à quelle heure ?",
+              "في أي ساعة"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "Vers vingt-deux heures. Une journée normale !",
+          "ar": "نحو العاشرة مساءً. يوم عادي!",
+          "slow": true,
+          "gloss": [
+            [
+              "Vers",
+              "نحو"
+            ],
+            [
+              "vingt-deux",
+              "22"
+            ],
+            [
+              "heures.",
+              "ساعة"
+            ],
+            [
+              "Une",
+              "(نكرة)"
+            ],
+            [
+              "journée",
+              "يوم"
+            ],
+            [
+              "normale !",
+              "عادي"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "لاحظ ترتيب يوسف: **d'abord** (أولاً)، ثم **ensuite** و **puis** (بعد ذلك / ثم)، ثم **enfin** (أخيراً). ولاحظ **je prends un café**: الفرنسيون «يأخذون» القهوة في هذه العبارة."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "الوقت، وأجزاء اليوم، وأفعال الروتين. معظم أفعال الروتين ضميرية: انتبه لـ se.",
+      "groups": [
+        {
+          "title_ar": "الوقت",
+          "items": [
+            {
+              "id": "v-heure",
+              "say": "Quelle heure est-il ?",
+              "ar": "كم الساعة؟"
+            },
+            {
+              "id": "v-huit",
+              "say": "Il est huit heures.",
+              "ar": "الساعة الثامنة."
+            },
+            {
+              "id": "v-quart",
+              "say": "Il est huit heures et quart.",
+              "ar": "الساعة الثامنة والربع."
+            },
+            {
+              "id": "v-demie",
+              "say": "Il est huit heures et demie.",
+              "ar": "الساعة الثامنة والنصف."
+            },
+            {
+              "id": "v-moins",
+              "say": "Il est neuf heures moins le quart.",
+              "ar": "الساعة التاسعة إلا ربعاً."
+            },
+            {
+              "id": "v-midi",
+              "say": "midi",
+              "ar": "الظهر (12:00)"
+            },
+            {
+              "id": "v-minuit",
+              "say": "minuit",
+              "ar": "منتصف الليل"
+            }
+          ]
+        },
+        {
+          "title_ar": "أجزاء اليوم",
+          "items": [
+            {
+              "id": "v-matin",
+              "say": "le matin",
+              "ar": "الصباح"
+            },
+            {
+              "id": "v-aprem",
+              "say": "l'après-midi",
+              "ar": "بعد الظهر"
+            },
+            {
+              "id": "v-soir",
+              "say": "le soir",
+              "ar": "المساء"
+            },
+            {
+              "id": "v-nuit",
+              "say": "la nuit",
+              "ar": "الليل"
+            }
+          ]
+        },
+        {
+          "title_ar": "الروتين",
+          "items": [
+            {
+              "id": "v-reveiller",
+              "say": "se réveiller",
+              "ar": "يصحو",
+              "note_ar": "يفتح عينيه. أما se lever فيقوم من السرير."
+            },
+            {
+              "id": "v-lever",
+              "say": "se lever",
+              "ar": "يقوم / يستيقظ"
+            },
+            {
+              "id": "v-doucher",
+              "say": "se doucher",
+              "ar": "يستحم"
+            },
+            {
+              "id": "v-habiller",
+              "say": "s'habiller",
+              "ar": "يلبس ثيابه"
+            },
+            {
+              "id": "v-petitdej",
+              "say": "prendre le petit-déjeuner",
+              "ar": "يفطر"
+            },
+            {
+              "id": "v-dejeuner",
+              "say": "déjeuner",
+              "ar": "يتغدى"
+            },
+            {
+              "id": "v-diner",
+              "say": "dîner",
+              "ar": "يتعشى"
+            },
+            {
+              "id": "v-coucher",
+              "say": "se coucher",
+              "ar": "يذهب إلى النوم"
+            }
+          ]
+        },
+        {
+          "title_ar": "الترتيب",
+          "items": [
+            {
+              "id": "v-dabord",
+              "say": "d'abord",
+              "ar": "أولاً"
+            },
+            {
+              "id": "v-ensuite",
+              "say": "ensuite",
+              "ar": "بعد ذلك"
+            },
+            {
+              "id": "v-puis",
+              "say": "puis",
+              "ar": "ثم"
+            },
+            {
+              "id": "v-enfin",
+              "say": "enfin",
+              "ar": "أخيراً"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الوقت",
+      "title_ar": "القاعدة: الأفعال الضميرية والوقت",
+      "intro_ar": "الفعل الضميري فيه ضميران: الفاعل، وضمير ثانٍ يعود عليه (me، te، se…). ثم كيف تقول الوقت.",
+      "tables": [
+        {
+          "title_fr": "se lever (au présent)",
+          "title_ar": "فعل «يقوم / يستيقظ»",
+          "head_ar": [
+            "الضمير",
+            "الضمير الثاني",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-je",
+              "say": "je me lève",
+              "cells": [
+                "je",
+                "me",
+                "lève"
+              ],
+              "ar": "أستيقظ"
+            },
+            {
+              "id": "g-tu",
+              "say": "tu te lèves",
+              "cells": [
+                "tu",
+                "te",
+                "lèves"
+              ],
+              "ar": "تستيقظ"
+            },
+            {
+              "id": "g-il",
+              "say": "il se lève",
+              "cells": [
+                "il / elle / on",
+                "se",
+                "lève"
+              ],
+              "ar": "يستيقظ / تستيقظ / نستيقظ"
+            },
+            {
+              "id": "g-nous",
+              "say": "nous nous levons",
+              "cells": [
+                "nous",
+                "nous",
+                "levons"
+              ],
+              "ar": "نستيقظ"
+            },
+            {
+              "id": "g-vous",
+              "say": "vous vous levez",
+              "cells": [
+                "vous",
+                "vous",
+                "levez"
+              ],
+              "ar": "تستيقظون"
+            },
+            {
+              "id": "g-ils",
+              "say": "ils se lèvent",
+              "cells": [
+                "ils / elles",
+                "se",
+                "lèvent"
+              ],
+              "ar": "يستيقظون"
+            }
+          ],
+          "note_ar": "أمام حرف علة تصير me و te و se إلى m' و t' و s': je m'habille، وهي نفسها في il s'appelle (فـ s'appeler فعل ضميري أيضاً!). ولاحظ lève بـ è، لكن levons و levez بلا علامة."
+        },
+        {
+          "title_fr": "L'heure",
+          "title_ar": "قول الوقت",
+          "head_ar": [
+            "الوقت",
+            "بالفرنسية"
+          ],
+          "rows": [
+            {
+              "id": "g-h1",
+              "say": "Il est huit heures.",
+              "cells": [
+                "8:00",
+                "Il est huit heures."
+              ],
+              "ar": "الثامنة"
+            },
+            {
+              "id": "g-h2",
+              "say": "Il est huit heures et quart.",
+              "cells": [
+                "8:15",
+                "Il est huit heures et quart."
+              ],
+              "ar": "الثامنة والربع"
+            },
+            {
+              "id": "g-h3",
+              "say": "Il est huit heures et demie.",
+              "cells": [
+                "8:30",
+                "Il est huit heures et demie."
+              ],
+              "ar": "الثامنة والنصف"
+            },
+            {
+              "id": "g-h4",
+              "say": "Il est neuf heures moins le quart.",
+              "cells": [
+                "8:45",
+                "Il est neuf heures moins le quart."
+              ],
+              "ar": "التاسعة إلا ربعاً"
+            },
+            {
+              "id": "g-h5",
+              "say": "Il est midi.",
+              "cells": [
+                "12:00",
+                "Il est midi."
+              ],
+              "ar": "الظهر"
+            },
+            {
+              "id": "g-h6",
+              "say": "Il est treize heures.",
+              "cells": [
+                "13:00",
+                "Il est treize heures."
+              ],
+              "ar": "الواحدة ظهراً بنظام 24 ساعة"
+            }
+          ],
+          "note_ar": "heure مؤنثة، فنقول **et demie** بـ e، و **une heure** للواحدة. ومع midi و minuit نكتب et demi بلا e."
+        }
+      ],
+      "points_ar": [
+        "**كلمات الترتيب** تجعل كلامك متصلاً: D'abord… Ensuite… Puis… Enfin…",
+        "**à مع الوقت:** Je me lève à sept heures (في الساعة السابعة).",
+        "**أجزاء اليوم بلا حرف جر:** Je travaille le matin = أعمل صباحاً. و le soir = مساءً."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الأفعال الضميرية والوقت",
+      "hint_ar": "اختر الضمير الثاني المناسب، ثم أكمل الوقت.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je ___ lève à sept heures.",
+          "say": "Je me lève à sept heures.",
+          "options": [
+            "te",
+            "me",
+            "se"
+          ],
+          "answer": "me",
+          "ar": "أستيقظ الساعة السابعة.",
+          "explain_ar": "مع je: **me**."
+        },
+        {
+          "id": "f2",
+          "text": "Tu ___ couches à quelle heure ?",
+          "say": "Tu te couches à quelle heure ?",
+          "options": [
+            "me",
+            "se",
+            "te"
+          ],
+          "answer": "te",
+          "ar": "في أي ساعة تنام؟",
+          "explain_ar": "مع tu: **te**."
+        },
+        {
+          "id": "f3",
+          "text": "Il ___ douche le matin.",
+          "say": "Il se douche le matin.",
+          "options": [
+            "se",
+            "te"
+          ],
+          "answer": "se",
+          "ar": "يستحم صباحاً.",
+          "explain_ar": "مع il و elle و ils: **se**."
+        },
+        {
+          "id": "f4",
+          "text": "Nous nous ___ tôt.",
+          "say": "Nous nous levons tôt.",
+          "options": [
+            "lèvent",
+            "levons"
+          ],
+          "answer": "levons",
+          "ar": "نستيقظ مبكراً.",
+          "explain_ar": "مع nous: **levons** بلا علامة."
+        },
+        {
+          "id": "f5",
+          "text": "Elle ___ appelle Claire.",
+          "say": "Elle s'appelle Claire.",
+          "options": [
+            "se",
+            "s'"
+          ],
+          "answer": "s'",
+          "ar": "اسمها كلير.",
+          "explain_ar": "أمام حرف علة: **s'**."
+        },
+        {
+          "id": "f6",
+          "text": "Il est huit heures et ___.",
+          "say": "Il est huit heures et demie.",
+          "options": [
+            "demi",
+            "demie"
+          ],
+          "answer": "demie",
+          "ar": "الساعة الثامنة والنصف.",
+          "explain_ar": "heure مؤنثة: **demie**."
+        },
+        {
+          "id": "f7",
+          "text": "Il est neuf heures moins le ___.",
+          "say": "Il est neuf heures moins le quart.",
+          "options": [
+            "quart",
+            "demie"
+          ],
+          "answer": "quart",
+          "ar": "الساعة التاسعة إلا ربعاً.",
+          "explain_ar": "moins le **quart** = إلا ربعاً."
+        },
+        {
+          "id": "f8",
+          "text": "___ heure est-il ?",
+          "say": "Quelle heure est-il ?",
+          "options": [
+            "Quel",
+            "Quelle"
+          ],
+          "answer": "Quelle",
+          "ar": "كم الساعة؟",
+          "explain_ar": "heure مؤنثة: **Quelle**."
+        },
+        {
+          "id": "f9",
+          "text": "D'abord je me douche, ___ je prends un café.",
+          "say": "D'abord je me douche, ensuite je prends un café.",
+          "options": [
+            "enfin",
+            "ensuite"
+          ],
+          "answer": "ensuite",
+          "ar": "أولاً أستحم، بعد ذلك أشرب قهوة.",
+          "explain_ar": "**ensuite** = بعد ذلك. أما enfin فللخطوة الأخيرة."
+        },
+        {
+          "id": "f10",
+          "text": "Je déjeune à ___.",
+          "say": "Je déjeune à midi.",
+          "options": [
+            "minuit",
+            "midi"
+          ],
+          "answer": "midi",
+          "ar": "أتغدى عند الظهر.",
+          "explain_ar": "الغداء عند الظهر: **midi**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: الوقت",
+      "hint_ar": "أرقام متشابهة: deux و douze، six و dix، trois و treize.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع وقتاً أو عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "Il est deux heures.",
+          "options": [
+            "Il est douze heures.",
+            "Il est deux heures."
+          ],
+          "answer": "Il est deux heures.",
+          "explain_ar": "deux‿heures «دُزُر»: الثانية."
+        },
+        {
+          "id": "q2",
+          "say": "Il est dix heures.",
+          "options": [
+            "Il est dix heures.",
+            "Il est six heures."
+          ],
+          "answer": "Il est dix heures.",
+          "explain_ar": "dix‿heures «دِيزُر»: العاشرة."
+        },
+        {
+          "id": "q3",
+          "say": "et quart",
+          "options": [
+            "et quart",
+            "et demie"
+          ],
+          "answer": "et quart",
+          "explain_ar": "quart «كار»: ربع."
+        },
+        {
+          "id": "q4",
+          "say": "moins le quart",
+          "options": [
+            "et quart",
+            "moins le quart"
+          ],
+          "answer": "moins le quart",
+          "explain_ar": "moins «موان»: إلا."
+        },
+        {
+          "id": "q5",
+          "say": "je me couche",
+          "options": [
+            "je me lève",
+            "je me couche"
+          ],
+          "answer": "je me couche",
+          "explain_ar": "couche «كوش»: أنام."
+        },
+        {
+          "id": "q6",
+          "say": "le soir",
+          "options": [
+            "le soir",
+            "le matin"
+          ],
+          "answer": "le soir",
+          "explain_ar": "soir «سوار»: مساء."
+        },
+        {
+          "id": "q7",
+          "say": "Il est minuit.",
+          "options": [
+            "Il est midi.",
+            "Il est minuit."
+          ],
+          "answer": "Il est minuit.",
+          "explain_ar": "minuit «مينوي»: منتصف الليل."
+        },
+        {
+          "id": "q8",
+          "say": "Il est treize heures.",
+          "options": [
+            "Il est treize heures.",
+            "Il est trois heures."
+          ],
+          "answer": "Il est treize heures.",
+          "explain_ar": "treize «تغيز»: 13."
+        },
+        {
+          "id": "q9",
+          "say": "enfin",
+          "options": [
+            "ensuite",
+            "enfin"
+          ],
+          "answer": "enfin",
+          "explain_ar": "enfin «أونفان»: أخيراً."
+        },
+        {
+          "id": "q10",
+          "say": "vous vous levez",
+          "options": [
+            "nous nous levons",
+            "vous vous levez"
+          ],
+          "answer": "vous vous levez",
+          "explain_ar": "levez «لُڤيه»: تستيقظون."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الوقت واليوم",
+      "hint_ar": "انتبه لـ è في lève، و e في demie.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: je me **lève** بعلامة، و **d'abord** بفاصلة عليا.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je me lève",
+          "answer": "je me lève",
+          "ar": "أستيقظ"
+        },
+        {
+          "id": "s2",
+          "say": "tu te couches",
+          "answer": "tu te couches",
+          "ar": "تنام"
+        },
+        {
+          "id": "s3",
+          "say": "le matin",
+          "answer": "le matin",
+          "ar": "الصباح"
+        },
+        {
+          "id": "s4",
+          "say": "le soir",
+          "answer": "le soir",
+          "ar": "المساء"
+        },
+        {
+          "id": "s5",
+          "say": "midi",
+          "answer": "midi",
+          "ar": "الظهر"
+        },
+        {
+          "id": "s6",
+          "say": "et demie",
+          "answer": "et demie",
+          "ar": "والنصف"
+        },
+        {
+          "id": "s7",
+          "say": "il est huit heures",
+          "answer": "il est huit heures",
+          "ar": "الساعة الثامنة"
+        },
+        {
+          "id": "s8",
+          "say": "d'abord",
+          "answer": "d'abord",
+          "ar": "أولاً"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "روتين يومي كامل. جرّب أن تسقط e في me كما يفعل الفرنسيون: «ژُمْلِڤ».",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Quelle heure est-il ? Il est huit heures.",
+          "ar": "كم الساعة؟ الساعة الثامنة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Quelle heure est-il ?",
+              "كم الساعة؟"
+            ],
+            [
+              "Il est",
+              "الساعة"
+            ],
+            [
+              "huit",
+              "8"
+            ],
+            [
+              "heures.",
+              "ساعات"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Je me lève à sept heures et demie.",
+          "ar": "أستيقظ الساعة السابعة والنصف.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "me lève",
+              "أستيقظ"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "sept",
+              "7"
+            ],
+            [
+              "heures",
+              "ساعات"
+            ],
+            [
+              "et demie.",
+              "والنصف"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "D'abord je me douche, ensuite je m'habille.",
+          "ar": "أولاً أستحم، ثم ألبس ثيابي.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "D'abord",
+              "أولاً"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "me douche,",
+              "أستحم"
+            ],
+            [
+              "ensuite",
+              "ثم"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "m'habille.",
+              "ألبس"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Le soir, je dîne avec ma famille.",
+          "ar": "مساءً، أتعشى مع عائلتي.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Le soir,",
+              "مساءً"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "dîne",
+              "أتعشى"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "ma",
+              "ـي"
+            ],
+            [
+              "famille.",
+              "عائلة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Je me couche vers minuit.",
+          "ar": "أنام نحو منتصف الليل.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "me couche",
+              "أنام"
+            ],
+            [
+              "vers",
+              "نحو"
+            ],
+            [
+              "minuit.",
+              "منتصف الليل"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: صف يومك في خمس جمل بالترتيب: **D'abord… Ensuite… Puis… Le soir… Enfin…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "Quelle heure est-il ?",
+          "say": "Quelle heure est-il ?",
+          "back_ar": "كم الساعة؟"
+        },
+        {
+          "id": "c2",
+          "front": "Il est … heures.",
+          "say": "Il est dix heures.",
+          "back_ar": "الساعة …"
+        },
+        {
+          "id": "c3",
+          "front": "et quart",
+          "say": "et quart",
+          "back_ar": "والربع"
+        },
+        {
+          "id": "c4",
+          "front": "et demie",
+          "say": "et demie",
+          "back_ar": "والنصف"
+        },
+        {
+          "id": "c5",
+          "front": "moins le quart",
+          "say": "moins le quart",
+          "back_ar": "إلا ربعاً"
+        },
+        {
+          "id": "c6",
+          "front": "midi / minuit",
+          "say": "midi, minuit",
+          "back_ar": "الظهر / منتصف الليل"
+        },
+        {
+          "id": "c7",
+          "front": "le matin",
+          "say": "le matin",
+          "back_ar": "الصباح"
+        },
+        {
+          "id": "c8",
+          "front": "l'après-midi",
+          "say": "l'après-midi",
+          "back_ar": "بعد الظهر"
+        },
+        {
+          "id": "c9",
+          "front": "le soir",
+          "say": "le soir",
+          "back_ar": "المساء"
+        },
+        {
+          "id": "c10",
+          "front": "je me lève",
+          "say": "je me lève",
+          "back_ar": "أستيقظ"
+        },
+        {
+          "id": "c11",
+          "front": "je me couche",
+          "say": "je me couche",
+          "back_ar": "أنام"
+        },
+        {
+          "id": "c12",
+          "front": "je me douche",
+          "say": "je me douche",
+          "back_ar": "أستحم"
+        },
+        {
+          "id": "c13",
+          "front": "je m'habille",
+          "say": "je m'habille",
+          "back_ar": "ألبس ثيابي"
+        },
+        {
+          "id": "c14",
+          "front": "d'abord / ensuite",
+          "say": "d'abord, ensuite",
+          "back_ar": "أولاً / بعد ذلك"
+        },
+        {
+          "id": "c15",
+          "front": "puis / enfin",
+          "say": "puis, enfin",
+          "back_ar": "ثم / أخيراً"
+        },
+        {
+          "id": "c16",
+          "front": "déjeuner / dîner",
+          "say": "déjeuner, dîner",
+          "back_ar": "يتغدى / يتعشى"
+        }
+      ]
+    }
+  ]
+}

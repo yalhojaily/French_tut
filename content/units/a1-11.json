@@ -1,0 +1,1212 @@
+{
+  "id": "a1-11",
+  "stage": "A1",
+  "title_fr": "Le calendrier",
+  "title_ar": "التقويم",
+  "goals_ar": [
+    "تسمّي أيام الأسبوع والشهور والفصول",
+    "تقول التاريخ: **le 14 juillet**، **le premier mai**",
+    "تحدد موعداً: **On se voit jeudi à dix heures ?**",
+    "تستعمل **en** و **au** مع الشهور والفصول"
+  ],
+  "intro_ar": [
+    "أيام الأسبوع والشهور في الفرنسية **لا تُكتب بحرف كبير**: lundi، janvier. وكلها مذكرة.",
+    "**التاريخ أسهل من العربية:** le + الرقم + الشهر: **le 14 juillet** «لُو كاتورز ژوييه». والاستثناء الوحيد اليوم الأول: **le premier** mai (الأول)، لا le un.",
+    "**يوم محدد أم كل أسبوع؟** jeudi = يوم الخميس هذا، و le jeudi = كل خميس. فرق صغير ومهم."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: موعد في اللوفر",
+      "context_ar": "كلير ويوسف يختاران يوماً لزيارة متحف اللوفر. لاحظ الأيام والتاريخ.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "On visite le Louvre ensemble cette semaine ?",
+          "ar": "هل نزور اللوفر معاً هذا الأسبوع؟",
+          "slow": true,
+          "gloss": [
+            [
+              "On",
+              "نحن"
+            ],
+            [
+              "visite",
+              "نزور"
+            ],
+            [
+              "le Louvre",
+              "اللوفر"
+            ],
+            [
+              "ensemble",
+              "معاً"
+            ],
+            [
+              "cette",
+              "هذا"
+            ],
+            [
+              "semaine ?",
+              "أسبوع"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Bonne idée ! Mardi, c'est possible ?",
+          "ar": "فكرة جيدة! هل الثلاثاء ممكن؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonne",
+              "جيدة"
+            ],
+            [
+              "idée !",
+              "فكرة"
+            ],
+            [
+              "Mardi,",
+              "الثلاثاء"
+            ],
+            [
+              "c'est",
+              "هل هو"
+            ],
+            [
+              "possible ?",
+              "ممكن"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Non, le Louvre est fermé le mardi.",
+          "ar": "لا، اللوفر مغلق أيام الثلاثاء.",
+          "slow": true,
+          "gloss": [
+            [
+              "Non,",
+              "لا"
+            ],
+            [
+              "le Louvre",
+              "اللوفر"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "fermé",
+              "مغلق"
+            ],
+            [
+              "le mardi.",
+              "كل ثلاثاء"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Ah bon ? Alors mercredi ou jeudi ?",
+          "ar": "حقاً؟ إذن الأربعاء أو الخميس؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Ah bon ?",
+              "حقاً؟"
+            ],
+            [
+              "Alors",
+              "إذن"
+            ],
+            [
+              "mercredi",
+              "الأربعاء"
+            ],
+            [
+              "ou",
+              "أو"
+            ],
+            [
+              "jeudi ?",
+              "الخميس"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Jeudi, c'est parfait. Nous sommes le combien aujourd'hui ?",
+          "ar": "الخميس ممتاز. ما تاريخ اليوم؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Jeudi,",
+              "الخميس"
+            ],
+            [
+              "c'est",
+              "هو"
+            ],
+            [
+              "parfait.",
+              "ممتاز"
+            ],
+            [
+              "Nous sommes le combien",
+              "ما التاريخ"
+            ],
+            [
+              "aujourd'hui ?",
+              "اليوم"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Aujourd'hui, nous sommes le douze octobre.",
+          "ar": "اليوم هو الثاني عشر من أكتوبر.",
+          "slow": true,
+          "gloss": [
+            [
+              "Aujourd'hui,",
+              "اليوم"
+            ],
+            [
+              "nous sommes",
+              "نحن في"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "douze",
+              "12"
+            ],
+            [
+              "octobre.",
+              "أكتوبر"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Alors, rendez-vous jeudi quinze octobre, à dix heures.",
+          "ar": "إذن موعدنا الخميس 15 أكتوبر، الساعة العاشرة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Alors,",
+              "إذن"
+            ],
+            [
+              "rendez-vous",
+              "موعدنا"
+            ],
+            [
+              "jeudi",
+              "الخميس"
+            ],
+            [
+              "quinze",
+              "15"
+            ],
+            [
+              "octobre,",
+              "أكتوبر"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "dix",
+              "10"
+            ],
+            [
+              "heures.",
+              "ساعات"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Super. C'est l'automne, j'adore Paris en octobre !",
+          "ar": "رائع. إنه الخريف، أحب باريس في أكتوبر كثيراً!",
+          "slow": true,
+          "gloss": [
+            [
+              "Super.",
+              "رائع"
+            ],
+            [
+              "C'est",
+              "إنه"
+            ],
+            [
+              "l'automne,",
+              "الخريف"
+            ],
+            [
+              "j'adore",
+              "أعشق"
+            ],
+            [
+              "Paris",
+              "باريس"
+            ],
+            [
+              "en",
+              "في"
+            ],
+            [
+              "octobre !",
+              "أكتوبر"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Moi, je préfère le printemps. Mon anniversaire est en avril !",
+          "ar": "أنا أفضّل الربيع. عيد ميلادي في أبريل!",
+          "slow": true,
+          "gloss": [
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "préfère",
+              "أفضّل"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "printemps.",
+              "ربيع"
+            ],
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "anniversaire",
+              "عيد ميلاد"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "en",
+              "في"
+            ],
+            [
+              "avril !",
+              "أبريل"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "قارن: **le mardi** في السطر 3 (كل ثلاثاء) و **jeudi** في السطر 7 (الخميس القادم تحديداً). وانتبه لنطق **automne**: الـ m صامتة، «أوتون»."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "الأيام والشهور والفصول. كلها مذكرة، ولا تبدأ بحرف كبير.",
+      "groups": [
+        {
+          "title_ar": "أيام الأسبوع",
+          "items": [
+            {
+              "id": "v-lundi",
+              "say": "lundi",
+              "ar": "الاثنين"
+            },
+            {
+              "id": "v-mardi",
+              "say": "mardi",
+              "ar": "الثلاثاء"
+            },
+            {
+              "id": "v-mercredi",
+              "say": "mercredi",
+              "ar": "الأربعاء"
+            },
+            {
+              "id": "v-jeudi",
+              "say": "jeudi",
+              "ar": "الخميس"
+            },
+            {
+              "id": "v-vendredi",
+              "say": "vendredi",
+              "ar": "الجمعة"
+            },
+            {
+              "id": "v-samedi",
+              "say": "samedi",
+              "ar": "السبت"
+            },
+            {
+              "id": "v-dimanche",
+              "say": "dimanche",
+              "ar": "الأحد"
+            }
+          ]
+        },
+        {
+          "title_ar": "الشهور",
+          "items": [
+            {
+              "id": "v-jan",
+              "say": "janvier",
+              "ar": "يناير"
+            },
+            {
+              "id": "v-fev",
+              "say": "février",
+              "ar": "فبراير"
+            },
+            {
+              "id": "v-mars",
+              "say": "mars",
+              "ar": "مارس",
+              "note_ar": "الـ s تُنطق: «مارس»."
+            },
+            {
+              "id": "v-avr",
+              "say": "avril",
+              "ar": "أبريل"
+            },
+            {
+              "id": "v-mai",
+              "say": "mai",
+              "ar": "مايو"
+            },
+            {
+              "id": "v-juin",
+              "say": "juin",
+              "ar": "يونيو"
+            },
+            {
+              "id": "v-juil",
+              "say": "juillet",
+              "ar": "يوليو"
+            },
+            {
+              "id": "v-aout",
+              "say": "août",
+              "ar": "أغسطس",
+              "note_ar": "تُنطق «أو» أو «أوت»، والاثنان صحيحان."
+            },
+            {
+              "id": "v-sept",
+              "say": "septembre",
+              "ar": "سبتمبر"
+            },
+            {
+              "id": "v-oct",
+              "say": "octobre",
+              "ar": "أكتوبر"
+            },
+            {
+              "id": "v-nov",
+              "say": "novembre",
+              "ar": "نوفمبر"
+            },
+            {
+              "id": "v-dec",
+              "say": "décembre",
+              "ar": "ديسمبر"
+            }
+          ]
+        },
+        {
+          "title_ar": "الفصول",
+          "items": [
+            {
+              "id": "v-printemps",
+              "say": "le printemps",
+              "ar": "الربيع"
+            },
+            {
+              "id": "v-ete",
+              "say": "l'été",
+              "ar": "الصيف"
+            },
+            {
+              "id": "v-automne",
+              "say": "l'automne",
+              "ar": "الخريف",
+              "note_ar": "الـ m صامتة: «لوتون»."
+            },
+            {
+              "id": "v-hiver",
+              "say": "l'hiver",
+              "ar": "الشتاء"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-auj",
+              "say": "aujourd'hui",
+              "ar": "اليوم"
+            },
+            {
+              "id": "v-demain",
+              "say": "demain",
+              "ar": "غداً"
+            },
+            {
+              "id": "v-hier",
+              "say": "hier",
+              "ar": "أمس"
+            },
+            {
+              "id": "v-semaine",
+              "say": "la semaine",
+              "ar": "الأسبوع"
+            },
+            {
+              "id": "v-mois",
+              "say": "le mois",
+              "ar": "الشهر"
+            },
+            {
+              "id": "v-annee",
+              "say": "l'année",
+              "ar": "السنة"
+            },
+            {
+              "id": "v-rdv",
+              "say": "un rendez-vous",
+              "ar": "موعد"
+            },
+            {
+              "id": "v-anniv",
+              "say": "Bon anniversaire !",
+              "ar": "عيد ميلاد سعيد!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "التاريخ",
+      "title_ar": "القاعدة: التاريخ وحروف الجر مع الزمن",
+      "intro_ar": "التاريخ بأداة التعريف le والرقم العادي. ومع الشهور والفصول نستعمل en، إلا الربيع.",
+      "tables": [
+        {
+          "title_fr": "La date",
+          "title_ar": "قول التاريخ",
+          "head_ar": [
+            "التاريخ",
+            "بالفرنسية"
+          ],
+          "rows": [
+            {
+              "id": "g-d1",
+              "say": "le premier mai",
+              "cells": [
+                "1/5",
+                "le premier mai"
+              ],
+              "ar": "الأول من مايو"
+            },
+            {
+              "id": "g-d2",
+              "say": "le deux juin",
+              "cells": [
+                "2/6",
+                "le deux juin"
+              ],
+              "ar": "الثاني من يونيو"
+            },
+            {
+              "id": "g-d3",
+              "say": "le quatorze juillet",
+              "cells": [
+                "14/7",
+                "le 14 juillet"
+              ],
+              "ar": "الرابع عشر من يوليو (العيد الوطني)"
+            },
+            {
+              "id": "g-d4",
+              "say": "le vingt-cinq décembre",
+              "cells": [
+                "25/12",
+                "le 25 décembre"
+              ],
+              "ar": "الخامس والعشرون من ديسمبر"
+            },
+            {
+              "id": "g-d5",
+              "say": "le jeudi quinze octobre",
+              "cells": [
+                "jeudi 15/10",
+                "le jeudi 15 octobre"
+              ],
+              "ar": "الخميس 15 أكتوبر"
+            }
+          ],
+          "note_ar": "اليوم الأول وحده بالترتيب: **le premier**. وبعده أرقام عادية: le deux، le trois… وللسؤال عن التاريخ: **Nous sommes le combien ?** أو **On est le combien ?**"
+        },
+        {
+          "title_fr": "en, au, le",
+          "title_ar": "حروف الجر مع الزمن",
+          "head_ar": [
+            "مع",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-p1",
+              "say": "en octobre",
+              "cells": [
+                "en + mois",
+                "en octobre"
+              ],
+              "ar": "في أكتوبر"
+            },
+            {
+              "id": "g-p2",
+              "say": "en été",
+              "cells": [
+                "en + été, automne, hiver",
+                "en été"
+              ],
+              "ar": "في الصيف"
+            },
+            {
+              "id": "g-p3",
+              "say": "au printemps",
+              "cells": [
+                "au printemps",
+                "au printemps"
+              ],
+              "ar": "في الربيع (الاستثناء)"
+            },
+            {
+              "id": "g-p4",
+              "say": "le lundi",
+              "cells": [
+                "le + jour",
+                "le lundi"
+              ],
+              "ar": "كل اثنين"
+            },
+            {
+              "id": "g-p5",
+              "say": "lundi",
+              "cells": [
+                "jour seul",
+                "lundi"
+              ],
+              "ar": "يوم الاثنين القادم"
+            }
+          ],
+          "note_ar": "printemps وحده بـ **au** لأنه يبدأ بحرف ساكن. والفصول الثلاثة الأخرى تبدأ بحرف علة (h في hiver صامتة) فنقول **en**."
+        }
+      ],
+      "points_ar": [
+        "**بلا حرف كبير:** lundi، octobre، l'été. على عكس الإنجليزية.",
+        "**le premier** لليوم الأول فقط: le premier janvier، لكن le deux janvier.",
+        "**الأيام قبل التاريخ:** le jeudi 15 octobre (الخميس 15 أكتوبر)."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الأيام والتاريخ",
+      "hint_ar": "اختر الكلمة أو حرف الجر المناسب.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Le Louvre est fermé ___ mardi.",
+          "say": "Le Louvre est fermé le mardi.",
+          "options": [
+            "en",
+            "le"
+          ],
+          "answer": "le",
+          "ar": "اللوفر مغلق كل ثلاثاء.",
+          "explain_ar": "كل ثلاثاء: **le** mardi."
+        },
+        {
+          "id": "f2",
+          "text": "Mon anniversaire est ___ avril.",
+          "say": "Mon anniversaire est en avril.",
+          "options": [
+            "en",
+            "au"
+          ],
+          "answer": "en",
+          "ar": "عيد ميلادي في أبريل.",
+          "explain_ar": "مع الشهور: **en**."
+        },
+        {
+          "id": "f3",
+          "text": "J'aime Paris ___ printemps.",
+          "say": "J'aime Paris au printemps.",
+          "options": [
+            "en",
+            "au"
+          ],
+          "answer": "au",
+          "ar": "أحب باريس في الربيع.",
+          "explain_ar": "الاستثناء: **au** printemps."
+        },
+        {
+          "id": "f4",
+          "text": "Noël, c'est le vingt-cinq ___.",
+          "say": "Noël, c'est le vingt-cinq décembre.",
+          "options": [
+            "novembre",
+            "décembre"
+          ],
+          "answer": "décembre",
+          "ar": "عيد الميلاد في 25 ديسمبر.",
+          "explain_ar": "**décembre** = ديسمبر."
+        },
+        {
+          "id": "f5",
+          "text": "Aujourd'hui, c'est le ___ mai.",
+          "say": "Aujourd'hui, c'est le premier mai.",
+          "options": [
+            "un",
+            "premier"
+          ],
+          "answer": "premier",
+          "ar": "اليوم هو الأول من مايو.",
+          "explain_ar": "اليوم الأول: **le premier**."
+        },
+        {
+          "id": "f6",
+          "text": "La fête nationale française est le ___ juillet.",
+          "say": "La fête nationale française est le quatorze juillet.",
+          "options": [
+            "quatorze",
+            "quinze"
+          ],
+          "answer": "quatorze",
+          "ar": "العيد الوطني الفرنسي في 14 يوليو.",
+          "explain_ar": "**quatorze** = 14."
+        },
+        {
+          "id": "f7",
+          "text": "Après lundi, c'est ___.",
+          "say": "Après lundi, c'est mardi.",
+          "options": [
+            "mercredi",
+            "mardi"
+          ],
+          "answer": "mardi",
+          "ar": "بعد الاثنين يأتي الثلاثاء.",
+          "explain_ar": "**mardi** = الثلاثاء."
+        },
+        {
+          "id": "f8",
+          "text": "Le week-end, c'est samedi et ___.",
+          "say": "Le week-end, c'est samedi et dimanche.",
+          "options": [
+            "dimanche",
+            "vendredi"
+          ],
+          "answer": "dimanche",
+          "ar": "نهاية الأسبوع: السبت والأحد.",
+          "explain_ar": "**dimanche** = الأحد."
+        },
+        {
+          "id": "f9",
+          "text": "Les vacances d'été sont en ___ et en août.",
+          "say": "Les vacances d'été sont en juillet et en août.",
+          "options": [
+            "janvier",
+            "juillet"
+          ],
+          "answer": "juillet",
+          "ar": "عطلة الصيف في يوليو وأغسطس.",
+          "explain_ar": "**juillet** = يوليو، و janvier = يناير."
+        },
+        {
+          "id": "f10",
+          "text": "Je suis né ___ hiver.",
+          "say": "Je suis né en hiver.",
+          "options": [
+            "au",
+            "en"
+          ],
+          "answer": "en",
+          "ar": "وُلدت في الشتاء.",
+          "explain_ar": "hiver يبدأ بحرف علة (h صامتة): **en** hiver."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: الأيام والشهور",
+      "hint_ar": "أيام وشهور متقاربة الصوت. استمع للمقطع الأول جيداً.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع يوماً أو تاريخاً وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "mardi",
+          "options": [
+            "mardi",
+            "mercredi"
+          ],
+          "answer": "mardi",
+          "explain_ar": "mardi «ماغدي»: الثلاثاء."
+        },
+        {
+          "id": "q2",
+          "say": "jeudi",
+          "options": [
+            "lundi",
+            "jeudi"
+          ],
+          "answer": "jeudi",
+          "explain_ar": "jeudi «ژُدي»: الخميس."
+        },
+        {
+          "id": "q3",
+          "say": "juillet",
+          "options": [
+            "juin",
+            "juillet"
+          ],
+          "answer": "juillet",
+          "explain_ar": "juillet «ژوييه»: يوليو."
+        },
+        {
+          "id": "q4",
+          "say": "le premier mai",
+          "options": [
+            "le premier mars",
+            "le premier mai"
+          ],
+          "answer": "le premier mai",
+          "explain_ar": "mai «ميه»: مايو."
+        },
+        {
+          "id": "q5",
+          "say": "en hiver",
+          "options": [
+            "en été",
+            "en hiver"
+          ],
+          "answer": "en hiver",
+          "explain_ar": "en‿hiver «أونيڤيغ»: في الشتاء."
+        },
+        {
+          "id": "q6",
+          "say": "au printemps",
+          "options": [
+            "au printemps",
+            "en automne"
+          ],
+          "answer": "au printemps",
+          "explain_ar": "printemps «پغانتون»: الربيع."
+        },
+        {
+          "id": "q7",
+          "say": "le six août",
+          "options": [
+            "le seize août",
+            "le six août"
+          ],
+          "answer": "le six août",
+          "explain_ar": "six «سيس»: 6. أما seize «سيز» فـ 16."
+        },
+        {
+          "id": "q8",
+          "say": "le trente janvier",
+          "options": [
+            "le treize janvier",
+            "le trente janvier"
+          ],
+          "answer": "le trente janvier",
+          "explain_ar": "trente «تغونت»: 30."
+        },
+        {
+          "id": "q9",
+          "say": "demain",
+          "options": [
+            "hier",
+            "demain"
+          ],
+          "answer": "demain",
+          "explain_ar": "demain «دُمان»: غداً."
+        },
+        {
+          "id": "q10",
+          "say": "vendredi",
+          "options": [
+            "vendredi",
+            "samedi"
+          ],
+          "answer": "vendredi",
+          "explain_ar": "vendredi «ڤوندغُدي»: الجمعة."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الأيام والشهور",
+      "hint_ar": "بحروف صغيرة. انتبه للعلامات في août و l'été.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **août** بعلامة على u، و **l'été** بعلامتين.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "lundi",
+          "answer": "lundi",
+          "ar": "الاثنين"
+        },
+        {
+          "id": "s2",
+          "say": "mercredi",
+          "answer": "mercredi",
+          "ar": "الأربعاء"
+        },
+        {
+          "id": "s3",
+          "say": "samedi",
+          "answer": "samedi",
+          "ar": "السبت"
+        },
+        {
+          "id": "s4",
+          "say": "janvier",
+          "answer": "janvier",
+          "ar": "يناير"
+        },
+        {
+          "id": "s5",
+          "say": "août",
+          "answer": "août",
+          "ar": "أغسطس"
+        },
+        {
+          "id": "s6",
+          "say": "l'été",
+          "answer": "l'été",
+          "ar": "الصيف"
+        },
+        {
+          "id": "s7",
+          "say": "l'hiver",
+          "answer": "l'hiver",
+          "ar": "الشتاء"
+        },
+        {
+          "id": "s8",
+          "say": "le printemps",
+          "answer": "le printemps",
+          "ar": "الربيع"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "تواريخ ومواعيد. ردّد الأرقام بسرعة طبيعية.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Aujourd'hui, nous sommes lundi.",
+          "ar": "اليوم هو الاثنين.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Aujourd'hui,",
+              "اليوم"
+            ],
+            [
+              "nous sommes",
+              "نحن في"
+            ],
+            [
+              "lundi.",
+              "الاثنين"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Mon anniversaire est le premier mai.",
+          "ar": "عيد ميلادي في الأول من مايو.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Mon",
+              "ـي"
+            ],
+            [
+              "anniversaire",
+              "عيد ميلاد"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "le premier",
+              "الأول"
+            ],
+            [
+              "mai.",
+              "مايو"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "On se voit jeudi à dix heures ?",
+          "ar": "هل نلتقي الخميس الساعة العاشرة؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "On",
+              "نحن"
+            ],
+            [
+              "se voit",
+              "نلتقي"
+            ],
+            [
+              "jeudi",
+              "الخميس"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "dix",
+              "10"
+            ],
+            [
+              "heures ?",
+              "ساعات"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "J'adore Paris en automne.",
+          "ar": "أحب باريس في الخريف كثيراً.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "J'adore",
+              "أعشق"
+            ],
+            [
+              "Paris",
+              "باريس"
+            ],
+            [
+              "en",
+              "في"
+            ],
+            [
+              "automne.",
+              "الخريف"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Le quatorze juillet, c'est la fête nationale.",
+          "ar": "الرابع عشر من يوليو هو العيد الوطني.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Le",
+              "الـ"
+            ],
+            [
+              "quatorze",
+              "14"
+            ],
+            [
+              "juillet,",
+              "يوليو"
+            ],
+            [
+              "c'est",
+              "هو"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "fête",
+              "عيد"
+            ],
+            [
+              "nationale.",
+              "وطني"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: سجّل تاريخ اليوم وعيد ميلادك: **Aujourd'hui, nous sommes le… Mon anniversaire est le…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل الكلمات بالترتيب قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "lundi / mardi",
+          "say": "lundi, mardi",
+          "back_ar": "الاثنين / الثلاثاء"
+        },
+        {
+          "id": "c2",
+          "front": "mercredi / jeudi",
+          "say": "mercredi, jeudi",
+          "back_ar": "الأربعاء / الخميس"
+        },
+        {
+          "id": "c3",
+          "front": "vendredi / samedi / dimanche",
+          "say": "vendredi, samedi, dimanche",
+          "back_ar": "الجمعة / السبت / الأحد"
+        },
+        {
+          "id": "c4",
+          "front": "janvier / février / mars",
+          "say": "janvier, février, mars",
+          "back_ar": "يناير / فبراير / مارس"
+        },
+        {
+          "id": "c5",
+          "front": "avril / mai / juin",
+          "say": "avril, mai, juin",
+          "back_ar": "أبريل / مايو / يونيو"
+        },
+        {
+          "id": "c6",
+          "front": "juillet / août / septembre",
+          "say": "juillet, août, septembre",
+          "back_ar": "يوليو / أغسطس / سبتمبر"
+        },
+        {
+          "id": "c7",
+          "front": "octobre / novembre / décembre",
+          "say": "octobre, novembre, décembre",
+          "back_ar": "أكتوبر / نوفمبر / ديسمبر"
+        },
+        {
+          "id": "c8",
+          "front": "au printemps",
+          "say": "au printemps",
+          "back_ar": "في الربيع"
+        },
+        {
+          "id": "c9",
+          "front": "en été",
+          "say": "en été",
+          "back_ar": "في الصيف"
+        },
+        {
+          "id": "c10",
+          "front": "en automne",
+          "say": "en automne",
+          "back_ar": "في الخريف"
+        },
+        {
+          "id": "c11",
+          "front": "en hiver",
+          "say": "en hiver",
+          "back_ar": "في الشتاء"
+        },
+        {
+          "id": "c12",
+          "front": "le premier mai",
+          "say": "le premier mai",
+          "back_ar": "الأول من مايو"
+        },
+        {
+          "id": "c13",
+          "front": "Nous sommes le combien ?",
+          "say": "Nous sommes le combien ?",
+          "back_ar": "ما تاريخ اليوم؟"
+        },
+        {
+          "id": "c14",
+          "front": "un rendez-vous",
+          "say": "un rendez-vous",
+          "back_ar": "موعد"
+        },
+        {
+          "id": "c15",
+          "front": "Bon anniversaire !",
+          "say": "Bon anniversaire !",
+          "back_ar": "عيد ميلاد سعيد!"
+        },
+        {
+          "id": "c16",
+          "front": "hier / demain",
+          "say": "hier, demain",
+          "back_ar": "أمس / غداً"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1138 @@
+{
+  "id": "a1-09",
+  "stage": "A1",
+  "title_fr": "Poser des questions",
+  "title_ar": "طرح الأسئلة",
+  "goals_ar": [
+    "تطرح سؤال نعم/لا بثلاث طرق: بالنغمة، وبـ **est-ce que**، وبالقلب",
+    "تستعمل كلمات الاستفهام: **où، quand، comment، pourquoi، combien، qui**",
+    "تختار **quel** أو **quelle** حسب الاسم",
+    "تجيب عن «لماذا» بـ **parce que**، وعن السؤال المنفي بـ **si**"
+  ],
+  "intro_ar": [
+    "في العربية نضع «هل» في أول الجملة. والفرنسية عندها ثلاث طرق لسؤال نعم/لا، من الأبسط إلى الأرقى:",
+    "**الأولى، النغمة:** الجملة نفسها بصوت صاعد في آخرها: Tu parles français ? وهي الأكثر استعمالاً في الكلام.",
+    "**الثانية، est-ce que** في أول الجملة، وهي مثل «هل» تماماً: Est-ce que tu parles français ?",
+    "**الثالثة، القلب:** الفعل قبل الضمير بشرطة: Parles-tu français ? وهي رسمية، تقرؤها أكثر مما تسمعها."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: التسجيل في دورة",
+      "context_ar": "يوسف يسأل في مدرسة لغات عن دورة فرنسية. لاحظ كل أنواع الأسئلة.",
+      "speakers": {
+        "A": {
+          "name_ar": "الموظفة",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "B",
+          "say": "Bonjour, est-ce que vous avez des cours de français ?",
+          "ar": "مرحباً، هل عندكم دروس فرنسية؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonjour,",
+              "مرحباً"
+            ],
+            [
+              "est-ce que",
+              "هل"
+            ],
+            [
+              "vous",
+              "أنتم"
+            ],
+            [
+              "avez",
+              "عندكم"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "cours",
+              "دروس"
+            ],
+            [
+              "de français ?",
+              "فرنسية"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "A",
+          "say": "Oui, bien sûr. Vous êtes débutant ?",
+          "ar": "نعم، بالتأكيد. هل أنت مبتدئ؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "bien sûr.",
+              "بالتأكيد"
+            ],
+            [
+              "Vous",
+              "حضرتك"
+            ],
+            [
+              "êtes",
+              "تكون"
+            ],
+            [
+              "débutant ?",
+              "مبتدئ"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "B",
+          "say": "Oui. Quand est-ce que les cours commencent ?",
+          "ar": "نعم. متى تبدأ الدروس؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui.",
+              "نعم"
+            ],
+            [
+              "Quand",
+              "متى"
+            ],
+            [
+              "est-ce que",
+              "(سؤال)"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "cours",
+              "دروس"
+            ],
+            [
+              "commencent ?",
+              "تبدأ"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "A",
+          "say": "Lundi prochain, à dix-huit heures.",
+          "ar": "الاثنين القادم، الساعة السادسة مساءً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Lundi",
+              "الاثنين"
+            ],
+            [
+              "prochain,",
+              "القادم"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "dix-huit",
+              "18"
+            ],
+            [
+              "heures.",
+              "ساعة"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "B",
+          "say": "Et où sont les cours ?",
+          "ar": "وأين الدروس؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "où",
+              "أين"
+            ],
+            [
+              "sont",
+              "تكون"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "cours ?",
+              "دروس"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "A",
+          "say": "Ici, au deuxième étage. Comment vous appelez-vous ?",
+          "ar": "هنا، في الطابق الثاني. ما اسمك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Ici,",
+              "هنا"
+            ],
+            [
+              "au",
+              "في الـ"
+            ],
+            [
+              "deuxième",
+              "ثاني"
+            ],
+            [
+              "étage.",
+              "طابق"
+            ],
+            [
+              "Comment vous appelez-vous ?",
+              "ما اسمك؟"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "B",
+          "say": "Je m'appelle Youssef. Combien coûte le cours ?",
+          "ar": "اسمي يوسف. كم ثمن الدورة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Je m'appelle",
+              "اسمي"
+            ],
+            [
+              "Youssef.",
+              "يوسف"
+            ],
+            [
+              "Combien",
+              "كم"
+            ],
+            [
+              "coûte",
+              "يكلّف"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "cours ?",
+              "درس"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "A",
+          "say": "Deux cents euros par mois. Pourquoi est-ce que vous apprenez le français ?",
+          "ar": "مئتا يورو في الشهر. لماذا تتعلم الفرنسية؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Deux cents",
+              "مئتا"
+            ],
+            [
+              "euros",
+              "يورو"
+            ],
+            [
+              "par mois.",
+              "في الشهر"
+            ],
+            [
+              "Pourquoi",
+              "لماذا"
+            ],
+            [
+              "est-ce que",
+              "(سؤال)"
+            ],
+            [
+              "vous",
+              "حضرتك"
+            ],
+            [
+              "apprenez",
+              "تتعلم"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "français ?",
+              "فرنسية"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "B",
+          "say": "Parce que j'adore Paris, et je veux parler avec les Parisiens !",
+          "ar": "لأنني أحب باريس كثيراً، وأريد أن أتكلم مع الباريسيين!",
+          "slow": true,
+          "gloss": [
+            [
+              "Parce que",
+              "لأن"
+            ],
+            [
+              "j'adore",
+              "أعشق"
+            ],
+            [
+              "Paris,",
+              "باريس"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "je veux",
+              "أريد"
+            ],
+            [
+              "parler",
+              "أن أتكلم"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "Parisiens !",
+              "باريسيين"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "يوسف استعمل **est-ce que** في السطر 1، وكلمة استفهام مع est-ce que في السطر 3، وكلمة استفهام وحدها في السطر 5. والموظفة استعملت النغمة في السطر 2، و **القلب** الرسمي في السطر 6: Comment vous appelez-vous ?"
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "كلمات الاستفهام أولاً، ثم أسئلة جاهزة، ثم كلمات للإجابة.",
+      "groups": [
+        {
+          "title_ar": "كلمات الاستفهام",
+          "items": [
+            {
+              "id": "v-qui",
+              "say": "qui",
+              "ar": "مَن"
+            },
+            {
+              "id": "v-ou",
+              "say": "où",
+              "ar": "أين",
+              "note_ar": "بعلامة على u. أما ou بلا علامة فمعناها «أو»."
+            },
+            {
+              "id": "v-quand",
+              "say": "quand",
+              "ar": "متى"
+            },
+            {
+              "id": "v-comment",
+              "say": "comment",
+              "ar": "كيف"
+            },
+            {
+              "id": "v-pourquoi",
+              "say": "pourquoi",
+              "ar": "لماذا"
+            },
+            {
+              "id": "v-combien",
+              "say": "combien",
+              "ar": "كم"
+            },
+            {
+              "id": "v-questce",
+              "say": "qu'est-ce que",
+              "ar": "ماذا"
+            },
+            {
+              "id": "v-quel",
+              "say": "quel, quelle",
+              "ar": "أيّ / ما",
+              "fr": "quel / quelle",
+              "note_ar": "يتفق مع الاسم بعده، والنطق واحد «كِل»."
+            }
+          ]
+        },
+        {
+          "title_ar": "أسئلة جاهزة",
+          "items": [
+            {
+              "id": "v-gare",
+              "say": "Où est la gare ?",
+              "ar": "أين المحطة؟"
+            },
+            {
+              "id": "v-arrives",
+              "say": "Quand est-ce que tu arrives ?",
+              "ar": "متى تصل؟"
+            },
+            {
+              "id": "v-coute",
+              "say": "Combien ça coûte ?",
+              "ar": "كم ثمن هذا؟"
+            },
+            {
+              "id": "v-quiest",
+              "say": "Qui est-ce ?",
+              "ar": "مَن هذا؟"
+            },
+            {
+              "id": "v-questcequec",
+              "say": "Qu'est-ce que c'est ?",
+              "ar": "ما هذا؟"
+            },
+            {
+              "id": "v-ecrit",
+              "say": "Comment ça s'écrit ?",
+              "ar": "كيف تُكتب؟"
+            },
+            {
+              "id": "v-pourquoipas",
+              "say": "Pourquoi pas ?",
+              "ar": "لمَ لا؟"
+            }
+          ]
+        },
+        {
+          "title_ar": "للإجابة",
+          "items": [
+            {
+              "id": "v-parceque",
+              "say": "parce que",
+              "ar": "لأنّ",
+              "note_ar": "أمام حرف علة: parce qu'il، parce qu'elle."
+            },
+            {
+              "id": "v-si",
+              "say": "Si !",
+              "ar": "بلى!",
+              "note_ar": "جواب إيجابي عن سؤال منفي: Tu n'aimes pas le thé ? Si !"
+            },
+            {
+              "id": "v-peutetre",
+              "say": "peut-être",
+              "ar": "ربما"
+            },
+            {
+              "id": "v-biensur",
+              "say": "bien sûr",
+              "ar": "بالتأكيد"
+            },
+            {
+              "id": "v-saispas",
+              "say": "Je ne sais pas.",
+              "ar": "لا أعرف."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الأسئلة",
+      "title_ar": "القاعدة: بناء السؤال",
+      "intro_ar": "سؤال نعم/لا له ثلاثة أشكال بمعنى واحد. وسؤال المعلومات يبدأ بكلمة استفهام، وغالباً بعدها est-ce que.",
+      "tables": [
+        {
+          "title_fr": "Trois façons de poser une question",
+          "title_ar": "ثلاث طرق لسؤال نعم/لا",
+          "head_ar": [
+            "الطريقة",
+            "السؤال"
+          ],
+          "rows": [
+            {
+              "id": "g-q1",
+              "say": "Tu parles français ?",
+              "cells": [
+                "l'intonation",
+                "Tu parles français ?"
+              ],
+              "ar": "بالنغمة (الكلام اليومي)"
+            },
+            {
+              "id": "g-q2",
+              "say": "Est-ce que tu parles français ?",
+              "cells": [
+                "est-ce que",
+                "Est-ce que tu parles français ?"
+              ],
+              "ar": "بـ est-ce que (عادية)"
+            },
+            {
+              "id": "g-q3",
+              "say": "Parles-tu français ?",
+              "cells": [
+                "l'inversion",
+                "Parles-tu français ?"
+              ],
+              "ar": "بالقلب (رسمية)"
+            }
+          ],
+          "note_ar": "المعنى واحد: «هل تتكلم الفرنسية؟». استعمل الأولى في الكلام، وافهم الثالثة حين تقرؤها. وفي القلب مع il و elle نضيف t بين حرفَي علة: Parle-t-il français ?"
+        },
+        {
+          "title_fr": "Les mots interrogatifs",
+          "title_ar": "كلمات الاستفهام في جمل",
+          "head_ar": [
+            "الكلمة",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-w1",
+              "say": "Où est-ce que tu habites ?",
+              "cells": [
+                "où",
+                "Où est-ce que tu habites ?"
+              ],
+              "ar": "أين تسكن؟"
+            },
+            {
+              "id": "g-w2",
+              "say": "Quand est-ce que tu arrives ?",
+              "cells": [
+                "quand",
+                "Quand est-ce que tu arrives ?"
+              ],
+              "ar": "متى تصل؟"
+            },
+            {
+              "id": "g-w3",
+              "say": "Comment ça s'écrit ?",
+              "cells": [
+                "comment",
+                "Comment ça s'écrit ?"
+              ],
+              "ar": "كيف تُكتب؟"
+            },
+            {
+              "id": "g-w4",
+              "say": "Pourquoi tu apprends le français ?",
+              "cells": [
+                "pourquoi",
+                "Pourquoi tu apprends le français ?"
+              ],
+              "ar": "لماذا تتعلم الفرنسية؟"
+            },
+            {
+              "id": "g-w5",
+              "say": "Combien ça coûte ?",
+              "cells": [
+                "combien",
+                "Combien ça coûte ?"
+              ],
+              "ar": "كم ثمن هذا؟"
+            },
+            {
+              "id": "g-w6",
+              "say": "Quel est ton numéro ?",
+              "cells": [
+                "quel",
+                "Quel est ton numéro ?"
+              ],
+              "ar": "ما رقمك؟"
+            }
+          ],
+          "note_ar": "في الكلام اليومي توضع كلمة الاستفهام في الآخر أيضاً: Tu habites où ? = Où est-ce que tu habites ?"
+        }
+      ],
+      "points_ar": [
+        "**لماذا؟ لأن…:** Pourquoi… ? Parce que… . وأمام حرف علة: parce qu'il، parce qu'elle.",
+        "**si بدل oui:** إذا كان السؤال منفياً والجواب إيجابياً: Tu ne travailles pas ? Si, je travaille !",
+        "**quel أم quelle؟** حسب الاسم: quel âge (مذكر)، quelle heure (مؤنث). والنطق واحد."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: كلمات الاستفهام",
+      "hint_ar": "اختر الكلمة التي تناسب المعنى.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "___ est-ce que tu habites ?",
+          "say": "Où est-ce que tu habites ?",
+          "options": [
+            "Ou",
+            "Où"
+          ],
+          "answer": "Où",
+          "ar": "أين تسكن؟",
+          "explain_ar": "أين = **où** بعلامة. أما ou بلا علامة فمعناها «أو»."
+        },
+        {
+          "id": "f2",
+          "text": "___ que tu parles arabe ?",
+          "say": "Est-ce que tu parles arabe ?",
+          "options": [
+            "Est-ce",
+            "Qu'est-ce"
+          ],
+          "answer": "Est-ce",
+          "ar": "هل تتكلم العربية؟",
+          "explain_ar": "سؤال نعم/لا: **Est-ce que**. أما Qu'est-ce que فمعناها «ماذا»."
+        },
+        {
+          "id": "f3",
+          "text": "___ ça coûte ?",
+          "say": "Combien ça coûte ?",
+          "options": [
+            "Comment",
+            "Combien"
+          ],
+          "answer": "Combien",
+          "ar": "كم ثمن هذا؟",
+          "explain_ar": "السعر والعدد: **Combien**."
+        },
+        {
+          "id": "f4",
+          "text": "___ tu apprends le français ? Parce que j'aime Paris.",
+          "say": "Pourquoi tu apprends le français ? Parce que j'aime Paris.",
+          "options": [
+            "Pourquoi",
+            "Quand"
+          ],
+          "answer": "Pourquoi",
+          "ar": "لماذا تتعلم الفرنسية؟ لأنني أحب باريس.",
+          "explain_ar": "الجواب بـ parce que، فالسؤال **Pourquoi**."
+        },
+        {
+          "id": "f5",
+          "text": "___ est-ce ? C'est mon frère.",
+          "say": "Qui est-ce ? C'est mon frère.",
+          "options": [
+            "Qui",
+            "Où"
+          ],
+          "answer": "Qui",
+          "ar": "مَن هذا؟ إنه أخي.",
+          "explain_ar": "للأشخاص: **Qui**."
+        },
+        {
+          "id": "f6",
+          "text": "Tu arrives ___ ? Demain.",
+          "say": "Tu arrives quand ? Demain.",
+          "options": [
+            "combien",
+            "quand"
+          ],
+          "answer": "quand",
+          "ar": "متى تصل؟ غداً.",
+          "explain_ar": "الجواب زمن، فالسؤال **quand**."
+        },
+        {
+          "id": "f7",
+          "text": "___ heure est-il ?",
+          "say": "Quelle heure est-il ?",
+          "options": [
+            "Quel",
+            "Quelle"
+          ],
+          "answer": "Quelle",
+          "ar": "كم الساعة؟",
+          "explain_ar": "heure مؤنثة: **Quelle**."
+        },
+        {
+          "id": "f8",
+          "text": "___ est ton numéro ?",
+          "say": "Quel est ton numéro ?",
+          "options": [
+            "Quel",
+            "Quelle"
+          ],
+          "answer": "Quel",
+          "ar": "ما رقمك؟",
+          "explain_ar": "numéro مذكر: **Quel**."
+        },
+        {
+          "id": "f9",
+          "text": "Parles-___ français ?",
+          "say": "Parles-tu français ?",
+          "options": [
+            "il",
+            "tu"
+          ],
+          "answer": "tu",
+          "ar": "هل تتكلم الفرنسية؟",
+          "explain_ar": "parles تصريف tu، وفي القلب يأتي الضمير بعد الفعل: **Parles-tu**."
+        },
+        {
+          "id": "f10",
+          "text": "Tu n'aimes pas le thé ? ___ ! J'adore le thé.",
+          "say": "Tu n'aimes pas le thé ? Si ! J'adore le thé.",
+          "options": [
+            "Oui",
+            "Si"
+          ],
+          "answer": "Si",
+          "ar": "ألا تحب الشاي؟ بلى! أحبه كثيراً.",
+          "explain_ar": "جواب إيجابي عن سؤال منفي: **Si**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: سؤال أم خبر؟",
+      "hint_ar": "في أول سؤالين الكلمات واحدة، والفرق في النغمة فقط: صاعدة في السؤال وهابطة في الخبر.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع جملة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "Tu parles français ?",
+          "options": [
+            "Tu parles français.",
+            "Tu parles français ?"
+          ],
+          "answer": "Tu parles français ?",
+          "explain_ar": "النغمة صعدت في آخر الجملة: سؤال."
+        },
+        {
+          "id": "q2",
+          "say": "Il habite ici.",
+          "options": [
+            "Il habite ici.",
+            "Il habite ici ?"
+          ],
+          "answer": "Il habite ici.",
+          "explain_ar": "النغمة هبطت في الآخر: خبر."
+        },
+        {
+          "id": "q3",
+          "say": "quand",
+          "options": [
+            "quand",
+            "combien"
+          ],
+          "answer": "quand",
+          "explain_ar": "quand «كون»: متى."
+        },
+        {
+          "id": "q4",
+          "say": "parce que",
+          "options": [
+            "pourquoi",
+            "parce que"
+          ],
+          "answer": "parce que",
+          "explain_ar": "parce que «پارسكُ»: لأن."
+        },
+        {
+          "id": "q5",
+          "say": "Qui est-ce ?",
+          "options": [
+            "Qui est-ce ?",
+            "Qu'est-ce que c'est ?"
+          ],
+          "answer": "Qui est-ce ?",
+          "explain_ar": "Qui est-ce «كي إيس»: مَن هذا؟"
+        },
+        {
+          "id": "q6",
+          "say": "Combien ?",
+          "options": [
+            "Comment ?",
+            "Combien ?"
+          ],
+          "answer": "Combien ?",
+          "explain_ar": "combien «كومبيان»: كم."
+        },
+        {
+          "id": "q7",
+          "say": "Est-ce que vous êtes fatigué ?",
+          "options": [
+            "Est-ce que vous êtes français ?",
+            "Est-ce que vous êtes fatigué ?"
+          ],
+          "answer": "Est-ce que vous êtes fatigué ?",
+          "explain_ar": "fatigué «فاتيگيه»: متعب."
+        },
+        {
+          "id": "q8",
+          "say": "quel âge",
+          "options": [
+            "quel âge",
+            "quelle heure"
+          ],
+          "answer": "quel âge",
+          "explain_ar": "quel‿âge «كيلاژ»."
+        },
+        {
+          "id": "q9",
+          "say": "Parlez-vous anglais ?",
+          "options": [
+            "Parle-t-il anglais ?",
+            "Parlez-vous anglais ?"
+          ],
+          "answer": "Parlez-vous anglais ?",
+          "explain_ar": "Parlez-vous «پارليه ڤو»."
+        },
+        {
+          "id": "q10",
+          "say": "Tu arrives quand ?",
+          "options": [
+            "Tu arrives quand ?",
+            "Tu arrives demain ?"
+          ],
+          "answer": "Tu arrives quand ?",
+          "explain_ar": "quand في الآخر: متى تصل؟"
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: كلمات الاستفهام",
+      "hint_ar": "كلمات قصيرة بحروف صامتة كثيرة.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **où** بعلامة، و quand بـ d صامتة، و comment بـ t صامتة.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "où",
+          "answer": "où",
+          "ar": "أين"
+        },
+        {
+          "id": "s2",
+          "say": "quand",
+          "answer": "quand",
+          "ar": "متى"
+        },
+        {
+          "id": "s3",
+          "say": "comment",
+          "answer": "comment",
+          "ar": "كيف"
+        },
+        {
+          "id": "s4",
+          "say": "pourquoi",
+          "answer": "pourquoi",
+          "ar": "لماذا"
+        },
+        {
+          "id": "s5",
+          "say": "combien",
+          "answer": "combien",
+          "ar": "كم"
+        },
+        {
+          "id": "s6",
+          "say": "qui",
+          "answer": "qui",
+          "ar": "مَن"
+        },
+        {
+          "id": "s7",
+          "say": "parce que",
+          "answer": "parce que",
+          "ar": "لأن"
+        },
+        {
+          "id": "s8",
+          "say": "est-ce que",
+          "answer": "est-ce que",
+          "ar": "هل"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "اجعل صوتك يصعد في آخر سؤال نعم/لا، وينزل في سؤال المعلومات.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Est-ce que vous parlez anglais ?",
+          "ar": "هل تتكلم الإنجليزية؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Est-ce que",
+              "هل"
+            ],
+            [
+              "vous",
+              "حضرتك"
+            ],
+            [
+              "parlez",
+              "تتكلم"
+            ],
+            [
+              "anglais ?",
+              "الإنجليزية"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Où est la gare ?",
+          "ar": "أين المحطة؟",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Où",
+              "أين"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "gare ?",
+              "محطة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Pourquoi tu apprends le français ?",
+          "ar": "لماذا تتعلم الفرنسية؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Pourquoi",
+              "لماذا"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "apprends",
+              "تتعلم"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "français ?",
+              "فرنسية"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Parce que j'aime la culture française.",
+          "ar": "لأنني أحب الثقافة الفرنسية.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Parce que",
+              "لأن"
+            ],
+            [
+              "j'aime",
+              "أحب"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "culture",
+              "ثقافة"
+            ],
+            [
+              "française.",
+              "فرنسية"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Combien ça coûte, s'il vous plaît ?",
+          "ar": "كم ثمن هذا من فضلك؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Combien",
+              "كم"
+            ],
+            [
+              "ça",
+              "هذا"
+            ],
+            [
+              "coûte,",
+              "يكلّف"
+            ],
+            [
+              "s'il vous plaît ?",
+              "من فضلك"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: سجّل السؤال نفسه بالطرق الثلاث: **Tu habites à Paris ? Est-ce que tu habites à Paris ? Habites-tu à Paris ?**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل الكلمة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "où",
+          "say": "où",
+          "back_ar": "أين"
+        },
+        {
+          "id": "c2",
+          "front": "quand",
+          "say": "quand",
+          "back_ar": "متى"
+        },
+        {
+          "id": "c3",
+          "front": "comment",
+          "say": "comment",
+          "back_ar": "كيف"
+        },
+        {
+          "id": "c4",
+          "front": "pourquoi",
+          "say": "pourquoi",
+          "back_ar": "لماذا"
+        },
+        {
+          "id": "c5",
+          "front": "parce que",
+          "say": "parce que",
+          "back_ar": "لأنّ"
+        },
+        {
+          "id": "c6",
+          "front": "combien",
+          "say": "combien",
+          "back_ar": "كم"
+        },
+        {
+          "id": "c7",
+          "front": "qui",
+          "say": "qui",
+          "back_ar": "مَن"
+        },
+        {
+          "id": "c8",
+          "front": "Qu'est-ce que c'est ?",
+          "say": "Qu'est-ce que c'est ?",
+          "back_ar": "ما هذا؟"
+        },
+        {
+          "id": "c9",
+          "front": "est-ce que",
+          "say": "est-ce que",
+          "back_ar": "هل"
+        },
+        {
+          "id": "c10",
+          "front": "quel / quelle",
+          "say": "quel, quelle",
+          "back_ar": "أيّ / ما (مذكر / مؤنث)"
+        },
+        {
+          "id": "c11",
+          "front": "Si !",
+          "say": "Si !",
+          "back_ar": "بلى! (بعد سؤال منفي)"
+        },
+        {
+          "id": "c12",
+          "front": "peut-être",
+          "say": "peut-être",
+          "back_ar": "ربما"
+        },
+        {
+          "id": "c13",
+          "front": "bien sûr",
+          "say": "bien sûr",
+          "back_ar": "بالتأكيد"
+        },
+        {
+          "id": "c14",
+          "front": "Je ne sais pas.",
+          "say": "Je ne sais pas.",
+          "back_ar": "لا أعرف."
+        },
+        {
+          "id": "c15",
+          "front": "Combien ça coûte ?",
+          "say": "Combien ça coûte ?",
+          "back_ar": "كم ثمن هذا؟"
+        },
+        {
+          "id": "c16",
+          "front": "Parlez-vous français ?",
+          "say": "Parlez-vous français ?",
+          "back_ar": "هل تتكلم الفرنسية؟ (رسمي)"
+        }
+      ]
+    }
+  ]
+}

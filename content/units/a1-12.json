@@ -1,0 +1,1242 @@
+{
+  "id": "a1-12",
+  "stage": "A1",
+  "title_fr": "Aller et venir",
+  "title_ar": "الذهاب والمجيء",
+  "goals_ar": [
+    "تصرّف **aller** (يذهب) و **venir** (يأتي)",
+    "تدمج حروف الجر: **au** cinéma، **aux** toilettes، **du** travail",
+    "تقول وسيلة تنقّلك: **en métro، à pied**",
+    "تسأل وتجيب: **Tu vas où ? Je vais à la boulangerie.**"
+  ],
+  "intro_ar": [
+    "**aller** و **venir** من أهم أفعال الفرنسية، وكلاهما شاذ. مع aller نستعمل **à** (إلى)، ومع venir نستعمل **de** (من).",
+    "**الدمج الإجباري:** à و de لا تبقيان أمام le و les: à + le = **au**، à + les = **aux**، de + le = **du**، de + les = **des**. أما أمام la و l' فلا تغيير: à la gare، à l'école.",
+    "**المواصلات:** **en** لما تركب داخله (en métro، en voiture، en bus)، و **à** لما تركب فوقه أو تمشي (à vélo، à pied)."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: إلى أين؟",
+      "context_ar": "كلير تلتقي يوسف في الشارع صباحاً. لاحظ au و à la و du.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Salut Youssef ! Tu vas où ?",
+          "ar": "أهلاً يوسف! إلى أين تذهب؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Salut",
+              "أهلاً"
+            ],
+            [
+              "Youssef !",
+              "يوسف"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "vas",
+              "تذهب"
+            ],
+            [
+              "où ?",
+              "إلى أين"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Je vais à la boulangerie, et après, je vais au bureau.",
+          "ar": "أذهب إلى المخبز، وبعدها إلى المكتب.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "vais",
+              "أذهب"
+            ],
+            [
+              "à la",
+              "إلى الـ"
+            ],
+            [
+              "boulangerie,",
+              "مخبز"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "après,",
+              "بعدها"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "vais",
+              "أذهب"
+            ],
+            [
+              "au",
+              "إلى الـ"
+            ],
+            [
+              "bureau.",
+              "مكتب"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Tu vas au bureau à pied ?",
+          "ar": "هل تذهب إلى المكتب مشياً؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "vas",
+              "تذهب"
+            ],
+            [
+              "au",
+              "إلى الـ"
+            ],
+            [
+              "bureau",
+              "مكتب"
+            ],
+            [
+              "à pied ?",
+              "مشياً"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Non, je vais en métro. C'est loin. Et toi, tu viens d'où ?",
+          "ar": "لا، أذهب بالمترو. إنه بعيد. وأنتِ، من أين أتيتِ؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Non,",
+              "لا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "vais",
+              "أذهب"
+            ],
+            [
+              "en métro.",
+              "بالمترو"
+            ],
+            [
+              "C'est",
+              "إنه"
+            ],
+            [
+              "loin.",
+              "بعيد"
+            ],
+            [
+              "Et toi,",
+              "وأنتِ"
+            ],
+            [
+              "tu",
+              "أنتِ"
+            ],
+            [
+              "viens",
+              "تأتين"
+            ],
+            [
+              "d'où ?",
+              "من أين"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Je viens du marché, j'ai des fruits pour le pique-nique.",
+          "ar": "آتية من السوق، معي فواكه للنزهة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "viens",
+              "آتي"
+            ],
+            [
+              "du",
+              "من الـ"
+            ],
+            [
+              "marché,",
+              "سوق"
+            ],
+            [
+              "j'ai",
+              "معي"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "fruits",
+              "فواكه"
+            ],
+            [
+              "pour",
+              "لـ"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "pique-nique.",
+              "نزهة"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Un pique-nique ? Où ?",
+          "ar": "نزهة؟ أين؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Un",
+              "(نكرة)"
+            ],
+            [
+              "pique-nique ?",
+              "نزهة"
+            ],
+            [
+              "Où ?",
+              "أين؟"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Au parc, cet après-midi, avec des amis. Tu viens ?",
+          "ar": "في الحديقة، بعد ظهر اليوم، مع أصدقاء. هل تأتي؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Au",
+              "في الـ"
+            ],
+            [
+              "parc,",
+              "حديقة"
+            ],
+            [
+              "cet après-midi,",
+              "بعد ظهر اليوم"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "amis.",
+              "أصدقاء"
+            ],
+            [
+              "Tu viens ?",
+              "هل تأتي؟"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Avec plaisir ! Je viens à vélo, après le travail.",
+          "ar": "بكل سرور! آتي بالدراجة، بعد العمل.",
+          "slow": true,
+          "gloss": [
+            [
+              "Avec plaisir !",
+              "بكل سرور"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "viens",
+              "آتي"
+            ],
+            [
+              "à vélo,",
+              "بالدراجة"
+            ],
+            [
+              "après",
+              "بعد"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "travail.",
+              "عمل"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "قارن **au** bureau (لأن bureau مذكر: à + le) و **à la** boulangerie (مؤنث: لا دمج). وقارن **du** marché (de + le) و **d'où** (من أين)."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "أماكن المدينة مع أداتها، لأن الأداة تحدد au أو à la. ثم المواصلات.",
+      "groups": [
+        {
+          "title_ar": "أماكن المدينة",
+          "items": [
+            {
+              "id": "v-boulangerie",
+              "say": "la boulangerie",
+              "ar": "المخبز"
+            },
+            {
+              "id": "v-marche",
+              "say": "le marché",
+              "ar": "السوق"
+            },
+            {
+              "id": "v-bureau",
+              "say": "le bureau",
+              "ar": "المكتب"
+            },
+            {
+              "id": "v-ecole",
+              "say": "l'école",
+              "ar": "المدرسة"
+            },
+            {
+              "id": "v-gare",
+              "say": "la gare",
+              "ar": "محطة القطار"
+            },
+            {
+              "id": "v-aeroport",
+              "say": "l'aéroport",
+              "ar": "المطار"
+            },
+            {
+              "id": "v-parc",
+              "say": "le parc",
+              "ar": "الحديقة العامة"
+            },
+            {
+              "id": "v-musee",
+              "say": "le musée",
+              "ar": "المتحف"
+            },
+            {
+              "id": "v-cinema",
+              "say": "le cinéma",
+              "ar": "السينما"
+            },
+            {
+              "id": "v-pharmacie",
+              "say": "la pharmacie",
+              "ar": "الصيدلية"
+            },
+            {
+              "id": "v-hopital",
+              "say": "l'hôpital",
+              "ar": "المستشفى"
+            },
+            {
+              "id": "v-mosquee",
+              "say": "la mosquée",
+              "ar": "المسجد"
+            },
+            {
+              "id": "v-toilettes",
+              "say": "les toilettes",
+              "ar": "دورة المياه",
+              "note_ar": "دائماً بالجمع: aux toilettes."
+            }
+          ]
+        },
+        {
+          "title_ar": "المواصلات",
+          "items": [
+            {
+              "id": "v-metro",
+              "say": "en métro",
+              "ar": "بالمترو"
+            },
+            {
+              "id": "v-bus",
+              "say": "en bus",
+              "ar": "بالحافلة"
+            },
+            {
+              "id": "v-voiture",
+              "say": "en voiture",
+              "ar": "بالسيارة"
+            },
+            {
+              "id": "v-train",
+              "say": "en train",
+              "ar": "بالقطار"
+            },
+            {
+              "id": "v-avion",
+              "say": "en avion",
+              "ar": "بالطائرة"
+            },
+            {
+              "id": "v-taxi",
+              "say": "en taxi",
+              "ar": "بسيارة أجرة"
+            },
+            {
+              "id": "v-avelo",
+              "say": "à vélo",
+              "ar": "بالدراجة"
+            },
+            {
+              "id": "v-apied",
+              "say": "à pied",
+              "ar": "مشياً"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-tuvas",
+              "say": "Tu vas où ?",
+              "ar": "إلى أين تذهب؟"
+            },
+            {
+              "id": "v-tuviens",
+              "say": "Tu viens d'où ?",
+              "ar": "من أين أتيت؟"
+            },
+            {
+              "id": "v-loin",
+              "say": "C'est loin ?",
+              "ar": "هل هو بعيد؟"
+            },
+            {
+              "id": "v-pres",
+              "say": "C'est près d'ici.",
+              "ar": "إنه قريب من هنا."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "aller / venir",
+      "title_ar": "القاعدة: aller و venir والدمج",
+      "intro_ar": "فعلان شاذان يُحفظان كما هما، ثم جدول الدمج الذي ستستعمله كل يوم.",
+      "tables": [
+        {
+          "title_fr": "aller (au présent)",
+          "title_ar": "فعل «يذهب»",
+          "head_ar": [
+            "الضمير",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-a1",
+              "say": "je vais",
+              "cells": [
+                "je",
+                "vais"
+              ],
+              "ar": "أذهب"
+            },
+            {
+              "id": "g-a2",
+              "say": "tu vas",
+              "cells": [
+                "tu",
+                "vas"
+              ],
+              "ar": "تذهب"
+            },
+            {
+              "id": "g-a3",
+              "say": "il va",
+              "cells": [
+                "il / elle / on",
+                "va"
+              ],
+              "ar": "يذهب / تذهب / نذهب"
+            },
+            {
+              "id": "g-a4",
+              "say": "nous allons",
+              "cells": [
+                "nous",
+                "allons"
+              ],
+              "ar": "نذهب"
+            },
+            {
+              "id": "g-a5",
+              "say": "vous allez",
+              "cells": [
+                "vous",
+                "allez"
+              ],
+              "ar": "تذهبون"
+            },
+            {
+              "id": "g-a6",
+              "say": "ils vont",
+              "cells": [
+                "ils / elles",
+                "vont"
+              ],
+              "ar": "يذهبون"
+            }
+          ],
+          "note_ar": "va هي نفسها في **Ça va ?** (كيف الحال؟ حرفياً: كيف يمشي الأمر؟). ولاحظ الوصل: nous‿allons، vous‿allez."
+        },
+        {
+          "title_fr": "venir (au présent)",
+          "title_ar": "فعل «يأتي»",
+          "head_ar": [
+            "الضمير",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-v1",
+              "say": "je viens",
+              "cells": [
+                "je",
+                "viens"
+              ],
+              "ar": "آتي"
+            },
+            {
+              "id": "g-v2",
+              "say": "tu viens",
+              "cells": [
+                "tu",
+                "viens"
+              ],
+              "ar": "تأتي"
+            },
+            {
+              "id": "g-v3",
+              "say": "il vient",
+              "cells": [
+                "il / elle / on",
+                "vient"
+              ],
+              "ar": "يأتي / تأتي / نأتي"
+            },
+            {
+              "id": "g-v4",
+              "say": "nous venons",
+              "cells": [
+                "nous",
+                "venons"
+              ],
+              "ar": "نأتي"
+            },
+            {
+              "id": "g-v5",
+              "say": "vous venez",
+              "cells": [
+                "vous",
+                "venez"
+              ],
+              "ar": "تأتون"
+            },
+            {
+              "id": "g-v6",
+              "say": "ils viennent",
+              "cells": [
+                "ils / elles",
+                "viennent"
+              ],
+              "ar": "يأتون"
+            }
+          ],
+          "note_ar": "il vient «ڤيان» بصوت أنفي، و ils viennent «ڤيين» بنون واضحة. هذا الفرق الوحيد المسموع بين المفرد والجمع."
+        },
+        {
+          "title_fr": "à / de + article",
+          "title_ar": "الدمج مع أداة التعريف",
+          "head_ar": [
+            "الدمج",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-c1",
+              "say": "au cinéma",
+              "cells": [
+                "à + le = au",
+                "au cinéma"
+              ],
+              "ar": "إلى السينما"
+            },
+            {
+              "id": "g-c2",
+              "say": "aux toilettes",
+              "cells": [
+                "à + les = aux",
+                "aux toilettes"
+              ],
+              "ar": "إلى دورة المياه"
+            },
+            {
+              "id": "g-c3",
+              "say": "à la gare",
+              "cells": [
+                "à + la = à la",
+                "à la gare"
+              ],
+              "ar": "إلى المحطة (لا دمج)"
+            },
+            {
+              "id": "g-c4",
+              "say": "à l'école",
+              "cells": [
+                "à + l' = à l'",
+                "à l'école"
+              ],
+              "ar": "إلى المدرسة (لا دمج)"
+            },
+            {
+              "id": "g-c5",
+              "say": "du bureau",
+              "cells": [
+                "de + le = du",
+                "du bureau"
+              ],
+              "ar": "من المكتب"
+            },
+            {
+              "id": "g-c6",
+              "say": "des États-Unis",
+              "cells": [
+                "de + les = des",
+                "des États-Unis"
+              ],
+              "ar": "من الولايات المتحدة"
+            }
+          ],
+          "note_ar": "au و aux و eau كلها تُنطق «أو». و aux تُنطق «أوز» أمام حرف علة: aux‿États-Unis."
+        }
+      ],
+      "points_ar": [
+        "**الدمج إجباري:** لا تقل «à le» أبداً، بل au. ولا «de le»، بل du.",
+        "**en أم à مع المواصلات؟** en لما تكون داخل الوسيلة (en métro، en avion)، و à لما تكون فوقها أو على قدميك (à vélo، à pied).",
+        "**Tu viens ?** = هل تأتي (معنا)؟ دعوة يومية شائعة."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: aller و venir والدمج",
+      "hint_ar": "انتبه للضمير، ثم لجنس المكان.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je ___ au cinéma.",
+          "say": "Je vais au cinéma.",
+          "options": [
+            "va",
+            "vais",
+            "vas"
+          ],
+          "answer": "vais",
+          "ar": "أذهب إلى السينما.",
+          "explain_ar": "مع je: **vais**."
+        },
+        {
+          "id": "f2",
+          "text": "Nous ___ à la gare.",
+          "say": "Nous allons à la gare.",
+          "options": [
+            "allez",
+            "allons"
+          ],
+          "answer": "allons",
+          "ar": "نذهب إلى المحطة.",
+          "explain_ar": "مع nous: **allons**."
+        },
+        {
+          "id": "f3",
+          "text": "Ils ___ au parc.",
+          "say": "Ils vont au parc.",
+          "options": [
+            "vont",
+            "vient"
+          ],
+          "answer": "vont",
+          "ar": "يذهبون إلى الحديقة.",
+          "explain_ar": "مع ils: **vont**."
+        },
+        {
+          "id": "f4",
+          "text": "Tu ___ d'où ?",
+          "say": "Tu viens d'où ?",
+          "options": [
+            "vient",
+            "viens"
+          ],
+          "answer": "viens",
+          "ar": "من أين أتيت؟",
+          "explain_ar": "مع tu: **viens**."
+        },
+        {
+          "id": "f5",
+          "text": "Elle va ___ cinéma.",
+          "say": "Elle va au cinéma.",
+          "options": [
+            "à le",
+            "au"
+          ],
+          "answer": "au",
+          "ar": "تذهب إلى السينما.",
+          "explain_ar": "à + le = **au** دائماً."
+        },
+        {
+          "id": "f6",
+          "text": "Je vais ___ pharmacie.",
+          "say": "Je vais à la pharmacie.",
+          "options": [
+            "au",
+            "à la"
+          ],
+          "answer": "à la",
+          "ar": "أذهب إلى الصيدلية.",
+          "explain_ar": "pharmacie مؤنثة: **à la** بلا دمج."
+        },
+        {
+          "id": "f7",
+          "text": "Il vient ___ bureau.",
+          "say": "Il vient du bureau.",
+          "options": [
+            "du",
+            "de le"
+          ],
+          "answer": "du",
+          "ar": "يأتي من المكتب.",
+          "explain_ar": "de + le = **du**."
+        },
+        {
+          "id": "f8",
+          "text": "Je vais au travail ___ métro.",
+          "say": "Je vais au travail en métro.",
+          "options": [
+            "à",
+            "en"
+          ],
+          "answer": "en",
+          "ar": "أذهب إلى العمل بالمترو.",
+          "explain_ar": "داخل الوسيلة: **en** métro."
+        },
+        {
+          "id": "f9",
+          "text": "Nous allons au parc ___ pied.",
+          "say": "Nous allons au parc à pied.",
+          "options": [
+            "en",
+            "à"
+          ],
+          "answer": "à",
+          "ar": "نذهب إلى الحديقة مشياً.",
+          "explain_ar": "مشياً: **à** pied."
+        },
+        {
+          "id": "f10",
+          "text": "Ils ___ de Lyon.",
+          "say": "Ils viennent de Lyon.",
+          "options": [
+            "vient",
+            "viennent"
+          ],
+          "answer": "viennent",
+          "ar": "هم آتون من ليون.",
+          "explain_ar": "مع ils: **viennent**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: aller و venir",
+      "hint_ar": "انتبه لـ «ڤيان» و «ڤيين»، ولـ au و du.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "ils vont",
+          "options": [
+            "il va",
+            "ils vont"
+          ],
+          "answer": "ils vont",
+          "explain_ar": "vont «ڤون»: يذهبون."
+        },
+        {
+          "id": "q2",
+          "say": "il vient",
+          "options": [
+            "il vient",
+            "ils viennent"
+          ],
+          "answer": "il vient",
+          "explain_ar": "vient «ڤيان» بصوت أنفي: مفرد."
+        },
+        {
+          "id": "q3",
+          "say": "du parc",
+          "options": [
+            "au parc",
+            "du parc"
+          ],
+          "answer": "du parc",
+          "explain_ar": "du «دو»: من."
+        },
+        {
+          "id": "q4",
+          "say": "en métro",
+          "options": [
+            "à vélo",
+            "en métro"
+          ],
+          "answer": "en métro",
+          "explain_ar": "métro «ميتغو»."
+        },
+        {
+          "id": "q5",
+          "say": "je viens",
+          "options": [
+            "je viens",
+            "je vais"
+          ],
+          "answer": "je viens",
+          "explain_ar": "viens «ڤيان»: آتي."
+        },
+        {
+          "id": "q6",
+          "say": "vous allez",
+          "options": [
+            "nous allons",
+            "vous allez"
+          ],
+          "answer": "vous allez",
+          "explain_ar": "vous‿allez «ڤوزاليه»."
+        },
+        {
+          "id": "q7",
+          "say": "à pied",
+          "options": [
+            "à pied",
+            "à vélo"
+          ],
+          "answer": "à pied",
+          "explain_ar": "pied «پييه»: قدم."
+        },
+        {
+          "id": "q8",
+          "say": "à l'école",
+          "options": [
+            "à la gare",
+            "à l'école"
+          ],
+          "answer": "à l'école",
+          "explain_ar": "l'école «ليكول»: المدرسة."
+        },
+        {
+          "id": "q9",
+          "say": "C'est près d'ici.",
+          "options": [
+            "C'est loin d'ici.",
+            "C'est près d'ici."
+          ],
+          "answer": "C'est près d'ici.",
+          "explain_ar": "près «پغيه»: قريب."
+        },
+        {
+          "id": "q10",
+          "say": "aux États-Unis",
+          "options": [
+            "aux États-Unis",
+            "au Canada"
+          ],
+          "answer": "aux États-Unis",
+          "explain_ar": "aux‿États «أوزيتا»."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب ما تسمعه",
+      "hint_ar": "aller و venir وحروف الجر.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **au** لا à le، و ils **viennent** بنونين.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je vais",
+          "answer": "je vais",
+          "ar": "أذهب"
+        },
+        {
+          "id": "s2",
+          "say": "tu viens",
+          "answer": "tu viens",
+          "ar": "تأتي"
+        },
+        {
+          "id": "s3",
+          "say": "ils vont",
+          "answer": "ils vont",
+          "ar": "يذهبون"
+        },
+        {
+          "id": "s4",
+          "say": "nous venons",
+          "answer": "nous venons",
+          "ar": "نأتي"
+        },
+        {
+          "id": "s5",
+          "say": "au cinéma",
+          "answer": "au cinéma",
+          "ar": "إلى السينما"
+        },
+        {
+          "id": "s6",
+          "say": "à la gare",
+          "answer": "à la gare",
+          "ar": "إلى المحطة"
+        },
+        {
+          "id": "s7",
+          "say": "en métro",
+          "answer": "en métro",
+          "ar": "بالمترو"
+        },
+        {
+          "id": "s8",
+          "say": "à pied",
+          "answer": "à pied",
+          "ar": "مشياً"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل التنقّل اليومية. ركّز على au و du.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Je vais au bureau en métro.",
+          "ar": "أذهب إلى المكتب بالمترو.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "vais",
+              "أذهب"
+            ],
+            [
+              "au",
+              "إلى الـ"
+            ],
+            [
+              "bureau",
+              "مكتب"
+            ],
+            [
+              "en métro.",
+              "بالمترو"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Tu viens avec nous ?",
+          "ar": "هل تأتي معنا؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "viens",
+              "تأتي"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "nous ?",
+              "نا"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Nous allons au musée samedi.",
+          "ar": "نذهب إلى المتحف يوم السبت.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "allons",
+              "نذهب"
+            ],
+            [
+              "au",
+              "إلى الـ"
+            ],
+            [
+              "musée",
+              "متحف"
+            ],
+            [
+              "samedi.",
+              "السبت"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Elle vient du marché à pied.",
+          "ar": "تأتي من السوق مشياً.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "vient",
+              "تأتي"
+            ],
+            [
+              "du",
+              "من الـ"
+            ],
+            [
+              "marché",
+              "سوق"
+            ],
+            [
+              "à pied.",
+              "مشياً"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Les toilettes, s'il vous plaît ?",
+          "ar": "أين دورة المياه من فضلك؟",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Les",
+              "الـ"
+            ],
+            [
+              "toilettes,",
+              "دورة المياه"
+            ],
+            [
+              "s'il vous plaît ?",
+              "من فضلك"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: قل أين تذهب هذا الأسبوع وبماذا: **Lundi, je vais au bureau en voiture. Samedi, je vais…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "aller",
+          "say": "aller",
+          "back_ar": "يذهب"
+        },
+        {
+          "id": "c2",
+          "front": "je vais / tu vas",
+          "say": "je vais, tu vas",
+          "back_ar": "أذهب / تذهب"
+        },
+        {
+          "id": "c3",
+          "front": "nous allons / ils vont",
+          "say": "nous allons, ils vont",
+          "back_ar": "نذهب / يذهبون"
+        },
+        {
+          "id": "c4",
+          "front": "venir",
+          "say": "venir",
+          "back_ar": "يأتي"
+        },
+        {
+          "id": "c5",
+          "front": "je viens / ils viennent",
+          "say": "je viens, ils viennent",
+          "back_ar": "آتي / يأتون"
+        },
+        {
+          "id": "c6",
+          "front": "au",
+          "say": "au cinéma",
+          "back_ar": "إلى الـ (à + le)"
+        },
+        {
+          "id": "c7",
+          "front": "aux",
+          "say": "aux toilettes",
+          "back_ar": "إلى الـ (à + les)"
+        },
+        {
+          "id": "c8",
+          "front": "du",
+          "say": "du bureau",
+          "back_ar": "من الـ (de + le)"
+        },
+        {
+          "id": "c9",
+          "front": "en métro",
+          "say": "en métro",
+          "back_ar": "بالمترو"
+        },
+        {
+          "id": "c10",
+          "front": "à pied",
+          "say": "à pied",
+          "back_ar": "مشياً"
+        },
+        {
+          "id": "c11",
+          "front": "à vélo",
+          "say": "à vélo",
+          "back_ar": "بالدراجة"
+        },
+        {
+          "id": "c12",
+          "front": "Tu vas où ?",
+          "say": "Tu vas où ?",
+          "back_ar": "إلى أين تذهب؟"
+        },
+        {
+          "id": "c13",
+          "front": "Tu viens d'où ?",
+          "say": "Tu viens d'où ?",
+          "back_ar": "من أين أتيت؟"
+        },
+        {
+          "id": "c14",
+          "front": "la gare",
+          "say": "la gare",
+          "back_ar": "محطة القطار"
+        },
+        {
+          "id": "c15",
+          "front": "la boulangerie",
+          "say": "la boulangerie",
+          "back_ar": "المخبز"
+        },
+        {
+          "id": "c16",
+          "front": "C'est loin ?",
+          "say": "C'est loin ?",
+          "back_ar": "هل هو بعيد؟"
+        }
+      ]
+    }
+  ]
+}
