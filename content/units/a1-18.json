@@ -1,0 +1,1200 @@
+{
+  "id": "a1-18",
+  "stage": "A1",
+  "title_fr": "Les vêtements",
+  "title_ar": "الملابس",
+  "goals_ar": [
+    "تسمّي الملابس وتقول ما تلبسه: **Je porte une chemise blanche.**",
+    "تصرّف **mettre** (يضع / يلبس)",
+    "تعبّر عن رأيك في المقاس والسعر: **C'est trop grand. C'est assez long.**",
+    "تستعمل **quel، quelle، quels، quelles** للسؤال والتعجب"
+  ],
+  "intro_ar": [
+    "**porter** (يرتدي) فعل er منتظم، ويصف ما عليك: Je porte un jean. أما **mettre** (يضع / يلبس) ففعل شاذ، ويصف لحظة اللبس: Je mets mon manteau (ألبس معطفي).",
+    "**الألوان بعد الاسم وتتفق معه** كما تعلمت في الوحدة 1.7: une chemise blanche، des chaussures noires.",
+    "**trop** = أكثر من اللازم، وفيها شكوى: C'est trop cher ! أما **assez** فتعني «بما يكفي»: C'est assez grand."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: في محل الملابس",
+      "context_ar": "يوسف يبحث عن سترة للشتاء. لاحظ المقاس، و trop، و quel.",
+      "speakers": {
+        "A": {
+          "name_ar": "البائعة",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Bonjour ! Je peux vous aider ?",
+          "ar": "مرحباً! هل أستطيع مساعدتك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonjour !",
+              "مرحباً"
+            ],
+            [
+              "Je peux",
+              "أستطيع"
+            ],
+            [
+              "vous",
+              "ـك"
+            ],
+            [
+              "aider ?",
+              "أن أساعد"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Oui, je cherche une veste pour l'hiver.",
+          "ar": "نعم، أبحث عن سترة للشتاء.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "je cherche",
+              "أبحث عن"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "veste",
+              "سترة"
+            ],
+            [
+              "pour",
+              "لـ"
+            ],
+            [
+              "l'hiver.",
+              "الشتاء"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Quelle taille faites-vous ?",
+          "ar": "ما مقاسك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Quelle taille faites-vous ?",
+              "ما مقاسك؟"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Je fais du L, je pense. Vous avez cette veste en bleu ?",
+          "ar": "مقاسي L على ما أظن. هل عندكم هذه السترة بالأزرق؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Je fais du L,",
+              "مقاسي L"
+            ],
+            [
+              "je pense.",
+              "أظن"
+            ],
+            [
+              "Vous",
+              "أنتم"
+            ],
+            [
+              "avez",
+              "عندكم"
+            ],
+            [
+              "cette",
+              "هذه"
+            ],
+            [
+              "veste",
+              "سترة"
+            ],
+            [
+              "en bleu ?",
+              "بالأزرق"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Oui, voilà. Vous voulez l'essayer ? La cabine est à droite.",
+          "ar": "نعم، تفضّل. هل تريد أن تجرّبها؟ غرفة القياس على اليمين.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "voilà.",
+              "تفضّل"
+            ],
+            [
+              "Vous",
+              "حضرتك"
+            ],
+            [
+              "voulez",
+              "تريد"
+            ],
+            [
+              "l'essayer ?",
+              "أن تجرّبها"
+            ],
+            [
+              "La",
+              "الـ"
+            ],
+            [
+              "cabine",
+              "غرفة القياس"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "à droite.",
+              "على اليمين"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Elle est un peu trop grande. Vous avez la taille M ?",
+          "ar": "إنها كبيرة قليلاً. هل عندكم مقاس M؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "un peu",
+              "قليلاً"
+            ],
+            [
+              "trop grande.",
+              "كبيرة أكثر من اللازم"
+            ],
+            [
+              "Vous",
+              "أنتم"
+            ],
+            [
+              "avez",
+              "عندكم"
+            ],
+            [
+              "la taille M ?",
+              "مقاس M"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Voilà la taille M. Elle vous va très bien !",
+          "ar": "هذا مقاس M. إنها تليق بك كثيراً!",
+          "slow": true,
+          "gloss": [
+            [
+              "Voilà",
+              "هذا"
+            ],
+            [
+              "la taille M.",
+              "مقاس M"
+            ],
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "vous va",
+              "تليق بك"
+            ],
+            [
+              "très bien !",
+              "جداً"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Oui, elle est parfaite. Elle coûte combien ?",
+          "ar": "نعم، إنها ممتازة. بكم هي؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "elle",
+              "هي"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "parfaite.",
+              "ممتازة"
+            ],
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "coûte",
+              "تكلّف"
+            ],
+            [
+              "combien ?",
+              "كم"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Quatre-vingt-dix euros.",
+          "ar": "تسعون يورو.",
+          "slow": true,
+          "gloss": [
+            [
+              "Quatre-vingt-dix",
+              "90"
+            ],
+            [
+              "euros.",
+              "يورو"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "Quel prix ! C'est un peu cher, mais je la prends.",
+          "ar": "يا له من سعر! إنها غالية قليلاً، لكنني سآخذها.",
+          "slow": true,
+          "gloss": [
+            [
+              "Quel prix !",
+              "يا له من سعر"
+            ],
+            [
+              "C'est",
+              "إنها"
+            ],
+            [
+              "un peu",
+              "قليلاً"
+            ],
+            [
+              "cher,",
+              "غالية"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "la",
+              "ها"
+            ],
+            [
+              "prends.",
+              "آخذ"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "**Elle vous va très bien** حرفياً: «تذهب إليك جيداً»، أي تليق بك. ولاحظ **Quel prix !**: quel للتعجب أيضاً. والمقاس بفعل faire: Je fais du L، Je fais du 42."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "الملابس مع أداتها، ثم المقاس والرأي.",
+      "groups": [
+        {
+          "title_ar": "الملابس",
+          "items": [
+            {
+              "id": "v-pantalon",
+              "say": "un pantalon",
+              "ar": "بنطلون",
+              "note_ar": "مفرد في الفرنسية: un pantalon."
+            },
+            {
+              "id": "v-jean",
+              "say": "un jean",
+              "ar": "جينز"
+            },
+            {
+              "id": "v-chemise",
+              "say": "une chemise",
+              "ar": "قميص"
+            },
+            {
+              "id": "v-tshirt",
+              "say": "un t-shirt",
+              "ar": "تيشيرت"
+            },
+            {
+              "id": "v-pull",
+              "say": "un pull",
+              "ar": "كنزة صوف"
+            },
+            {
+              "id": "v-veste",
+              "say": "une veste",
+              "ar": "سترة"
+            },
+            {
+              "id": "v-manteau",
+              "say": "un manteau",
+              "ar": "معطف"
+            },
+            {
+              "id": "v-robe",
+              "say": "une robe",
+              "ar": "فستان"
+            },
+            {
+              "id": "v-jupe",
+              "say": "une jupe",
+              "ar": "تنورة"
+            },
+            {
+              "id": "v-chaussures",
+              "say": "des chaussures",
+              "ar": "حذاء"
+            },
+            {
+              "id": "v-baskets",
+              "say": "des baskets",
+              "ar": "حذاء رياضي"
+            },
+            {
+              "id": "v-echarpe",
+              "say": "une écharpe",
+              "ar": "وشاح"
+            }
+          ]
+        },
+        {
+          "title_ar": "المقاس والرأي",
+          "items": [
+            {
+              "id": "v-taille",
+              "say": "la taille",
+              "ar": "المقاس"
+            },
+            {
+              "id": "v-essayer",
+              "say": "essayer",
+              "ar": "يجرّب"
+            },
+            {
+              "id": "v-cabine",
+              "say": "la cabine d'essayage",
+              "ar": "غرفة القياس"
+            },
+            {
+              "id": "v-tropgrand",
+              "say": "trop grand",
+              "ar": "كبير أكثر من اللازم"
+            },
+            {
+              "id": "v-troppetit",
+              "say": "trop petit",
+              "ar": "صغير أكثر من اللازم"
+            },
+            {
+              "id": "v-tropcher",
+              "say": "trop cher",
+              "ar": "غالٍ جداً"
+            },
+            {
+              "id": "v-assez",
+              "say": "assez",
+              "ar": "بما يكفي"
+            },
+            {
+              "id": "v-vabien",
+              "say": "Ça vous va bien.",
+              "ar": "يليق بك."
+            }
+          ]
+        },
+        {
+          "title_ar": "ألوان إضافية",
+          "items": [
+            {
+              "id": "v-blanc",
+              "say": "blanc, blanche",
+              "ar": "أبيض / بيضاء",
+              "fr": "blanc / blanche"
+            },
+            {
+              "id": "v-gris",
+              "say": "gris, grise",
+              "ar": "رمادي / رمادية",
+              "fr": "gris / grise"
+            },
+            {
+              "id": "v-ennoir",
+              "say": "en noir",
+              "ar": "باللون الأسود"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "mettre",
+      "title_ar": "القاعدة: mettre و quel و trop",
+      "intro_ar": "فعل شاذ للبس، ثم quel بأشكاله الأربعة، ثم كلمات الدرجة.",
+      "tables": [
+        {
+          "title_fr": "mettre (au présent)",
+          "title_ar": "فعل «يضع / يلبس»",
+          "head_ar": [
+            "الضمير",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-m1",
+              "say": "je mets",
+              "cells": [
+                "je",
+                "mets"
+              ],
+              "ar": "أضع / ألبس"
+            },
+            {
+              "id": "g-m2",
+              "say": "tu mets",
+              "cells": [
+                "tu",
+                "mets"
+              ],
+              "ar": "تضع"
+            },
+            {
+              "id": "g-m3",
+              "say": "il met",
+              "cells": [
+                "il / elle / on",
+                "met"
+              ],
+              "ar": "يضع / تضع / نضع"
+            },
+            {
+              "id": "g-m4",
+              "say": "nous mettons",
+              "cells": [
+                "nous",
+                "mettons"
+              ],
+              "ar": "نضع"
+            },
+            {
+              "id": "g-m5",
+              "say": "vous mettez",
+              "cells": [
+                "vous",
+                "mettez"
+              ],
+              "ar": "تضعون"
+            },
+            {
+              "id": "g-m6",
+              "say": "ils mettent",
+              "cells": [
+                "ils / elles",
+                "mettent"
+              ],
+              "ar": "يضعون"
+            }
+          ],
+          "note_ar": "المفرد كله يُنطق «مي»، والجمع ils mettent «ميت» بـ t مسموعة."
+        },
+        {
+          "title_fr": "quel, quelle, quels, quelles",
+          "title_ar": "أيّ؟ / يا له من…!",
+          "head_ar": [
+            "الشكل",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-q1",
+              "say": "Quel pantalon ?",
+              "cells": [
+                "quel",
+                "Quel pantalon ?"
+              ],
+              "ar": "أيّ بنطلون؟ (مذكر)"
+            },
+            {
+              "id": "g-q2",
+              "say": "Quelle robe ?",
+              "cells": [
+                "quelle",
+                "Quelle robe ?"
+              ],
+              "ar": "أيّ فستان؟ (مؤنث)"
+            },
+            {
+              "id": "g-q3",
+              "say": "Quels pulls ?",
+              "cells": [
+                "quels",
+                "Quels pulls ?"
+              ],
+              "ar": "أيّ كنزات؟ (مذكر جمع)"
+            },
+            {
+              "id": "g-q4",
+              "say": "Quelles chaussures ?",
+              "cells": [
+                "quelles",
+                "Quelles chaussures ?"
+              ],
+              "ar": "أيّ حذاء؟ (مؤنث جمع)"
+            },
+            {
+              "id": "g-q5",
+              "say": "Quel prix !",
+              "cells": [
+                "quel !",
+                "Quel prix !"
+              ],
+              "ar": "يا له من سعر! (تعجب)"
+            }
+          ],
+          "note_ar": "الأشكال الأربعة تُنطق «كِل»، والفرق في الكتابة فقط. إلا في الجمع أمام حرف علة: quels‿enfants «كِلزونفون»."
+        },
+        {
+          "title_fr": "trop, assez, très",
+          "title_ar": "كلمات الدرجة",
+          "head_ar": [
+            "الكلمة",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-t1",
+              "say": "C'est trop cher.",
+              "cells": [
+                "trop",
+                "C'est trop cher."
+              ],
+              "ar": "غالٍ أكثر من اللازم (شكوى)"
+            },
+            {
+              "id": "g-t2",
+              "say": "C'est assez grand.",
+              "cells": [
+                "assez",
+                "C'est assez grand."
+              ],
+              "ar": "كبير بما يكفي"
+            },
+            {
+              "id": "g-t3",
+              "say": "Ce n'est pas assez long.",
+              "cells": [
+                "pas assez",
+                "Ce n'est pas assez long."
+              ],
+              "ar": "ليس طويلاً بما يكفي"
+            },
+            {
+              "id": "g-t4",
+              "say": "C'est très beau.",
+              "cells": [
+                "très",
+                "C'est très beau."
+              ],
+              "ar": "جميل جداً (مدح)"
+            }
+          ],
+          "note_ar": "**trop** فيها شكوى، و **très** فيها مدح. لا تقل للبائعة trop beau إن أردت المدح فقط."
+        }
+      ],
+      "points_ar": [
+        "**porter أم mettre؟** porter = يرتدي (حالة)، و mettre = يلبس الآن (حركة).",
+        "**المقاس بـ faire:** Je fais du M. Je fais du 42.",
+        "**pantalon و jean مفردان:** un pantalon = بنطلون واحد، على عكس الإنجليزية."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الملابس",
+      "hint_ar": "اختر تصريف mettre أو porter، أو شكل quel، أو كلمة الدرجة.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je ___ mon manteau, il fait froid.",
+          "say": "Je mets mon manteau, il fait froid.",
+          "options": [
+            "met",
+            "mets"
+          ],
+          "answer": "mets",
+          "ar": "ألبس معطفي، الجو بارد.",
+          "explain_ar": "مع je: **mets** بـ s."
+        },
+        {
+          "id": "f2",
+          "text": "Ils ___ leurs chaussures.",
+          "say": "Ils mettent leurs chaussures.",
+          "options": [
+            "met",
+            "mettent"
+          ],
+          "answer": "mettent",
+          "ar": "يلبسون أحذيتهم.",
+          "explain_ar": "مع ils: **mettent**."
+        },
+        {
+          "id": "f3",
+          "text": "Elle ___ une robe rouge.",
+          "say": "Elle porte une robe rouge.",
+          "options": [
+            "portes",
+            "porte"
+          ],
+          "answer": "porte",
+          "ar": "ترتدي فستاناً أحمر.",
+          "explain_ar": "porter فعل er: elle **porte**."
+        },
+        {
+          "id": "f4",
+          "text": "___ robe préfères-tu ?",
+          "say": "Quelle robe préfères-tu ?",
+          "options": [
+            "Quel",
+            "Quelle"
+          ],
+          "answer": "Quelle",
+          "ar": "أيّ فستان تفضّلين؟",
+          "explain_ar": "robe مؤنثة: **Quelle**."
+        },
+        {
+          "id": "f5",
+          "text": "___ chaussures tu préfères ?",
+          "say": "Quelles chaussures tu préfères ?",
+          "options": [
+            "Quels",
+            "Quelles"
+          ],
+          "answer": "Quelles",
+          "ar": "أيّ حذاء تفضّل؟",
+          "explain_ar": "chaussures مؤنث جمع: **Quelles**."
+        },
+        {
+          "id": "f6",
+          "text": "C'est ___ cher ! Je ne le prends pas.",
+          "say": "C'est trop cher ! Je ne le prends pas.",
+          "options": [
+            "assez",
+            "trop"
+          ],
+          "answer": "trop",
+          "ar": "غالٍ جداً! لن آخذه.",
+          "explain_ar": "شكوى: **trop**."
+        },
+        {
+          "id": "f7",
+          "text": "Ce pantalon est ___ long ? Oui, il est parfait.",
+          "say": "Ce pantalon est assez long ? Oui, il est parfait.",
+          "options": [
+            "trop",
+            "assez"
+          ],
+          "answer": "assez",
+          "ar": "هل هذا البنطلون طويل بما يكفي؟ نعم، إنه ممتاز.",
+          "explain_ar": "بما يكفي: **assez**."
+        },
+        {
+          "id": "f8",
+          "text": "Je cherche une chemise ___.",
+          "say": "Je cherche une chemise blanche.",
+          "options": [
+            "blanc",
+            "blanche"
+          ],
+          "answer": "blanche",
+          "ar": "أبحث عن قميص أبيض.",
+          "explain_ar": "chemise مؤنثة: **blanche**."
+        },
+        {
+          "id": "f9",
+          "text": "Vous ___ quelle taille ?",
+          "say": "Vous faites quelle taille ?",
+          "options": [
+            "êtes",
+            "faites"
+          ],
+          "answer": "faites",
+          "ar": "ما مقاسك؟",
+          "explain_ar": "المقاس بفعل faire: vous **faites**."
+        },
+        {
+          "id": "f10",
+          "text": "Cette veste vous ___ très bien !",
+          "say": "Cette veste vous va très bien !",
+          "options": [
+            "va",
+            "est"
+          ],
+          "answer": "va",
+          "ar": "هذه السترة تليق بك كثيراً!",
+          "explain_ar": "تليق بك: elle vous **va** bien."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: الملابس",
+      "hint_ar": "انتبه لـ trop و très، ولـ il met و ils mettent.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "une veste",
+          "options": [
+            "une jupe",
+            "une veste"
+          ],
+          "answer": "une veste",
+          "explain_ar": "veste «ڤيست»: سترة."
+        },
+        {
+          "id": "q2",
+          "say": "ils mettent",
+          "options": [
+            "il met",
+            "ils mettent"
+          ],
+          "answer": "ils mettent",
+          "explain_ar": "mettent «ميت» بـ t مسموعة: جمع."
+        },
+        {
+          "id": "q3",
+          "say": "trop grand",
+          "options": [
+            "trop grand",
+            "très grand"
+          ],
+          "answer": "trop grand",
+          "explain_ar": "trop «تغو»: أكثر من اللازم."
+        },
+        {
+          "id": "q4",
+          "say": "C'est trop cher.",
+          "options": [
+            "C'est pas cher.",
+            "C'est trop cher."
+          ],
+          "answer": "C'est trop cher.",
+          "explain_ar": "trop cher: غالٍ جداً."
+        },
+        {
+          "id": "q5",
+          "say": "un pull",
+          "options": [
+            "un pull",
+            "un pantalon"
+          ],
+          "answer": "un pull",
+          "explain_ar": "pull «پول»: كنزة."
+        },
+        {
+          "id": "q6",
+          "say": "des chaussettes",
+          "options": [
+            "des chaussures",
+            "des chaussettes"
+          ],
+          "answer": "des chaussettes",
+          "explain_ar": "chaussettes «شوسيت»: جوارب."
+        },
+        {
+          "id": "q7",
+          "say": "Je fais du quarante-deux.",
+          "options": [
+            "Je fais du quarante.",
+            "Je fais du quarante-deux."
+          ],
+          "answer": "Je fais du quarante-deux.",
+          "explain_ar": "quarante-deux: 42."
+        },
+        {
+          "id": "q8",
+          "say": "assez court",
+          "options": [
+            "assez long",
+            "assez court"
+          ],
+          "answer": "assez court",
+          "explain_ar": "court «كوغ»: قصير."
+        },
+        {
+          "id": "q9",
+          "say": "en noir",
+          "options": [
+            "en noir",
+            "en blanc"
+          ],
+          "answer": "en noir",
+          "explain_ar": "noir «نواغ»: أسود."
+        },
+        {
+          "id": "q10",
+          "say": "Ça ne vous va pas.",
+          "options": [
+            "Ça vous va bien.",
+            "Ça ne vous va pas."
+          ],
+          "answer": "Ça ne vous va pas.",
+          "explain_ar": "ne … pas: لا يليق بك."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الملابس",
+      "hint_ar": "الصوت «إي» المفتوح في veste و chemise يُكتب بطرق مختلفة.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **ils mettent** بـ tt، و **chaussures** بـ ss.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "une veste",
+          "answer": "une veste",
+          "ar": "سترة"
+        },
+        {
+          "id": "s2",
+          "say": "une chemise",
+          "answer": "une chemise",
+          "ar": "قميص"
+        },
+        {
+          "id": "s3",
+          "say": "un pantalon",
+          "answer": "un pantalon",
+          "ar": "بنطلون"
+        },
+        {
+          "id": "s4",
+          "say": "des chaussures",
+          "answer": "des chaussures",
+          "ar": "حذاء"
+        },
+        {
+          "id": "s5",
+          "say": "je mets",
+          "answer": "je mets",
+          "ar": "ألبس"
+        },
+        {
+          "id": "s6",
+          "say": "ils mettent",
+          "answer": "ils mettent",
+          "ar": "يلبسون"
+        },
+        {
+          "id": "s7",
+          "say": "trop cher",
+          "answer": "trop cher",
+          "ar": "غالٍ جداً"
+        },
+        {
+          "id": "s8",
+          "say": "quelle taille",
+          "answer": "quelle taille",
+          "ar": "أيّ مقاس"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل التسوّق في محل الملابس.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Je cherche une veste pour l'hiver.",
+          "ar": "أبحث عن سترة للشتاء.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je cherche",
+              "أبحث عن"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "veste",
+              "سترة"
+            ],
+            [
+              "pour",
+              "لـ"
+            ],
+            [
+              "l'hiver.",
+              "الشتاء"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Quelle taille faites-vous ?",
+          "ar": "ما مقاسك؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Quelle taille faites-vous ?",
+              "ما مقاسك؟"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "C'est un peu trop grand.",
+          "ar": "إنه كبير قليلاً.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "C'est",
+              "إنه"
+            ],
+            [
+              "un peu",
+              "قليلاً"
+            ],
+            [
+              "trop grand.",
+              "كبير أكثر من اللازم"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Elle vous va très bien !",
+          "ar": "إنها تليق بك كثيراً!",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "vous va",
+              "تليق بك"
+            ],
+            [
+              "très bien !",
+              "جداً"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Il fait froid, je mets mon écharpe.",
+          "ar": "الجو بارد، ألبس وشاحي.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Il fait froid,",
+              "الجو بارد"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "mets",
+              "ألبس"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "écharpe.",
+              "وشاح"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: صف ما تلبسه الآن: **Aujourd'hui, je porte un… et une… Mes chaussures sont…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل الكلمة مع أداتها قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "un pantalon",
+          "say": "un pantalon",
+          "back_ar": "بنطلون"
+        },
+        {
+          "id": "c2",
+          "front": "une chemise",
+          "say": "une chemise",
+          "back_ar": "قميص"
+        },
+        {
+          "id": "c3",
+          "front": "une veste",
+          "say": "une veste",
+          "back_ar": "سترة"
+        },
+        {
+          "id": "c4",
+          "front": "un manteau",
+          "say": "un manteau",
+          "back_ar": "معطف"
+        },
+        {
+          "id": "c5",
+          "front": "une robe",
+          "say": "une robe",
+          "back_ar": "فستان"
+        },
+        {
+          "id": "c6",
+          "front": "des chaussures",
+          "say": "des chaussures",
+          "back_ar": "حذاء"
+        },
+        {
+          "id": "c7",
+          "front": "un pull",
+          "say": "un pull",
+          "back_ar": "كنزة صوف"
+        },
+        {
+          "id": "c8",
+          "front": "une écharpe",
+          "say": "une écharpe",
+          "back_ar": "وشاح"
+        },
+        {
+          "id": "c9",
+          "front": "la taille",
+          "say": "la taille",
+          "back_ar": "المقاس"
+        },
+        {
+          "id": "c10",
+          "front": "essayer",
+          "say": "essayer",
+          "back_ar": "يجرّب"
+        },
+        {
+          "id": "c11",
+          "front": "trop cher",
+          "say": "trop cher",
+          "back_ar": "غالٍ جداً"
+        },
+        {
+          "id": "c12",
+          "front": "assez",
+          "say": "assez",
+          "back_ar": "بما يكفي"
+        },
+        {
+          "id": "c13",
+          "front": "mettre",
+          "say": "mettre, je mets",
+          "back_ar": "يضع / يلبس (je mets)"
+        },
+        {
+          "id": "c14",
+          "front": "porter",
+          "say": "porter",
+          "back_ar": "يرتدي"
+        },
+        {
+          "id": "c15",
+          "front": "quel / quelle / quels / quelles",
+          "say": "quel, quelle, quels, quelles",
+          "back_ar": "أيّ؟ (حسب الاسم)"
+        },
+        {
+          "id": "c16",
+          "front": "Ça vous va bien.",
+          "say": "Ça vous va bien.",
+          "back_ar": "يليق بك."
+        }
+      ]
+    }
+  ]
+}

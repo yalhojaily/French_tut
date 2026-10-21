@@ -1,0 +1,1336 @@
+{
+  "id": "a1-19",
+  "stage": "A1",
+  "title_fr": "Verbes irréguliers essentiels",
+  "title_ar": "أفعال شاذة أساسية",
+  "goals_ar": [
+    "تصرّف أهم الأفعال الشاذة: **prendre، pouvoir، devoir، savoir، connaître**",
+    "تفهم نمط أفعال ir مثل **finir**، وأفعال re مثل **attendre**",
+    "تقول ما تستطيع وما يجب: **Je peux venir. Je dois partir.**",
+    "تميّز **savoir** (يعرف معلومة) من **connaître** (يعرف شخصاً أو مكاناً)"
+  ],
+  "intro_ar": [
+    "هذه الوحدة جداول أفعال أكثر من غيرها، لكنها تفتح لك الكلام: بعد **pouvoir** (يستطيع) و **devoir** (يجب) و vouloir يأتي أي فعل بالمصدر: Je peux parler، je dois travailler، je veux partir.",
+    "**نمطان منتظمان جديدان:** أفعال **ir** مثل finir (ينهي) تضيف iss في الجمع: nous finissons. وأفعال **re** مثل attendre (ينتظر) تحذف re وتُبقي الجذر: j'attends.",
+    "**فرق مهم مع العربية:** «أعرف» لها فعلان: **savoir** للمعلومة والمهارة (je sais nager)، و **connaître** للأشخاص والأماكن (je connais Paris)."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: موعد السينما",
+      "context_ar": "كلير تدعو يوسف إلى السينما، ويوسف مشغول. لاحظ pouvoir و devoir و savoir و connaître و prendre.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Tu peux venir au cinéma ce soir ?",
+          "ar": "هل تستطيع أن تأتي إلى السينما الليلة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "peux",
+              "تستطيع"
+            ],
+            [
+              "venir",
+              "أن تأتي"
+            ],
+            [
+              "au",
+              "إلى الـ"
+            ],
+            [
+              "cinéma",
+              "سينما"
+            ],
+            [
+              "ce soir ?",
+              "الليلة"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Je voudrais, mais je ne peux pas. Je dois finir un rapport.",
+          "ar": "أودّ ذلك، لكن لا أستطيع. يجب أن أنهي تقريراً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je voudrais,",
+              "أودّ"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "ne peux pas.",
+              "لا أستطيع"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "dois",
+              "يجب أن"
+            ],
+            [
+              "finir",
+              "أنهي"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "rapport.",
+              "تقرير"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Tu finis à quelle heure ?",
+          "ar": "متى تنتهي؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "finis",
+              "تنتهي"
+            ],
+            [
+              "à quelle heure ?",
+              "في أي ساعة"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Je ne sais pas… vers vingt heures, peut-être.",
+          "ar": "لا أعرف… نحو الثامنة مساءً ربما.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je ne sais pas…",
+              "لا أعرف"
+            ],
+            [
+              "vers",
+              "نحو"
+            ],
+            [
+              "vingt",
+              "20"
+            ],
+            [
+              "heures,",
+              "ساعة"
+            ],
+            [
+              "peut-être.",
+              "ربما"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Pas de problème, je t'attends. Le film commence à vingt et une heures.",
+          "ar": "لا مشكلة، أنتظرك. الفيلم يبدأ الساعة التاسعة مساءً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Pas de problème,",
+              "لا مشكلة"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "t'attends.",
+              "أنتظرك"
+            ],
+            [
+              "Le",
+              "الـ"
+            ],
+            [
+              "film",
+              "فيلم"
+            ],
+            [
+              "commence",
+              "يبدأ"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "vingt et une",
+              "21"
+            ],
+            [
+              "heures.",
+              "ساعة"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "D'accord. Tu connais le cinéma près de l'Opéra ?",
+          "ar": "حسناً. هل تعرفين السينما قرب الأوبرا؟",
+          "slow": true,
+          "gloss": [
+            [
+              "D'accord.",
+              "حسناً"
+            ],
+            [
+              "Tu",
+              "أنتِ"
+            ],
+            [
+              "connais",
+              "تعرفين"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "cinéma",
+              "سينما"
+            ],
+            [
+              "près de",
+              "قرب"
+            ],
+            [
+              "l'Opéra ?",
+              "الأوبرا"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Oui, je le connais. On prend le métro ensemble ?",
+          "ar": "نعم، أعرفها. هل نأخذ المترو معاً؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "le",
+              "ها"
+            ],
+            [
+              "connais.",
+              "أعرف"
+            ],
+            [
+              "On",
+              "نحن"
+            ],
+            [
+              "prend",
+              "نأخذ"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "métro",
+              "مترو"
+            ],
+            [
+              "ensemble ?",
+              "معاً"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Bonne idée. Mes collègues prennent toujours le bus, mais moi, je préfère le métro !",
+          "ar": "فكرة جيدة. زملائي يأخذون الحافلة دائماً، أما أنا فأفضّل المترو!",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonne idée.",
+              "فكرة جيدة"
+            ],
+            [
+              "Mes",
+              "ـي (جمع)"
+            ],
+            [
+              "collègues",
+              "زملاء"
+            ],
+            [
+              "prennent",
+              "يأخذون"
+            ],
+            [
+              "toujours",
+              "دائماً"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "bus,",
+              "حافلة"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "moi,",
+              "أنا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "préfère",
+              "أفضّل"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "métro !",
+              "مترو"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "في السطر 2 فعلان شاذان متتاليان: **je ne peux pas** (لا أستطيع) و **je dois finir** (يجب أن أنهي). وفي السطر 8 **ils prennent** بنونين مسموعة، أما il prend فنونها أنفية."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "الأفعال الجديدة، ثم عبارات تنقذك في أي حوار.",
+      "groups": [
+        {
+          "title_ar": "أفعال شاذة",
+          "items": [
+            {
+              "id": "v-prendre",
+              "say": "prendre",
+              "ar": "يأخذ",
+              "note_ar": "ومنه apprendre و comprendre بالتصريف نفسه."
+            },
+            {
+              "id": "v-apprendre",
+              "say": "apprendre",
+              "ar": "يتعلّم"
+            },
+            {
+              "id": "v-comprendre",
+              "say": "comprendre",
+              "ar": "يفهم"
+            },
+            {
+              "id": "v-pouvoir",
+              "say": "pouvoir",
+              "ar": "يستطيع"
+            },
+            {
+              "id": "v-devoir",
+              "say": "devoir",
+              "ar": "يجب عليه"
+            },
+            {
+              "id": "v-savoir",
+              "say": "savoir",
+              "ar": "يعرف (معلومة / مهارة)"
+            },
+            {
+              "id": "v-connaitre",
+              "say": "connaître",
+              "ar": "يعرف (شخصاً / مكاناً)"
+            }
+          ]
+        },
+        {
+          "title_ar": "أفعال ir و re",
+          "items": [
+            {
+              "id": "v-finir",
+              "say": "finir",
+              "ar": "يُنهي / ينتهي"
+            },
+            {
+              "id": "v-choisir",
+              "say": "choisir",
+              "ar": "يختار"
+            },
+            {
+              "id": "v-attendre",
+              "say": "attendre",
+              "ar": "ينتظر"
+            },
+            {
+              "id": "v-repondre",
+              "say": "répondre",
+              "ar": "يجيب"
+            },
+            {
+              "id": "v-vendre",
+              "say": "vendre",
+              "ar": "يبيع"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات منقذة",
+          "items": [
+            {
+              "id": "v-comprendspas",
+              "say": "Je ne comprends pas.",
+              "ar": "لا أفهم."
+            },
+            {
+              "id": "v-repeter",
+              "say": "Vous pouvez répéter ?",
+              "ar": "هل يمكنك أن تعيد؟"
+            },
+            {
+              "id": "v-partir",
+              "say": "Je dois partir.",
+              "ar": "يجب أن أغادر."
+            },
+            {
+              "id": "v-saispas",
+              "say": "Je ne sais pas.",
+              "ar": "لا أعرف."
+            },
+            {
+              "id": "v-nager",
+              "say": "Je sais nager.",
+              "ar": "أعرف السباحة."
+            },
+            {
+              "id": "v-toujours",
+              "say": "toujours",
+              "ar": "دائماً"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الأفعال",
+      "title_ar": "القاعدة: أهم الأفعال الشاذة",
+      "intro_ar": "أربعة جداول. استمع لكل سطر وردّده، فالنطق يساعدك على الحفظ أكثر من القراءة.",
+      "tables": [
+        {
+          "title_fr": "prendre (au présent)",
+          "title_ar": "فعل «يأخذ»",
+          "head_ar": [
+            "الضمير",
+            "الفعل"
+          ],
+          "rows": [
+            {
+              "id": "g-p1",
+              "say": "je prends",
+              "cells": [
+                "je",
+                "prends"
+              ],
+              "ar": "آخذ"
+            },
+            {
+              "id": "g-p2",
+              "say": "tu prends",
+              "cells": [
+                "tu",
+                "prends"
+              ],
+              "ar": "تأخذ"
+            },
+            {
+              "id": "g-p3",
+              "say": "il prend",
+              "cells": [
+                "il / elle / on",
+                "prend"
+              ],
+              "ar": "يأخذ / تأخذ / نأخذ"
+            },
+            {
+              "id": "g-p4",
+              "say": "nous prenons",
+              "cells": [
+                "nous",
+                "prenons"
+              ],
+              "ar": "نأخذ"
+            },
+            {
+              "id": "g-p5",
+              "say": "vous prenez",
+              "cells": [
+                "vous",
+                "prenez"
+              ],
+              "ar": "تأخذون"
+            },
+            {
+              "id": "g-p6",
+              "say": "ils prennent",
+              "cells": [
+                "ils / elles",
+                "prennent"
+              ],
+              "ar": "يأخذون"
+            }
+          ],
+          "note_ar": "il prend «پغون» بنون أنفية، و ils prennent «پغين» بنون واضحة. والتصريف نفسه لـ apprendre و comprendre."
+        },
+        {
+          "title_fr": "pouvoir, devoir",
+          "title_ar": "يستطيع، يجب",
+          "head_ar": [
+            "الضمير",
+            "pouvoir",
+            "devoir"
+          ],
+          "rows": [
+            {
+              "id": "g-d1",
+              "say": "je peux, je dois",
+              "cells": [
+                "je",
+                "peux",
+                "dois"
+              ],
+              "ar": "أستطيع / يجب عليّ"
+            },
+            {
+              "id": "g-d2",
+              "say": "tu peux, tu dois",
+              "cells": [
+                "tu",
+                "peux",
+                "dois"
+              ],
+              "ar": "تستطيع / يجب عليك"
+            },
+            {
+              "id": "g-d3",
+              "say": "il peut, il doit",
+              "cells": [
+                "il / elle / on",
+                "peut",
+                "doit"
+              ],
+              "ar": "يستطيع / يجب عليه"
+            },
+            {
+              "id": "g-d4",
+              "say": "nous pouvons, nous devons",
+              "cells": [
+                "nous",
+                "pouvons",
+                "devons"
+              ],
+              "ar": "نستطيع / يجب علينا"
+            },
+            {
+              "id": "g-d5",
+              "say": "vous pouvez, vous devez",
+              "cells": [
+                "vous",
+                "pouvez",
+                "devez"
+              ],
+              "ar": "تستطيعون / يجب عليكم"
+            },
+            {
+              "id": "g-d6",
+              "say": "ils peuvent, ils doivent",
+              "cells": [
+                "ils / elles",
+                "peuvent",
+                "doivent"
+              ],
+              "ar": "يستطيعون / يجب عليهم"
+            }
+          ],
+          "note_ar": "بعدهما فعل بالمصدر دائماً: Je peux venir. Tu dois travailler."
+        },
+        {
+          "title_fr": "savoir, connaître",
+          "title_ar": "يعرف (فعلان)",
+          "head_ar": [
+            "الضمير",
+            "savoir",
+            "connaître"
+          ],
+          "rows": [
+            {
+              "id": "g-s1",
+              "say": "je sais, je connais",
+              "cells": [
+                "je",
+                "sais",
+                "connais"
+              ],
+              "ar": "أعرف"
+            },
+            {
+              "id": "g-s2",
+              "say": "tu sais, tu connais",
+              "cells": [
+                "tu",
+                "sais",
+                "connais"
+              ],
+              "ar": "تعرف"
+            },
+            {
+              "id": "g-s3",
+              "say": "il sait, il connaît",
+              "cells": [
+                "il / elle / on",
+                "sait",
+                "connaît"
+              ],
+              "ar": "يعرف"
+            },
+            {
+              "id": "g-s4",
+              "say": "nous savons, nous connaissons",
+              "cells": [
+                "nous",
+                "savons",
+                "connaissons"
+              ],
+              "ar": "نعرف"
+            },
+            {
+              "id": "g-s5",
+              "say": "vous savez, vous connaissez",
+              "cells": [
+                "vous",
+                "savez",
+                "connaissez"
+              ],
+              "ar": "تعرفون"
+            },
+            {
+              "id": "g-s6",
+              "say": "ils savent, ils connaissent",
+              "cells": [
+                "ils / elles",
+                "savent",
+                "connaissent"
+              ],
+              "ar": "يعرفون"
+            }
+          ],
+          "note_ar": "**savoir** للمعلومة والمهارة: Je sais où il habite. Je sais nager. و **connaître** للأشخاص والأماكن: Je connais Claire. Je connais Paris."
+        },
+        {
+          "title_fr": "finir (-ir), attendre (-re)",
+          "title_ar": "نمطان منتظمان",
+          "head_ar": [
+            "الضمير",
+            "finir",
+            "attendre"
+          ],
+          "rows": [
+            {
+              "id": "g-f1",
+              "say": "je finis, j'attends",
+              "cells": [
+                "je / j'",
+                "finis",
+                "attends"
+              ],
+              "ar": "أُنهي / أنتظر"
+            },
+            {
+              "id": "g-f2",
+              "say": "tu finis, tu attends",
+              "cells": [
+                "tu",
+                "finis",
+                "attends"
+              ],
+              "ar": "تُنهي / تنتظر"
+            },
+            {
+              "id": "g-f3",
+              "say": "il finit, il attend",
+              "cells": [
+                "il / elle / on",
+                "finit",
+                "attend"
+              ],
+              "ar": "يُنهي / ينتظر"
+            },
+            {
+              "id": "g-f4",
+              "say": "nous finissons, nous attendons",
+              "cells": [
+                "nous",
+                "finissons",
+                "attendons"
+              ],
+              "ar": "نُنهي / ننتظر"
+            },
+            {
+              "id": "g-f5",
+              "say": "vous finissez, vous attendez",
+              "cells": [
+                "vous",
+                "finissez",
+                "attendez"
+              ],
+              "ar": "تُنهون / تنتظرون"
+            },
+            {
+              "id": "g-f6",
+              "say": "ils finissent, ils attendent",
+              "cells": [
+                "ils / elles",
+                "finissent",
+                "attendent"
+              ],
+              "ar": "يُنهون / ينتظرون"
+            }
+          ],
+          "note_ar": "في المفرد لا تُسمع النهايات: je finis «فيني»، j'attends «أتون». وفي الجمع يظهر صوت جديد: finissent «فينيس»، attendent «أتوند». ومثل finir: choisir. ومثل attendre: répondre و vendre."
+        }
+      ],
+      "points_ar": [
+        "**pouvoir و devoir و vouloir + مصدر:** Je peux venir. Je dois travailler. Je veux partir.",
+        "**savoir أم connaître؟** Je sais où il habite (معلومة)، Je connais sa maison (مكان).",
+        "**عبارتان تنقذانك:** Je ne comprends pas. Vous pouvez répéter, s'il vous plaît ?"
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: الأفعال الشاذة",
+      "hint_ar": "اختر التصريف الصحيح، أو الفعل المناسب للمعنى.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je ___ le métro tous les jours.",
+          "say": "Je prends le métro tous les jours.",
+          "options": [
+            "prend",
+            "prends"
+          ],
+          "answer": "prends",
+          "ar": "آخذ المترو كل يوم.",
+          "explain_ar": "مع je: **prends** بـ s."
+        },
+        {
+          "id": "f2",
+          "text": "Ils ___ le bus.",
+          "say": "Ils prennent le bus.",
+          "options": [
+            "prenent",
+            "prennent"
+          ],
+          "answer": "prennent",
+          "ar": "يأخذون الحافلة.",
+          "explain_ar": "**prennent** بنونين."
+        },
+        {
+          "id": "f3",
+          "text": "Tu ___ venir ce soir ?",
+          "say": "Tu peux venir ce soir ?",
+          "options": [
+            "peux",
+            "peut"
+          ],
+          "answer": "peux",
+          "ar": "هل تستطيع أن تأتي الليلة؟",
+          "explain_ar": "مع tu: **peux**."
+        },
+        {
+          "id": "f4",
+          "text": "Nous ___ travailler demain.",
+          "say": "Nous devons travailler demain.",
+          "options": [
+            "devez",
+            "devons"
+          ],
+          "answer": "devons",
+          "ar": "يجب أن نعمل غداً.",
+          "explain_ar": "مع nous: **devons**."
+        },
+        {
+          "id": "f5",
+          "text": "Je ne ___ pas nager.",
+          "say": "Je ne sais pas nager.",
+          "options": [
+            "connais",
+            "sais"
+          ],
+          "answer": "sais",
+          "ar": "لا أعرف السباحة.",
+          "explain_ar": "مهارة: **savoir**."
+        },
+        {
+          "id": "f6",
+          "text": "Tu ___ Claire ?",
+          "say": "Tu connais Claire ?",
+          "options": [
+            "sais",
+            "connais"
+          ],
+          "answer": "connais",
+          "ar": "هل تعرف كلير؟",
+          "explain_ar": "شخص: **connaître**."
+        },
+        {
+          "id": "f7",
+          "text": "Le film ___ à vingt-deux heures.",
+          "say": "Le film finit à vingt-deux heures.",
+          "options": [
+            "finis",
+            "finit"
+          ],
+          "answer": "finit",
+          "ar": "ينتهي الفيلم الساعة العاشرة مساءً.",
+          "explain_ar": "مع il: **finit** بـ t."
+        },
+        {
+          "id": "f8",
+          "text": "Nous ___ le bus.",
+          "say": "Nous attendons le bus.",
+          "options": [
+            "attendons",
+            "attendez"
+          ],
+          "answer": "attendons",
+          "ar": "ننتظر الحافلة.",
+          "explain_ar": "مع nous: **attendons**."
+        },
+        {
+          "id": "f9",
+          "text": "Vous ___ quelle couleur ?",
+          "say": "Vous choisissez quelle couleur ?",
+          "options": [
+            "choisez",
+            "choisissez"
+          ],
+          "answer": "choisissez",
+          "ar": "أيّ لون تختارون؟",
+          "explain_ar": "أفعال ir تضيف iss مع vous: **choisissez**."
+        },
+        {
+          "id": "f10",
+          "text": "Je ne ___ pas. Vous pouvez répéter ?",
+          "say": "Je ne comprends pas. Vous pouvez répéter ?",
+          "options": [
+            "comprends",
+            "comprend"
+          ],
+          "answer": "comprends",
+          "ar": "لا أفهم. هل يمكنك أن تعيد؟",
+          "explain_ar": "مع je: **comprends**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: مفرد أم جمع؟",
+      "hint_ar": "في هذه الأفعال يظهر الجمع في الصوت: prend / prennent، peut / peuvent.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "ils prennent",
+          "options": [
+            "il prend",
+            "ils prennent"
+          ],
+          "answer": "ils prennent",
+          "explain_ar": "prennent «پغين»: جمع."
+        },
+        {
+          "id": "q2",
+          "say": "je peux",
+          "options": [
+            "je peux",
+            "je veux"
+          ],
+          "answer": "je peux",
+          "explain_ar": "peux «پُ»: أستطيع."
+        },
+        {
+          "id": "q3",
+          "say": "il peut",
+          "options": [
+            "ils peuvent",
+            "il peut"
+          ],
+          "answer": "il peut",
+          "explain_ar": "peut «پُ» بلا ڤ: مفرد."
+        },
+        {
+          "id": "q4",
+          "say": "je dois",
+          "options": [
+            "je dois",
+            "je sais"
+          ],
+          "answer": "je dois",
+          "explain_ar": "dois «دوا»: يجب عليّ."
+        },
+        {
+          "id": "q5",
+          "say": "je connais",
+          "options": [
+            "je sais",
+            "je connais"
+          ],
+          "answer": "je connais",
+          "explain_ar": "connais «كونيه»: أعرف (شخصاً)."
+        },
+        {
+          "id": "q6",
+          "say": "vous finissez",
+          "options": [
+            "nous finissons",
+            "vous finissez"
+          ],
+          "answer": "vous finissez",
+          "explain_ar": "finissez «فينيسيه»."
+        },
+        {
+          "id": "q7",
+          "say": "elles attendent",
+          "options": [
+            "elle attend",
+            "elles attendent"
+          ],
+          "answer": "elles attendent",
+          "explain_ar": "attendent «أتوند» بـ d مسموعة: جمع."
+        },
+        {
+          "id": "q8",
+          "say": "Je ne comprends pas.",
+          "options": [
+            "Je ne comprends pas.",
+            "Je ne prends pas."
+          ],
+          "answer": "Je ne comprends pas.",
+          "explain_ar": "comprends «كومپغون»: أفهم."
+        },
+        {
+          "id": "q9",
+          "say": "Vous pouvez répéter ?",
+          "options": [
+            "Vous pouvez parler ?",
+            "Vous pouvez répéter ?"
+          ],
+          "answer": "Vous pouvez répéter ?",
+          "explain_ar": "répéter «غيپيتيه»: يعيد."
+        },
+        {
+          "id": "q10",
+          "say": "ils doivent",
+          "options": [
+            "il doit",
+            "ils doivent"
+          ],
+          "answer": "ils doivent",
+          "explain_ar": "doivent «دواڤ»: جمع."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الأفعال الشاذة",
+      "hint_ar": "حروف صامتة كثيرة في المفرد. فكّر في الضمير.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: je **prends** بـ ds، و ils **prennent** بـ nn.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je prends",
+          "answer": "je prends",
+          "ar": "آخذ"
+        },
+        {
+          "id": "s2",
+          "say": "ils prennent",
+          "answer": "ils prennent",
+          "ar": "يأخذون"
+        },
+        {
+          "id": "s3",
+          "say": "je peux",
+          "answer": "je peux",
+          "ar": "أستطيع"
+        },
+        {
+          "id": "s4",
+          "say": "tu dois",
+          "answer": "tu dois",
+          "ar": "يجب عليك"
+        },
+        {
+          "id": "s5",
+          "say": "je sais",
+          "answer": "je sais",
+          "ar": "أعرف"
+        },
+        {
+          "id": "s6",
+          "say": "je connais",
+          "answer": "je connais",
+          "ar": "أعرف"
+        },
+        {
+          "id": "s7",
+          "say": "nous finissons",
+          "answer": "nous finissons",
+          "ar": "نُنهي"
+        },
+        {
+          "id": "s8",
+          "say": "j'attends",
+          "answer": "j'attends",
+          "ar": "أنتظر"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "عبارات تحتاجها كل يوم. ردّد الأولى حتى تخرج منك دون تفكير.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Je ne comprends pas. Vous pouvez répéter, s'il vous plaît ?",
+          "ar": "لا أفهم. هل يمكنك أن تعيد من فضلك؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "ne comprends pas.",
+              "لا أفهم"
+            ],
+            [
+              "Vous",
+              "حضرتك"
+            ],
+            [
+              "pouvez",
+              "تستطيع"
+            ],
+            [
+              "répéter,",
+              "أن تعيد"
+            ],
+            [
+              "s'il vous plaît ?",
+              "من فضلك"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Je dois partir, à demain !",
+          "ar": "يجب أن أغادر، إلى الغد!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "dois",
+              "يجب أن"
+            ],
+            [
+              "partir,",
+              "أغادر"
+            ],
+            [
+              "à demain !",
+              "إلى الغد"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Tu connais un bon restaurant ?",
+          "ar": "هل تعرف مطعماً جيداً؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "connais",
+              "تعرف"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "bon",
+              "جيد"
+            ],
+            [
+              "restaurant ?",
+              "مطعم"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Je sais nager, mais je ne sais pas danser.",
+          "ar": "أعرف السباحة، لكن لا أعرف الرقص.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "sais",
+              "أعرف"
+            ],
+            [
+              "nager,",
+              "السباحة"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "ne sais pas",
+              "لا أعرف"
+            ],
+            [
+              "danser.",
+              "الرقص"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Ils prennent le train à huit heures.",
+          "ar": "يأخذون القطار الساعة الثامنة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Ils",
+              "هم"
+            ],
+            [
+              "prennent",
+              "يأخذون"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "train",
+              "قطار"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "huit",
+              "8"
+            ],
+            [
+              "heures.",
+              "ساعات"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: قل ثلاث جمل عنك: **Je sais… Je peux… mais je dois…** مثلاً: Je sais cuisiner. Je peux venir, mais je dois finir mon travail."
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل الفعل مع ضميره قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "prendre",
+          "say": "prendre",
+          "back_ar": "يأخذ"
+        },
+        {
+          "id": "c2",
+          "front": "je prends / ils prennent",
+          "say": "je prends, ils prennent",
+          "back_ar": "آخذ / يأخذون"
+        },
+        {
+          "id": "c3",
+          "front": "apprendre",
+          "say": "apprendre",
+          "back_ar": "يتعلّم"
+        },
+        {
+          "id": "c4",
+          "front": "comprendre",
+          "say": "comprendre",
+          "back_ar": "يفهم"
+        },
+        {
+          "id": "c5",
+          "front": "je peux",
+          "say": "je peux",
+          "back_ar": "أستطيع"
+        },
+        {
+          "id": "c6",
+          "front": "je dois",
+          "say": "je dois",
+          "back_ar": "يجب عليّ"
+        },
+        {
+          "id": "c7",
+          "front": "je sais",
+          "say": "je sais",
+          "back_ar": "أعرف (معلومة / مهارة)"
+        },
+        {
+          "id": "c8",
+          "front": "je connais",
+          "say": "je connais",
+          "back_ar": "أعرف (شخصاً / مكاناً)"
+        },
+        {
+          "id": "c9",
+          "front": "nous finissons",
+          "say": "nous finissons",
+          "back_ar": "نُنهي"
+        },
+        {
+          "id": "c10",
+          "front": "j'attends",
+          "say": "j'attends",
+          "back_ar": "أنتظر"
+        },
+        {
+          "id": "c11",
+          "front": "Je ne comprends pas.",
+          "say": "Je ne comprends pas.",
+          "back_ar": "لا أفهم."
+        },
+        {
+          "id": "c12",
+          "front": "Vous pouvez répéter ?",
+          "say": "Vous pouvez répéter ?",
+          "back_ar": "هل يمكنك أن تعيد؟"
+        },
+        {
+          "id": "c13",
+          "front": "Je dois partir.",
+          "say": "Je dois partir.",
+          "back_ar": "يجب أن أغادر."
+        },
+        {
+          "id": "c14",
+          "front": "Je ne sais pas.",
+          "say": "Je ne sais pas.",
+          "back_ar": "لا أعرف."
+        },
+        {
+          "id": "c15",
+          "front": "toujours",
+          "say": "toujours",
+          "back_ar": "دائماً"
+        },
+        {
+          "id": "c16",
+          "front": "choisir",
+          "say": "choisir",
+          "back_ar": "يختار"
+        }
+      ]
+    }
+  ]
+}

@@ -644,7 +644,7 @@ a.pc-body:hover { transform: translateY(-3px) rotate(-.5deg); box-shadow: 0 16px
 .vocab-note { grid-column: 1 / -1; font-size: .82rem; color: var(--muted); margin-top: 4px; border-top: 1px dashed var(--mist); padding-top: 4px; }
 
 /* القواعد */
-.gtable { margin: 20px 0; }
+.gtable { margin: 20px 0; max-width: 100%; overflow-x: auto; }
 .gtable figcaption { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin-bottom: 8px; }
 .gtable-fr { font-size: 1.3rem; font-weight: 600; }
 .gtable-ar { color: var(--muted); }

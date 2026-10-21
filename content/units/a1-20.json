@@ -1,0 +1,1294 @@
+{
+  "id": "a1-20",
+  "stage": "A1",
+  "title_fr": "Bientôt : le futur proche",
+  "title_ar": "قريباً: المستقبل القريب",
+  "goals_ar": [
+    "تتكلم عن المستقبل القريب: **Je vais voyager. On va manger ensemble.**",
+    "تستعمل كلمات الزمن: **demain، ce week-end، la semaine prochaine**",
+    "تنفي في المستقبل القريب: **Je ne vais pas travailler.**",
+    "تراجع أهم ما في A1 من خلال حوار واحد طويل"
+  ],
+  "intro_ar": [
+    "**المستقبل القريب** أسهل زمن في الفرنسية، وأنت تعرفه تقريباً: **aller** في الحاضر + الفعل بالمصدر. Je vais manger = سآكل. مثل «رايح آكل» في اللهجات العربية تماماً!",
+    "والنفي حول aller: Je **ne** vais **pas** manger (لن آكل).",
+    "**هذه آخر وحدة في A1.** حوارها يجمع كل ما تعلمت: être و avoir، أفعال er، الأسئلة، الوقت، المكان، الطعام. إن فهمته دون ترجمة فأنت مستعد لـ A2."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: خطط نهاية الأسبوع",
+      "context_ar": "مساء الجمعة. كلير تسأل يوسف عن خططه. استمع أولاً دون ترجمة: كل ما فيه تعلمته في A1.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Salut Youssef ! Qu'est-ce que tu vas faire ce week-end ?",
+          "ar": "أهلاً يوسف! ماذا ستفعل في نهاية هذا الأسبوع؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Salut",
+              "أهلاً"
+            ],
+            [
+              "Youssef !",
+              "يوسف"
+            ],
+            [
+              "Qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "vas faire",
+              "ستفعل"
+            ],
+            [
+              "ce week-end ?",
+              "نهاية هذا الأسبوع"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Samedi matin, je vais faire les courses au marché.",
+          "ar": "صباح السبت سأتسوّق في السوق.",
+          "slow": true,
+          "gloss": [
+            [
+              "Samedi matin,",
+              "صباح السبت"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "vais faire les courses",
+              "سأتسوّق"
+            ],
+            [
+              "au",
+              "في الـ"
+            ],
+            [
+              "marché.",
+              "سوق"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Et l'après-midi ? Il va faire beau, tu sais.",
+          "ar": "وبعد الظهر؟ سيكون الجو جميلاً، كما تعلم.",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "l'après-midi ?",
+              "بعد الظهر"
+            ],
+            [
+              "Il va faire beau,",
+              "سيكون الجو جميلاً"
+            ],
+            [
+              "tu sais.",
+              "كما تعلم"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Je vais visiter le musée d'Orsay avec mon frère. Il arrive demain de Riyad !",
+          "ar": "سأزور متحف أورسيه مع أخي. سيصل غداً من الرياض!",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "vais visiter",
+              "سأزور"
+            ],
+            [
+              "le musée d'Orsay",
+              "متحف أورسيه"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "frère.",
+              "أخ"
+            ],
+            [
+              "Il",
+              "هو"
+            ],
+            [
+              "arrive",
+              "يصل"
+            ],
+            [
+              "demain",
+              "غداً"
+            ],
+            [
+              "de Riyad !",
+              "من الرياض"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Super ! Il va rester combien de temps ?",
+          "ar": "رائع! كم سيبقى؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Super !",
+              "رائع"
+            ],
+            [
+              "Il",
+              "هو"
+            ],
+            [
+              "va rester",
+              "سيبقى"
+            ],
+            [
+              "combien de temps ?",
+              "كم من الوقت"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Une semaine. La semaine prochaine, nous allons voir la tour Eiffel et Montmartre.",
+          "ar": "أسبوعاً. في الأسبوع القادم سنرى برج إيفل ومونمارتر.",
+          "slow": true,
+          "gloss": [
+            [
+              "Une",
+              "(نكرة)"
+            ],
+            [
+              "semaine.",
+              "أسبوع"
+            ],
+            [
+              "La semaine prochaine,",
+              "الأسبوع القادم"
+            ],
+            [
+              "nous",
+              "نحن"
+            ],
+            [
+              "allons voir",
+              "سنرى"
+            ],
+            [
+              "la tour Eiffel",
+              "برج إيفل"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "Montmartre.",
+              "مونمارتر"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Vous voulez dîner chez moi dimanche soir ? Je vais faire un couscous !",
+          "ar": "هل تريدان العشاء عندي مساء الأحد؟ سأطبخ كسكساً!",
+          "slow": true,
+          "gloss": [
+            [
+              "Vous",
+              "أنتما"
+            ],
+            [
+              "voulez",
+              "تريدان"
+            ],
+            [
+              "dîner",
+              "أن تتعشّيا"
+            ],
+            [
+              "chez moi",
+              "عندي"
+            ],
+            [
+              "dimanche soir ?",
+              "مساء الأحد"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "vais faire",
+              "سأطبخ"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "couscous !",
+              "كسكس"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Avec plaisir ! Il n'y a pas de porc, n'est-ce pas ?",
+          "ar": "بكل سرور! لا يوجد لحم خنزير، أليس كذلك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Avec plaisir !",
+              "بكل سرور"
+            ],
+            [
+              "Il n'y a pas de",
+              "لا يوجد"
+            ],
+            [
+              "porc,",
+              "لحم خنزير"
+            ],
+            [
+              "n'est-ce pas ?",
+              "أليس كذلك؟"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Non, bien sûr : du poulet, des légumes et beaucoup d'amour !",
+          "ar": "لا، طبعاً: دجاج وخضار وكثير من الحب!",
+          "slow": true,
+          "gloss": [
+            [
+              "Non,",
+              "لا"
+            ],
+            [
+              "bien sûr :",
+              "طبعاً"
+            ],
+            [
+              "du poulet,",
+              "دجاج"
+            ],
+            [
+              "des légumes",
+              "خضار"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "beaucoup d'amour !",
+              "كثير من الحب"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "Alors à dimanche, vers vingt heures. Je vais apporter le dessert !",
+          "ar": "إذن إلى الأحد، نحو الثامنة مساءً. سأُحضر الحلوى!",
+          "slow": true,
+          "gloss": [
+            [
+              "Alors",
+              "إذن"
+            ],
+            [
+              "à dimanche,",
+              "إلى الأحد"
+            ],
+            [
+              "vers",
+              "نحو"
+            ],
+            [
+              "vingt",
+              "20"
+            ],
+            [
+              "heures.",
+              "ساعة"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "vais apporter",
+              "سأُحضر"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "dessert !",
+              "حلوى"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "كل خطة بـ **aller + مصدر**: vais faire، va rester، allons voir. وفي السطر 3 **Il va faire beau** = سيكون الجو جميلاً، فـ faire هنا هو فعل الطقس نفسه. و **n'est-ce pas ?** في السطر 8 = «أليس كذلك؟»."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "كلمات الزمن القادم، وأفعال الخطط، وعبارات الوداع.",
+      "groups": [
+        {
+          "title_ar": "متى؟",
+          "items": [
+            {
+              "id": "v-cesoir",
+              "say": "ce soir",
+              "ar": "الليلة"
+            },
+            {
+              "id": "v-demain",
+              "say": "demain",
+              "ar": "غداً"
+            },
+            {
+              "id": "v-demainmatin",
+              "say": "demain matin",
+              "ar": "صباح الغد"
+            },
+            {
+              "id": "v-weekend",
+              "say": "ce week-end",
+              "ar": "نهاية هذا الأسبوع"
+            },
+            {
+              "id": "v-semaine",
+              "say": "la semaine prochaine",
+              "ar": "الأسبوع القادم"
+            },
+            {
+              "id": "v-mois",
+              "say": "le mois prochain",
+              "ar": "الشهر القادم"
+            },
+            {
+              "id": "v-annee",
+              "say": "l'année prochaine",
+              "ar": "السنة القادمة"
+            },
+            {
+              "id": "v-bientot",
+              "say": "bientôt",
+              "ar": "قريباً"
+            },
+            {
+              "id": "v-dans",
+              "say": "dans deux jours",
+              "ar": "بعد يومين"
+            }
+          ]
+        },
+        {
+          "title_ar": "الخطط",
+          "items": [
+            {
+              "id": "v-voyager",
+              "say": "voyager",
+              "ar": "يسافر"
+            },
+            {
+              "id": "v-visiter",
+              "say": "visiter",
+              "ar": "يزور (مكاناً)",
+              "note_ar": "للأماكن فقط. لزيارة شخص نقول rendre visite à."
+            },
+            {
+              "id": "v-rester",
+              "say": "rester",
+              "ar": "يبقى"
+            },
+            {
+              "id": "v-arriver",
+              "say": "arriver",
+              "ar": "يصل"
+            },
+            {
+              "id": "v-partir",
+              "say": "partir",
+              "ar": "يغادر"
+            },
+            {
+              "id": "v-apporter",
+              "say": "apporter",
+              "ar": "يُحضر"
+            },
+            {
+              "id": "v-inviter",
+              "say": "inviter",
+              "ar": "يدعو"
+            },
+            {
+              "id": "v-fete",
+              "say": "faire la fête",
+              "ar": "يحتفل"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-tuvas",
+              "say": "Qu'est-ce que tu vas faire ?",
+              "ar": "ماذا ستفعل؟"
+            },
+            {
+              "id": "v-voir",
+              "say": "Je vais voir.",
+              "ar": "سأرى."
+            },
+            {
+              "id": "v-abientot",
+              "say": "À bientôt !",
+              "ar": "إلى اللقاء قريباً!"
+            },
+            {
+              "id": "v-adimanche",
+              "say": "À dimanche !",
+              "ar": "إلى الأحد!"
+            },
+            {
+              "id": "v-nestcepas",
+              "say": "n'est-ce pas ?",
+              "ar": "أليس كذلك؟"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "المستقبل",
+      "title_ar": "القاعدة: المستقبل القريب، ومراجعة A1",
+      "intro_ar": "جدول واحد جديد، ثم جدولان يجمعان أهم ما تعلمته في المرحلة كلها.",
+      "tables": [
+        {
+          "title_fr": "Le futur proche",
+          "title_ar": "aller + مصدر",
+          "head_ar": [
+            "الضمير",
+            "aller",
+            "المصدر"
+          ],
+          "rows": [
+            {
+              "id": "g-f1",
+              "say": "je vais manger",
+              "cells": [
+                "je",
+                "vais",
+                "manger"
+              ],
+              "ar": "سآكل"
+            },
+            {
+              "id": "g-f2",
+              "say": "tu vas partir",
+              "cells": [
+                "tu",
+                "vas",
+                "partir"
+              ],
+              "ar": "ستغادر"
+            },
+            {
+              "id": "g-f3",
+              "say": "il va arriver",
+              "cells": [
+                "il / elle / on",
+                "va",
+                "arriver"
+              ],
+              "ar": "سيصل"
+            },
+            {
+              "id": "g-f4",
+              "say": "nous allons voyager",
+              "cells": [
+                "nous",
+                "allons",
+                "voyager"
+              ],
+              "ar": "سنسافر"
+            },
+            {
+              "id": "g-f5",
+              "say": "vous allez rester",
+              "cells": [
+                "vous",
+                "allez",
+                "rester"
+              ],
+              "ar": "ستبقون"
+            },
+            {
+              "id": "g-f6",
+              "say": "ils vont visiter",
+              "cells": [
+                "ils / elles",
+                "vont",
+                "visiter"
+              ],
+              "ar": "سيزورون"
+            }
+          ],
+          "note_ar": "النفي حول aller: Je ne vais pas travailler demain. والسؤال: Tu vas venir ? أو Est-ce que tu vas venir ?"
+        },
+        {
+          "title_fr": "Bilan A1 : huit verbes",
+          "title_ar": "مراجعة A1: ثمانية أفعال",
+          "head_ar": [
+            "الفعل",
+            "مع je",
+            "مع ils"
+          ],
+          "rows": [
+            {
+              "id": "g-b1",
+              "say": "je suis, ils sont",
+              "cells": [
+                "être",
+                "je suis",
+                "ils sont"
+              ],
+              "ar": "يكون"
+            },
+            {
+              "id": "g-b2",
+              "say": "j'ai, ils ont",
+              "cells": [
+                "avoir",
+                "j'ai",
+                "ils ont"
+              ],
+              "ar": "يملك / عنده"
+            },
+            {
+              "id": "g-b3",
+              "say": "je vais, ils vont",
+              "cells": [
+                "aller",
+                "je vais",
+                "ils vont"
+              ],
+              "ar": "يذهب"
+            },
+            {
+              "id": "g-b4",
+              "say": "je fais, ils font",
+              "cells": [
+                "faire",
+                "je fais",
+                "ils font"
+              ],
+              "ar": "يفعل"
+            },
+            {
+              "id": "g-b5",
+              "say": "je veux, ils veulent",
+              "cells": [
+                "vouloir",
+                "je veux",
+                "ils veulent"
+              ],
+              "ar": "يريد"
+            },
+            {
+              "id": "g-b6",
+              "say": "je peux, ils peuvent",
+              "cells": [
+                "pouvoir",
+                "je peux",
+                "ils peuvent"
+              ],
+              "ar": "يستطيع"
+            },
+            {
+              "id": "g-b7",
+              "say": "je prends, ils prennent",
+              "cells": [
+                "prendre",
+                "je prends",
+                "ils prennent"
+              ],
+              "ar": "يأخذ"
+            },
+            {
+              "id": "g-b8",
+              "say": "je parle, ils parlent",
+              "cells": [
+                "parler",
+                "je parle",
+                "ils parlent"
+              ],
+              "ar": "يتكلم (نمط er)"
+            }
+          ],
+          "note_ar": "إن عرفت هذه الأفعال الثمانية في الحاضر وفي المستقبل القريب، تستطيع الكلام في معظم مواقف الحياة اليومية."
+        },
+        {
+          "title_fr": "Bilan A1 : les petits mots",
+          "title_ar": "مراجعة A1: كلمات صغيرة",
+          "head_ar": [
+            "الموضوع",
+            "تذكّر"
+          ],
+          "rows": [
+            {
+              "id": "g-m1",
+              "say": "un, une, des. le, la, les. du, de la",
+              "cells": [
+                "les articles",
+                "un / une / des ; le / la / les ; du / de la"
+              ],
+              "ar": "النكرة والمعرفة والبعض"
+            },
+            {
+              "id": "g-m2",
+              "say": "ne pas. pas de pain",
+              "cells": [
+                "la négation",
+                "ne … pas ; pas de"
+              ],
+              "ar": "النفي"
+            },
+            {
+              "id": "g-m3",
+              "say": "où, quand, comment, pourquoi",
+              "cells": [
+                "les questions",
+                "où, quand, comment, pourquoi"
+              ],
+              "ar": "الاستفهام"
+            },
+            {
+              "id": "g-m4",
+              "say": "au, du",
+              "cells": [
+                "à / de + le",
+                "au, du"
+              ],
+              "ar": "الدمج"
+            },
+            {
+              "id": "g-m5",
+              "say": "mon, ma, mes. son, sa, ses",
+              "cells": [
+                "les possessifs",
+                "mon / ma / mes ; son / sa / ses"
+              ],
+              "ar": "الملكية"
+            },
+            {
+              "id": "g-m6",
+              "say": "ce, cet, cette, ces",
+              "cells": [
+                "les démonstratifs",
+                "ce / cet / cette / ces"
+              ],
+              "ar": "الإشارة"
+            }
+          ],
+          "note_ar": "إن نسيت شيئاً من هذا الجدول فارجع إلى وحدته: الأدوات في 1.3، الأسئلة في 1.9، الدمج في 1.12، الملكية في 1.6، الإشارة في 1.17."
+        }
+      ],
+      "points_ar": [
+        "**aller + مصدر = المستقبل القريب:** أسهل طريقة للكلام عن خططك.",
+        "**انتبه للمعنى:** Je vais au marché = أذهب إلى السوق (حركة)، و Je vais acheter du pain = سأشتري خبزاً (مستقبل).",
+        "**مبروك!** أنهيت A1. راجع بطاقاتك يومياً قبل أن تبدأ A2."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: المستقبل القريب",
+      "hint_ar": "اختر تصريف aller، أو الفعل بالمصدر، أو كلمة الزمن.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Demain, je ___ voyager.",
+          "say": "Demain, je vais voyager.",
+          "options": [
+            "va",
+            "vais"
+          ],
+          "answer": "vais",
+          "ar": "غداً سأسافر.",
+          "explain_ar": "مع je: **vais**."
+        },
+        {
+          "id": "f2",
+          "text": "Nous ___ manger au restaurant.",
+          "say": "Nous allons manger au restaurant.",
+          "options": [
+            "allons",
+            "allez"
+          ],
+          "answer": "allons",
+          "ar": "سنأكل في المطعم.",
+          "explain_ar": "مع nous: **allons**."
+        },
+        {
+          "id": "f3",
+          "text": "Ils ___ arriver ce soir.",
+          "say": "Ils vont arriver ce soir.",
+          "options": [
+            "va",
+            "vont"
+          ],
+          "answer": "vont",
+          "ar": "سيصلون الليلة.",
+          "explain_ar": "مع ils: **vont**."
+        },
+        {
+          "id": "f4",
+          "text": "Tu vas ___ demain ?",
+          "say": "Tu vas venir demain ?",
+          "options": [
+            "viens",
+            "venir"
+          ],
+          "answer": "venir",
+          "ar": "هل ستأتي غداً؟",
+          "explain_ar": "بعد aller المصدر: **venir**."
+        },
+        {
+          "id": "f5",
+          "text": "Je ne vais ___ travailler samedi.",
+          "say": "Je ne vais pas travailler samedi.",
+          "options": [
+            "de",
+            "pas"
+          ],
+          "answer": "pas",
+          "ar": "لن أعمل يوم السبت.",
+          "explain_ar": "النفي حول aller: ne vais **pas**."
+        },
+        {
+          "id": "f6",
+          "text": "Il va faire ___ demain.",
+          "say": "Il va faire beau demain.",
+          "options": [
+            "beau",
+            "belle"
+          ],
+          "answer": "beau",
+          "ar": "سيكون الجو جميلاً غداً.",
+          "explain_ar": "الطقس: il fait **beau**."
+        },
+        {
+          "id": "f7",
+          "text": "La semaine ___, je vais à Lyon.",
+          "say": "La semaine prochaine, je vais à Lyon.",
+          "options": [
+            "prochain",
+            "prochaine"
+          ],
+          "answer": "prochaine",
+          "ar": "في الأسبوع القادم أذهب إلى ليون.",
+          "explain_ar": "semaine مؤنثة: **prochaine**."
+        },
+        {
+          "id": "f8",
+          "text": "Vous ___ visiter le Louvre ?",
+          "say": "Vous allez visiter le Louvre ?",
+          "options": [
+            "allez",
+            "allons"
+          ],
+          "answer": "allez",
+          "ar": "هل ستزورون اللوفر؟",
+          "explain_ar": "مع vous: **allez**."
+        },
+        {
+          "id": "f9",
+          "text": "Elle va ___ chez nous.",
+          "say": "Elle va rester chez nous.",
+          "options": [
+            "reste",
+            "rester"
+          ],
+          "answer": "rester",
+          "ar": "ستبقى عندنا.",
+          "explain_ar": "بعد aller المصدر: **rester**."
+        },
+        {
+          "id": "f10",
+          "text": "Je ___ apporter le dessert.",
+          "say": "Je vais apporter le dessert.",
+          "options": [
+            "vais",
+            "vas"
+          ],
+          "answer": "vais",
+          "ar": "سأُحضر الحلوى.",
+          "explain_ar": "مع je: **vais**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: الآن أم لاحقاً؟",
+      "hint_ar": "آخر سؤالين مراجعة لأصعب أزواج A1.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع جملة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "Je vais manger.",
+          "options": [
+            "Je mange.",
+            "Je vais manger."
+          ],
+          "answer": "Je vais manger.",
+          "explain_ar": "vais manger: سآكل (مستقبل)."
+        },
+        {
+          "id": "q2",
+          "say": "vous allez voyager",
+          "options": [
+            "nous allons voyager",
+            "vous allez voyager"
+          ],
+          "answer": "vous allez voyager",
+          "explain_ar": "vous‿allez «ڤوزاليه»."
+        },
+        {
+          "id": "q3",
+          "say": "Ils vont arriver.",
+          "options": [
+            "Il va arriver.",
+            "Ils vont arriver."
+          ],
+          "answer": "Ils vont arriver.",
+          "explain_ar": "vont «ڤون»: جمع."
+        },
+        {
+          "id": "q4",
+          "say": "Je ne vais pas venir.",
+          "options": [
+            "Je ne vais pas venir.",
+            "Je vais venir."
+          ],
+          "answer": "Je ne vais pas venir.",
+          "explain_ar": "ne … pas: لن آتي."
+        },
+        {
+          "id": "q5",
+          "say": "demain soir",
+          "options": [
+            "demain matin",
+            "demain soir"
+          ],
+          "answer": "demain soir",
+          "explain_ar": "soir «سواغ»: مساء."
+        },
+        {
+          "id": "q6",
+          "say": "le mois prochain",
+          "options": [
+            "la semaine prochaine",
+            "le mois prochain"
+          ],
+          "answer": "le mois prochain",
+          "explain_ar": "mois «موا»: شهر."
+        },
+        {
+          "id": "q7",
+          "say": "À bientôt !",
+          "options": [
+            "À bientôt !",
+            "À demain !"
+          ],
+          "answer": "À bientôt !",
+          "explain_ar": "bientôt «بيانتو»: قريباً."
+        },
+        {
+          "id": "q8",
+          "say": "Il va faire froid.",
+          "options": [
+            "Il va faire beau.",
+            "Il va faire froid."
+          ],
+          "answer": "Il va faire froid.",
+          "explain_ar": "froid «فغوا»: بارد."
+        },
+        {
+          "id": "q9",
+          "say": "ils ont",
+          "options": [
+            "ils sont",
+            "ils ont"
+          ],
+          "answer": "ils ont",
+          "explain_ar": "مراجعة: ils‿ont «إيلزون» = عندهم."
+        },
+        {
+          "id": "q10",
+          "say": "sous la table",
+          "options": [
+            "sous la table",
+            "sur la table"
+          ],
+          "answer": "sous la table",
+          "explain_ar": "مراجعة: sous «سو» = تحت."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: المستقبل القريب",
+      "hint_ar": "aller مصرّفاً، ثم فعل بالمصدر.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: الفعل الثاني بالمصدر دائماً، و **bientôt** بعلامة على o.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je vais partir",
+          "answer": "je vais partir",
+          "ar": "سأغادر"
+        },
+        {
+          "id": "s2",
+          "say": "nous allons voyager",
+          "answer": "nous allons voyager",
+          "ar": "سنسافر"
+        },
+        {
+          "id": "s3",
+          "say": "demain",
+          "answer": "demain",
+          "ar": "غداً"
+        },
+        {
+          "id": "s4",
+          "say": "bientôt",
+          "answer": "bientôt",
+          "ar": "قريباً"
+        },
+        {
+          "id": "s5",
+          "say": "la semaine prochaine",
+          "answer": "la semaine prochaine",
+          "ar": "الأسبوع القادم"
+        },
+        {
+          "id": "s6",
+          "say": "il va faire beau",
+          "answer": "il va faire beau",
+          "ar": "سيكون الجو جميلاً"
+        },
+        {
+          "id": "s7",
+          "say": "à bientôt",
+          "answer": "à bientôt",
+          "ar": "إلى اللقاء قريباً"
+        },
+        {
+          "id": "s8",
+          "say": "ce soir",
+          "answer": "ce soir",
+          "ar": "الليلة"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "خطط قريبة بـ aller. ثم التحدي الختامي لـ A1.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Ce week-end, je vais visiter Paris.",
+          "ar": "في نهاية هذا الأسبوع سأزور باريس.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Ce week-end,",
+              "نهاية هذا الأسبوع"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "vais visiter",
+              "سأزور"
+            ],
+            [
+              "Paris.",
+              "باريس"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Qu'est-ce que tu vas faire demain ?",
+          "ar": "ماذا ستفعل غداً؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "vas faire",
+              "ستفعل"
+            ],
+            [
+              "demain ?",
+              "غداً"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Nous allons dîner chez des amis.",
+          "ar": "سنتعشّى عند أصدقاء.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "allons dîner",
+              "سنتعشّى"
+            ],
+            [
+              "chez",
+              "عند"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "amis.",
+              "أصدقاء"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Je ne vais pas travailler samedi.",
+          "ar": "لن أعمل يوم السبت.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "ne vais pas travailler",
+              "لن أعمل"
+            ],
+            [
+              "samedi.",
+              "يوم السبت"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Bon week-end, à bientôt !",
+          "ar": "نهاية أسبوع سعيدة، إلى اللقاء قريباً!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Bon week-end,",
+              "نهاية أسبوع سعيدة"
+            ],
+            [
+              "à bientôt !",
+              "إلى اللقاء قريباً"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ ختامي لـ A1: سجّل دقيقة كاملة عنك: اسمك، عمرك، بلدك، عائلتك، يومك، وخطتك لنهاية الأسبوع. **Je m'appelle… J'ai… ans. J'habite… Ce week-end, je vais…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "je vais + verbe",
+          "say": "je vais manger",
+          "back_ar": "سـ… (المستقبل القريب)"
+        },
+        {
+          "id": "c2",
+          "front": "Qu'est-ce que tu vas faire ?",
+          "say": "Qu'est-ce que tu vas faire ?",
+          "back_ar": "ماذا ستفعل؟"
+        },
+        {
+          "id": "c3",
+          "front": "demain",
+          "say": "demain",
+          "back_ar": "غداً"
+        },
+        {
+          "id": "c4",
+          "front": "ce soir",
+          "say": "ce soir",
+          "back_ar": "الليلة"
+        },
+        {
+          "id": "c5",
+          "front": "ce week-end",
+          "say": "ce week-end",
+          "back_ar": "نهاية هذا الأسبوع"
+        },
+        {
+          "id": "c6",
+          "front": "la semaine prochaine",
+          "say": "la semaine prochaine",
+          "back_ar": "الأسبوع القادم"
+        },
+        {
+          "id": "c7",
+          "front": "bientôt",
+          "say": "bientôt",
+          "back_ar": "قريباً"
+        },
+        {
+          "id": "c8",
+          "front": "À bientôt !",
+          "say": "À bientôt !",
+          "back_ar": "إلى اللقاء قريباً!"
+        },
+        {
+          "id": "c9",
+          "front": "voyager",
+          "say": "voyager",
+          "back_ar": "يسافر"
+        },
+        {
+          "id": "c10",
+          "front": "visiter",
+          "say": "visiter",
+          "back_ar": "يزور (مكاناً)"
+        },
+        {
+          "id": "c11",
+          "front": "rester",
+          "say": "rester",
+          "back_ar": "يبقى"
+        },
+        {
+          "id": "c12",
+          "front": "arriver / partir",
+          "say": "arriver, partir",
+          "back_ar": "يصل / يغادر"
+        },
+        {
+          "id": "c13",
+          "front": "inviter",
+          "say": "inviter",
+          "back_ar": "يدعو"
+        },
+        {
+          "id": "c14",
+          "front": "apporter",
+          "say": "apporter",
+          "back_ar": "يُحضر"
+        },
+        {
+          "id": "c15",
+          "front": "n'est-ce pas ?",
+          "say": "n'est-ce pas ?",
+          "back_ar": "أليس كذلك؟"
+        },
+        {
+          "id": "c16",
+          "front": "Je ne vais pas…",
+          "say": "Je ne vais pas travailler.",
+          "back_ar": "لن…"
+        }
+      ]
+    }
+  ]
+}
