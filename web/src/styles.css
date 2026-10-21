@@ -542,3 +542,4 @@ a.station-body:hover { border-color: var(--line); }
 .blank.right { color: var(--ok); border-color: var(--ok); font-weight: 600; }
 .blank.wrong { color: var(--red); border-color: var(--red); font-weight: 600; }
 .fill-ar { margin: 4px 0 0; color: var(--muted); }
+.gtable td.gt-ar-cell { font-family: var(--f-ar); font-size: .92rem; color: var(--ink); font-weight: 400; text-align: right; }

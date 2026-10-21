@@ -1,0 +1,1128 @@
+{
+  "id": "a1-04",
+  "stage": "A1",
+  "title_fr": "Qu'est-ce que c'est ?",
+  "title_ar": "ما هذا؟",
+  "goals_ar": [
+    "تسأل عن شيء: **Qu'est-ce que c'est ?** وتجيب: **C'est un stylo.**",
+    "تسأل عن شخص: **Qui est-ce ?** وتجيب: **C'est Claire.**",
+    "تفرّق بين **c'est** (للمفرد) و **ce sont** (للجمع)",
+    "تصف ما يوجد في مكان: **Il y a** une table dans la classe."
+  ],
+  "intro_ar": [
+    "هذه أكثر أسئلة يحتاجها المتعلم: «ما هذا؟» و«من هذا؟». ستستعملها عشرات المرات يومياً في فرنسا.",
+    "**Qu'est-ce que c'est ?** تبدو طويلة ومعقدة، لكنها تُنطق كتلة واحدة سريعة: «كِسْكُسيه». احفظها كصوت، لا كقواعد.",
+    "و **il y a** («إيليا») تعني «يوجد» أو «هناك»، ولا تتغير أبداً: **il y a** un livre (يوجد كتاب) و **il y a** des livres (توجد كتب). أسهل تعبير في الفرنسية!"
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: في محل حلويات باريسي",
+      "context_ar": "يوسف في محل حلويات قديم في باريس، يرى أشياء لا يعرفها فيسأل البائعة عنها.",
+      "speakers": {
+        "A": {
+          "name_ar": "البائعة",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "B",
+          "say": "Bonjour ! Qu'est-ce que c'est ?",
+          "ar": "صباح الخير! ما هذا؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonjour !",
+              "صباح الخير"
+            ],
+            [
+              "Qu'est-ce que c'est ?",
+              "ما هذا؟"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "A",
+          "say": "Ce sont des macarons. C'est une spécialité de Paris.",
+          "ar": "هذه ماكرون. إنها من أطباق باريس الخاصة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Ce sont",
+              "هذه"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "macarons.",
+              "ماكرون"
+            ],
+            [
+              "C'est",
+              "هذه"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "spécialité",
+              "طبق خاص"
+            ],
+            [
+              "de",
+              "من"
+            ],
+            [
+              "Paris.",
+              "باريس"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "B",
+          "say": "Et ça, qu'est-ce que c'est ?",
+          "ar": "وهذا، ما هو؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "ça,",
+              "هذا"
+            ],
+            [
+              "qu'est-ce que c'est ?",
+              "ما هذا؟"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "A",
+          "say": "C'est un croissant aux amandes.",
+          "ar": "هذا كرواسون باللوز.",
+          "slow": true,
+          "gloss": [
+            [
+              "C'est",
+              "هذا"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "croissant",
+              "كرواسون"
+            ],
+            [
+              "aux amandes.",
+              "باللوز"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "B",
+          "say": "Il y a des macarons au chocolat ?",
+          "ar": "هل يوجد ماكرون بالشوكولاتة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Il y a",
+              "يوجد"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "macarons",
+              "ماكرون"
+            ],
+            [
+              "au chocolat ?",
+              "بالشوكولاتة"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "A",
+          "say": "Oui, il y a des macarons au chocolat, au café et à la pistache.",
+          "ar": "نعم، يوجد ماكرون بالشوكولاتة والقهوة والفستق.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "il y a",
+              "يوجد"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "macarons",
+              "ماكرون"
+            ],
+            [
+              "au chocolat,",
+              "بالشوكولاتة"
+            ],
+            [
+              "au café",
+              "بالقهوة"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "à la pistache.",
+              "بالفستق"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "B",
+          "say": "Et qui est-ce, sur la photo ?",
+          "ar": "ومن هذا في الصورة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "qui est-ce,",
+              "من هذا؟"
+            ],
+            [
+              "sur",
+              "على / في"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "photo ?",
+              "صورة"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "A",
+          "say": "C'est mon grand-père. C'est le fondateur de la boutique !",
+          "ar": "هذا جدّي. إنه مؤسس المحل!",
+          "slow": true,
+          "gloss": [
+            [
+              "C'est",
+              "هذا"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "grand-père.",
+              "جدّ"
+            ],
+            [
+              "C'est",
+              "هو"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "fondateur",
+              "مؤسس"
+            ],
+            [
+              "de",
+              "لـ"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "boutique !",
+              "محل"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "B",
+          "say": "Super ! Six macarons, s'il vous plaît.",
+          "ar": "رائع! ست قطع ماكرون، من فضلك.",
+          "slow": true,
+          "gloss": [
+            [
+              "Super !",
+              "رائع"
+            ],
+            [
+              "Six",
+              "ستة"
+            ],
+            [
+              "macarons,",
+              "ماكرون"
+            ],
+            [
+              "s'il vous plaît.",
+              "من فضلك"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "لاحظ: عن الأشياء **Qu'est-ce que c'est ?** وعن الأشخاص **Qui est-ce ?**. والجواب في الحالتين **C'est…** للمفرد و **Ce sont…** للجمع."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "أشياء الصف والمكتب. احفظ كل اسم مع أداته، وأعد كلمات الوحدة السابقة مع هذه.",
+      "groups": [
+        {
+          "title_ar": "في الصف",
+          "items": [
+            {
+              "id": "v-tableau",
+              "say": "un tableau",
+              "ar": "سبّورة / لوحة"
+            },
+            {
+              "id": "v-cahier",
+              "say": "un cahier",
+              "ar": "دفتر"
+            },
+            {
+              "id": "v-crayon",
+              "say": "un crayon",
+              "ar": "قلم رصاص"
+            },
+            {
+              "id": "v-gomme",
+              "say": "une gomme",
+              "ar": "ممحاة"
+            },
+            {
+              "id": "v-dico",
+              "say": "un dictionnaire",
+              "ar": "قاموس"
+            },
+            {
+              "id": "v-carte",
+              "say": "une carte",
+              "ar": "خريطة / بطاقة"
+            },
+            {
+              "id": "v-sacados",
+              "say": "un sac à dos",
+              "ar": "حقيبة ظهر"
+            },
+            {
+              "id": "v-classe",
+              "say": "une classe",
+              "ar": "صف / فصل"
+            }
+          ]
+        },
+        {
+          "title_ar": "في المكتب",
+          "items": [
+            {
+              "id": "v-bureau",
+              "say": "un bureau",
+              "ar": "مكتب (طاولة أو غرفة)"
+            },
+            {
+              "id": "v-ecran",
+              "say": "un écran",
+              "ar": "شاشة"
+            },
+            {
+              "id": "v-clavier",
+              "say": "un clavier",
+              "ar": "لوحة مفاتيح"
+            },
+            {
+              "id": "v-souris",
+              "say": "une souris",
+              "ar": "فأرة (الحاسوب والحيوان)"
+            },
+            {
+              "id": "v-photo",
+              "say": "une photo",
+              "ar": "صورة"
+            },
+            {
+              "id": "v-boite",
+              "say": "une boîte",
+              "ar": "علبة / صندوق"
+            }
+          ]
+        },
+        {
+          "title_ar": "أسئلة وأجوبة",
+          "items": [
+            {
+              "id": "v-quest",
+              "say": "Qu'est-ce que c'est ?",
+              "ar": "ما هذا؟ (لشيء)"
+            },
+            {
+              "id": "v-qui",
+              "say": "Qui est-ce ?",
+              "ar": "من هذا؟ (لشخص)"
+            },
+            {
+              "id": "v-cest",
+              "say": "C'est un stylo.",
+              "ar": "هذا قلم."
+            },
+            {
+              "id": "v-cesont",
+              "say": "Ce sont des stylos.",
+              "ar": "هذه أقلام."
+            },
+            {
+              "id": "v-ilya",
+              "say": "Il y a un livre.",
+              "ar": "يوجد كتاب."
+            },
+            {
+              "id": "v-ilya2",
+              "say": "Il y a des livres.",
+              "ar": "توجد كتب.",
+              "note_ar": "il y a لا يتغير مع الجمع."
+            },
+            {
+              "id": "v-ca",
+              "say": "ça",
+              "ar": "هذا (في الكلام اليومي)"
+            },
+            {
+              "id": "v-sais-pas",
+              "say": "Je ne sais pas.",
+              "ar": "لا أعرف."
+            }
+          ]
+        },
+        {
+          "title_ar": "أين؟",
+          "items": [
+            {
+              "id": "v-sur",
+              "say": "sur",
+              "ar": "على"
+            },
+            {
+              "id": "v-sous",
+              "say": "sous",
+              "ar": "تحت"
+            },
+            {
+              "id": "v-dans",
+              "say": "dans",
+              "ar": "في / داخل"
+            },
+            {
+              "id": "v-devant",
+              "say": "devant",
+              "ar": "أمام"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "القواعد",
+      "title_ar": "القاعدة: c'est، ce sont، il y a",
+      "intro_ar": "ثلاث صيغ تكفيك لتسأل عن الأشياء والأشخاص وتصفها. استمع لكل سؤال وجوابه وردّدهما معاً.",
+      "tables": [
+        {
+          "title_fr": "Poser la question",
+          "title_ar": "السؤال والجواب",
+          "head_ar": [
+            "السؤال",
+            "الجواب"
+          ],
+          "rows": [
+            {
+              "id": "g-q1",
+              "say": "Qu'est-ce que c'est ? C'est un livre.",
+              "cells": [
+                "Qu'est-ce que c'est ?",
+                "C'est un livre."
+              ],
+              "ar": "ما هذا؟ هذا كتاب."
+            },
+            {
+              "id": "g-q2",
+              "say": "Qu'est-ce que c'est ? Ce sont des livres.",
+              "cells": [
+                "Qu'est-ce que c'est ?",
+                "Ce sont des livres."
+              ],
+              "ar": "ما هذه؟ هذه كتب."
+            },
+            {
+              "id": "g-q3",
+              "say": "Qui est-ce ? C'est Claire.",
+              "cells": [
+                "Qui est-ce ?",
+                "C'est Claire."
+              ],
+              "ar": "من هذه؟ هذه كلير."
+            },
+            {
+              "id": "g-q4",
+              "say": "Qui est-ce ? Ce sont mes amis.",
+              "cells": [
+                "Qui est-ce ?",
+                "Ce sont mes amis."
+              ],
+              "ar": "من هؤلاء؟ هؤلاء أصدقائي."
+            },
+            {
+              "id": "g-q5",
+              "say": "Qu'est-ce qu'il y a ? Il y a une table.",
+              "cells": [
+                "Qu'est-ce qu'il y a ?",
+                "Il y a une table."
+              ],
+              "ar": "ماذا يوجد؟ توجد طاولة."
+            }
+          ],
+          "note_ar": "في الكلام اليومي يقول الفرنسيون كثيراً **C'est quoi ?** بدل Qu'est-ce que c'est، وهي غير رسمية."
+        },
+        {
+          "title_fr": "c'est / ce sont / il y a",
+          "title_ar": "الفرق بينها",
+          "head_ar": [
+            "الصيغة",
+            "الاستعمال"
+          ],
+          "rows": [
+            {
+              "id": "g-cest",
+              "say": "C'est un stylo.",
+              "cells": [
+                "c'est",
+                "تعريف شيء أو شخص (مفرد)"
+              ],
+              "ar": "هذا / هذه / إنه"
+            },
+            {
+              "id": "g-cesont",
+              "say": "Ce sont des stylos.",
+              "cells": [
+                "ce sont",
+                "تعريف أشياء أو أشخاص (جمع)"
+              ],
+              "ar": "هذه / هؤلاء"
+            },
+            {
+              "id": "g-ilya",
+              "say": "Il y a un stylo sur la table.",
+              "cells": [
+                "il y a",
+                "وجود شيء في مكان"
+              ],
+              "ar": "يوجد / توجد / هناك"
+            }
+          ],
+          "note_ar": "**c'est** يجيب عن «ما هذا؟»، و **il y a** يجيب عن «ماذا يوجد هناك؟». قارن: **C'est** un stylo (هذا الشيء قلم) / **Il y a** un stylo sur la table (يوجد قلم على الطاولة)."
+        }
+      ],
+      "points_ar": [
+        "**النطق:** Qu'est-ce que c'est = «كِسْكُسيه»، و Qui est-ce = «كي إيس»، و il y a = «إيليا». قلها سريعة ككلمة واحدة.",
+        "**ce sont** للجمع في اللغة الصحيحة. في الكلام اليومي ستسمع الفرنسيين يقولون **c'est** للجمع أيضاً (c'est des macarons)، لكن اكتب ce sont.",
+        "**c'est لا تتغير مع المؤنث:** C'est **un** stylo / C'est **une** gomme. الذي يتغير هو الأداة فقط."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: اختر الصيغة الصحيحة",
+      "hint_ar": "مفرد أم جمع؟ شيء أم شخص؟ تعريف أم وجود في مكان؟",
+      "items": [
+        {
+          "id": "f1",
+          "text": "___ un stylo.",
+          "say": "C'est un stylo.",
+          "options": [
+            "C'est",
+            "Ce sont"
+          ],
+          "answer": "C'est",
+          "ar": "هذا قلم.",
+          "explain_ar": "stylo مفرد: **C'est**."
+        },
+        {
+          "id": "f2",
+          "text": "___ des cahiers.",
+          "say": "Ce sont des cahiers.",
+          "options": [
+            "C'est",
+            "Ce sont"
+          ],
+          "answer": "Ce sont",
+          "ar": "هذه دفاتر.",
+          "explain_ar": "cahiers جمع: **Ce sont**."
+        },
+        {
+          "id": "f3",
+          "text": "___ est-ce ? — C'est Claire.",
+          "say": "Qui est-ce ? — C'est Claire.",
+          "options": [
+            "Qui",
+            "Qu'"
+          ],
+          "answer": "Qui",
+          "ar": "من هذه؟ هذه كلير.",
+          "explain_ar": "Claire شخص: **Qui est-ce ?**"
+        },
+        {
+          "id": "f4",
+          "text": "Qu'est-ce que c'est ? — C'est ___ souris.",
+          "say": "Qu'est-ce que c'est ? — C'est une souris.",
+          "options": [
+            "un",
+            "une"
+          ],
+          "answer": "une",
+          "ar": "ما هذا؟ هذه فأرة.",
+          "explain_ar": "souris مؤنث: **une**."
+        },
+        {
+          "id": "f5",
+          "text": "___ des livres sur la table.",
+          "say": "Il y a des livres sur la table.",
+          "options": [
+            "Il y a",
+            "C'est"
+          ],
+          "answer": "Il y a",
+          "ar": "توجد كتب على الطاولة.",
+          "explain_ar": "شيء موجود في مكان: **Il y a**."
+        },
+        {
+          "id": "f6",
+          "text": "Dans la classe, il y a ___ tableau.",
+          "say": "Dans la classe, il y a un tableau.",
+          "options": [
+            "un",
+            "une"
+          ],
+          "answer": "un",
+          "ar": "في الصف توجد سبّورة.",
+          "explain_ar": "tableau مذكر: **un**."
+        },
+        {
+          "id": "f7",
+          "text": "Qui est-ce ? — ___ mon professeur.",
+          "say": "Qui est-ce ? — C'est mon professeur.",
+          "options": [
+            "C'est",
+            "Il y a"
+          ],
+          "answer": "C'est",
+          "ar": "من هذا؟ هذا أستاذي.",
+          "explain_ar": "تعريف شخص: **C'est**."
+        },
+        {
+          "id": "f8",
+          "text": "Ce sont ___ photos de Paris.",
+          "say": "Ce sont des photos de Paris.",
+          "options": [
+            "des",
+            "une"
+          ],
+          "answer": "des",
+          "ar": "هذه صور من باريس.",
+          "explain_ar": "photos جمع: **des**."
+        },
+        {
+          "id": "f9",
+          "text": "Il y a un ordinateur ___ le bureau.",
+          "say": "Il y a un ordinateur sur le bureau.",
+          "options": [
+            "sur",
+            "sous"
+          ],
+          "answer": "sur",
+          "ar": "يوجد حاسوب على المكتب.",
+          "explain_ar": "الحاسوب **على** المكتب: sur."
+        },
+        {
+          "id": "f10",
+          "text": "Le chat est ___ la table.",
+          "say": "Le chat est sous la table.",
+          "options": [
+            "sur",
+            "sous"
+          ],
+          "answer": "sous",
+          "ar": "القط تحت الطاولة.",
+          "explain_ar": "تحت = **sous**، وعلى = sur.",
+          "context_ar": "القط مختبئ تحت الطاولة:"
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: ماذا سمعت؟",
+      "hint_ar": "عبارات قصيرة متقاربة. استمع لبدايتها جيداً.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختارها.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "Il y a un livre.",
+          "options": [
+            "Il y a un livre.",
+            "Il a un livre."
+          ],
+          "answer": "Il y a un livre.",
+          "explain_ar": "il y a «إيليا»: يوجد. أما il a «إيلا» فمعناها «عنده»."
+        },
+        {
+          "id": "q2",
+          "say": "C'est un stylo.",
+          "options": [
+            "C'est un stylo.",
+            "Ce sont des stylos."
+          ],
+          "answer": "C'est un stylo.",
+          "explain_ar": "C'est un: مفرد."
+        },
+        {
+          "id": "q3",
+          "say": "Ce sont des stylos.",
+          "options": [
+            "C'est un stylo.",
+            "Ce sont des stylos."
+          ],
+          "answer": "Ce sont des stylos.",
+          "explain_ar": "Ce sont des: جمع."
+        },
+        {
+          "id": "q4",
+          "say": "Qui est-ce ?",
+          "options": [
+            "Qui est-ce ?",
+            "Qu'est-ce que c'est ?"
+          ],
+          "answer": "Qui est-ce ?",
+          "explain_ar": "Qui est-ce «كي إيس»: من هذا؟"
+        },
+        {
+          "id": "q5",
+          "say": "Qu'est-ce que c'est ?",
+          "options": [
+            "Qui est-ce ?",
+            "Qu'est-ce que c'est ?"
+          ],
+          "answer": "Qu'est-ce que c'est ?",
+          "explain_ar": "«كِسْكُسيه»: ما هذا؟"
+        },
+        {
+          "id": "q6",
+          "say": "une gomme",
+          "options": [
+            "une gomme",
+            "une pomme"
+          ],
+          "answer": "une gomme",
+          "explain_ar": "gomme يبدأ بـ «گ»: ممحاة. أما pomme فتفاحة."
+        },
+        {
+          "id": "q7",
+          "say": "un cahier",
+          "options": [
+            "un cahier",
+            "un clavier"
+          ],
+          "answer": "un cahier",
+          "explain_ar": "cahier «كاييه»: دفتر."
+        },
+        {
+          "id": "q8",
+          "say": "Ce sont mes amis.",
+          "options": [
+            "Ce sont mes amis.",
+            "Ils sont mes amis."
+          ],
+          "answer": "Ce sont mes amis.",
+          "explain_ar": "Ce sont «سُسون»."
+        },
+        {
+          "id": "q9",
+          "say": "sous la table",
+          "options": [
+            "sur la table",
+            "sous la table"
+          ],
+          "answer": "sous la table",
+          "explain_ar": "sous «سو»: تحت. أما sur ففيها صوت u."
+        },
+        {
+          "id": "q10",
+          "say": "dans la classe",
+          "options": [
+            "dans la classe",
+            "devant la classe"
+          ],
+          "answer": "dans la classe",
+          "explain_ar": "dans «دون»: في."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب ما تسمعه",
+      "hint_ar": "أسماء الوحدة مع أداتها، والعبارات الأساسية. انتبه للفاصلة العليا.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "**qu'est-ce que c'est** تُكتب طويلة رغم أنها تُنطق قصيرة: أربع كلمات في ثلاثة مقاطع!",
+      "items": [
+        {
+          "id": "s1",
+          "say": "un cahier",
+          "answer": "un cahier",
+          "ar": "دفتر"
+        },
+        {
+          "id": "s2",
+          "say": "une gomme",
+          "answer": "une gomme",
+          "ar": "ممحاة"
+        },
+        {
+          "id": "s3",
+          "say": "il y a",
+          "answer": "il y a",
+          "ar": "يوجد"
+        },
+        {
+          "id": "s4",
+          "say": "c'est",
+          "answer": "c'est",
+          "ar": "هذا"
+        },
+        {
+          "id": "s5",
+          "say": "ce sont",
+          "answer": "ce sont",
+          "ar": "هذه (جمع)"
+        },
+        {
+          "id": "s6",
+          "say": "qui est-ce",
+          "answer": "qui est-ce",
+          "ar": "من هذا"
+        },
+        {
+          "id": "s7",
+          "say": "un écran",
+          "answer": "un écran",
+          "ar": "شاشة"
+        },
+        {
+          "id": "s8",
+          "say": "sur la table",
+          "answer": "sur la table",
+          "ar": "على الطاولة"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "أسئلة وأجوبة. ردّد السؤال ثم الجواب، كأنك تكلّم نفسك.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Qu'est-ce que c'est ? C'est un stylo.",
+          "ar": "ما هذا؟ هذا قلم.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Qu'est-ce que c'est ?",
+              "ما هذا؟"
+            ],
+            [
+              "C'est",
+              "هذا"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "stylo.",
+              "قلم"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Ce sont des cahiers.",
+          "ar": "هذه دفاتر.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Ce sont",
+              "هذه"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "cahiers.",
+              "دفاتر"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Qui est-ce ? C'est mon professeur.",
+          "ar": "من هذا؟ هذا أستاذي.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Qui est-ce ?",
+              "من هذا؟"
+            ],
+            [
+              "C'est",
+              "هذا"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "professeur.",
+              "أستاذ"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Il y a un ordinateur sur le bureau.",
+          "ar": "يوجد حاسوب على المكتب.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Il y a",
+              "يوجد"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "ordinateur",
+              "حاسوب"
+            ],
+            [
+              "sur",
+              "على"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "bureau.",
+              "مكتب"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Il y a des macarons au chocolat ?",
+          "ar": "هل يوجد ماكرون بالشوكولاتة؟",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Il y a",
+              "يوجد"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "macarons",
+              "ماكرون"
+            ],
+            [
+              "au chocolat ?",
+              "بالشوكولاتة"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: صِف مكتبك أو غرفتك في ثلاث جمل وسجّل نفسك: **Il y a un… sur le bureau. Il y a des… C'est un…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "Qu'est-ce que c'est ?",
+          "say": "Qu'est-ce que c'est ?",
+          "back_ar": "ما هذا؟ (لشيء)"
+        },
+        {
+          "id": "c2",
+          "front": "Qui est-ce ?",
+          "say": "Qui est-ce ?",
+          "back_ar": "من هذا؟ (لشخص)"
+        },
+        {
+          "id": "c3",
+          "front": "C'est…",
+          "say": "C'est un stylo.",
+          "back_ar": "هذا / هذه (مفرد)"
+        },
+        {
+          "id": "c4",
+          "front": "Ce sont…",
+          "say": "Ce sont des stylos.",
+          "back_ar": "هذه / هؤلاء (جمع)"
+        },
+        {
+          "id": "c5",
+          "front": "Il y a…",
+          "say": "Il y a un livre.",
+          "back_ar": "يوجد / توجد"
+        },
+        {
+          "id": "c6",
+          "front": "Je ne sais pas.",
+          "say": "Je ne sais pas.",
+          "back_ar": "لا أعرف."
+        },
+        {
+          "id": "c7",
+          "front": "un cahier",
+          "say": "un cahier",
+          "back_ar": "دفتر"
+        },
+        {
+          "id": "c8",
+          "front": "un crayon",
+          "say": "un crayon",
+          "back_ar": "قلم رصاص"
+        },
+        {
+          "id": "c9",
+          "front": "une gomme",
+          "say": "une gomme",
+          "back_ar": "ممحاة"
+        },
+        {
+          "id": "c10",
+          "front": "un tableau",
+          "say": "un tableau",
+          "back_ar": "سبّورة / لوحة"
+        },
+        {
+          "id": "c11",
+          "front": "un dictionnaire",
+          "say": "un dictionnaire",
+          "back_ar": "قاموس"
+        },
+        {
+          "id": "c12",
+          "front": "un écran",
+          "say": "un écran",
+          "back_ar": "شاشة"
+        },
+        {
+          "id": "c13",
+          "front": "une souris",
+          "say": "une souris",
+          "back_ar": "فأرة"
+        },
+        {
+          "id": "c14",
+          "front": "un bureau",
+          "say": "un bureau",
+          "back_ar": "مكتب"
+        },
+        {
+          "id": "c15",
+          "front": "une photo",
+          "say": "une photo",
+          "back_ar": "صورة"
+        },
+        {
+          "id": "c16",
+          "front": "sur / sous",
+          "say": "sur, sous",
+          "back_ar": "على / تحت"
+        },
+        {
+          "id": "c17",
+          "front": "dans / devant",
+          "say": "dans, devant",
+          "back_ar": "في / أمام"
+        },
+        {
+          "id": "c18",
+          "front": "ça",
+          "say": "ça",
+          "back_ar": "هذا (في الكلام اليومي)"
+        }
+      ]
+    }
+  ]
+}

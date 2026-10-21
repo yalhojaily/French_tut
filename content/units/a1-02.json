@@ -1,0 +1,1294 @@
+{
+  "id": "a1-02",
+  "stage": "A1",
+  "title_fr": "D'où viens-tu ?",
+  "title_ar": "من أين أنت؟",
+  "goals_ar": [
+    "تقول من أين أنت وأين تسكن: **Je viens d'Arabie saoudite. J'habite à Riyad.**",
+    "تذكر جنسيتك وجنسية غيرك بالمذكر والمؤنث: **saoudien / saoudienne**",
+    "تذكر اللغات التي تتكلمها: **Je parle arabe et anglais.**",
+    "تختار حرف الجر الصحيح مع البلدان: **en** France، **au** Maroc، **aux** États-Unis"
+  ],
+  "intro_ar": [
+    "في هذه الوحدة تتعلم أسئلة أي لقاء أول: من أين أنت؟ أين تسكن؟ ماذا تتكلم؟",
+    "**الجنسيات صفات**، فتتغيّر مع المؤنث كما رأيت في enchanté/enchantée. لكن هنا يتغيّر **النطق** أيضاً غالباً: marocain «ماغوكان» (أنفي) تصبح marocaine «ماغوكين» (النون تُنطق). هذا تطبيق مباشر للوحدة 0.4.",
+    "**البلدان لها جنس** كالأسماء: la France مؤنثة، و le Maroc مذكر. وهذا يحدد حرف الجر: **en** France لكن **au** Maroc. قاعدة سهلة ستجدها في قسم القواعد."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: لقاء في مقهى تبادل اللغات",
+      "context_ar": "يوسف في مقهى يجتمع فيه أشخاص من بلدان مختلفة لتبادل اللغات. يتعرّف على لوسي من فرنسا، ثم ينضم إليهما ماركو من إيطاليا.",
+      "speakers": {
+        "A": {
+          "name_ar": "لوسي",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        },
+        "C": {
+          "name_ar": "ماركو",
+          "voice": "narrator"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Salut ! Tu viens d'où ?",
+          "ar": "أهلاً! من أين أنت؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Salut !",
+              "أهلاً"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "viens",
+              "تأتي"
+            ],
+            [
+              "d'où ?",
+              "من أين"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Je viens d'Arabie saoudite. Je suis saoudien.",
+          "ar": "أنا من السعودية. أنا سعودي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "viens",
+              "آتي"
+            ],
+            [
+              "d'Arabie saoudite.",
+              "من السعودية"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "suis",
+              "أكون"
+            ],
+            [
+              "saoudien.",
+              "سعودي"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Ah, super ! Tu habites à Riyad ?",
+          "ar": "آه، رائع! هل تسكن في الرياض؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Ah,",
+              "آه"
+            ],
+            [
+              "super !",
+              "رائع"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "habites",
+              "تسكن"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "Riyad ?",
+              "الرياض"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Oui, j'habite à Riyad. Et toi, tu es française ?",
+          "ar": "نعم، أسكن في الرياض. وأنتِ، هل أنتِ فرنسية؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "j'habite",
+              "أسكن"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "Riyad.",
+              "الرياض"
+            ],
+            [
+              "Et toi,",
+              "وأنتِ"
+            ],
+            [
+              "tu",
+              "أنتِ"
+            ],
+            [
+              "es",
+              "تكونين"
+            ],
+            [
+              "française ?",
+              "فرنسية"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Oui, je suis française. J'habite à Lyon.",
+          "ar": "نعم، أنا فرنسية. أسكن في ليون.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "suis",
+              "أكون"
+            ],
+            [
+              "française.",
+              "فرنسية"
+            ],
+            [
+              "J'habite",
+              "أسكن"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "Lyon.",
+              "ليون"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "C",
+          "say": "Bonjour ! Moi, je suis italien. Je viens de Rome.",
+          "ar": "مرحباً! أنا إيطالي. أنا من روما.",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonjour !",
+              "مرحباً"
+            ],
+            [
+              "Moi,",
+              "أنا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "suis",
+              "أكون"
+            ],
+            [
+              "italien.",
+              "إيطالي"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "viens",
+              "آتي"
+            ],
+            [
+              "de",
+              "من"
+            ],
+            [
+              "Rome.",
+              "روما"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "B",
+          "say": "Enchanté ! Tu parles arabe ?",
+          "ar": "تشرّفت! هل تتكلم العربية؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Enchanté !",
+              "تشرّفت"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "parles",
+              "تتكلم"
+            ],
+            [
+              "arabe ?",
+              "العربية"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "C",
+          "say": "Non, mais je parle anglais, italien et un peu français !",
+          "ar": "لا، لكني أتكلم الإنجليزية والإيطالية وقليلاً من الفرنسية!",
+          "slow": true,
+          "gloss": [
+            [
+              "Non,",
+              "لا"
+            ],
+            [
+              "mais",
+              "لكن"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "parle",
+              "أتكلم"
+            ],
+            [
+              "anglais,",
+              "الإنجليزية"
+            ],
+            [
+              "italien",
+              "الإيطالية"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "un peu",
+              "قليلاً"
+            ],
+            [
+              "français !",
+              "الفرنسية"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Nous sommes trois nationalités ici !",
+          "ar": "نحن ثلاث جنسيات هنا!",
+          "slow": true,
+          "gloss": [
+            [
+              "Nous",
+              "نحن"
+            ],
+            [
+              "sommes",
+              "نكون"
+            ],
+            [
+              "trois",
+              "ثلاث"
+            ],
+            [
+              "nationalités",
+              "جنسيات"
+            ],
+            [
+              "ici !",
+              "هنا"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "لاحظ: **française** (مؤنث) تُنطق «فغونسيز» بـ «ز» في الآخر، و **français** (مذكر) «فغونسيه». ولاحظ أن اسم اللغة هو نفسه الجنسية بالمذكر: je suis **italien** / je parle **italien**."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "البلدان مع أداة التعريف (لتعرف جنسها)، والجنسيات بالمذكر والمؤنث. استمع للفرق في النطق بين المذكر والمؤنث.",
+      "groups": [
+        {
+          "title_ar": "البلدان",
+          "items": [
+            {
+              "id": "v-arabie",
+              "say": "l'Arabie saoudite",
+              "ar": "السعودية (مؤنث)"
+            },
+            {
+              "id": "v-france",
+              "say": "la France",
+              "ar": "فرنسا"
+            },
+            {
+              "id": "v-maroc",
+              "say": "le Maroc",
+              "ar": "المغرب (مذكر)"
+            },
+            {
+              "id": "v-egypte",
+              "say": "l'Égypte",
+              "ar": "مصر (مؤنث)"
+            },
+            {
+              "id": "v-liban",
+              "say": "le Liban",
+              "ar": "لبنان (مذكر)"
+            },
+            {
+              "id": "v-tunisie",
+              "say": "la Tunisie",
+              "ar": "تونس"
+            },
+            {
+              "id": "v-algerie",
+              "say": "l'Algérie",
+              "ar": "الجزائر (مؤنث)"
+            },
+            {
+              "id": "v-emirats",
+              "say": "les Émirats arabes unis",
+              "ar": "الإمارات (جمع)"
+            },
+            {
+              "id": "v-usa",
+              "say": "les États-Unis",
+              "ar": "الولايات المتحدة (جمع)"
+            },
+            {
+              "id": "v-canada",
+              "say": "le Canada",
+              "ar": "كندا"
+            },
+            {
+              "id": "v-italie",
+              "say": "l'Italie",
+              "ar": "إيطاليا (مؤنث)"
+            },
+            {
+              "id": "v-espagne",
+              "say": "l'Espagne",
+              "ar": "إسبانيا (مؤنث)"
+            },
+            {
+              "id": "v-allemagne",
+              "say": "l'Allemagne",
+              "ar": "ألمانيا (مؤنث)"
+            },
+            {
+              "id": "v-angleterre",
+              "say": "l'Angleterre",
+              "ar": "إنجلترا (مؤنث)"
+            }
+          ]
+        },
+        {
+          "title_ar": "الجنسيات (مذكر / مؤنث)",
+          "items": [
+            {
+              "id": "v-saoudien",
+              "say": "saoudien, saoudienne",
+              "ar": "سعودي / سعودية",
+              "fr": "saoudien / saoudienne"
+            },
+            {
+              "id": "v-francais",
+              "say": "français, française",
+              "ar": "فرنسي / فرنسية",
+              "fr": "français / française"
+            },
+            {
+              "id": "v-marocain",
+              "say": "marocain, marocaine",
+              "ar": "مغربي / مغربية",
+              "fr": "marocain / marocaine"
+            },
+            {
+              "id": "v-egyptien",
+              "say": "égyptien, égyptienne",
+              "ar": "مصري / مصرية",
+              "fr": "égyptien / égyptienne"
+            },
+            {
+              "id": "v-libanais",
+              "say": "libanais, libanaise",
+              "ar": "لبناني / لبنانية",
+              "fr": "libanais / libanaise"
+            },
+            {
+              "id": "v-tunisien",
+              "say": "tunisien, tunisienne",
+              "ar": "تونسي / تونسية",
+              "fr": "tunisien / tunisienne"
+            },
+            {
+              "id": "v-algerien",
+              "say": "algérien, algérienne",
+              "ar": "جزائري / جزائرية",
+              "fr": "algérien / algérienne"
+            },
+            {
+              "id": "v-americain",
+              "say": "américain, américaine",
+              "ar": "أمريكي / أمريكية",
+              "fr": "américain / américaine"
+            },
+            {
+              "id": "v-italien",
+              "say": "italien, italienne",
+              "ar": "إيطالي / إيطالية",
+              "fr": "italien / italienne"
+            },
+            {
+              "id": "v-espagnol",
+              "say": "espagnol, espagnole",
+              "ar": "إسباني / إسبانية",
+              "fr": "espagnol / espagnole",
+              "note_ar": "النطق واحد! الـ e تُكتب فقط."
+            },
+            {
+              "id": "v-allemand",
+              "say": "allemand, allemande",
+              "ar": "ألماني / ألمانية",
+              "fr": "allemand / allemande"
+            },
+            {
+              "id": "v-anglais",
+              "say": "anglais, anglaise",
+              "ar": "إنجليزي / إنجليزية",
+              "fr": "anglais / anglaise"
+            },
+            {
+              "id": "v-belge",
+              "say": "belge",
+              "ar": "بلجيكي / بلجيكية",
+              "note_ar": "ينتهي بـ e أصلاً، فلا يتغير."
+            }
+          ]
+        },
+        {
+          "title_ar": "اللغات",
+          "items": [
+            {
+              "id": "v-l-arabe",
+              "say": "l'arabe",
+              "ar": "العربية"
+            },
+            {
+              "id": "v-l-francais",
+              "say": "le français",
+              "ar": "الفرنسية"
+            },
+            {
+              "id": "v-l-anglais",
+              "say": "l'anglais",
+              "ar": "الإنجليزية"
+            },
+            {
+              "id": "v-l-espagnol",
+              "say": "l'espagnol",
+              "ar": "الإسبانية",
+              "note_ar": "كل اللغات **مذكرة**، وتُكتب بحرف صغير."
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-dou-tu",
+              "say": "Tu viens d'où ?",
+              "ar": "من أين أنت؟ (غير رسمي)"
+            },
+            {
+              "id": "v-dou-vous",
+              "say": "Vous venez d'où ?",
+              "ar": "من أين حضرتك؟ (رسمي)"
+            },
+            {
+              "id": "v-je-viens",
+              "say": "Je viens de Riyad.",
+              "ar": "أنا من الرياض."
+            },
+            {
+              "id": "v-habite",
+              "say": "J'habite à Paris.",
+              "ar": "أسكن في باريس."
+            },
+            {
+              "id": "v-parle",
+              "say": "Je parle arabe et anglais.",
+              "ar": "أتكلم العربية والإنجليزية."
+            },
+            {
+              "id": "v-peu",
+              "say": "Je parle un peu français.",
+              "ar": "أتكلم الفرنسية قليلاً."
+            },
+            {
+              "id": "v-nationalite",
+              "say": "Quelle est votre nationalité ?",
+              "ar": "ما جنسيتك؟ (رسمي)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "القواعد",
+      "title_ar": "القاعدة: المؤنث وحروف الجر مع البلدان",
+      "intro_ar": "قاعدتان في هذه الوحدة: كيف تصنع **مؤنث** الجنسية، وأي **حرف جر** تستعمل مع البلد.",
+      "tables": [
+        {
+          "title_fr": "Masculin → féminin",
+          "title_ar": "من المذكر إلى المؤنث",
+          "head_ar": [
+            "المذكر",
+            "المؤنث"
+          ],
+          "rows": [
+            {
+              "id": "g-ain",
+              "say": "marocain, marocaine",
+              "cells": [
+                "marocain",
+                "marocaine"
+              ],
+              "ar": "الصوت الأنفي يصبح «ين» والنون تُنطق"
+            },
+            {
+              "id": "g-ien",
+              "say": "saoudien, saoudienne",
+              "cells": [
+                "saoudien",
+                "saoudienne"
+              ],
+              "ar": "تتضاعف النون، وتُنطق"
+            },
+            {
+              "id": "g-ais",
+              "say": "libanais, libanaise",
+              "cells": [
+                "libanais",
+                "libanaise"
+              ],
+              "ar": "الـ s تظهر وتُنطق «ز»"
+            },
+            {
+              "id": "g-and",
+              "say": "allemand, allemande",
+              "cells": [
+                "allemand",
+                "allemande"
+              ],
+              "ar": "الـ d تظهر وتُنطق"
+            },
+            {
+              "id": "g-ol",
+              "say": "espagnol, espagnole",
+              "cells": [
+                "espagnol",
+                "espagnole"
+              ],
+              "ar": "أضف e فقط، والنطق واحد"
+            },
+            {
+              "id": "g-e",
+              "say": "belge, belge",
+              "cells": [
+                "belge",
+                "belge"
+              ],
+              "ar": "ينتهي بـ e أصلاً، فلا يتغير"
+            }
+          ],
+          "note_ar": "القاعدة العامة: **أضف e**. وهذه الـ e تجعل الحرف الأخير الصامت يُنطق (الوحدة 0.6)، وتحوّل الصوت الأنفي إلى صوت عادي مع نون (الوحدة 0.4)."
+        },
+        {
+          "title_fr": "en / au / aux / à",
+          "title_ar": "حرف الجر مع الأماكن («في» أو «إلى»)",
+          "head_ar": [
+            "الحرف",
+            "متى؟"
+          ],
+          "rows": [
+            {
+              "id": "g-en",
+              "say": "en France, en Arabie saoudite",
+              "cells": [
+                "en",
+                "بلد مؤنث"
+              ],
+              "ar": "en France، en Égypte"
+            },
+            {
+              "id": "g-au",
+              "say": "au Maroc, au Liban",
+              "cells": [
+                "au",
+                "بلد مذكر"
+              ],
+              "ar": "au Maroc، au Canada"
+            },
+            {
+              "id": "g-aux",
+              "say": "aux États-Unis, aux Émirats",
+              "cells": [
+                "aux",
+                "بلد جمع"
+              ],
+              "ar": "aux États-Unis"
+            },
+            {
+              "id": "g-a",
+              "say": "à Riyad, à Paris",
+              "cells": [
+                "à",
+                "مدينة"
+              ],
+              "ar": "à Riyad، à Paris"
+            }
+          ],
+          "note_ar": "ومع «من» (venir de): **de France**، **d'Arabie saoudite**، **du Maroc**، **des États-Unis**. وستعرف لماذا du و des في الوحدة A1.12."
+        }
+      ],
+      "points_ar": [
+        "**كيف تعرف جنس البلد؟** معظم البلدان المنتهية بـ **e** مؤنثة: la France، l'Italie، la Tunisie. والباقي مذكر: le Maroc، le Liban، le Canada. (واستثناءات قليلة مثل le Mexique.)",
+        "**الجنسية بلا أداة:** تقول **Je suis saoudien** لا «je suis un saoudien». و **الجنسية صفة بحرف صغير** (saoudien)، أما إذا صارت اسماً لشخص فبحرف كبير: **un Saoudien** = رجل سعودي.",
+        "**اسم اللغة = الجنسية بالمذكر:** le français، l'arabe، l'anglais. وبعد parler تُحذف الأداة عادة: Je parle **arabe**."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: اختر الكلمة الناقصة",
+      "hint_ar": "انتبه للسياق: من المتكلم (رجل أم امرأة)؟ وما جنس البلد؟",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je suis ___.",
+          "say": "Je suis marocaine.",
+          "options": [
+            "marocain",
+            "marocaine"
+          ],
+          "answer": "marocaine",
+          "ar": "أنا مغربية.",
+          "explain_ar": "المتكلمة امرأة: **marocaine**.",
+          "context_ar": "تقولها امرأة من المغرب:"
+        },
+        {
+          "id": "f2",
+          "text": "Il est ___.",
+          "say": "Il est égyptien.",
+          "options": [
+            "égyptien",
+            "égyptienne"
+          ],
+          "answer": "égyptien",
+          "ar": "هو مصري.",
+          "explain_ar": "il = مذكر: **égyptien**."
+        },
+        {
+          "id": "f3",
+          "text": "Elle est ___.",
+          "say": "Elle est allemande.",
+          "options": [
+            "allemand",
+            "allemande"
+          ],
+          "answer": "allemande",
+          "ar": "هي ألمانية.",
+          "explain_ar": "elle = مؤنث: **allemande**، والـ d تُنطق."
+        },
+        {
+          "id": "f4",
+          "text": "J'habite ___ France.",
+          "say": "J'habite en France.",
+          "options": [
+            "en",
+            "au",
+            "aux"
+          ],
+          "answer": "en",
+          "ar": "أسكن في فرنسا.",
+          "explain_ar": "la France مؤنثة: **en**."
+        },
+        {
+          "id": "f5",
+          "text": "Il habite ___ Maroc.",
+          "say": "Il habite au Maroc.",
+          "options": [
+            "en",
+            "au",
+            "aux"
+          ],
+          "answer": "au",
+          "ar": "يسكن في المغرب.",
+          "explain_ar": "le Maroc مذكر: **au**."
+        },
+        {
+          "id": "f6",
+          "text": "Elle habite ___ États-Unis.",
+          "say": "Elle habite aux États-Unis.",
+          "options": [
+            "en",
+            "au",
+            "aux"
+          ],
+          "answer": "aux",
+          "ar": "تسكن في الولايات المتحدة.",
+          "explain_ar": "les États-Unis جمع: **aux**."
+        },
+        {
+          "id": "f7",
+          "text": "J'habite ___ Riyad.",
+          "say": "J'habite à Riyad.",
+          "options": [
+            "à",
+            "en",
+            "au"
+          ],
+          "answer": "à",
+          "ar": "أسكن في الرياض.",
+          "explain_ar": "مع المدن دائماً **à**."
+        },
+        {
+          "id": "f8",
+          "text": "Je viens ___ Arabie saoudite.",
+          "say": "Je viens d'Arabie saoudite.",
+          "options": [
+            "d'",
+            "de",
+            "du"
+          ],
+          "answer": "d'",
+          "ar": "أنا من السعودية.",
+          "explain_ar": "de قبل حرف علة تصبح **d'** (الحذف، الوحدة 0.6)."
+        },
+        {
+          "id": "f9",
+          "text": "Ils sont ___.",
+          "say": "Ils sont libanais.",
+          "options": [
+            "libanais",
+            "libanaise"
+          ],
+          "answer": "libanais",
+          "ar": "هم لبنانيون.",
+          "explain_ar": "ils = مذكر جمع. و libanais تنتهي بـ s أصلاً فلا يتغير جمعها."
+        },
+        {
+          "id": "f10",
+          "text": "Vous ___ français ?",
+          "say": "Vous êtes français ?",
+          "options": [
+            "êtes",
+            "es",
+            "est"
+          ],
+          "answer": "êtes",
+          "ar": "هل حضرتك فرنسي؟",
+          "explain_ar": "مع vous: **êtes** (الوحدة A1.1)."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: مذكر أم مؤنث؟",
+      "hint_ar": "تسمع جنسية واحدة. هل هي مذكر أم مؤنث؟ استمع لآخر الكلمة: هل تُنطق النون أو الـ «ز» أو الـ «د»؟",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع جنسية وتختار شكلها.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "marocaine",
+          "options": [
+            "marocain",
+            "marocaine"
+          ],
+          "answer": "marocaine",
+          "explain_ar": "marocaine: سمعت النون «ماغوكين»."
+        },
+        {
+          "id": "q2",
+          "say": "saoudien",
+          "options": [
+            "saoudien",
+            "saoudienne"
+          ],
+          "answer": "saoudien",
+          "explain_ar": "saoudien: صوت أنفي بلا نون."
+        },
+        {
+          "id": "q3",
+          "say": "française",
+          "options": [
+            "français",
+            "française"
+          ],
+          "answer": "française",
+          "explain_ar": "française: سمعت «ز» في الآخر."
+        },
+        {
+          "id": "q4",
+          "say": "italien",
+          "options": [
+            "italien",
+            "italienne"
+          ],
+          "answer": "italien",
+          "explain_ar": "italien: صوت أنفي «إيتاليان»."
+        },
+        {
+          "id": "q5",
+          "say": "allemande",
+          "options": [
+            "allemand",
+            "allemande"
+          ],
+          "answer": "allemande",
+          "explain_ar": "allemande: سمعت «د» في الآخر."
+        },
+        {
+          "id": "q6",
+          "say": "anglais",
+          "options": [
+            "anglais",
+            "anglaise"
+          ],
+          "answer": "anglais",
+          "explain_ar": "anglais: لا «ز» في الآخر."
+        },
+        {
+          "id": "q7",
+          "say": "égyptienne",
+          "options": [
+            "égyptien",
+            "égyptienne"
+          ],
+          "answer": "égyptienne",
+          "explain_ar": "égyptienne: سمعت النون."
+        },
+        {
+          "id": "q8",
+          "say": "américain",
+          "options": [
+            "américain",
+            "américaine"
+          ],
+          "answer": "américain",
+          "explain_ar": "américain: صوت أنفي بلا نون."
+        },
+        {
+          "id": "q9",
+          "say": "libanaise",
+          "options": [
+            "libanais",
+            "libanaise"
+          ],
+          "answer": "libanaise",
+          "explain_ar": "libanaise: سمعت «ز»."
+        },
+        {
+          "id": "q10",
+          "say": "tunisien",
+          "options": [
+            "tunisien",
+            "tunisienne"
+          ],
+          "answer": "tunisien",
+          "explain_ar": "tunisien: صوت أنفي بلا نون."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب ما تسمعه",
+      "hint_ar": "جنسيات وبلدان. المعنى ظاهر ليساعدك. انتبه للمؤنث.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: المؤنث = المذكر + **e**، ومع **ien** تتضاعف النون: **ienne**.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "anglais",
+          "answer": "anglais",
+          "ar": "إنجليزي"
+        },
+        {
+          "id": "s2",
+          "say": "espagnole",
+          "answer": "espagnole",
+          "ar": "إسبانية"
+        },
+        {
+          "id": "s3",
+          "say": "marocaine",
+          "answer": "marocaine",
+          "ar": "مغربية"
+        },
+        {
+          "id": "s4",
+          "say": "saoudien",
+          "answer": "saoudien",
+          "ar": "سعودي"
+        },
+        {
+          "id": "s5",
+          "say": "égyptienne",
+          "answer": "égyptienne",
+          "ar": "مصرية"
+        },
+        {
+          "id": "s6",
+          "say": "allemand",
+          "answer": "allemand",
+          "ar": "ألماني"
+        },
+        {
+          "id": "s7",
+          "say": "les États-Unis",
+          "answer": "les États-Unis",
+          "ar": "الولايات المتحدة"
+        },
+        {
+          "id": "s8",
+          "say": "le Maroc",
+          "answer": "le Maroc",
+          "ar": "المغرب"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "جمل تقدّم بها نفسك في أي لقاء. ردّدها ثم غيّرها لتناسبك.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Je viens d'Arabie saoudite.",
+          "ar": "أنا من السعودية.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "viens",
+              "آتي"
+            ],
+            [
+              "d'Arabie saoudite.",
+              "من السعودية"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Je suis saoudien. J'habite à Riyad.",
+          "ar": "أنا سعودي. أسكن في الرياض.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "suis",
+              "أكون"
+            ],
+            [
+              "saoudien.",
+              "سعودي"
+            ],
+            [
+              "J'habite",
+              "أسكن"
+            ],
+            [
+              "à",
+              "في"
+            ],
+            [
+              "Riyad.",
+              "الرياض"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Elle est française. Elle habite en France.",
+          "ar": "هي فرنسية. تسكن في فرنسا.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "française.",
+              "فرنسية"
+            ],
+            [
+              "Elle",
+              "هي"
+            ],
+            [
+              "habite",
+              "تسكن"
+            ],
+            [
+              "en",
+              "في"
+            ],
+            [
+              "France.",
+              "فرنسا"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Tu parles arabe ?",
+          "ar": "هل تتكلم العربية؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "parles",
+              "تتكلم"
+            ],
+            [
+              "arabe ?",
+              "العربية"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Je parle arabe, anglais et un peu français.",
+          "ar": "أتكلم العربية والإنجليزية وقليلاً من الفرنسية.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "parle",
+              "أتكلم"
+            ],
+            [
+              "arabe,",
+              "العربية"
+            ],
+            [
+              "anglais",
+              "الإنجليزية"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "un peu",
+              "قليلاً"
+            ],
+            [
+              "français.",
+              "الفرنسية"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: سجّل تقديماً كاملاً لنفسك: **Je m'appelle… Je viens de… Je suis… J'habite à… Je parle…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل الكلمة بصوت عالٍ قبل أن تكشف الجواب. مع الجنسيات قل المذكر والمؤنث معاً.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "Tu viens d'où ?",
+          "say": "Tu viens d'où ?",
+          "back_ar": "من أين أنت؟"
+        },
+        {
+          "id": "c2",
+          "front": "Je viens de…",
+          "say": "Je viens de Riyad.",
+          "back_ar": "أنا من…"
+        },
+        {
+          "id": "c3",
+          "front": "J'habite à…",
+          "say": "J'habite à Riyad.",
+          "back_ar": "أسكن في…"
+        },
+        {
+          "id": "c4",
+          "front": "Je parle…",
+          "say": "Je parle arabe.",
+          "back_ar": "أتكلم…"
+        },
+        {
+          "id": "c5",
+          "front": "saoudien / saoudienne",
+          "say": "saoudien, saoudienne",
+          "back_ar": "سعودي / سعودية"
+        },
+        {
+          "id": "c6",
+          "front": "français / française",
+          "say": "français, française",
+          "back_ar": "فرنسي / فرنسية"
+        },
+        {
+          "id": "c7",
+          "front": "marocain / marocaine",
+          "say": "marocain, marocaine",
+          "back_ar": "مغربي / مغربية"
+        },
+        {
+          "id": "c8",
+          "front": "égyptien / égyptienne",
+          "say": "égyptien, égyptienne",
+          "back_ar": "مصري / مصرية"
+        },
+        {
+          "id": "c9",
+          "front": "libanais / libanaise",
+          "say": "libanais, libanaise",
+          "back_ar": "لبناني / لبنانية"
+        },
+        {
+          "id": "c10",
+          "front": "américain / américaine",
+          "say": "américain, américaine",
+          "back_ar": "أمريكي / أمريكية"
+        },
+        {
+          "id": "c11",
+          "front": "anglais / anglaise",
+          "say": "anglais, anglaise",
+          "back_ar": "إنجليزي / إنجليزية"
+        },
+        {
+          "id": "c12",
+          "front": "en France",
+          "say": "en France",
+          "back_ar": "في فرنسا (la France مؤنث)"
+        },
+        {
+          "id": "c13",
+          "front": "au Maroc",
+          "say": "au Maroc",
+          "back_ar": "في المغرب (le Maroc مذكر)"
+        },
+        {
+          "id": "c14",
+          "front": "aux États-Unis",
+          "say": "aux États-Unis",
+          "back_ar": "في الولايات المتحدة (جمع)"
+        },
+        {
+          "id": "c15",
+          "front": "l'Arabie saoudite",
+          "say": "l'Arabie saoudite",
+          "back_ar": "السعودية"
+        },
+        {
+          "id": "c16",
+          "front": "l'arabe",
+          "say": "l'arabe",
+          "back_ar": "اللغة العربية"
+        },
+        {
+          "id": "c17",
+          "front": "un peu",
+          "say": "un peu",
+          "back_ar": "قليلاً"
+        },
+        {
+          "id": "c18",
+          "front": "la nationalité",
+          "say": "la nationalité",
+          "back_ar": "الجنسية"
+        }
+      ]
+    }
+  ]
+}

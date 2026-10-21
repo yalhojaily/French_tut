@@ -1,0 +1,1173 @@
+{
+  "id": "a1-03",
+  "stage": "A1",
+  "title_fr": "Le genre et les articles",
+  "title_ar": "التذكير والتأنيث وأدوات التعريف",
+  "goals_ar": [
+    "تعرف أن **كل اسم فرنسي** مذكر أو مؤنث، وتحفظه مع أداته",
+    "تستعمل أدوات النكرة: **un** (مذكر)، **une** (مؤنث)، **des** (جمع)",
+    "تستعمل أدوات التعريف: **le**، **la**، **l'**، **les**",
+    "تجمع الأسماء: **des livres**، **des bateaux**، **des journaux**"
+  ],
+  "intro_ar": [
+    "في العربية لكل اسم جنس: الشمس مؤنثة، والقمر مذكر. والفرنسية مثلها تماماً، لكن **الجنس لا يتطابق**: le soleil (الشمس) مذكر، و la lune (القمر) مؤنثة! لذلك لا تعتمد على العربية أبداً.",
+    "**القاعدة الذهبية:** لا تحفظ كلمة **livre** وحدها، بل احفظها **un livre**. لا تحفظ **table**، بل **une table**. الأداة جزء من الكلمة.",
+    "والجمع سهل في الكتابة (أضف s)، لكنه **لا يُسمع** في الكلام: livre و livres يُنطقان واحداً. ما يُسمع هو الأداة: **le** livre «لُ» / **les** livres «لي». ولهذا تدرّبت على le/les في الوحدة 0.2."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: الشقة الجديدة",
+      "context_ar": "يوسف يستأجر شقة مفروشة في باريس. صاحبة الشقة تريه الغرف وتعطيه المفاتيح. انتبه للأدوات قبل كل اسم.",
+      "speakers": {
+        "A": {
+          "name_ar": "صاحبة الشقة",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Bienvenue ! Voici l'appartement.",
+          "ar": "أهلاً بك! هذه هي الشقة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Bienvenue !",
+              "أهلاً بك"
+            ],
+            [
+              "Voici",
+              "هذا هو"
+            ],
+            [
+              "l'appartement.",
+              "الشقة"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Merci ! Ici, c'est la cuisine ?",
+          "ar": "شكراً! هنا المطبخ؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Merci !",
+              "شكراً"
+            ],
+            [
+              "Ici,",
+              "هنا"
+            ],
+            [
+              "c'est",
+              "هذا"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "cuisine ?",
+              "مطبخ"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Oui. Voilà le frigo et les placards.",
+          "ar": "نعم. هذه الثلاجة والخزائن.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui.",
+              "نعم"
+            ],
+            [
+              "Voilà",
+              "ها هو"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "frigo",
+              "ثلاجة"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "placards.",
+              "خزائن"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Et la chambre ?",
+          "ar": "والغرفة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "chambre ?",
+              "غرفة"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "La chambre est là, avec un lit et une armoire.",
+          "ar": "الغرفة هناك، فيها سرير وخزانة ملابس.",
+          "slow": true,
+          "gloss": [
+            [
+              "La",
+              "الـ"
+            ],
+            [
+              "chambre",
+              "غرفة"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "là,",
+              "هناك"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "lit",
+              "سرير"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "armoire.",
+              "خزانة ملابس"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Très bien. Et les clés ?",
+          "ar": "جيد جداً. والمفاتيح؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Très bien.",
+              "جيد جداً"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "clés ?",
+              "مفاتيح"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Voilà les clés : une clé pour la porte et une clé pour la boîte aux lettres.",
+          "ar": "تفضّل المفاتيح: مفتاح للباب ومفتاح لصندوق البريد.",
+          "slow": true,
+          "gloss": [
+            [
+              "Voilà",
+              "تفضّل"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "clés :",
+              "مفاتيح"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "clé",
+              "مفتاح"
+            ],
+            [
+              "pour",
+              "لـ"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "porte",
+              "باب"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "clé",
+              "مفتاح"
+            ],
+            [
+              "pour",
+              "لـ"
+            ],
+            [
+              "la boîte aux lettres.",
+              "صندوق البريد"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Parfait, merci beaucoup !",
+          "ar": "ممتاز، شكراً جزيلاً!",
+          "slow": true,
+          "gloss": [
+            [
+              "Parfait,",
+              "ممتاز"
+            ],
+            [
+              "merci",
+              "شكراً"
+            ],
+            [
+              "beaucoup !",
+              "كثيراً"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "**l'appartement** و **l'armoire**: لا تعرف جنسهما من **l'**! لذلك احفظ: **un** appartement (مذكر) و **une** armoire (مؤنث). ولاحظ **une clé** (مؤنث) رغم أن «مفتاح» مذكر في العربية."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "كل اسم مع أداة النكرة (un أو une) لتحفظ جنسه. الأسماء المعلّمة بملاحظة جنسها يخالف العربية.",
+      "groups": [
+        {
+          "title_ar": "البيت",
+          "items": [
+            {
+              "id": "v-appartement",
+              "say": "un appartement",
+              "ar": "شقة",
+              "note_ar": "مذكر، و«شقة» مؤنثة في العربية."
+            },
+            {
+              "id": "v-maison",
+              "say": "une maison",
+              "ar": "بيت",
+              "note_ar": "مؤنث، و«بيت» مذكر في العربية."
+            },
+            {
+              "id": "v-cuisine",
+              "say": "une cuisine",
+              "ar": "مطبخ",
+              "note_ar": "مؤنث."
+            },
+            {
+              "id": "v-chambre",
+              "say": "une chambre",
+              "ar": "غرفة نوم"
+            },
+            {
+              "id": "v-salon",
+              "say": "un salon",
+              "ar": "صالة / غرفة جلوس"
+            },
+            {
+              "id": "v-sdb",
+              "say": "une salle de bain",
+              "ar": "حمّام"
+            },
+            {
+              "id": "v-porte",
+              "say": "une porte",
+              "ar": "باب",
+              "note_ar": "مؤنث."
+            },
+            {
+              "id": "v-fenetre",
+              "say": "une fenêtre",
+              "ar": "نافذة"
+            }
+          ]
+        },
+        {
+          "title_ar": "الأثاث والأشياء",
+          "items": [
+            {
+              "id": "v-table",
+              "say": "une table",
+              "ar": "طاولة"
+            },
+            {
+              "id": "v-chaise",
+              "say": "une chaise",
+              "ar": "كرسي",
+              "note_ar": "مؤنث."
+            },
+            {
+              "id": "v-lit",
+              "say": "un lit",
+              "ar": "سرير"
+            },
+            {
+              "id": "v-armoire",
+              "say": "une armoire",
+              "ar": "خزانة ملابس"
+            },
+            {
+              "id": "v-placard",
+              "say": "un placard",
+              "ar": "خزانة (في الحائط)"
+            },
+            {
+              "id": "v-frigo",
+              "say": "un frigo",
+              "ar": "ثلاجة",
+              "note_ar": "مذكر."
+            },
+            {
+              "id": "v-lampe",
+              "say": "une lampe",
+              "ar": "مصباح",
+              "note_ar": "مؤنث."
+            },
+            {
+              "id": "v-cle",
+              "say": "une clé",
+              "ar": "مفتاح",
+              "note_ar": "مؤنث."
+            }
+          ]
+        },
+        {
+          "title_ar": "الأشياء الشخصية",
+          "items": [
+            {
+              "id": "v-livre",
+              "say": "un livre",
+              "ar": "كتاب"
+            },
+            {
+              "id": "v-stylo",
+              "say": "un stylo",
+              "ar": "قلم"
+            },
+            {
+              "id": "v-sac",
+              "say": "un sac",
+              "ar": "حقيبة",
+              "note_ar": "مذكر."
+            },
+            {
+              "id": "v-telephone",
+              "say": "un téléphone",
+              "ar": "هاتف"
+            },
+            {
+              "id": "v-ordinateur",
+              "say": "un ordinateur",
+              "ar": "حاسوب"
+            },
+            {
+              "id": "v-lunettes",
+              "say": "des lunettes",
+              "ar": "نظارة",
+              "note_ar": "دائماً بالجمع في الفرنسية: les lunettes."
+            },
+            {
+              "id": "v-journal",
+              "say": "un journal",
+              "ar": "جريدة",
+              "note_ar": "مذكر."
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-voici",
+              "say": "Voici…",
+              "ar": "هذا هو… / إليك… (للقريب)"
+            },
+            {
+              "id": "v-voila",
+              "say": "Voilà…",
+              "ar": "ها هو… / تفضّل (الأكثر استعمالاً)"
+            },
+            {
+              "id": "v-ici-la",
+              "say": "ici / là",
+              "ar": "هنا / هناك",
+              "fr": "ici / là"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "القواعد",
+      "title_ar": "القاعدة: أدوات التعريف والنكرة والجمع",
+      "intro_ar": "كل اسم فرنسي تقريباً تسبقه أداة. اختيار الأداة يعتمد على أمرين: **الجنس** (مذكر أم مؤنث) و**العدد** (مفرد أم جمع).",
+      "tables": [
+        {
+          "title_fr": "Les articles",
+          "title_ar": "الأدوات",
+          "head_ar": [
+            "",
+            "مذكر",
+            "مؤنث",
+            "جمع"
+          ],
+          "rows": [
+            {
+              "id": "g-indef",
+              "say": "un livre, une table, des livres",
+              "cells": [
+                "indéfini",
+                "un",
+                "une",
+                "des"
+              ],
+              "ar": "نكرة: كتاب، طاولة، كتب"
+            },
+            {
+              "id": "g-def",
+              "say": "le livre, la table, les livres",
+              "cells": [
+                "défini",
+                "le",
+                "la",
+                "les"
+              ],
+              "ar": "معرفة: الكتاب، الطاولة، الكتب"
+            },
+            {
+              "id": "g-elision",
+              "say": "l'ami, l'armoire, les amis",
+              "cells": [
+                "+ voyelle",
+                "l'",
+                "l'",
+                "les"
+              ],
+              "ar": "قبل حرف علة: le و la تصبحان l'"
+            }
+          ],
+          "note_ar": "**des** ليس لها مقابل في العربية: «عندي كتب» = J'ai **des** livres. في الفرنسية لا يُترك الاسم بلا أداة تقريباً."
+        },
+        {
+          "title_fr": "Le pluriel",
+          "title_ar": "الجمع",
+          "head_ar": [
+            "المفرد",
+            "الجمع"
+          ],
+          "rows": [
+            {
+              "id": "g-s",
+              "say": "un livre, des livres",
+              "cells": [
+                "un livre",
+                "des livres"
+              ],
+              "ar": "القاعدة: أضف s، ولا تُنطق"
+            },
+            {
+              "id": "g-eau",
+              "say": "un bateau, des bateaux",
+              "cells": [
+                "un bateau",
+                "des bateaux"
+              ],
+              "ar": "ما ينتهي بـ eau يأخذ x"
+            },
+            {
+              "id": "g-al",
+              "say": "un journal, des journaux",
+              "cells": [
+                "un journal",
+                "des journaux"
+              ],
+              "ar": "al تصبح aux، ويتغير النطق!"
+            },
+            {
+              "id": "g-sx",
+              "say": "un prix, des prix",
+              "cells": [
+                "un prix",
+                "des prix"
+              ],
+              "ar": "ما ينتهي بـ s أو x أو z لا يتغير"
+            }
+          ],
+          "note_ar": "لأن الـ s لا تُنطق، **الأداة هي التي تخبرك** بالجمع: le livre «لُ ليڤغ» / les livres «لي ليڤغ»."
+        }
+      ],
+      "points_ar": [
+        "**الجنس لا يتبع العربية:** le soleil (الشمس) مذكر، la lune (القمر) مؤنث، une maison (بيت) مؤنث، un appartement (شقة) مذكر.",
+        "**نهايات تساعدك:** الكلمات المنتهية بـ **tion** و **té** و **ette** و **ence** غالباً مؤنثة (la nation، la liberté). والمنتهية بـ **ment** و **age** و **eau** و **isme** غالباً مذكرة (le moment، le fromage).",
+        "**احذر l':** l'ami و l'armoire لا تكشفان الجنس. لذلك احفظ كل اسم يبدأ بحرف علة مع **un/une**.",
+        "**le أم un؟** مثل «الـ» في العربية: **le** livre = الكتاب (معروف)، **un** livre = كتاب (أي كتاب)."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: اختر الأداة الصحيحة",
+      "hint_ar": "فكّر: ما جنس الاسم؟ مفرد أم جمع؟ هل يبدأ بحرف علة؟",
+      "items": [
+        {
+          "id": "f1",
+          "text": "C'est ___ livre.",
+          "say": "C'est un livre.",
+          "options": [
+            "un",
+            "une"
+          ],
+          "answer": "un",
+          "ar": "هذا كتاب.",
+          "explain_ar": "livre مذكر: **un**."
+        },
+        {
+          "id": "f2",
+          "text": "Voilà ___ table.",
+          "say": "Voilà la table.",
+          "options": [
+            "le",
+            "la",
+            "les"
+          ],
+          "answer": "la",
+          "ar": "ها هي الطاولة.",
+          "explain_ar": "table مؤنث: **la**."
+        },
+        {
+          "id": "f3",
+          "text": "Voici ___ armoire.",
+          "say": "Voici l'armoire.",
+          "options": [
+            "la",
+            "l'",
+            "le"
+          ],
+          "answer": "l'",
+          "ar": "هذه خزانة الملابس.",
+          "explain_ar": "armoire تبدأ بحرف علة: **l'**."
+        },
+        {
+          "id": "f4",
+          "text": "Et ___ clés ?",
+          "say": "Et les clés ?",
+          "options": [
+            "la",
+            "les",
+            "le"
+          ],
+          "answer": "les",
+          "ar": "والمفاتيح؟",
+          "explain_ar": "clés جمع: **les**."
+        },
+        {
+          "id": "f5",
+          "text": "C'est ___ ordinateur.",
+          "say": "C'est un ordinateur.",
+          "options": [
+            "un",
+            "une"
+          ],
+          "answer": "un",
+          "ar": "هذا حاسوب.",
+          "explain_ar": "ordinateur مذكر: **un ordinateur** (مع الوصل: «أنّوغديناتوغ»)."
+        },
+        {
+          "id": "f6",
+          "text": "Il y a ___ chaises.",
+          "say": "Il y a des chaises.",
+          "options": [
+            "des",
+            "une",
+            "un"
+          ],
+          "answer": "des",
+          "ar": "هناك كراسٍ.",
+          "explain_ar": "chaises جمع نكرة: **des**."
+        },
+        {
+          "id": "f7",
+          "text": "Un bateau, deux ___.",
+          "say": "Un bateau, deux bateaux.",
+          "options": [
+            "bateaus",
+            "bateaux"
+          ],
+          "answer": "bateaux",
+          "ar": "قارب، قاربان.",
+          "explain_ar": "ما ينتهي بـ eau جمعه بـ **x**."
+        },
+        {
+          "id": "f8",
+          "text": "Un journal, des ___.",
+          "say": "Un journal, des journaux.",
+          "options": [
+            "journals",
+            "journaux"
+          ],
+          "answer": "journaux",
+          "ar": "جريدة، جرائد.",
+          "explain_ar": "ما ينتهي بـ al جمعه **aux**."
+        },
+        {
+          "id": "f9",
+          "text": "___ maison est grande.",
+          "say": "La maison est grande.",
+          "options": [
+            "La",
+            "Le"
+          ],
+          "answer": "La",
+          "ar": "البيت كبير.",
+          "explain_ar": "maison **مؤنث** في الفرنسية: la maison."
+        },
+        {
+          "id": "f10",
+          "text": "Voilà ___ lunettes.",
+          "say": "Voilà les lunettes.",
+          "options": [
+            "la",
+            "les"
+          ],
+          "answer": "les",
+          "ar": "ها هي النظارة.",
+          "explain_ar": "lunettes دائماً جمع: **les**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: مفرد أم جمع؟",
+      "hint_ar": "الاسم يُنطق نفسه في المفرد والجمع. استمع **للأداة**: لُ أم لي؟ أن أم دي؟",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار المفرد أو الجمع.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "le livre",
+          "options": [
+            "le livre",
+            "les livres"
+          ],
+          "answer": "le livre",
+          "explain_ar": "le «لُ»: مفرد."
+        },
+        {
+          "id": "q2",
+          "say": "les livres",
+          "options": [
+            "le livre",
+            "les livres"
+          ],
+          "answer": "les livres",
+          "explain_ar": "les «لي»: جمع."
+        },
+        {
+          "id": "q3",
+          "say": "la clé",
+          "options": [
+            "la clé",
+            "les clés"
+          ],
+          "answer": "la clé",
+          "explain_ar": "la «لا»: مفرد."
+        },
+        {
+          "id": "q4",
+          "say": "les clés",
+          "options": [
+            "la clé",
+            "les clés"
+          ],
+          "answer": "les clés",
+          "explain_ar": "les «لي»: جمع."
+        },
+        {
+          "id": "q5",
+          "say": "un sac",
+          "options": [
+            "un sac",
+            "des sacs"
+          ],
+          "answer": "un sac",
+          "explain_ar": "un: مفرد."
+        },
+        {
+          "id": "q6",
+          "say": "des sacs",
+          "options": [
+            "un sac",
+            "des sacs"
+          ],
+          "answer": "des sacs",
+          "explain_ar": "des «دي»: جمع."
+        },
+        {
+          "id": "q7",
+          "say": "les journaux",
+          "options": [
+            "le journal",
+            "les journaux"
+          ],
+          "answer": "les journaux",
+          "explain_ar": "journaux «ژوغنو»: الجمع يُسمع هنا."
+        },
+        {
+          "id": "q8",
+          "say": "un ami",
+          "options": [
+            "un ami",
+            "une amie"
+          ],
+          "answer": "un ami",
+          "explain_ar": "un‿ami «أنّامي»: مذكر."
+        },
+        {
+          "id": "q9",
+          "say": "une amie",
+          "options": [
+            "un ami",
+            "une amie"
+          ],
+          "answer": "une amie",
+          "explain_ar": "une‿amie «يُنامي»: مؤنث."
+        },
+        {
+          "id": "q10",
+          "say": "les amis",
+          "options": [
+            "l'ami",
+            "les amis"
+          ],
+          "answer": "les amis",
+          "explain_ar": "les‿amis «ليزامي»: جمع، بوصل «ز»."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: اكتب الاسم مع أداته",
+      "hint_ar": "اكتب الأداة والاسم معاً. المعنى ظاهر.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: الأداة جزء من الكلمة. احفظ **une table** لا «table».",
+      "items": [
+        {
+          "id": "s1",
+          "say": "la table",
+          "answer": "la table",
+          "ar": "الطاولة"
+        },
+        {
+          "id": "s2",
+          "say": "un livre",
+          "answer": "un livre",
+          "ar": "كتاب"
+        },
+        {
+          "id": "s3",
+          "say": "une chaise",
+          "answer": "une chaise",
+          "ar": "كرسي"
+        },
+        {
+          "id": "s4",
+          "say": "les clés",
+          "answer": "les clés",
+          "ar": "المفاتيح"
+        },
+        {
+          "id": "s5",
+          "say": "l'ordinateur",
+          "answer": "l'ordinateur",
+          "ar": "الحاسوب"
+        },
+        {
+          "id": "s6",
+          "say": "des stylos",
+          "answer": "des stylos",
+          "ar": "أقلام"
+        },
+        {
+          "id": "s7",
+          "say": "les bateaux",
+          "answer": "les bateaux",
+          "ar": "القوارب"
+        },
+        {
+          "id": "s8",
+          "say": "la fenêtre",
+          "answer": "la fenêtre",
+          "ar": "النافذة"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "ردّد كل اسم مع أداته، فهكذا تحفظ جنسه دون جهد.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Voici la cuisine et le salon.",
+          "ar": "هذا المطبخ والصالة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Voici",
+              "هذا هو"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "cuisine",
+              "مطبخ"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "salon.",
+              "صالة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Voilà les clés de l'appartement.",
+          "ar": "تفضّل مفاتيح الشقة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Voilà",
+              "تفضّل"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "clés",
+              "مفاتيح"
+            ],
+            [
+              "de",
+              "لـ"
+            ],
+            [
+              "l'appartement.",
+              "الشقة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Un livre, deux livres, trois livres.",
+          "ar": "كتاب، كتابان، ثلاثة كتب.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Un",
+              "واحد"
+            ],
+            [
+              "livre,",
+              "كتاب"
+            ],
+            [
+              "deux",
+              "اثنان"
+            ],
+            [
+              "livres,",
+              "كتب"
+            ],
+            [
+              "trois",
+              "ثلاثة"
+            ],
+            [
+              "livres.",
+              "كتب"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "La table est dans la cuisine.",
+          "ar": "الطاولة في المطبخ.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "La",
+              "الـ"
+            ],
+            [
+              "table",
+              "طاولة"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "cuisine.",
+              "مطبخ"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "C'est une maison avec un grand jardin.",
+          "ar": "إنه بيت بحديقة كبيرة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "C'est",
+              "هذا"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "maison",
+              "بيت"
+            ],
+            [
+              "avec",
+              "مع"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "grand",
+              "كبير"
+            ],
+            [
+              "jardin.",
+              "حديقة"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: انظر حولك وسمِّ خمسة أشياء في غرفتك بالفرنسية مع أداتها، وسجّل نفسك: **Voilà une table, un lit…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "على الوجه اسم بلا أداة: قل أداته (un أو une) قبل أن تكشف الجواب.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "… livre",
+          "say": "un livre",
+          "back_ar": "un livre (كتاب)"
+        },
+        {
+          "id": "c2",
+          "front": "… table",
+          "say": "une table",
+          "back_ar": "une table (طاولة)"
+        },
+        {
+          "id": "c3",
+          "front": "… chaise",
+          "say": "une chaise",
+          "back_ar": "une chaise (كرسي)"
+        },
+        {
+          "id": "c4",
+          "front": "… lit",
+          "say": "un lit",
+          "back_ar": "un lit (سرير)"
+        },
+        {
+          "id": "c5",
+          "front": "… maison",
+          "say": "une maison",
+          "back_ar": "une maison (بيت)"
+        },
+        {
+          "id": "c6",
+          "front": "… appartement",
+          "say": "un appartement",
+          "back_ar": "un appartement (شقة)"
+        },
+        {
+          "id": "c7",
+          "front": "… armoire",
+          "say": "une armoire",
+          "back_ar": "une armoire (خزانة)"
+        },
+        {
+          "id": "c8",
+          "front": "… clé",
+          "say": "une clé",
+          "back_ar": "une clé (مفتاح)"
+        },
+        {
+          "id": "c9",
+          "front": "… sac",
+          "say": "un sac",
+          "back_ar": "un sac (حقيبة)"
+        },
+        {
+          "id": "c10",
+          "front": "… ordinateur",
+          "say": "un ordinateur",
+          "back_ar": "un ordinateur (حاسوب)"
+        },
+        {
+          "id": "c11",
+          "front": "… porte",
+          "say": "une porte",
+          "back_ar": "une porte (باب)"
+        },
+        {
+          "id": "c12",
+          "front": "… frigo",
+          "say": "un frigo",
+          "back_ar": "un frigo (ثلاجة)"
+        },
+        {
+          "id": "c13",
+          "front": "… lunettes",
+          "say": "des lunettes",
+          "back_ar": "des lunettes (نظارة، جمع دائماً)"
+        },
+        {
+          "id": "c14",
+          "front": "un journal, des …",
+          "say": "un journal, des journaux",
+          "back_ar": "des journaux (جرائد)"
+        },
+        {
+          "id": "c15",
+          "front": "un bateau, des …",
+          "say": "un bateau, des bateaux",
+          "back_ar": "des bateaux (قوارب)"
+        },
+        {
+          "id": "c16",
+          "front": "le soleil / la lune",
+          "say": "le soleil, la lune",
+          "back_ar": "الشمس (مذكر) / القمر (مؤنث)"
+        },
+        {
+          "id": "c17",
+          "front": "Voilà…",
+          "say": "Voilà…",
+          "back_ar": "ها هو… / تفضّل"
+        },
+        {
+          "id": "c18",
+          "front": "ici / là",
+          "say": "ici, là",
+          "back_ar": "هنا / هناك"
+        }
+      ]
+    }
+  ]
+}

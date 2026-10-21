@@ -23,7 +23,11 @@ export function renderGrammar(unitId: string, s: GrammarSection): HTMLElement {
               h(
                 "tr",
                 null,
-                r.cells.map((c, i) => h(i === 0 ? "th" : "td", { scope: i === 0 ? "row" : undefined, lang: "fr", dir: "ltr" }, c)),
+                r.cells.map((c, i) => {
+                  // خلية بالعربية (شرح) لا تُعرض كنص فرنسي
+                  const arabic = /[\u0600-\u06FF]/.test(c);
+                  return h(i === 0 ? "th" : "td", { scope: i === 0 ? "row" : undefined, lang: arabic ? "ar" : "fr", dir: arabic ? "rtl" : "ltr", class: arabic ? "gt-ar-cell" : undefined }, arabic ? richAr(c) : c);
+                }),
                 h("td", { class: "gt-ar" }, richAr(r.ar)),
                 h("td", { class: "gt-play" }, speakButton(unitId, r, { label: `استمع: ${r.say}`, cls: "icon-btn small" })),
               ),
