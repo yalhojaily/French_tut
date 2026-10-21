@@ -1,0 +1,1190 @@
+{
+  "id": "a2-08",
+  "stage": "A2",
+  "title_fr": "Les pronoms y et en",
+  "title_ar": "الضميران y و en",
+  "goals_ar": [
+    "تستعمل **y** بدل المكان: **Tu vas à Paris ? Oui, j'y vais.**",
+    "تستعمل **en** بدل الكمية: **Tu veux du café ? Oui, j'en veux.**",
+    "تقول الكمية مع en: **J'en ai deux. Il y en a beaucoup.**",
+    "تفهم عبارات يومية شائعة: **On y va ! Ça y est ! J'en ai assez !**"
+  ],
+  "intro_ar": [
+    "ضميران صغيران جداً يجعلان كلامك طبيعياً. لا مقابل مباشراً لهما في العربية، فنترجمهما غالباً بـ «هناك» و«منه».",
+    "**y** يحل محل **مكان** (à Paris، chez moi، dans le sac): Tu vas à la gare ? J'y vais = أذهب إلى هناك.",
+    "**en** يحل محل **de + شيء** أو **كمية**: Tu as des enfants ? Oui, j'en ai deux = عندي منهم اثنان. والرقم يبقى في آخر الجملة.",
+    "**Il y en a** = يوجد منه: Il y a du pain ? Oui, il y en a."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: نزهة يوم السبت",
+      "context_ar": "كلير ويوسف يحضّران نزهة. y للأماكن، و en للكميات.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "On va au marché demain matin ?",
+          "ar": "هل نذهب إلى السوق صباح الغد؟",
+          "slow": true,
+          "gloss": [
+            [
+              "On",
+              "نحن"
+            ],
+            [
+              "va",
+              "نذهب"
+            ],
+            [
+              "au",
+              "إلى الـ"
+            ],
+            [
+              "marché",
+              "سوق"
+            ],
+            [
+              "demain matin ?",
+              "صباح الغد"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Oui, on y va à neuf heures. Qu'est-ce qu'il nous faut pour le pique-nique ?",
+          "ar": "نعم، نذهب إلى هناك الساعة التاسعة. ماذا نحتاج للنزهة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "on",
+              "نحن"
+            ],
+            [
+              "y",
+              "إلى هناك"
+            ],
+            [
+              "va",
+              "نذهب"
+            ],
+            [
+              "à neuf heures.",
+              "الساعة التاسعة"
+            ],
+            [
+              "Qu'est-ce qu'il nous faut",
+              "ماذا نحتاج"
+            ],
+            [
+              "pour",
+              "لـ"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "pique-nique ?",
+              "نزهة"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Du pain. Il y en a à la maison ?",
+          "ar": "خبز. هل يوجد منه في البيت؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Du pain.",
+              "خبز"
+            ],
+            [
+              "Il y en a",
+              "يوجد منه"
+            ],
+            [
+              "à la maison ?",
+              "في البيت"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Non, il n'y en a pas. On en achète deux baguettes.",
+          "ar": "لا، لا يوجد. نشتري منه رغيفين.",
+          "slow": true,
+          "gloss": [
+            [
+              "Non,",
+              "لا"
+            ],
+            [
+              "il n'y en a pas.",
+              "لا يوجد منه"
+            ],
+            [
+              "On",
+              "نحن"
+            ],
+            [
+              "en",
+              "منه"
+            ],
+            [
+              "achète",
+              "نشتري"
+            ],
+            [
+              "deux",
+              "2"
+            ],
+            [
+              "baguettes.",
+              "رغيف باغيت"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Et des fruits ? Tu en veux ?",
+          "ar": "وفواكه؟ هل تريد منها؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "fruits ?",
+              "فواكه"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "en",
+              "منها"
+            ],
+            [
+              "veux ?",
+              "تريد"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Oui, j'en veux beaucoup ! Des pommes et des raisins.",
+          "ar": "نعم، أريد الكثير! تفاحاً وعنباً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "j'en veux",
+              "أريد منها"
+            ],
+            [
+              "beaucoup !",
+              "كثيراً"
+            ],
+            [
+              "Des",
+              "(جمع نكرة)"
+            ],
+            [
+              "pommes",
+              "تفاح"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "raisins.",
+              "عنب"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Et le parc des Buttes-Chaumont, tu y es déjà allé ?",
+          "ar": "وحديقة بوت شومون، هل ذهبت إليها من قبل؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "le parc des Buttes-Chaumont,",
+              "حديقة بوت شومون"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "y",
+              "إليها"
+            ],
+            [
+              "es déjà allé ?",
+              "ذهبتَ من قبل"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Non, jamais. C'est loin ? On y va comment ?",
+          "ar": "لا، أبداً. هل هي بعيدة؟ كيف نذهب إليها؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Non,",
+              "لا"
+            ],
+            [
+              "jamais.",
+              "أبداً"
+            ],
+            [
+              "C'est loin ?",
+              "هل هي بعيدة"
+            ],
+            [
+              "On",
+              "نحن"
+            ],
+            [
+              "y",
+              "إليها"
+            ],
+            [
+              "va",
+              "نذهب"
+            ],
+            [
+              "comment ?",
+              "كيف"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "En métro, c'est facile. Et prends des serviettes, j'en ai seulement deux.",
+          "ar": "بالمترو، الأمر سهل. وخذ مناديل، عندي اثنان فقط.",
+          "slow": true,
+          "gloss": [
+            [
+              "En métro,",
+              "بالمترو"
+            ],
+            [
+              "c'est facile.",
+              "الأمر سهل"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "prends",
+              "خذ"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "serviettes,",
+              "مناديل"
+            ],
+            [
+              "j'en ai",
+              "عندي منها"
+            ],
+            [
+              "seulement",
+              "فقط"
+            ],
+            [
+              "deux.",
+              "اثنان"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "**y** هنا بدل مكان (au marché، au parc)، و **en** بدل كمية (du pain، des fruits، des serviettes). والرقم يبقى في آخر الجملة: j'en ai **deux**، on en achète **deux** baguettes."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "عبارات y و en الجاهزة أولاً، ثم كلمات النزهة.",
+      "groups": [
+        {
+          "title_ar": "مع y",
+          "items": [
+            {
+              "id": "v-jyvais",
+              "say": "J'y vais.",
+              "ar": "أذهب إلى هناك."
+            },
+            {
+              "id": "v-onyva",
+              "say": "On y va !",
+              "ar": "هيا بنا!",
+              "note_ar": "عبارة يومية جداً."
+            },
+            {
+              "id": "v-jysuis",
+              "say": "J'y suis.",
+              "ar": "وصلت / أنا هناك."
+            },
+            {
+              "id": "v-vasy",
+              "say": "Vas-y !",
+              "ar": "هيا! / تفضّل!"
+            },
+            {
+              "id": "v-jypense",
+              "say": "J'y pense.",
+              "ar": "أفكر في ذلك.",
+              "note_ar": "penser à quelque chose = y penser."
+            }
+          ]
+        },
+        {
+          "title_ar": "مع en",
+          "items": [
+            {
+              "id": "v-jenaideux",
+              "say": "J'en ai deux.",
+              "ar": "عندي اثنان منه."
+            },
+            {
+              "id": "v-jenveux",
+              "say": "J'en veux un peu.",
+              "ar": "أريد قليلاً منه."
+            },
+            {
+              "id": "v-ilyena",
+              "say": "Il y en a beaucoup.",
+              "ar": "يوجد الكثير منه."
+            },
+            {
+              "id": "v-nyena",
+              "say": "Il n'y en a pas.",
+              "ar": "لا يوجد منه."
+            },
+            {
+              "id": "v-combien",
+              "say": "Combien en voulez-vous ?",
+              "ar": "كم تريد منه؟"
+            },
+            {
+              "id": "v-assez",
+              "say": "J'en ai assez !",
+              "ar": "سئمت!",
+              "note_ar": "معنى ثانٍ شائع: «طفح الكيل»."
+            }
+          ]
+        },
+        {
+          "title_ar": "النزهة",
+          "items": [
+            {
+              "id": "v-piquenique",
+              "say": "un pique-nique",
+              "ar": "نزهة"
+            },
+            {
+              "id": "v-baguette",
+              "say": "une baguette",
+              "ar": "رغيف باغيت"
+            },
+            {
+              "id": "v-raisins",
+              "say": "des raisins",
+              "ar": "عنب",
+              "note_ar": "أما الزبيب فهو raisins secs."
+            },
+            {
+              "id": "v-serviette",
+              "say": "une serviette",
+              "ar": "منديل / منشفة"
+            },
+            {
+              "id": "v-couverture",
+              "say": "une couverture",
+              "ar": "بطانية"
+            },
+            {
+              "id": "v-panier",
+              "say": "le panier",
+              "ar": "السلة"
+            },
+            {
+              "id": "v-ilnousfaut",
+              "say": "Il nous faut…",
+              "ar": "نحتاج…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "y / en",
+      "title_ar": "القاعدة: y للمكان و en للكمية",
+      "intro_ar": "كلاهما قبل الفعل كبقية الضمائر.",
+      "tables": [
+        {
+          "title_fr": "y = à + lieu",
+          "title_ar": "y للمكان",
+          "head_ar": [
+            "السؤال",
+            "الجواب"
+          ],
+          "rows": [
+            {
+              "id": "g-y1",
+              "say": "Oui, j'y vais.",
+              "cells": [
+                "Tu vas à Paris ?",
+                "Oui, j'y vais."
+              ],
+              "ar": "أذهب إلى هناك"
+            },
+            {
+              "id": "g-y2",
+              "say": "Oui, il y habite.",
+              "cells": [
+                "Il habite à Lyon ?",
+                "Oui, il y habite."
+              ],
+              "ar": "يسكن هناك"
+            },
+            {
+              "id": "g-y3",
+              "say": "Oui, j'y suis allé.",
+              "cells": [
+                "Tu es allé au musée ?",
+                "Oui, j'y suis allé."
+              ],
+              "ar": "ذهبت إليه"
+            },
+            {
+              "id": "g-y4",
+              "say": "Oui, j'y pense.",
+              "cells": [
+                "Tu penses à ton examen ?",
+                "Oui, j'y pense."
+              ],
+              "ar": "أفكر فيه"
+            },
+            {
+              "id": "g-y5",
+              "say": "Non, nous n'y allons pas.",
+              "cells": [
+                "Vous allez chez Claire ?",
+                "Non, nous n'y allons pas."
+              ],
+              "ar": "لا نذهب إلى هناك"
+            }
+          ],
+          "note_ar": "y قبل الفعل، وقبل avoir أو être في الماضي: j'y suis allé. والنفي حوله: je n'y vais pas."
+        },
+        {
+          "title_fr": "en = de + chose / quantité",
+          "title_ar": "en للكمية",
+          "head_ar": [
+            "السؤال",
+            "الجواب"
+          ],
+          "rows": [
+            {
+              "id": "g-e1",
+              "say": "Oui, j'en veux.",
+              "cells": [
+                "Tu veux du café ?",
+                "Oui, j'en veux."
+              ],
+              "ar": "أريد منه"
+            },
+            {
+              "id": "g-e2",
+              "say": "Oui, j'en ai deux.",
+              "cells": [
+                "Tu as des enfants ?",
+                "Oui, j'en ai deux."
+              ],
+              "ar": "عندي اثنان"
+            },
+            {
+              "id": "g-e3",
+              "say": "Non, il n'y en a pas.",
+              "cells": [
+                "Il y a du lait ?",
+                "Non, il n'y en a pas."
+              ],
+              "ar": "لا يوجد"
+            },
+            {
+              "id": "g-e4",
+              "say": "Oui, j'en mange.",
+              "cells": [
+                "Tu manges de la viande ?",
+                "Oui, j'en mange."
+              ],
+              "ar": "آكل منه"
+            },
+            {
+              "id": "g-e5",
+              "say": "J'en veux un kilo.",
+              "cells": [
+                "Vous voulez combien de pommes ?",
+                "J'en veux un kilo."
+              ],
+              "ar": "أريد كيلو منه"
+            }
+          ],
+          "note_ar": "en يحل محل du و de la و des مع الاسم، ومحل الاسم بعد رقم أو كمية. والرقم أو الكمية يبقيان في آخر الجملة، مثل J'en ai trois و J'en veux beaucoup."
+        },
+        {
+          "title_fr": "Expressions avec y et en",
+          "title_ar": "عبارات جاهزة",
+          "head_ar": [
+            "العبارة"
+          ],
+          "rows": [
+            {
+              "id": "g-x1",
+              "say": "On y va !",
+              "cells": [
+                "On y va !"
+              ],
+              "ar": "هيا بنا!"
+            },
+            {
+              "id": "g-x2",
+              "say": "Vas-y !",
+              "cells": [
+                "Vas-y !"
+              ],
+              "ar": "هيا! / تفضّل!"
+            },
+            {
+              "id": "g-x3",
+              "say": "Ça y est !",
+              "cells": [
+                "Ça y est !"
+              ],
+              "ar": "تمّ! / ها قد انتهى!"
+            },
+            {
+              "id": "g-x4",
+              "say": "Il y en a.",
+              "cells": [
+                "Il y en a."
+              ],
+              "ar": "يوجد منه"
+            },
+            {
+              "id": "g-x5",
+              "say": "J'en ai assez !",
+              "cells": [
+                "J'en ai assez !"
+              ],
+              "ar": "سئمت!"
+            },
+            {
+              "id": "g-x6",
+              "say": "Je m'en vais.",
+              "cells": [
+                "Je m'en vais."
+              ],
+              "ar": "أنا ماشٍ / سأذهب"
+            }
+          ],
+          "note_ar": "هذه العبارات تُحفظ كما هي، وستسمعها كل يوم في فرنسا."
+        }
+      ],
+      "points_ar": [
+        "**y = هناك، en = منه:** هذا يكفيك في معظم الحالات.",
+        "**الوصل:** j'y «ژي»، on‿y va «أونيڤا»، j'en «ژون»، il y‿en a «إيلينيا».",
+        "**en مع الأرقام إجباري:** لا تقل J'ai deux، بل J'en ai deux."
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: y أم en؟",
+      "hint_ar": "مكان: y. كمية أو de + شيء: en.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Tu vas au marché ? Oui, j'___ vais.",
+          "say": "Tu vas au marché ? Oui, j'y vais.",
+          "options": [
+            "en",
+            "y"
+          ],
+          "answer": "y",
+          "ar": "هل تذهب إلى السوق؟ نعم، أذهب إلى هناك.",
+          "explain_ar": "مكان: **y**."
+        },
+        {
+          "id": "f2",
+          "text": "Tu veux du café ? Oui, j'___ veux.",
+          "say": "Tu veux du café ? Oui, j'en veux.",
+          "options": [
+            "en",
+            "y"
+          ],
+          "answer": "en",
+          "ar": "هل تريد قهوة؟ نعم، أريد.",
+          "explain_ar": "du café = كمية: **en**."
+        },
+        {
+          "id": "f3",
+          "text": "Tu as des enfants ? Oui, j'en ai ___.",
+          "say": "Tu as des enfants ? Oui, j'en ai deux.",
+          "options": [
+            "les",
+            "deux"
+          ],
+          "answer": "deux",
+          "ar": "هل عندك أطفال؟ نعم، عندي اثنان.",
+          "explain_ar": "الرقم في الآخر: j'en ai **deux**."
+        },
+        {
+          "id": "f4",
+          "text": "Il y a du lait ? Non, il n'y en a ___.",
+          "say": "Il y a du lait ? Non, il n'y en a pas.",
+          "options": [
+            "de",
+            "pas"
+          ],
+          "answer": "pas",
+          "ar": "هل يوجد حليب؟ لا، لا يوجد.",
+          "explain_ar": "النفي: il n'y en a **pas**."
+        },
+        {
+          "id": "f5",
+          "text": "Tu es allé au Louvre ? Oui, j'___ suis allé.",
+          "say": "Tu es allé au Louvre ? Oui, j'y suis allé.",
+          "options": [
+            "y",
+            "en"
+          ],
+          "answer": "y",
+          "ar": "هل ذهبت إلى اللوفر؟ نعم، ذهبت إليه.",
+          "explain_ar": "مكان: **y** قبل suis."
+        },
+        {
+          "id": "f6",
+          "text": "Combien de pommes ? J'___ veux un kilo.",
+          "say": "Combien de pommes ? J'en veux un kilo.",
+          "options": [
+            "y",
+            "en"
+          ],
+          "answer": "en",
+          "ar": "كم تفاحة؟ أريد كيلو.",
+          "explain_ar": "كمية: **en**."
+        },
+        {
+          "id": "f7",
+          "text": "On ___ va ? Le film commence !",
+          "say": "On y va ? Le film commence !",
+          "options": [
+            "en",
+            "y"
+          ],
+          "answer": "y",
+          "ar": "هيا بنا؟ الفيلم يبدأ!",
+          "explain_ar": "العبارة الثابتة: On **y** va."
+        },
+        {
+          "id": "f8",
+          "text": "Tu penses à ton voyage ? Oui, j'___ pense souvent.",
+          "say": "Tu penses à ton voyage ? Oui, j'y pense souvent.",
+          "options": [
+            "y",
+            "en"
+          ],
+          "answer": "y",
+          "ar": "هل تفكر في رحلتك؟ نعم، أفكر فيها كثيراً.",
+          "explain_ar": "penser à quelque chose: **y**."
+        },
+        {
+          "id": "f9",
+          "text": "Des serviettes ? J'en ai ___ deux.",
+          "say": "Des serviettes ? J'en ai seulement deux.",
+          "options": [
+            "beaucoup",
+            "seulement"
+          ],
+          "answer": "seulement",
+          "ar": "مناديل؟ عندي اثنان فقط.",
+          "explain_ar": "فقط: **seulement**."
+        },
+        {
+          "id": "f10",
+          "text": "Vous habitez à Paris ? Non, nous n'___ habitons pas.",
+          "say": "Vous habitez à Paris ? Non, nous n'y habitons pas.",
+          "options": [
+            "en",
+            "y"
+          ],
+          "answer": "y",
+          "ar": "هل تسكنون في باريس؟ لا، لا نسكن هناك.",
+          "explain_ar": "مكان: **n'y habitons pas**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: y أم en؟",
+      "hint_ar": "y «ي» و en «أون» صوتان قصيران جداً.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "j'en veux",
+          "options": [
+            "j'y vais",
+            "j'en veux"
+          ],
+          "answer": "j'en veux",
+          "explain_ar": "j'en «ژون»: منه."
+        },
+        {
+          "id": "q2",
+          "say": "Il y en a.",
+          "options": [
+            "Il y en a.",
+            "Il y a."
+          ],
+          "answer": "Il y en a.",
+          "explain_ar": "y‿en a «يينا»: يوجد منه."
+        },
+        {
+          "id": "q3",
+          "say": "On y va !",
+          "options": [
+            "On en a.",
+            "On y va !"
+          ],
+          "answer": "On y va !",
+          "explain_ar": "on‿y va «أونيڤا»: هيا بنا."
+        },
+        {
+          "id": "q4",
+          "say": "J'en ai douze.",
+          "options": [
+            "J'en ai deux.",
+            "J'en ai douze."
+          ],
+          "answer": "J'en ai douze.",
+          "explain_ar": "douze «دوز»: 12."
+        },
+        {
+          "id": "q5",
+          "say": "Allez-y !",
+          "options": [
+            "Vas-y !",
+            "Allez-y !"
+          ],
+          "answer": "Allez-y !",
+          "explain_ar": "allez‿y «أليزي»: تفضّلوا."
+        },
+        {
+          "id": "q6",
+          "say": "il n'y a pas",
+          "options": [
+            "il n'y en a pas",
+            "il n'y a pas"
+          ],
+          "answer": "il n'y a pas",
+          "explain_ar": "بلا en: «إيلنيا پا»."
+        },
+        {
+          "id": "q7",
+          "say": "j'y pense",
+          "options": [
+            "j'y pense",
+            "je pense"
+          ],
+          "answer": "j'y pense",
+          "explain_ar": "j'y «ژي»: أفكر فيه."
+        },
+        {
+          "id": "q8",
+          "say": "J'en ai assez !",
+          "options": [
+            "J'en ai un peu.",
+            "J'en ai assez !"
+          ],
+          "answer": "J'en ai assez !",
+          "explain_ar": "assez «أسيه»: سئمت."
+        },
+        {
+          "id": "q9",
+          "say": "Ça y est !",
+          "options": [
+            "Ça y est !",
+            "C'est ça !"
+          ],
+          "answer": "Ça y est !",
+          "explain_ar": "ça‿y est «سايي»: تمّ."
+        },
+        {
+          "id": "q10",
+          "say": "nous en avons",
+          "options": [
+            "nous y allons",
+            "nous en avons"
+          ],
+          "answer": "nous en avons",
+          "explain_ar": "en‿avons «أوناڤون»: عندنا منه."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: y و en",
+      "hint_ar": "عبارات قصيرة بالفاصلة العليا والوصل.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **il y en a** أربع كلمات.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "j'y vais",
+          "answer": "j'y vais",
+          "ar": "أذهب إلى هناك"
+        },
+        {
+          "id": "s2",
+          "say": "on y va",
+          "answer": "on y va",
+          "ar": "هيا بنا"
+        },
+        {
+          "id": "s3",
+          "say": "j'en veux",
+          "answer": "j'en veux",
+          "ar": "أريد منه"
+        },
+        {
+          "id": "s4",
+          "say": "il y en a",
+          "answer": "il y en a",
+          "ar": "يوجد منه"
+        },
+        {
+          "id": "s5",
+          "say": "j'en ai deux",
+          "answer": "j'en ai deux",
+          "ar": "عندي اثنان"
+        },
+        {
+          "id": "s6",
+          "say": "il n'y en a pas",
+          "answer": "il n'y en a pas",
+          "ar": "لا يوجد منه"
+        },
+        {
+          "id": "s7",
+          "say": "vas-y",
+          "answer": "vas-y",
+          "ar": "هيا"
+        },
+        {
+          "id": "s8",
+          "say": "ça y est",
+          "answer": "ça y est",
+          "ar": "تمّ"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "ردّد بالوصل: on‿y va، il y‿en a.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Le marché ? On y va demain.",
+          "ar": "السوق؟ نذهب إليه غداً.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Le",
+              "الـ"
+            ],
+            [
+              "marché ?",
+              "سوق"
+            ],
+            [
+              "On",
+              "نحن"
+            ],
+            [
+              "y",
+              "إليه"
+            ],
+            [
+              "va",
+              "نذهب"
+            ],
+            [
+              "demain.",
+              "غداً"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Du café ? Oui, j'en veux bien.",
+          "ar": "قهوة؟ نعم، أريد منها بكل سرور.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Du café ?",
+              "قهوة؟"
+            ],
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "j'en veux bien.",
+              "أريد منها بكل سرور"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Il y en a beaucoup dans le frigo.",
+          "ar": "يوجد الكثير منه في الثلاجة.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Il y en a",
+              "يوجد منه"
+            ],
+            [
+              "beaucoup",
+              "الكثير"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "frigo.",
+              "ثلاجة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Des enfants ? J'en ai trois.",
+          "ar": "أطفال؟ عندي ثلاثة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Des enfants ?",
+              "أطفال؟"
+            ],
+            [
+              "J'en ai",
+              "عندي منهم"
+            ],
+            [
+              "trois.",
+              "ثلاثة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Allez, on y va !",
+          "ar": "هيا، لنذهب!",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Allez,",
+              "هيا"
+            ],
+            [
+              "on y va !",
+              "لنذهب"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: أجب بـ y أو en: **Tu vas souvent au café ? Tu as des frères ? Tu bois du thé ?** مثلاً: Oui, j'y vais le samedi."
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "y",
+          "say": "y",
+          "back_ar": "هناك (بدل المكان)"
+        },
+        {
+          "id": "c2",
+          "front": "en",
+          "say": "en",
+          "back_ar": "منه (بدل الكمية)"
+        },
+        {
+          "id": "c3",
+          "front": "J'y vais.",
+          "say": "J'y vais.",
+          "back_ar": "أذهب إلى هناك."
+        },
+        {
+          "id": "c4",
+          "front": "On y va !",
+          "say": "On y va !",
+          "back_ar": "هيا بنا!"
+        },
+        {
+          "id": "c5",
+          "front": "Vas-y !",
+          "say": "Vas-y !",
+          "back_ar": "هيا! / تفضّل!"
+        },
+        {
+          "id": "c6",
+          "front": "J'y pense.",
+          "say": "J'y pense.",
+          "back_ar": "أفكر في ذلك."
+        },
+        {
+          "id": "c7",
+          "front": "J'en veux.",
+          "say": "J'en veux.",
+          "back_ar": "أريد منه."
+        },
+        {
+          "id": "c8",
+          "front": "J'en ai deux.",
+          "say": "J'en ai deux.",
+          "back_ar": "عندي اثنان منه."
+        },
+        {
+          "id": "c9",
+          "front": "Il y en a.",
+          "say": "Il y en a.",
+          "back_ar": "يوجد منه."
+        },
+        {
+          "id": "c10",
+          "front": "Il n'y en a pas.",
+          "say": "Il n'y en a pas.",
+          "back_ar": "لا يوجد منه."
+        },
+        {
+          "id": "c11",
+          "front": "J'en ai assez !",
+          "say": "J'en ai assez !",
+          "back_ar": "سئمت!"
+        },
+        {
+          "id": "c12",
+          "front": "Ça y est !",
+          "say": "Ça y est !",
+          "back_ar": "تمّ!"
+        },
+        {
+          "id": "c13",
+          "front": "Il nous faut…",
+          "say": "Il nous faut…",
+          "back_ar": "نحتاج…"
+        },
+        {
+          "id": "c14",
+          "front": "des raisins",
+          "say": "des raisins",
+          "back_ar": "عنب"
+        },
+        {
+          "id": "c15",
+          "front": "un pique-nique",
+          "say": "un pique-nique",
+          "back_ar": "نزهة"
+        },
+        {
+          "id": "c16",
+          "front": "une serviette",
+          "say": "une serviette",
+          "back_ar": "منديل / منشفة"
+        }
+      ]
+    }
+  ]
+}

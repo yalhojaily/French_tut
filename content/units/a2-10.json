@@ -1,0 +1,1229 @@
+{
+  "id": "a2-10",
+  "stage": "A2",
+  "title_fr": "La santé",
+  "title_ar": "الصحة",
+  "goals_ar": [
+    "تقول ما يؤلمك: **J'ai mal à la tête. J'ai mal au dos.**",
+    "تشرح أعراضك للطبيب: **J'ai de la fièvre depuis deux jours.**",
+    "تفهم النصيحة: **Il faut boire beaucoup d'eau.**",
+    "تتعامل مع الصيدلية والطوارئ"
+  ],
+  "intro_ar": [
+    "**avoir mal à** + جزء الجسم = يؤلمني: J'ai mal **à la** tête، J'ai mal **au** dos، J'ai mal **aux** dents. الدمج نفسه الذي تعلمته في A1.12.",
+    "**depuis** = منذ، لشيء **ما زال مستمراً**، والفعل بالحاضر: J'ai de la fièvre depuis hier (عندي حمى منذ أمس، وما زالت). وهو منطق العربية نفسه.",
+    "**il faut + مصدر** = يجب: Il faut dormir. عبارة لا تتغير مع الشخص، وستسمعها من كل طبيب وصيدلي."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: عند الطبيبة",
+      "context_ar": "يوسف مريض ويزور الطبيبة. لاحظ avoir mal à، و depuis، و il faut.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Bonjour monsieur. Qu'est-ce qui ne va pas ?",
+          "ar": "مرحباً سيدي. ما المشكلة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonjour",
+              "مرحباً"
+            ],
+            [
+              "monsieur.",
+              "سيدي"
+            ],
+            [
+              "Qu'est-ce qui ne va pas ?",
+              "ما الذي ليس على ما يرام؟"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Je ne me sens pas bien. J'ai mal à la tête et à la gorge.",
+          "ar": "لا أشعر أني بخير. يؤلمني رأسي وحلقي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Je ne me sens pas bien.",
+              "لا أشعر أني بخير"
+            ],
+            [
+              "J'ai mal",
+              "يؤلمني"
+            ],
+            [
+              "à la",
+              "الـ"
+            ],
+            [
+              "tête",
+              "رأس"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "à la",
+              "الـ"
+            ],
+            [
+              "gorge.",
+              "حلق"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Depuis quand ?",
+          "ar": "منذ متى؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Depuis quand ?",
+              "منذ متى؟"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Depuis trois jours. Et j'ai de la fièvre depuis hier soir.",
+          "ar": "منذ ثلاثة أيام. وعندي حمى منذ أمس مساءً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Depuis",
+              "منذ"
+            ],
+            [
+              "trois jours.",
+              "ثلاثة أيام"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "j'ai",
+              "عندي"
+            ],
+            [
+              "de la fièvre",
+              "حمى"
+            ],
+            [
+              "depuis",
+              "منذ"
+            ],
+            [
+              "hier soir.",
+              "أمس مساءً"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Vous toussez ? Vous êtes fatigué ?",
+          "ar": "هل تسعل؟ هل أنت متعب؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Vous toussez ?",
+              "هل تسعل؟"
+            ],
+            [
+              "Vous êtes",
+              "هل أنت"
+            ],
+            [
+              "fatigué ?",
+              "متعب"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Oui, je tousse beaucoup la nuit et je suis très fatigué.",
+          "ar": "نعم، أسعل كثيراً في الليل وأنا متعب جداً.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "je tousse",
+              "أسعل"
+            ],
+            [
+              "beaucoup",
+              "كثيراً"
+            ],
+            [
+              "la nuit",
+              "في الليل"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "je suis",
+              "أنا"
+            ],
+            [
+              "très",
+              "جداً"
+            ],
+            [
+              "fatigué.",
+              "متعب"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "Ouvrez la bouche, s'il vous plaît… C'est une grippe. Ce n'est pas grave.",
+          "ar": "افتح فمك من فضلك… إنها إنفلونزا. ليست خطيرة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Ouvrez",
+              "افتح"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "bouche,",
+              "فم"
+            ],
+            [
+              "s'il vous plaît…",
+              "من فضلك"
+            ],
+            [
+              "C'est",
+              "إنها"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "grippe.",
+              "إنفلونزا"
+            ],
+            [
+              "Ce n'est pas grave.",
+              "ليست خطيرة"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Qu'est-ce qu'il faut faire, docteur ?",
+          "ar": "ماذا يجب أن أفعل يا دكتورة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Qu'est-ce qu'il faut faire,",
+              "ماذا يجب أن أفعل"
+            ],
+            [
+              "docteur ?",
+              "يا دكتورة"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Il faut vous reposer et boire beaucoup d'eau. Voici une ordonnance pour la pharmacie.",
+          "ar": "يجب أن ترتاح وتشرب ماءً كثيراً. هذه وصفة للصيدلية.",
+          "slow": true,
+          "gloss": [
+            [
+              "Il faut",
+              "يجب"
+            ],
+            [
+              "vous reposer",
+              "أن ترتاح"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "boire",
+              "أن تشرب"
+            ],
+            [
+              "beaucoup d'eau.",
+              "ماءً كثيراً"
+            ],
+            [
+              "Voici",
+              "هذه"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "ordonnance",
+              "وصفة طبية"
+            ],
+            [
+              "pour",
+              "لـ"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "pharmacie.",
+              "صيدلية"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "Merci, docteur. Je peux travailler demain ?",
+          "ar": "شكراً يا دكتورة. هل أستطيع العمل غداً؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Merci,",
+              "شكراً"
+            ],
+            [
+              "docteur.",
+              "يا دكتورة"
+            ],
+            [
+              "Je peux",
+              "هل أستطيع"
+            ],
+            [
+              "travailler",
+              "العمل"
+            ],
+            [
+              "demain ?",
+              "غداً"
+            ]
+          ]
+        },
+        {
+          "id": "d11",
+          "speaker": "A",
+          "say": "Non ! Restez au lit deux ou trois jours.",
+          "ar": "لا! ابقَ في السرير يومين أو ثلاثة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Non !",
+              "لا"
+            ],
+            [
+              "Restez",
+              "ابقَ"
+            ],
+            [
+              "au lit",
+              "في السرير"
+            ],
+            [
+              "deux ou trois jours.",
+              "يومين أو ثلاثة"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "**Qu'est-ce qui ne va pas ?** أول سؤال من كل طبيب. ولاحظ **depuis** مع الحاضر: j'ai de la fièvre depuis hier (وما زالت). ونقول **docteur** للطبيب والطبيبة معاً."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "الجسم، ثم الأعراض، ثم الطبيب والصيدلية.",
+      "groups": [
+        {
+          "title_ar": "الجسم",
+          "items": [
+            {
+              "id": "v-tete",
+              "say": "la tête",
+              "ar": "الرأس"
+            },
+            {
+              "id": "v-gorge",
+              "say": "la gorge",
+              "ar": "الحلق"
+            },
+            {
+              "id": "v-ventre",
+              "say": "le ventre",
+              "ar": "البطن"
+            },
+            {
+              "id": "v-dos",
+              "say": "le dos",
+              "ar": "الظهر"
+            },
+            {
+              "id": "v-dents",
+              "say": "les dents",
+              "ar": "الأسنان"
+            },
+            {
+              "id": "v-bras",
+              "say": "le bras",
+              "ar": "الذراع"
+            },
+            {
+              "id": "v-jambe",
+              "say": "la jambe",
+              "ar": "الساق"
+            },
+            {
+              "id": "v-main",
+              "say": "la main",
+              "ar": "اليد"
+            },
+            {
+              "id": "v-pied",
+              "say": "le pied",
+              "ar": "القدم"
+            },
+            {
+              "id": "v-yeux",
+              "say": "les yeux",
+              "ar": "العينان",
+              "note_ar": "المفرد: un œil «أنوي»."
+            },
+            {
+              "id": "v-oreille",
+              "say": "l'oreille",
+              "ar": "الأذن"
+            }
+          ]
+        },
+        {
+          "title_ar": "الأعراض",
+          "items": [
+            {
+              "id": "v-maltete",
+              "say": "J'ai mal à la tête.",
+              "ar": "يؤلمني رأسي."
+            },
+            {
+              "id": "v-fievre",
+              "say": "J'ai de la fièvre.",
+              "ar": "عندي حمى."
+            },
+            {
+              "id": "v-tousse",
+              "say": "Je tousse.",
+              "ar": "أسعل."
+            },
+            {
+              "id": "v-nez",
+              "say": "J'ai le nez qui coule.",
+              "ar": "أنفي يسيل."
+            },
+            {
+              "id": "v-nausee",
+              "say": "J'ai la nausée.",
+              "ar": "أشعر بغثيان."
+            },
+            {
+              "id": "v-enrhume",
+              "say": "Je suis enrhumé.",
+              "ar": "عندي زكام."
+            },
+            {
+              "id": "v-grippe",
+              "say": "une grippe",
+              "ar": "إنفلونزا"
+            },
+            {
+              "id": "v-sens",
+              "say": "Je ne me sens pas bien.",
+              "ar": "لا أشعر أني بخير."
+            }
+          ]
+        },
+        {
+          "title_ar": "الطبيب والصيدلية",
+          "items": [
+            {
+              "id": "v-medecin",
+              "say": "le médecin",
+              "ar": "الطبيب"
+            },
+            {
+              "id": "v-ordonnance",
+              "say": "une ordonnance",
+              "ar": "وصفة طبية"
+            },
+            {
+              "id": "v-medicament",
+              "say": "un médicament",
+              "ar": "دواء"
+            },
+            {
+              "id": "v-comprimes",
+              "say": "des comprimés",
+              "ar": "أقراص"
+            },
+            {
+              "id": "v-sirop",
+              "say": "un sirop",
+              "ar": "شراب دواء"
+            },
+            {
+              "id": "v-reposer",
+              "say": "se reposer",
+              "ar": "يرتاح"
+            },
+            {
+              "id": "v-allergique",
+              "say": "Je suis allergique à…",
+              "ar": "عندي حساسية من…"
+            },
+            {
+              "id": "v-urgences",
+              "say": "les urgences",
+              "ar": "الطوارئ",
+              "note_ar": "في حالة طارئة في فرنسا: اتصل بـ 15 أو 112."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "الصحة",
+      "title_ar": "القاعدة: avoir mal à، و depuis، و il faut",
+      "intro_ar": "ثلاثة تراكيب تكفيك لزيارة الطبيب.",
+      "tables": [
+        {
+          "title_fr": "avoir mal à",
+          "title_ar": "يؤلمني…",
+          "head_ar": [
+            "الجزء",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-m1",
+              "say": "J'ai mal à la tête.",
+              "cells": [
+                "la tête",
+                "J'ai mal à la tête."
+              ],
+              "ar": "يؤلمني رأسي"
+            },
+            {
+              "id": "g-m2",
+              "say": "J'ai mal au dos.",
+              "cells": [
+                "le dos",
+                "J'ai mal au dos."
+              ],
+              "ar": "يؤلمني ظهري (à + le = au)"
+            },
+            {
+              "id": "g-m3",
+              "say": "J'ai mal au ventre.",
+              "cells": [
+                "le ventre",
+                "J'ai mal au ventre."
+              ],
+              "ar": "يؤلمني بطني"
+            },
+            {
+              "id": "g-m4",
+              "say": "J'ai mal aux dents.",
+              "cells": [
+                "les dents",
+                "J'ai mal aux dents."
+              ],
+              "ar": "تؤلمني أسناني (à + les = aux)"
+            },
+            {
+              "id": "g-m5",
+              "say": "J'ai mal à l'oreille.",
+              "cells": [
+                "l'oreille",
+                "J'ai mal à l'oreille."
+              ],
+              "ar": "تؤلمني أذني"
+            }
+          ],
+          "note_ar": "الفرنسية لا تقول «رأسي» هنا: J'ai mal à la tête بأداة التعريف لا بـ ma. وكذلك: Je me lave les mains (أغسل يديّ)."
+        },
+        {
+          "title_fr": "depuis, il y a",
+          "title_ar": "منذ / قبل",
+          "head_ar": [
+            "الكلمة",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-d1",
+              "say": "Je tousse depuis trois jours.",
+              "cells": [
+                "depuis + durée",
+                "Je tousse depuis trois jours."
+              ],
+              "ar": "أسعل منذ ثلاثة أيام (وما زلت)"
+            },
+            {
+              "id": "g-d2",
+              "say": "J'ai de la fièvre depuis hier.",
+              "cells": [
+                "depuis + moment",
+                "J'ai de la fièvre depuis hier."
+              ],
+              "ar": "عندي حمى منذ أمس"
+            },
+            {
+              "id": "g-d3",
+              "say": "Depuis quand ?",
+              "cells": [
+                "Depuis quand ?",
+                "Depuis quand ?"
+              ],
+              "ar": "منذ متى؟"
+            },
+            {
+              "id": "g-d4",
+              "say": "J'ai vu le médecin il y a deux jours.",
+              "cells": [
+                "il y a + durée",
+                "J'ai vu le médecin il y a deux jours."
+              ],
+              "ar": "رأيت الطبيب قبل يومين (انتهى)"
+            }
+          ],
+          "note_ar": "**depuis** مع الحاضر لشيء مستمر، و **il y a** مع الماضي لشيء انتهى."
+        },
+        {
+          "title_fr": "il faut + infinitif",
+          "title_ar": "يجب",
+          "head_ar": [
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-f1",
+              "say": "Il faut boire de l'eau.",
+              "cells": [
+                "Il faut boire de l'eau."
+              ],
+              "ar": "يجب شرب الماء"
+            },
+            {
+              "id": "g-f2",
+              "say": "Il faut vous reposer.",
+              "cells": [
+                "Il faut vous reposer."
+              ],
+              "ar": "يجب أن ترتاح"
+            },
+            {
+              "id": "g-f3",
+              "say": "Il ne faut pas fumer.",
+              "cells": [
+                "Il ne faut pas fumer."
+              ],
+              "ar": "لا يجوز التدخين"
+            },
+            {
+              "id": "g-f4",
+              "say": "Il faut prendre ce médicament trois fois par jour.",
+              "cells": [
+                "Il faut prendre ce médicament trois fois par jour."
+              ],
+              "ar": "يجب تناول هذا الدواء ثلاث مرات يومياً"
+            },
+            {
+              "id": "g-f5",
+              "say": "Qu'est-ce qu'il faut faire ?",
+              "cells": [
+                "Qu'est-ce qu'il faut faire ?"
+              ],
+              "ar": "ماذا يجب أن أفعل؟"
+            }
+          ],
+          "note_ar": "il faut لا يتغير مع الشخص: يجب عليّ وعليك وعليه، كلها il faut."
+        }
+      ],
+      "points_ar": [
+        "**docteur للجميع:** Bonjour docteur، للطبيب والطبيبة.",
+        "**الطوارئ في فرنسا:** 15 للإسعاف، و 112 الرقم الأوروبي. احفظهما.",
+        "**الصيدلي يقدّم نصيحة:** في فرنسا تستطيع أن تسأل الصيدلي أولاً: Qu'est-ce que vous me conseillez ? (بماذا تنصحني؟)"
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: عند الطبيب",
+      "hint_ar": "اختر حرف الجر المدمج، أو depuis أو il y a، أو il faut.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "J'ai mal ___ tête.",
+          "say": "J'ai mal à la tête.",
+          "options": [
+            "au",
+            "à la"
+          ],
+          "answer": "à la",
+          "ar": "يؤلمني رأسي.",
+          "explain_ar": "tête مؤنثة: **à la**."
+        },
+        {
+          "id": "f2",
+          "text": "J'ai mal ___ dos.",
+          "say": "J'ai mal au dos.",
+          "options": [
+            "au",
+            "à le"
+          ],
+          "answer": "au",
+          "ar": "يؤلمني ظهري.",
+          "explain_ar": "à + le = **au**."
+        },
+        {
+          "id": "f3",
+          "text": "J'ai mal ___ dents.",
+          "say": "J'ai mal aux dents.",
+          "options": [
+            "à les",
+            "aux"
+          ],
+          "answer": "aux",
+          "ar": "تؤلمني أسناني.",
+          "explain_ar": "à + les = **aux**."
+        },
+        {
+          "id": "f4",
+          "text": "J'ai de la fièvre ___ hier.",
+          "say": "J'ai de la fièvre depuis hier.",
+          "options": [
+            "depuis",
+            "il y a"
+          ],
+          "answer": "depuis",
+          "ar": "عندي حمى منذ أمس.",
+          "explain_ar": "شيء مستمر: **depuis**."
+        },
+        {
+          "id": "f5",
+          "text": "J'ai vu le médecin ___ deux jours.",
+          "say": "J'ai vu le médecin il y a deux jours.",
+          "options": [
+            "depuis",
+            "il y a"
+          ],
+          "answer": "il y a",
+          "ar": "رأيت الطبيب قبل يومين.",
+          "explain_ar": "شيء انتهى: **il y a**."
+        },
+        {
+          "id": "f6",
+          "text": "Il ___ boire beaucoup d'eau.",
+          "say": "Il faut boire beaucoup d'eau.",
+          "options": [
+            "fait",
+            "faut"
+          ],
+          "answer": "faut",
+          "ar": "يجب شرب ماء كثير.",
+          "explain_ar": "يجب: il **faut**."
+        },
+        {
+          "id": "f7",
+          "text": "Je ne me sens pas ___.",
+          "say": "Je ne me sens pas bien.",
+          "options": [
+            "bon",
+            "bien"
+          ],
+          "answer": "bien",
+          "ar": "لا أشعر أني بخير.",
+          "explain_ar": "مع الأفعال: **bien**."
+        },
+        {
+          "id": "f8",
+          "text": "Voici une ___ pour la pharmacie.",
+          "say": "Voici une ordonnance pour la pharmacie.",
+          "options": [
+            "ordonnance",
+            "addition"
+          ],
+          "answer": "ordonnance",
+          "ar": "هذه وصفة للصيدلية.",
+          "explain_ar": "الوصفة الطبية: **ordonnance**."
+        },
+        {
+          "id": "f9",
+          "text": "Je ___ beaucoup la nuit.",
+          "say": "Je tousse beaucoup la nuit.",
+          "options": [
+            "tousses",
+            "tousse"
+          ],
+          "answer": "tousse",
+          "ar": "أسعل كثيراً في الليل.",
+          "explain_ar": "مع je: **tousse**."
+        },
+        {
+          "id": "f10",
+          "text": "Il ne ___ pas fumer.",
+          "say": "Il ne faut pas fumer.",
+          "options": [
+            "faut",
+            "fait"
+          ],
+          "answer": "faut",
+          "ar": "لا يجوز التدخين.",
+          "explain_ar": "النفي: il ne **faut** pas."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: عند الطبيب",
+      "hint_ar": "أجزاء الجسم والأعراض.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "J'ai mal à la gorge.",
+          "options": [
+            "J'ai mal à la tête.",
+            "J'ai mal à la gorge."
+          ],
+          "answer": "J'ai mal à la gorge.",
+          "explain_ar": "gorge «گوغژ»: حلق."
+        },
+        {
+          "id": "q2",
+          "say": "au dos",
+          "options": [
+            "au dos",
+            "aux dents"
+          ],
+          "answer": "au dos",
+          "explain_ar": "dos «دو»: ظهر."
+        },
+        {
+          "id": "q3",
+          "say": "J'ai de la fièvre.",
+          "options": [
+            "J'ai de la fièvre.",
+            "J'ai froid."
+          ],
+          "answer": "J'ai de la fièvre.",
+          "explain_ar": "fièvre «فيِيڤغ»: حمى."
+        },
+        {
+          "id": "q4",
+          "say": "depuis treize jours",
+          "options": [
+            "depuis trois jours",
+            "depuis treize jours"
+          ],
+          "answer": "depuis treize jours",
+          "explain_ar": "treize «تغيز»: 13."
+        },
+        {
+          "id": "q5",
+          "say": "le ventre",
+          "options": [
+            "la jambe",
+            "le ventre"
+          ],
+          "answer": "le ventre",
+          "explain_ar": "ventre «ڤونتغ»: بطن."
+        },
+        {
+          "id": "q6",
+          "say": "un médicament",
+          "options": [
+            "un médicament",
+            "une ordonnance"
+          ],
+          "answer": "un médicament",
+          "explain_ar": "médicament «ميديكامون»: دواء."
+        },
+        {
+          "id": "q7",
+          "say": "Il faut sortir.",
+          "options": [
+            "Il faut dormir.",
+            "Il faut sortir."
+          ],
+          "answer": "Il faut sortir.",
+          "explain_ar": "sortir «سوغتيغ»: الخروج."
+        },
+        {
+          "id": "q8",
+          "say": "Ce n'est pas grave.",
+          "options": [
+            "Ce n'est pas grave.",
+            "C'est grave."
+          ],
+          "answer": "Ce n'est pas grave.",
+          "explain_ar": "n'est pas: ليس خطيراً."
+        },
+        {
+          "id": "q9",
+          "say": "Je suis allergique.",
+          "options": [
+            "Je suis fatigué.",
+            "Je suis allergique."
+          ],
+          "answer": "Je suis allergique.",
+          "explain_ar": "allergique «ألِغژيك»."
+        },
+        {
+          "id": "q10",
+          "say": "les urgences",
+          "options": [
+            "les urgences",
+            "la pharmacie"
+          ],
+          "answer": "les urgences",
+          "explain_ar": "urgences «يوغژونس»: الطوارئ."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الصحة",
+      "hint_ar": "عبارات الطبيب والمريض.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **fièvre** بـ è، و **ordonnance** بـ nn.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "j'ai mal à la tête",
+          "answer": "j'ai mal à la tête",
+          "ar": "يؤلمني رأسي"
+        },
+        {
+          "id": "s2",
+          "say": "j'ai de la fièvre",
+          "answer": "j'ai de la fièvre",
+          "ar": "عندي حمى"
+        },
+        {
+          "id": "s3",
+          "say": "depuis hier",
+          "answer": "depuis hier",
+          "ar": "منذ أمس"
+        },
+        {
+          "id": "s4",
+          "say": "il faut",
+          "answer": "il faut",
+          "ar": "يجب"
+        },
+        {
+          "id": "s5",
+          "say": "un médicament",
+          "answer": "un médicament",
+          "ar": "دواء"
+        },
+        {
+          "id": "s6",
+          "say": "une ordonnance",
+          "answer": "une ordonnance",
+          "ar": "وصفة طبية"
+        },
+        {
+          "id": "s7",
+          "say": "la gorge",
+          "answer": "la gorge",
+          "ar": "الحلق"
+        },
+        {
+          "id": "s8",
+          "say": "je tousse",
+          "answer": "je tousse",
+          "ar": "أسعل"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "عبارات تحتاجها عند المرض. ردّدها بهدوء ووضوح.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "J'ai mal à la tête depuis ce matin.",
+          "ar": "يؤلمني رأسي منذ هذا الصباح.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "J'ai mal",
+              "يؤلمني"
+            ],
+            [
+              "à la",
+              "الـ"
+            ],
+            [
+              "tête",
+              "رأس"
+            ],
+            [
+              "depuis",
+              "منذ"
+            ],
+            [
+              "ce matin.",
+              "هذا الصباح"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Qu'est-ce qui ne va pas ?",
+          "ar": "ما المشكلة؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Qu'est-ce qui ne va pas ?",
+              "ما الذي ليس على ما يرام؟"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "J'ai de la fièvre et je tousse.",
+          "ar": "عندي حمى وأسعل.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "J'ai",
+              "عندي"
+            ],
+            [
+              "de la fièvre",
+              "حمى"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "je tousse.",
+              "أسعل"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Il faut vous reposer et boire beaucoup d'eau.",
+          "ar": "يجب أن ترتاح وتشرب ماءً كثيراً.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Il faut",
+              "يجب"
+            ],
+            [
+              "vous reposer",
+              "أن ترتاح"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "boire",
+              "أن تشرب"
+            ],
+            [
+              "beaucoup d'eau.",
+              "ماءً كثيراً"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Je suis allergique à la pénicilline.",
+          "ar": "عندي حساسية من البنسلين.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je suis",
+              "أنا"
+            ],
+            [
+              "allergique",
+              "عندي حساسية"
+            ],
+            [
+              "à la pénicilline.",
+              "من البنسلين"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: تخيّل أنك عند الطبيب. سجّل: **Bonjour docteur. J'ai mal à… depuis… Je suis… Qu'est-ce qu'il faut faire ?**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "J'ai mal à la tête.",
+          "say": "J'ai mal à la tête.",
+          "back_ar": "يؤلمني رأسي."
+        },
+        {
+          "id": "c2",
+          "front": "J'ai mal au dos.",
+          "say": "J'ai mal au dos.",
+          "back_ar": "يؤلمني ظهري."
+        },
+        {
+          "id": "c3",
+          "front": "J'ai mal aux dents.",
+          "say": "J'ai mal aux dents.",
+          "back_ar": "تؤلمني أسناني."
+        },
+        {
+          "id": "c4",
+          "front": "J'ai de la fièvre.",
+          "say": "J'ai de la fièvre.",
+          "back_ar": "عندي حمى."
+        },
+        {
+          "id": "c5",
+          "front": "Je tousse.",
+          "say": "Je tousse.",
+          "back_ar": "أسعل."
+        },
+        {
+          "id": "c6",
+          "front": "Je ne me sens pas bien.",
+          "say": "Je ne me sens pas bien.",
+          "back_ar": "لا أشعر أني بخير."
+        },
+        {
+          "id": "c7",
+          "front": "Depuis quand ?",
+          "say": "Depuis quand ?",
+          "back_ar": "منذ متى؟"
+        },
+        {
+          "id": "c8",
+          "front": "depuis",
+          "say": "depuis",
+          "back_ar": "منذ (والأمر مستمر)"
+        },
+        {
+          "id": "c9",
+          "front": "Il faut…",
+          "say": "Il faut dormir.",
+          "back_ar": "يجب…"
+        },
+        {
+          "id": "c10",
+          "front": "une ordonnance",
+          "say": "une ordonnance",
+          "back_ar": "وصفة طبية"
+        },
+        {
+          "id": "c11",
+          "front": "un médicament",
+          "say": "un médicament",
+          "back_ar": "دواء"
+        },
+        {
+          "id": "c12",
+          "front": "le médecin",
+          "say": "le médecin",
+          "back_ar": "الطبيب"
+        },
+        {
+          "id": "c13",
+          "front": "la gorge",
+          "say": "la gorge",
+          "back_ar": "الحلق"
+        },
+        {
+          "id": "c14",
+          "front": "le ventre",
+          "say": "le ventre",
+          "back_ar": "البطن"
+        },
+        {
+          "id": "c15",
+          "front": "Ce n'est pas grave.",
+          "say": "Ce n'est pas grave.",
+          "back_ar": "ليس خطيراً."
+        },
+        {
+          "id": "c16",
+          "front": "les urgences",
+          "say": "les urgences",
+          "back_ar": "الطوارئ (15 أو 112)"
+        }
+      ]
+    }
+  ]
+}

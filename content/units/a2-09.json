@@ -1,0 +1,1288 @@
+{
+  "id": "a2-09",
+  "stage": "A2",
+  "title_fr": "Comparer",
+  "title_ar": "المقارنة",
+  "goals_ar": [
+    "تقارن: **Paris est plus petite que Riyad.**",
+    "تستعمل **plus، moins، aussi … que**",
+    "تقول الأفضل والأكثر: **C'est la plus belle ville du monde.**",
+    "تميّز **meilleur** (صفة) من **mieux** (ظرف)"
+  ],
+  "intro_ar": [
+    "المقارنة في الفرنسية بكلمتين حول الصفة: **plus** grand **que** (أكبر من)، **moins** cher **que** (أرخص من، حرفياً «أقل غلاءً»)، **aussi** beau **que** (بنفس الجمال).",
+    "**التفضيل المطلق:** أضف أداة التعريف: **le plus** grand (الأكبر)، **la plus** belle (الأجمل)، **les moins** chers (الأرخص).",
+    "**الاستثناء المهم:** bon لا يصير plus bon، بل **meilleur** (أفضل). و bien يصير **mieux**: Ce restaurant est meilleur. Il parle mieux.",
+    "**للنطق:** plus «پلو» قبل الصفة، و«پلوس» بالـ s عندما تقف في آخر الجملة: on marche plus «پلوس»."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: باريس أم الرياض؟",
+      "context_ar": "كلير تسأل يوسف أي المدينتين يفضّل. لاحظ أدوات المقارنة.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Alors, tu préfères Paris ou Riyad ?",
+          "ar": "إذن، تفضّل باريس أم الرياض؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Alors,",
+              "إذن"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "préfères",
+              "تفضّل"
+            ],
+            [
+              "Paris",
+              "باريس"
+            ],
+            [
+              "ou",
+              "أم"
+            ],
+            [
+              "Riyad ?",
+              "الرياض"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "C'est difficile ! Riyad est plus grande que Paris, et plus moderne.",
+          "ar": "صعب! الرياض أكبر من باريس، وأكثر حداثة.",
+          "slow": true,
+          "gloss": [
+            [
+              "C'est difficile !",
+              "صعب"
+            ],
+            [
+              "Riyad",
+              "الرياض"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "plus grande",
+              "أكبر"
+            ],
+            [
+              "que Paris,",
+              "من باريس"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "plus moderne.",
+              "أكثر حداثة"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Mais Paris est plus ancienne !",
+          "ar": "لكن باريس أقدم!",
+          "slow": true,
+          "gloss": [
+            [
+              "Mais",
+              "لكن"
+            ],
+            [
+              "Paris",
+              "باريس"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "plus ancienne !",
+              "أقدم"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "C'est vrai. Et ici, il fait moins chaud qu'à Riyad, heureusement !",
+          "ar": "صحيح. والجو هنا أقل حرارة من الرياض، لحسن الحظ!",
+          "slow": true,
+          "gloss": [
+            [
+              "C'est vrai.",
+              "صحيح"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "ici,",
+              "هنا"
+            ],
+            [
+              "il fait",
+              "الجو"
+            ],
+            [
+              "moins chaud",
+              "أقل حرارة"
+            ],
+            [
+              "qu'à Riyad,",
+              "من الرياض"
+            ],
+            [
+              "heureusement !",
+              "لحسن الحظ"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Et la cuisine ? La cuisine française est la meilleure du monde, non ?",
+          "ar": "والمطبخ؟ المطبخ الفرنسي أفضل مطبخ في العالم، أليس كذلك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "cuisine ?",
+              "مطبخ"
+            ],
+            [
+              "La",
+              "الـ"
+            ],
+            [
+              "cuisine",
+              "مطبخ"
+            ],
+            [
+              "française",
+              "فرنسي"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "la meilleure",
+              "الأفضل"
+            ],
+            [
+              "du monde,",
+              "في العالم"
+            ],
+            [
+              "non ?",
+              "أليس كذلك"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Elle est aussi bonne que la cuisine saoudienne, pas meilleure ! Notre kabsa est délicieuse.",
+          "ar": "إنه جيد بقدر المطبخ السعودي، لا أفضل منه! كبستنا لذيذة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Elle",
+              "هو"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "aussi bonne",
+              "جيد بنفس القدر"
+            ],
+            [
+              "que",
+              "مثل"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "cuisine",
+              "مطبخ"
+            ],
+            [
+              "saoudienne,",
+              "سعودي"
+            ],
+            [
+              "pas meilleure !",
+              "لا أفضل"
+            ],
+            [
+              "Notre",
+              "ـنا"
+            ],
+            [
+              "kabsa",
+              "كبسة"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "délicieuse.",
+              "لذيذة"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "D'accord ! Et pour la vie quotidienne ?",
+          "ar": "حسناً! وفي الحياة اليومية؟",
+          "slow": true,
+          "gloss": [
+            [
+              "D'accord !",
+              "حسناً"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "pour",
+              "في"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "vie",
+              "حياة"
+            ],
+            [
+              "quotidienne ?",
+              "يومية"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "À Paris, on marche plus et on vit mieux sans voiture. Mais les loyers sont beaucoup plus chers !",
+          "ar": "في باريس نمشي أكثر ونعيش أفضل بلا سيارة. لكن الإيجارات أغلى بكثير!",
+          "slow": true,
+          "gloss": [
+            [
+              "À Paris,",
+              "في باريس"
+            ],
+            [
+              "on",
+              "نحن"
+            ],
+            [
+              "marche",
+              "نمشي"
+            ],
+            [
+              "plus",
+              "أكثر"
+            ],
+            [
+              "et",
+              "و"
+            ],
+            [
+              "on",
+              "نحن"
+            ],
+            [
+              "vit",
+              "نعيش"
+            ],
+            [
+              "mieux",
+              "أفضل"
+            ],
+            [
+              "sans voiture.",
+              "بلا سيارة"
+            ],
+            [
+              "Mais",
+              "لكن"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "loyers",
+              "إيجارات"
+            ],
+            [
+              "sont",
+              "تكون"
+            ],
+            [
+              "beaucoup plus chers !",
+              "أغلى بكثير"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Alors, quelle est la plus belle ville pour toi ?",
+          "ar": "إذن، ما أجمل مدينة بالنسبة لك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Alors,",
+              "إذن"
+            ],
+            [
+              "quelle",
+              "ما"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "la plus belle",
+              "الأجمل"
+            ],
+            [
+              "ville",
+              "مدينة"
+            ],
+            [
+              "pour toi ?",
+              "بالنسبة لك"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "Paris le jour, Riyad la nuit !",
+          "ar": "باريس في النهار، والرياض في الليل!",
+          "slow": true,
+          "gloss": [
+            [
+              "Paris",
+              "باريس"
+            ],
+            [
+              "le jour,",
+              "في النهار"
+            ],
+            [
+              "Riyad",
+              "الرياض"
+            ],
+            [
+              "la nuit !",
+              "في الليل"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "قارن **meilleure** (صفة للمطبخ) و **mieux** (ظرف للفعل: on vit mieux). ولاحظ **plus** في السطر 8 بعد الفعل on marche plus، فتُنطق «پلوس»."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "أدوات المقارنة، ثم صفات للمدن والأشياء.",
+      "groups": [
+        {
+          "title_ar": "أدوات المقارنة",
+          "items": [
+            {
+              "id": "v-plus",
+              "say": "plus … que",
+              "ar": "أكثر من"
+            },
+            {
+              "id": "v-moins",
+              "say": "moins … que",
+              "ar": "أقل من"
+            },
+            {
+              "id": "v-aussi",
+              "say": "aussi … que",
+              "ar": "بنفس قدر"
+            },
+            {
+              "id": "v-leplus",
+              "say": "le plus, la plus",
+              "ar": "الأكثر",
+              "fr": "le plus / la plus"
+            },
+            {
+              "id": "v-lemoins",
+              "say": "le moins",
+              "ar": "الأقل"
+            },
+            {
+              "id": "v-meilleur",
+              "say": "meilleur",
+              "ar": "أفضل (صفة)"
+            },
+            {
+              "id": "v-mieux",
+              "say": "mieux",
+              "ar": "أفضل (ظرف)"
+            },
+            {
+              "id": "v-pire",
+              "say": "pire",
+              "ar": "أسوأ"
+            },
+            {
+              "id": "v-beaucoupplus",
+              "say": "beaucoup plus",
+              "ar": "أكثر بكثير"
+            }
+          ]
+        },
+        {
+          "title_ar": "صفات",
+          "items": [
+            {
+              "id": "v-ancien",
+              "say": "ancien, ancienne",
+              "ar": "قديم / قديمة",
+              "fr": "ancien / ancienne"
+            },
+            {
+              "id": "v-moderne",
+              "say": "moderne",
+              "ar": "حديث"
+            },
+            {
+              "id": "v-bonmarche",
+              "say": "bon marché",
+              "ar": "رخيص",
+              "note_ar": "لا تتغير: des chaussures bon marché."
+            },
+            {
+              "id": "v-anime",
+              "say": "animé",
+              "ar": "حيوي / نابض بالحياة"
+            },
+            {
+              "id": "v-calme",
+              "say": "calme",
+              "ar": "هادئ"
+            },
+            {
+              "id": "v-propre",
+              "say": "propre",
+              "ar": "نظيف"
+            },
+            {
+              "id": "v-pratique",
+              "say": "pratique",
+              "ar": "عملي"
+            },
+            {
+              "id": "v-rapide",
+              "say": "rapide, lent",
+              "ar": "سريع / بطيء",
+              "fr": "rapide / lent"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-vrai",
+              "say": "C'est vrai.",
+              "ar": "صحيح."
+            },
+            {
+              "id": "v-heureusement",
+              "say": "heureusement",
+              "ar": "لحسن الحظ"
+            },
+            {
+              "id": "v-malheureusement",
+              "say": "malheureusement",
+              "ar": "للأسف"
+            },
+            {
+              "id": "v-vie",
+              "say": "la vie quotidienne",
+              "ar": "الحياة اليومية"
+            },
+            {
+              "id": "v-loyer",
+              "say": "le loyer",
+              "ar": "الإيجار"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "المقارنة",
+      "title_ar": "القاعدة: المقارنة والتفضيل",
+      "intro_ar": "plus / moins / aussi + صفة + que. ثم le plus للأفضل المطلق.",
+      "tables": [
+        {
+          "title_fr": "Le comparatif",
+          "title_ar": "المقارنة",
+          "head_ar": [
+            "البناء",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-c1",
+              "say": "Paris est plus ancienne que Riyad.",
+              "cells": [
+                "plus … que",
+                "Paris est plus ancienne que Riyad."
+              ],
+              "ar": "باريس أقدم من الرياض"
+            },
+            {
+              "id": "g-c2",
+              "say": "Le bus est moins rapide que le métro.",
+              "cells": [
+                "moins … que",
+                "Le bus est moins rapide que le métro."
+              ],
+              "ar": "الحافلة أبطأ من المترو"
+            },
+            {
+              "id": "g-c3",
+              "say": "Lyon est aussi belle que Bordeaux.",
+              "cells": [
+                "aussi … que",
+                "Lyon est aussi belle que Bordeaux."
+              ],
+              "ar": "ليون جميلة بقدر بوردو"
+            },
+            {
+              "id": "g-c4",
+              "say": "Il y a plus de voitures à Riyad.",
+              "cells": [
+                "plus de + nom",
+                "Il y a plus de voitures à Riyad."
+              ],
+              "ar": "سيارات أكثر في الرياض"
+            }
+          ],
+          "note_ar": "الصفة تتفق كالعادة: Paris est plus ancienne (مؤنث). و que أمام حرف علة تصير qu': qu'à Riyad."
+        },
+        {
+          "title_fr": "Le superlatif",
+          "title_ar": "التفضيل المطلق",
+          "head_ar": [
+            "البناء",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-s1",
+              "say": "C'est le plus grand musée.",
+              "cells": [
+                "le plus",
+                "C'est le plus grand musée."
+              ],
+              "ar": "إنه أكبر متحف"
+            },
+            {
+              "id": "g-s2",
+              "say": "C'est la plus belle ville.",
+              "cells": [
+                "la plus",
+                "C'est la plus belle ville."
+              ],
+              "ar": "إنها أجمل مدينة"
+            },
+            {
+              "id": "g-s3",
+              "say": "Ce sont les plus beaux jardins.",
+              "cells": [
+                "les plus",
+                "Ce sont les plus beaux jardins."
+              ],
+              "ar": "إنها أجمل الحدائق"
+            },
+            {
+              "id": "g-s4",
+              "say": "C'est le moins cher.",
+              "cells": [
+                "le moins",
+                "C'est le moins cher."
+              ],
+              "ar": "إنه الأرخص"
+            },
+            {
+              "id": "g-s5",
+              "say": "la plus belle ville du monde",
+              "cells": [
+                "… de + lieu",
+                "la plus belle ville du monde"
+              ],
+              "ar": "أجمل مدينة في العالم"
+            }
+          ],
+          "note_ar": "بعد التفضيل نستعمل de لا dans: le meilleur restaurant de Paris (أفضل مطعم في باريس)."
+        },
+        {
+          "title_fr": "bon, bien, mauvais",
+          "title_ar": "الأشكال الشاذة",
+          "head_ar": [
+            "العادي",
+            "المقارنة",
+            "التفضيل"
+          ],
+          "rows": [
+            {
+              "id": "g-b1",
+              "say": "bon, meilleur, le meilleur",
+              "cells": [
+                "bon",
+                "meilleur",
+                "le meilleur"
+              ],
+              "ar": "جيد / أفضل / الأفضل (صفة)"
+            },
+            {
+              "id": "g-b2",
+              "say": "bonne, meilleure, la meilleure",
+              "cells": [
+                "bonne",
+                "meilleure",
+                "la meilleure"
+              ],
+              "ar": "المؤنث"
+            },
+            {
+              "id": "g-b3",
+              "say": "bien, mieux, le mieux",
+              "cells": [
+                "bien",
+                "mieux",
+                "le mieux"
+              ],
+              "ar": "جيداً / أفضل / الأفضل (ظرف)"
+            },
+            {
+              "id": "g-b4",
+              "say": "mauvais, pire, le pire",
+              "cells": [
+                "mauvais",
+                "pire",
+                "le pire"
+              ],
+              "ar": "سيئ / أسوأ / الأسوأ"
+            }
+          ],
+          "note_ar": "meilleur يصف اسماً (un meilleur restaurant)، و mieux يصف فعلاً (il chante mieux). ولا تقل plus bon أبداً."
+        }
+      ],
+      "points_ar": [
+        "**plus «پلو» أم «پلوس»؟** «پلو» قبل صفة (plus grand)، و«پلوس» في آخر الجملة (on marche plus).",
+        "**مع الأسماء plus de و moins de:** plus de touristes، moins de voitures.",
+        "**pire** = أسوأ: C'est pire !"
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: المقارنة",
+      "hint_ar": "اختر أداة المقارنة، أو meilleur أو mieux.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Paris est ___ ancienne que Riyad.",
+          "say": "Paris est plus ancienne que Riyad.",
+          "options": [
+            "aussi",
+            "plus"
+          ],
+          "answer": "plus",
+          "ar": "باريس أقدم من الرياض.",
+          "explain_ar": "أقدم = **plus** ancienne."
+        },
+        {
+          "id": "f2",
+          "text": "Le bus est moins rapide ___ le métro.",
+          "say": "Le bus est moins rapide que le métro.",
+          "options": [
+            "que",
+            "de"
+          ],
+          "answer": "que",
+          "ar": "الحافلة أبطأ من المترو.",
+          "explain_ar": "المقارنة: … **que**."
+        },
+        {
+          "id": "f3",
+          "text": "Lyon est ___ belle que Bordeaux.",
+          "say": "Lyon est aussi belle que Bordeaux.",
+          "options": [
+            "aussi",
+            "plus"
+          ],
+          "answer": "aussi",
+          "ar": "ليون جميلة بقدر بوردو.",
+          "explain_ar": "بنفس القدر: **aussi** … que."
+        },
+        {
+          "id": "f4",
+          "text": "Ce restaurant est ___ que l'autre.",
+          "say": "Ce restaurant est meilleur que l'autre.",
+          "options": [
+            "mieux",
+            "meilleur"
+          ],
+          "answer": "meilleur",
+          "ar": "هذا المطعم أفضل من الآخر.",
+          "explain_ar": "يصف اسماً (المطعم): **meilleur**."
+        },
+        {
+          "id": "f5",
+          "text": "Il parle français ___ que moi.",
+          "say": "Il parle français mieux que moi.",
+          "options": [
+            "mieux",
+            "meilleur"
+          ],
+          "answer": "mieux",
+          "ar": "يتكلم الفرنسية أفضل مني.",
+          "explain_ar": "يصف فعلاً (يتكلم): **mieux**."
+        },
+        {
+          "id": "f6",
+          "text": "C'est la plus belle ville ___ monde.",
+          "say": "C'est la plus belle ville du monde.",
+          "options": [
+            "dans le",
+            "du"
+          ],
+          "answer": "du",
+          "ar": "إنها أجمل مدينة في العالم.",
+          "explain_ar": "بعد التفضيل: **du** monde."
+        },
+        {
+          "id": "f7",
+          "text": "C'est le ___ cher.",
+          "say": "C'est le moins cher.",
+          "options": [
+            "moins",
+            "aussi"
+          ],
+          "answer": "moins",
+          "ar": "إنه الأرخص.",
+          "explain_ar": "الأقل غلاءً: le **moins** cher."
+        },
+        {
+          "id": "f8",
+          "text": "Ma sœur est la ___ de la classe.",
+          "say": "Ma sœur est la meilleure de la classe.",
+          "options": [
+            "mieux",
+            "meilleure"
+          ],
+          "answer": "meilleure",
+          "ar": "أختي الأفضل في الصف.",
+          "explain_ar": "صفة مؤنثة: **meilleure**."
+        },
+        {
+          "id": "f9",
+          "text": "Il y a plus ___ voitures à Riyad.",
+          "say": "Il y a plus de voitures à Riyad.",
+          "options": [
+            "des",
+            "de"
+          ],
+          "answer": "de",
+          "ar": "توجد سيارات أكثر في الرياض.",
+          "explain_ar": "مع الأسماء: plus **de**."
+        },
+        {
+          "id": "f10",
+          "text": "Il fait moins chaud ___ Riyad.",
+          "say": "Il fait moins chaud qu'à Riyad.",
+          "options": [
+            "que",
+            "qu'à"
+          ],
+          "answer": "qu'à",
+          "ar": "الجو أقل حرارة من الرياض.",
+          "explain_ar": "que + à أمام حرف علة: **qu'à**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: أكثر أم أقل؟",
+      "hint_ar": "plus «پلو» و moins «موان» و aussi «أوسي».",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "moins grand",
+          "options": [
+            "plus grand",
+            "moins grand"
+          ],
+          "answer": "moins grand",
+          "explain_ar": "moins «موان»: أقل."
+        },
+        {
+          "id": "q2",
+          "say": "aussi cher",
+          "options": [
+            "aussi cher",
+            "plus cher"
+          ],
+          "answer": "aussi cher",
+          "explain_ar": "aussi «أوسي»: بنفس القدر."
+        },
+        {
+          "id": "q3",
+          "say": "mieux",
+          "options": [
+            "meilleur",
+            "mieux"
+          ],
+          "answer": "mieux",
+          "explain_ar": "mieux «ميُ»: أفضل (ظرف)."
+        },
+        {
+          "id": "q4",
+          "say": "le plus beau",
+          "options": [
+            "le plus beau",
+            "le plus haut"
+          ],
+          "answer": "le plus beau",
+          "explain_ar": "beau «بو»: جميل."
+        },
+        {
+          "id": "q5",
+          "say": "moins de café",
+          "options": [
+            "plus de café",
+            "moins de café"
+          ],
+          "answer": "moins de café",
+          "explain_ar": "moins de: أقل."
+        },
+        {
+          "id": "q6",
+          "say": "la meilleure",
+          "options": [
+            "la meilleure",
+            "la première"
+          ],
+          "answer": "la meilleure",
+          "explain_ar": "meilleure «ميِيُغ»: الأفضل."
+        },
+        {
+          "id": "q7",
+          "say": "C'est pire.",
+          "options": [
+            "C'est mieux.",
+            "C'est pire."
+          ],
+          "answer": "C'est pire.",
+          "explain_ar": "pire «پيغ»: أسوأ."
+        },
+        {
+          "id": "q8",
+          "say": "plus moderne",
+          "options": [
+            "plus ancienne",
+            "plus moderne"
+          ],
+          "answer": "plus moderne",
+          "explain_ar": "moderne «مودِغن»: حديث."
+        },
+        {
+          "id": "q9",
+          "say": "malheureusement",
+          "options": [
+            "heureusement",
+            "malheureusement"
+          ],
+          "answer": "malheureusement",
+          "explain_ar": "mal في أولها: للأسف."
+        },
+        {
+          "id": "q10",
+          "say": "bon marché",
+          "options": [
+            "bon marché",
+            "très cher"
+          ],
+          "answer": "bon marché",
+          "explain_ar": "bon marché «بون ماغشيه»: رخيص."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: المقارنة",
+      "hint_ar": "أدوات المقارنة والأشكال الشاذة.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **meilleur** بـ ll، و **mieux** بـ x.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "plus grand que",
+          "answer": "plus grand que",
+          "ar": "أكبر من"
+        },
+        {
+          "id": "s2",
+          "say": "moins cher",
+          "answer": "moins cher",
+          "ar": "أرخص"
+        },
+        {
+          "id": "s3",
+          "say": "aussi beau",
+          "answer": "aussi beau",
+          "ar": "بنفس الجمال"
+        },
+        {
+          "id": "s4",
+          "say": "meilleur",
+          "answer": "meilleur",
+          "ar": "أفضل"
+        },
+        {
+          "id": "s5",
+          "say": "mieux",
+          "answer": "mieux",
+          "ar": "أفضل (ظرف)"
+        },
+        {
+          "id": "s6",
+          "say": "le plus",
+          "answer": "le plus",
+          "ar": "الأكثر"
+        },
+        {
+          "id": "s7",
+          "say": "la meilleure",
+          "answer": "la meilleure",
+          "ar": "الأفضل (مؤنث)"
+        },
+        {
+          "id": "s8",
+          "say": "pire",
+          "answer": "pire",
+          "ar": "أسوأ"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "مقارنات بين المدن. ارفع نبرتك قليلاً على plus و moins.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Paris est plus petite que Riyad.",
+          "ar": "باريس أصغر من الرياض.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Paris",
+              "باريس"
+            ],
+            [
+              "est",
+              "تكون"
+            ],
+            [
+              "plus petite",
+              "أصغر"
+            ],
+            [
+              "que Riyad.",
+              "من الرياض"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Le métro est plus rapide que le bus.",
+          "ar": "المترو أسرع من الحافلة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Le",
+              "الـ"
+            ],
+            [
+              "métro",
+              "مترو"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "plus rapide",
+              "أسرع"
+            ],
+            [
+              "que",
+              "من"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "bus.",
+              "حافلة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "C'est la meilleure boulangerie du quartier !",
+          "ar": "إنه أفضل مخبز في الحي!",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "C'est",
+              "إنه"
+            ],
+            [
+              "la meilleure",
+              "الأفضل"
+            ],
+            [
+              "boulangerie",
+              "مخبز"
+            ],
+            [
+              "du quartier !",
+              "في الحي"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Il parle mieux que moi.",
+          "ar": "يتكلم أفضل مني.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Il",
+              "هو"
+            ],
+            [
+              "parle",
+              "يتكلم"
+            ],
+            [
+              "mieux",
+              "أفضل"
+            ],
+            [
+              "que moi.",
+              "مني"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "C'est la plus belle ville du monde.",
+          "ar": "إنها أجمل مدينة في العالم.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "C'est",
+              "إنها"
+            ],
+            [
+              "la plus belle",
+              "الأجمل"
+            ],
+            [
+              "ville",
+              "مدينة"
+            ],
+            [
+              "du monde.",
+              "في العالم"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: قارن بين مدينتك وباريس في ثلاث جمل: **Riyad est plus… que Paris. Paris est moins… La meilleure chose à Paris, c'est…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "plus … que",
+          "say": "plus grand que",
+          "back_ar": "أكثر من"
+        },
+        {
+          "id": "c2",
+          "front": "moins … que",
+          "say": "moins cher que",
+          "back_ar": "أقل من"
+        },
+        {
+          "id": "c3",
+          "front": "aussi … que",
+          "say": "aussi beau que",
+          "back_ar": "بنفس قدر"
+        },
+        {
+          "id": "c4",
+          "front": "le plus / la plus",
+          "say": "le plus, la plus",
+          "back_ar": "الأكثر"
+        },
+        {
+          "id": "c5",
+          "front": "le moins",
+          "say": "le moins",
+          "back_ar": "الأقل"
+        },
+        {
+          "id": "c6",
+          "front": "meilleur(e)",
+          "say": "meilleur, meilleure",
+          "back_ar": "أفضل (صفة)"
+        },
+        {
+          "id": "c7",
+          "front": "mieux",
+          "say": "mieux",
+          "back_ar": "أفضل (ظرف)"
+        },
+        {
+          "id": "c8",
+          "front": "le meilleur",
+          "say": "le meilleur",
+          "back_ar": "الأفضل"
+        },
+        {
+          "id": "c9",
+          "front": "pire",
+          "say": "pire",
+          "back_ar": "أسوأ"
+        },
+        {
+          "id": "c10",
+          "front": "plus de…",
+          "say": "plus de voitures",
+          "back_ar": "أكثر من (مع الأسماء)"
+        },
+        {
+          "id": "c11",
+          "front": "ancien(ne)",
+          "say": "ancien, ancienne",
+          "back_ar": "قديم"
+        },
+        {
+          "id": "c12",
+          "front": "moderne",
+          "say": "moderne",
+          "back_ar": "حديث"
+        },
+        {
+          "id": "c13",
+          "front": "bon marché",
+          "say": "bon marché",
+          "back_ar": "رخيص"
+        },
+        {
+          "id": "c14",
+          "front": "heureusement",
+          "say": "heureusement",
+          "back_ar": "لحسن الحظ"
+        },
+        {
+          "id": "c15",
+          "front": "malheureusement",
+          "say": "malheureusement",
+          "back_ar": "للأسف"
+        },
+        {
+          "id": "c16",
+          "front": "le loyer",
+          "say": "le loyer",
+          "back_ar": "الإيجار"
+        }
+      ]
+    }
+  ]
+}

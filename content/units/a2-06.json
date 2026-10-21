@@ -1,0 +1,1275 @@
+{
+  "id": "a2-06",
+  "stage": "A2",
+  "title_fr": "Les pronoms COD",
+  "title_ar": "ضمائر المفعول المباشر",
+  "goals_ar": [
+    "تتجنب التكرار: **Le livre ? Je le lis.**",
+    "تختار **le، la، l'، les** حسب الاسم",
+    "تضع الضمير في مكانه الصحيح: **قبل الفعل**",
+    "تستعمل **me، te، nous، vous**: **Tu m'aides ? Je t'appelle.**"
+  ],
+  "intro_ar": [
+    "في العربية نضيف الضمير في آخر الفعل: «أقرؤه». وفي الفرنسية يأتي الضمير **قبل الفعل**: je **le** lis، حرفياً «أنا إياه أقرأ».",
+    "**ضمير المفعول المباشر (COD)** يحل محل اسم يأتي بعد الفعل مباشرة بلا حرف جر: Je regarde le film يصير Je le regarde.",
+    "**le** للمذكر، و **la** للمؤنث، و **les** للجمع، و **l'** أمام حرف علة: Je l'aime. وفي الماضي المركّب يأتي قبل avoir: Je l'ai vu."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: قبل السفر",
+      "context_ar": "يوسف يستعد للسفر، وكلير تساعده. لاحظ مكان الضمائر le و la و les.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "A",
+          "say": "Tu as ton passeport ?",
+          "ar": "هل معك جوازك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "as",
+              "معك"
+            ],
+            [
+              "ton",
+              "ـك"
+            ],
+            [
+              "passeport ?",
+              "جواز سفر"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "B",
+          "say": "Oui, je l'ai. Il est dans mon sac.",
+          "ar": "نعم، معي. إنه في حقيبتي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "l'ai.",
+              "معي (إياه)"
+            ],
+            [
+              "Il",
+              "هو"
+            ],
+            [
+              "est",
+              "يكون"
+            ],
+            [
+              "dans",
+              "في"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "sac.",
+              "حقيبة"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "A",
+          "say": "Et tes clés ? Tu les cherches depuis dix minutes !",
+          "ar": "ومفاتيحك؟ تبحث عنها منذ عشر دقائق!",
+          "slow": true,
+          "gloss": [
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "tes",
+              "ـك (جمع)"
+            ],
+            [
+              "clés ?",
+              "مفاتيح"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "les",
+              "ها"
+            ],
+            [
+              "cherches",
+              "تبحث عن"
+            ],
+            [
+              "depuis",
+              "منذ"
+            ],
+            [
+              "dix minutes !",
+              "عشر دقائق"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "B",
+          "say": "Je ne les trouve pas ! Tu les vois ?",
+          "ar": "لا أجدها! هل ترينها؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "ne les trouve pas !",
+              "لا أجدها"
+            ],
+            [
+              "Tu",
+              "أنتِ"
+            ],
+            [
+              "les",
+              "ها"
+            ],
+            [
+              "vois ?",
+              "ترين"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "A",
+          "say": "Oui, je les vois : elles sont sur la table.",
+          "ar": "نعم، أراها: إنها على الطاولة.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "les",
+              "ها"
+            ],
+            [
+              "vois :",
+              "أرى"
+            ],
+            [
+              "elles",
+              "هي"
+            ],
+            [
+              "sont",
+              "تكون"
+            ],
+            [
+              "sur",
+              "على"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "table.",
+              "طاولة"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "B",
+          "say": "Merci ! Et ma valise, tu la prends dans la voiture ?",
+          "ar": "شكراً! وحقيبة السفر، هل تأخذينها إلى السيارة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Merci !",
+              "شكراً"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "ma",
+              "ـي"
+            ],
+            [
+              "valise,",
+              "حقيبة السفر"
+            ],
+            [
+              "tu",
+              "أنتِ"
+            ],
+            [
+              "la",
+              "ها"
+            ],
+            [
+              "prends",
+              "تأخذين"
+            ],
+            [
+              "dans",
+              "إلى"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "voiture ?",
+              "سيارة"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "A",
+          "say": "D'accord, je la prends. Tu as acheté le cadeau pour ta mère ?",
+          "ar": "حسناً، آخذها. هل اشتريت الهدية لأمك؟",
+          "slow": true,
+          "gloss": [
+            [
+              "D'accord,",
+              "حسناً"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "la",
+              "ها"
+            ],
+            [
+              "prends.",
+              "آخذ"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "as acheté",
+              "اشتريتَ"
+            ],
+            [
+              "le",
+              "الـ"
+            ],
+            [
+              "cadeau",
+              "هدية"
+            ],
+            [
+              "pour",
+              "لـ"
+            ],
+            [
+              "ta",
+              "ـك"
+            ],
+            [
+              "mère ?",
+              "أم"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "B",
+          "say": "Oui, je l'ai acheté hier. Je vais le donner à mon arrivée.",
+          "ar": "نعم، اشتريتها أمس. سأعطيها لها عند وصولي.",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "l'ai acheté",
+              "اشتريتُه"
+            ],
+            [
+              "hier.",
+              "أمس"
+            ],
+            [
+              "Je vais",
+              "سـ"
+            ],
+            [
+              "le",
+              "ه"
+            ],
+            [
+              "donner",
+              "أعطي"
+            ],
+            [
+              "à mon arrivée.",
+              "عند وصولي"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "A",
+          "say": "Parfait. Bon voyage ! Tu m'appelles quand tu arrives ?",
+          "ar": "ممتاز. رحلة سعيدة! هل تتصل بي عندما تصل؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Parfait.",
+              "ممتاز"
+            ],
+            [
+              "Bon voyage !",
+              "رحلة سعيدة"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "m'appelles",
+              "تتصل بي"
+            ],
+            [
+              "quand",
+              "عندما"
+            ],
+            [
+              "tu",
+              "أنتَ"
+            ],
+            [
+              "arrives ?",
+              "تصل"
+            ]
+          ]
+        },
+        {
+          "id": "d10",
+          "speaker": "B",
+          "say": "Promis, je t'appelle ce soir !",
+          "ar": "أعدك، أتصل بك هذا المساء!",
+          "slow": true,
+          "gloss": [
+            [
+              "Promis,",
+              "أعدك"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "t'appelle",
+              "أتصل بكِ"
+            ],
+            [
+              "ce soir !",
+              "هذا المساء"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "لاحظ مكان الضمير: **قبل الفعل** دائماً (je les vois)، وقبل avoir في الماضي (je l'ai acheté)، وقبل المصدر مع aller (je vais le donner). والنفي يحيط بالضمير والفعل معاً: **je ne les trouve pas**."
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "أشياء يومية، وأفعال تأخذ مفعولاً مباشراً بلا حرف جر، وعبارات.",
+      "groups": [
+        {
+          "title_ar": "أشياء يومية",
+          "items": [
+            {
+              "id": "v-cles",
+              "say": "les clés",
+              "ar": "المفاتيح"
+            },
+            {
+              "id": "v-passeport",
+              "say": "le passeport",
+              "ar": "جواز السفر"
+            },
+            {
+              "id": "v-valise",
+              "say": "la valise",
+              "ar": "حقيبة السفر"
+            },
+            {
+              "id": "v-sac",
+              "say": "le sac",
+              "ar": "الحقيبة"
+            },
+            {
+              "id": "v-portable",
+              "say": "le portable",
+              "ar": "الهاتف المحمول"
+            },
+            {
+              "id": "v-lunettes",
+              "say": "les lunettes",
+              "ar": "النظارة",
+              "note_ar": "دائماً بالجمع."
+            },
+            {
+              "id": "v-parapluie",
+              "say": "le parapluie",
+              "ar": "المظلة"
+            },
+            {
+              "id": "v-cadeau",
+              "say": "le cadeau",
+              "ar": "الهدية"
+            }
+          ]
+        },
+        {
+          "title_ar": "أفعال بلا حرف جر",
+          "items": [
+            {
+              "id": "v-chercher",
+              "say": "chercher",
+              "ar": "يبحث عن",
+              "note_ar": "بلا حرف جر: je cherche mes clés، فـ je les cherche."
+            },
+            {
+              "id": "v-trouver",
+              "say": "trouver",
+              "ar": "يجد"
+            },
+            {
+              "id": "v-voir",
+              "say": "voir",
+              "ar": "يرى"
+            },
+            {
+              "id": "v-ecouter",
+              "say": "écouter",
+              "ar": "يستمع إلى",
+              "note_ar": "بلا حرف جر في الفرنسية: j'écoute la radio، فـ je l'écoute."
+            },
+            {
+              "id": "v-attendre",
+              "say": "attendre",
+              "ar": "ينتظر"
+            },
+            {
+              "id": "v-appeler",
+              "say": "appeler",
+              "ar": "يتصل بـ",
+              "note_ar": "بلا حرف جر: je t'appelle."
+            },
+            {
+              "id": "v-inviter",
+              "say": "inviter",
+              "ar": "يدعو"
+            },
+            {
+              "id": "v-aider",
+              "say": "aider",
+              "ar": "يساعد"
+            }
+          ]
+        },
+        {
+          "title_ar": "عبارات",
+          "items": [
+            {
+              "id": "v-jelai",
+              "say": "Je l'ai !",
+              "ar": "وجدته! / معي!"
+            },
+            {
+              "id": "v-trouvepas",
+              "say": "Je ne le trouve pas.",
+              "ar": "لا أجده."
+            },
+            {
+              "id": "v-taime",
+              "say": "Je t'aime.",
+              "ar": "أحبك."
+            },
+            {
+              "id": "v-aides",
+              "say": "Tu m'aides ?",
+              "ar": "هل تساعدني؟"
+            },
+            {
+              "id": "v-ecoute",
+              "say": "Je vous écoute.",
+              "ar": "تفضّل، أسمعك."
+            },
+            {
+              "id": "v-voyage",
+              "say": "Bon voyage !",
+              "ar": "رحلة سعيدة!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "le / la / les",
+      "title_ar": "القاعدة: ضمائر المفعول المباشر",
+      "intro_ar": "الضمير يتبع جنس الاسم وعدده، ويأتي قبل الفعل.",
+      "tables": [
+        {
+          "title_fr": "le, la, l', les",
+          "title_ar": "الغائب",
+          "head_ar": [
+            "الاسم",
+            "الضمير",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-c1",
+              "say": "Je le regarde.",
+              "cells": [
+                "le film",
+                "le",
+                "Je le regarde."
+              ],
+              "ar": "أشاهده"
+            },
+            {
+              "id": "g-c2",
+              "say": "Je la prends.",
+              "cells": [
+                "la valise",
+                "la",
+                "Je la prends."
+              ],
+              "ar": "آخذها"
+            },
+            {
+              "id": "g-c3",
+              "say": "Je l'ai.",
+              "cells": [
+                "le passeport",
+                "l'",
+                "Je l'ai."
+              ],
+              "ar": "معي (أمام حرف علة)"
+            },
+            {
+              "id": "g-c4",
+              "say": "Je les cherche.",
+              "cells": [
+                "les clés",
+                "les",
+                "Je les cherche."
+              ],
+              "ar": "أبحث عنها"
+            }
+          ],
+          "note_ar": "le و la يصيران l' أمام حرف علة أو h صامتة: je l'aime، je l'attends. أما les فتبقى، مع وصل: je les‿aime «ليزيم»."
+        },
+        {
+          "title_fr": "me, te, nous, vous",
+          "title_ar": "المتكلم والمخاطب",
+          "head_ar": [
+            "الضمير",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-m1",
+              "say": "Tu m'aides ?",
+              "cells": [
+                "me / m'",
+                "Tu m'aides ?"
+              ],
+              "ar": "هل تساعدني؟"
+            },
+            {
+              "id": "g-m2",
+              "say": "Je t'appelle ce soir.",
+              "cells": [
+                "te / t'",
+                "Je t'appelle ce soir."
+              ],
+              "ar": "أتصل بك هذا المساء"
+            },
+            {
+              "id": "g-m3",
+              "say": "Il nous invite.",
+              "cells": [
+                "nous",
+                "Il nous invite."
+              ],
+              "ar": "يدعونا"
+            },
+            {
+              "id": "g-m4",
+              "say": "Je vous écoute.",
+              "cells": [
+                "vous",
+                "Je vous écoute."
+              ],
+              "ar": "أسمعك / أسمعكم"
+            }
+          ],
+          "note_ar": "me و te يصيران m' و t' أمام حرف علة: Je t'aime. Tu m'écoutes ?"
+        },
+        {
+          "title_fr": "La place du pronom",
+          "title_ar": "مكان الضمير",
+          "head_ar": [
+            "الحالة",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-p1",
+              "say": "Je le vois.",
+              "cells": [
+                "présent",
+                "Je le vois."
+              ],
+              "ar": "أراه"
+            },
+            {
+              "id": "g-p2",
+              "say": "Je ne le vois pas.",
+              "cells": [
+                "négation",
+                "Je ne le vois pas."
+              ],
+              "ar": "لا أراه"
+            },
+            {
+              "id": "g-p3",
+              "say": "Je l'ai vu.",
+              "cells": [
+                "passé composé",
+                "Je l'ai vu."
+              ],
+              "ar": "رأيته"
+            },
+            {
+              "id": "g-p4",
+              "say": "Je vais le voir.",
+              "cells": [
+                "aller + infinitif",
+                "Je vais le voir."
+              ],
+              "ar": "سأراه"
+            },
+            {
+              "id": "g-p5",
+              "say": "Regarde-le !",
+              "cells": [
+                "impératif",
+                "Regarde-le !"
+              ],
+              "ar": "انظر إليه!"
+            }
+          ],
+          "note_ar": "الاستثناء الوحيد: الأمر الإيجابي، فالضمير بعده بشرطة: Prends-la ! أما في النهي فيعود قبله: Ne la prends pas !"
+        }
+      ],
+      "points_ar": [
+        "**أفعال بلا حرف جر في الفرنسية:** chercher و écouter و attendre و regarder تأخذ مفعولاً مباشراً، عكس العربية (يبحث عن، يستمع إلى).",
+        "**في الماضي** يأتي الضمير قبل avoir: je l'ai vu، je les ai pris.",
+        "**Je t'aime** أشهر جملة بضمير مفعول مباشر في الفرنسية!"
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: le / la / les",
+      "hint_ar": "حدد جنس الاسم وعدده، ثم اختر الضمير.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Le film ? Je ___ regarde ce soir.",
+          "say": "Le film ? Je le regarde ce soir.",
+          "options": [
+            "la",
+            "le"
+          ],
+          "answer": "le",
+          "ar": "الفيلم؟ أشاهده هذا المساء.",
+          "explain_ar": "film مذكر: **le**."
+        },
+        {
+          "id": "f2",
+          "text": "La valise ? Tu ___ prends ?",
+          "say": "La valise ? Tu la prends ?",
+          "options": [
+            "la",
+            "le"
+          ],
+          "answer": "la",
+          "ar": "حقيبة السفر؟ هل تأخذها؟",
+          "explain_ar": "valise مؤنثة: **la**."
+        },
+        {
+          "id": "f3",
+          "text": "Mes clés ? Je ne ___ trouve pas.",
+          "say": "Mes clés ? Je ne les trouve pas.",
+          "options": [
+            "la",
+            "les"
+          ],
+          "answer": "les",
+          "ar": "مفاتيحي؟ لا أجدها.",
+          "explain_ar": "جمع: **les**."
+        },
+        {
+          "id": "f4",
+          "text": "L'hôtel ? Je ___ adore.",
+          "say": "L'hôtel ? Je l'adore.",
+          "options": [
+            "le",
+            "l'"
+          ],
+          "answer": "l'",
+          "ar": "الفندق؟ أحبه كثيراً.",
+          "explain_ar": "أمام حرف علة: **l'**."
+        },
+        {
+          "id": "f5",
+          "text": "Tu ___ aides, s'il te plaît ?",
+          "say": "Tu m'aides, s'il te plaît ?",
+          "options": [
+            "m'",
+            "t'"
+          ],
+          "answer": "m'",
+          "ar": "هل تساعدني من فضلك؟",
+          "explain_ar": "«ني»: **m'** أمام حرف علة."
+        },
+        {
+          "id": "f6",
+          "text": "Je ___ aime.",
+          "say": "Je t'aime.",
+          "options": [
+            "te",
+            "t'"
+          ],
+          "answer": "t'",
+          "ar": "أحبك.",
+          "explain_ar": "te أمام حرف علة: **t'**."
+        },
+        {
+          "id": "f7",
+          "text": "Le cadeau ? Je ___ ai acheté hier.",
+          "say": "Le cadeau ? Je l'ai acheté hier.",
+          "options": [
+            "le",
+            "l'"
+          ],
+          "answer": "l'",
+          "ar": "الهدية؟ اشتريتها أمس.",
+          "explain_ar": "قبل avoir: **l'ai**."
+        },
+        {
+          "id": "f8",
+          "text": "La photo ? Je vais ___ regarder.",
+          "say": "La photo ? Je vais la regarder.",
+          "options": [
+            "la",
+            "les"
+          ],
+          "answer": "la",
+          "ar": "الصورة؟ سأنظر إليها.",
+          "explain_ar": "مع aller: الضمير قبل المصدر، و photo مؤنثة: **la**."
+        },
+        {
+          "id": "f9",
+          "text": "Il ___ invite à dîner.",
+          "say": "Il nous invite à dîner.",
+          "options": [
+            "vous",
+            "nous"
+          ],
+          "answer": "nous",
+          "ar": "يدعونا إلى العشاء.",
+          "explain_ar": "«نا»: **nous**."
+        },
+        {
+          "id": "f10",
+          "text": "Le passeport ? ___-le dans ton sac !",
+          "say": "Le passeport ? Mets-le dans ton sac !",
+          "options": [
+            "Mettre",
+            "Mets"
+          ],
+          "answer": "Mets",
+          "ar": "الجواز؟ ضعه في حقيبتك!",
+          "explain_ar": "الأمر الإيجابي: الضمير بعد الفعل: **Mets-le**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: أي ضمير؟",
+      "hint_ar": "ضمائر قصيرة جداً. استمع لما قبل الفعل مباشرة.",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "je la vois",
+          "options": [
+            "je le vois",
+            "je la vois"
+          ],
+          "answer": "je la vois",
+          "explain_ar": "la «لا»: مؤنث."
+        },
+        {
+          "id": "q2",
+          "say": "je les prends",
+          "options": [
+            "je les prends",
+            "je le prends"
+          ],
+          "answer": "je les prends",
+          "explain_ar": "les «لي»: جمع."
+        },
+        {
+          "id": "q3",
+          "say": "je t'aime",
+          "options": [
+            "je l'aime",
+            "je t'aime"
+          ],
+          "answer": "je t'aime",
+          "explain_ar": "t'aime «تيم»: أحبك."
+        },
+        {
+          "id": "q4",
+          "say": "Tu m'appelles ?",
+          "options": [
+            "Tu m'appelles ?",
+            "Tu t'appelles ?"
+          ],
+          "answer": "Tu m'appelles ?",
+          "explain_ar": "m'appelles «ماپيل»: تتصل بي؟"
+        },
+        {
+          "id": "q5",
+          "say": "Je ne les trouve pas.",
+          "options": [
+            "Je les trouve.",
+            "Je ne les trouve pas."
+          ],
+          "answer": "Je ne les trouve pas.",
+          "explain_ar": "ne … pas: لا أجدها."
+        },
+        {
+          "id": "q6",
+          "say": "je l'ai lu",
+          "options": [
+            "je l'ai vu",
+            "je l'ai lu"
+          ],
+          "answer": "je l'ai lu",
+          "explain_ar": "lu «لو»: قرأته."
+        },
+        {
+          "id": "q7",
+          "say": "Il vous invite.",
+          "options": [
+            "Il nous invite.",
+            "Il vous invite."
+          ],
+          "answer": "Il vous invite.",
+          "explain_ar": "vous «ڤو»: يدعوكم."
+        },
+        {
+          "id": "q8",
+          "say": "Prends-le !",
+          "options": [
+            "Prends-le !",
+            "Prends-la !"
+          ],
+          "answer": "Prends-le !",
+          "explain_ar": "le «لُ»: مذكر."
+        },
+        {
+          "id": "q9",
+          "say": "je les aime",
+          "options": [
+            "je l'aime",
+            "je les aime"
+          ],
+          "answer": "je les aime",
+          "explain_ar": "les‿aime «ليزيم» بالوصل: جمع."
+        },
+        {
+          "id": "q10",
+          "say": "Je vais la faire.",
+          "options": [
+            "Je vais le faire.",
+            "Je vais la faire."
+          ],
+          "answer": "Je vais la faire.",
+          "explain_ar": "la «لا»: مؤنث."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: الضمائر",
+      "hint_ar": "الضمير قبل الفعل، والفاصلة العليا أمام حرف علة.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: **je l'ai vu** و **je t'attends** بفاصلة عليا.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je le vois",
+          "answer": "je le vois",
+          "ar": "أراه"
+        },
+        {
+          "id": "s2",
+          "say": "je la prends",
+          "answer": "je la prends",
+          "ar": "آخذها"
+        },
+        {
+          "id": "s3",
+          "say": "je les cherche",
+          "answer": "je les cherche",
+          "ar": "أبحث عنها"
+        },
+        {
+          "id": "s4",
+          "say": "je l'aime",
+          "answer": "je l'aime",
+          "ar": "أحبه"
+        },
+        {
+          "id": "s5",
+          "say": "tu m'appelles",
+          "answer": "tu m'appelles",
+          "ar": "تتصل بي"
+        },
+        {
+          "id": "s6",
+          "say": "je t'attends",
+          "answer": "je t'attends",
+          "ar": "أنتظرك"
+        },
+        {
+          "id": "s7",
+          "say": "je l'ai vu",
+          "answer": "je l'ai vu",
+          "ar": "رأيته"
+        },
+        {
+          "id": "s8",
+          "say": "je ne les trouve pas",
+          "answer": "je ne les trouve pas",
+          "ar": "لا أجدها"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "ضمائر قصيرة تمرّ بسرعة. ردّدها حتى تصير جزءاً من الفعل.",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Mes clés ? Je ne les trouve pas !",
+          "ar": "مفاتيحي؟ لا أجدها!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Mes",
+              "ـي (جمع)"
+            ],
+            [
+              "clés ?",
+              "مفاتيح"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "ne les trouve pas !",
+              "لا أجدها"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Je t'appelle ce soir, promis.",
+          "ar": "أتصل بك هذا المساء، أعدك.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "t'appelle",
+              "أتصل بك"
+            ],
+            [
+              "ce soir,",
+              "هذا المساء"
+            ],
+            [
+              "promis.",
+              "أعدك"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Le film ? Je l'ai vu hier.",
+          "ar": "الفيلم؟ شاهدته أمس.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Le",
+              "الـ"
+            ],
+            [
+              "film ?",
+              "فيلم"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "l'ai vu",
+              "شاهدتُه"
+            ],
+            [
+              "hier.",
+              "أمس"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Tu m'aides avec la valise ?",
+          "ar": "هل تساعدني في حقيبة السفر؟",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "m'aides",
+              "تساعدني"
+            ],
+            [
+              "avec",
+              "في"
+            ],
+            [
+              "la",
+              "الـ"
+            ],
+            [
+              "valise ?",
+              "حقيبة السفر"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Je vous écoute, monsieur.",
+          "ar": "تفضّل يا سيدي، أسمعك.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "vous",
+              "ـك"
+            ],
+            [
+              "écoute,",
+              "أسمع"
+            ],
+            [
+              "monsieur.",
+              "سيدي"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: أجب عن هذه الأسئلة بضمير بدل الاسم: **Tu regardes la télé ? Tu aimes le café ? Tu as vu le film ?** مثلاً: Oui, je la regarde."
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "le / la / les",
+          "say": "le, la, les",
+          "back_ar": "ـه / ـها / ـهم (مفعول مباشر)"
+        },
+        {
+          "id": "c2",
+          "front": "l'",
+          "say": "je l'aime",
+          "back_ar": "ـه / ـها أمام حرف علة"
+        },
+        {
+          "id": "c3",
+          "front": "Je le vois.",
+          "say": "Je le vois.",
+          "back_ar": "أراه."
+        },
+        {
+          "id": "c4",
+          "front": "Je la prends.",
+          "say": "Je la prends.",
+          "back_ar": "آخذها."
+        },
+        {
+          "id": "c5",
+          "front": "Je les cherche.",
+          "say": "Je les cherche.",
+          "back_ar": "أبحث عنها."
+        },
+        {
+          "id": "c6",
+          "front": "Je l'ai vu.",
+          "say": "Je l'ai vu.",
+          "back_ar": "رأيته."
+        },
+        {
+          "id": "c7",
+          "front": "Je ne le trouve pas.",
+          "say": "Je ne le trouve pas.",
+          "back_ar": "لا أجده."
+        },
+        {
+          "id": "c8",
+          "front": "Je vais le faire.",
+          "say": "Je vais le faire.",
+          "back_ar": "سأفعله."
+        },
+        {
+          "id": "c9",
+          "front": "Prends-le !",
+          "say": "Prends-le !",
+          "back_ar": "خذه!"
+        },
+        {
+          "id": "c10",
+          "front": "me / te",
+          "say": "me, te",
+          "back_ar": "ـني / ـك"
+        },
+        {
+          "id": "c11",
+          "front": "Je t'aime.",
+          "say": "Je t'aime.",
+          "back_ar": "أحبك."
+        },
+        {
+          "id": "c12",
+          "front": "Tu m'aides ?",
+          "say": "Tu m'aides ?",
+          "back_ar": "هل تساعدني؟"
+        },
+        {
+          "id": "c13",
+          "front": "Je t'appelle.",
+          "say": "Je t'appelle.",
+          "back_ar": "أتصل بك."
+        },
+        {
+          "id": "c14",
+          "front": "Je vous écoute.",
+          "say": "Je vous écoute.",
+          "back_ar": "أسمعك."
+        },
+        {
+          "id": "c15",
+          "front": "les lunettes",
+          "say": "les lunettes",
+          "back_ar": "النظارة"
+        },
+        {
+          "id": "c16",
+          "front": "la valise",
+          "say": "la valise",
+          "back_ar": "حقيبة السفر"
+        }
+      ]
+    }
+  ]
+}

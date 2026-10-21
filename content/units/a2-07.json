@@ -1,0 +1,1234 @@
+{
+  "id": "a2-07",
+  "stage": "A2",
+  "title_fr": "Les pronoms COI",
+  "title_ar": "ضمائر المفعول غير المباشر",
+  "goals_ar": [
+    "تقول لمن تعطي أو تتكلم: **Je lui parle. Je leur écris.**",
+    "تعرف الأفعال التي تأخذ **à**: parler à، téléphoner à، donner à، demander à",
+    "تميّز **le / la** (مباشر) من **lui** (غير مباشر)",
+    "تفهم الأفعال «المقلوبة»: **Tu me manques** = أفتقدك"
+  ],
+  "intro_ar": [
+    "بعض الأفعال تتصل بالشخص عبر حرف **à**: je parle à Claire، je téléphone à mes parents. هذا الشخص مفعول غير مباشر (COI)، وضميره:",
+    "**lui** للمفرد (له **أو** لها!) و **leur** للجمع (لهم أو لهن). مثل son و sa، لا تفرّق الفرنسية هنا بين المذكر والمؤنث.",
+    "**me، te، nous، vous** تبقى كما هي: Tu me téléphones ? Je vous écris. ومكان الضمير كما في الوحدة السابقة: قبل الفعل.",
+    "**فخّ للعربي:** téléphoner à quelqu'un (يتصل بـ) يأخذ à، أما appeler فلا. فـ «أتصل بها» = je lui téléphone، أو je l'appelle."
+  ],
+  "sections": [
+    {
+      "type": "dialogue",
+      "key": "dialogue",
+      "title_ar": "الحوار: هدايا العائلة",
+      "context_ar": "يوسف سيعود إلى الرياض، ويسأل كلير ماذا يهدي عائلته. لاحظ lui و leur.",
+      "speakers": {
+        "A": {
+          "name_ar": "كلير",
+          "voice": "female"
+        },
+        "B": {
+          "name_ar": "يوسف",
+          "voice": "male"
+        }
+      },
+      "lines": [
+        {
+          "id": "d1",
+          "speaker": "B",
+          "say": "Je rentre à Riyad la semaine prochaine. Qu'est-ce que je donne à ma mère ?",
+          "ar": "أعود إلى الرياض الأسبوع القادم. ماذا أهدي أمي؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "rentre",
+              "أعود"
+            ],
+            [
+              "à Riyad",
+              "إلى الرياض"
+            ],
+            [
+              "la semaine prochaine.",
+              "الأسبوع القادم"
+            ],
+            [
+              "Qu'est-ce que",
+              "ماذا"
+            ],
+            [
+              "je",
+              "أنا"
+            ],
+            [
+              "donne",
+              "أعطي"
+            ],
+            [
+              "à",
+              "لـ"
+            ],
+            [
+              "ma",
+              "ـي"
+            ],
+            [
+              "mère ?",
+              "أم"
+            ]
+          ]
+        },
+        {
+          "id": "d2",
+          "speaker": "A",
+          "say": "Offre-lui un parfum français ! Les mères adorent ça.",
+          "ar": "أهدِها عطراً فرنسياً! الأمهات يحببن ذلك.",
+          "slow": true,
+          "gloss": [
+            [
+              "Offre-lui",
+              "أهدِها"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "parfum",
+              "عطر"
+            ],
+            [
+              "français !",
+              "فرنسي"
+            ],
+            [
+              "Les",
+              "الـ"
+            ],
+            [
+              "mères",
+              "أمهات"
+            ],
+            [
+              "adorent",
+              "يعشقن"
+            ],
+            [
+              "ça.",
+              "ذلك"
+            ]
+          ]
+        },
+        {
+          "id": "d3",
+          "speaker": "B",
+          "say": "Bonne idée. Et à mon père ? Je lui offre une cravate ?",
+          "ar": "فكرة جيدة. ولأبي؟ هل أهديه ربطة عنق؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Bonne idée.",
+              "فكرة جيدة"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "à",
+              "لـ"
+            ],
+            [
+              "mon",
+              "ـي"
+            ],
+            [
+              "père ?",
+              "أب"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "lui",
+              "له"
+            ],
+            [
+              "offre",
+              "أهدي"
+            ],
+            [
+              "une",
+              "(نكرة)"
+            ],
+            [
+              "cravate ?",
+              "ربطة عنق"
+            ]
+          ]
+        },
+        {
+          "id": "d4",
+          "speaker": "A",
+          "say": "Non, c'est banal ! Il aime lire ? Achète-lui un beau livre sur Paris.",
+          "ar": "لا، هذا عادي! هل يحب القراءة؟ اشترِ له كتاباً جميلاً عن باريس.",
+          "slow": true,
+          "gloss": [
+            [
+              "Non,",
+              "لا"
+            ],
+            [
+              "c'est",
+              "هذا"
+            ],
+            [
+              "banal !",
+              "عادي"
+            ],
+            [
+              "Il",
+              "هو"
+            ],
+            [
+              "aime",
+              "يحب"
+            ],
+            [
+              "lire ?",
+              "القراءة"
+            ],
+            [
+              "Achète-lui",
+              "اشترِ له"
+            ],
+            [
+              "un",
+              "(نكرة)"
+            ],
+            [
+              "beau",
+              "جميل"
+            ],
+            [
+              "livre",
+              "كتاب"
+            ],
+            [
+              "sur Paris.",
+              "عن باريس"
+            ]
+          ]
+        },
+        {
+          "id": "d5",
+          "speaker": "B",
+          "say": "Parfait. Et mes neveux ? Je leur donne des chocolats ?",
+          "ar": "ممتاز. وأبناء أخي؟ هل أعطيهم شوكولاتة؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Parfait.",
+              "ممتاز"
+            ],
+            [
+              "Et",
+              "و"
+            ],
+            [
+              "mes",
+              "ـي (جمع)"
+            ],
+            [
+              "neveux ?",
+              "أبناء الأخ"
+            ],
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "leur",
+              "لهم"
+            ],
+            [
+              "donne",
+              "أعطي"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "chocolats ?",
+              "شوكولاتة"
+            ]
+          ]
+        },
+        {
+          "id": "d6",
+          "speaker": "A",
+          "say": "Oui, les enfants adorent les chocolats. Tu leur parles souvent ?",
+          "ar": "نعم، الأطفال يحبون الشوكولاتة. هل تكلّمهم كثيراً؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "enfants",
+              "أطفال"
+            ],
+            [
+              "adorent",
+              "يعشقون"
+            ],
+            [
+              "les",
+              "الـ"
+            ],
+            [
+              "chocolats.",
+              "شوكولاتة"
+            ],
+            [
+              "Tu",
+              "أنتَ"
+            ],
+            [
+              "leur",
+              "ـهم"
+            ],
+            [
+              "parles",
+              "تكلّم"
+            ],
+            [
+              "souvent ?",
+              "كثيراً"
+            ]
+          ]
+        },
+        {
+          "id": "d7",
+          "speaker": "B",
+          "say": "Je leur téléphone chaque vendredi. Et toi, tu vas écrire à ta sœur au Canada ?",
+          "ar": "أتصل بهم كل جمعة. وأنتِ، هل ستكتبين لأختك في كندا؟",
+          "slow": true,
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "leur",
+              "بهم"
+            ],
+            [
+              "téléphone",
+              "أتصل"
+            ],
+            [
+              "chaque vendredi.",
+              "كل جمعة"
+            ],
+            [
+              "Et toi,",
+              "وأنتِ"
+            ],
+            [
+              "tu vas",
+              "سـ"
+            ],
+            [
+              "écrire",
+              "تكتبين"
+            ],
+            [
+              "à",
+              "لـ"
+            ],
+            [
+              "ta",
+              "ـكِ"
+            ],
+            [
+              "sœur",
+              "أخت"
+            ],
+            [
+              "au Canada ?",
+              "في كندا"
+            ]
+          ]
+        },
+        {
+          "id": "d8",
+          "speaker": "A",
+          "say": "Oui, je vais lui écrire ce soir. Elle me manque !",
+          "ar": "نعم، سأكتب لها هذا المساء. أفتقدها!",
+          "slow": true,
+          "gloss": [
+            [
+              "Oui,",
+              "نعم"
+            ],
+            [
+              "je vais",
+              "سـ"
+            ],
+            [
+              "lui",
+              "لها"
+            ],
+            [
+              "écrire",
+              "أكتب"
+            ],
+            [
+              "ce soir.",
+              "هذا المساء"
+            ],
+            [
+              "Elle me manque !",
+              "أفتقدها"
+            ]
+          ]
+        },
+        {
+          "id": "d9",
+          "speaker": "B",
+          "say": "Dis-lui bonjour de ma part !",
+          "ar": "سلّمي عليها من طرفي!",
+          "slow": true,
+          "gloss": [
+            [
+              "Dis-lui",
+              "قولي لها"
+            ],
+            [
+              "bonjour",
+              "مرحباً"
+            ],
+            [
+              "de ma part !",
+              "من طرفي"
+            ]
+          ]
+        }
+      ],
+      "tip_ar": "**lui** في السطر 3 تعني «له» (الأب)، وفي السطر 8 «لها» (الأخت): كلمة واحدة للاثنين. و **Elle me manque** = أفتقدها، وحرفياً «هي تنقصني»: الفاعل في الفرنسية هو الشخص المفقود!"
+    },
+    {
+      "type": "vocab",
+      "key": "vocab",
+      "title_ar": "مفردات الوحدة",
+      "hint_ar": "أفعال تأخذ à مع الشخص، ثم الهدايا والتواصل.",
+      "groups": [
+        {
+          "title_ar": "أفعال مع à",
+          "items": [
+            {
+              "id": "v-parler",
+              "say": "parler à",
+              "ar": "يكلّم"
+            },
+            {
+              "id": "v-telephoner",
+              "say": "téléphoner à",
+              "ar": "يتصل بـ"
+            },
+            {
+              "id": "v-ecrire",
+              "say": "écrire à",
+              "ar": "يكتب لـ"
+            },
+            {
+              "id": "v-repondre",
+              "say": "répondre à",
+              "ar": "يجيب"
+            },
+            {
+              "id": "v-donner",
+              "say": "donner à",
+              "ar": "يعطي"
+            },
+            {
+              "id": "v-offrir",
+              "say": "offrir à",
+              "ar": "يهدي"
+            },
+            {
+              "id": "v-envoyer",
+              "say": "envoyer à",
+              "ar": "يرسل إلى"
+            },
+            {
+              "id": "v-demander",
+              "say": "demander à",
+              "ar": "يسأل / يطلب من"
+            },
+            {
+              "id": "v-dire",
+              "say": "dire à",
+              "ar": "يقول لـ"
+            },
+            {
+              "id": "v-preter",
+              "say": "prêter à",
+              "ar": "يُعير"
+            }
+          ]
+        },
+        {
+          "title_ar": "الهدايا والتواصل",
+          "items": [
+            {
+              "id": "v-parfum",
+              "say": "un parfum",
+              "ar": "عطر"
+            },
+            {
+              "id": "v-cravate",
+              "say": "une cravate",
+              "ar": "ربطة عنق"
+            },
+            {
+              "id": "v-chocolats",
+              "say": "des chocolats",
+              "ar": "شوكولاتة"
+            },
+            {
+              "id": "v-carte",
+              "say": "une carte postale",
+              "ar": "بطاقة بريدية"
+            },
+            {
+              "id": "v-part",
+              "say": "de ma part",
+              "ar": "من طرفي"
+            },
+            {
+              "id": "v-manque",
+              "say": "Elle me manque.",
+              "ar": "أفتقدها.",
+              "note_ar": "حرفياً: هي تنقصني."
+            },
+            {
+              "id": "v-plait",
+              "say": "Ça me plaît.",
+              "ar": "يعجبني.",
+              "note_ar": "plaire à: الشيء هو الفاعل، كما في manquer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grammar",
+      "key": "grammar",
+      "short_ar": "lui / leur",
+      "title_ar": "القاعدة: lui و leur",
+      "intro_ar": "اسأل نفسك: هل بعد الفعل à؟ إن نعم، فالضمير lui أو leur.",
+      "tables": [
+        {
+          "title_fr": "lui, leur",
+          "title_ar": "له / لها / لهم",
+          "head_ar": [
+            "الجملة",
+            "مع الضمير"
+          ],
+          "rows": [
+            {
+              "id": "g-l1",
+              "say": "Je lui parle.",
+              "cells": [
+                "Je parle à Claire.",
+                "Je lui parle."
+              ],
+              "ar": "أكلّمها"
+            },
+            {
+              "id": "g-l2",
+              "say": "Je lui téléphone.",
+              "cells": [
+                "Je téléphone à Paul.",
+                "Je lui téléphone."
+              ],
+              "ar": "أتصل به"
+            },
+            {
+              "id": "g-l3",
+              "say": "Je leur écris.",
+              "cells": [
+                "J'écris à mes parents.",
+                "Je leur écris."
+              ],
+              "ar": "أكتب لهما"
+            },
+            {
+              "id": "g-l4",
+              "say": "Je lui donne un livre.",
+              "cells": [
+                "Je donne un livre à mon père.",
+                "Je lui donne un livre."
+              ],
+              "ar": "أعطيه كتاباً"
+            },
+            {
+              "id": "g-l5",
+              "say": "Je leur réponds.",
+              "cells": [
+                "Je réponds aux enfants.",
+                "Je leur réponds."
+              ],
+              "ar": "أجيبهم"
+            }
+          ],
+          "note_ar": "lui = له أو لها، و leur = لهم أو لهن. ولا تخلط leur الضمير (بلا s أبداً) مع leur أداة الملكية (leurs livres)."
+        },
+        {
+          "title_fr": "COD ou COI ?",
+          "title_ar": "مباشر أم غير مباشر؟",
+          "head_ar": [
+            "COD (بلا à)",
+            "COI (مع à)"
+          ],
+          "rows": [
+            {
+              "id": "g-d1",
+              "say": "Je le regarde. Je lui parle.",
+              "cells": [
+                "Je le regarde.",
+                "Je lui parle."
+              ],
+              "ar": "أشاهده / أكلّمه"
+            },
+            {
+              "id": "g-d2",
+              "say": "Je l'appelle. Je lui téléphone.",
+              "cells": [
+                "Je l'appelle.",
+                "Je lui téléphone."
+              ],
+              "ar": "أتصل به (فعلان مختلفان)"
+            },
+            {
+              "id": "g-d3",
+              "say": "Je les invite. Je leur écris.",
+              "cells": [
+                "Je les invite.",
+                "Je leur écris."
+              ],
+              "ar": "أدعوهم / أكتب لهم"
+            },
+            {
+              "id": "g-d4",
+              "say": "Il m'aime. Il me parle.",
+              "cells": [
+                "Il m'aime.",
+                "Il me parle."
+              ],
+              "ar": "يحبني / يكلّمني (الضمير نفسه)"
+            }
+          ],
+          "note_ar": "مع me و te و nous و vous لا تحتاج أن تسأل: الشكل واحد في الحالتين. السؤال فقط للغائب: le أم lui؟"
+        },
+        {
+          "title_fr": "Les verbes « à l'envers »",
+          "title_ar": "أفعال مقلوبة",
+          "head_ar": [
+            "الفعل",
+            "مثال"
+          ],
+          "rows": [
+            {
+              "id": "g-e1",
+              "say": "Tu me manques.",
+              "cells": [
+                "manquer à",
+                "Tu me manques."
+              ],
+              "ar": "أفتقدك"
+            },
+            {
+              "id": "g-e2",
+              "say": "Paris lui manque.",
+              "cells": [
+                "manquer à",
+                "Paris lui manque."
+              ],
+              "ar": "يفتقد باريس"
+            },
+            {
+              "id": "g-e3",
+              "say": "Ça me plaît.",
+              "cells": [
+                "plaire à",
+                "Ça me plaît."
+              ],
+              "ar": "يعجبني"
+            },
+            {
+              "id": "g-e4",
+              "say": "Ces livres leur plaisent.",
+              "cells": [
+                "plaire à",
+                "Ces livres leur plaisent."
+              ],
+              "ar": "تعجبهم هذه الكتب"
+            }
+          ],
+          "note_ar": "في هذه الأفعال المفقود أو المحبوب هو الفاعل، والشخص بعد à. Tu me manques = أفتقدك، وليس «أنت تفتقدني»."
+        }
+      ],
+      "points_ar": [
+        "**lui للمذكر والمؤنث:** Je lui parle = أكلّمه أو أكلّمها، والسياق يوضّح.",
+        "**téléphoner à لكن appeler مباشرة:** je lui téléphone = je l'appelle.",
+        "**في الأمر** الضمير بعد الفعل بشرطة: Dis-lui ! Offre-leur des fleurs !"
+      ]
+    },
+    {
+      "type": "fill_choice",
+      "key": "practice",
+      "short_ar": "تمرين",
+      "title_ar": "تمرين: lui و leur",
+      "hint_ar": "هل بعد الفعل à؟ إن نعم: lui أو leur. إن لا: le أو la أو les.",
+      "items": [
+        {
+          "id": "f1",
+          "text": "Je parle à Claire : je ___ parle.",
+          "say": "Je parle à Claire : je lui parle.",
+          "options": [
+            "la",
+            "lui"
+          ],
+          "answer": "lui",
+          "ar": "أكلّم كلير: أكلّمها.",
+          "explain_ar": "parler à: **lui**."
+        },
+        {
+          "id": "f2",
+          "text": "J'écris à mes parents : je ___ écris.",
+          "say": "J'écris à mes parents : je leur écris.",
+          "options": [
+            "les",
+            "leur"
+          ],
+          "answer": "leur",
+          "ar": "أكتب لوالديّ: أكتب لهما.",
+          "explain_ar": "écrire à + جمع: **leur**."
+        },
+        {
+          "id": "f3",
+          "text": "Tu téléphones à Paul ? Oui, je ___ téléphone.",
+          "say": "Tu téléphones à Paul ? Oui, je lui téléphone.",
+          "options": [
+            "lui",
+            "le"
+          ],
+          "answer": "lui",
+          "ar": "هل تتصل ببول؟ نعم، أتصل به.",
+          "explain_ar": "téléphoner à: **lui**."
+        },
+        {
+          "id": "f4",
+          "text": "Je regarde le film : je ___ regarde.",
+          "say": "Je regarde le film : je le regarde.",
+          "options": [
+            "lui",
+            "le"
+          ],
+          "answer": "le",
+          "ar": "أشاهد الفيلم: أشاهده.",
+          "explain_ar": "regarder بلا à: **le**."
+        },
+        {
+          "id": "f5",
+          "text": "Je donne des chocolats aux enfants : je ___ donne des chocolats.",
+          "say": "Je donne des chocolats aux enfants : je leur donne des chocolats.",
+          "options": [
+            "leurs",
+            "leur"
+          ],
+          "answer": "leur",
+          "ar": "أعطي الأطفال شوكولاتة.",
+          "explain_ar": "الضمير **leur** بلا s أبداً."
+        },
+        {
+          "id": "f6",
+          "text": "Tu ___ manques !",
+          "say": "Tu me manques !",
+          "options": [
+            "me",
+            "m'"
+          ],
+          "answer": "me",
+          "ar": "أفتقدك!",
+          "explain_ar": "tu الفاعل (المفقود) و **me** الشخص الذي يفتقد."
+        },
+        {
+          "id": "f7",
+          "text": "Ce cadeau ___ plaît beaucoup.",
+          "say": "Ce cadeau me plaît beaucoup.",
+          "options": [
+            "je",
+            "me"
+          ],
+          "answer": "me",
+          "ar": "تعجبني هذه الهدية كثيراً.",
+          "explain_ar": "plaire à: الشيء فاعل، وأنا **me**."
+        },
+        {
+          "id": "f8",
+          "text": "___-lui bonjour de ma part !",
+          "say": "Dis-lui bonjour de ma part !",
+          "options": [
+            "Dire",
+            "Dis"
+          ],
+          "answer": "Dis",
+          "ar": "سلّم عليه من طرفي!",
+          "explain_ar": "الأمر: **Dis-lui**."
+        },
+        {
+          "id": "f9",
+          "text": "Ma sœur ? Je vais ___ écrire ce soir.",
+          "say": "Ma sœur ? Je vais lui écrire ce soir.",
+          "options": [
+            "la",
+            "lui"
+          ],
+          "answer": "lui",
+          "ar": "أختي؟ سأكتب لها هذا المساء.",
+          "explain_ar": "écrire à: **lui** قبل المصدر."
+        },
+        {
+          "id": "f10",
+          "text": "Mes amis ? Je ___ invite samedi.",
+          "say": "Mes amis ? Je les invite samedi.",
+          "options": [
+            "leur",
+            "les"
+          ],
+          "answer": "les",
+          "ar": "أصدقائي؟ أدعوهم يوم السبت.",
+          "explain_ar": "inviter بلا à: **les**."
+        }
+      ]
+    },
+    {
+      "type": "listen_choice",
+      "key": "listen",
+      "title_ar": "تمرين الاستماع: lui أم leur؟",
+      "hint_ar": "lui «لْوي» صوت جديد: ل + «وي» سريعة. و leur «لُغ».",
+      "prompt_ar": "اضغط للاستماع، ثم اختر",
+      "start_ar": "كل سؤال: تسمع عبارة وتختار ما سمعته.",
+      "items": [
+        {
+          "id": "q1",
+          "say": "Je leur parle.",
+          "options": [
+            "Je lui parle.",
+            "Je leur parle."
+          ],
+          "answer": "Je leur parle.",
+          "explain_ar": "leur «لُغ»: لهم."
+        },
+        {
+          "id": "q2",
+          "say": "lui",
+          "options": [
+            "lui",
+            "Louis"
+          ],
+          "answer": "lui",
+          "explain_ar": "lui «لْوي» بمقطع واحد، و Louis «لو-إي» بمقطعين."
+        },
+        {
+          "id": "q3",
+          "say": "Je lui écris.",
+          "options": [
+            "Je leur écris.",
+            "Je lui écris."
+          ],
+          "answer": "Je lui écris.",
+          "explain_ar": "lui: له أو لها."
+        },
+        {
+          "id": "q4",
+          "say": "Tu nous manques.",
+          "options": [
+            "Tu me manques.",
+            "Tu nous manques."
+          ],
+          "answer": "Tu nous manques.",
+          "explain_ar": "nous «نو»: نفتقدك."
+        },
+        {
+          "id": "q5",
+          "say": "Dis-lui !",
+          "options": [
+            "Dis-lui !",
+            "Dis-leur !"
+          ],
+          "answer": "Dis-lui !",
+          "explain_ar": "lui: قل له."
+        },
+        {
+          "id": "q6",
+          "say": "Je lui téléphone.",
+          "options": [
+            "Je l'appelle.",
+            "Je lui téléphone."
+          ],
+          "answer": "Je lui téléphone.",
+          "explain_ar": "téléphone: أتصل به."
+        },
+        {
+          "id": "q7",
+          "say": "Ça te plaît ?",
+          "options": [
+            "Ça me plaît.",
+            "Ça te plaît ?"
+          ],
+          "answer": "Ça te plaît ?",
+          "explain_ar": "te «تُ» مع نغمة سؤال."
+        },
+        {
+          "id": "q8",
+          "say": "Il nous écrit.",
+          "options": [
+            "Il nous écrit.",
+            "Il vous écrit."
+          ],
+          "answer": "Il nous écrit.",
+          "explain_ar": "nous «نوز» بالوصل."
+        },
+        {
+          "id": "q9",
+          "say": "Je vais le donner.",
+          "options": [
+            "Je vais lui donner.",
+            "Je vais le donner."
+          ],
+          "answer": "Je vais le donner.",
+          "explain_ar": "le «لُ»: سأعطيه (الشيء)."
+        },
+        {
+          "id": "q10",
+          "say": "de ma part",
+          "options": [
+            "de ma part",
+            "de ta part"
+          ],
+          "answer": "de ma part",
+          "explain_ar": "ma «ما»: من طرفي."
+        }
+      ]
+    },
+    {
+      "type": "spelling",
+      "key": "dictation",
+      "short_ar": "الإملاء",
+      "title_ar": "إملاء: lui و leur",
+      "hint_ar": "leur الضمير بلا s دائماً.",
+      "prompt_ar": "استمع واكتب",
+      "show_meaning": true,
+      "result_ar": "تذكّر: je **leur** écris بلا s، لكن **leurs** livres بـ s.",
+      "items": [
+        {
+          "id": "s1",
+          "say": "je lui parle",
+          "answer": "je lui parle",
+          "ar": "أكلّمه"
+        },
+        {
+          "id": "s2",
+          "say": "je leur écris",
+          "answer": "je leur écris",
+          "ar": "أكتب لهم"
+        },
+        {
+          "id": "s3",
+          "say": "tu me manques",
+          "answer": "tu me manques",
+          "ar": "أفتقدك"
+        },
+        {
+          "id": "s4",
+          "say": "ça me plaît",
+          "answer": "ça me plaît",
+          "ar": "يعجبني"
+        },
+        {
+          "id": "s5",
+          "say": "dis-lui",
+          "answer": "dis-lui",
+          "ar": "قل له"
+        },
+        {
+          "id": "s6",
+          "say": "je lui téléphone",
+          "answer": "je lui téléphone",
+          "ar": "أتصل به"
+        },
+        {
+          "id": "s7",
+          "say": "de ma part",
+          "answer": "de ma part",
+          "ar": "من طرفي"
+        },
+        {
+          "id": "s8",
+          "say": "un cadeau",
+          "answer": "un cadeau",
+          "ar": "هدية"
+        }
+      ]
+    },
+    {
+      "type": "shadowing",
+      "key": "shadowing",
+      "title_ar": "الترديد (Shadowing)",
+      "hint_ar": "ردّد lui بسرعة كمقطع واحد: «لْوي».",
+      "items": [
+        {
+          "id": "sh-1",
+          "say": "Je lui téléphone chaque vendredi.",
+          "ar": "أتصل به كل جمعة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je",
+              "أنا"
+            ],
+            [
+              "lui",
+              "به"
+            ],
+            [
+              "téléphone",
+              "أتصل"
+            ],
+            [
+              "chaque vendredi.",
+              "كل جمعة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-2",
+          "say": "Tu me manques beaucoup !",
+          "ar": "أفتقدك كثيراً!",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Tu me manques",
+              "أفتقدك"
+            ],
+            [
+              "beaucoup !",
+              "كثيراً"
+            ]
+          ]
+        },
+        {
+          "id": "sh-3",
+          "say": "Je vais leur offrir des chocolats.",
+          "ar": "سأهديهم شوكولاتة.",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Je vais",
+              "سـ"
+            ],
+            [
+              "leur",
+              "لهم"
+            ],
+            [
+              "offrir",
+              "أهدي"
+            ],
+            [
+              "des",
+              "(جمع نكرة)"
+            ],
+            [
+              "chocolats.",
+              "شوكولاتة"
+            ]
+          ]
+        },
+        {
+          "id": "sh-4",
+          "say": "Dis-lui bonjour de ma part.",
+          "ar": "سلّم عليه من طرفي.",
+          "slow": true,
+          "voice": "female",
+          "gloss": [
+            [
+              "Dis-lui",
+              "قل له"
+            ],
+            [
+              "bonjour",
+              "مرحباً"
+            ],
+            [
+              "de ma part.",
+              "من طرفي"
+            ]
+          ]
+        },
+        {
+          "id": "sh-5",
+          "say": "Ce cadeau me plaît beaucoup, merci !",
+          "ar": "تعجبني هذه الهدية كثيراً، شكراً!",
+          "slow": true,
+          "voice": "male",
+          "gloss": [
+            [
+              "Ce",
+              "هذه"
+            ],
+            [
+              "cadeau",
+              "هدية"
+            ],
+            [
+              "me plaît",
+              "تعجبني"
+            ],
+            [
+              "beaucoup,",
+              "كثيراً"
+            ],
+            [
+              "merci !",
+              "شكراً"
+            ]
+          ]
+        }
+      ],
+      "task_ar": "تحدٍّ: قل لمن ستهدي ماذا: **À ma mère, je vais lui offrir… À mes amis, je vais leur…**"
+    },
+    {
+      "type": "flashcards",
+      "key": "flashcards",
+      "title_ar": "بطاقات المراجعة",
+      "hint_ar": "قل العبارة بصوت عالٍ قبل أن تكشف المعنى.",
+      "cards": [
+        {
+          "id": "c1",
+          "front": "lui",
+          "say": "lui",
+          "back_ar": "له / لها"
+        },
+        {
+          "id": "c2",
+          "front": "leur",
+          "say": "leur",
+          "back_ar": "لهم / لهن"
+        },
+        {
+          "id": "c3",
+          "front": "Je lui parle.",
+          "say": "Je lui parle.",
+          "back_ar": "أكلّمه / أكلّمها."
+        },
+        {
+          "id": "c4",
+          "front": "Je leur écris.",
+          "say": "Je leur écris.",
+          "back_ar": "أكتب لهم."
+        },
+        {
+          "id": "c5",
+          "front": "Je lui téléphone.",
+          "say": "Je lui téléphone.",
+          "back_ar": "أتصل به / بها."
+        },
+        {
+          "id": "c6",
+          "front": "Tu me manques.",
+          "say": "Tu me manques.",
+          "back_ar": "أفتقدك."
+        },
+        {
+          "id": "c7",
+          "front": "Ça me plaît.",
+          "say": "Ça me plaît.",
+          "back_ar": "يعجبني."
+        },
+        {
+          "id": "c8",
+          "front": "Dis-lui bonjour !",
+          "say": "Dis-lui bonjour !",
+          "back_ar": "سلّم عليه!"
+        },
+        {
+          "id": "c9",
+          "front": "de ma part",
+          "say": "de ma part",
+          "back_ar": "من طرفي"
+        },
+        {
+          "id": "c10",
+          "front": "offrir à",
+          "say": "offrir à",
+          "back_ar": "يهدي"
+        },
+        {
+          "id": "c11",
+          "front": "donner à",
+          "say": "donner à",
+          "back_ar": "يعطي"
+        },
+        {
+          "id": "c12",
+          "front": "répondre à",
+          "say": "répondre à",
+          "back_ar": "يجيب"
+        },
+        {
+          "id": "c13",
+          "front": "demander à",
+          "say": "demander à",
+          "back_ar": "يسأل / يطلب من"
+        },
+        {
+          "id": "c14",
+          "front": "un parfum",
+          "say": "un parfum",
+          "back_ar": "عطر"
+        },
+        {
+          "id": "c15",
+          "front": "une carte postale",
+          "say": "une carte postale",
+          "back_ar": "بطاقة بريدية"
+        },
+        {
+          "id": "c16",
+          "front": "parler à quelqu'un",
+          "say": "parler à quelqu'un",
+          "back_ar": "يكلّم شخصاً"
+        }
+      ]
+    }
+  ]
+}
