@@ -624,6 +624,12 @@ a.pc-body:hover { transform: translateY(-3px) rotate(-.5deg); box-shadow: 0 16px
 .source-btn:hover { border-color: var(--stage-ink); color: var(--ink); }
 .source-btn[aria-pressed="true"] { border-color: var(--line-a1); color: var(--ink); }
 .source-btn { white-space: nowrap; }
+.theme-btn {
+  display: inline-grid; place-items: center; width: 34px; height: 34px; padding: 0;
+  border-radius: 50%; cursor: pointer;
+  border: 1.5px solid var(--mist); background: var(--surface); color: var(--muted);
+}
+.theme-btn:hover { border-color: var(--stage-ink); color: var(--ink); }
 @media (max-width: 480px) {
   .brand span:last-child { display: none; }
   .topbar-actions { gap: 10px; }
@@ -704,3 +710,20 @@ a.pc-body:hover { transform: translateY(-3px) rotate(-.5deg); box-shadow: 0 16px
 .grade.hard { border-bottom-color: var(--sun); }
 .grade.good { border-bottom-color: var(--ok); }
 .grade.easy { border-bottom-color: var(--link); }
+
+/* ---------------------------------------------------------------- الليل */
+/* تُطبَّق على [data-theme=dark] وعلى إعداد الجهاز الليلي ما لم يُختر النهاري */
+:root[data-theme="dark"] .hero-art,
+:root[data-theme="dark"] .chapter-art img,
+:root[data-theme="dark"] .banner-art { filter: brightness(.86) saturate(.95); }
+:root[data-theme="dark"] .chapter-art img { box-shadow: 0 18px 34px -24px rgb(0 0 0 / .8); }
+:root[data-theme="dark"] .plaque.option.right { color: #0f2419; }
+:root[data-theme="dark"] .stepper a.current .step-num { background: var(--paper); color: var(--stage-ink); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .hero-art,
+  :root:not([data-theme="light"]) .chapter-art img,
+  :root:not([data-theme="light"]) .banner-art { filter: brightness(.86) saturate(.95); }
+  :root:not([data-theme="light"]) .chapter-art img { box-shadow: 0 18px 34px -24px rgb(0 0 0 / .8); }
+  :root:not([data-theme="light"]) .plaque.option.right { color: #0f2419; }
+  :root:not([data-theme="light"]) .stepper a.current .step-num { background: var(--paper); color: var(--stage-ink); }
+}
